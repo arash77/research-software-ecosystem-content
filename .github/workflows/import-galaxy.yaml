@@ -1,4 +1,4 @@
-name: import data
+name: import galaxy data
 
 on:
   schedule:
