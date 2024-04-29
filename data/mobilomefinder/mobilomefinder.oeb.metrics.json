@@ -633,16 +633,16 @@
             "website": {
                 "bioschemas": false,
                 "copyright": false,
-                "https": true,
+                "https": false,
                 "license": false,
-                "operational": 404,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://mml.sjtu.edu.cn/MobilomeFINDER/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }
@@ -662,16 +662,16 @@
             "website": {
                 "bioschemas": false,
                 "copyright": false,
-                "https": true,
+                "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://db-mml.sjtu.edu.cn/MobilomeFINDER/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }

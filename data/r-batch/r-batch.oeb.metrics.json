@@ -28,7 +28,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/thomashoffmannproject/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/thomashoffmannproject/&passive=1209600&service=jotspot&ifkv=AaSxoQzD3TAWYWhY09G6hMQYxMRpkubEzUWO9DoM8WDx-o6sqA8I77LOktlV6XCMzWjDjQ9FeqYq"
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/thomashoffmannproject/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/thomashoffmannproject/&passive=1209600&service=jotspot&ifkv=AaSxoQz0E5gJhStVmT5HtLUsTwlUF9UJMcfSw884TCvVEnHD6bqKOPQ_8QTsi3ap8z7L6pooaWSZ"
                     },
                     {
                         "status": 302,
@@ -36,7 +36,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fthomashoffmannproject%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fthomashoffmannproject%2F&ifkv=AaSxoQxtXLB1CSjPBtAut39YQ5sONslml-ULx9lcRiequZpIavBXgN7aBUsv0zYdIJGP8xWtbe3ysA&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1594173551%3A1714188471269416&theme=mn&ddm=0"
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fthomashoffmannproject%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fthomashoffmannproject%2F&ifkv=AaSxoQw5L74tT38E_LUmi7zK1_j_RMc1N1Qq5NJoC51s5Ci8Nv4jYhFnR-xp2LvRnJ7le6hyc-4U&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1158231038%3A1714360194116699&theme=mn&ddm=0"
                     },
                     {
                         "status": 302,
@@ -73,7 +73,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/thomashoffmannproject/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/thomashoffmannproject/&passive=1209600&service=jotspot&ifkv=AaSxoQyT5TSo-Smj4Jfy8CUXOOclOk4iuQwSD66Sz9bCVzwi8kXHMxAPR_tmp11yaNscdycqeQGUBw"
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/thomashoffmannproject/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/thomashoffmannproject/&passive=1209600&service=jotspot&ifkv=AaSxoQyGq40Ip81m8kKIxXpgHdAbOv0SZaNg_JrBcEJ9ZUQXvOEyATbqkCx0fHrVqW24rmdrSHVoVw"
                     },
                     {
                         "status": 302,
@@ -81,7 +81,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fthomashoffmannproject%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fthomashoffmannproject%2F&ifkv=AaSxoQxJK6u2B3Q_eailOSwbaRKafBBS-D7sEuMlF1K5UuPyTYEzTACp1yfpggJTd4WWbNJXYYDgiA&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1190829856%3A1714188461978921&theme=mn&ddm=0"
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fthomashoffmannproject%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fthomashoffmannproject%2F&ifkv=AaSxoQxSteIuFxdFmrK7_IjPjCFcI8rVdtflLRvBxx2geFkHDEYIQh_Hsz_s2_dxRkdAbJJhios1ww&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1108089661%3A1714360176342808&theme=mn&ddm=0"
                     },
                     {
                         "status": 302,

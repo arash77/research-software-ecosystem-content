@@ -119,7 +119,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/CARNA/Input.jsp;jsessionid=2144A329C560405201146A77FD9BD9D7"
+                        "url": "http://rna.informatik.uni-freiburg.de/CARNA/Input.jsp;jsessionid=ACD513CD894BC8E17B3C0BC4E1A25A99"
                     }
                 ],
                 "ssl": null,
@@ -250,16 +250,16 @@
             "website": {
                 "bioschemas": false,
                 "copyright": false,
-                "https": true,
+                "https": false,
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/CARNA/Input.jsp;jsessionid=A809380AF236B1B0B0DB4C4251EAE9BB"
+                        "url": "http://rna.informatik.uni-freiburg.de/CARNA/Input.jsp;jsessionid=3C7A4EF54865F85253BB8CD4936EAE90"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }

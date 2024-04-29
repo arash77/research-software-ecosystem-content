@@ -102,11 +102,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 504,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww38.snpbox.org/?subid1=20240427-1735-1842-b9ad-3930d8098262"
+                        "url": "http://ww38.snpbox.org/?subid1=20240429-1714-4030-b4b6-4bc483151b78"
                     }
                 ],
                 "ssl": null,
@@ -131,11 +131,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 439,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww38.snpbox.org/?subid1=20240427-1319-32a9-82b8-d98fec9e3b62"
+                        "url": "http://ww16.snpbox.org/?sub1=20240429-1300-4697-8f10-b1827d01b45b"
                     }
                 ],
                 "ssl": null,

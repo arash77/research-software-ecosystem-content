@@ -106,11 +106,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 500,
                 "redirects": [
                     {
                         "status": 303,
-                        "url": "http://s.tartaglialab.com/update_submission/825274/beebd736d3"
+                        "url": "http://s.tartaglialab.com/update_submission/825273/5732c88548"
                     }
                 ],
                 "ssl": null,
@@ -135,7 +135,7 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 500,
                 "redirects": [
                     {
                         "status": 303,

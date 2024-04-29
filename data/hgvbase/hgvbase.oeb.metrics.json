@@ -139,7 +139,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww16.hgvbaseg2p.org/index?sub1=20240427-1453-3372-a2df-33a93a7e412a"
+                        "url": "http://ww16.hgvbaseg2p.org/index?sub1=20240429-1436-13de-a216-e03b7b24b895"
                     }
                 ],
                 "ssl": null,
@@ -167,11 +167,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 439,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww16.hgvbaseg2p.org/index?sub1=20240427-1453-33f5-8fb8-1d9aefc29d3b"
+                        "url": "http://ww38.hgvbaseg2p.org/index"
                     }
                 ],
                 "ssl": null,

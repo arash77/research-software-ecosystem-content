@@ -147,7 +147,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/AntaRNA/Input.jsp;jsessionid=582A0D7DE7A1B2625C419AA3E4FE93F9"
+                        "url": "http://rna.informatik.uni-freiburg.de/AntaRNA/Input.jsp;jsessionid=AAE6BD94E40764506AEE41F994543946"
                     }
                 ],
                 "ssl": null,
@@ -191,9 +191,9 @@
                 "description": true
             },
             "website": {
-                "bioschemas": false,
+                "bioschemas": true,
                 "copyright": false,
-                "https": false,
+                "https": true,
                 "license": false,
                 "operational": 200,
                 "redirects": [
@@ -202,7 +202,7 @@
                         "url": "http://rna.informatik.uni-freiburg.de/AntaRNA/Input.jsp;jsessionid=C5C20EF9B73B6FE99F0B38BD62034B40"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },

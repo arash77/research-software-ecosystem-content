@@ -90,7 +90,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://gemma.msl.ubc.ca/home.html;jsessionid=BC6E34386303E99F570B9009082DEB6A"
+                        "url": "https://gemma.msl.ubc.ca/home.html;jsessionid=061DB6A1DB160DCB5317C6D3520621B5"
                     }
                 ],
                 "ssl": true,
@@ -259,6 +259,16 @@
                 "https": true,
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://gemma.msl.ubc.ca"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://gemma.msl.ubc.ca/home.html;jsessionid=7013D3F8AC782ACD6E0AA867A93D9A0A"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
