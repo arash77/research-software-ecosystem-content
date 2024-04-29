@@ -219,7 +219,7 @@ jobs:
     - name: Create and checkout feature branch
       run: git checkout -b galaxytool-import-branch
     - name: import galaxy tool data from server
-      uses: research-software-ecosystem/utils/galaxytool-import@main
+      uses: arash77/research-software-ecosystem-utils/galaxytool-import@galaxy-tool-bulk-import
       with:
         repo-user: ${{ secrets.GITHUB_USER }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
