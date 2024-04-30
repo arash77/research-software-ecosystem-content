@@ -127,7 +127,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/CopraRNA/Input.jsp;jsessionid=692B86377B40DE435045ECAEDA208EEF"
+                        "url": "http://rna.informatik.uni-freiburg.de/CopraRNA/Input.jsp;jsessionid=136CFC676F720A34DBA5A3120D23BD0F"
                     }
                 ],
                 "ssl": null,
@@ -175,7 +175,7 @@
                 "description": true
             },
             "website": {
-                "bioschemas": false,
+                "bioschemas": true,
                 "copyright": false,
                 "https": true,
                 "license": false,
@@ -228,7 +228,7 @@
                 "description": true
             },
             "website": {
-                "bioschemas": false,
+                "bioschemas": true,
                 "copyright": false,
                 "https": true,
                 "license": false,
@@ -281,7 +281,7 @@
                 "description": true
             },
             "website": {
-                "bioschemas": false,
+                "bioschemas": true,
                 "copyright": false,
                 "https": true,
                 "license": false,
@@ -334,7 +334,7 @@
                 "description": true
             },
             "website": {
-                "bioschemas": false,
+                "bioschemas": true,
                 "copyright": false,
                 "https": true,
                 "license": false,
@@ -387,7 +387,7 @@
                 "description": true
             },
             "website": {
-                "bioschemas": false,
+                "bioschemas": true,
                 "copyright": false,
                 "https": true,
                 "license": false,
@@ -444,7 +444,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/CopraRNA/Input.jsp;jsessionid=DB7C923706C97455C15A6D25697F0BDC"
+                        "url": "http://rna.informatik.uni-freiburg.de/CopraRNA/Input.jsp;jsessionid=530248B6E1DC50AB28ED43E27591F71D"
                     }
                 ],
                 "ssl": null,
