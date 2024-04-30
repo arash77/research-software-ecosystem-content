@@ -110,7 +110,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://shibboleth.ucr.edu/shibboleth-idp/profile/SAML2/Redirect/SSO?SAMLRequest=lZJRb8IgFIX%2FSsO7Le20WmI1jcbExC3G6R72siC9VRIKyqVO%2FfWrTje3B5e98ADncM79oNvfl8rbgUVpdEpCnxIPtDC51KuULOajRof0e13kpYo2LKvcWs9gWwE6rzZqZJ8nKamsZoajRKZ5CcicYM%2FZ44RFPmUba5wRRhEvQwTr6qiB0ViVYJ%2FB7qSAxWySkrVzG2RBwIUwlXbor4xZKfCFKYNTjN0ENNzmx30e0yPYMhe1FIk3MlbAuVpKCq4QiDcepuSttYwLWsRxGIllawkxFQkUeSdqN9tJp15qGU45otzBtxGxgrFGx7VLSUSjZoM2G1Eypw%2BMJqyV%2BFEnfCXey5VYPR%2B58GFns70Fc58Lv9I4z1Byd19%2B2pF5ozhLGWgn3YH0%2Fk%2BtG9zW%2FXrcp%2Fr68XBqlBQHL1PKvA8scFezcbaCvyuGfvi7YsmlyvLcAiIJepfcn9%2Bo9wE%3D&RelayState=b.z6IAlybEOwiAQANDd0T_wB7jaWNqaGDdHV-Nk4DjaJuAR7hj8e01c3vJ2h9fgbeyitcce_eDJdjhTDFM_nsZ5-rF_rqpFzgCyKYlZmJdEBjmDg4bVUGj_AvmIUgaqlavAg7wUh3RnvXF7h2txul5A0oaUfaIKX_O2K0U%3D"
+                        "url": "https://shibboleth.ucr.edu/shibboleth-idp/profile/SAML2/Redirect/SSO?SAMLRequest=lZLNbsIwEIRfJfKdxEkgLRYBRSAkJFohfnropTLOBiw5NngdCjx9A4WW9kDVqz3jmf3Wnd6%2BVN4OLEqjUxL6lHighcmlXqVkMR82Hkmv20FeqmjDssqt9RS2FaDzaqNG9nmTkspqZjhKZJqXgMwJNsuexizyKdtY44wwingZIlhXR%2FWNxqoEOwO7kwIW03FK1s5tkAUBF8JU2qG%2FMmalwBemDE4xdhPQcJsf93lCj2DLXNRSJN7QWAHnaikpuEIg3miQkrfmMhRxVECbA42LBMK2KB5okixDCOMlb9UynHBEuYNvI2IFI42Oa5eSiEbNBm02YjqnMYtajCZ%2B1IpeifdyJVbPRy582Nlsb8Hc58KvNM4zlNzdl59OZN4ozlIG2kl3IN3%2FU%2BsEt3W%2FlvtcPz8aTIyS4uBlSpn3vgXuajbOVvB3xdAPf1csuVRZnltAJEH3kvvzG3U%2FAA%3D%3D&RelayState=b.z6IAlyTGuwjAMBuD9je8GXKBuKBQVCbExsiImlLh_2koJjmJn4PYMzN_f7nUIjod9xOTRD3GEmzie-nEMDm4I_vj_XM2Knol0M2i3iCwJHUsmT41rh7n9iPSjhkyoVarSA0GLZ9zFbtLe87V4Wy-kaWPkkFDpCx2oK7M%3D"
                     },
                     {
                         "status": 302,
@@ -158,7 +158,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://shibboleth.ucr.edu/shibboleth-idp/profile/SAML2/Redirect/SSO?SAMLRequest=lZJLb8IwEIT%2FSuQ7iWMIIhYBRSAkJFqhlvbQS%2BXYC1hybPA69PHrG%2BiL9kDVqz3jmf3Ww%2FFzbaIDeNTOFiSNKYnASqe03RTkbjXrDMh4NERRG7bjZRO29gb2DWCIWqNF%2Fn5TkMZb7gRq5FbUgDxIflteLTiLKd95F5x0hkQlIvjQRk2cxaYGfwv%2BoCXc3SwKsg1hhzxJhJSusQHjjXMbA7F0dXKM8buEpnv1%2Bqz69BV8rWQrRRLNnJdwqlaQtTAIJJpPC%2FKYZr1Bniuoenkm04xVuahErlg3V5mqulUrw6VA1Af4NiI2MLcYhA0FYZT1OrTXYfmKMp4NOO3HXUYfSHT%2FSaydj3zw4SezPwdzmYv4pHGaoRbhsvx4olVnfZJysEGHFzL6P7Vhcl73a7nX7fPz6dIZLV%2Bi0hj3NPEgQssm%2BAb%2BrpjG6e%2BKtdCmVMoDIklGH7k%2Fv9HoDQ%3D%3D&RelayState=b.z6IAlyb0KAjEMAODd0TfwBS7cT8EI4uboKk7SNOHuoDWlSQff3sH5O5zeY1jOiCy0YEhjmAgjReRpRg5MMx1fm3u1C4DtLjasqmuWIWmBCD21Qbj_CexrLgWkNW0GTyGrMclD_a79w7cafbuC5T1JoSwNfgkiK5Y%3D"
+                        "url": "https://shibboleth.ucr.edu/shibboleth-idp/profile/SAML2/Redirect/SSO?SAMLRequest=lZLBbsIwEER%2FJfKdxCEGikVAEQgJiVaIQg%2B9VMZZwJJjg9ehwNc3UGhpD1S92juembfu9PaFDnbgUFmTkjikJAAjba7MKiXz2bD2QHrdDopC1zc8K%2F3aTGFbAvqgEhrknzcpKZ3hVqBCbkQByL3kz9njmNdDyjfOeiutJkGGCM5XVn1rsCzAPYPbKQnz6Tgla%2B83yKNISGlL4zFcWbvSEEpbRCcbt4lovM2P%2B7xJj%2BCKXFajSIKhdRLO0VKyFBqBBKNBSt4SBi3G2kzmCxq3m4loNdqLFltCo7GQ8aJqOsKJQFQ7%2BBYiljAy6IXxKanTOqtRVkvojCY8ZryRhO0WeyXBy5VY1Y9c%2BPCz2N2Cuc9FXGmcOxTC3x8%2Fnai8tjyPcjBe%2BQPp%2Fp9aJ7qN%2B7Xcp%2Br50WBitZKHINPavvcdCF%2Bx8a6EvyPGYfw7YiGUzvLcASKJuhffn9%2Bo%2BwE%3D&RelayState=b.z6IAlyTGuwjAMAND9j_8GXKBu1ZQoSIiNkRUxodgxbaUER7EzcHsG5vd3eM6OvXPBUcJxCsc5-iWgdy9eFqQJx__HZlb1BKC7sQ6ryJp5ICkQoVMbOPUfgX7UuAC3Jk3hzqg1Et_ErtLf6VKjbWfQvBMXzNzgC-DAKzA%3D"
                     },
                     {
                         "status": 302,

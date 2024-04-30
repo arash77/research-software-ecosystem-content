@@ -91,11 +91,11 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnmeth.4303&code=c26703e8-77af-4331-931d-1a6046f348f4"
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnmeth.4303&code=7f35f0bf-7a5f-449f-a7c0-13fb9db421a1"
                     },
                     {
                         "status": 302,
-                        "url": "https://www.nature.com/articles/nmeth.4303?error=cookies_not_supported&code=c26703e8-77af-4331-931d-1a6046f348f4"
+                        "url": "https://www.nature.com/articles/nmeth.4303?error=cookies_not_supported&code=7f35f0bf-7a5f-449f-a7c0-13fb9db421a1"
                     },
                     {
                         "status": 303,
@@ -131,11 +131,11 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnmeth.4303&code=ec68a12a-4762-4ba3-906e-4d2b66e308c1"
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnmeth.4303&code=e95f5a1c-ac49-4a63-96a4-a30ea3dbe9f0"
                     },
                     {
                         "status": 302,
-                        "url": "https://www.nature.com/articles/nmeth.4303?error=cookies_not_supported&code=ec68a12a-4762-4ba3-906e-4d2b66e308c1"
+                        "url": "https://www.nature.com/articles/nmeth.4303?error=cookies_not_supported&code=e95f5a1c-ac49-4a63-96a4-a30ea3dbe9f0"
                     },
                     {
                         "status": 303,

@@ -135,11 +135,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 504,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww12.dendropy.org/?usid=15&utid=28202459396"
+                        "url": "http://ww12.dendropy.org/?usid=15&utid=28221809772"
                     },
                     {
                         "status": 302,
@@ -467,7 +467,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww12.dendropy.org/?usid=15&utid=28202459398"
+                        "url": "http://ww12.dendropy.org/?usid=15&utid=28221800601"
                     },
                     {
                         "status": 302,

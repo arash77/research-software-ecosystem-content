@@ -105,7 +105,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/a/lbl.gov/biopig/&followup=https://sites.google.com/a/lbl.gov/biopig/&osid=1&passive=1209600&ifkv=AaSxoQzpxk-CMm1Z3IyeBNlOoV1pOcpU2scKWauXpRjywHw-rTnVdiR6QFOgEz0DgDUrQmmiDwcVGg"
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/a/lbl.gov/biopig/&followup=https://sites.google.com/a/lbl.gov/biopig/&osid=1&passive=1209600&ifkv=AaSxoQy7JCl38KivMspW1WLtMe_mckD8wRc-qyV6mmhz1pJblTYb0qEGWBKBkCWhrM2dyIvChK3N"
                     },
                     {
                         "status": 302,
@@ -113,7 +113,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fa%2Flbl.gov%2Fbiopig%2F&followup=https%3A%2F%2Fsites.google.com%2Fa%2Flbl.gov%2Fbiopig%2F&ifkv=AaSxoQyX-8cUEMfL-RaJpBH5vDYyP3wO3KgGctNS4lEQAAvqv5kGuR13ySyU7lUpniQ6mvASLSFLrQ&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S370031708%3A1714361782985948&theme=mn&ddm=0"
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fa%2Flbl.gov%2Fbiopig%2F&followup=https%3A%2F%2Fsites.google.com%2Fa%2Flbl.gov%2Fbiopig%2F&ifkv=AaSxoQz9Yot4p8B2Y8WoQutA-pYi5ye0xWOGpjMyzuiLZdTUbaggABzA1r-WknM93XwdmO_NL-zl&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S2114858999%3A1714449334254108&theme=mn&ddm=0"
                     }
                 ],
                 "ssl": true,
@@ -176,7 +176,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/a/lbl.gov/biopig/&followup=https://sites.google.com/a/lbl.gov/biopig/&osid=1&passive=1209600&ifkv=AaSxoQwkKdLM4_POJLoxaORV2zWiqnAUgRsDrAWbFYxCMlFD4QIBJ958BZbzww3TpWzEpMxvSkZqWw"
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/a/lbl.gov/biopig/&followup=https://sites.google.com/a/lbl.gov/biopig/&osid=1&passive=1209600&ifkv=AaSxoQzYAvWNLPyFngqvA1O4tQmgQeyBf1C8MzmMfOGQlYO0qe9Qv9KIxQrUQwDw9CuX7kHJI6zV"
                     },
                     {
                         "status": 302,
@@ -184,7 +184,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fa%2Flbl.gov%2Fbiopig%2F&followup=https%3A%2F%2Fsites.google.com%2Fa%2Flbl.gov%2Fbiopig%2F&ifkv=AaSxoQxZiua-gQL7b5AYs1rGwZ7iT6LglwFoe7VfqUHFCHDdD852euSIGwvsWnsEoNhOXNl1lY-w_g&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S403443311%3A1714361782852560&theme=mn&ddm=0"
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fa%2Flbl.gov%2Fbiopig%2F&followup=https%3A%2F%2Fsites.google.com%2Fa%2Flbl.gov%2Fbiopig%2F&ifkv=AaSxoQz1cX89LyXIHoUQNXzwWbPFbjMX8RsYH9ofPoTBqHk_2lb0G3NXjZjqtyI-NVvLf_7OTgWW&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1140091176%3A1714449334077830&theme=mn&ddm=0"
                     }
                 ],
                 "ssl": true,

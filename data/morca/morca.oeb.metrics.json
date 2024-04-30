@@ -45,7 +45,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.bitlab-es.com/morca/?subid1=20240429-1508-29f0-b88b-b285c67ee173"
+                        "url": "http://ww25.bitlab-es.com/morca/?subid1=20240430-1520-47ec-b0dd-ad5fcec9f854"
                     }
                 ],
                 "ssl": null,
@@ -73,11 +73,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 439,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.bitlab-es.com/morca/?subid1=20240429-1508-29e5-b190-6e62b384f39e"
+                        "url": "http://ww16.bitlab-es.com/morca/?sub1=20240430-1520-48dc-a461-5c1d08c7a220"
                     }
                 ],
                 "ssl": null,

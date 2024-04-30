@@ -121,11 +121,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 439,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww16.bitlab-es.com/flipper/?sub1=20240429-1414-485d-a0ae-d7831ecab79f"
+                        "url": "http://ww25.bitlab-es.com/flipper/?subid1=20240430-1429-0173-8d95-2149f5524b8c"
                     }
                 ],
                 "ssl": null,
@@ -153,11 +153,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 439,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww16.bitlab-es.com/flipper/?sub1=20240429-1414-48d8-9120-b63cfb092b92"
+                        "url": "http://ww25.bitlab-es.com/flipper/?subid1=20240430-1429-01ab-9899-9a79a0916455"
                     }
                 ],
                 "ssl": null,

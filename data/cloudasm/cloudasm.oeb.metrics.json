@@ -44,7 +44,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://console.cloud.google.com/storage/browser/cloudasm&followup=https://console.cloud.google.com/storage/browser/cloudasm&osid=1&passive=1209600&service=cloudconsole&ifkv=AaSxoQzv99wzp5CoOESmERagHa-HxoEVwfRPJsyqd5pVJEtfV0T1O0gZna0EK2EKhqm1RtxOsymP1g"
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://console.cloud.google.com/storage/browser/cloudasm&followup=https://console.cloud.google.com/storage/browser/cloudasm&osid=1&passive=1209600&service=cloudconsole&ifkv=AaSxoQzDiX8SpHW3dc7aGXpN16WgAnvu0d0da4OZbAOrV7W3EOATN_LQ0SHfhje75Mqj3UoaPcHs"
                     },
                     {
                         "status": 302,
@@ -52,7 +52,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fconsole.cloud.google.com%2Fstorage%2Fbrowser%2Fcloudasm&followup=https%3A%2F%2Fconsole.cloud.google.com%2Fstorage%2Fbrowser%2Fcloudasm&ifkv=AaSxoQzfJiu_9oICEogw7o0DwHnLmcNABWrOuRRsYrgeFtELlS1WSMWTSFKqkaBfBWlrNhR8WtiKyg&osid=1&passive=1209600&service=cloudconsole&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S571318291%3A1714356207566891&theme=mn&ddm=0"
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fconsole.cloud.google.com%2Fstorage%2Fbrowser%2Fcloudasm&followup=https%3A%2F%2Fconsole.cloud.google.com%2Fstorage%2Fbrowser%2Fcloudasm&ifkv=AaSxoQwQvInFD1_szQw-K9Hm-ZB4V1i7LdvgaMTgaxslIRr8Smj3OrRD2ZpVPdzPd01cifN3C6h8&osid=1&passive=1209600&service=cloudconsole&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-284841049%3A1714443708089072&theme=mn&ddm=0"
                     }
                 ],
                 "ssl": true,

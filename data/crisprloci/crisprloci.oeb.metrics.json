@@ -84,7 +84,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://rna.informatik.uni-freiburg.de/CRISPRloci/Input.jsp;jsessionid=62C1AD4CC8F8F4056D8741EEB7EF546C"
+                        "url": "https://rna.informatik.uni-freiburg.de/CRISPRloci/Input.jsp;jsessionid=A0FDBDABA3BA56054967D84CCF5FC817"
                     }
                 ],
                 "ssl": true,
@@ -113,7 +113,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://rna.informatik.uni-freiburg.de/CRISPRloci/Input.jsp;jsessionid=95A89404BB678FC26C8AA3CB3176CE47"
+                        "url": "https://rna.informatik.uni-freiburg.de/CRISPRloci/Input.jsp;jsessionid=D425E8A4C9E513214954CCF1315ADA8C"
                     }
                 ],
                 "ssl": true,

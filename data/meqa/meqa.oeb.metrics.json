@@ -102,11 +102,11 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://iam.tongji.edu.cn:443/idp/AuthnEngine?authnLcKey=f1aff116-3e53-46d5-accb-dde43c33c0cf&entityId=SYS20230097"
+                        "url": "https://iam.tongji.edu.cn:443/idp/AuthnEngine?authnLcKey=2cd1e62d-e9a9-47b8-a993-248cd3c7f384&entityId=SYS20230097"
                     },
                     {
                         "status": 302,
-                        "url": "https://iam.tongji.edu.cn:443/idp/authcenter/ActionAuthChain?entityId=SYS20230097&authnLcKey=f1aff116-3e53-46d5-accb-dde43c33c0cf"
+                        "url": "https://iam.tongji.edu.cn:443/idp/authcenter/ActionAuthChain?entityId=SYS20230097&authnLcKey=2cd1e62d-e9a9-47b8-a993-248cd3c7f384"
                     },
                     {
                         "status": 302,
@@ -158,11 +158,11 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://iam.tongji.edu.cn:443/idp/AuthnEngine?authnLcKey=bec79e2e-ebe1-4567-bdb8-5d647d033f95&entityId=SYS20230097"
+                        "url": "https://iam.tongji.edu.cn:443/idp/AuthnEngine?authnLcKey=acdd6697-43c8-4cb9-961b-915cdd130d9b&entityId=SYS20230097"
                     },
                     {
                         "status": 302,
-                        "url": "https://iam.tongji.edu.cn:443/idp/authcenter/ActionAuthChain?entityId=SYS20230097&authnLcKey=bec79e2e-ebe1-4567-bdb8-5d647d033f95"
+                        "url": "https://iam.tongji.edu.cn:443/idp/authcenter/ActionAuthChain?entityId=SYS20230097&authnLcKey=acdd6697-43c8-4cb9-961b-915cdd130d9b"
                     },
                     {
                         "status": 302,
