@@ -1934,7 +1934,7 @@
                         "url": "https://www.broadinstitute.org/software/pilon/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
