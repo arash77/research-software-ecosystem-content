@@ -220,7 +220,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://projects.pages.mia.inra.fr/auth?domain=https://mulcyber.toulouse.inra.fr&state=ptgxwzAk4jzqEX4dw0YyOw=="
+                        "url": "https://projects.pages.mia.inra.fr/auth?domain=https://mulcyber.toulouse.inra.fr&state=flSoX1eZcvuobku07g1LeA=="
                     }
                 ],
                 "ssl": true,

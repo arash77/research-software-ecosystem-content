@@ -24,15 +24,11 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://id.elsevier.com/as/authorization.oauth2?platSite=SC%2Fscopus&ui_locales=en-US&scope=openid+profile+email+els_auth_info+els_analytics_info+urn%3Acom%3Aelsevier%3Aidp%3Apolicy%3Aproduct%3Aindv_identity&els_policy=idp_policy_indv_identity_plus&response_type=code&redirect_uri=https%3A%2F%2Fwww.scopus.com%2Fauthredirect.uri%3FtxGid%3D7b12bb3d3cac32e88a24b3ef252cbf26&state=autoLogin%7CtxId%3DC269AD3D9C124B24FB90C64A72367031.i-06511471692217df1%3A0&authType=SINGLE_SIGN_IN&prompt=none&client_id=SCOPUS"
+                        "url": "https://id.elsevier.com/as/authorization.oauth2?platSite=SC%2Fscopus&ui_locales=en-US&scope=openid+profile+email+els_auth_info+els_analytics_info+urn%3Acom%3Aelsevier%3Aidp%3Apolicy%3Aproduct%3Aindv_identity&els_policy=idp_policy_indv_identity_plus&response_type=code&redirect_uri=https%3A%2F%2Fwww.scopus.com%2Fauthredirect.uri%3FtxGid%3D33844178567028aa49c9d905d059df33&state=autoLogin%7CtxId%3D45BEB5AD6DDC5E3C76CF31A814D6390E.i-037ee7c6bc399e889%3A0&authType=SINGLE_SIGN_IN&prompt=none&client_id=SCOPUS"
                     },
                     {
                         "status": 302,
-                        "url": "https://id.elsevier.com/as/authorization.oauth2?platSite=SC%2Fscopus&ui_locales=en-US&scope=openid+profile+email+els_auth_info+els_analytics_info+urn%3Acom%3Aelsevier%3Aidp%3Apolicy%3Aproduct%3Aindv_identity&els_policy=idp_policy_indv_identity_plus&response_type=code&redirect_uri=https%3A%2F%2Fwww.scopus.com%2Fauthredirect.uri%3FtxGid%3D863192c7b07915af0af3ee3f6bdba65f&state=autoLogin%7CtxId%3D885EE5FFB6782B1AB2057C4D53A911BB.i-06511471692217df1%3A0&authType=SINGLE_SIGN_IN&prompt=none&client_id=SCOPUS"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.scopus.com/authredirect.uri?edit.scft=1"
+                        "url": "https://id.elsevier.com/as/authorization.oauth2?platSite=SC%2Fscopus&ui_locales=en-US&scope=openid+profile+email+els_auth_info+els_analytics_info+urn%3Acom%3Aelsevier%3Aidp%3Apolicy%3Aproduct%3Aindv_identity&els_policy=idp_policy_indv_identity_plus&response_type=code&redirect_uri=https%3A%2F%2Fwww.scopus.com%2Fauthredirect.uri%3FtxGid%3D45c22f6418f8decd8f69402260c74c14&state=autoLogin%7CtxId%3DF5C5554D546E8423D4CCA5074058C1D9.i-0a80f8cf1c58eeaa8%3A0&authType=SINGLE_SIGN_IN&prompt=none&client_id=SCOPUS"
                     },
                     {
                         "status": 302,
@@ -40,11 +36,15 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://www.scopus.com/authredirect.uri?txGid=7b12bb3d3cac32e88a24b3ef252cbf26&code=P0LmCiTy1GmAMm-8z3GqcbhlO2Gkf1RA2bwQIznU&state=autoLogin%7CtxId%3DC269AD3D9C124B24FB90C64A72367031.i-06511471692217df1%3A0"
+                        "url": "https://www.scopus.com/authredirect.uri?edit.scft=1"
                     },
                     {
                         "status": 302,
-                        "url": "https://www.scopus.com/authredirect.uri?txGid=863192c7b07915af0af3ee3f6bdba65f&code=VRmmm3v9U8iXtFHr8MxFLN3jdw3R7fUxg-9qD2II&state=autoLogin%7CtxId%3D885EE5FFB6782B1AB2057C4D53A911BB.i-06511471692217df1%3A0"
+                        "url": "https://www.scopus.com/authredirect.uri?txGid=33844178567028aa49c9d905d059df33&code=sqLCJmtuuq5lHPpJ1C43ENZ1KuowHzjISWwbEitQ&state=autoLogin%7CtxId%3D45BEB5AD6DDC5E3C76CF31A814D6390E.i-037ee7c6bc399e889%3A0"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.scopus.com/authredirect.uri?txGid=45c22f6418f8decd8f69402260c74c14&code=F4VXvqIu9JH9ZmyPeCSd-nqyLM3_sRV1dPQbEitQ&state=autoLogin%7CtxId%3DF5C5554D546E8423D4CCA5074058C1D9.i-0a80f8cf1c58eeaa8%3A0"
                     },
                     {
                         "status": 302,

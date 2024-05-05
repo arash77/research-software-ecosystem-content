@@ -65,8 +65,12 @@
                 "copyright": false,
                 "https": true,
                 "license": false,
-                "operational": 502,
+                "operational": 200,
                 "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://metacpan.org/dist/indirect"
+                    },
                     {
                         "status": 301,
                         "url": "https://metacpan.org/release/indirect"

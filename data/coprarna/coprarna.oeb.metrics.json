@@ -127,7 +127,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/CopraRNA/Input.jsp;jsessionid=136CFC676F720A34DBA5A3120D23BD0F"
+                        "url": "http://rna.informatik.uni-freiburg.de/CopraRNA/Input.jsp;jsessionid=F3319031E307EBEABB36D054FC204197"
                     }
                 ],
                 "ssl": null,
@@ -444,7 +444,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/CopraRNA/Input.jsp;jsessionid=530248B6E1DC50AB28ED43E27591F71D"
+                        "url": "http://rna.informatik.uni-freiburg.de/CopraRNA/Input.jsp;jsessionid=C88BF0D7EAA580658C0642A1FE4AE7C0"
                     }
                 ],
                 "ssl": null,
