@@ -121,7 +121,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.bitlab-es.com/gecko/template.php?subid1=20240504-1500-3838-a52f-d24c552be78e"
+                        "url": "http://ww25.bitlab-es.com/gecko/template.php?subid1=20240508-1457-16e3-ad2b-072b05caebf5"
                     }
                 ],
                 "ssl": null,
@@ -254,7 +254,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.bitlab-es.com/gecko/template.php?subid1=20240504-1500-3848-8d23-219183945af5"
+                        "url": "http://ww25.bitlab-es.com/gecko/template.php?subid1=20240508-1457-1614-921e-da08c4e57a5a"
                     }
                 ],
                 "ssl": null,
@@ -282,11 +282,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 439,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.bitlab-es.com/gecko/template.php?subid1=20240504-1500-38f2-8dd0-916e35e5f90c"
+                        "url": "http://ww16.bitlab-es.com/gecko/template.php?sub1=20240508-1457-16a3-8046-74e51da85ee8"
                     }
                 ],
                 "ssl": null,

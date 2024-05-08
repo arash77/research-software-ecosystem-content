@@ -518,8 +518,8 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 404,
-                "ssl": null,
+                "operational": 200,
+                "ssl": true,
                 "ssl_err": null
             }
         },

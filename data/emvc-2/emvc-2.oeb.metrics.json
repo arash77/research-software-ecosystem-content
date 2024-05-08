@@ -1,52 +1,37 @@
 [
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:fpb:1.1/app/services.appliedgenomics.org",
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:emvc-2:1.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
+        "@nmsp": "bioconda",
         "@type": "metrics",
-        "deprecated": true,
         "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
+            "packages": true,
+            "sourcecode": {}
         },
         "project": {
             "build": {},
             "deployment": {},
-            "documentation": {
-                "manual": true
+            "license": {
+                "open_source": true,
+                "osi": true
             },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 0,
-                            "citations": [],
-                            "ref_count": 0,
-                            "refs": []
-                        }
-                    ]
-                }
-            ],
+            "publications": [],
             "summary": {
                 "description": true
             },
             "website": {
-                "bioschemas": false,
+                "bioschemas": true,
                 "copyright": false,
-                "https": false,
+                "https": true,
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
-        },
-        "support": {
-            "email": false
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/fpb",
+        "@id": "https://openebench.bsc.es/monitor/metrics/emvc-2",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
         "@type": "metrics",
@@ -58,12 +43,12 @@
                 "description": true
             },
             "website": {
-                "bioschemas": false,
+                "bioschemas": true,
                 "copyright": false,
-                "https": false,
+                "https": true,
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

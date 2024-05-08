@@ -135,11 +135,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 439,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww5.biocontext.org/?subid1=734e7825-0839-11ef-8294-c92f07611349"
+                        "url": "http://ww3.biocontext.org/?sub1=c3ca037a-0cec-11ef-b044-db8d157da1dc"
                     }
                 ],
                 "ssl": null,
