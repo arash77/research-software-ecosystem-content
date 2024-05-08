@@ -124,11 +124,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 439,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.bitlab-es.com/magallanes/?subid1=20240504-1444-37c0-88ec-fedf149a5658"
+                        "url": "http://ww16.bitlab-es.com/magallanes/?sub1=20240508-1440-58b1-b87c-8f9f49a2fcec"
                     }
                 ],
                 "ssl": null,
@@ -268,7 +268,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.bitlab-es.com/magallanes/?subid1=20240504-1444-41d4-b418-b76cb8c21143"
+                        "url": "http://ww25.bitlab-es.com/magallanes/?subid1=20240508-1440-5962-9a42-5e757260d918"
                     }
                 ],
                 "ssl": null,
@@ -300,7 +300,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.bitlab-es.com/magallanes/?subid1=20240504-1444-371b-a11e-6ee97c33bd97"
+                        "url": "http://ww25.bitlab-es.com/magallanes/?subid1=20240508-1440-5880-a668-aed86f02e114"
                     }
                 ],
                 "ssl": null,

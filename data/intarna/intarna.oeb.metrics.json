@@ -127,7 +127,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/IntaRNA/Input.jsp;jsessionid=F3B4913EA2DAB240FE60520DF4B2A8F2"
+                        "url": "http://rna.informatik.uni-freiburg.de/IntaRNA/Input.jsp;jsessionid=00993C053A94AF9AAA9B2953CA08DD7C"
                     }
                 ],
                 "ssl": null,

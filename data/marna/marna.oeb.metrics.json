@@ -158,7 +158,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/MARNA/Input.jsp;jsessionid=7602DCA2D707FA240473D701398DA570"
+                        "url": "http://rna.informatik.uni-freiburg.de/MARNA/Input.jsp;jsessionid=CE42D4C0845B25BF72BB19D32AA5C0F9"
                     }
                 ],
                 "ssl": null,
@@ -190,7 +190,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/MARNA/Input.jsp;jsessionid=304160DA852E2D82B51ACEAA17CB5F62"
+                        "url": "http://rna.informatik.uni-freiburg.de/MARNA/Input.jsp;jsessionid=F68FDC38E71C994E985A25D47AB84E62"
                     }
                 ],
                 "ssl": null,
