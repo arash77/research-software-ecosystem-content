@@ -1,0 +1,15 @@
+{
+    "Description": "Software for motif discovery and next generation sequencing analysis.",
+    "Galaxy wrapper id": "homer",
+    "Galaxy wrapper owner": "bgruening",
+    "Galaxy wrapper parsed folder": "https://github.com/bgruening/galaxytools/tree/master/tools/homer",
+    "Galaxy wrapper source": "https://github.com/bgruening/galaxytools/tree/master/tools/homer",
+    "Source": "http://homer.salk.edu/homer/",
+    "Status": "To update",
+    "ToolShed categories": "Sequence Analysis",
+    "ToolShed id": "homer",
+    "https://usegalaxy.eu": "(0/1)",
+    "https://usegalaxy.fr": "(0/1)",
+    "https://usegalaxy.org": "(0/1)",
+    "https://usegalaxy.org.au": "(0/1)"
+}

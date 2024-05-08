@@ -1,0 +1,19 @@
+{
+    "Conda id": "bigscape",
+    "Conda version": "1.1.9",
+    "Description": "Construct sequence similarity networks of BGCs and groups them into GCF",
+    "Galaxy tool ids": "bigscape",
+    "Galaxy wrapper id": "bigscape",
+    "Galaxy wrapper owner": "iuc",
+    "Galaxy wrapper parsed folder": "https://github.com/galaxyproject/tools-iuc/tree/main/tools/bigscape",
+    "Galaxy wrapper source": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/bigscape/",
+    "Galaxy wrapper version": "1.1.9",
+    "Source": "https://github.com/medema-group/BiG-SCAPE",
+    "Status": "Up-to-date",
+    "ToolShed categories": "Metagenomics",
+    "ToolShed id": "bigscape",
+    "https://usegalaxy.eu": "(1/1)",
+    "https://usegalaxy.fr": "(0/1)",
+    "https://usegalaxy.org": "(0/1)",
+    "https://usegalaxy.org.au": "(0/1)"
+}

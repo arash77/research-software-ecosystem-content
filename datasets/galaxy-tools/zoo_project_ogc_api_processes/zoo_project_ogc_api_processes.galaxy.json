@@ -1,0 +1,15 @@
+{
+    "Conda id": "r-base",
+    "Description": "This tool is a wrapper for OGC API Processes coming from the Zoo Project and was created using the OGC-API-Process2Galaxy tool (https://github.com/AquaINFRA/OGC-API-Process2Galaxy). Check the README in the repository for more information.",
+    "Galaxy wrapper id": "zoo_project_ogc_api_processes",
+    "Galaxy wrapper owner": "ecology",
+    "Galaxy wrapper parsed folder": "https://github.com/galaxyecology/tools-ecology/tree/master/tools/zoo_project_ogc_api_processes",
+    "Galaxy wrapper source": "https://github.com/galaxyecology/tools-ecology/tree/master/tools/ogc_api_processes_wrapper",
+    "Source": "https://github.com/AquaINFRA/galaxy",
+    "Status": "To update",
+    "ToolShed categories": "Ecology",
+    "https://usegalaxy.eu": "(0/1)",
+    "https://usegalaxy.fr": "(0/1)",
+    "https://usegalaxy.org": "(0/1)",
+    "https://usegalaxy.org.au": "(0/1)"
+}

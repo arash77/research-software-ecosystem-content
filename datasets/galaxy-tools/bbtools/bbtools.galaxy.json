@@ -1,0 +1,19 @@
+{
+    "Conda id": "bbmap",
+    "Conda version": "39.06",
+    "Description": "BBTools is a suite of fast, multithreaded bioinformatics tools designed for analysis of DNA and RNA sequence data.BBTools can handle common sequencing file formats such as fastq, fasta, sam, scarf, fasta+qual, compressed or raw,with autodetection of quality encoding and interleaving. It is written in Java and works on any platform supportingJava, including Linux, MacOS, and Microsoft Windows and Linux; there are no dependencies other than Java (version7 or higher). Program descriptions and options are shown when running the shell scripts with no parameters.",
+    "Galaxy tool ids": "bbtools_bbduk, bbtools_bbmap, bbtools_bbmerge, bbtools_bbnorm, bbtools_callvariants, bbtools_tadpole",
+    "Galaxy wrapper id": "bbtools",
+    "Galaxy wrapper owner": "iuc",
+    "Galaxy wrapper parsed folder": "https://github.com/galaxyproject/tools-iuc/tree/main/tools/bbtools",
+    "Galaxy wrapper source": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/bbtools",
+    "Galaxy wrapper version": "39.06",
+    "Source": "https://jgi.doe.gov/data-and-tools/bbtools/",
+    "Status": "Up-to-date",
+    "ToolShed categories": "Sequence Analysis",
+    "ToolShed id": "bbtools",
+    "https://usegalaxy.eu": "(5/6)",
+    "https://usegalaxy.fr": "(0/6)",
+    "https://usegalaxy.org": "(6/6)",
+    "https://usegalaxy.org.au": "(1/6)"
+}

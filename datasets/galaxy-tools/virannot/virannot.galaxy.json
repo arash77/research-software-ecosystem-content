@@ -1,0 +1,19 @@
+{
+    "Conda id": "biopython",
+    "Conda version": "1.70",
+    "Description": "virAnnot wrappers",
+    "Galaxy tool ids": "virannot_blast2tsv, virannot_otu, virAnnot_rps2tsv",
+    "Galaxy wrapper id": "virAnnot",
+    "Galaxy wrapper owner": "iuc",
+    "Galaxy wrapper parsed folder": "https://github.com/galaxyproject/tools-iuc/tree/main/tools/virAnnot",
+    "Galaxy wrapper source": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/virAnnot",
+    "Galaxy wrapper version": "1.0.0+galaxy0",
+    "Source": "https://github.com/marieBvr/virAnnot",
+    "Status": "To update",
+    "ToolShed categories": "Metagenomics",
+    "ToolShed id": "virannot",
+    "https://usegalaxy.eu": "(3/3)",
+    "https://usegalaxy.fr": "(3/3)",
+    "https://usegalaxy.org": "(0/3)",
+    "https://usegalaxy.org.au": "(0/3)"
+}

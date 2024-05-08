@@ -1,0 +1,19 @@
+{
+    "Conda id": "srst2",
+    "Conda version": "0.2.0",
+    "Description": "Short Read Sequence Typing for Bacterial Pathogens",
+    "Galaxy tool ids": "srst2",
+    "Galaxy wrapper id": "srst2",
+    "Galaxy wrapper owner": "nml",
+    "Galaxy wrapper parsed folder": "https://github.com/phac-nml/galaxy_tools/tree/master/tools/srst2",
+    "Galaxy wrapper version": "0.3.7",
+    "No. of tool users (2022-2023) (usegalaxy.eu)": 22.0,
+    "Status": "To update",
+    "ToolShed categories": "Sequence Analysis",
+    "ToolShed id": "srst2",
+    "Total tool usage (usegalaxy.eu)": 205.0,
+    "https://usegalaxy.eu": "(1/1)",
+    "https://usegalaxy.fr": "(0/1)",
+    "https://usegalaxy.org": "(0/1)",
+    "https://usegalaxy.org.au": "(0/1)"
+}
