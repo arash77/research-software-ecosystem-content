@@ -158,7 +158,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/bgcsoftware/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/bgcsoftware/&passive=1209600&service=jotspot&ifkv=AaSxoQw5q8IYTpUCcoaFDWr3uNEp7lrzYKfjfBANot1J7cBG0nxG9v8N6fOcvn0LpEZs7fo8i6O8XA"
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/bgcsoftware/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/bgcsoftware/&passive=1209600&service=jotspot&ifkv=AaSxoQzay1EBC-p48lMvf8LJ5c2wn-9ZJG23nTuDzoRwJ6FrrozlPq4Xfb9z1fjQbnceopigBQGaRw"
                     },
                     {
                         "status": 302,
@@ -166,7 +166,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fbgcsoftware%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fbgcsoftware%2F&ifkv=AaSxoQxzCI5F1xeUrhKsP5RGiGbUQoFahM90f0XzYK5QTJeFxOWXQ_xsANYKN-djekKPqf1ypGyFsQ&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1995736134%3A1715138161953161&theme=mn&ddm=0"
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fbgcsoftware%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fbgcsoftware%2F&ifkv=AaSxoQwGdOPUVGr7VmpfUSyZP6IaGx4V9wHH7VaYIvJzhcKQcszRF3blh0vpcYmvq8dzrZmUjGdjow&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-754651545%3A1715308396349198&ddm=0"
                     },
                     {
                         "status": 302,
@@ -202,7 +202,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/bgcsoftware/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/bgcsoftware/&passive=1209600&service=jotspot&ifkv=AaSxoQyHU7UwU4hUGz5k1Xlnm57M809u11AKI4xLUVfyfCv5BUqcS01_7xrSxiWlYt4iVJ2cU4Tr"
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/bgcsoftware/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/bgcsoftware/&passive=1209600&service=jotspot&ifkv=AaSxoQzQtlWD2irMZAdkKWhS2ZD3LsJ3KYlzIKhOupNOc1SX0LgIgcwtGH0Npw-Plkgm9amnFNNfCA"
                     },
                     {
                         "status": 302,
@@ -210,7 +210,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fbgcsoftware%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fbgcsoftware%2F&ifkv=AaSxoQxjMD5hazLs4rrgFGEX2aWgh9ZOciUWyjOyKXSfcV-OqeIAu-E82LwoTyJHJewlBdJcdrmm&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1863055035%3A1715138567206254&theme=mn&ddm=0"
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fbgcsoftware%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fbgcsoftware%2F&ifkv=AaSxoQzxsl2rSw38DMvAJK163ImlFu2EoG_jTw6stLRVv1GtfDBywzIa5_mG3w047KwdA7QStwhmPQ&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-637483582%3A1715308630587073&ddm=0"
                     },
                     {
                         "status": 302,

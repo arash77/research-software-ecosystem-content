@@ -107,15 +107,15 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=8FX0zF5aeqoDZ7Ogx5UeKRSwDMcLHRZP2jQCLTCxPzA%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=N7UHgpDO94twqhNiVI1sN-2BhpKPSEZYBHH3E2Fmh90"
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=HHmLtqkjZlz_Pk2hAzMj6GegL5yPkcw_olEMZFrPKjA%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=APKF60HHvWVnQADuhIm_-7kdr1Ew5Gw0UHNGURMlIto"
                     },
                     {
                         "status": 302,
-                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=KI3PjXnl3oOPwS88B8pw0xth1cHNmItEH7viVEQNZPc%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=1026luCdzldqPkiZHBrMqyOn2cyMq0_W2aLCLm8Kims"
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=nqK23M1V8r_qaIVPphQP3mkRxywwkNd-rWiSsjXrfYc%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=y4JV1Iy38zlT0Hnq80QzhQAl0_w4jqYYXil7PiSOyeM"
                     },
                     {
                         "status": 302,
-                        "url": "https://generatr.eu.auth0.com/login?state=hKFo2SBrRTRla1FNV3ljdmVzRzF1UE9oNmZiSHF3LWJOOFNwYqFupWxvZ2luo3RpZNkgR2xRQ2dPM2t2b0R4ZUQ2ejhGaDRIUHlvcnBlQ0lNUFOjY2lk2SA1NkFMTHBkR0tzT0hybUdDbzB4RWUxM210TW1YUmNvRQ&client=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&protocol=oauth2&response_type=code&scope=openid%20profile%20email&redirect_uri=http%3A%2F%2Fgeneratr.qub.ac.uk%2Flogin%2Foauth2%2Fcode%2Fshinyproxy&nonce=N7UHgpDO94twqhNiVI1sN-2BhpKPSEZYBHH3E2Fmh90"
+                        "url": "https://generatr.eu.auth0.com/login?state=hKFo2SBJMHNHZHJ3WFZibG54QkowSDZUU3ExbUJtd1VpOWJja6FupWxvZ2luo3RpZNkgQlhNN1I2MzVPdWh3aEgzTXoyWktEMzF4MWd3UzJqMEmjY2lk2SA1NkFMTHBkR0tzT0hybUdDbzB4RWUxM210TW1YUmNvRQ&client=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&protocol=oauth2&response_type=code&scope=openid%20profile%20email&redirect_uri=http%3A%2F%2Fgeneratr.qub.ac.uk%2Flogin%2Foauth2%2Fcode%2Fshinyproxy&nonce=y4JV1Iy38zlT0Hnq80QzhQAl0_w4jqYYXil7PiSOyeM"
                     },
                     {
                         "status": 302,
@@ -235,15 +235,15 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=7j0Itk851vtdO7M8XwVtI39MsQWn1GmtMxxoEwK6e-M%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=t2-2XhJ7f2FLKxUkdVkR0uXV8fXcaFycS3NyiMfZebU"
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=FOWILP76K3Kc_lYNFuUJwkW_ZQmlq7Sm2inRgTnVNhk%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=I6dmjLbUyJOgdXAydIuE3I0r0gt1rEbj9BF1qvLZck0"
                     },
                     {
                         "status": 302,
-                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=a-JLSerNgCYTAgqPG-KJaazEdJIy-tPJIpUfBua_eT8%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=iNsUyUzIodcAy9OZgt89KanFX7wr_tBeNbbUWBMb3Zs"
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=QBRUN26KiHeGP69MzT0_GNqM8HGcanqaTugBqmKZ8F0%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=LOmlA3GcMZGrMy2snPSpXwZbAesrJaxqkTUL6DXmghQ"
                     },
                     {
                         "status": 302,
-                        "url": "https://generatr.eu.auth0.com/login?state=hKFo2SB3SDVoSjMyRllmQ3YzTWs3cHQzRjJMT29TRmlkNHRYTaFupWxvZ2luo3RpZNkgaTB0ZGtFZ3l5N3dUUlBibU5QOTZEYTN3VnZYSXZzRFGjY2lk2SA1NkFMTHBkR0tzT0hybUdDbzB4RWUxM210TW1YUmNvRQ&client=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&protocol=oauth2&response_type=code&scope=openid%20profile%20email&redirect_uri=http%3A%2F%2Fgeneratr.qub.ac.uk%2Flogin%2Foauth2%2Fcode%2Fshinyproxy&nonce=t2-2XhJ7f2FLKxUkdVkR0uXV8fXcaFycS3NyiMfZebU"
+                        "url": "https://generatr.eu.auth0.com/login?state=hKFo2SBnYm1EYWtDMENzajhvQzJBVDBkTUNZMHIwRUxWcmVkZaFupWxvZ2luo3RpZNkgM0YxYkRyRUc1X3pDNTJCc2d3NHlPVHZETlcxZGRmSmmjY2lk2SA1NkFMTHBkR0tzT0hybUdDbzB4RWUxM210TW1YUmNvRQ&client=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&protocol=oauth2&response_type=code&scope=openid%20profile%20email&redirect_uri=http%3A%2F%2Fgeneratr.qub.ac.uk%2Flogin%2Foauth2%2Fcode%2Fshinyproxy&nonce=I6dmjLbUyJOgdXAydIuE3I0r0gt1rEbj9BF1qvLZck0"
                     },
                     {
                         "status": 302,
@@ -300,15 +300,15 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=D4WIq1Uwl_GlGWOWfpz8z5wK-AYGLaEdQ75rGrWocKA%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=s-3vKA4PQAUH5cvd0h_3I2G4zp-by3JcRVxmy_YiRJY"
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=GWNW-kvE9WRnR7Wn7Pfly2jD8l63adj_AVC6QjrYpsc%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=ZsF8lEIvxvTkzOChU26kSgHH5xM1mQR3oQ8tQKxRMWQ"
                     },
                     {
                         "status": 302,
-                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=sfqZ_r_M9vhZAiTIHUabRMNf1lbey2RjbJX5K0EI8fY%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=JUXuKBTzyxbNAXixnpR5mzAD1OX9LV2Skm9Vc93Jibc"
+                        "url": "https://generatr.eu.auth0.com/authorize?response_type=code&client_id=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&scope=openid%20profile%20email&state=VUN6piihunP4cNVQR7yV73ayb_BKkXBqmewXJt3tph8%3D&redirect_uri=http://generatr.qub.ac.uk/login/oauth2/code/shinyproxy&nonce=ysw9HL-r06AXCIBNnzhCphSkb0A1Tc2qEJgyhxlp2WA"
                     },
                     {
                         "status": 302,
-                        "url": "https://generatr.eu.auth0.com/login?state=hKFo2SBxQXJaSE1NNlY1amJXbThlTEtIWm9Id09rdmFkdGh5M6FupWxvZ2luo3RpZNkgTmgyaFF0Tk14MnMzQnJYLUVKd0c1a1JXSzdhUW1hdmKjY2lk2SA1NkFMTHBkR0tzT0hybUdDbzB4RWUxM210TW1YUmNvRQ&client=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&protocol=oauth2&response_type=code&scope=openid%20profile%20email&redirect_uri=http%3A%2F%2Fgeneratr.qub.ac.uk%2Flogin%2Foauth2%2Fcode%2Fshinyproxy&nonce=s-3vKA4PQAUH5cvd0h_3I2G4zp-by3JcRVxmy_YiRJY"
+                        "url": "https://generatr.eu.auth0.com/login?state=hKFo2SBhYUdGT3FyX3lOdkFweF9HZ1RoOVA5UkpQNjlzT3BQWqFupWxvZ2luo3RpZNkgZ3UxTUxBZVBBUFdaRWRPTjVoeTR5TjdYVkJNMk9TbXmjY2lk2SA1NkFMTHBkR0tzT0hybUdDbzB4RWUxM210TW1YUmNvRQ&client=56ALLpdGKsOHrmGCo0xEe13mtMmXRcoE&protocol=oauth2&response_type=code&scope=openid%20profile%20email&redirect_uri=http%3A%2F%2Fgeneratr.qub.ac.uk%2Flogin%2Foauth2%2Fcode%2Fshinyproxy&nonce=ZsF8lEIvxvTkzOChU26kSgHH5xM1mQR3oQ8tQKxRMWQ"
                     },
                     {
                         "status": 302,

@@ -188,7 +188,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pcbi.1002967/1/pcbi.1002967.s010.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20240508%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240508T022457Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=0855605aab3859d68f542bb1cb2fd75de086b4dc1415c378fc4014e77e19d08e11cb4b765ecc28d3c4665073de0e6c00e3622ae86095510af186bf1dc9959545458f3e319fff805ea0c8018be2cb2e5954fb9e4d4df08b6e755b025c80c1f804e58fac3d4d7e9f2b24a657e3aa0a5045d90dc581a9a759f2b40e5d92c7aaeb8ecfaaaf23860e8377b8747799aae2bd040144552639d63933dff96972894dce251dec85fedec67dec5c178d4338ac999d1f0c24a3f55c9bc63f21069a8706d51454d09cdf127737da94a34dd8f8eab18e4f078cf2f359af0d47a11f7c4ae90fa8b85bdf76a5a23ef36620369a493ff9a47a95f1ccd7d26044dec28a52d82379c5"
+                        "url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pcbi.1002967/1/pcbi.1002967.s010.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20240510%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240510T012740Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=80dafce4076fffa80eaed48bba7bdf3c4ccca7056521d51043e5bfa42ad8d79144346be847d752aad0d4b2af984e5ad9fbd1d6f4ec8ead2aad32ade806c1b5b355c9b77f8d51f483094e1a721439ad62c2bead833af73a27f00860fc4d56d217d0f82ed686f11ea025a0562e1d140561656a5f53a1cab0854bf01bb8c96d8e3e122a403eeb9ce7889e0d0e71e5377eb2241cba44c7667173c79cdbb4ef6cf087aabac134e8b9bd9e572c5159b4436454dd75e95e4798465253a3c847998dcea7c24840575e3351688858ac1e1a42464087b91a0058fd41d807040b6d33c9ecd7e8ce5e7dbb13e3ffa0c50c4a9dda864c3165840d31c6270d22161192a0d87580"
                     }
                 ],
                 "ssl": true,
@@ -254,19 +254,7 @@
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1002967.s010&type=supplementary"
-                    },
-                    {
-                        "status": 301,
-                        "url": "https://journals.plos.org/plosone/doi?id=10.1371/journal.pcbi.1002967.s010"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://dx.plos.org/10.1371/journal.pcbi.1002967.s010"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pcbi.1002967/1/pcbi.1002967.s010.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20240508%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240508T015419Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=672800f8fd50699a4655b833c517f71072254884ab378a09c3aa89bfefe5fa414d724514f3342f6c44b8005ccbbbaf15abc27df080ab72b244e9caca6d1212e8b92cc97fbf781ad3bce515a748c26a992a8f09f6b6974777913f1dc8355f71459c592a825c25190e453d17e763cd034b024f0a9324016f92b625f64a980cf73ddc94d494d14908c0c974950596bc3594bd579c75dfa9cfef4a272158397a5123ec94e3b603306b111451bfa57be03dc5f2cf959ccd8419c843c27038da2f5b087703ec2914823c74e3d05dfd1c0a8314f06d514195998944518cba69869218f4991ae55f2694655e9a543ae890f044a288e4efa1298474c37c856e3ef460bf8d"
+                        "url": "https://github.com/deap"
                     }
                 ],
                 "ssl": true,

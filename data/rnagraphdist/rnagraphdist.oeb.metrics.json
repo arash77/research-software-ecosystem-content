@@ -121,7 +121,7 @@
                         "url": "https://www.rna.uni-jena.de/research/software/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         },
@@ -161,7 +161,7 @@
                         "url": "https://www.rna.uni-jena.de/research/software/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }
