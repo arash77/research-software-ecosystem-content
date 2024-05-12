@@ -107,7 +107,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/INFORNA/Input.jsp;jsessionid=E7E33AC474D208C9C15ECDA5A3FEDF54"
+                        "url": "http://rna.informatik.uni-freiburg.de/INFORNA/Input.jsp;jsessionid=F624C8C66943553B81CC1DEFA019D468"
                     }
                 ],
                 "ssl": null,
@@ -212,7 +212,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/INFORNA/Input.jsp;jsessionid=083659B5F815136D956FFE0B97D9261F"
+                        "url": "http://rna.informatik.uni-freiburg.de/INFORNA/Input.jsp;jsessionid=7463E0F88194238CF50B5FF6D083653C"
                     }
                 ],
                 "ssl": null,

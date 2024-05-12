@@ -106,11 +106,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 500,
                 "redirects": [
                     {
                         "status": 303,
-                        "url": "http://s.tartaglialab.com/update_submission/829466/f1046cba72"
+                        "url": "http://s.tartaglialab.com/update_submission/830040/2060d36646"
                     }
                 ],
                 "ssl": null,
@@ -135,11 +135,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 500,
                 "redirects": [
                     {
                         "status": 303,
-                        "url": "http://s.tartaglialab.com/update_submission/829465/ae36731ddb"
+                        "url": "http://s.tartaglialab.com/update_submission/830040/2060d36646"
                     }
                 ],
                 "ssl": null,

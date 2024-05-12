@@ -240,11 +240,11 @@
                     },
                     {
                         "status": 301,
-                        "url": "https://arachnoserver.qfab.org/mainMenu.html;jsessionid=79FDD75BD55A93AD95E28161788A8E3A"
+                        "url": "https://arachnoserver.qfab.org/mainMenu.html;jsessionid=1BC798358180616DBFEEC986B2BC7A21"
                     },
                     {
                         "status": 302,
-                        "url": "http://arachnoserver.qfab.org/mainMenu.html;jsessionid=79FDD75BD55A93AD95E28161788A8E3A"
+                        "url": "http://arachnoserver.qfab.org/mainMenu.html;jsessionid=1BC798358180616DBFEEC986B2BC7A21"
                     }
                 ],
                 "ssl": true,
@@ -280,11 +280,11 @@
                     },
                     {
                         "status": 301,
-                        "url": "https://arachnoserver.qfab.org/mainMenu.html;jsessionid=975072DE80A2ED326A1B19E7ABD9FB14"
+                        "url": "https://arachnoserver.qfab.org/mainMenu.html;jsessionid=1005AAEB49E5CC40E4229181EF1FD022"
                     },
                     {
                         "status": 302,
-                        "url": "http://arachnoserver.qfab.org/mainMenu.html;jsessionid=975072DE80A2ED326A1B19E7ABD9FB14"
+                        "url": "http://arachnoserver.qfab.org/mainMenu.html;jsessionid=1005AAEB49E5CC40E4229181EF1FD022"
                     }
                 ],
                 "ssl": true,

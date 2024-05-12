@@ -430,9 +430,9 @@
             "website": {
                 "bioschemas": false,
                 "copyright": false,
-                "https": false,
+                "https": true,
                 "license": true,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
@@ -470,9 +470,9 @@
             "website": {
                 "bioschemas": false,
                 "copyright": false,
-                "https": false,
+                "https": true,
                 "license": true,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
@@ -487,7 +487,7 @@
                         "url": "https://www.google.com/a/compgen.org/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&followup=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&ul=1"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

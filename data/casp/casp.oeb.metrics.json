@@ -154,7 +154,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.casplab.com/?subid1=20240508-1334-50ab-82d6-6306c32b7132"
+                        "url": "http://ww25.casplab.com/?subid1=20240510-1248-09b7-afb5-8b990d842ffe"
                     }
                 ],
                 "ssl": null,
@@ -186,7 +186,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww38.casplab.com/"
+                        "url": "http://ww25.casplab.com/?subid1=20240510-1248-18d7-a650-94ae08f25c3c"
                     }
                 ],
                 "ssl": null,

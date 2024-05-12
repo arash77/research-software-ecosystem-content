@@ -111,7 +111,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://list-s2.msl.ubc.ca/;jsessionid=8352A47A14D646CAB9B5189C3B28690B?session=8352A47A14D646CAB9B5189C3B28690B"
+                        "url": "https://list-s2.msl.ubc.ca/;jsessionid=CA54AF9285EE6A9E17444748182503B9?session=CA54AF9285EE6A9E17444748182503B9"
                     }
                 ],
                 "ssl": true,
@@ -140,7 +140,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://list-s2.msl.ubc.ca/;jsessionid=28B5ABD5691741CBEED7EA502C8858E4?session=28B5ABD5691741CBEED7EA502C8858E4"
+                        "url": "https://list-s2.msl.ubc.ca/;jsessionid=04408435916EE470ABF08264F54D6969?session=04408435916EE470ABF08264F54D6969"
                     }
                 ],
                 "ssl": true,
