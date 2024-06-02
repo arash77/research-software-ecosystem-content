@@ -135,11 +135,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.hgvbaseg2p.org/index?subid1=20240525-1323-07e2-a0dd-1e0c49f24f80"
+                        "url": "http://ww16.hgvbaseg2p.org/index?sub1=20240530-1301-04a2-aad4-fb5ac759809a"
                     }
                 ],
                 "ssl": null,
@@ -167,11 +167,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 439,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww16.hgvbaseg2p.org/index?sub1=20240525-1323-071b-a021-5f3b1296e0ba"
+                        "url": "http://ww16.hgvbaseg2p.org/index?sub1=20240530-1301-0054-87b1-230ceee7d197"
                     }
                 ],
                 "ssl": null,

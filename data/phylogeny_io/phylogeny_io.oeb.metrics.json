@@ -114,7 +114,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.phylogeny.io/?subid1=20240525-1450-4501-8a6d-776fb3e1d5bb"
+                        "url": "http://ww25.phylogeny.io/?subid1=20240601-1443-1843-9de6-15169758e734"
                     }
                 ],
                 "ssl": null,
@@ -149,7 +149,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.phylogeny.io/?subid1=20240525-1450-4566-864b-eb363213bf60"
+                        "url": "http://ww25.phylogeny.io/?subid1=20240601-1443-1915-af88-d5edb0e625a7"
                     }
                 ],
                 "ssl": null,

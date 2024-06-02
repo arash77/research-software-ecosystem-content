@@ -125,7 +125,7 @@
                 "copyright": false,
                 "https": true,
                 "license": false,
-                "operational": 200,
+                "operational": 503,
                 "redirects": [
                     {
                         "status": 301,
@@ -263,8 +263,12 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 302,
+                "operational": 200,
                 "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://crdd.osdd.net/raghava/ar_nhpred/"
+                    },
                     {
                         "status": 301,
                         "url": "https://www.imtech.res.in/raghava/ar_nhpred"
@@ -299,7 +303,7 @@
                 "copyright": false,
                 "https": true,
                 "license": false,
-                "operational": 200,
+                "operational": 503,
                 "redirects": [
                     {
                         "status": 301,

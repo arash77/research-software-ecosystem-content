@@ -150,11 +150,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.casplab.com/?subid1=20240525-1231-0029-9779-f2bb4c0c6d1c"
+                        "url": "http://ww25.casplab.com/?subid1=20240530-1208-482e-a98c-6f94b641e14b"
                     }
                 ],
                 "ssl": null,
@@ -182,11 +182,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.casplab.com/?subid1=20240525-1231-0075-aef7-9bb32bb19df3"
+                        "url": "http://ww25.casplab.com/?subid1=20240530-1208-470c-a6d9-7fec20ec4bd1"
                     }
                 ],
                 "ssl": null,
