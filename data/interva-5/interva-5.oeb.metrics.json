@@ -111,11 +111,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.interva.net/?subid1=20240525-1711-579e-a8ea-c8976b496867"
+                        "url": "http://ww25.interva.net/?subid1=20240530-1604-0837-ad86-f8c078532efb"
                     }
                 ],
                 "ssl": null,
@@ -140,11 +140,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.interva.net/?subid1=20240525-1629-0754-aaf5-e5e4f24ffa1f"
+                        "url": "http://ww25.interva.net/?subid1=20240530-1604-086b-aae8-d251523317e3"
                     }
                 ],
                 "ssl": null,

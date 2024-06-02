@@ -137,7 +137,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/strelkasomaticvariantcaller/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/strelkasomaticvariantcaller/&passive=1209600&service=jotspot&ifkv=AaSxoQwablh-cRDnGS0593L-1fwoQLOwgJ17z8Qk7Krt-lZh0LLltayyfXzD0UUKBnDv-W36cn33XA"
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/strelkasomaticvariantcaller/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/strelkasomaticvariantcaller/&passive=1209600&service=jotspot&ifkv=AS5LTASoCDIck6bbCL7xm0zCHlG8V_wX7VhAScFiTfjAyjjvrINLIXbdrphutJDqg2COagDw6B43sQ"
                     },
                     {
                         "status": 302,
@@ -145,7 +145,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fstrelkasomaticvariantcaller%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fstrelkasomaticvariantcaller%2F&ifkv=AaSxoQwtpikWsMBVhtE7MNvrezPEAiW11bpmPbLSlfFcEnCwQ1T7GBniuspJsVIiorWt_wl_PY7LDA&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1091397663%3A1716602202347569&ddm=0"
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fstrelkasomaticvariantcaller%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fstrelkasomaticvariantcaller%2F&ifkv=AS5LTAR97GTTDOpp-6iQNmYjq7JRdkongfvweF6e_LlMNitP5YZOkM5Z_AmrUUBAVrUkm3-kxPkZ3g&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-905233335%3A1717206364898780&ddm=0"
                     },
                     {
                         "status": 302,
@@ -621,7 +621,7 @@
                 "description": true
             },
             "website": {
-                "bioschemas": true,
+                "bioschemas": false,
                 "copyright": false,
                 "https": true,
                 "license": false,
@@ -629,7 +629,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/strelkasomaticvariantcaller/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/strelkasomaticvariantcaller/&passive=1209600&service=jotspot&ifkv=AaSxoQwk2kNTdDpci1C24-OklOw-1qvhbn3rM80jeHI6xhsGX9mzy5bMZTIUGT-pcbMYTGnJxengZg"
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/strelkasomaticvariantcaller/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/strelkasomaticvariantcaller/&passive=1209600&service=jotspot&ifkv=AS5LTATMEvpeC1prL2NcAvxAKUw6hO3SB99gMgbfBkFe6jkV2s6Is4ru3JcW9kecHE8vpBmHfyDJbw"
                     },
                     {
                         "status": 302,
@@ -637,7 +637,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fstrelkasomaticvariantcaller%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fstrelkasomaticvariantcaller%2F&ifkv=AaSxoQxsi6enyyChjEWoD6V1iHsaSi3fkGnrtNOPAmGGMwBaAIVuMGeal66-Eit-mjckVKGAypsqYw&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S16800989%3A1716530919754775&ddm=0"
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fstrelkasomaticvariantcaller%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fstrelkasomaticvariantcaller%2F&ifkv=AS5LTAQoerLMypPStgRRwp7e9vAiq2OC-7DaN6bw5j0ZTxPdzdonM80_otrwpmFAAOTcGEcSrlPsIA&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S722079609%3A1717221230598713&ddm=0"
                     },
                     {
                         "status": 302,

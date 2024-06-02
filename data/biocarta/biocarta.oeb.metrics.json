@@ -33,7 +33,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://www.blogger.com/blogin.g?blogspotURL%3Dhttp://www.biocarta.com/%26type%3Dblog%26zx%3D1a18dob7fkt1e&hl=es&passive=true&service=blogger&ifkv=AaSxoQxkfdNUxzzXiRLkJav9eMEdRAkWeQxgZxA0fl2w1gcznVw_s_oID-6200h1EIkNmXYxZmFohg"
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://www.blogger.com/blogin.g?blogspotURL%3Dhttp://www.biocarta.com/%26type%3Dblog%26zx%3D1gdfpcj6hday3&hl=es&passive=true&service=blogger&ifkv=AS5LTARRYrcd-ngjC74Tc7CXlXC3yhWsMbSOhnL7M5IrRoliJekI-F6syQtqUi8KyPLTWMjezEHqFQ"
                     },
                     {
                         "status": 302,
@@ -41,11 +41,11 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/ServiceLogin?service=blogger&hl=es&passive=true&continue=https://www.blogger.com/blogin.g?blogspotURL%3Dhttp://www.biocarta.com/%26type%3Dblog%26zx%3D1a18dob7fkt1e"
+                        "url": "https://accounts.google.com/ServiceLogin?service=blogger&hl=es&passive=true&continue=https://www.blogger.com/blogin.g?blogspotURL%3Dhttp://www.biocarta.com/%26type%3Dblog%26zx%3D1gdfpcj6hday3"
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.blogger.com%2Fblogin.g%3FblogspotURL%3Dhttp%3A%2F%2Fwww.biocarta.com%2F%26type%3Dblog%26zx%3D1a18dob7fkt1e&hl=es&ifkv=AaSxoQxy7LhE_cKR6PTOGgQu-mwB-wLokzRrejDV0pZyzqY5dRk_vK81zZ6xkWWQyseu5IF1t18BIw&passive=true&service=blogger&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1039951217%3A1716603780514533&ddm=0"
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.blogger.com%2Fblogin.g%3FblogspotURL%3Dhttp%3A%2F%2Fwww.biocarta.com%2F%26type%3Dblog%26zx%3D1gdfpcj6hday3&hl=es&ifkv=AS5LTASz5fSCidlYbk9AdryqjjcMa-ajilONfORIw2ksssO4mazLWLLljR1NOOodQOeCNG4vk1T23g&passive=true&service=blogger&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-66989137%3A1717207979546704&ddm=0"
                     },
                     {
                         "status": 302,
@@ -85,7 +85,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://www.blogger.com/blogin.g?blogspotURL%3Dhttp://www.biocarta.com/%26type%3Dblog%26zx%3Dbpidmf24qyr6&hl=es&passive=true&service=blogger&ifkv=AaSxoQwQ-ey_-iCAScVz-KNt9WSwQIfXZvLDDoeDseuOf6dfP21Mpb0A-7jnWfx_iRk-PTnV9RuA"
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://www.blogger.com/blogin.g?blogspotURL%3Dhttp://www.biocarta.com/%26type%3Dblog%26zx%3D1hzeqaolagv8g&hl=es&passive=true&service=blogger&ifkv=AS5LTAQMEHYeln7bZnqZYWm0O5mzFLkVDFt6uORWtnCEWJCCQ-xhiyiDpH3FbKfdd_xOmWiMnwkTPA"
                     },
                     {
                         "status": 302,
@@ -93,11 +93,11 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/ServiceLogin?service=blogger&hl=es&passive=true&continue=https://www.blogger.com/blogin.g?blogspotURL%3Dhttp://www.biocarta.com/%26type%3Dblog%26zx%3Dbpidmf24qyr6"
+                        "url": "https://accounts.google.com/ServiceLogin?service=blogger&hl=es&passive=true&continue=https://www.blogger.com/blogin.g?blogspotURL%3Dhttp://www.biocarta.com/%26type%3Dblog%26zx%3D1hzeqaolagv8g"
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.blogger.com%2Fblogin.g%3FblogspotURL%3Dhttp%3A%2F%2Fwww.biocarta.com%2F%26type%3Dblog%26zx%3Dbpidmf24qyr6&hl=es&ifkv=AaSxoQxaA9eUt7YRChUgBIEm3BqLtMxBA7mGOweJmYF37OHsaOHIRePRnBphFIaLOymN1frO7ysXOg&passive=true&service=blogger&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-2079720067%3A1716603890292973&ddm=0"
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.blogger.com%2Fblogin.g%3FblogspotURL%3Dhttp%3A%2F%2Fwww.biocarta.com%2F%26type%3Dblog%26zx%3D1hzeqaolagv8g&hl=es&ifkv=AS5LTARIS3LIL1_30JvVETJxuJuPiBlP4xMnxWqy0QhrT9MTWNcrD_9mpbWGl0vlZJFMBD2BHH4rYw&passive=true&service=blogger&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S252199997%3A1717208086909093&ddm=0"
                     },
                     {
                         "status": 302,

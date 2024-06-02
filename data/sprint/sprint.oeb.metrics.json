@@ -103,11 +103,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww16.r-sprint.org/?sub1=20240525-1552-235b-a91d-2594874ed22c"
+                        "url": "http://ww38.r-sprint.org/"
                     }
                 ],
                 "ssl": null,
@@ -135,11 +135,11 @@
                 "copyright": false,
                 "https": false,
                 "license": false,
-                "operational": 432,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww16.r-sprint.org/?sub1=20240525-1552-23a2-8510-b2011e1f9178"
+                        "url": "http://ww16.r-sprint.org/?sub1=20240530-1526-018b-a018-52a66bce5902"
                     }
                 ],
                 "ssl": null,
