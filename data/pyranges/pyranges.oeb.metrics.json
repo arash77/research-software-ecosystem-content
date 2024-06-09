@@ -100,7 +100,7 @@
                 "description": true
             },
             "website": {
-                "bioschemas": true,
+                "bioschemas": false,
                 "copyright": false,
                 "https": true,
                 "license": false,
@@ -109,10 +109,6 @@
                     {
                         "status": 301,
                         "url": "https://github.com/endrebak/pyranges"
-                    },
-                    {
-                        "status": 301,
-                        "url": "https://github.com/pyranges/pyranges"
                     }
                 ],
                 "ssl": true,
@@ -1039,7 +1035,7 @@
                 "description": true
             },
             "website": {
-                "bioschemas": true,
+                "bioschemas": false,
                 "copyright": false,
                 "https": true,
                 "license": false,
@@ -1048,10 +1044,6 @@
                     {
                         "status": 301,
                         "url": "https://github.com/endrebak/pyranges"
-                    },
-                    {
-                        "status": 301,
-                        "url": "https://github.com/pyranges/pyranges"
                     }
                 ],
                 "ssl": true,
@@ -4504,7 +4496,7 @@
                 "description": true
             },
             "website": {
-                "bioschemas": true,
+                "bioschemas": false,
                 "copyright": false,
                 "https": true,
                 "license": false,
@@ -4513,10 +4505,6 @@
                     {
                         "status": 301,
                         "url": "https://github.com/endrebak/pyranges"
-                    },
-                    {
-                        "status": 301,
-                        "url": "https://github.com/pyranges/pyranges"
                     }
                 ],
                 "ssl": true,
@@ -4563,7 +4551,7 @@
                 "description": true
             },
             "website": {
-                "bioschemas": false,
+                "bioschemas": true,
                 "copyright": false,
                 "https": true,
                 "license": false,
@@ -4572,6 +4560,10 @@
                     {
                         "status": 301,
                         "url": "https://github.com/endrebak/pyranges"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://github.com/pyranges/pyranges"
                     }
                 ],
                 "ssl": true,
