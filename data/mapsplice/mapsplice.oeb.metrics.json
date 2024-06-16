@@ -227,6 +227,16 @@
                 "https": false,
                 "license": false,
                 "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://compbio.med.harvard.edu/Supplements/ChIP-seq"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://compbio.med.harvard.edu/Supplements/ChIP-seq/"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }
@@ -247,9 +257,9 @@
             "website": {
                 "bioschemas": false,
                 "copyright": false,
-                "https": false,
+                "https": true,
                 "license": false,
-                "operational": 404,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
