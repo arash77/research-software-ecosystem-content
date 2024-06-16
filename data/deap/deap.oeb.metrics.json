@@ -188,7 +188,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pcbi.1002967/1/pcbi.1002967.s010.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20240609%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240609T012342Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=3b49b8765cb7bbfb02dd7d3c324c186e03e82c74d9b8d3e515ed13281062bf835b24ebb9f2b0aba2743e472c25f4dbfe8c42da50b6ab376b0a8ccaaf2a3e2b479a6d2ccb55ad1453b5ac6e4653c1e5184a0b3b09b6c892da0ccb152224e83940014989524afff6ffe8fa9f29189cc42d28d71379df5a4de96fc7a97ca6f79ddd82ba001bbb24a619afe7d7af8a3ea0c269294ccdaf5791cce2df02fd7217671edf9cb9ef88d6cd1ef8f2e4bd5f7f117113bd58b0a2d53f91c59e1db05a1f34ee1115881803b71c4972d5d456990c7bfdd2c937280832dda79494b04bc09981c8f7f462882ee7b9d854a349b73cb560807261d305107b9a2dad235178d4203168"
+                        "url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pcbi.1002967/1/pcbi.1002967.s010.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20240613%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240613T092930Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=77c22666faaa42f7caee73579aa260ee34db0df5535e8c5e73943048adcde05494618f0ccc57324ab3a3ebb3312b0fa769ae24e97fe4036da81abb0fc94c6aea411948656caf1aeca7c749176c916aaf9cd3c804f5f6268b7557abdea9f80c2f199ba5d9fcf6d5ef5f412a237c8083cb7bce6c1da512b2366163addcc75566a7cb179589d9e5140583804b213b5c236f634c0ea7a36f4c96519c19c9e90d6833630b5240453763380654234eda08b2ef3c22c9112d689d033a59823c1c623b3a8abfa414fec7950b80ab1f9fa286bb283072d23f408c06247c09565d8c1207f47c5c97aeea3509806a80a17a15bea79e0045214239581da111c2d3d95a1d4c97"
                     }
                 ],
                 "ssl": true,
@@ -217,7 +217,7 @@
                 "description": true
             },
             "website": {
-                "bioschemas": false,
+                "bioschemas": true,
                 "copyright": false,
                 "https": true,
                 "license": false,
