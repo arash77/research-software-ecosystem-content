@@ -9920,12 +9920,12 @@ bioconda:dialign-tx a schema1:SoftwareApplication ;
 bioconda:diamond a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1038/s41592-021-01101-x" ;
     schema1:description "Accelerated BLAST compatible local sequence aligner." ;
-    schema1:downloadUrl "https://github.com/bbuchfink/diamond/archive/v2.1.19.tar.gz" ;
+    schema1:downloadUrl "https://github.com/bbuchfink/diamond/archive/v2.1.21.tar.gz" ;
     schema1:identifier biotools:diamond ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:name "diamond" ;
     schema1:softwareHelp "https://github.com/bbuchfink/diamond/wiki" ;
-    schema1:softwareVersion "2.1.19" ;
+    schema1:softwareVersion "2.1.21" ;
     schema1:url "https://github.com/bbuchfink/diamond" ;
     spdx:builtFrom biotools:diamond .
 
@@ -10098,13 +10098,13 @@ bioconda:egglib a schema1:SoftwareApplication ;
     schema1:author "ranwez" ;
     schema1:citation "doi:10.1111/1755-0998.13672" ;
     schema1:description "Evolutionary Genetics and Genomics Library. EggLib is a C++/Python library and program package for evolutionary genetics and genomics. Main features are sequence data management, sequence polymorphism analysis, and coalescent simulations. EggLib is a flexible Python module with a performant underlying C++ library and allows fast and intuitive development of Python programs and scripts." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/e/egglib/egglib-3.5.2.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/e/egglib/egglib-3.6.0.tar.gz" ;
     schema1:identifier biotools:egglib ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:maintainer "ranwez" ;
     schema1:name "egglib" ;
     schema1:softwareHelp "https://www.egglib.org/index.html" ;
-    schema1:softwareVersion "3.5.2" ;
+    schema1:softwareVersion "3.6.0" ;
     schema1:url "https://egglib.org" ;
     spdx:builtFrom biotools:egglib .
 
@@ -10306,12 +10306,12 @@ bioconda:fastool a schema1:SoftwareApplication ;
 bioconda:fastp a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1002/imt2.107" ;
     schema1:description "A ultra-fast FASTQ preprocessor with full features (QC/adapters/trimming/filtering/splitting...)." ;
-    schema1:downloadUrl "https://github.com/OpenGene/fastp/archive/v1.0.1.tar.gz" ;
+    schema1:downloadUrl "https://github.com/OpenGene/fastp/archive/v1.1.0.tar.gz" ;
     schema1:identifier biotools:fastp ;
     schema1:license "MIT" ;
     schema1:name "fastp" ;
-    schema1:softwareHelp "https://github.com/OpenGene/fastp/blob/v1.0.1/README.md" ;
-    schema1:softwareVersion "1.0.1" ;
+    schema1:softwareHelp "https://github.com/OpenGene/fastp/blob/v1.1.0/README.md" ;
+    schema1:softwareVersion "1.1.0" ;
     schema1:url "https://github.com/OpenGene/fastp" ;
     spdx:builtFrom biotools:fastp .
 
@@ -14017,13 +14017,13 @@ bioconda:pyhmmer a schema1:SoftwareApplication ;
     schema1:author "althonos" ;
     schema1:citation "doi:10.1093/bioinformatics/btad214" ;
     schema1:description "Cython bindings and Python interface to HMMER3." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/p/pyhmmer/pyhmmer-0.11.4.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/p/pyhmmer/pyhmmer-0.12.0.tar.gz" ;
     schema1:identifier biotools:pyhmmer ;
     schema1:license "MIT" ;
     schema1:maintainer "althonos" ;
     schema1:name "pyhmmer" ;
     schema1:softwareHelp "https://pyhmmer.readthedocs.io" ;
-    schema1:softwareVersion "0.11.4" ;
+    schema1:softwareVersion "0.12.0" ;
     schema1:url "https://github.com/althonos/pyhmmer" ;
     spdx:builtFrom biotools:pyhmmer .
 
