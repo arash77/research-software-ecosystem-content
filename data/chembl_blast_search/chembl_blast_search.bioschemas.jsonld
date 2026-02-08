@@ -36,36 +36,32 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw1074",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/chembl_blast_search",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Mark Davies",
       "bsc:input": {
-        "@id": "_:N0078414e47ad4282b370756d9a36b496"
+        "@id": "_:N30fa6e8932fd4590924a0872e91c24ec"
       },
       "bsc:output": {
-        "@id": "_:N5990eb99537d472bb7338be96fb917e9"
+        "@id": "_:N46d4389d7932450695ce25b5a48d2ce6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0080"
+        },
+        {
           "@id": "edam:topic_2258"
         },
         {
           "@id": "edam:topic_0154"
-        },
-        {
-          "@id": "edam:topic_0080"
         }
       ],
       "sc:author": "ChEMBL Team",
       "sc:citation": [
-        "pubmed:27899562",
         "pmcid:PMC5210557",
+        "pubmed:27899562",
         {
           "@id": "https://doi.org/10.1093/nar/gkw1074"
         }
@@ -77,23 +73,31 @@
       "sc:name": "ChEMBL BLAST Search",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
         {
-          "@id": "https://www.ebi.ac.uk/chembl/target"
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
-          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+          "@id": "https://www.ebi.ac.uk/chembl/target"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "https://www.ebi.ac.uk/chembl/target"
     },
     {
-      "@id": "_:N0078414e47ad4282b370756d9a36b496",
+      "@id": "_:N46d4389d7932450695ce25b5a48d2ce6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0962"
+      },
+      "sc:name": "Small molecule report"
+    },
+    {
+      "@id": "_:N30fa6e8932fd4590924a0872e91c24ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -104,12 +108,8 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N5990eb99537d472bb7338be96fb917e9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0962"
-      },
-      "sc:name": "Small molecule report"
+      "@id": "https://doi.org/10.1093/nar/gkw1074",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

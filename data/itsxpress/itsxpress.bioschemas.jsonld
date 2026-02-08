@@ -40,19 +40,19 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Adam Rivers",
       "bsc:input": {
-        "@id": "_:N5d442d4af6e4435e807bfbcc2af13ca4"
+        "@id": "_:Nae501ab46a244b718e6e3159d449fe0d"
       },
       "bsc:output": {
-        "@id": "_:N26421b0a7ac6430da98bc63f72f50f49"
+        "@id": "_:N6b25d28d7a154320a64de7c34d7f4d87"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3697"
+          "@id": "edam:topic_3174"
         },
         {
-          "@id": "edam:topic_3174"
+          "@id": "edam:topic_3697"
         }
       ],
       "sc:description": "ITSxpress: Software to rapidly trim the Internally transcribed spacer (ITS) region of FASTQ files",
@@ -63,31 +63,31 @@
       "sc:license": "CC0-1.0",
       "sc:name": "ITSxpress",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareVersion": "v1.6.0",
       "sc:url": "https://github.com/USDA-ARS-GBRU/itsxpress"
     },
     {
-      "@id": "_:N26421b0a7ac6430da98bc63f72f50f49",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2975"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2545"
-      },
-      "sc:name": "Nucleic acid sequence (raw)"
-    },
-    {
-      "@id": "_:N5d442d4af6e4435e807bfbcc2af13ca4",
+      "@id": "_:Nae501ab46a244b718e6e3159d449fe0d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_2182"
+      },
+      "sc:name": "Nucleic acid sequence (raw)"
+    },
+    {
+      "@id": "_:N6b25d28d7a154320a64de7c34d7f4d87",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2975"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2545"
       },
       "sc:name": "Nucleic acid sequence (raw)"
     }

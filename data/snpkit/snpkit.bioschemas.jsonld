@@ -40,30 +40,27 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N62aee8d7190d493c9b202a06d245116f"
+          "@id": "_:N44dd78f1a30143faaab50b22e4a77f6e"
         },
         {
-          "@id": "_:Nb470ce112b434b4d9be6c84d6b74db44"
+          "@id": "_:N0f2ed2ca7b384cc190ac3e6e3a82c39d"
         },
         {
-          "@id": "_:Na23a7abfc93d40dfbbc4e8b758c4ec6a"
+          "@id": "_:N7025b9ac40ff4a5d968abf9b1550ee71"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3293"
+          "@id": "edam:topic_0769"
         },
         {
-          "@id": "edam:topic_0769"
+          "@id": "edam:topic_3293"
         }
       ],
       "sc:description": "A Modular/Scalable workflow for Microbial Variant Calling, Recombination detection and Phylogenetic tree reconstruction.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_0555"
-        },
         {
           "@id": "edam:operation_3478"
         },
@@ -71,10 +68,13 @@
           "@id": "edam:operation_0451"
         },
         {
-          "@id": "edam:operation_3227"
+          "@id": "edam:operation_0326"
         },
         {
-          "@id": "edam:operation_0326"
+          "@id": "edam:operation_0555"
+        },
+        {
+          "@id": "edam:operation_3227"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -88,15 +88,26 @@
       "sc:url": "https://alipirani88.github.io/snpkit/"
     },
     {
-      "@id": "_:N62aee8d7190d493c9b202a06d245116f",
+      "@id": "_:N44dd78f1a30143faaab50b22e4a77f6e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1068"
+        "@id": "edam:data_2523"
       },
-      "sc:name": "Phylogenetic tree ID"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2049"
+        },
+        {
+          "@id": "edam:format_2556"
+        },
+        {
+          "@id": "edam:format_2557"
+        }
+      ],
+      "sc:name": "Phylogenetic data"
     },
     {
-      "@id": "_:Nb470ce112b434b4d9be6c84d6b74db44",
+      "@id": "_:N0f2ed2ca7b384cc190ac3e6e3a82c39d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0949"
@@ -104,23 +115,12 @@
       "sc:name": "Workflow metadata"
     },
     {
-      "@id": "_:Na23a7abfc93d40dfbbc4e8b758c4ec6a",
+      "@id": "_:N7025b9ac40ff4a5d968abf9b1550ee71",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2523"
+        "@id": "edam:data_1068"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2557"
-        },
-        {
-          "@id": "edam:format_2556"
-        },
-        {
-          "@id": "edam:format_2049"
-        }
-      ],
-      "sc:name": "Phylogenetic data"
+      "sc:name": "Phylogenetic tree ID"
     }
   ]
 }

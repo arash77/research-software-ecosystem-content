@@ -40,17 +40,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Michael Wainwright",
       "bsc:input": {
-        "@id": "_:N5e3de7fe8ae746e4aeca584963fd93ad"
+        "@id": "_:N10280f99c3a4456d8ba44a31375156a1"
       },
       "bsc:output": [
         {
-          "@id": "_:Nca30b481cd394a558d0b6ba66e0e7071"
+          "@id": "_:Na4180302fb1c43e7a6c7e15462654440"
         },
         {
-          "@id": "_:N2708bc82a14445b5a6723fbc33a48303"
+          "@id": "_:Ned5710e6354e474993a4acfbb914e3b1"
         },
         {
-          "@id": "_:Nf8100c3e00b246ad9cdf3d29c7b5bc71"
+          "@id": "_:N683a314e2abd4ced9a70c5dd2b063b1d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -64,25 +64,25 @@
         }
       ],
       "sc:author": [
-        "Michael Wainwright",
-        "PDBe development team"
+        "PDBe development team",
+        "Michael Wainwright"
       ],
       "sc:citation": [
+        "pubmed:15572779",
         {
           "@id": "https://doi.org/10.1107/s0907444904026460"
-        },
-        "pubmed:15572779"
+        }
       ],
       "sc:description": "Identification and comparison of similar proteins based on secondary structure.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0295"
+          "@id": "edam:operation_0570"
         },
         {
           "@id": "edam:operation_0360"
         },
         {
-          "@id": "edam:operation_0570"
+          "@id": "edam:operation_0295"
         }
       ],
       "sc:name": "PDBeFold",
@@ -104,23 +104,7 @@
       "sc:url": "http://pdbe.org/fold"
     },
     {
-      "@id": "_:Nca30b481cd394a558d0b6ba66e0e7071",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1481"
-      },
-      "sc:name": "Structure alignment (protein)"
-    },
-    {
-      "@id": "_:N2708bc82a14445b5a6723fbc33a48303",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2080"
-      },
-      "sc:name": "Database search results"
-    },
-    {
-      "@id": "_:Nf8100c3e00b246ad9cdf3d29c7b5bc71",
+      "@id": "_:Na4180302fb1c43e7a6c7e15462654440",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -128,7 +112,23 @@
       "sc:name": "Protein structure report"
     },
     {
-      "@id": "_:N5e3de7fe8ae746e4aeca584963fd93ad",
+      "@id": "_:Ned5710e6354e474993a4acfbb914e3b1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N683a314e2abd4ced9a70c5dd2b063b1d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1481"
+      },
+      "sc:name": "Structure alignment (protein)"
+    },
+    {
+      "@id": "_:N10280f99c3a4456d8ba44a31375156a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

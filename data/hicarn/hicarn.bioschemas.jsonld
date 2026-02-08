@@ -53,9 +53,6 @@
           "@id": "edam:topic_3382"
         },
         {
-          "@id": "edam:topic_3474"
-        },
-        {
           "@id": "edam:topic_3940"
         },
         {
@@ -63,6 +60,9 @@
         },
         {
           "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_3474"
         }
       ],
       "sc:citation": [
@@ -88,9 +88,9 @@
       "sc:license": "MIT",
       "sc:name": "HiCARN",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "https://github.com/OluwadareLab/HiCARN"
     }

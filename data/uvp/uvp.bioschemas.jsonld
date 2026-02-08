@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/s41598-018-33731-1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0003-1064-6895",
       "@type": "sc:Person"
     },
@@ -48,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N512fe6d35f1a4aeaaa6962eb3735fd78"
+          "@id": "_:N19f526b016e24a099aadab17d96ecfe7"
         },
         {
-          "@id": "_:N849180f249c94a8cb226ea1f8fb18b4e"
+          "@id": "_:N026255e363564f67ae9d2714335f791d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -71,8 +67,8 @@
         "@id": "https://orcid.org/0000-0003-1064-6895"
       },
       "sc:citation": [
-        "pmcid:PMC6194142",
         "pubmed:30337678",
+        "pmcid:PMC6194142",
         {
           "@id": "https://doi.org/10.1038/s41598-018-33731-1"
         }
@@ -90,17 +86,28 @@
       "sc:license": "MIT",
       "sc:name": "UVP",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareVersion": [
-        "2.7.0",
-        "2.6.0"
+        "2.6.0",
+        "2.7.0"
       ],
       "sc:url": "https://github.com/CPTR-ReSeqTB/UVP"
     },
     {
-      "@id": "_:N512fe6d35f1a4aeaaa6962eb3735fd78",
+      "@id": "_:N19f526b016e24a099aadab17d96ecfe7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N026255e363564f67ae9d2714335f791d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -111,15 +118,8 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N849180f249c94a8cb226ea1f8fb18b4e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1930"
-      },
-      "sc:name": "DNA sequence"
+      "@id": "https://doi.org/10.1038/s41598-018-33731-1",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

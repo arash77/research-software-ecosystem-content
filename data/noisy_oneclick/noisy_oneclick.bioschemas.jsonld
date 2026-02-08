@@ -40,29 +40,33 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/noisy_oneclick",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N389ff52503af4171bb27308d5064e9ef"
+          "@id": "_:N37f0a1ae581242949a733dab6fa5e4ee"
         },
         {
-          "@id": "_:Ne96c71bd472c4076bf8d608285f0a55b"
+          "@id": "_:N1bb81151e3c24557a403d6e71884a11d"
         },
         {
-          "@id": "_:Neea73108921b4a3aadc251f9d2247c1d"
+          "@id": "_:N877c76718a17488080acac9ce4cc7f22"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1c8684d737fa41798c078f05488fe065"
+          "@id": "_:Ndd4fe94292ff4fc997ee2d657cfa1e7f"
         },
         {
-          "@id": "_:Nd738e8c5795744a28eaa652d6fc6baf3"
+          "@id": "_:Nb96b13f2d28044b3aaa74d6719732348"
         },
         {
-          "@id": "_:N9ef00c91f90749b9ac73542c9921a3cc"
+          "@id": "_:N63201b43e68f40c789c6ee3eb8c63ffa"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -71,13 +75,13 @@
         "@id": "edam:topic_0080"
       },
       "sc:citation": [
-        "pubmed:27137889",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
-        },
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
+        "pubmed:27137889",
         "pmcid:PMC4987906"
       ],
       "sc:description": "Cleaning aligned sequences.",
@@ -89,7 +93,7 @@
       "sc:url": "http://www.bioinf.uni-leipzig.de/Software/noisy/"
     },
     {
-      "@id": "_:N389ff52503af4171bb27308d5064e9ef",
+      "@id": "_:N37f0a1ae581242949a733dab6fa5e4ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -100,18 +104,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne96c71bd472c4076bf8d608285f0a55b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Neea73108921b4a3aadc251f9d2247c1d",
+      "@id": "_:N1bb81151e3c24557a403d6e71884a11d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -122,7 +115,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N1c8684d737fa41798c078f05488fe065",
+      "@id": "_:N877c76718a17488080acac9ce4cc7f22",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -133,7 +126,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd738e8c5795744a28eaa652d6fc6baf3",
+      "@id": "_:Ndd4fe94292ff4fc997ee2d657cfa1e7f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -144,7 +137,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N9ef00c91f90749b9ac73542c9921a3cc",
+      "@id": "_:Nb96b13f2d28044b3aaa74d6719732348",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -155,8 +148,15 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N63201b43e68f40c789c6ee3eb8c63ffa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
     }
   ]
 }

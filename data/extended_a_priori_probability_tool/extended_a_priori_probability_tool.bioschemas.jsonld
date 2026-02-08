@@ -41,26 +41,26 @@
       "biotools:primaryContact": "Ana María Arias Beltrán",
       "bsc:input": [
         {
-          "@id": "_:Nf9a08ace529148a58299d3aacc2e1299"
+          "@id": "_:Nc633f30655ad49e8ba36a289ee146108"
         },
         {
-          "@id": "_:N0604d8c3127a4f1aaa017a046989ad41"
+          "@id": "_:N6a352d0e0b754a9fb2c173790b67edb8"
         },
         {
-          "@id": "_:N83dafac5096e4177929ac4a05804319d"
+          "@id": "_:N55996f6259a2442882f00b63bf78c581"
         }
       ],
       "bsc:output": {
-        "@id": "_:N3eb08cdd02ca4c509a08f2bc701a9d1d"
+        "@id": "_:Nef13a618b2bb4340abb163240392e369"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_2269"
         },
         {
-          "@id": "edam:topic_2269"
+          "@id": "edam:topic_3474"
         }
       ],
       "sc:citation": {
@@ -80,31 +80,31 @@
       "sc:provider": "Instituto Tecnológico de Informática (ITI)",
       "sc:softwareHelp": [
         {
+          "@id": "https://drive.eucaim.cancerimage.eu/s/CAwxZaC4xDzkCA5"
+        },
+        {
           "@id": "https://drive.eucaim.cancerimage.eu/s/Ld2AgbGZmm4qcke"
         },
         {
           "@id": "https://drive.eucaim.cancerimage.eu/s/Z8mYAoPk2JjZLFL"
-        },
-        {
-          "@id": "https://drive.eucaim.cancerimage.eu/s/CAwxZaC4xDzkCA5"
         }
       ],
       "sc:softwareVersion": "v1.0.1",
       "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/4/repositories/image_batch_iti-eapp"
     },
     {
-      "@id": "_:N3eb08cdd02ca4c509a08f2bc701a9d1d",
+      "@id": "_:Nc633f30655ad49e8ba36a289ee146108",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0883"
+        "@id": "edam:data_2968"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3464"
+        "@id": "edam:format_3603"
       },
-      "sc:name": "Structure"
+      "sc:name": "Image"
     },
     {
-      "@id": "_:Nf9a08ace529148a58299d3aacc2e1299",
+      "@id": "_:N6a352d0e0b754a9fb2c173790b67edb8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -115,7 +115,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N0604d8c3127a4f1aaa017a046989ad41",
+      "@id": "_:N55996f6259a2442882f00b63bf78c581",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -126,15 +126,15 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:N83dafac5096e4177929ac4a05804319d",
+      "@id": "_:Nef13a618b2bb4340abb163240392e369",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2968"
+        "@id": "edam:data_0883"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3603"
+        "@id": "edam:format_3464"
       },
-      "sc:name": "Image"
+      "sc:name": "Structure"
     },
     {
       "@id": "https://doi.org/10.1109/ACCESS.2022.3221936",

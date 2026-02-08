@@ -39,58 +39,58 @@
       "@id": "https://bio.tools/gcmodeller",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3ce4ab8370774e269fc80a378aa31b49"
+        "@id": "_:N1d07fd5eaafa48eebb45de6d64c3a014"
       },
       "bsc:output": {
-        "@id": "_:N233fc825d87342adb8e1631b3ff66314"
+        "@id": "_:N61c64f72dd024964993a0cb718dd50fa"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
+        "Suite",
+        "Library",
         "Command-line tool",
         "Bioinformatics portal",
-        "Workflow",
-        "Library",
-        "Suite"
+        "Workflow"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2259"
+          "@id": "edam:topic_3955"
         },
         {
           "@id": "edam:topic_3298"
         },
         {
-          "@id": "edam:topic_3955"
+          "@id": "edam:topic_3172"
         },
         {
-          "@id": "edam:topic_3172"
+          "@id": "edam:topic_2259"
         }
       ],
       "sc:description": "GCModeller: genomics CAD(Computer Assistant Design) Modeller System",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2436"
-        },
-        {
-          "@id": "edam:operation_0571"
-        },
-        {
-          "@id": "edam:operation_3463"
+          "@id": "edam:operation_3929"
         },
         {
           "@id": "edam:operation_2437"
         },
         {
-          "@id": "edam:operation_3566"
+          "@id": "edam:operation_3182"
         },
         {
-          "@id": "edam:operation_3182"
+          "@id": "edam:operation_3463"
+        },
+        {
+          "@id": "edam:operation_0571"
         },
         {
           "@id": "edam:operation_0491"
         },
         {
-          "@id": "edam:operation_3929"
+          "@id": "edam:operation_3566"
+        },
+        {
+          "@id": "edam:operation_2436"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -104,29 +104,7 @@
       "sc:url": "https://gcmodeller.org/"
     },
     {
-      "@id": "_:N3ce4ab8370774e269fc80a378aa31b49",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1333"
-        },
-        {
-          "@id": "edam:format_2200"
-        },
-        {
-          "@id": "edam:format_2182"
-        },
-        {
-          "@id": "edam:format_3770"
-        }
-      ],
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N233fc825d87342adb8e1631b3ff66314",
+      "@id": "_:N61c64f72dd024964993a0cb718dd50fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3779"
@@ -140,6 +118,28 @@
         }
       ],
       "sc:name": "Annotated text"
+    },
+    {
+      "@id": "_:N1d07fd5eaafa48eebb45de6d64c3a014",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2182"
+        },
+        {
+          "@id": "edam:format_1333"
+        },
+        {
+          "@id": "edam:format_3770"
+        },
+        {
+          "@id": "edam:format_2200"
+        }
+      ],
+      "sc:name": "Sequence"
     }
   ]
 }

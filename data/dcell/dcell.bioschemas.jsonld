@@ -44,22 +44,22 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Keiichiro Ono",
       "bsc:input": {
-        "@id": "_:Ne527fa921b594344b0bf0085c2e96040"
+        "@id": "_:N02b019cd780c492b80cf65ab358672b9"
       },
       "bsc:output": {
-        "@id": "_:Nbba04a55a9fd46429e4aabea32115ca3"
+        "@id": "_:N41f84cafa05f4ab6adef94bacddd08cb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3524"
+          "@id": "edam:topic_0602"
         },
         {
           "@id": "edam:topic_3473"
         },
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_3524"
         }
       ],
       "sc:citation": {
@@ -68,19 +68,19 @@
       "sc:description": "A deep neural network simulating basic eukaryotic cell structure and function.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3439"
+          "@id": "edam:operation_3660"
         },
         {
-          "@id": "edam:operation_3660"
+          "@id": "edam:operation_3439"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "MIT",
       "sc:name": "DCell",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/idekerlab/DCell/wiki/Quick-Start-Guide"
@@ -88,7 +88,7 @@
       "sc:url": "http://d-cell.ucsd.edu/"
     },
     {
-      "@id": "_:Ne527fa921b594344b0bf0085c2e96040",
+      "@id": "_:N02b019cd780c492b80cf65ab358672b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0976"
@@ -99,7 +99,7 @@
       "sc:name": "Identifier (by type of data)"
     },
     {
-      "@id": "_:Nbba04a55a9fd46429e4aabea32115ca3",
+      "@id": "_:N41f84cafa05f4ab6adef94bacddd08cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

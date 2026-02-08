@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/autophylo",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1380d317061742c48fbb0179ed634dd0"
+        "@id": "_:Ne7281e2464fa4cd08f389b18df72ba96"
       },
       "bsc:output": {
-        "@id": "_:N99fae20ef6a947c6836696af74edd14f"
+        "@id": "_:N7253c0474fb343ada7a9ef4e6cb4d2d3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -63,7 +63,7 @@
       "sc:url": "http://code.google.com/p/autophylo/"
     },
     {
-      "@id": "_:N1380d317061742c48fbb0179ed634dd0",
+      "@id": "_:Ne7281e2464fa4cd08f389b18df72ba96",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -71,7 +71,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N99fae20ef6a947c6836696af74edd14f",
+      "@id": "_:N7253c0474fb343ada7a9ef4e6cb4d2d3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"

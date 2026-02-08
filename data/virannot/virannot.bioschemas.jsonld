@@ -36,7 +36,15 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1094/PBIOMES-07-19-0037-A",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "http://orcid.org/0000-0001-7361-4159",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3093-5873",
       "@type": "sc:Person"
     },
     {
@@ -47,26 +55,26 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N6aa2b0fed68d47099483b5763b268415"
+          "@id": "_:Nc32c343d22e14237a4c07275361836fc"
         },
         {
-          "@id": "_:N678e628076a54eb8b0469d3ca005fc49"
+          "@id": "_:N380095f8cfd44f1bb980e0874312e42b"
         },
         {
-          "@id": "_:Na070d1624c5d456ab327a691af925e90"
+          "@id": "_:Nf8f746dd5c7f41f79c3ec29f5eab9a95"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ncece4dde71d14d1383d23dd8790c820c"
+        "@id": "_:N1163bf43f6914db99924466e9b4cbde0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3174"
+          "@id": "edam:topic_3697"
         },
         {
-          "@id": "edam:topic_3697"
+          "@id": "edam:topic_3174"
         },
         {
           "@id": "edam:topic_0781"
@@ -74,10 +82,10 @@
       ],
       "sc:author": [
         {
-          "@id": "http://orcid.org/0000-0001-7361-4159"
+          "@id": "https://orcid.org/0000-0002-3093-5873"
         },
         {
-          "@id": "https://orcid.org/0000-0002-3093-5873"
+          "@id": "http://orcid.org/0000-0001-7361-4159"
         }
       ],
       "sc:citation": {
@@ -86,13 +94,13 @@
       "sc:description": "VirAnnot was build to ease the assembly, blast search, taxonomic annotation and OTUs assignation of viral metagenomic HTS data. It is used in Virologie team of UMR1332 BFP laboratory at INRAE. VirAnnot also takes part of the Euphresco project \"Plant Health Bioinformatics Network\". See more.\n\nIt is designed to identify viruses in plant metagenomic data but it can be used to assemble and annotate any sequences with the NCBI taxonomy.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_0566"
+        },
+        {
           "@id": "edam:operation_0361"
         },
         {
           "@id": "edam:operation_0291"
-        },
-        {
-          "@id": "edam:operation_0566"
         }
       ],
       "sc:name": "virAnnot",
@@ -103,34 +111,7 @@
       "sc:url": "https://github.com/marieBvr/virAnnot"
     },
     {
-      "@id": "_:N6aa2b0fed68d47099483b5763b268415",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:N678e628076a54eb8b0469d3ca005fc49",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:Na070d1624c5d456ab327a691af925e90",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2976"
-      },
-      "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:Ncece4dde71d14d1383d23dd8790c820c",
+      "@id": "_:N1163bf43f6914db99924466e9b4cbde0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -141,12 +122,31 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "https://orcid.org/0000-0002-3093-5873",
-      "@type": "sc:Person"
+      "@id": "_:Nc32c343d22e14237a4c07275361836fc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "https://doi.org/10.1094/PBIOMES-07-19-0037-A",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N380095f8cfd44f1bb980e0874312e42b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nf8f746dd5c7f41f79c3ec29f5eab9a95",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
     }
   ]
 }

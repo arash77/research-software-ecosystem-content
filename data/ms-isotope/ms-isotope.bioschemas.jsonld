@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/ms-isotope",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6935067e11b44bcfb2a070b7ad24512d"
+        "@id": "_:Nd80538ec25ba4608a039469bfded6851"
       },
       "bsc:output": {
-        "@id": "_:Nfe931c5716f146ed83b5e3b633ecd859"
+        "@id": "_:N75eb22bfbeaf48558675a065ca0d5786"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -51,10 +51,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_3524"
         },
         {
-          "@id": "edam:topic_3524"
+          "@id": "edam:topic_3520"
         },
         {
           "@id": "edam:topic_0121"
@@ -67,8 +67,8 @@
       "sc:name": "MS-Isotope",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://prospector.ucsf.edu/prospector/html/instruct/isoman.htm"
@@ -76,24 +76,24 @@
       "sc:url": "http://prospector.ucsf.edu/prospector/cgi-bin/msform.cgi?form=msisotope"
     },
     {
-      "@id": "_:Nfe931c5716f146ed83b5e3b633ecd859",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N6935067e11b44bcfb2a070b7ad24512d",
+      "@id": "_:Nd80538ec25ba4608a039469bfded6851",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_1957"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N75eb22bfbeaf48558675a065ca0d5786",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
       },
       "sc:name": "Data"
     }

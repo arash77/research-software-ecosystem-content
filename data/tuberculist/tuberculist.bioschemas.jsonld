@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/tuberculist",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na696f64db3eb41d48f3b6e2f95ac6e01"
+        "@id": "_:N1aa06e6bf7e0456f85923dc60a3d2bd3"
       },
       "bsc:output": {
-        "@id": "_:N514d8aac04ea40f39c8efa41ab3b1a3a"
+        "@id": "_:N86bd3b0ed2fc4e23b0225eac3aeb5690"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -66,8 +66,8 @@
       "sc:name": "TubercuList",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://tuberculist.epfl.ch/"
@@ -75,7 +75,7 @@
       "sc:url": "http://genolist.pasteur.fr/TubercuList/"
     },
     {
-      "@id": "_:Na696f64db3eb41d48f3b6e2f95ac6e01",
+      "@id": "_:N1aa06e6bf7e0456f85923dc60a3d2bd3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1097"
@@ -83,7 +83,7 @@
       "sc:name": "Sequence accession (nucleic acid)"
     },
     {
-      "@id": "_:N514d8aac04ea40f39c8efa41ab3b1a3a",
+      "@id": "_:N86bd3b0ed2fc4e23b0225eac3aeb5690",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"

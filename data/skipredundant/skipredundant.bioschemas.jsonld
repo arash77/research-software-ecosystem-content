@@ -36,18 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/skipredundant",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3b8ed2047c654ea0bd8fd088ee5b95cd"
+          "@id": "_:Nc74f43a7d22b43f8b80c115992d12fc0"
         },
         {
-          "@id": "_:Nc5d690f486a2422daee01ded007fd545"
+          "@id": "_:N8bcbb205eadd4696aabf875a71ea9c8a"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne3695779cf9842e9a34e2f264bfbff5e"
+        "@id": "_:N87f323df8ee24cbca3aeda3694528ac1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -67,9 +79,9 @@
       ],
       "sc:contributor": [
         "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust",
-        "EMBOSS Contributors",
-        "UK MRC"
+        "EMBOSS Contributors"
       ],
       "sc:description": "Remove redundant sequences from an input set.",
       "sc:featureList": [
@@ -77,24 +89,24 @@
           "@id": "edam:operation_0491"
         },
         {
-          "@id": "edam:operation_0290"
+          "@id": "edam:operation_0231"
         },
         {
-          "@id": "edam:operation_0231"
+          "@id": "edam:operation_0290"
         }
       ],
       "sc:funder": [
-        "UK MRC",
         "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "skipredundant",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
         "EMBOSS",
@@ -115,40 +127,28 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/skipredundant.html"
     },
     {
-      "@id": "_:N3b8ed2047c654ea0bd8fd088ee5b95cd",
+      "@id": "_:N87f323df8ee24cbca3aeda3694528ac1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:Nc74f43a7d22b43f8b80c115992d12fc0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:N8bcbb205eadd4696aabf875a71ea9c8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0874"
       },
       "sc:name": "Comparison matrix"
-    },
-    {
-      "@id": "_:Nc5d690f486a2422daee01ded007fd545",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0849"
-      },
-      "sc:name": "Sequence record"
-    },
-    {
-      "@id": "_:Ne3695779cf9842e9a34e2f264bfbff5e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0849"
-      },
-      "sc:name": "Sequence record"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

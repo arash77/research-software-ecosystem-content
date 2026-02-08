@@ -36,14 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkae241",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/isochore-ebi",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N6b5b8e43334644d9ac2904553c084a96"
+        "@id": "_:Nccf568345e1a440b8c937657dbbc3130"
       },
       "bsc:output": {
-        "@id": "_:N796bbab2a7c64db1a4bc8320c734c89e"
+        "@id": "_:Nb503553a9d6448a699fe36f7f7278d11"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -52,27 +60,27 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0157"
+          "@id": "edam:topic_3512"
         },
         {
-          "@id": "edam:topic_3512"
+          "@id": "edam:topic_0157"
         }
       ],
       "sc:author": "EMBOSS",
       "sc:citation": [
-        "pubmed:38597606",
-        "pmcid:PMC11223882",
+        "pubmed:35412617",
+        "pmcid:PMC9252731",
         {
-          "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
+          "@id": "https://doi.org/10.1093/nar/gkac240"
         },
         {
           "@id": "https://doi.org/10.1093/nar/gkae241"
         },
+        "pmcid:PMC11223882",
         {
-          "@id": "https://doi.org/10.1093/nar/gkac240"
+          "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
         },
-        "pmcid:PMC9252731",
-        "pubmed:35412617"
+        "pubmed:38597606"
       ],
       "sc:description": "Plot potential isochore features.",
       "sc:featureList": {
@@ -80,9 +88,9 @@
       },
       "sc:name": "isochore (EBI)",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
@@ -90,25 +98,17 @@
           "@id": "https://emboss.sourceforge.net/"
         },
         {
-          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
-          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/seqstats/emboss_isochore"
     },
     {
-      "@id": "_:N6b5b8e43334644d9ac2904553c084a96",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:N796bbab2a7c64db1a4bc8320c734c89e",
+      "@id": "_:Nb503553a9d6448a699fe36f7f7278d11",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -116,12 +116,12 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkae241",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nccf568345e1a440b8c937657dbbc3130",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkac240",

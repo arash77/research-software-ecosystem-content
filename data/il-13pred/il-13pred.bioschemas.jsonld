@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/il-13pred",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9284b659147b4ccf8039cfefde50564a"
+        "@id": "_:N79be8f14c78440c995e1387217ebc437"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -70,8 +70,8 @@
       "sc:license": "Not licensed",
       "sc:name": "IL-13Pred",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -80,7 +80,7 @@
       "sc:url": "https://webs.iiitd.edu.in/raghava/il13pred/"
     },
     {
-      "@id": "_:N9284b659147b4ccf8039cfefde50564a",
+      "@id": "_:N79be8f14c78440c995e1387217ebc437",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

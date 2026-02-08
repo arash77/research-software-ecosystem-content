@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioadv/vbaf010",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/sequali",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0387b638c8e94e00878cf1e430bfabd1"
+        "@id": "_:N9fb38f61604048c5b81ef849a83d6fb7"
       },
       "bsc:output": {
-        "@id": "_:N6cf35b2a2ce44efbad55ee259ec121e7"
+        "@id": "_:Nee242bac933b418db132dda30adeac58"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -64,10 +60,10 @@
       "sc:description": "Fast sequencing data quality metrics",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3218"
+          "@id": "edam:operation_2238"
         },
         {
-          "@id": "edam:operation_2238"
+          "@id": "edam:operation_3218"
         }
       ],
       "sc:name": "Sequali",
@@ -75,7 +71,23 @@
       "sc:url": "https://github.com/rhpvorderman/sequali"
     },
     {
-      "@id": "_:N0387b638c8e94e00878cf1e430bfabd1",
+      "@id": "_:Nee242bac933b418db132dda30adeac58",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3914"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Quality control report"
+    },
+    {
+      "@id": "_:N9fb38f61604048c5b81ef849a83d6fb7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -91,20 +103,8 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N6cf35b2a2ce44efbad55ee259ec121e7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3914"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3464"
-        },
-        {
-          "@id": "edam:format_2331"
-        }
-      ],
-      "sc:name": "Quality control report"
+      "@id": "https://doi.org/10.1093/bioadv/vbaf010",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

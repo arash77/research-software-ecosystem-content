@@ -39,11 +39,17 @@
       "@id": "https://bio.tools/vpatho",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na2652831fe8244278e096862283b6173"
+        "@id": "_:Nb15650441ced40d38b2d3d28b4b4f4a2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3474"
+        },
         {
           "@id": "edam:topic_3324"
         },
@@ -51,13 +57,7 @@
           "@id": "edam:topic_0199"
         },
         {
-          "@id": "edam:topic_0121"
-        },
-        {
           "@id": "edam:topic_3676"
-        },
-        {
-          "@id": "edam:topic_3474"
         }
       ],
       "sc:citation": [
@@ -72,23 +72,23 @@
           "@id": "edam:operation_3461"
         },
         {
-          "@id": "edam:operation_3226"
+          "@id": "edam:operation_0331"
         },
         {
-          "@id": "edam:operation_0331"
+          "@id": "edam:operation_3226"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "VPatho",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:url": "http://csbio.njust.edu.cn/bioinf/vpatho/"
     },
     {
-      "@id": "_:Na2652831fe8244278e096862283b6173",
+      "@id": "_:Nb15650441ced40d38b2d3d28b4b4f4a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"

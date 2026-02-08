@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1135/cccc20081261",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/begdb",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jan Řezáč",
       "bsc:input": {
-        "@id": "_:Na2d3ea68ac334f2093688fc51533169e"
+        "@id": "_:Ne4a4a55c241342a9be03c969c9b2a8ed"
       },
       "bsc:output": {
-        "@id": "_:N1e7a5e1e5bfc42bbb79f8d318342900c"
+        "@id": "_:Nd334b17e8e4d473796c19e2b3fcb1273"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -61,8 +65,8 @@
       "sc:license": "Not licensed",
       "sc:name": "BEGDB",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
+        "Windows",
         "Mac"
       ],
       "sc:provider": "ELIXIR-CZ",
@@ -72,15 +76,7 @@
       "sc:url": "http://www.begdb.org/"
     },
     {
-      "@id": "_:Na2d3ea68ac334f2093688fc51533169e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0960"
-      },
-      "sc:name": "User metadata"
-    },
-    {
-      "@id": "_:N1e7a5e1e5bfc42bbb79f8d318342900c",
+      "@id": "_:Nd334b17e8e4d473796c19e2b3fcb1273",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -88,8 +84,12 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "https://doi.org/10.1135/cccc20081261",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Ne4a4a55c241342a9be03c969c9b2a8ed",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0960"
+      },
+      "sc:name": "User metadata"
     }
   ]
 }

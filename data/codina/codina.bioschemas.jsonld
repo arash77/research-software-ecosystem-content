@@ -46,6 +46,12 @@
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
           "@id": "edam:topic_0625"
         },
         {
@@ -53,12 +59,6 @@
         },
         {
           "@id": "edam:topic_0610"
-        },
-        {
-          "@id": "edam:topic_0128"
-        },
-        {
-          "@id": "edam:topic_2640"
         }
       ],
       "sc:citation": [

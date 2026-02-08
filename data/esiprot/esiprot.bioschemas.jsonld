@@ -36,29 +36,25 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1002/rcm.4384",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/esiprot",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf90cae6b24c14050b8c97d1e3023aafc"
+        "@id": "_:N4f0d0ee598af4ca3b44339382b7e25bc"
       },
       "bsc:output": {
-        "@id": "_:N9ea96fb552dd4d10a3a41f869ca61cd6"
+        "@id": "_:N7b4bacf8a74a49709d26ae812e990fbe"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Desktop application",
-        "Web application"
+        "Web application",
+        "Desktop application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:citation": [
@@ -82,9 +78,9 @@
       "sc:license": "GPL-3.0",
       "sc:name": "ESIprot",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.lababi.bioprocess.org/index.php/lababi-software/84-esiprot"
@@ -92,7 +88,7 @@
       "sc:url": "https://nube-gran.de/esiprot"
     },
     {
-      "@id": "_:N9ea96fb552dd4d10a3a41f869ca61cd6",
+      "@id": "_:N7b4bacf8a74a49709d26ae812e990fbe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
@@ -103,7 +99,7 @@
       "sc:name": "Peptide mass fingerprint"
     },
     {
-      "@id": "_:Nf90cae6b24c14050b8c97d1e3023aafc",
+      "@id": "_:N4f0d0ee598af4ca3b44339382b7e25bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
@@ -112,6 +108,10 @@
         "@id": "edam:format_3245"
       },
       "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "https://doi.org/10.1002/rcm.4384",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

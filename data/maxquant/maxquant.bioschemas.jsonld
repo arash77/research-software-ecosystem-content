@@ -36,11 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1002/pmic.201400449",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1021/acs.jproteome.0c00892",
+      "@id": "https://doi.org/10.1038/nbt.1511",
       "@type": "sc:CreativeWork"
     },
     {
@@ -48,59 +44,68 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1038/nbt.1511",
+      "@id": "https://doi.org/10.1021/acs.jproteome.0c00892",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/maxquant",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N26bcda41e1af4fe7993c7b20169c5d87"
+        "@id": "_:N16cb435f879d48ed9410b7166ebc4960"
       },
       "bsc:output": [
         {
-          "@id": "_:N718f6249e51c419882b499a18964c8f5"
+          "@id": "_:N83409bdffc40434397cc0d2ae0fb3188"
         },
         {
-          "@id": "_:N7b0677717afa4c85801cafe69bf789c6"
+          "@id": "_:Ne746c9c31d1e481492fb4260a9f78149"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_2269"
+        },
+        {
           "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_3520"
-        },
-        {
-          "@id": "edam:topic_2269"
         }
       ],
       "sc:citation": [
-        "pubmed:25644178",
-        {
-          "@id": "https://doi.org/10.1007/978-1-4939-1142-4_24"
-        },
-        "pubmed:33539096",
         {
           "@id": "https://doi.org/10.1021/acs.jproteome.0c00892"
         },
-        "pubmed:19029910",
         {
-          "@id": "https://doi.org/10.1038/nbt.1511"
+          "@id": "https://doi.org/10.1007/978-1-4939-1142-4_24"
         },
-        "pmcid:PMC5024039",
+        "pubmed:25059623",
+        "pubmed:33539096",
+        "pubmed:19029910",
+        "pubmed:25644178",
         {
           "@id": "https://doi.org/10.1002/pmic.201400449"
         },
-        "pubmed:25059623"
+        "pmcid:PMC5024039",
+        {
+          "@id": "https://doi.org/10.1038/nbt.1511"
+        }
       ],
       "sc:description": "Quantitative proteomics software package designed for analyzing large mass-spectrometric data sets. It is specifically aimed at high-resolution MS data.",
       "sc:featureList": [
         {
           "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_2939"
+        },
+        {
+          "@id": "edam:operation_3435"
+        },
+        {
+          "@id": "edam:operation_3557"
         },
         {
           "@id": "edam:operation_0531"
@@ -112,22 +117,13 @@
           "@id": "edam:operation_2238"
         },
         {
-          "@id": "edam:operation_2939"
-        },
-        {
-          "@id": "edam:operation_3557"
-        },
-        {
           "@id": "edam:operation_3630"
-        },
-        {
-          "@id": "edam:operation_3435"
         }
       ],
       "sc:name": "MaxQuant",
       "sc:operatingSystem": [
-        "Linux",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.coxdocs.org/doku.php?id=maxquant:start#documentation_outline"
@@ -135,7 +131,29 @@
       "sc:url": "http://www.maxquant.org/"
     },
     {
-      "@id": "_:N718f6249e51c419882b499a18964c8f5",
+      "@id": "_:N16cb435f879d48ed9410b7166ebc4960",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3758"
+        },
+        {
+          "@id": "edam:format_3620"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N83409bdffc40434397cc0d2ae0fb3188",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -151,7 +169,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N7b0677717afa4c85801cafe69bf789c6",
+      "@id": "_:Ne746c9c31d1e481492fb4260a9f78149",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -162,26 +180,8 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N26bcda41e1af4fe7993c7b20169c5d87",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0945"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3620"
-        },
-        {
-          "@id": "edam:format_3758"
-        },
-        {
-          "@id": "edam:format_3475"
-        },
-        {
-          "@id": "edam:format_3752"
-        }
-      ],
-      "sc:name": "Peptide identification"
+      "@id": "https://doi.org/10.1002/pmic.201400449",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

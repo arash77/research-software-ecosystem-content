@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/mitoannotator",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N09a40d056f5c44929b9573310eec36ea"
+        "@id": "_:N2fff853c2e23428fa0e1971b7f0282a7"
       },
       "bsc:output": [
         {
-          "@id": "_:Na9f7dd4bba91420b9380479cc16dbaea"
+          "@id": "_:N1b043acd98bc45cba4c73f5b8def4c0d"
         },
         {
-          "@id": "_:Nf843e465082e48cfb780ea26f04bed95"
+          "@id": "_:Ne6598a55f5fd4ecda71b431d8917c5fe"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -64,7 +64,7 @@
       "sc:url": "https://mitofish.aori.u-tokyo.ac.jp/annotation/input/"
     },
     {
-      "@id": "_:Na9f7dd4bba91420b9380479cc16dbaea",
+      "@id": "_:N1b043acd98bc45cba4c73f5b8def4c0d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1015"
@@ -72,7 +72,7 @@
       "sc:name": "Sequence feature ID"
     },
     {
-      "@id": "_:Nf843e465082e48cfb780ea26f04bed95",
+      "@id": "_:Ne6598a55f5fd4ecda71b431d8917c5fe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1279"
@@ -80,7 +80,7 @@
       "sc:name": "Sequence map"
     },
     {
-      "@id": "_:N09a40d056f5c44929b9573310eec36ea",
+      "@id": "_:N2fff853c2e23428fa0e1971b7f0282a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1193"

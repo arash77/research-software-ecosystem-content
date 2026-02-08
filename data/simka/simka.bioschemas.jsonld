@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/simka",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N52d9c1bcc74d40728e9e60807d0c41f0"
+        "@id": "_:N86c99e7db182428cb99c5a088f9a5dfa"
       },
       "bsc:output": {
-        "@id": "_:N9e5a1eaca4b542f2b5007f3989fccf24"
+        "@id": "_:N18f728dcb1494ed5b3ec39d561df2c51"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -64,8 +64,8 @@
       "sc:license": "AGPL-3.0",
       "sc:name": "Simka",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/GATB/simka"
@@ -73,20 +73,20 @@
       "sc:url": "https://github.com/GATB/simka"
     },
     {
-      "@id": "_:N52d9c1bcc74d40728e9e60807d0c41f0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2975"
-      },
-      "sc:name": "Nucleic acid sequence (raw)"
-    },
-    {
-      "@id": "_:N9e5a1eaca4b542f2b5007f3989fccf24",
+      "@id": "_:N18f728dcb1494ed5b3ec39d561df2c51",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0870"
       },
       "sc:name": "Sequence distance matrix"
+    },
+    {
+      "@id": "_:N86c99e7db182428cb99c5a088f9a5dfa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2975"
+      },
+      "sc:name": "Nucleic acid sequence (raw)"
     }
   ]
 }

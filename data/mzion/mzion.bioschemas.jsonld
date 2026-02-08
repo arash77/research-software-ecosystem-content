@@ -44,22 +44,22 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N93e91fa7f5a84801bdd948dd86ca862f"
+          "@id": "_:N2f84505a44994cd798e2b45e5d7b721e"
         },
         {
-          "@id": "_:Nb6b2ca4a350d4d708f9374d0bcc058ed"
+          "@id": "_:Nec1cc9eba2224a72ac8e94b523f16c8f"
         }
       ],
       "bsc:output": {
-        "@id": "_:N922a9810798344089ed5d17d073aceaa"
+        "@id": "_:N578a585310af4242a3e37514ecd7f770"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1038/s41598-023-34323-4"
         },
-        "pubmed:37120666",
-        "pmcid:PMC10148867"
+        "pmcid:PMC10148867",
+        "pubmed:37120666"
       ],
       "sc:description": "Peptide identification from tandem mass spectrometry data",
       "sc:featureList": {
@@ -69,7 +69,18 @@
       "sc:url": "https://github.com/qzhang503/mzion"
     },
     {
-      "@id": "_:N93e91fa7f5a84801bdd948dd86ca862f",
+      "@id": "_:N578a585310af4242a3e37514ecd7f770",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N2f84505a44994cd798e2b45e5d7b721e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -80,7 +91,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:Nb6b2ca4a350d4d708f9374d0bcc058ed",
+      "@id": "_:Nec1cc9eba2224a72ac8e94b523f16c8f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -89,17 +100,6 @@
         "@id": "edam:format_3651"
       },
       "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N922a9810798344089ed5d17d073aceaa",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0945"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Peptide identification"
     }
   ]
 }

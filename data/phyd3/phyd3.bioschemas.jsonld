@@ -39,23 +39,23 @@
       "@id": "https://bio.tools/phyd3",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Lukasz Kreft",
-        "VIB BITS Core Facility"
+        "VIB BITS Core Facility",
+        "Lukasz Kreft"
       ],
       "bsc:input": [
         {
-          "@id": "_:N302e232c0acb450f8a0f353a92a5a7f5"
+          "@id": "_:Nc979ef1f60784df0a7e700bd8ffac9ad"
         },
         {
-          "@id": "_:Nb9a8416db61b43f6b5c819959a071e1e"
+          "@id": "_:N1d476b30663f45f5a2bb77279f246519"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9f0a9e306a2b4acbab9e988d6c663f6a"
+          "@id": "_:N134ed7bdbe1c4e04806a8181309296ee"
         },
         {
-          "@id": "_:Nf529f98b50974dc8ac445e18a429957c"
+          "@id": "_:N75a1908f2e304f6aa32b37b8d9a9e8f7"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,8 +84,8 @@
       "sc:license": "GPL-3.0",
       "sc:name": "PhyD3",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "VIB",
       "sc:softwareHelp": [
@@ -100,34 +100,7 @@
       "sc:url": "https://phyd3.bits.vib.be"
     },
     {
-      "@id": "_:N302e232c0acb450f8a0f353a92a5a7f5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2337"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1920"
-      },
-      "sc:name": "Resource metadata"
-    },
-    {
-      "@id": "_:Nb9a8416db61b43f6b5c819959a071e1e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1910"
-        },
-        {
-          "@id": "edam:format_3159"
-        }
-      ],
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:N9f0a9e306a2b4acbab9e988d6c663f6a",
+      "@id": "_:N134ed7bdbe1c4e04806a8181309296ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1707"
@@ -135,7 +108,7 @@
       "sc:name": "Phylogenetic tree image"
     },
     {
-      "@id": "_:Nf529f98b50974dc8ac445e18a429957c",
+      "@id": "_:N75a1908f2e304f6aa32b37b8d9a9e8f7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -144,6 +117,33 @@
         "@id": "edam:format_3159"
       },
       "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:Nc979ef1f60784df0a7e700bd8ffac9ad",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3159"
+        },
+        {
+          "@id": "edam:format_1910"
+        }
+      ],
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N1d476b30663f45f5a2bb77279f246519",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2337"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1920"
+      },
+      "sc:name": "Resource metadata"
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btx324",

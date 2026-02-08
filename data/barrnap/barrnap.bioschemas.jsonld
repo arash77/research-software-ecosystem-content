@@ -43,15 +43,15 @@
         "Torsten Seemann"
       ],
       "bsc:input": {
-        "@id": "_:N381d042759dd437186dba0231612f67a"
+        "@id": "_:N9f7b4ea232b34a2c8277f9f0e8ac5b94"
       },
       "bsc:output": {
-        "@id": "_:N2d5d14b68beb428892fdbc7e3dbe0313"
+        "@id": "_:N6d40643647b9466c86716745bc8432bd"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Command-line tool"
+        "Command-line tool",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
@@ -69,12 +69,12 @@
       "sc:license": "GPL-3.0",
       "sc:name": "Barrnap",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": [
-        "unimelb.edu.au",
-        "University of Melbourne, Australia"
+        "University of Melbourne, Australia",
+        "unimelb.edu.au"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/tseemann/barrnap/blob/master/README.md"
@@ -83,7 +83,7 @@
       "sc:url": "https://github.com/tseemann/barrnap"
     },
     {
-      "@id": "_:N381d042759dd437186dba0231612f67a",
+      "@id": "_:N9f7b4ea232b34a2c8277f9f0e8ac5b94",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -94,7 +94,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N2d5d14b68beb428892fdbc7e3dbe0313",
+      "@id": "_:N6d40643647b9466c86716745bc8432bd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

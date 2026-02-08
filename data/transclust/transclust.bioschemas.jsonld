@@ -42,14 +42,14 @@
         "@id": "http://orcid.org/0000-0002-0282-0462"
       },
       "bsc:input": {
-        "@id": "_:N1ee54699a0414729befd3929d84c7be9"
+        "@id": "_:N9d0cc6d65d7e4faaa5c9607b9eb6932a"
       },
       "bsc:output": [
         {
-          "@id": "_:N7a920de3c59a4c5e945cce11d1e3eda6"
+          "@id": "_:N062b58a10286422e82627fa450c8a11c"
         },
         {
-          "@id": "_:N7dd90f24882141619f02624c13378f2a"
+          "@id": "_:Nb82cb873a8c346ecaac2ea8e0daf6d3f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -74,9 +74,9 @@
       },
       "sc:name": "TransClust",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "bmb.sdu.dk",
       "sc:softwareHelp": {
@@ -86,18 +86,7 @@
       "sc:url": "https://transclust.compbio.sdu.dk/main_page/index.php"
     },
     {
-      "@id": "_:N1ee54699a0414729befd3929d84c7be9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2730"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "COGEME unisequence ID"
-    },
-    {
-      "@id": "_:N7a920de3c59a4c5e945cce11d1e3eda6",
+      "@id": "_:N062b58a10286422e82627fa450c8a11c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -108,7 +97,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N7dd90f24882141619f02624c13378f2a",
+      "@id": "_:Nb82cb873a8c346ecaac2ea8e0daf6d3f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2161"
@@ -117,6 +106,17 @@
         "@id": "edam:format_2333"
       },
       "sc:name": "Sequence similarity plot"
+    },
+    {
+      "@id": "_:N9d0cc6d65d7e4faaa5c9607b9eb6932a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2730"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "COGEME unisequence ID"
     },
     {
       "@id": "http://orcid.org/0000-0002-0282-0462",

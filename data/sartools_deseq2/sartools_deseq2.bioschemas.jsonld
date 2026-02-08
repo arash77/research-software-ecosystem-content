@@ -40,37 +40,29 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pone.0157022",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/sartools_deseq2",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N963dd1c082284e37b21fcc5f298f2bb2"
+          "@id": "_:N5e65d0495d7a4f5dbc9bd1e8e48a9f12"
         },
         {
-          "@id": "_:Ncb139b229cac4923ae3456a0d7abc65c"
+          "@id": "_:N0e9dc63387864cf29a02b9f761ffc4b0"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N255f904d54c144b0bc14e0bbe956b819"
+          "@id": "_:Nde93e90bf18f417aac517a8916deee4f"
         },
         {
-          "@id": "_:Nceb9b5af33fa4cfbb1f5f117c2fdea85"
+          "@id": "_:Nac7f964f896d4b61be9f50014212df54"
         },
         {
-          "@id": "_:Ne061f730c46d4439af06c84f0ab9cf3a"
+          "@id": "_:N1472560689ec4d34bc24f5e706c74a2c"
         },
         {
-          "@id": "_:Ne83a45c1a56741c1a39fbbab1374692d"
+          "@id": "_:N6e371e86a0a64f11a78ec9b14c7c1c88"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -79,19 +71,19 @@
         "@id": "edam:topic_3170"
       },
       "sc:citation": [
-        "pmcid:PMC4987906",
-        "pubmed:27137889",
-        "pubmed:27280887",
         {
-          "@id": "https://doi.org/10.1371/journal.pone.0157022"
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
+        "pubmed:27280887",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
-        "pmcid:PMC4900645",
         {
-          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
-        }
+          "@id": "https://doi.org/10.1371/journal.pone.0157022"
+        },
+        "pmcid:PMC4900645",
+        "pubmed:27137889",
+        "pmcid:PMC4987906"
       ],
       "sc:description": "Compare two or more biological conditions in a RNA-Seq framework with DESeq2.",
       "sc:featureList": {
@@ -110,7 +102,18 @@
       "sc:url": "https://github.com/PF2-pasteur-fr/SARTools"
     },
     {
-      "@id": "_:N963dd1c082284e37b21fcc5f298f2bb2",
+      "@id": "_:N5e65d0495d7a4f5dbc9bd1e8e48a9f12",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N0e9dc63387864cf29a02b9f761ffc4b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -121,7 +124,18 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ncb139b229cac4923ae3456a0d7abc65c",
+      "@id": "_:Nde93e90bf18f417aac517a8916deee4f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Nac7f964f896d4b61be9f50014212df54",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -132,7 +146,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N255f904d54c144b0bc14e0bbe956b819",
+      "@id": "_:N1472560689ec4d34bc24f5e706c74a2c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -143,18 +157,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nceb9b5af33fa4cfbb1f5f117c2fdea85",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Ne061f730c46d4439af06c84f0ab9cf3a",
+      "@id": "_:N6e371e86a0a64f11a78ec9b14c7c1c88",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -165,15 +168,12 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Ne83a45c1a56741c1a39fbbab1374692d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Report"
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0157022",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

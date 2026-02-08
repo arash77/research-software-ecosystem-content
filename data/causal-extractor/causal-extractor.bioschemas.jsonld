@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/causal-extractor",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8751389cf7cf4805b7c2a21950212d37"
+        "@id": "_:N8a4f264bf2784d7a8520435c6f66e326"
       },
       "bsc:output": {
-        "@id": "_:Nf34e067907674301b942a430c807d7bf"
+        "@id": "_:Ndf15769d839e44debf331a248f4d7194"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:description": "Extraction of causal molecular interactions from the Reactome database.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3928"
+          "@id": "edam:operation_2423"
         },
         {
-          "@id": "edam:operation_2423"
+          "@id": "edam:operation_3928"
         }
       ],
       "sc:name": "causal-extractor",
@@ -62,7 +62,7 @@
       "sc:url": "https://github.com/vtoure/causal-extractor"
     },
     {
-      "@id": "_:N8751389cf7cf4805b7c2a21950212d37",
+      "@id": "_:N8a4f264bf2784d7a8520435c6f66e326",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -73,17 +73,17 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nf34e067907674301b942a430c807d7bf",
+      "@id": "_:Ndf15769d839e44debf331a248f4d7194",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3619"
+          "@id": "edam:format_3242"
         },
         {
-          "@id": "edam:format_3242"
+          "@id": "edam:format_3619"
         }
       ],
       "sc:name": "Pathway or network"

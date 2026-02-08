@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Niya Wang",
       "bsc:input": {
-        "@id": "_:N9a97591fe7f64f8c8a7c746ab160cb92"
+        "@id": "_:N9f53a72c9a6443c7b7e414d991ac85da"
       },
       "bsc:output": {
-        "@id": "_:N0b9ffda9a25f405f9cefa7aae2c0dad3"
+        "@id": "_:Nc951f8be63ed4cbd99550951e988c875"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -52,10 +52,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3518"
+          "@id": "edam:topic_3360"
         },
         {
-          "@id": "edam:topic_3360"
+          "@id": "edam:topic_3518"
         },
         {
           "@id": "edam:topic_2640"
@@ -80,9 +80,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "UNDO",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/UNDO.html"
@@ -91,7 +91,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/UNDO.html"
     },
     {
-      "@id": "_:N9a97591fe7f64f8c8a7c746ab160cb92",
+      "@id": "_:N9f53a72c9a6443c7b7e414d991ac85da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -102,7 +102,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:N0b9ffda9a25f405f9cefa7aae2c0dad3",
+      "@id": "_:Nc951f8be63ed4cbd99550951e988c875",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"

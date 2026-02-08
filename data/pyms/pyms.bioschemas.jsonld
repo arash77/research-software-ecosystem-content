@@ -40,75 +40,75 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3c992e5b423c48098481c9c2e6ccc078"
+          "@id": "_:N7787de96bf8e44f4a4cbba3b38952844"
         },
         {
-          "@id": "_:Nb465683c3924484e8ecf36dd9771f7b7"
+          "@id": "_:Ned963073665946a7b06cdc44be14ac19"
         },
         {
-          "@id": "_:N27fc30c0402649ca9c09a72882b94697"
+          "@id": "_:N6fd918ea0e3646ed885a0b5db9c06c77"
         },
         {
-          "@id": "_:N2654f09065d44931b4b5aba0ac3a9d38"
+          "@id": "_:N46bc51c09e6c4e26ab58826337247501"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ncd7f831b55c94fbf9ac1f113d3e70dfc"
+          "@id": "_:Na575fce2b42948a4836cf074c07c7bea"
         },
         {
-          "@id": "_:Nc8e1fe07996a4fc9b8d420f574b11a08"
+          "@id": "_:N374ffa65f24241eeb3e00034737dfe20"
         },
         {
-          "@id": "_:N324730168e3d46038035ed69a5945a42"
+          "@id": "_:N5979ffb3070143a4aa45e0d492b044aa"
         },
         {
-          "@id": "_:Nec1a05cdf57e40859a4ca18434bf4b48"
+          "@id": "_:N9bb1b3bbab314592a10e63dbe15477dc"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         },
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         }
       ],
       "sc:citation": "pubmed:17963529",
       "sc:description": "Tools for reading LC-MS data in the ANDI-MS and JCAMP-DX formats.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3203"
-        },
-        {
-          "@id": "edam:operation_3436"
-        },
-        {
-          "@id": "edam:operation_3215"
-        },
-        {
           "@id": "edam:operation_3694"
         },
         {
-          "@id": "edam:operation_3695"
+          "@id": "edam:operation_3203"
         },
         {
           "@id": "edam:operation_3628"
         },
         {
-          "@id": "edam:operation_2424"
+          "@id": "edam:operation_3695"
         },
         {
           "@id": "edam:operation_0335"
+        },
+        {
+          "@id": "edam:operation_3215"
+        },
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_2424"
         }
       ],
       "sc:name": "PyMS",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://code.google.com/archive/p/pyms-docs/"
@@ -116,18 +116,7 @@
       "sc:url": "https://code.google.com/p/pyms/"
     },
     {
-      "@id": "_:N3c992e5b423c48098481c9c2e6ccc078",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0944"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Peptide mass fingerprint"
-    },
-    {
-      "@id": "_:Nb465683c3924484e8ecf36dd9771f7b7",
+      "@id": "_:N7787de96bf8e44f4a4cbba3b38952844",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -138,7 +127,18 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N27fc30c0402649ca9c09a72882b94697",
+      "@id": "_:Ned963073665946a7b06cdc44be14ac19",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0944"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "_:N6fd918ea0e3646ed885a0b5db9c06c77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -149,7 +149,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N2654f09065d44931b4b5aba0ac3a9d38",
+      "@id": "_:N46bc51c09e6c4e26ab58826337247501",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
@@ -160,18 +160,7 @@
       "sc:name": "Peptide mass fingerprint"
     },
     {
-      "@id": "_:Ncd7f831b55c94fbf9ac1f113d3e70dfc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0944"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Peptide mass fingerprint"
-    },
-    {
-      "@id": "_:Nc8e1fe07996a4fc9b8d420f574b11a08",
+      "@id": "_:Na575fce2b42948a4836cf074c07c7bea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -182,7 +171,18 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N324730168e3d46038035ed69a5945a42",
+      "@id": "_:N374ffa65f24241eeb3e00034737dfe20",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0944"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "_:N5979ffb3070143a4aa45e0d492b044aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -193,7 +193,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nec1a05cdf57e40859a4ca18434bf4b48",
+      "@id": "_:N9bb1b3bbab314592a10e63dbe15477dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"

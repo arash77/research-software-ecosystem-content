@@ -40,24 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nbd9ee97e54104b7985a4f6aee291ad0b"
+          "@id": "_:N4af503c77bf14b1d9ebc4dbc8baf8dd2"
         },
         {
-          "@id": "_:N2edac70e49614f56864413c3c24de204"
+          "@id": "_:N9ff874b78f534d319c925a9de0c2f47d"
         }
       ],
       "bsc:output": {
-        "@id": "_:N1af19d553e8745658a67c73803cf0dae"
+        "@id": "_:Nc8777854172646f79e7c9721193079f0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Desktop application",
-        "Web application"
+        "Web application",
+        "Desktop application"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_0166"
-        },
         {
           "@id": "edam:topic_0611"
         },
@@ -65,14 +62,17 @@
           "@id": "edam:topic_0736"
         },
         {
+          "@id": "edam:topic_0166"
+        },
+        {
           "@id": "edam:topic_0154"
         }
       ],
       "sc:citation": [
-        "pubmed:36758040",
         {
           "@id": "https://doi.org/10.1021/acs.jcim.2c01366"
-        }
+        },
+        "pubmed:36758040"
       ],
       "sc:description": "Tool for analyzing structural diversity in experimental structures of the SARS-CoV-2 spike glycoprotein.",
       "sc:featureList": [
@@ -80,32 +80,24 @@
           "@id": "edam:operation_0480"
         },
         {
-          "@id": "edam:operation_2950"
+          "@id": "edam:operation_0320"
         },
         {
-          "@id": "edam:operation_0320"
+          "@id": "edam:operation_2950"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "Freeware",
       "sc:name": "SpikeScape",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:url": "https://spikescape.streamlitapp.com/"
     },
     {
-      "@id": "_:N1af19d553e8745658a67c73803cf0dae",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3905"
-      },
-      "sc:name": "Histogram"
-    },
-    {
-      "@id": "_:Nbd9ee97e54104b7985a4f6aee291ad0b",
+      "@id": "_:N4af503c77bf14b1d9ebc4dbc8baf8dd2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1755"
@@ -113,12 +105,20 @@
       "sc:name": "Protein atom"
     },
     {
-      "@id": "_:N2edac70e49614f56864413c3c24de204",
+      "@id": "_:N9ff874b78f534d319c925a9de0c2f47d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1756"
       },
       "sc:name": "Protein residue"
+    },
+    {
+      "@id": "_:Nc8777854172646f79e7c9721193079f0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3905"
+      },
+      "sc:name": "Histogram"
     },
     {
       "@id": "https://doi.org/10.1021/acs.jcim.2c01366",

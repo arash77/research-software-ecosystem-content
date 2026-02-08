@@ -36,14 +36,10 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2022.01.11.475831",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/rocketx",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6c9df85cc0fe4aaf9879007937ea7dab"
+        "@id": "_:N8ab97f49daa64d13a60afab88ba154f3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -52,16 +48,16 @@
           "@id": "edam:topic_0082"
         },
         {
-          "@id": "edam:topic_0749"
+          "@id": "edam:topic_0736"
         },
         {
-          "@id": "edam:topic_0736"
+          "@id": "edam:topic_3474"
         },
         {
           "@id": "edam:topic_0130"
         },
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_0749"
         }
       ],
       "sc:citation": {
@@ -70,6 +66,12 @@
       "sc:description": "De novo protein structure prediction by incremental inter-residue geometries prediction and model quality assessment using deep learning.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_0477"
+        },
+        {
+          "@id": "edam:operation_2415"
+        },
+        {
           "@id": "edam:operation_0272"
         },
         {
@@ -77,30 +79,28 @@
         },
         {
           "@id": "edam:operation_0476"
-        },
-        {
-          "@id": "edam:operation_0477"
-        },
-        {
-          "@id": "edam:operation_2415"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "RocketX",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:url": "http://zhanglab-bioinf.com/RocketX"
     },
     {
-      "@id": "_:N6c9df85cc0fe4aaf9879007937ea7dab",
+      "@id": "_:N8ab97f49daa64d13a60afab88ba154f3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2022.01.11.475831",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

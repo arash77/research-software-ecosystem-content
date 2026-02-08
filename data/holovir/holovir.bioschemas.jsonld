@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/holovir",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd566ec67979846a883f4b8a6e5e3a546"
+        "@id": "_:N9eadef663b274aba9e5a68ce8665d12b"
       },
       "bsc:output": {
-        "@id": "_:N625722eb558d4530a68e150af034a082"
+        "@id": "_:N3793c5d63dcd46c18fc43861efb563d6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -69,7 +69,7 @@
       "sc:url": "https://github.com/plaffy/HoloVir"
     },
     {
-      "@id": "_:N625722eb558d4530a68e150af034a082",
+      "@id": "_:N3793c5d63dcd46c18fc43861efb563d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -77,7 +77,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nd566ec67979846a883f4b8a6e5e3a546",
+      "@id": "_:N9eadef663b274aba9e5a68ce8665d12b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

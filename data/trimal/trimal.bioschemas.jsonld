@@ -40,34 +40,34 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Salvador Capella-Gutierrez",
       "bsc:input": {
-        "@id": "_:N2225daadb7be4d8bbad365e83c8afe01"
+        "@id": "_:Nc1958867df4c42b29446dba684c73f2e"
       },
       "bsc:output": [
         {
-          "@id": "_:N0f54c08ca5004718b93d350668be8bab"
+          "@id": "_:N9eaba1d28357448582efab1c84573b78"
         },
         {
-          "@id": "_:Ne3a43f24280142ffa8cc6bee331fc886"
+          "@id": "_:Ndea35f67bb864fdd956bcc0b05bb40fb"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0080"
+        },
+        {
           "@id": "edam:topic_3168"
         },
         {
           "@id": "edam:topic_0160"
-        },
-        {
-          "@id": "edam:topic_0080"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC2712344",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btp348"
         },
-        "pmcid:PMC2712344",
         "pubmed:19505945"
       ],
       "sc:description": "Tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment.",
@@ -77,26 +77,26 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "trimAl",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://trimal.cgenomics.org/"
+          "@id": "https://trimal.readthedocs.io"
         },
         {
-          "@id": "https://trimal.readthedocs.io"
+          "@id": "http://trimal.cgenomics.org/"
         }
       ],
       "sc:softwareVersion": [
-        "2.0-RC",
-        "1.5.1"
+        "1.5.1",
+        "2.0-RC"
       ],
       "sc:url": "https://trimal.readthedocs.io"
     },
     {
-      "@id": "_:N2225daadb7be4d8bbad365e83c8afe01",
+      "@id": "_:Nc1958867df4c42b29446dba684c73f2e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -104,20 +104,20 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N0f54c08ca5004718b93d350668be8bab",
+      "@id": "_:N9eaba1d28357448582efab1c84573b78",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
       },
       "sc:encodingFormat": [
         {
+          "@id": "edam:format_1997"
+        },
+        {
           "@id": "edam:format_1982"
         },
         {
           "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_1997"
         },
         {
           "@id": "edam:format_1998"
@@ -126,7 +126,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:Ne3a43f24280142ffa8cc6bee331fc886",
+      "@id": "_:Ndea35f67bb864fdd956bcc0b05bb40fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

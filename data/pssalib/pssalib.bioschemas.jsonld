@@ -44,29 +44,29 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Rajesh Ramaswamy",
       "bsc:input": {
-        "@id": "_:Nc23ed4227046475ea83fe7456c14bc6b"
+        "@id": "_:Nd77b2f7f07a0455e8b133abad6082536"
       },
       "bsc:output": {
-        "@id": "_:Nc052719c428a4f52b57efbc1e29da7b1"
+        "@id": "_:N519d91f09f3d4e25974584d9901b974e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3332"
+          "@id": "edam:topic_2269"
         },
         {
-          "@id": "edam:topic_2269"
+          "@id": "edam:topic_3332"
         },
         {
           "@id": "edam:topic_0092"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC5730222",
         {
           "@id": "https://doi.org/10.1371/journal.pcbi.1005865"
         },
+        "pmcid:PMC5730222",
         "pubmed:29206229"
       ],
       "sc:description": "A program for simulating exact stochastic chemical kinetics with tools for statistical analysis of simulation results.",
@@ -75,21 +75,21 @@
           "@id": "edam:operation_2476"
         },
         {
-          "@id": "edam:operation_3439"
+          "@id": "edam:operation_2238"
         },
         {
           "@id": "edam:operation_3562"
         },
         {
-          "@id": "edam:operation_2238"
+          "@id": "edam:operation_3439"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "LGPL-3.0",
       "sc:name": "pSSAlib",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://mosaic.mpi-cbg.de/pSSALib/pSSAlib.html"
@@ -97,7 +97,7 @@
       "sc:url": "http://mosaic.mpi-cbg.de/?q=downloads/stochastic_chemical_net"
     },
     {
-      "@id": "_:Nc052719c428a4f52b57efbc1e29da7b1",
+      "@id": "_:N519d91f09f3d4e25974584d9901b974e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -108,7 +108,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nc23ed4227046475ea83fe7456c14bc6b",
+      "@id": "_:Nd77b2f7f07a0455e8b133abad6082536",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2978"

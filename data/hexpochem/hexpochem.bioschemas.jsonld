@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt112",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/hexpochem",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N664ba1cac29841bdb41734ca1c78998f"
+        "@id": "_:Nf2799967d4ab41a4b5d6ba59c53e2e6e"
       },
       "bsc:output": [
         {
-          "@id": "_:N6b3426cb4e7948d8bd1efc2ab47f1a1e"
+          "@id": "_:N64005d022b884ffab0482ba7143e9a06"
         },
         {
-          "@id": "_:N69b897e9935645888438e9b56cf3458d"
+          "@id": "_:Nd6654eb3b0014af6b8f253c76dfdcabe"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -55,10 +59,10 @@
         "@id": "edam:topic_0602"
       },
       "sc:citation": [
-        "pubmed:23479352",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btt112"
-        }
+        },
+        "pubmed:23479352"
       ],
       "sc:description": "Information on diverse sources of chemicals with the aim to explore human health risk from chemical exposure.",
       "sc:featureList": {
@@ -68,9 +72,9 @@
       "sc:license": "Other",
       "sc:name": "HExpoChem",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": {
@@ -80,7 +84,7 @@
       "sc:url": "http://cbs.dtu.dk/services/HExpoChem-1.0/"
     },
     {
-      "@id": "_:N6b3426cb4e7948d8bd1efc2ab47f1a1e",
+      "@id": "_:N64005d022b884ffab0482ba7143e9a06",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -91,7 +95,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N69b897e9935645888438e9b56cf3458d",
+      "@id": "_:Nd6654eb3b0014af6b8f253c76dfdcabe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1566"
@@ -102,7 +106,7 @@
       "sc:name": "Protein-ligand interaction report"
     },
     {
-      "@id": "_:N664ba1cac29841bdb41734ca1c78998f",
+      "@id": "_:Nf2799967d4ab41a4b5d6ba59c53e2e6e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0990"
@@ -111,10 +115,6 @@
         "@id": "edam:format_1196"
       },
       "sc:name": "Compound name"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btt112",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

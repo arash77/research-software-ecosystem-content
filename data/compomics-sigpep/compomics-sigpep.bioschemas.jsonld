@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/compomics-sigpep",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N274aa624e05642f7a00803c7bbe37e74"
+        "@id": "_:N1a1987a76fe4482b9368344d61819374"
       },
       "bsc:output": {
-        "@id": "_:N6731a8c74f4e446fb4498a4873ee0f54"
+        "@id": "_:N221eb6ef4e0e4b1bbaadd66ca78452cb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workbench",
@@ -62,9 +62,9 @@
       "sc:license": "Apache-2.0",
       "sc:name": "Compomics-sigpep",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -74,7 +74,7 @@
       "sc:url": "https://github.com/compomics/compomics-sigpep"
     },
     {
-      "@id": "_:N274aa624e05642f7a00803c7bbe37e74",
+      "@id": "_:N1a1987a76fe4482b9368344d61819374",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -82,7 +82,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N6731a8c74f4e446fb4498a4873ee0f54",
+      "@id": "_:N221eb6ef4e0e4b1bbaadd66ca78452cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1355"

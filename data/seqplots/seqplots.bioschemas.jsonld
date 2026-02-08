@@ -45,24 +45,24 @@
       "biotools:primaryContact": "Przemyslaw Stempor",
       "bsc:input": [
         {
-          "@id": "_:Ne40d139a5d634a62a403bb4dee30b11a"
+          "@id": "_:N510e8eb3258940c7982f1620e017d1be"
         },
         {
-          "@id": "_:N920c8b76528c411db8b597683e8f3d24"
+          "@id": "_:N95f2acc8520543799459ab94a4f3b75f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N50b7bf414dc540eaadeccc367a7067c4"
+          "@id": "_:N9cbf1f90c60443709f574d9125874f51"
         },
         {
-          "@id": "_:Nb2f253cccc8f4dff9ee7d210cbf92107"
+          "@id": "_:N10b79e5440334991af6b3c712245ff0a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
@@ -93,7 +93,48 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/seqplots.html"
     },
     {
-      "@id": "_:Ne40d139a5d634a62a403bb4dee30b11a",
+      "@id": "_:N9cbf1f90c60443709f574d9125874f51",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N10b79e5440334991af6b3c712245ff0a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N510e8eb3258940c7982f1620e017d1be",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3005"
+        },
+        {
+          "@id": "edam:format_2305"
+        },
+        {
+          "@id": "edam:format_3003"
+        }
+      ],
+      "sc:name": "Feature table"
+    },
+    {
+      "@id": "_:N95f2acc8520543799459ab94a4f3b75f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -110,47 +151,6 @@
         }
       ],
       "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N920c8b76528c411db8b597683e8f3d24",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1270"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2305"
-        },
-        {
-          "@id": "edam:format_3003"
-        },
-        {
-          "@id": "edam:format_3005"
-        }
-      ],
-      "sc:name": "Feature table"
-    },
-    {
-      "@id": "_:N50b7bf414dc540eaadeccc367a7067c4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3508"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nb2f253cccc8f4dff9ee7d210cbf92107",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1636"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3508"
-      },
-      "sc:name": "Heat map"
     }
   ]
 }

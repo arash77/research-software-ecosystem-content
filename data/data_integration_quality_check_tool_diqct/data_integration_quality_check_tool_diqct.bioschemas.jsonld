@@ -67,8 +67,8 @@
       "sc:license": "Proprietary",
       "sc:name": "Data Integration Quality Check Tool (DIQCT)",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": [

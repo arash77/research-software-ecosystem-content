@@ -40,39 +40,39 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nc8c550292a754dbf90ef56f0749c3940"
+          "@id": "_:N950f508bf8fb45aabc4fab093c2acaf6"
         },
         {
-          "@id": "_:N64a231e6dfc24528b54cddd2ce5b7c05"
+          "@id": "_:N75932969dfe04e6184766fd97ab0cbbd"
         },
         {
-          "@id": "_:Na43528d8e0da44cbb17ef0fa0f092486"
+          "@id": "_:Ndbdf7d2012a64d2cb5f9d7608ff8eb32"
         },
         {
-          "@id": "_:Nc3ebe30341c047d590232a0277c4e176"
+          "@id": "_:N03cc95327d9d4274a38d86021807efe1"
         },
         {
-          "@id": "_:N378c7142fe0544b798ccaeac19f0bb92"
+          "@id": "_:N5436ecdcd89f43499031498098e8864d"
         },
         {
-          "@id": "_:N0e73de5628ce408b9750959f2793e41b"
+          "@id": "_:Nd1bb9278e3df41d9be6507abedd21533"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3c5ddcfeaaba4819ba95f1fe51ae17d4"
+          "@id": "_:N2b8fe757ff58499191c04cb6fc214215"
         },
         {
-          "@id": "_:Na137976500954a23aca0aaefcfa9a261"
+          "@id": "_:Na098489c1f1645bb9d3a7791782da136"
         },
         {
-          "@id": "_:N640d3330a98a400189181a631d8c1140"
+          "@id": "_:Nbe99587355a54b5da91e32abab9a4631"
         },
         {
-          "@id": "_:Nedc841971f6e4927a650b3fd659a2525"
+          "@id": "_:N9ac13e94458746a296db38beebfe6e06"
         },
         {
-          "@id": "_:N64197a8161dc4eb0b71998543a4472a3"
+          "@id": "_:N38e568e82d784971b2ca631ebca53882"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,10 +86,10 @@
       "sc:description": "eBird gathers knowledge from birdwatchers in the form of checklists of birds, maps, audio recordings .",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_3431"
         },
         {
-          "@id": "edam:operation_3431"
+          "@id": "edam:operation_2422"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -97,15 +97,7 @@
       "sc:url": "https://ebird.org/home"
     },
     {
-      "@id": "_:N3c5ddcfeaaba4819ba95f1fe51ae17d4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3905"
-      },
-      "sc:name": "Histogram"
-    },
-    {
-      "@id": "_:Na137976500954a23aca0aaefcfa9a261",
+      "@id": "_:N950f508bf8fb45aabc4fab093c2acaf6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -113,63 +105,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N640d3330a98a400189181a631d8c1140",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2019"
-      },
-      "sc:name": "Map data"
-    },
-    {
-      "@id": "_:Nedc841971f6e4927a650b3fd659a2525",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0957"
-      },
-      "sc:name": "Database metadata"
-    },
-    {
-      "@id": "_:N64197a8161dc4eb0b71998543a4472a3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3720"
-      },
-      "sc:name": "Geographic location"
-    },
-    {
-      "@id": "_:Nc8c550292a754dbf90ef56f0749c3940",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3424"
-      },
-      "sc:name": "Raw image"
-    },
-    {
-      "@id": "_:N64a231e6dfc24528b54cddd2ce5b7c05",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1045"
-      },
-      "sc:name": "Species name"
-    },
-    {
-      "@id": "_:Na43528d8e0da44cbb17ef0fa0f092486",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3720"
-      },
-      "sc:name": "Geographic location"
-    },
-    {
-      "@id": "_:Nc3ebe30341c047d590232a0277c4e176",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3546"
-      },
-      "sc:name": "Image metadata"
-    },
-    {
-      "@id": "_:N378c7142fe0544b798ccaeac19f0bb92",
+      "@id": "_:N75932969dfe04e6184766fd97ab0cbbd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2909"
@@ -177,12 +113,76 @@
       "sc:name": "Organism name"
     },
     {
-      "@id": "_:N0e73de5628ce408b9750959f2793e41b",
+      "@id": "_:Ndbdf7d2012a64d2cb5f9d7608ff8eb32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3720"
       },
       "sc:name": "Geographic location"
+    },
+    {
+      "@id": "_:N03cc95327d9d4274a38d86021807efe1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3720"
+      },
+      "sc:name": "Geographic location"
+    },
+    {
+      "@id": "_:N5436ecdcd89f43499031498098e8864d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:Nd1bb9278e3df41d9be6507abedd21533",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3546"
+      },
+      "sc:name": "Image metadata"
+    },
+    {
+      "@id": "_:N2b8fe757ff58499191c04cb6fc214215",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3905"
+      },
+      "sc:name": "Histogram"
+    },
+    {
+      "@id": "_:Na098489c1f1645bb9d3a7791782da136",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:Nbe99587355a54b5da91e32abab9a4631",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0957"
+      },
+      "sc:name": "Database metadata"
+    },
+    {
+      "@id": "_:N9ac13e94458746a296db38beebfe6e06",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3720"
+      },
+      "sc:name": "Geographic location"
+    },
+    {
+      "@id": "_:N38e568e82d784971b2ca631ebca53882",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2019"
+      },
+      "sc:name": "Map data"
     }
   ]
 }

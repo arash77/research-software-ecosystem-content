@@ -44,13 +44,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N72a93ac411e64f8abb53f4a139f7b7ba"
+          "@id": "_:Nd1b8cb185bff4068bd13377854b51493"
         },
         {
-          "@id": "_:N9310fa14561744e2adc556429e3b3e89"
+          "@id": "_:Nd420f0540b0445dcbc5e27bd329dc4bb"
         },
         {
-          "@id": "_:N112b799f689e4f0db54defa8d477d40a"
+          "@id": "_:Nefd68dd249c3481a9b162d20056500d1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,10 +60,10 @@
       },
       "sc:citation": [
         "pmcid:PMC5013916",
-        "pubmed:27587688",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btw446"
-        }
+        },
+        "pubmed:27587688"
       ],
       "sc:description": "AUCpreD is a method that predicts intrinsically disordered regions (IDR). AUCpreD works well without sequence profile, comparing favorably to or even outperforming many methods using sequence profile.",
       "sc:featureList": [
@@ -81,15 +81,15 @@
       "sc:url": "http://raptorx2.uchicago.edu/StructurePropertyPred/predict/"
     },
     {
-      "@id": "_:N72a93ac411e64f8abb53f4a139f7b7ba",
+      "@id": "_:Nd1b8cb185bff4068bd13377854b51493",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1526"
+        "@id": "edam:data_1354"
       },
-      "sc:name": "Protein globularity"
+      "sc:name": "Sequence profile"
     },
     {
-      "@id": "_:N9310fa14561744e2adc556429e3b3e89",
+      "@id": "_:Nd420f0540b0445dcbc5e27bd329dc4bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2969"
@@ -97,12 +97,12 @@
       "sc:name": "Sequence image"
     },
     {
-      "@id": "_:N112b799f689e4f0db54defa8d477d40a",
+      "@id": "_:Nefd68dd249c3481a9b162d20056500d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1354"
+        "@id": "edam:data_1526"
       },
-      "sc:name": "Sequence profile"
+      "sc:name": "Protein globularity"
     }
   ]
 }

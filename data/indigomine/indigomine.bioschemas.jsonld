@@ -44,35 +44,35 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N77258da922bc4a3786dcc0f6790c0a34"
+          "@id": "_:Nad28881f6cfe4e04806a71dcdc90c156"
         },
         {
-          "@id": "_:N300bbff1830b426999aa1009e1d8b500"
+          "@id": "_:N2066ba00efa146ca9fcf4798f93258e3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N04c4532515d641718b977218fb927004"
+          "@id": "_:Nf38c69d778744de7979050101bcf0c93"
         },
         {
-          "@id": "_:Nbd287e8bae644f76bbb311438621d885"
+          "@id": "_:Nc26dd0003863434299a5e60370f787c9"
         },
         {
-          "@id": "_:N00c910bdeb75479183e1d52955017321"
+          "@id": "_:Nb3a66836593b4d15a8aa7a04186bbee1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
+        "Database portal",
         "Web service",
-        "Database portal"
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0622"
         },
         {
           "@id": "edam:topic_3071"
@@ -88,10 +88,10 @@
       "sc:description": "INDIGO enables the integration of annotations for the exploration and analysis of newly sequenced microbial genomes.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_2422"
         },
         {
           "@id": "edam:operation_0337"
@@ -104,22 +104,22 @@
       "sc:license": "LGPL-2.1",
       "sc:name": "IndigoMine",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+          "@id": "https://flymine.readthedocs.io/en/latest/"
         },
         {
-          "@id": "https://flymine.readthedocs.io/en/latest/"
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
         }
       ],
       "sc:softwareVersion": "1.1",
       "sc:url": "http://www.cbrc.kaust.edu.sa/indigo"
     },
     {
-      "@id": "_:N77258da922bc4a3786dcc0f6790c0a34",
+      "@id": "_:Nad28881f6cfe4e04806a71dcdc90c156",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -127,7 +127,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N300bbff1830b426999aa1009e1d8b500",
+      "@id": "_:N2066ba00efa146ca9fcf4798f93258e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -135,15 +135,15 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N04c4532515d641718b977218fb927004",
+      "@id": "_:Nf38c69d778744de7979050101bcf0c93",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1255"
+        "@id": "edam:data_3753"
       },
-      "sc:name": "Sequence features"
+      "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:Nbd287e8bae644f76bbb311438621d885",
+      "@id": "_:Nc26dd0003863434299a5e60370f787c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -151,12 +151,12 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N00c910bdeb75479183e1d52955017321",
+      "@id": "_:Nb3a66836593b4d15a8aa7a04186bbee1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3753"
+        "@id": "edam:data_1255"
       },
-      "sc:name": "Over-representation data"
+      "sc:name": "Sequence features"
     }
   ]
 }

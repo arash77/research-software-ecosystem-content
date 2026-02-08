@@ -44,21 +44,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N9dddc8314e564e5a98832e8e1750869d"
+          "@id": "_:N257f4f73b7bd4c779b886b92843c1721"
         },
         {
-          "@id": "_:Nbf9739a4f2bc499eb9b1fc4799ce0899"
+          "@id": "_:Nbb65cf1974c74fa6bbb32e145f5ff51a"
         },
         {
-          "@id": "_:N89503f62c1cc4c438a6dc8c0a34768cb"
+          "@id": "_:N5cf24e74461c43edae4b48013d407c2d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ncfd1557792dc43fcb4076f035e4f8a23"
+          "@id": "_:N55786953fd104f44bd3ada9c47b0db52"
         },
         {
-          "@id": "_:N0393836d0adb4f5d89de037012224c42"
+          "@id": "_:N206286e1bdd7424db76ddc4433a718b7"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -68,38 +68,38 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0769"
-        },
-        {
           "@id": "edam:topic_3370"
         },
         {
           "@id": "edam:topic_3172"
         },
         {
+          "@id": "edam:topic_0769"
+        },
+        {
           "@id": "edam:topic_3520"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC10382385",
+        "pubmed:37490466",
         {
           "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAD455"
-        },
-        "pmcid:PMC10382385",
-        "pubmed:37490466"
+        }
       ],
       "sc:description": "Bayesian-based method for the annotation of LC-MS/MS untargeted metabolomics data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0533"
-        },
-        {
           "@id": "edam:operation_3801"
         },
         {
-          "@id": "edam:operation_3629"
+          "@id": "edam:operation_0533"
         },
         {
           "@id": "edam:operation_3803"
+        },
+        {
+          "@id": "edam:operation_3629"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -116,7 +116,7 @@
       "sc:url": "https://github.com/francescodc87/ipaPy2"
     },
     {
-      "@id": "_:N9dddc8314e564e5a98832e8e1750869d",
+      "@id": "_:N257f4f73b7bd4c779b886b92843c1721",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"
@@ -127,18 +127,7 @@
       "sc:name": "Count matrix"
     },
     {
-      "@id": "_:Nbf9739a4f2bc499eb9b1fc4799ce0899",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:N89503f62c1cc4c438a6dc8c0a34768cb",
+      "@id": "_:Nbb65cf1974c74fa6bbb32e145f5ff51a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -149,18 +138,18 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Ncfd1557792dc43fcb4076f035e4f8a23",
+      "@id": "_:N5cf24e74461c43edae4b48013d407c2d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0951"
+        "@id": "edam:data_2600"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3751"
+        "@id": "edam:format_2330"
       },
-      "sc:name": "Statistical estimate score"
+      "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N0393836d0adb4f5d89de037012224c42",
+      "@id": "_:N55786953fd104f44bd3ada9c47b0db52",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1086"
@@ -169,6 +158,17 @@
         "@id": "edam:format_3751"
       },
       "sc:name": "Compound identifier"
+    },
+    {
+      "@id": "_:N206286e1bdd7424db76ddc4433a718b7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0951"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3751"
+      },
+      "sc:name": "Statistical estimate score"
     }
   ]
 }

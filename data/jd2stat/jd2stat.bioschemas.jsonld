@@ -43,14 +43,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N560c4ae3d65a473886b9f1cf17fe114a"
+          "@id": "_:N7a506d14b296442395f10bdf3ab2946c"
         },
         {
-          "@id": "_:N92679ce78b544934a98d02f16105b791"
+          "@id": "_:Nc3873f287030487283f61f280a843026"
         }
       ],
       "bsc:output": {
-        "@id": "_:Naebf784d58e544f0ae41bf30419245aa"
+        "@id": "_:N317c38cac5494028b801ccc4278e3eec"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -58,11 +58,11 @@
         "@id": "edam:topic_0080"
       },
       "sc:citation": [
-        "pubmed:25266120",
-        "pmcid:PMC4179140",
         {
           "@id": "https://doi.org/10.1038/srep06504"
-        }
+        },
+        "pubmed:25266120",
+        "pmcid:PMC4179140"
       ],
       "sc:description": "A Java package that utilises a series of D2 statistics to extract k-mers (subsequences at defined k length) from a set of biological sequences, and generate pairwise distances for each possible pair. This distance can be used directly for phylogenetic inference using neighbour-joining.",
       "sc:featureList": [
@@ -83,7 +83,7 @@
       "sc:url": "http://bioinformatics.org.au/tools/jD2Stat/"
     },
     {
-      "@id": "_:Naebf784d58e544f0ae41bf30419245aa",
+      "@id": "_:N317c38cac5494028b801ccc4278e3eec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0870"
@@ -94,18 +94,7 @@
       "sc:name": "Sequence distance matrix"
     },
     {
-      "@id": "_:N560c4ae3d65a473886b9f1cf17fe114a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1245"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2546"
-      },
-      "sc:name": "Sequence cluster (protein)"
-    },
-    {
-      "@id": "_:N92679ce78b544934a98d02f16105b791",
+      "@id": "_:N7a506d14b296442395f10bdf3ab2946c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1246"
@@ -116,12 +105,23 @@
       "sc:name": "Sequence cluster (nucleic acid)"
     },
     {
-      "@id": "http://orcid.org/0000-0002-3729-8176",
-      "@type": "sc:Person"
+      "@id": "_:Nc3873f287030487283f61f280a843026",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1245"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2546"
+      },
+      "sc:name": "Sequence cluster (protein)"
     },
     {
       "@id": "https://doi.org/10.1038/srep06504",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-3729-8176",
+      "@type": "sc:Person"
     }
   ]
 }

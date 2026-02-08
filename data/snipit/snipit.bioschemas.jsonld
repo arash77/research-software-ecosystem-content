@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N03db6f9493c942f0af5cc8377fe450ba"
+          "@id": "_:N990f864351414cae95f6fa8be3c8c3fb"
         },
         {
-          "@id": "_:N10c0671c49e74a0a94bddc3d713575e1"
+          "@id": "_:Nf8e089b5ffa3496fb378973889bff54d"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne80369fe80dc4704a99e9ed04268e716"
+        "@id": "_:N35f51614d4d0486b84f76e9d2faa94a1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -61,21 +61,13 @@
       "sc:license": "GPL-3.0",
       "sc:name": "snipit",
       "sc:softwareVersion": [
-        "1.2",
-        "1.6"
+        "1.6",
+        "1.2"
       ],
       "sc:url": "https://github.com/aineniamh/snipit"
     },
     {
-      "@id": "_:Ne80369fe80dc4704a99e9ed04268e716",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N03db6f9493c942f0af5cc8377fe450ba",
+      "@id": "_:N990f864351414cae95f6fa8be3c8c3fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -83,7 +75,7 @@
       "sc:name": "Protein sequence alignment"
     },
     {
-      "@id": "_:N10c0671c49e74a0a94bddc3d713575e1",
+      "@id": "_:Nf8e089b5ffa3496fb378973889bff54d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -92,6 +84,14 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "_:N35f51614d4d0486b84f76e9d2faa94a1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
     }
   ]
 }

@@ -36,33 +36,25 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.5281/zenodo.6888913",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-1881-5489",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/pdb-nma-analysis",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "https://orcid.org/0000-0003-1881-5489"
       },
       "bsc:input": {
-        "@id": "_:Ne01b1220bb694cf6b480c71e56661db7"
+        "@id": "_:N7bd0087388254b96b294f5ab8bbe3f5c"
       },
       "bsc:output": {
-        "@id": "_:N059622b53d094e2995b7eb03c92bfbe6"
+        "@id": "_:N1528ec1e45954875b44272dd9e5d6b34"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2814"
+          "@id": "edam:topic_3332"
         },
         {
-          "@id": "edam:topic_3332"
+          "@id": "edam:topic_2814"
         },
         {
           "@id": "edam:topic_1317"
@@ -87,13 +79,13 @@
       "sc:license": "GPL-3.0",
       "sc:name": "pdb-nma-analysis",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:url": "https://github.com/haschka/pdb-nma-analysis"
     },
     {
-      "@id": "_:N059622b53d094e2995b7eb03c92bfbe6",
+      "@id": "_:N1528ec1e45954875b44272dd9e5d6b34",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1470"
@@ -104,7 +96,7 @@
       "sc:name": "C-alpha trace"
     },
     {
-      "@id": "_:Ne01b1220bb694cf6b480c71e56661db7",
+      "@id": "_:N7bd0087388254b96b294f5ab8bbe3f5c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2877"
@@ -113,6 +105,14 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Protein complex"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.6888913",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1881-5489",
+      "@type": "sc:Person"
     }
   ]
 }

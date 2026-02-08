@@ -40,20 +40,20 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Zuguang Gu",
       "bsc:input": {
-        "@id": "_:N3a3d9116c58547858e544c756f191017"
+        "@id": "_:Nd4c458ee885e4eea94c941a96668a89a"
       },
       "bsc:output": [
         {
-          "@id": "_:N9ac6aba360244247be92af8266a3e423"
+          "@id": "_:N55b1211e15ce463d834bb743128e916d"
         },
         {
-          "@id": "_:N2d2371b99ce54f52a3026057a3bd8d14"
+          "@id": "_:N69dba3005f2d4d92832bb07c649cf46d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3673"
@@ -77,29 +77,40 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/rGREAT.html"
     },
     {
-      "@id": "_:N9ac6aba360244247be92af8266a3e423",
+      "@id": "_:Nd4c458ee885e4eea94c941a96668a89a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N55b1211e15ce463d834bb743128e916d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3603"
-        },
-        {
           "@id": "edam:format_3508"
         },
         {
-          "@id": "edam:format_3604"
+          "@id": "edam:format_3696"
         },
         {
-          "@id": "edam:format_3696"
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3604"
         }
       ],
       "sc:name": "P-value"
     },
     {
-      "@id": "_:N2d2371b99ce54f52a3026057a3bd8d14",
+      "@id": "_:N69dba3005f2d4d92832bb07c649cf46d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -109,27 +120,16 @@
           "@id": "edam:format_3508"
         },
         {
-          "@id": "edam:format_3604"
-        },
-        {
           "@id": "edam:format_3696"
         },
         {
           "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3604"
         }
       ],
       "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N3a3d9116c58547858e544c756f191017",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
     }
   ]
 }

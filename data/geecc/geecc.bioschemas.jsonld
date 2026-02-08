@@ -45,18 +45,18 @@
       "biotools:primaryContact": "Markus Boenn",
       "bsc:input": [
         {
-          "@id": "_:N814e48da13c443d0baa2ef8b66440c54"
+          "@id": "_:N129555d0fcf543b3b207c5d74c15b5aa"
         },
         {
-          "@id": "_:N7aee545373804e2e97afeab7d8327e7b"
+          "@id": "_:Nba4408cafdc34bdab85c20945dccfe8a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9cec76e9283e4b148a4d936f26f5b6ec"
+          "@id": "_:N4c8426d54ddd40a49329cf84e9f9bed6"
         },
         {
-          "@id": "_:Nbd7333d1142040b9845fde756c4a55af"
+          "@id": "_:N77db05d880504aeda5a42037217d414d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,15 +66,15 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0203"
+          "@id": "edam:topic_3572"
         },
         {
-          "@id": "edam:topic_3572"
+          "@id": "edam:topic_0203"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4509590",
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
         }
@@ -97,7 +97,45 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/geecc.html"
     },
     {
-      "@id": "_:N814e48da13c443d0baa2ef8b66440c54",
+      "@id": "_:N4c8426d54ddd40a49329cf84e9f9bed6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3509"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Ontology mapping"
+    },
+    {
+      "@id": "_:N77db05d880504aeda5a42037217d414d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N129555d0fcf543b3b207c5d74c15b5aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -108,7 +146,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N7aee545373804e2e97afeab7d8327e7b",
+      "@id": "_:Nba4408cafdc34bdab85c20945dccfe8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -117,44 +155,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Gene expression profile"
-    },
-    {
-      "@id": "_:N9cec76e9283e4b148a4d936f26f5b6ec",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3509"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3508"
-        },
-        {
-          "@id": "edam:format_3604"
-        },
-        {
-          "@id": "edam:format_3579"
-        }
-      ],
-      "sc:name": "Ontology mapping"
-    },
-    {
-      "@id": "_:Nbd7333d1142040b9845fde756c4a55af",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1636"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3508"
-        },
-        {
-          "@id": "edam:format_3604"
-        },
-        {
-          "@id": "edam:format_3579"
-        }
-      ],
-      "sc:name": "Heat map"
     }
   ]
 }

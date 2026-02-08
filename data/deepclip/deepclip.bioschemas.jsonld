@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkaa530",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-5315-8325",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1101/757062",
       "@type": "sc:CreativeWork"
     },
@@ -55,18 +47,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nc19def43006e4b4bb9b07721fdefdab5"
+          "@id": "_:Nabdb279b76214b93b11988875a4a3362"
         },
         {
-          "@id": "_:N22802be4528741a6a73e6bb151321363"
+          "@id": "_:N9411262961e745e1a2cc910bf201b73e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2c01a82c36264c7db007bc9c1528e734"
+          "@id": "_:N632c58b8d3104f91bf2c49ace28b9b63"
         },
         {
-          "@id": "_:N62396202fecf4254b84644f0ab5738c8"
+          "@id": "_:N0b6ae1a7afc042ffb6dde43c6ca2803b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -76,44 +68,44 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0128"
-        },
-        {
           "@id": "edam:topic_3474"
         },
         {
           "@id": "edam:topic_3794"
+        },
+        {
+          "@id": "edam:topic_0128"
         }
       ],
       "sc:author": [
-        {
-          "@id": "https://orcid.org/0000-0002-5315-8325"
-        },
+        "Alexander Gulliver Bjørnholt Grønning",
         {
           "@id": "https://orcid.org/0000-0001-8076-5035"
         },
-        "Alexander Gulliver Bjørnholt Grønning"
+        {
+          "@id": "https://orcid.org/0000-0002-5315-8325"
+        }
       ],
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.1101/757062"
-        },
-        "pubmed:32558887",
-        {
           "@id": "https://doi.org/10.1093/nar/gkaa530"
         },
-        "pmcid:PMC7367176"
+        "pmcid:PMC7367176",
+        "pubmed:32558887",
+        {
+          "@id": "https://doi.org/10.1101/757062"
+        }
       ],
       "sc:description": "Predicting the effect of mutations on protein-RNA binding with Deep Learning | This repository contains all DeepCLIP Python code | A context-aware neural network for modeling and predicting protein binding to nucleic acids using only sequence input | DeepCLIP is a neural network with shallow convolutional layers connected to a bidirectional LSTM layer",
       "sc:featureList": [
+        {
+          "@id": "edam:operation_0441"
+        },
         {
           "@id": "edam:operation_3901"
         },
         {
           "@id": "edam:operation_3902"
-        },
-        {
-          "@id": "edam:operation_0441"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -126,18 +118,7 @@
       "sc:url": "https://deepclip.compbio.sdu.dk"
     },
     {
-      "@id": "_:Nc19def43006e4b4bb9b07721fdefdab5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2012"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3585"
-      },
-      "sc:name": "Sequence coordinates"
-    },
-    {
-      "@id": "_:N22802be4528741a6a73e6bb151321363",
+      "@id": "_:Nabdb279b76214b93b11988875a4a3362",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -148,23 +129,18 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N2c01a82c36264c7db007bc9c1528e734",
+      "@id": "_:N9411262961e745e1a2cc910bf201b73e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1772"
+        "@id": "edam:data_2012"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3464"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Score"
+      "sc:encodingFormat": {
+        "@id": "edam:format_3585"
+      },
+      "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N62396202fecf4254b84644f0ab5738c8",
+      "@id": "_:N632c58b8d3104f91bf2c49ace28b9b63",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -173,6 +149,30 @@
         "@id": "edam:format_4002"
       },
       "sc:name": "Mathematical model"
+    },
+    {
+      "@id": "_:N0b6ae1a7afc042ffb6dde43c6ca2803b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Score"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkaa530",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5315-8325",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://orcid.org/0000-0001-8076-5035",

@@ -45,21 +45,21 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N3efa6d23993f442282586e450e719633"
+          "@id": "_:N3dbc59e617f8497d90a9afeb7a9611dd"
         },
         {
-          "@id": "_:Nb55f152446e54ad0907cd4dc84841fdb"
+          "@id": "_:N9ee5f1277711429e90dba65c719e9ffa"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nca68cd4c055b4d7387c993782392fcb6"
+          "@id": "_:N7d2a10264e314ea2bcc5f51835e6c00c"
         },
         {
-          "@id": "_:N43e1df3336784e9fbe5cf9e0b6603f30"
+          "@id": "_:Na54654c452114f77a8a45709b7284b4c"
         },
         {
-          "@id": "_:Nd677d245156a4f1abf8e71c022442ee1"
+          "@id": "_:N5809695c3cdd4ab981ae1389e186224b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -97,7 +97,51 @@
       "sc:url": "https://bioweb.pasteur.fr/packages/pack@SynTViewTools@0.0.1"
     },
     {
-      "@id": "_:N3efa6d23993f442282586e450e719633",
+      "@id": "_:N7d2a10264e314ea2bcc5f51835e6c00c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Na54654c452114f77a8a45709b7284b4c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5809695c3cdd4ab981ae1389e186224b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N3dbc59e617f8497d90a9afeb7a9611dd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N9ee5f1277711429e90dba65c719e9ffa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -110,50 +154,6 @@
           "@id": "edam:format_2330"
         }
       ],
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nb55f152446e54ad0907cd4dc84841fdb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nca68cd4c055b4d7387c993782392fcb6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N43e1df3336784e9fbe5cf9e0b6603f30",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nd677d245156a4f1abf8e71c022442ee1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
       "sc:name": "Data"
     },
     {

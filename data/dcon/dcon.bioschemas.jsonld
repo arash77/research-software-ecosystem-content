@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/17.10.957",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/dcon",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Piero Fariselli",
       "bsc:input": {
-        "@id": "_:N924d90e44f7743a6af278547134d16d5"
+        "@id": "_:Nfc71c7e3233c4c31b09f0edfee7ad427"
       },
       "bsc:output": {
-        "@id": "_:Nb8f9ac95a81d42899b327178c7cc5004"
+        "@id": "_:Nc42d28368f7141e2b27235486a040e7e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -52,10 +56,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3542"
+          "@id": "edam:topic_0082"
         },
         {
-          "@id": "edam:topic_0082"
+          "@id": "edam:topic_3542"
         }
       ],
       "sc:citation": [
@@ -71,8 +75,8 @@
       "sc:name": "DCON",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "ELIXIR-ITA-BOLOGNA",
       "sc:softwareHelp": {
@@ -82,7 +86,7 @@
       "sc:url": "http://gpcr.biocomp.unibo.it/cgi/predictors/cys-cys/pred_dconcgi.cgi"
     },
     {
-      "@id": "_:N924d90e44f7743a6af278547134d16d5",
+      "@id": "_:Nfc71c7e3233c4c31b09f0edfee7ad427",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0897"
@@ -93,7 +97,7 @@
       "sc:name": "Protein property"
     },
     {
-      "@id": "_:Nb8f9ac95a81d42899b327178c7cc5004",
+      "@id": "_:Nc42d28368f7141e2b27235486a040e7e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -102,10 +106,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/17.10.957",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

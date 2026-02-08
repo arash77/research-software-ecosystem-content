@@ -40,38 +40,38 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd938995b17a349dd95593ceb1227f9e1"
+          "@id": "_:Nc500414f914c49d1b3afc31aeeaaa1de"
         },
         {
-          "@id": "_:N207a373ab37d4fa4ba307be25ca3ffcc"
+          "@id": "_:Ncb29c3d3970547d4829628b46414c295"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N72e2b453a518478881eb9d79f64224ba"
+          "@id": "_:N7896f2eb6e23480b968935f1179da6f1"
         },
         {
-          "@id": "_:Ne6fa02f9fa184a72b42b2caa59e746c6"
+          "@id": "_:N196d36eff4b040b3a6d35c8262fc6665"
         },
         {
-          "@id": "_:N32c316d4ffc148128ead7adf004b4eb6"
+          "@id": "_:N9d036ed7ed1041ce95ceff4c0ffa03bf"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web service",
+        "Web application",
         "Database portal",
-        "Web application"
+        "Web service"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_3071"
         },
         {
           "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_0622"
         }
       ],
       "sc:citation": [
@@ -84,46 +84,38 @@
       "sc:description": "An integrated database for grapevine data",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_2436"
         },
         {
           "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2422"
         },
         {
-          "@id": "edam:operation_2436"
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "LGPL-2.1",
       "sc:name": "GrapeMine",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://flymine.readthedocs.io/en/latest/"
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
         },
         {
-          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+          "@id": "https://flymine.readthedocs.io/en/latest/"
         }
       ],
       "sc:softwareVersion": "1.0",
       "sc:url": "http://urgi.versailles.inra.fr/GrapeMine"
     },
     {
-      "@id": "_:N72e2b453a518478881eb9d79f64224ba",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3786"
-      },
-      "sc:name": "Query script"
-    },
-    {
-      "@id": "_:Ne6fa02f9fa184a72b42b2caa59e746c6",
+      "@id": "_:N7896f2eb6e23480b968935f1179da6f1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -131,7 +123,15 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:N32c316d4ffc148128ead7adf004b4eb6",
+      "@id": "_:N196d36eff4b040b3a6d35c8262fc6665",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "_:N9d036ed7ed1041ce95ceff4c0ffa03bf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -139,7 +139,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Nd938995b17a349dd95593ceb1227f9e1",
+      "@id": "_:Nc500414f914c49d1b3afc31aeeaaa1de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -147,7 +147,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N207a373ab37d4fa4ba307be25ca3ffcc",
+      "@id": "_:Ncb29c3d3970547d4829628b46414c295",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"

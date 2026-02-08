@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/apaiq",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3d50e024deb843abbf85c47fcea6814e"
+        "@id": "_:Nd2ae7ece570a48d6bf19355b055a0977"
       },
       "bsc:output": {
-        "@id": "_:Nc3cf6c21ecb74fbabf7eb7eae31a1b71"
+        "@id": "_:N286d6ede8f7b4188a8c3e4c9bd0c384a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -55,21 +55,21 @@
           "@id": "edam:topic_2640"
         },
         {
+          "@id": "edam:topic_0203"
+        },
+        {
           "@id": "edam:topic_3512"
         },
         {
           "@id": "edam:topic_3170"
-        },
-        {
-          "@id": "edam:topic_0203"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC10234309",
         {
           "@id": "https://doi.org/10.1101/gr.277177.122"
         },
-        "pubmed:37117035"
+        "pubmed:37117035",
+        "pmcid:PMC10234309"
       ],
       "sc:description": "Accurate transcriptome-wide identification and quantification of alternative polyadenylation from RNA-seq data with APAIQ.",
       "sc:featureList": [
@@ -77,10 +77,10 @@
           "@id": "edam:operation_0428"
         },
         {
-          "@id": "edam:operation_3800"
+          "@id": "edam:operation_3435"
         },
         {
-          "@id": "edam:operation_3435"
+          "@id": "edam:operation_3800"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -88,21 +88,13 @@
       "sc:name": "APAIQ",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:url": "https://anaconda.org/joshuachou/apaiq"
     },
     {
-      "@id": "_:Nc3cf6c21ecb74fbabf7eb7eae31a1b71",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N3d50e024deb843abbf85c47fcea6814e",
+      "@id": "_:Nd2ae7ece570a48d6bf19355b055a0977",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -111,6 +103,14 @@
         "@id": "edam:format_3583"
       },
       "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N286d6ede8f7b4188a8c3e4c9bd0c384a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
     }
   ]
 }

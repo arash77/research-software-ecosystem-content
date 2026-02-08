@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Neeeb15105fd04cffa476bc35e2512d68"
+          "@id": "_:Needc1cab3b854e3f90a66ac708041b0f"
         },
         {
-          "@id": "_:N0c6db406061844ee96c3b113e483c621"
+          "@id": "_:Nc78962a853c343a481a6b1e93c7b0f67"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd867bed4d2c94b0984e485e3d954f167"
+          "@id": "_:N6f4bc2036f9c432893b81fba74828aab"
         },
         {
-          "@id": "_:N51c3d155db9b4e2c94c8bea390ea48e1"
+          "@id": "_:Na4c1de0951954782af8aa9f118ed17dc"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -68,10 +68,10 @@
         }
       ],
       "sc:citation": [
+        "pmcid:PMC8290197",
         {
           "@id": "https://doi.org/10.1093/gigascience/giab049"
         },
-        "pmcid:PMC8290197",
         "pubmed:34282451"
       ],
       "sc:description": "pyM²aia is a Python package for memory-efficient access and processing of mass spectrometry image data. The I/O functionality is derived from the interactive desktop application M²aia. Special features are the batch generator utilities for deep learning applications.",
@@ -81,9 +81,9 @@
       "sc:license": "BSD-3-Clause",
       "sc:name": "pyM2aia",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://data.jtfc.de/pym2aia/sphinx-build/html/index.html"
@@ -91,7 +91,18 @@
       "sc:url": "https://m2aia.de/pym2aia.html"
     },
     {
-      "@id": "_:Nd867bed4d2c94b0984e485e3d954f167",
+      "@id": "_:Needc1cab3b854e3f90a66ac708041b0f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3682"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Nc78962a853c343a481a6b1e93c7b0f67",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -102,7 +113,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N51c3d155db9b4e2c94c8bea390ea48e1",
+      "@id": "_:N6f4bc2036f9c432893b81fba74828aab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -113,18 +124,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Neeeb15105fd04cffa476bc35e2512d68",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3682"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N0c6db406061844ee96c3b113e483c621",
+      "@id": "_:Na4c1de0951954782af8aa9f118ed17dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

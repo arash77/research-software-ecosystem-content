@@ -49,10 +49,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0196"
+          "@id": "edam:topic_0621"
         },
         {
-          "@id": "edam:topic_0621"
+          "@id": "edam:topic_0196"
         },
         {
           "@id": "edam:topic_3673"
@@ -80,9 +80,9 @@
       "sc:license": "Other",
       "sc:name": "CORD",
       "sc:operatingSystem": [
-        "Linux",
         "Windows",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:url": "https://cord.ihuman.shanghaitech.edu.cn"
     }

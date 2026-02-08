@@ -40,14 +40,18 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/sortgff",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nff4c6db879aa4862a6406c9c62a8a1f2"
+        "@id": "_:Nf89bcaea71ea4db7b788392272512a33"
       },
       "bsc:output": {
-        "@id": "_:Na469f9101605478481ce3bf1be7b5061"
+        "@id": "_:Nb6b2d91249fe43e8a2166861f938483d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -76,8 +80,8 @@
       },
       "sc:name": "sortgff",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
+        "Windows",
         "Mac"
       ],
       "sc:softwareHelp": {
@@ -87,18 +91,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:Nff4c6db879aa4862a6406c9c62a8a1f2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Na469f9101605478481ce3bf1be7b5061",
+      "@id": "_:Nb6b2d91249fe43e8a2166861f938483d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -109,8 +102,15 @@
       "sc:name": "Data"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nf89bcaea71ea4db7b788392272512a33",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
     }
   ]
 }

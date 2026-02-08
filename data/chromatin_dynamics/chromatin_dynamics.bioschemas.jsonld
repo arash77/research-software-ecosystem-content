@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/chromatin_dynamics",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N474ebc34bfe046de80438cf41980926e"
+        "@id": "_:N72912484528941bcb318eb2e2eeb7572"
       },
       "bsc:output": {
-        "@id": "_:N9c1110012c774b629eb3e911110d6bd5"
+        "@id": "_:N59812c1b3a8d43a3b52b54ba47d51648"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3306"
+          "@id": "edam:topic_0097"
         },
         {
-          "@id": "edam:topic_0097"
+          "@id": "edam:topic_3306"
         },
         {
           "@id": "edam:topic_0077"
@@ -59,10 +59,10 @@
       ],
       "sc:citation": [
         "pubmed:23685436",
-        "pmcid:PMC3692121",
         {
           "@id": "https://doi.org/10.1093/nar/gkt378"
-        }
+        },
+        "pmcid:PMC3692121"
       ],
       "sc:description": "Chromatin Dynamics tool\nMultiscale Complex Genomics (MuG) VM",
       "sc:featureList": {
@@ -73,7 +73,7 @@
       "sc:url": "http://mmb.irbbarcelona.org/www/"
     },
     {
-      "@id": "_:N9c1110012c774b629eb3e911110d6bd5",
+      "@id": "_:N59812c1b3a8d43a3b52b54ba47d51648",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -84,7 +84,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N474ebc34bfe046de80438cf41980926e",
+      "@id": "_:N72912484528941bcb318eb2e2eeb7572",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"

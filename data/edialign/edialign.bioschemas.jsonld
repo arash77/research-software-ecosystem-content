@@ -36,17 +36,29 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/edialign",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne385508fef43421f8045570d495ee837"
+        "@id": "_:Nba86968f618d4e92bb1c40ec838d229b"
       },
       "bsc:output": [
         {
-          "@id": "_:N004eddd058d6470abd065fde8f2e98cc"
+          "@id": "_:N1090065238184bc69a589ea9c3026704"
         },
         {
-          "@id": "_:Nd88b0784d85043a785c2938413c1f06b"
+          "@id": "_:N7f63e6895b4045c2a76ac2c276e001cc"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,9 +78,9 @@
         }
       ],
       "sc:contributor": [
+        "UK MRC",
         "Wellcome Trust",
         "EMBOSS Contributors",
-        "UK MRC",
         "UK BBSRC"
       ],
       "sc:description": "Local multiple alignment of sequences.",
@@ -76,8 +88,8 @@
         "@id": "edam:operation_0492"
       },
       "sc:funder": [
-        "UK MRC",
         "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust"
       ],
       "sc:isAccessibleForFree": true,
@@ -89,25 +101,25 @@
         "Linux"
       ],
       "sc:provider": [
-        "EMBOSS",
-        "EMBL-EBI"
+        "EMBL-EBI",
+        "EMBOSS"
       ],
       "sc:softwareHelp": [
-        {
-          "@id": "http://emboss.open-bio.org/rel/rel6/apps/edialign.html"
-        },
         {
           "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
         },
         {
           "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
+        },
+        {
+          "@id": "http://emboss.open-bio.org/rel/rel6/apps/edialign.html"
         }
       ],
       "sc:softwareVersion": "r6",
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/edialign.html"
     },
     {
-      "@id": "_:Ne385508fef43421f8045570d495ee837",
+      "@id": "_:Nba86968f618d4e92bb1c40ec838d229b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -115,32 +127,20 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N004eddd058d6470abd065fde8f2e98cc",
+      "@id": "_:N1090065238184bc69a589ea9c3026704",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:N7f63e6895b4045c2a76ac2c276e001cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
       },
       "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Nd88b0784d85043a785c2938413c1f06b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0849"
-      },
-      "sc:name": "Sequence record"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

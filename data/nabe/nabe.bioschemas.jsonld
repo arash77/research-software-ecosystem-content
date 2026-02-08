@@ -36,10 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/DATABASE/BAAB050",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/nabe",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9104cb48e89e4d059a5104ce832952fa"
+        "@id": "_:Nc4cac0bedadc4a6ba101bf5ecbd32aaa"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -54,13 +58,13 @@
           "@id": "edam:topic_0128"
         },
         {
+          "@id": "edam:topic_3175"
+        },
+        {
           "@id": "edam:topic_3071"
         },
         {
           "@id": "edam:topic_0154"
-        },
-        {
-          "@id": "edam:topic_3175"
         }
       ],
       "sc:citation": [
@@ -73,13 +77,13 @@
       "sc:description": "Protein-Nucleic Acid Binding Energetic Database",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3901"
+          "@id": "edam:operation_0224"
         },
         {
           "@id": "edam:operation_3900"
         },
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_3901"
         },
         {
           "@id": "edam:operation_0478"
@@ -89,8 +93,8 @@
       "sc:license": "Not licensed",
       "sc:name": "Nabe",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -99,16 +103,12 @@
       "sc:url": "http://nabe.denglab.org"
     },
     {
-      "@id": "_:N9104cb48e89e4d059a5104ce832952fa",
+      "@id": "_:Nc4cac0bedadc4a6ba101bf5ecbd32aaa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
       },
       "sc:name": "Experimental measurement"
-    },
-    {
-      "@id": "https://doi.org/10.1093/DATABASE/BAAB050",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

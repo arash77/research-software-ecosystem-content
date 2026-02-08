@@ -43,44 +43,44 @@
       "@id": "https://bio.tools/tmhmm",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Neadec70a296044f29486c423bb5e4458"
+        "@id": "_:N4ba39c7d3c3047c1beffd3c8c0316818"
       },
       "bsc:output": [
         {
-          "@id": "_:Nae33d0849bc24f92919315fbb0147806"
+          "@id": "_:N4879fc3788ac49a580ce276b0a16ea17"
         },
         {
-          "@id": "_:Nc73f402e267c4555899bd0b317d3024e"
+          "@id": "_:N5590c2dbe16c44bb9da034773a38c17d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
         "Web application",
-        "Web service"
+        "Web service",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3542"
+          "@id": "edam:topic_0820"
+        },
+        {
+          "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_0736"
         },
         {
-          "@id": "edam:topic_0820"
+          "@id": "edam:topic_3542"
         },
         {
           "@id": "edam:topic_0601"
-        },
-        {
-          "@id": "edam:topic_0121"
         }
       ],
       "sc:citation": [
-        "pubmed:11152613",
         {
           "@id": "https://doi.org/10.1006/jmbi.2000.4315"
-        }
+        },
+        "pubmed:11152613"
       ],
       "sc:description": "Prediction of transmembrane helices in proteins.",
       "sc:featureList": {
@@ -90,27 +90,27 @@
       "sc:license": "Other",
       "sc:name": "TMHMM",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:provider": "CBS",
       "sc:softwareVersion": "2.0",
       "sc:url": "http://cbs.dtu.dk/services/TMHMM/"
     },
     {
-      "@id": "_:Nae33d0849bc24f92919315fbb0147806",
+      "@id": "_:N4ba39c7d3c3047c1beffd3c8c0316818",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2955"
+        "@id": "edam:data_2044"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2333"
+        "@id": "edam:format_1929"
       },
-      "sc:name": "Sequence report"
+      "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nc73f402e267c4555899bd0b317d3024e",
+      "@id": "_:N4879fc3788ac49a580ce276b0a16ea17",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -121,15 +121,15 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:Neadec70a296044f29486c423bb5e4458",
+      "@id": "_:N5590c2dbe16c44bb9da034773a38c17d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2044"
+        "@id": "edam:data_2955"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1929"
+        "@id": "edam:format_2333"
       },
-      "sc:name": "Sequence"
+      "sc:name": "Sequence report"
     }
   ]
 }

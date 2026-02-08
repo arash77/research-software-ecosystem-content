@@ -36,34 +36,42 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pcbi.0010022",
+      "@id": "https://doi.org/10.1109/JPROC.2016.2590833",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s00239-003-0007-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0091929",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/repet",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N55e30f4cd4af4a0294c4ae259500ee2e"
+        "@id": "_:N118641e6d4954ed19b50335561e27467"
       },
       "bsc:output": [
         {
-          "@id": "_:Ne06a779c6a0a479ba90eafa2b2014b37"
+          "@id": "_:N92e715ce0d9d4052a494f4794f0f3ca0"
         },
         {
-          "@id": "_:Nc41b872f8ec34e34b83b38f365219b5f"
+          "@id": "_:Nc87b4d2805ce40a58938251f3c34cb81"
         },
         {
-          "@id": "_:N07e9a32959ba41438683b4f87de42107"
+          "@id": "_:N0ddf7203eead4c72bfadee8b07831a8a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0157"
+          "@id": "edam:topic_0097"
         },
         {
-          "@id": "edam:topic_0097"
+          "@id": "edam:topic_0157"
         },
         {
           "@id": "edam:topic_0654"
@@ -74,7 +82,9 @@
         {
           "@id": "https://doi.org/10.1371/journal.pcbi.0010022"
         },
-        "pmcid:PMC4008368",
+        {
+          "@id": "https://doi.org/10.1371/journal.pone.0016526"
+        },
         {
           "@id": "https://doi.org/10.1109/JPROC.2016.2590833"
         },
@@ -82,17 +92,15 @@
           "@id": "https://doi.org/10.1371/journal.pone.0091929"
         },
         "pmcid:PMC1185648",
-        "pubmed:21304975",
-        "pmcid:PMC3031573",
-        {
-          "@id": "https://doi.org/10.1371/journal.pone.0016526"
-        },
         "pubmed:24786468",
+        "pmcid:PMC4008368",
+        "pubmed:21304975",
+        "pubmed:16110336",
         "pubmed:15008403",
         {
           "@id": "https://doi.org/10.1007/s00239-003-0007-2"
         },
-        "pubmed:16110336"
+        "pmcid:PMC3031573"
       ],
       "sc:contributor": "URGI",
       "sc:description": "The REPET package integrates bioinformatics pipelines dedicated to detect, annotate and analyze transposable elements (TEs) in genomic sequences. The main pipelines are (i) TEdenovo, which search for interspersed repeats, build consensus sequences and classify them according to TE features, and (ii)\n TEannot, which mines a genome with a library of TE sequences, for instance the one produced by the TEdenovo pipeline, to provide TE annotations exported into GFF3 files.",
@@ -114,34 +122,23 @@
       "sc:provider": "URGI",
       "sc:softwareHelp": [
         {
-          "@id": "https://urgi.versailles.inrae.fr/Tools/REPET/TEdenovo-tuto"
+          "@id": "https://urgi.versailles.inrae.fr/Tools/REPET"
         },
         {
           "@id": "https://urgi.versailles.inrae.fr/Tools/REPET/INSTALL"
         },
         {
-          "@id": "https://forgemia.inra.fr/urgi-anagen/wiki-repet/-/wikis/REPET-V3.0-tutorial"
+          "@id": "https://urgi.versailles.inrae.fr/Tools/REPET/TEdenovo-tuto"
         },
         {
-          "@id": "https://urgi.versailles.inrae.fr/Tools/REPET"
+          "@id": "https://forgemia.inra.fr/urgi-anagen/wiki-repet/-/wikis/REPET-V3.0-tutorial"
         }
       ],
       "sc:softwareVersion": "v3.0",
       "sc:url": "https://urgi.versailles.inrae.fr/Tools/REPET"
     },
     {
-      "@id": "_:Ne06a779c6a0a479ba90eafa2b2014b37",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1270"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2206"
-      },
-      "sc:name": "Feature table"
-    },
-    {
-      "@id": "_:Nc41b872f8ec34e34b83b38f365219b5f",
+      "@id": "_:N92e715ce0d9d4052a494f4794f0f3ca0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -152,7 +149,18 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N07e9a32959ba41438683b4f87de42107",
+      "@id": "_:Nc87b4d2805ce40a58938251f3c34cb81",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2206"
+      },
+      "sc:name": "Feature table"
+    },
+    {
+      "@id": "_:N0ddf7203eead4c72bfadee8b07831a8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -163,7 +171,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N55e30f4cd4af4a0294c4ae259500ee2e",
+      "@id": "_:N118641e6d4954ed19b50335561e27467",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -174,19 +182,11 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "https://doi.org/10.1007/s00239-003-0007-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pone.0091929",
+      "@id": "https://doi.org/10.1371/journal.pcbi.0010022",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1371/journal.pone.0016526",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1109/JPROC.2016.2590833",
       "@type": "sc:CreativeWork"
     }
   ]

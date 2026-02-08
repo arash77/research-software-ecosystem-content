@@ -44,6 +44,10 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://orcid.org/0000-0003-3024-1449",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/dentist",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -51,28 +55,28 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nb56dcca740c641dd932f4c4bd9e43124"
+          "@id": "_:Nb942b48626a94205832e4399b0c7e896"
         },
         {
-          "@id": "_:N5bd61d6f1e834fed9f476893eb647071"
+          "@id": "_:Na76a3af31b8b4102b4da16d4f6040412"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N58ad7fac889f4f89a25266be272b2c9a"
+          "@id": "_:Ncb32f9a7d50f4143bb56287188acb412"
         },
         {
-          "@id": "_:N3c4c0190a0df4b26a572712317e397c2"
+          "@id": "_:N5d887dedaa464b7da7888b83b4a65690"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0769"
+          "@id": "edam:topic_0196"
         },
         {
-          "@id": "edam:topic_0196"
+          "@id": "edam:topic_0769"
         }
       ],
       "sc:author": {
@@ -95,15 +99,26 @@
       "sc:name": "DENTIST",
       "sc:operatingSystem": "Linux",
       "sc:softwareVersion": [
+        "1.0.2",
         "1.0.1",
         "2.0.0",
-        "1.0.0",
-        "1.0.2"
+        "1.0.0"
       ],
       "sc:url": "https://a-ludi.github.io/dentist/"
     },
     {
-      "@id": "_:N58ad7fac889f4f89a25266be272b2c9a",
+      "@id": "_:Nb942b48626a94205832e4399b0c7e896",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "_:Na76a3af31b8b4102b4da16d4f6040412",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -114,7 +129,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N3c4c0190a0df4b26a572712317e397c2",
+      "@id": "_:Ncb32f9a7d50f4143bb56287188acb412",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -130,18 +145,7 @@
       "sc:name": "Sequence report"
     },
     {
-      "@id": "_:Nb56dcca740c641dd932f4c4bd9e43124",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1234"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set (nucleic acid)"
-    },
-    {
-      "@id": "_:N5bd61d6f1e834fed9f476893eb647071",
+      "@id": "_:N5d887dedaa464b7da7888b83b4a65690",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -150,10 +154,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-3024-1449",
-      "@type": "sc:Person"
     }
   ]
 }

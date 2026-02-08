@@ -40,23 +40,19 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cleantranscriptfile",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Ndca486162d8945188b3d15a2e765a5fc"
+          "@id": "_:Na8ab9a4fbd4e49f1812358053f6a5b24"
         },
         {
-          "@id": "_:Nf81d67e0ffb14013b9cbe275676408f6"
+          "@id": "_:Na2ee78c5f743479fa0a4456a97702cda"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nbf450aa6e1dd45a88a7dd70d1f87aef0"
+        "@id": "_:Nea38e08b46d942c1860b8411a1444f97"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -64,13 +60,13 @@
         "@id": "edam:topic_3168"
       },
       "sc:citation": [
-        {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
-        },
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC4987906",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
         "pubmed:27137889"
       ],
       "sc:description": "Clean a transcript file so that it is useable for S-MART.",
@@ -79,9 +75,9 @@
       },
       "sc:name": "cleantranscriptfile",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Furgi_tools%2FCleanTranscriptFile%2F1.0.0"
@@ -90,18 +86,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:Nbf450aa6e1dd45a88a7dd70d1f87aef0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2306"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Ndca486162d8945188b3d15a2e765a5fc",
+      "@id": "_:Na8ab9a4fbd4e49f1812358053f6a5b24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -112,7 +97,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf81d67e0ffb14013b9cbe275676408f6",
+      "@id": "_:Na2ee78c5f743479fa0a4456a97702cda",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -121,6 +106,21 @@
         "@id": "edam:format_2306"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nea38e08b46d942c1860b8411a1444f97",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

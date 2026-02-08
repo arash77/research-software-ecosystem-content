@@ -36,35 +36,39 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0003-0316-5866",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/netplantgene",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na39681cd6e6f4c878b6df9d67b057dd1"
+        "@id": "_:N9b52fb0044354de88bdd6bdb637919c5"
       },
       "bsc:output": [
         {
-          "@id": "_:Nb5e1f93e385946db98893c45bf8807d1"
+          "@id": "_:N6bd70804373546d4bc5f1ab1ba81ac86"
         },
         {
-          "@id": "_:N62fcb537b72b4ad0a64cc3fe887b8985"
+          "@id": "_:Ncb317670dd5b44c4a138f109ebf85e39"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3511"
+          "@id": "edam:topic_3512"
         },
         {
-          "@id": "edam:topic_3512"
+          "@id": "edam:topic_3511"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC146109",
+        "pubmed:8811101",
         {
           "@id": "https://doi.org/10.1093/nar/24.17.3439"
         },
-        "pubmed:8811101"
+        "pmcid:PMC146109"
       ],
       "sc:contributor": {
         "@id": "https://orcid.org/0000-0003-0316-5866"
@@ -89,7 +93,7 @@
       "sc:url": "http://www.cbs.dtu.dk/services/NetPGene/"
     },
     {
-      "@id": "_:Na39681cd6e6f4c878b6df9d67b057dd1",
+      "@id": "_:N9b52fb0044354de88bdd6bdb637919c5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -100,18 +104,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nb5e1f93e385946db98893c45bf8807d1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:N62fcb537b72b4ad0a64cc3fe887b8985",
+      "@id": "_:N6bd70804373546d4bc5f1ab1ba81ac86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -122,8 +115,15 @@
       "sc:name": "Sequence report"
     },
     {
-      "@id": "https://orcid.org/0000-0003-0316-5866",
-      "@type": "sc:Person"
+      "@id": "_:Ncb317670dd5b44c4a138f109ebf85e39",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein features"
     },
     {
       "@id": "https://doi.org/10.1093/nar/24.17.3439",

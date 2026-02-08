@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1007/978-3-031-78841-3_2",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1038/s41746-025-01434-3",
       "@type": "sc:CreativeWork"
     },
@@ -43,23 +47,23 @@
       "@id": "https://bio.tools/fedbiomed",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Marco Lorenzi",
-        "Fed-BioMed contact mailing list"
+        "Fed-BioMed contact mailing list",
+        "Marco Lorenzi"
       ],
       "bsc:input": [
         {
-          "@id": "_:N474172b2614f4b6dab70cef1fc5ff478"
+          "@id": "_:N8d88f5d60cf747b9bb63d4504e45245c"
         },
         {
-          "@id": "_:N303b05adadb04d20af22f527124ea4a4"
+          "@id": "_:N3ec8931fd8784f658ed58750d4f682af"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nbd48fb43ddd449ca88fe7f7c378db9fe"
+          "@id": "_:N4a3bb49b112a4ebda6ea8487068fd990"
         },
         {
-          "@id": "_:N3ab67bfe238042b0a574629ddb8abd2e"
+          "@id": "_:N1755d69838ff432db635ee2edc1961d0"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -68,10 +72,10 @@
         "@id": "edam:topic_3474"
       },
       "sc:author": [
-        "Francesco Cremonesi",
-        "Sergen Cansiz",
         "Yannick Bouillard",
-        "Marc Vesin"
+        "Sergen Cansiz",
+        "Marc Vesin",
+        "Francesco Cremonesi"
       ],
       "sc:citation": [
         {
@@ -84,10 +88,10 @@
       "sc:description": "Fed-BioMed is an open-source research and development initiative for translating federated learning into real-world medical applications.\nThe community of Fed-BioMed gathers experts in medical engineering, machine learning, communication, and security.\nWe all contribute to provide an open, user-friendly, and trusted framework for deploying the state-of-the-art of federated learning in sensitive environments, such as in hospitals and health data lakes.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2238"
+          "@id": "edam:operation_3443"
         },
         {
-          "@id": "edam:operation_3443"
+          "@id": "edam:operation_2238"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -115,29 +119,7 @@
       "sc:url": "https://fedbiomed.org/"
     },
     {
-      "@id": "_:Nbd48fb43ddd449ca88fe7f7c378db9fe",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:N3ab67bfe238042b0a574629ddb8abd2e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_4001"
-      },
-      "sc:name": "Image"
-    },
-    {
-      "@id": "_:N474172b2614f4b6dab70cef1fc5ff478",
+      "@id": "_:N8d88f5d60cf747b9bb63d4504e45245c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -148,27 +130,45 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N303b05adadb04d20af22f527124ea4a4",
+      "@id": "_:N3ec8931fd8784f658ed58750d4f682af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_4001"
+          "@id": "edam:format_3579"
         },
         {
           "@id": "edam:format_3603"
         },
         {
-          "@id": "edam:format_3579"
+          "@id": "edam:format_4001"
         }
       ],
       "sc:name": "Image"
     },
     {
-      "@id": "https://doi.org/10.1007/978-3-031-78841-3_2",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N4a3bb49b112a4ebda6ea8487068fd990",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_4001"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N1755d69838ff432db635ee2edc1961d0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Identifier"
     }
   ]
 }

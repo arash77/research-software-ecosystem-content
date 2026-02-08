@@ -44,23 +44,23 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7f110f21eed04c89a1ca3712d8f31522"
+          "@id": "_:N124941fe7f0a443ab4ba134ffa0586d9"
         },
         {
-          "@id": "_:N6ead376c785f4ac694d40645428abc47"
+          "@id": "_:N89f44a2a11fe46f3af2240d5bdc6488c"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nb436b245e4304edb924d77f973a0a131"
+        "@id": "_:N2ed2116012e04a00ae6991052bcbc4ef"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3489"
+          "@id": "edam:topic_0078"
         },
         {
-          "@id": "edam:topic_0078"
+          "@id": "edam:topic_3489"
         }
       ],
       "sc:author": "SING Research Group",
@@ -78,9 +78,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "MLibrary",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.sing-group.org/MLibrary/index.php?option=com_content&view=article&id=83&Itemid=66"
@@ -89,7 +89,7 @@
       "sc:url": "http://www.sing-group.org/MLibrary/"
     },
     {
-      "@id": "_:Nb436b245e4304edb924d77f973a0a131",
+      "@id": "_:N2ed2116012e04a00ae6991052bcbc4ef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -97,20 +97,20 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N7f110f21eed04c89a1ca3712d8f31522",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:name": "Mass spectrometry spectra"
-    },
-    {
-      "@id": "_:N6ead376c785f4ac694d40645428abc47",
+      "@id": "_:N124941fe7f0a443ab4ba134ffa0586d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
       },
       "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "_:N89f44a2a11fe46f3af2240d5bdc6488c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:name": "Mass spectrometry spectra"
     }
   ]
 }

@@ -43,29 +43,29 @@
       "@id": "https://bio.tools/retentionprediction",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nbacff074838747ea86ce9c194f9b8951"
+        "@id": "_:Nf21cd4ff7b1a4493ac352f25d223a90e"
       },
       "bsc:output": {
-        "@id": "_:N4ffdd5a3454d4848bfad337ef096d655"
+        "@id": "_:N4eb66183658746e486bcc6d5c47efa46"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3370"
         },
         {
-          "@id": "edam:topic_3370"
+          "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_3520"
         }
       ],
       "sc:citation": [
+        "pubmed:21840007",
         {
           "@id": "https://doi.org/10.1016/j.chroma.2011.07.070"
-        },
-        "pubmed:21840007"
+        }
       ],
       "sc:description": "A related web utility for projecting/predicting retention times.",
       "sc:featureList": {
@@ -73,8 +73,8 @@
       },
       "sc:name": "retentionprediction",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -83,7 +83,7 @@
       "sc:url": "http://retentionprediction.org/"
     },
     {
-      "@id": "_:Nbacff074838747ea86ce9c194f9b8951",
+      "@id": "_:Nf21cd4ff7b1a4493ac352f25d223a90e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2050"
@@ -94,7 +94,7 @@
       "sc:name": "Molecular property (general)"
     },
     {
-      "@id": "_:N4ffdd5a3454d4848bfad337ef096d655",
+      "@id": "_:N4eb66183658746e486bcc6d5c47efa46",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

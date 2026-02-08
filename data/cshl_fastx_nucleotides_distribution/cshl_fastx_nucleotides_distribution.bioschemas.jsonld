@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nc306192b5c044b849fab354577480e55"
+        "@id": "_:N9929627b5b28432380aaaac1983bb262"
       },
       "bsc:output": {
-        "@id": "_:N1669386a3e0a4177a7e34ed80a7d86b8"
+        "@id": "_:N21cb7672fe634d12b146c021d76bc4d5"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -55,8 +55,8 @@
         "@id": "edam:topic_3168"
       },
       "sc:citation": [
-        "pmcid:PMC4987906",
         "pubmed:27137889",
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
@@ -71,8 +71,8 @@
       "sc:name": "cshl_fastx_nucleotides_distribution",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://hannonlab.cshl.edu/fastx_toolkit/galaxy.html"
@@ -81,18 +81,7 @@
       "sc:url": "http://hannonlab.cshl.edu/fastx_toolkit/"
     },
     {
-      "@id": "_:Nc306192b5c044b849fab354577480e55",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N1669386a3e0a4177a7e34ed80a7d86b8",
+      "@id": "_:N21cb7672fe634d12b146c021d76bc4d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -101,6 +90,17 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Image"
+    },
+    {
+      "@id": "_:N9929627b5b28432380aaaac1983bb262",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",

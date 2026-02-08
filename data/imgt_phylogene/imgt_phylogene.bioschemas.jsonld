@@ -36,25 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/s0145-305x(03)00078-8",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gku1056",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/IMGT_PhyloGene",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nc0c7786c199943d88652436f2d26719e"
+          "@id": "_:N16e8b126a7cb4240b06467c53edb7cd9"
         },
         {
-          "@id": "_:N9f50eff601ac4cc691656b41f034844c"
+          "@id": "_:Nd79df31951454f9bb92baf72c69df85e"
         },
         {
-          "@id": "_:N6d93a125ba1e4e81b30803d9bcaced6a"
+          "@id": "_:N38c052fec5cf4ab6a483048e821ac891"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5d383561da0e4e3e91fd170b71176a98"
+          "@id": "_:N17730b9161284714b9f20d7a3c280c3c"
         },
         {
-          "@id": "_:N54dc1ea441f94a38a8abb46ff0a0d298"
+          "@id": "_:Nf6c2d9d7603042ebafa120f5e0f89acb"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -69,22 +77,22 @@
       ],
       "sc:citation": [
         "pmcid:PMC4383898",
-        "pubmed:25378316",
-        {
-          "@id": "https://doi.org/10.1016/s0145-305x(03)00078-8"
-        },
         {
           "@id": "https://doi.org/10.1093/nar/gku1056"
         },
-        "pubmed:12818634"
+        "pubmed:25378316",
+        "pubmed:12818634",
+        {
+          "@id": "https://doi.org/10.1016/s0145-305x(03)00078-8"
+        }
       ],
       "sc:description": "IMGT/PhyloGene is the IMGT® tool to compute and draw phylogenetic trees for immunoglobulin (IG) and T cell receptor (TR) V-REGION nucleotide sequences.\nAnalysis is based on the IMGT-ONTOLOGY concepts.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0499"
+          "@id": "edam:operation_0292"
         },
         {
-          "@id": "edam:operation_0292"
+          "@id": "edam:operation_0499"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -95,40 +103,23 @@
       "sc:url": "http://www.imgt.org/IMGTPhylogeny/"
     },
     {
-      "@id": "_:Nc0c7786c199943d88652436f2d26719e",
+      "@id": "_:N17730b9161284714b9f20d7a3c280c3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2299"
+        "@id": "edam:data_0867"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Gene name"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Sequence alignment report"
     },
     {
-      "@id": "_:N9f50eff601ac4cc691656b41f034844c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0968"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Keyword"
-    },
-    {
-      "@id": "_:N6d93a125ba1e4e81b30803d9bcaced6a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2858"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Ontology concept"
-    },
-    {
-      "@id": "_:N5d383561da0e4e3e91fd170b71176a98",
+      "@id": "_:Nf6c2d9d7603042ebafa120f5e0f89acb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2523"
@@ -139,28 +130,37 @@
       "sc:name": "Phylogenetic data"
     },
     {
-      "@id": "_:N54dc1ea441f94a38a8abb46ff0a0d298",
+      "@id": "_:N16e8b126a7cb4240b06467c53edb7cd9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0867"
+        "@id": "edam:data_2299"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2331"
-        },
-        {
-          "@id": "edam:format_1929"
-        }
-      ],
-      "sc:name": "Sequence alignment report"
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene name"
     },
     {
-      "@id": "https://doi.org/10.1016/s0145-305x(03)00078-8",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nd79df31951454f9bb92baf72c69df85e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Keyword"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gku1056",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N38c052fec5cf4ab6a483048e821ac891",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2858"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Ontology concept"
     }
   ]
 }

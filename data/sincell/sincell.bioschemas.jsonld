@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "http://orcid.org/0000-0002-4832-6101",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/sincell",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -48,26 +52,26 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N12f525aee50b44e79d3bc09691818cd2"
+          "@id": "_:N775cb2322cca4106bf3a669573ce9b84"
         },
         {
-          "@id": "_:Nf573d15732aa4861a123deabc877f2bc"
+          "@id": "_:Ncc319111e39b4c01831ab687252d744d"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nf6713527a1e3430db19aedfd2b5bc240"
+        "@id": "_:Ne5049cfc0bd941cabc416ac6a37779d7"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3308"
+          "@id": "edam:topic_0099"
         },
         {
-          "@id": "edam:topic_0099"
+          "@id": "edam:topic_3308"
         },
         {
           "@id": "edam:topic_3170"
@@ -77,11 +81,11 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4595899",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btv368"
         },
-        "pubmed:26099264"
+        "pubmed:26099264",
+        "pmcid:PMC4595899"
       ],
       "sc:description": "This package implements a methodological toolbox allowing flexible workflows under such framework and it contributes new algorithms to provide cell-state hierarchies with statistical support while accounting for stochastic factors in single-cell RNA seq. Graphical representations and functional association tests are provided to interpret hierarchies.",
       "sc:featureList": {
@@ -106,18 +110,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/sincell.html"
     },
     {
-      "@id": "_:Nf6713527a1e3430db19aedfd2b5bc240",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2589"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2067"
-      },
-      "sc:name": "Hierarchy"
-    },
-    {
-      "@id": "_:N12f525aee50b44e79d3bc09691818cd2",
+      "@id": "_:N775cb2322cca4106bf3a669573ce9b84",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -128,7 +121,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nf573d15732aa4861a123deabc877f2bc",
+      "@id": "_:Ncc319111e39b4c01831ab687252d744d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -139,16 +132,23 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "http://orcid.org/0000-0002-4403-1840",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "http://orcid.org/0000-0002-4832-6101",
-      "@type": "sc:Person"
+      "@id": "_:Ne5049cfc0bd941cabc416ac6a37779d7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2589"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2067"
+      },
+      "sc:name": "Hierarchy"
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btv368",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-4403-1840",
+      "@type": "sc:Person"
     }
   ]
 }

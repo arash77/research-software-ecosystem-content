@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/rtcga",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Marcin Kosinski",
       "bsc:input": {
-        "@id": "_:Nfdcecd83125c46489334104c0d80f60a"
+        "@id": "_:N72c4e7952af14a58987c318a97054c02"
       },
       "bsc:output": {
-        "@id": "_:Nb821e55be67b4c249cfa5e7fa7093565"
+        "@id": "_:Nb2c5bac0fb9846d789262a0bb698b6a4"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -80,8 +76,8 @@
       "sc:license": "GPL-2.0",
       "sc:name": "RTCGA",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -91,7 +87,18 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/RTCGA.html"
     },
     {
-      "@id": "_:Nfdcecd83125c46489334104c0d80f60a",
+      "@id": "_:Nb2c5bac0fb9846d789262a0bb698b6a4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N72c4e7952af14a58987c318a97054c02",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -102,15 +109,8 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:Nb821e55be67b4c249cfa5e7fa7093565",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2080"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3016"
-      },
-      "sc:name": "Database search results"
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

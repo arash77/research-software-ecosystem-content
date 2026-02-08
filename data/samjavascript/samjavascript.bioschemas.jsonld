@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Pierre Lindenbaum",
       "bsc:input": {
-        "@id": "_:Na90359a7265c495089c203f16a4160a5"
+        "@id": "_:Nce9c8416f3e94e55ab3b633bd9316e96"
       },
       "bsc:output": {
-        "@id": "_:N21bcbc4b042340ddbb789d6456fff3e7"
+        "@id": "_:N54ce929c1cd84c5a88df954dfc5d8702"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -62,12 +62,12 @@
       "sc:license": "MIT",
       "sc:name": "SamJavascript",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": [
-        "univ-nantes.fr",
-        "Institut du Thorax, Nantes, France"
+        "Institut du Thorax, Nantes, France",
+        "univ-nantes.fr"
       ],
       "sc:softwareHelp": [
         {
@@ -84,7 +84,7 @@
       "sc:url": "https://github.com/lindenb/jvarkit/wiki/SamJavascript"
     },
     {
-      "@id": "_:Na90359a7265c495089c203f16a4160a5",
+      "@id": "_:N54ce929c1cd84c5a88df954dfc5d8702",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1050"
@@ -95,7 +95,7 @@
       "sc:name": "File name"
     },
     {
-      "@id": "_:N21bcbc4b042340ddbb789d6456fff3e7",
+      "@id": "_:Nce9c8416f3e94e55ab3b633bd9316e96",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1050"

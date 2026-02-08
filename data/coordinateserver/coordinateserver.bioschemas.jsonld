@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "David Sehnal",
       "bsc:input": {
-        "@id": "_:Nd02d93a5a96c45dc84ce13322bfa092c"
+        "@id": "_:Nb577bbe2762047db9859cb298025b755"
       },
       "bsc:output": {
-        "@id": "_:N5bd3d3b01d2442f7b6372d33a6c32562"
+        "@id": "_:N159353578b7c4c25a61c5a115b66698f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -60,8 +60,8 @@
       "sc:name": "CoordinateServer",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://coords.litemol.org"
@@ -70,7 +70,7 @@
       "sc:url": "https://coords.litemol.org"
     },
     {
-      "@id": "_:Nd02d93a5a96c45dc84ce13322bfa092c",
+      "@id": "_:Nb577bbe2762047db9859cb298025b755",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -78,7 +78,7 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N5bd3d3b01d2442f7b6372d33a6c32562",
+      "@id": "_:N159353578b7c4c25a61c5a115b66698f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

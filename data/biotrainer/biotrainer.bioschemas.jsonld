@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/biotrainer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3533929a9f684639bc9d0fbe877cb9f8"
+        "@id": "_:N55400f3a4dc34d2d9ed2fc89cd48091a"
       },
       "bsc:output": {
-        "@id": "_:N2c1981d52ba2443b94e159adbf34cdbe"
+        "@id": "_:Nb563659a71a040cc9e5572ebbf746976"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3070"
+          "@id": "edam:topic_3316"
         },
         {
-          "@id": "edam:topic_3316"
+          "@id": "edam:topic_3070"
         },
         {
           "@id": "edam:topic_3307"
@@ -65,8 +65,8 @@
       "sc:license": "AFL-3.0",
       "sc:name": "biotrainer",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -75,15 +75,7 @@
       "sc:url": "https://github.com/sacdallago/biotrainer"
     },
     {
-      "@id": "_:N2c1981d52ba2443b94e159adbf34cdbe",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0950"
-      },
-      "sc:name": "Mathematical model"
-    },
-    {
-      "@id": "_:N3533929a9f684639bc9d0fbe877cb9f8",
+      "@id": "_:N55400f3a4dc34d2d9ed2fc89cd48091a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -92,6 +84,14 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nb563659a71a040cc9e5572ebbf746976",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0950"
+      },
+      "sc:name": "Mathematical model"
     }
   ]
 }

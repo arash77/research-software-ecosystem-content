@@ -53,56 +53,56 @@
       "biotools:primaryContact": "urgi-support",
       "bsc:input": [
         {
-          "@id": "_:Nf80f8885958741a6a4306b81b783afa3"
+          "@id": "_:Nf8be93fef153400d9cf3428dd16254e8"
         },
         {
-          "@id": "_:N7f56797d22994f1094bcc3b458e32a85"
+          "@id": "_:N9bc136406818495f917e4205b3735dd3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne738b7c2930d473fb4a67607f45b9e0b"
+          "@id": "_:Nd92693a4b3e04548a375140d28e59436"
         },
         {
-          "@id": "_:Nda5a1471f34249d182959e9718c1cd10"
+          "@id": "_:N0f822a701e06404d858125066bfbbf8f"
         },
         {
-          "@id": "_:N445f7c1e792842b088e1730523a37299"
+          "@id": "_:Nb68beacfeef64d0ea0e38ef2df189455"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web API",
-        "Web service",
         "Database portal",
+        "Web service",
+        "Web API",
         "Web application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0780"
-        },
-        {
-          "@id": "edam:topic_3810"
-        },
-        {
           "@id": "edam:topic_0610"
+        },
+        {
+          "@id": "edam:topic_0780"
         },
         {
           "@id": "edam:topic_0091"
         },
         {
           "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_3810"
         }
       ],
       "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s13059-018-1491-4"
+        },
         {
           "@id": "https://doi.org/10.1038/hortres.2016.56"
         },
         {
           "@id": "https://doi.org/10.3835/plantgenome2015.06.0038"
-        },
-        {
-          "@id": "https://doi.org/10.1186/s13059-018-1491-4"
         }
       ],
       "sc:description": "DataDiscovery aims at providing researchers a simple and fast access to relevant biological data using specific keywords and easy to use filters.\n\nThis tool is expected to be easily customizable for specific filters, environments, or data schemas. Its current implementations supported by URGI are: WheatIS, Plant, RARe.",
@@ -111,13 +111,13 @@
           "@id": "edam:operation_3625"
         },
         {
-          "@id": "edam:operation_0227"
+          "@id": "edam:operation_3908"
         },
         {
           "@id": "edam:operation_2421"
         },
         {
-          "@id": "edam:operation_3908"
+          "@id": "edam:operation_0227"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -126,38 +126,22 @@
       "sc:operatingSystem": "Linux",
       "sc:softwareHelp": [
         {
-          "@id": "https://forgemia.inra.fr/urgi-is/data-discovery/blob/master/README.md#contribute"
+          "@id": "https://forgemia.inra.fr/urgi-is/data-discovery/blob/master/HELP.md"
         },
         {
           "@id": "https://forgemia.inra.fr/urgi-is/data-discovery/blob/master/LEGAL-MENTIONS.md"
         },
         {
-          "@id": "https://forgemia.inra.fr/urgi-is/data-discovery/blob/master/README.md#setup"
+          "@id": "https://forgemia.inra.fr/urgi-is/data-discovery/blob/master/README.md#contribute"
         },
         {
-          "@id": "https://forgemia.inra.fr/urgi-is/data-discovery/blob/master/HELP.md"
+          "@id": "https://forgemia.inra.fr/urgi-is/data-discovery/blob/master/README.md#setup"
         }
       ],
       "sc:url": "https://urgi.versailles.inrae.fr/data-discovery/"
     },
     {
-      "@id": "_:Ne738b7c2930d473fb4a67607f45b9e0b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:Nda5a1471f34249d182959e9718c1cd10",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2080"
-      },
-      "sc:name": "Database search results"
-    },
-    {
-      "@id": "_:N445f7c1e792842b088e1730523a37299",
+      "@id": "_:Nd92693a4b3e04548a375140d28e59436",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -165,7 +149,23 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:Nf80f8885958741a6a4306b81b783afa3",
+      "@id": "_:N0f822a701e06404d858125066bfbbf8f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:Nb68beacfeef64d0ea0e38ef2df189455",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:Nf8be93fef153400d9cf3428dd16254e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -173,7 +173,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N7f56797d22994f1094bcc3b458e32a85",
+      "@id": "_:N9bc136406818495f917e4205b3735dd3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"

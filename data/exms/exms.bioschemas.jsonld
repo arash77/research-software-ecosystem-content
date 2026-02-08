@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb990c8795090420db28aa851450fe11b"
+          "@id": "_:N2842883932a24ff286cd63b9b97150df"
         },
         {
-          "@id": "_:Nc580d0467b6d4c78aeb9f5ded6c0ac53"
+          "@id": "_:Ne9f845a088c64d7c862dd6f4db7ccd4b"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nfa4f89142e9745caba03a948e2a8a041"
+        "@id": "_:N98098e7ea2cb4c818a769ef9102f739b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -69,26 +69,26 @@
       "sc:description": "MATLAB program for analyzing H/D-exchange data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3629"
+          "@id": "edam:operation_0404"
         },
         {
-          "@id": "edam:operation_3648"
+          "@id": "edam:operation_3441"
         },
         {
           "@id": "edam:operation_3215"
         },
         {
-          "@id": "edam:operation_0404"
+          "@id": "edam:operation_3648"
         },
         {
-          "@id": "edam:operation_3441"
+          "@id": "edam:operation_3629"
         }
       ],
       "sc:name": "ExMS",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://hx2.med.upenn.edu/EXms/ExMS%20Quick%20Guide.txt"
@@ -96,7 +96,7 @@
       "sc:url": "http://hx2.med.upenn.edu/download.html"
     },
     {
-      "@id": "_:Nb990c8795090420db28aa851450fe11b",
+      "@id": "_:N2842883932a24ff286cd63b9b97150df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -107,7 +107,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nc580d0467b6d4c78aeb9f5ded6c0ac53",
+      "@id": "_:Ne9f845a088c64d7c862dd6f4db7ccd4b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -118,7 +118,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Nfa4f89142e9745caba03a948e2a8a041",
+      "@id": "_:N98098e7ea2cb4c818a769ef9102f739b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"

@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1017/CBO9781139151405",
       "@type": "sc:CreativeWork"
     },
@@ -44,14 +52,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na6ef65f5d1604c1b91b58e8eedd0ec1f"
+          "@id": "_:N03efb1f780b84784aa79d0705f69b5ae"
         },
         {
-          "@id": "_:Nec094b9fe28e4b9281d91cd5f742aa90"
+          "@id": "_:N7a06618703e3463a9f0697f7018b228a"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nfd580c09e68a468a98edb68c48ef1cea"
+        "@id": "_:Ne94ea76db0f448d8b418f28839d3c2ce"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -70,27 +78,27 @@
         }
       ],
       "sc:contributor": [
-        "UK MRC",
-        "UK BBSRC",
         "Wellcome Trust",
-        "EMBOSS Contributors"
+        "EMBOSS Contributors",
+        "UK BBSRC",
+        "UK MRC"
       ],
       "sc:description": "Scan one or more sequences with a Gribskov or Henikoff profile.",
       "sc:featureList": {
         "@id": "edam:operation_0300"
       },
       "sc:funder": [
-        "Wellcome Trust",
         "UK MRC",
+        "Wellcome Trust",
         "UK BBSRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "prophet",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": [
         "EMBOSS",
@@ -111,15 +119,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/prophet.html"
     },
     {
-      "@id": "_:Nfd580c09e68a468a98edb68c48ef1cea",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Na6ef65f5d1604c1b91b58e8eedd0ec1f",
+      "@id": "_:N03efb1f780b84784aa79d0705f69b5ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -127,7 +127,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:Nec094b9fe28e4b9281d91cd5f742aa90",
+      "@id": "_:N7a06618703e3463a9f0697f7018b228a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1354"
@@ -135,12 +135,12 @@
       "sc:name": "Sequence profile"
     },
     {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Ne94ea76db0f448d8b418f28839d3c2ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
     }
   ]
 }

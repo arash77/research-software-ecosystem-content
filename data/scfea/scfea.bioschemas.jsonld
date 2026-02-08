@@ -36,29 +36,25 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkad444",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/scfea",
       "@type": "sc:SoftwareApplication",
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Web application"
+        "Web application",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3308"
-        },
-        {
-          "@id": "edam:topic_3955"
+          "@id": "edam:topic_3172"
         },
         {
           "@id": "edam:topic_0154"
         },
         {
-          "@id": "edam:topic_3172"
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_3955"
         },
         {
           "@id": "edam:topic_3407"
@@ -74,26 +70,30 @@
       "sc:description": "A webserver for predicting metabolic flux and variations using transcriptomics data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3435"
-        },
-        {
-          "@id": "edam:operation_3929"
+          "@id": "edam:operation_3557"
         },
         {
           "@id": "edam:operation_3660"
         },
         {
-          "@id": "edam:operation_3557"
+          "@id": "edam:operation_3929"
+        },
+        {
+          "@id": "edam:operation_3435"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "scFEA",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "http://scFLUX.org/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkad444",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

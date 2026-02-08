@@ -36,48 +36,44 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pcbi.1011090",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/compact",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf28879eda2f942819519d72d04119feb"
+          "@id": "_:Na96ab9e357274a4096c5ee0720f2acf7"
         },
         {
-          "@id": "_:N06ac3b46dea74d81aa8a10cce3122b28"
+          "@id": "_:Nab11a96aa8fd45c68296dce1a8e4ec0b"
         }
       ],
       "bsc:output": {
-        "@id": "_:N90613aa7b59e4ddbaeb8b4cf2ee46364"
+        "@id": "_:Nec32ac8cb33e40b8bc834ef63a271189"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0121"
-        },
-        {
-          "@id": "edam:topic_3299"
-        },
-        {
-          "@id": "edam:topic_0623"
+          "@id": "edam:topic_0621"
         },
         {
           "@id": "edam:topic_0128"
         },
         {
-          "@id": "edam:topic_0621"
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_3299"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1371/journal.pcbi.1011090"
         },
-        "pubmed:37549177",
-        "pmcid:PMC10434966"
+        "pmcid:PMC10434966",
+        "pubmed:37549177"
       ],
       "sc:description": "CompaCt performs automated integrative comparative analysis of large-scale (protein) interaction datasets, identifying groups of interactors (e.g., protein complexes) in parallel in multiple species, allowing systematic identification and comparison of conserved as well as taxon-specific components of protein complexes and other interactions.",
       "sc:featureList": [
@@ -85,30 +81,30 @@
           "@id": "edam:operation_3478"
         },
         {
-          "@id": "edam:operation_3663"
+          "@id": "edam:operation_2949"
         },
         {
-          "@id": "edam:operation_2949"
+          "@id": "edam:operation_3432"
         },
         {
           "@id": "edam:operation_0390"
         },
         {
-          "@id": "edam:operation_3432"
+          "@id": "edam:operation_3663"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "CompaCt",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:url": "https://github.com/cmbi/compact-bio"
     },
     {
-      "@id": "_:Nf28879eda2f942819519d72d04119feb",
+      "@id": "_:Na96ab9e357274a4096c5ee0720f2acf7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -119,7 +115,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N06ac3b46dea74d81aa8a10cce3122b28",
+      "@id": "_:Nab11a96aa8fd45c68296dce1a8e4ec0b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -127,12 +123,16 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:N90613aa7b59e4ddbaeb8b4cf2ee46364",
+      "@id": "_:Nec32ac8cb33e40b8bc834ef63a271189",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1548"
       },
       "sc:name": "Protein residue 3D cluster"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1011090",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

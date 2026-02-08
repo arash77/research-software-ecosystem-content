@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ole Lund",
       "bsc:input": {
-        "@id": "_:N16833363cca841b2869475aeb8bdc440"
+        "@id": "_:N1daf1e5fc44647358786d2ba22a04265"
       },
       "bsc:output": {
-        "@id": "_:N62bc7cd46e18431db010745c7ce6e634"
+        "@id": "_:Nd567680c373c4af4929895c6d82c4656"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -81,7 +81,7 @@
       "sc:url": "http://cbs.dtu.dk/services/DiscoTope/"
     },
     {
-      "@id": "_:N16833363cca841b2869475aeb8bdc440",
+      "@id": "_:N1daf1e5fc44647358786d2ba22a04265",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -92,7 +92,7 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:N62bc7cd46e18431db010745c7ce6e634",
+      "@id": "_:Nd567680c373c4af4929895c6d82c4656",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

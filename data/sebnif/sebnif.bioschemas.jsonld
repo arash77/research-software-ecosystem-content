@@ -36,28 +36,32 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1371/journal.pone.0084500",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/sebnif",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4a75f9f5ed74410cb4fe6ed039592c18"
+        "@id": "_:Nfc9b4c73d9cc4bf7a474cb55c68373fb"
       },
       "bsc:output": {
-        "@id": "_:N2e5ca958054242938a9865cf8ac57e56"
+        "@id": "_:N6ef882b377c848128ef85d261b1e016d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Workflow"
+        "Workflow",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_3170"
-        },
         {
           "@id": "edam:topic_0659"
         },
         {
           "@id": "edam:topic_3512"
+        },
+        {
+          "@id": "edam:topic_3170"
         }
       ],
       "sc:citation": [
@@ -92,43 +96,39 @@
       "sc:url": "http://sunlab.lihs.cuhk.edu.hk/sebnif/"
     },
     {
-      "@id": "_:N4a75f9f5ed74410cb4fe6ed039592c18",
+      "@id": "_:Nfc9b4c73d9cc4bf7a474cb55c68373fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
       },
       "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2305"
+        },
         {
           "@id": "edam:format_3003"
         },
         {
           "@id": "edam:format_2306"
-        },
-        {
-          "@id": "edam:format_2305"
         }
       ],
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N2e5ca958054242938a9865cf8ac57e56",
+      "@id": "_:N6ef882b377c848128ef85d261b1e016d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2305"
+          "@id": "edam:format_2306"
         },
         {
-          "@id": "edam:format_2306"
+          "@id": "edam:format_2305"
         }
       ],
       "sc:name": "Sequence features"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pone.0084500",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

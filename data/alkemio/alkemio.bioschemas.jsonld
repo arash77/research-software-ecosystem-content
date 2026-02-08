@@ -45,32 +45,32 @@
       "biotools:primaryContact": "Jean Fred Fontaine",
       "bsc:input": [
         {
-          "@id": "_:N5d9d23e2852c4742b953663a3d268d9d"
+          "@id": "_:N0854b73edbdf449ebab997025ea02b1d"
         },
         {
-          "@id": "_:N4d76c47721904962bcd3acbc8930ed9c"
+          "@id": "_:N006b7c911954448d8566a8f1dae31feb"
         },
         {
-          "@id": "_:N4242090929ff4dc4bebef8a510fd6e8e"
+          "@id": "_:N6bb131967c2943e09a98a3dec64ef99b"
         }
       ],
       "bsc:output": {
-        "@id": "_:N37e656c6c90d4cd6957ffb11a6ba9567"
+        "@id": "_:N366b2a52f2d749e99fda83f40d891dbc"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web service",
-        "Web application"
+        "Web application",
+        "Web service"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3473"
       },
       "sc:citation": [
-        "pubmed:24838570",
         {
           "@id": "https://doi.org/10.1093/nar/gku432"
         },
-        "pmcid:PMC4086102"
+        "pmcid:PMC4086102",
+        "pubmed:24838570"
       ],
       "sc:description": "Chemicals prioritization for topics of interest using gene-related PubMed abstracts.",
       "sc:featureList": {
@@ -78,9 +78,9 @@
       },
       "sc:name": "Alkemio",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://cbdm-01.zdv.uni-mainz.de/~jfontain/cms/?page_id=333"
@@ -88,23 +88,7 @@
       "sc:url": "http://cbdm.uni-mainz.de/medlineranker"
     },
     {
-      "@id": "_:N5d9d23e2852c4742b953663a3d268d9d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1086"
-      },
-      "sc:name": "Compound identifier"
-    },
-    {
-      "@id": "_:N4d76c47721904962bcd3acbc8930ed9c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1088"
-      },
-      "sc:name": "Article ID"
-    },
-    {
-      "@id": "_:N4242090929ff4dc4bebef8a510fd6e8e",
+      "@id": "_:N0854b73edbdf449ebab997025ea02b1d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -112,7 +96,23 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N37e656c6c90d4cd6957ffb11a6ba9567",
+      "@id": "_:N006b7c911954448d8566a8f1dae31feb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1088"
+      },
+      "sc:name": "Article ID"
+    },
+    {
+      "@id": "_:N6bb131967c2943e09a98a3dec64ef99b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1086"
+      },
+      "sc:name": "Compound identifier"
+    },
+    {
+      "@id": "_:N366b2a52f2d749e99fda83f40d891dbc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0962"

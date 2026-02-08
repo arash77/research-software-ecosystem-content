@@ -36,39 +36,31 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/getexons",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N9c9a61711889414fb01075ce36fc0c9f"
+          "@id": "_:N73f2b71c9bdf4511be5e8b21e5da67ab"
         },
         {
-          "@id": "_:N935eb207141641068d5d0ac59414c017"
+          "@id": "_:Nfdeb0b86889848da81619a3a27a61944"
         },
         {
-          "@id": "_:N014a5cf8f7064b44b64fa50cb4e49c62"
+          "@id": "_:N14a918b0da944508819eec4a0b273f42"
         },
         {
-          "@id": "_:N6c525c43adea4b0fa6ad0432a8dc43ad"
+          "@id": "_:N58c8851998dc45a6b49f144b4eea44d6"
         },
         {
-          "@id": "_:Ne50406bfa43e4e6fb7d3fc36cc4a42bb"
+          "@id": "_:Nb9c7e17fdf554570814f73d8e369c437"
         },
         {
-          "@id": "_:N87938c5a9dcd4144b9106bba3c309c7d"
+          "@id": "_:N86d90332d15745d29ada829234c8fe89"
         }
       ],
       "bsc:output": {
-        "@id": "_:N0f04e99d2d6d4f88b2d52152db5d2ec5"
+        "@id": "_:N50d4bf7fe1f8409d9091c7c3df18e9b3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -76,14 +68,14 @@
         "@id": "edam:topic_0080"
       },
       "sc:citation": [
-        "pubmed:27137889",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
-        },
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC4987906"
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
+        "pubmed:27137889"
       ],
       "sc:description": "Get the exons of a set of transcripts.",
       "sc:featureList": {
@@ -91,9 +83,9 @@
       },
       "sc:name": "getexons",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Furgi_tools%2FgetExons%2F1.0.0"
@@ -102,29 +94,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N9c9a61711889414fb01075ce36fc0c9f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N935eb207141641068d5d0ac59414c017",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N014a5cf8f7064b44b64fa50cb4e49c62",
+      "@id": "_:N73f2b71c9bdf4511be5e8b21e5da67ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -135,29 +105,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N6c525c43adea4b0fa6ad0432a8dc43ad",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2573"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:Ne50406bfa43e4e6fb7d3fc36cc4a42bb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2306"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N87938c5a9dcd4144b9106bba3c309c7d",
+      "@id": "_:Nfdeb0b86889848da81619a3a27a61944",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -168,7 +116,51 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N0f04e99d2d6d4f88b2d52152db5d2ec5",
+      "@id": "_:N14a918b0da944508819eec4a0b273f42",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N58c8851998dc45a6b49f144b4eea44d6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Nb9c7e17fdf554570814f73d8e369c437",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N86d90332d15745d29ada829234c8fe89",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N50d4bf7fe1f8409d9091c7c3df18e9b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -177,6 +169,14 @@
         "@id": "edam:format_1975"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

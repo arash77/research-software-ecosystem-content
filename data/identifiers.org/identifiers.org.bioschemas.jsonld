@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Camille Laibe",
       "bsc:input": {
-        "@id": "_:Nfbf40aa24e944dc8930a34f06914326f"
+        "@id": "_:N0bccbf028d414de6a395879c30ef6049"
       },
       "bsc:output": [
         {
-          "@id": "_:N4c0544c6b78f4aeebd2a67cdb75e59d7"
+          "@id": "_:N39f10387bc044c78814306afcfae69dc"
         },
         {
-          "@id": "_:Nf54ef987bb444028adbace063cc03b2c"
+          "@id": "_:N38ca62704cc4457b90397d08997e6292"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -62,17 +62,17 @@
       "sc:description": "Resolver of URIs.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_3282"
         },
         {
-          "@id": "edam:operation_3282"
+          "@id": "edam:operation_2422"
         }
       ],
       "sc:name": "Identifiers.org",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
@@ -87,15 +87,15 @@
       "sc:url": "http://identifiers.org/"
     },
     {
-      "@id": "_:Nfbf40aa24e944dc8930a34f06914326f",
+      "@id": "_:N39f10387bc044c78814306afcfae69dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1047"
+        "@id": "edam:data_2193"
       },
-      "sc:name": "URI"
+      "sc:name": "Database entry metadata"
     },
     {
-      "@id": "_:N4c0544c6b78f4aeebd2a67cdb75e59d7",
+      "@id": "_:N38ca62704cc4457b90397d08997e6292",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0957"
@@ -103,12 +103,12 @@
       "sc:name": "Database metadata"
     },
     {
-      "@id": "_:Nf54ef987bb444028adbace063cc03b2c",
+      "@id": "_:N0bccbf028d414de6a395879c30ef6049",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2193"
+        "@id": "edam:data_1047"
       },
-      "sc:name": "Database entry metadata"
+      "sc:name": "URI"
     },
     {
       "@id": "https://doi.org/10.1101/117812",

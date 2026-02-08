@@ -45,55 +45,55 @@
       "biotools:primaryContact": "Support",
       "bsc:input": [
         {
-          "@id": "_:N11ca043de648490cbd64a1c80f6fad84"
+          "@id": "_:Nd018311b5773482db81ac21cf0c3e5dd"
         },
         {
-          "@id": "_:N993087a515404292b3bdd53ec8e81ece"
+          "@id": "_:N9797bb20a26a4c6fb193a443349dd684"
         },
         {
-          "@id": "_:N333090f7cff74e73b3a484d8bd08fd16"
+          "@id": "_:Nb991678f9cd548e7a954693a3079a339"
         },
         {
-          "@id": "_:N041fe1c3621040cb905ac727a06a903d"
+          "@id": "_:Nab979567a7a64eaf8e15423102c387a5"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8eabe18c357740c08937521efc7096cc"
+          "@id": "_:N88b980763e094b2783f26919179df701"
         },
         {
-          "@id": "_:N23934a081b4f452ba26799554d4f3836"
+          "@id": "_:Nd6d3e0a484a14730af7c1e5c2a728ecc"
         },
         {
-          "@id": "_:Na6d918a1b92d4e89b67088ed8ec6c803"
+          "@id": "_:Ne06c2eff682249de941e16dab9fd45b9"
         },
         {
-          "@id": "_:N282e99623f22460a99c68d3d9a96248c"
+          "@id": "_:N8b4eb51b510141bf8b8d76c4b7c3f715"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0623"
+          "@id": "edam:topic_2815"
         },
         {
           "@id": "edam:topic_0621"
         },
         {
-          "@id": "edam:topic_2815"
-        },
-        {
           "@id": "edam:topic_2640"
-        },
-        {
-          "@id": "edam:topic_0203"
         },
         {
           "@id": "edam:topic_0140"
         },
         {
           "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0203"
         }
       ],
       "sc:citation": [
@@ -113,9 +113,9 @@
       ],
       "sc:name": "The Human Protein Atlas",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
-        "Mac"
+        "Mac",
+        "Windows"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -124,7 +124,7 @@
       "sc:url": "http://www.proteinatlas.org/"
     },
     {
-      "@id": "_:N8eabe18c357740c08937521efc7096cc",
+      "@id": "_:N88b980763e094b2783f26919179df701",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -135,7 +135,18 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N23934a081b4f452ba26799554d4f3836",
+      "@id": "_:Nd6d3e0a484a14730af7c1e5c2a728ecc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Ne06c2eff682249de941e16dab9fd45b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -143,7 +154,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Na6d918a1b92d4e89b67088ed8ec6c803",
+      "@id": "_:N8b4eb51b510141bf8b8d76c4b7c3f715",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -154,34 +165,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N282e99623f22460a99c68d3d9a96248c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0916"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Gene report"
-    },
-    {
-      "@id": "_:N11ca043de648490cbd64a1c80f6fad84",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:N993087a515404292b3bdd53ec8e81ece",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0968"
-      },
-      "sc:name": "Keyword"
-    },
-    {
-      "@id": "_:N333090f7cff74e73b3a484d8bd08fd16",
+      "@id": "_:Nd018311b5773482db81ac21cf0c3e5dd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -189,12 +173,28 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:N041fe1c3621040cb905ac727a06a903d",
+      "@id": "_:N9797bb20a26a4c6fb193a443349dd684",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:Nb991678f9cd548e7a954693a3079a339",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2772"
       },
       "sc:name": "HPA antibody id"
+    },
+    {
+      "@id": "_:Nab979567a7a64eaf8e15423102c387a5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
     }
   ]
 }

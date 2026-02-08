@@ -36,11 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-0220-0482",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-7704-822X",
+      "@id": "https://orcid.org/0000-0002-5231-3346",
       "@type": "sc:Person"
     },
     {
@@ -56,14 +52,14 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N7ed150cfa5eb41819bc06eef00459d18"
+          "@id": "_:Nac7884d68bf842b6a9dad7fdc6e868b3"
         },
         {
-          "@id": "_:Nda52843dd392423c8ee8ecbc73e38290"
+          "@id": "_:N8ee07eb559cf44cf8c41829d56200b1c"
         }
       ],
       "bsc:output": {
-        "@id": "_:Naa27343c80714ccbb3c1696bab9abf8f"
+        "@id": "_:Naca0f3da09d04432b97f37336cd14bbb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -93,7 +89,7 @@
       "sc:url": "https://github.com/gem-pasteur/macsylib"
     },
     {
-      "@id": "_:N7ed150cfa5eb41819bc06eef00459d18",
+      "@id": "_:Nac7884d68bf842b6a9dad7fdc6e868b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3949"
@@ -101,7 +97,7 @@
       "sc:name": "Profile HMM"
     },
     {
-      "@id": "_:Nda52843dd392423c8ee8ecbc73e38290",
+      "@id": "_:N8ee07eb559cf44cf8c41829d56200b1c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -109,7 +105,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:Naa27343c80714ccbb3c1696bab9abf8f",
+      "@id": "_:Naca0f3da09d04432b97f37336cd14bbb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1245"
@@ -121,7 +117,11 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0002-5231-3346",
+      "@id": "https://orcid.org/0000-0001-7704-822X",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0220-0482",
       "@type": "sc:Person"
     }
   ]

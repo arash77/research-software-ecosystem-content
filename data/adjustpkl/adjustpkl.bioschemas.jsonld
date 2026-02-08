@@ -40,28 +40,28 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nff4bbc550ac04bc7806b2c204873552c"
+          "@id": "_:Nb1dca048ca1a4197b583110e271ab2ae"
         },
         {
-          "@id": "_:N0aabc4b9585b4af6a123b6bdd1cb938a"
+          "@id": "_:Nc4c61e80a6ba44cf9fcb3c92c5c09f88"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N17e6d02478ad4d0394050a5efa31403a"
+          "@id": "_:Nea4f305dca8140a4b72befc545f2ff6b"
         },
         {
-          "@id": "_:Nd0df1c7b81994d9e846c1dab3a523bd2"
+          "@id": "_:Nb631ac9a57f5427fae9c243118ab0539"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_3572"
         },
         {
-          "@id": "edam:topic_3572"
+          "@id": "edam:topic_0092"
         },
         {
           "@id": "edam:topic_3520"
@@ -78,9 +78,9 @@
       ],
       "sc:name": "adjustPKL",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/binfalse/adjustpkl"
@@ -88,18 +88,7 @@
       "sc:url": "http://blog.binfalse.de/software/adjustpkl/"
     },
     {
-      "@id": "_:Nff4bbc550ac04bc7806b2c204873552c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3653"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N0aabc4b9585b4af6a123b6bdd1cb938a",
+      "@id": "_:Nb1dca048ca1a4197b583110e271ab2ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
@@ -110,7 +99,7 @@
       "sc:name": "Peptide mass fingerprint"
     },
     {
-      "@id": "_:N17e6d02478ad4d0394050a5efa31403a",
+      "@id": "_:Nc4c61e80a6ba44cf9fcb3c92c5c09f88",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -121,7 +110,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nd0df1c7b81994d9e846c1dab3a523bd2",
+      "@id": "_:Nea4f305dca8140a4b72befc545f2ff6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
@@ -130,6 +119,17 @@
         "@id": "edam:format_3653"
       },
       "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "_:Nb631ac9a57f5427fae9c243118ab0539",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3653"
+      },
+      "sc:name": "Mass spectrometry data"
     }
   ]
 }

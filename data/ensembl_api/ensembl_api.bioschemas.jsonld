@@ -40,37 +40,37 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd7c92ed6931140dda4bf055d936b08f0"
+          "@id": "_:Ne1964ca7d7024078889a24931956702e"
         },
         {
-          "@id": "_:Nd7798898b20847bca6d5f0d2f494644a"
+          "@id": "_:Naa698a6e8e624b6880981e54eb2c2f28"
         },
         {
-          "@id": "_:N9222e666884947a6b57ea2ea421af146"
+          "@id": "_:N50c3b9bf1b914b7dafd73306e1576cd2"
         },
         {
-          "@id": "_:N70b8725438f54e609785f0e45160ac34"
+          "@id": "_:N6981241beb33423d8bc6044afccb5623"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N684baa5b46374bbf843971f03f8de6ac"
+          "@id": "_:N7fe98fc4270a4e6da60b6bce8b697b92"
         },
         {
-          "@id": "_:Nc251970485db46c286874cd4542294cb"
+          "@id": "_:Nb15f91a45ab5463397f200ced5bb3f09"
         },
         {
-          "@id": "_:N5355815efc9544429735ac1e0246e9da"
+          "@id": "_:N31ed3cb0253447c9b5ea232cc34590c3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web API",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3307"
+          "@id": "edam:topic_0091"
         },
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_3307"
         }
       ],
       "sc:description": "Test: convert json OpenAPI to json Biotools",
@@ -84,14 +84,62 @@
       ],
       "sc:name": "Ensembl APl",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:url": "https://bigcat-um.github.io/EnsemblOpenAPI/"
     },
     {
-      "@id": "_:Nd7c92ed6931140dda4bf055d936b08f0",
+      "@id": "_:N7fe98fc4270a4e6da60b6bce8b697b92",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nb15f91a45ab5463397f200ced5bb3f09",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N31ed3cb0253447c9b5ea232cc34590c3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ne1964ca7d7024078889a24931956702e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -99,15 +147,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nd7798898b20847bca6d5f0d2f494644a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:N9222e666884947a6b57ea2ea421af146",
+      "@id": "_:Naa698a6e8e624b6880981e54eb2c2f28",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -115,7 +155,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N70b8725438f54e609785f0e45160ac34",
+      "@id": "_:N50c3b9bf1b914b7dafd73306e1576cd2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -123,52 +163,12 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N684baa5b46374bbf843971f03f8de6ac",
+      "@id": "_:N6981241beb33423d8bc6044afccb5623",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0006"
+        "@id": "edam:data_0842"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3464"
-        },
-        {
-          "@id": "edam:format_2332"
-        }
-      ],
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nc251970485db46c286874cd4542294cb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3464"
-        },
-        {
-          "@id": "edam:format_2332"
-        }
-      ],
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N5355815efc9544429735ac1e0246e9da",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3464"
-        },
-        {
-          "@id": "edam:format_2332"
-        }
-      ],
-      "sc:name": "Data"
+      "sc:name": "Identifier"
     }
   ]
 }

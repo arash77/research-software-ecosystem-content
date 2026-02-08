@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/netter",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na5cab46419784f0aaaea4067711d97da"
+        "@id": "_:N8d0a3a55d65344a18826b1e605f88e7f"
       },
       "bsc:output": {
-        "@id": "_:N04e85ecce63742fe99a9a0dc32f21dc7"
+        "@id": "_:N4b6cc64f6c2e4b019a4691d16676f400"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -53,11 +53,11 @@
         "@id": "edam:topic_0602"
       },
       "sc:citation": [
-        "pubmed:26862054",
-        "pmcid:PMC4746913",
         {
           "@id": "https://doi.org/10.1186/s12859-016-0913-0"
-        }
+        },
+        "pubmed:26862054",
+        "pmcid:PMC4746913"
       ],
       "sc:description": "Re-ranking gene network inference predictions using structural network properties.",
       "sc:featureList": {
@@ -66,8 +66,8 @@
       "sc:name": "Netter",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -77,7 +77,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/netter/index.html"
     },
     {
-      "@id": "_:Na5cab46419784f0aaaea4067711d97da",
+      "@id": "_:N8d0a3a55d65344a18826b1e605f88e7f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -85,7 +85,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N04e85ecce63742fe99a9a0dc32f21dc7",
+      "@id": "_:N4b6cc64f6c2e4b019a4691d16676f400",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

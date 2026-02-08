@@ -49,58 +49,58 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N5bcfe81fb0dc4becb7c6e7a489b87d1b"
+          "@id": "_:N0204a822611d45c69c7902054a1327af"
         },
         {
-          "@id": "_:N642b7487d8304097b601f8ac41a94ce3"
+          "@id": "_:Nf7c6f97cb16f4bf2943dd2284b81e712"
         },
         {
-          "@id": "_:N32dc68dc835b4dc0903c80b12eadc45c"
+          "@id": "_:Nffd8d260f67d42a58516f97eb9d00768"
         },
         {
-          "@id": "_:N3af9109445f849fea277d7dd38b6046e"
+          "@id": "_:Nf60cd1aab7e049f8914e27a3555d9d1d"
         },
         {
-          "@id": "_:N8c52b203aa3247508764d656b6192d34"
+          "@id": "_:N296e19c303c44229b5b2470f7c84a840"
         },
         {
-          "@id": "_:N20ab10e4aa034a5b8f41f69e7d9686e0"
+          "@id": "_:Nb1e6ddafd77740f6891752bbc65a4e0d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf918353633554103b3698bd95f820982"
+          "@id": "_:Nec261be17ae849c9a72c256ae2522ab0"
         },
         {
-          "@id": "_:N542ac51d84e44bfeaafd401acae3b940"
+          "@id": "_:Ne0a3e3ce3f9f40e4bfc23b150c1d2a3a"
         },
         {
-          "@id": "_:Nc1ca8d2a9fd048638edad6b1bad7e0e1"
+          "@id": "_:N45cc62e5b9544cffb7799d5f1cb6dab4"
         },
         {
-          "@id": "_:N2c042cbd0d594d489493b0827d4c2f3f"
+          "@id": "_:Nc14cd89fe5c84d8b859923e2391bbde7"
         },
         {
-          "@id": "_:Nf3d662e118f5430f92fb9ab7db6282d0"
+          "@id": "_:Nb971541bc722442eafa0ff6b20b336e0"
         },
         {
-          "@id": "_:N729cc0c838dc4aa689252a6dc50e0489"
+          "@id": "_:Naf590e9c4ebc4f82801d1d15ad88688e"
         },
         {
-          "@id": "_:Nb619f267b63e47e6880d28ea579aa389"
+          "@id": "_:Naaa082cdfe174e9f9c24a6db2750a5a1"
         },
         {
-          "@id": "_:Ne89347af156f437c989397d5ad3e58f2"
+          "@id": "_:Nd8ba8182f85d40d7bc42545ecd515694"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_3169"
         },
         {
-          "@id": "edam:topic_3169"
+          "@id": "edam:topic_3168"
         }
       ],
       "sc:citation": [
@@ -117,26 +117,15 @@
       },
       "sc:name": "createcontrolsubset",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareVersion": "1.0",
       "sc:url": "http://www.htslib.org/"
     },
     {
-      "@id": "_:N5bcfe81fb0dc4becb7c6e7a489b87d1b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2573"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:N642b7487d8304097b601f8ac41a94ce3",
+      "@id": "_:Nec261be17ae849c9a72c256ae2522ab0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -147,7 +136,29 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N32dc68dc835b4dc0903c80b12eadc45c",
+      "@id": "_:Ne0a3e3ce3f9f40e4bfc23b150c1d2a3a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N45cc62e5b9544cffb7799d5f1cb6dab4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Nc14cd89fe5c84d8b859923e2391bbde7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -158,7 +169,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N3af9109445f849fea277d7dd38b6046e",
+      "@id": "_:Nb971541bc722442eafa0ff6b20b336e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -169,7 +180,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N8c52b203aa3247508764d656b6192d34",
+      "@id": "_:Naf590e9c4ebc4f82801d1d15ad88688e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -180,7 +191,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N20ab10e4aa034a5b8f41f69e7d9686e0",
+      "@id": "_:Naaa082cdfe174e9f9c24a6db2750a5a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -191,7 +202,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Nf918353633554103b3698bd95f820982",
+      "@id": "_:Nd8ba8182f85d40d7bc42545ecd515694",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -202,7 +213,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N542ac51d84e44bfeaafd401acae3b940",
+      "@id": "_:N0204a822611d45c69c7902054a1327af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -213,18 +224,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Nc1ca8d2a9fd048638edad6b1bad7e0e1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2573"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:N2c042cbd0d594d489493b0827d4c2f3f",
+      "@id": "_:Nf7c6f97cb16f4bf2943dd2284b81e712",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -235,29 +235,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf3d662e118f5430f92fb9ab7db6282d0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2572"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:N729cc0c838dc4aa689252a6dc50e0489",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nb619f267b63e47e6880d28ea579aa389",
+      "@id": "_:Nffd8d260f67d42a58516f97eb9d00768",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -268,7 +246,29 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Ne89347af156f437c989397d5ad3e58f2",
+      "@id": "_:Nf60cd1aab7e049f8914e27a3555d9d1d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N296e19c303c44229b5b2470f7c84a840",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nb1e6ddafd77740f6891752bbc65a4e0d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"

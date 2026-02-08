@@ -36,25 +36,29 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/j.jpba.2018.02.046",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ceu_mass_mediator",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N52c1c01f561d42acba129cabc59a2f35"
+          "@id": "_:N0eb0f0820c3b44a79182375082051ea5"
         },
         {
-          "@id": "_:Ne2081dd2cdfa4a8db2aef0507429258d"
+          "@id": "_:Nea5f2268068f40278f460952b61a67cf"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nb21b0b4dd8674c639bfd6a3f403a5072"
+          "@id": "_:N08f1fc321b6b4610bef87202169b70e1"
         },
         {
-          "@id": "_:N26cf4dcc847445f89886c3eb0c51261b"
+          "@id": "_:N4b8d87b362fa473881468b8e90864367"
         },
         {
-          "@id": "_:N34975bb11fd24fba978b14b0a188dd9f"
+          "@id": "_:Ncaae932582d844bfad674717becfe9f7"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -81,9 +85,9 @@
       "sc:license": "Unlicense",
       "sc:name": "CEU Mass Mediator",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://ceumass.eps.uspceu.es/mediator/resources/CMM_manual_version_3.0.pdf"
@@ -92,29 +96,7 @@
       "sc:url": "http://ceumass.eps.uspceu.es/"
     },
     {
-      "@id": "_:Nb21b0b4dd8674c639bfd6a3f403a5072",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2622"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Compound ID (HMDB)"
-    },
-    {
-      "@id": "_:N26cf4dcc847445f89886c3eb0c51261b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2639"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "PubChem ID"
-    },
-    {
-      "@id": "_:N34975bb11fd24fba978b14b0a188dd9f",
+      "@id": "_:N08f1fc321b6b4610bef87202169b70e1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -125,18 +107,29 @@
       "sc:name": "Score"
     },
     {
-      "@id": "_:N52c1c01f561d42acba129cabc59a2f35",
+      "@id": "_:N4b8d87b362fa473881468b8e90864367",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0943"
+        "@id": "edam:data_2639"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_2330"
       },
-      "sc:name": "Mass spectrometry spectra"
+      "sc:name": "PubChem ID"
     },
     {
-      "@id": "_:Ne2081dd2cdfa4a8db2aef0507429258d",
+      "@id": "_:Ncaae932582d844bfad674717becfe9f7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2622"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Compound ID (HMDB)"
+    },
+    {
+      "@id": "_:N0eb0f0820c3b44a79182375082051ea5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0844"
@@ -147,8 +140,15 @@
       "sc:name": "Molecular mass"
     },
     {
-      "@id": "https://doi.org/10.1016/j.jpba.2018.02.046",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nea5f2268068f40278f460952b61a67cf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mass spectrometry spectra"
     }
   ]
 }

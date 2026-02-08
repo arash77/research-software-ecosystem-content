@@ -41,10 +41,10 @@
       "biotools:primaryContact": "Raphael Dumas",
       "bsc:input": [
         {
-          "@id": "_:N7955c9e863694137b1480f253b3b9104"
+          "@id": "_:N27534b74ec2646b390451f873c6117ef"
         },
         {
-          "@id": "_:Nb0d50dc48e0140d2ba08ca49cabb6bcf"
+          "@id": "_:Nc3ca609ac3af4e729a8a2ee4100f4bd8"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,14 +57,14 @@
       "sc:name": "3D Kinematics and Inverse Dynamics",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareVersion": "2.2",
       "sc:url": "https://www.mathworks.com/matlabcentral/fileexchange/58021-3d-kinematics-and-inverse-dynamics"
     },
     {
-      "@id": "_:N7955c9e863694137b1480f253b3b9104",
+      "@id": "_:N27534b74ec2646b390451f873c6117ef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1520"
@@ -72,7 +72,7 @@
       "sc:name": "Peptide hydrophobic moment"
     },
     {
-      "@id": "_:Nb0d50dc48e0140d2ba08ca49cabb6bcf",
+      "@id": "_:Nc3ca609ac3af4e729a8a2ee4100f4bd8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1522"

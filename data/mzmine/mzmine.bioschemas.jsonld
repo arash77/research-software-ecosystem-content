@@ -40,37 +40,37 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N98408bb68c3c4be68fb9ae3302f79b17"
+          "@id": "_:Na7fb0e949b094a03b8dcab40248b0003"
         },
         {
-          "@id": "_:N82b971b773434e5e97821ffa3298254a"
+          "@id": "_:N33f8212b639a413994ddf04bd60085b4"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N571e4332090d4a689d620a7468bd4847"
+          "@id": "_:N4988c519a66f4f01afaaa4afe761643b"
         },
         {
-          "@id": "_:N0ccda7e307944e5aa3f62c6f40f60458"
+          "@id": "_:Nddcd8bbe10834bbd9a6a7315a4f3cf63"
         },
         {
-          "@id": "_:Nae70e73ed6bc43f38da24730adc1f9c1"
+          "@id": "_:N42b20c5587114cef8c4db6e9306ad908"
         },
         {
-          "@id": "_:N0d68940d004744e6b48ec43e57662cf5"
+          "@id": "_:Ndd366f8a273849b895208017bb6e6aeb"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3520"
+        },
+        {
           "@id": "edam:topic_3172"
         },
         {
           "@id": "edam:topic_0121"
-        },
-        {
-          "@id": "edam:topic_3520"
         },
         {
           "@id": "edam:topic_0154"
@@ -80,10 +80,19 @@
       "sc:description": "Toolbox for visualization and analysis of LC-MS data in netCDF or mzXML.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0531"
+          "@id": "edam:operation_3435"
+        },
+        {
+          "@id": "edam:operation_3628"
+        },
+        {
+          "@id": "edam:operation_3215"
         },
         {
           "@id": "edam:operation_3432"
+        },
+        {
+          "@id": "edam:operation_3631"
         },
         {
           "@id": "edam:operation_3629"
@@ -92,41 +101,32 @@
           "@id": "edam:operation_3803"
         },
         {
-          "@id": "edam:operation_3203"
-        },
-        {
-          "@id": "edam:operation_3215"
+          "@id": "edam:operation_3646"
         },
         {
           "@id": "edam:operation_3694"
         },
         {
-          "@id": "edam:operation_3695"
+          "@id": "edam:operation_3203"
         },
         {
-          "@id": "edam:operation_3631"
+          "@id": "edam:operation_0570"
         },
         {
           "@id": "edam:operation_3441"
         },
         {
-          "@id": "edam:operation_3646"
+          "@id": "edam:operation_0531"
         },
         {
-          "@id": "edam:operation_3628"
-        },
-        {
-          "@id": "edam:operation_3435"
-        },
-        {
-          "@id": "edam:operation_0570"
+          "@id": "edam:operation_3695"
         }
       ],
       "sc:name": "MZmine",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://mzmine.github.io/documentation.html"
@@ -134,61 +134,7 @@
       "sc:url": "http://mzmine.sourceforge.net"
     },
     {
-      "@id": "_:N571e4332090d4a689d620a7468bd4847",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1636"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3604"
-        },
-        {
-          "@id": "edam:format_3603"
-        }
-      ],
-      "sc:name": "Heat map"
-    },
-    {
-      "@id": "_:N0ccda7e307944e5aa3f62c6f40f60458",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3604"
-        },
-        {
-          "@id": "edam:format_3603"
-        }
-      ],
-      "sc:name": "Image"
-    },
-    {
-      "@id": "_:Nae70e73ed6bc43f38da24730adc1f9c1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0944"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3752"
-        },
-        {
-          "@id": "edam:format_3788"
-        },
-        {
-          "@id": "edam:format_2332"
-        },
-        {
-          "@id": "edam:format_3681"
-        }
-      ],
-      "sc:name": "Peptide mass fingerprint"
-    },
-    {
-      "@id": "_:N0d68940d004744e6b48ec43e57662cf5",
+      "@id": "_:N4988c519a66f4f01afaaa4afe761643b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -204,12 +150,69 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N98408bb68c3c4be68fb9ae3302f79b17",
+      "@id": "_:Nddcd8bbe10834bbd9a6a7315a4f3cf63",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3603"
+        }
+      ],
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N42b20c5587114cef8c4db6e9306ad908",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3603"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Ndd366f8a273849b895208017bb6e6aeb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0944"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3681"
+        },
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_3788"
+        }
+      ],
+      "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "_:Na7fb0e949b094a03b8dcab40248b0003",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
       },
       "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3650"
+        },
         {
           "@id": "edam:format_3654"
         },
@@ -218,15 +221,12 @@
         },
         {
           "@id": "edam:format_3712"
-        },
-        {
-          "@id": "edam:format_3650"
         }
       ],
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N82b971b773434e5e97821ffa3298254a",
+      "@id": "_:N33f8212b639a413994ddf04bd60085b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -236,13 +236,13 @@
           "@id": "edam:format_3712"
         },
         {
-          "@id": "edam:format_3654"
+          "@id": "edam:format_3650"
         },
         {
           "@id": "edam:format_3244"
         },
         {
-          "@id": "edam:format_3650"
+          "@id": "edam:format_3654"
         }
       ],
       "sc:name": "Mass spectrometry spectra"

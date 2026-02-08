@@ -36,24 +36,28 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/2021.08.04.455173",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/protist_guru",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nce9f926cd4ff4a36ae4fe6c692d826ad"
+          "@id": "_:N4407ec90abb342ea9d3919793f4f4cff"
         },
         {
-          "@id": "_:Nc515754a69e043cb91362262c09836aa"
+          "@id": "_:N84ff52c7107b4ed1a0739b8b5003552c"
         },
         {
-          "@id": "_:N365d3a745e964cacb92a864d72d9eeb1"
+          "@id": "_:N53278fce772743abb2a23d22022ea532"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_3500"
         },
         {
           "@id": "edam:topic_3697"
@@ -65,7 +69,7 @@
           "@id": "edam:topic_3308"
         },
         {
-          "@id": "edam:topic_3500"
+          "@id": "edam:topic_0602"
         }
       ],
       "sc:citation": {
@@ -77,13 +81,13 @@
           "@id": "edam:operation_3463"
         },
         {
+          "@id": "edam:operation_3192"
+        },
+        {
           "@id": "edam:operation_2421"
         },
         {
           "@id": "edam:operation_0313"
-        },
-        {
-          "@id": "edam:operation_3192"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -96,7 +100,7 @@
       "sc:url": "https://protists.sbs.ntu.edu.sg"
     },
     {
-      "@id": "_:Nce9f926cd4ff4a36ae4fe6c692d826ad",
+      "@id": "_:N4407ec90abb342ea9d3919793f4f4cff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1027"
@@ -104,7 +108,7 @@
       "sc:name": "Gene ID (NCBI)"
     },
     {
-      "@id": "_:Nc515754a69e043cb91362262c09836aa",
+      "@id": "_:N84ff52c7107b4ed1a0739b8b5003552c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2757"
@@ -112,16 +116,12 @@
       "sc:name": "Pfam domain name"
     },
     {
-      "@id": "_:N365d3a745e964cacb92a864d72d9eeb1",
+      "@id": "_:N53278fce772743abb2a23d22022ea532",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3754"
       },
       "sc:name": "GO-term enrichment data"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2021.08.04.455173",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

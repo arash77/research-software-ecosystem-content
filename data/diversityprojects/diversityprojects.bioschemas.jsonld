@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0003-1980-3148",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/DiversityProjects",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,18 +47,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N0cad272555d744f8aa401e6a4de17336"
+          "@id": "_:Nc64f672442f24dfb812a4414f5f9772f"
         },
         {
-          "@id": "_:Nb6b4e751341f405ebf034d0a14759d22"
+          "@id": "_:N670de3d87de54627b12548569ae1f61a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne935807110bf4a468526b6d220dcb843"
+          "@id": "_:N2f2284ac5faf48cea3065dbc6daf08b3"
         },
         {
-          "@id": "_:N0daf526a129d44c5809e91924b03da7d"
+          "@id": "_:N4f13396bc1854bec84b8321330b8e467"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -64,10 +68,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_3678"
         },
         {
-          "@id": "edam:topic_3678"
+          "@id": "edam:topic_3071"
         },
         {
           "@id": "edam:topic_3070"
@@ -90,32 +94,32 @@
       "sc:provider": "SNSB IT Center",
       "sc:softwareHelp": [
         {
-          "@id": "https://diversityworkbench.net/Portal/DWB_user_manuals"
+          "@id": "https://diversityworkbench.net/Portal/Training_materials"
         },
         {
-          "@id": "https://diversityworkbench.net/Portal/Training_materials"
+          "@id": "https://diversityworkbench.net/Portal/DWB_user_manuals"
         }
       ],
       "sc:url": "https://diversityworkbench.net/Portal/DiversityProjects"
     },
     {
-      "@id": "_:N0cad272555d744f8aa401e6a4de17336",
+      "@id": "_:Nc64f672442f24dfb812a4414f5f9772f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2332"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2332"
         }
       ],
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nb6b4e751341f405ebf034d0a14759d22",
+      "@id": "_:N670de3d87de54627b12548569ae1f61a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -131,23 +135,23 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Ne935807110bf4a468526b6d220dcb843",
+      "@id": "_:N2f2284ac5faf48cea3065dbc6daf08b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2332"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2332"
         }
       ],
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N0daf526a129d44c5809e91924b03da7d",
+      "@id": "_:N4f13396bc1854bec84b8321330b8e467",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -161,10 +165,6 @@
         }
       ],
       "sc:name": "Identifier"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-1980-3148",
-      "@type": "sc:Person"
     }
   ]
 }

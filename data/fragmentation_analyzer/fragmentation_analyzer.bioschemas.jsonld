@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/fragmentation_analyzer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5a41c778a65940c1a3942509b4753914"
+        "@id": "_:N080d9b530c7045a1afabba0bb9a8ddeb"
       },
       "bsc:output": {
-        "@id": "_:N6c87ddd9f13245178c979dca1697c86e"
+        "@id": "_:N1492dd6aa1f645c7bd2e8e6ba035dca5"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -76,20 +76,20 @@
       "sc:url": "http://compomics.github.io/projects/fragmentation-analyzer.html"
     },
     {
-      "@id": "_:N6c87ddd9f13245178c979dca1697c86e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2165"
-      },
-      "sc:name": "Protein ionisation curve"
-    },
-    {
-      "@id": "_:N5a41c778a65940c1a3942509b4753914",
+      "@id": "_:N080d9b530c7045a1afabba0bb9a8ddeb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
       },
       "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N1492dd6aa1f645c7bd2e8e6ba035dca5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2165"
+      },
+      "sc:name": "Protein ionisation curve"
     }
   ]
 }

@@ -39,20 +39,14 @@
       "@id": "https://bio.tools/vcf2prot",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6fc3142096de424da1cc5d16a7f8758a"
+        "@id": "_:Ndb921390b2a9429b8f37b8ce7e76d5cc"
       },
       "bsc:output": {
-        "@id": "_:N47f48d53bf5d4103a11e3c2c21485ca9"
+        "@id": "_:N9d255eee010f43c7aa55c9bf32d13aa4"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_0080"
-        },
-        {
-          "@id": "edam:topic_0121"
-        },
         {
           "@id": "edam:topic_3676"
         },
@@ -60,7 +54,13 @@
           "@id": "edam:topic_3577"
         },
         {
+          "@id": "edam:topic_0121"
+        },
+        {
           "@id": "edam:topic_3922"
+        },
+        {
+          "@id": "edam:topic_0080"
         }
       ],
       "sc:citation": {
@@ -82,14 +82,14 @@
       "sc:license": "MIT",
       "sc:name": "VCF2Prot",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "https://github.com/ikmb/vcf2prot"
     },
     {
-      "@id": "_:N47f48d53bf5d4103a11e3c2c21485ca9",
+      "@id": "_:N9d255eee010f43c7aa55c9bf32d13aa4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -100,7 +100,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N6fc3142096de424da1cc5d16a7f8758a",
+      "@id": "_:Ndb921390b2a9429b8f37b8ce7e76d5cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

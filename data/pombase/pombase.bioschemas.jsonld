@@ -36,83 +36,75 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/database/baaa028",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/genetics/iyab222",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pombase",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nc1e43a344b414da2b3e5f6da7b0dd28e"
+          "@id": "_:Nea52850576064b918d21fcf996773af0"
         },
         {
-          "@id": "_:N4ae717ae9a6745a98bf116a83b09c37f"
+          "@id": "_:N39f86be73d27454c9bdbae82b4eab3d6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6683d3b624b5446ea15d7e74c099134e"
+          "@id": "_:Na928b7e120ad49f68ebb71dc00e84924"
         },
         {
-          "@id": "_:Nb44d75a4281e4cb0afac634de896bed2"
+          "@id": "_:Nc01b96db00b14bc593836dc59d3fc28f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0621"
+          "@id": "edam:topic_3168"
         },
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_0621"
         },
         {
           "@id": "edam:topic_3070"
         }
       ],
       "sc:citation": [
-        "pubmed:32353878",
         {
           "@id": "https://doi.org/10.1093/genetics/iyab222"
         },
-        "pmcid:PMC9209812",
+        "pmcid:PMC7192550",
+        "pubmed:32353878",
+        "pubmed:35100366",
         {
           "@id": "https://doi.org/10.1093/database/baaa028"
         },
-        "pmcid:PMC7192550",
-        "pubmed:35100366"
+        "pmcid:PMC9209812"
       ],
       "sc:description": "Comprehensive online database for fission yeast. PomBase provides comprehensive manual literature curation, annotation of genomic sequence and features,  genome-wide data sets, and supports sophisticated user-defined queries.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_0224"
+        },
+        {
           "@id": "edam:operation_2422"
         },
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_2944"
         },
         {
           "@id": "edam:operation_3778"
         },
         {
-          "@id": "edam:operation_0346"
-        },
-        {
           "@id": "edam:operation_0362"
         },
         {
-          "@id": "edam:operation_2944"
+          "@id": "edam:operation_0346"
         }
       ],
       "sc:name": "PomBase",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://www.pombase.org/documentation"
@@ -121,7 +113,7 @@
       "sc:url": "https://www.pombase.org/"
     },
     {
-      "@id": "_:N6683d3b624b5446ea15d7e74c099134e",
+      "@id": "_:Na928b7e120ad49f68ebb71dc00e84924",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -129,7 +121,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:Nb44d75a4281e4cb0afac634de896bed2",
+      "@id": "_:Nc01b96db00b14bc593836dc59d3fc28f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -137,17 +129,17 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:Nc1e43a344b414da2b3e5f6da7b0dd28e",
+      "@id": "_:Nea52850576064b918d21fcf996773af0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3003"
+          "@id": "edam:format_2305"
         },
         {
-          "@id": "edam:format_2305"
+          "@id": "edam:format_3003"
         },
         {
           "@id": "edam:format_3007"
@@ -156,7 +148,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N4ae717ae9a6745a98bf116a83b09c37f",
+      "@id": "_:N39f86be73d27454c9bdbae82b4eab3d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -165,6 +157,14 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/genetics/iyab222",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/database/baaa028",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -45,14 +45,14 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N57206454d066400a9acced3d9ab40d0a"
+          "@id": "_:N761e131e91874ff881fc54abbeb1012e"
         },
         {
-          "@id": "_:Na63e0e0fc2364d1f894396418ceddcde"
+          "@id": "_:N9df1cb60ffcc42bfaa2cd3e1474e6055"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nb6bb93c926214cec832e633ad3f277b2"
+        "@id": "_:N122fef1a398a458d9981c79b7fc3fe86"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -61,10 +61,10 @@
       },
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.1093/bioinformatics/btp394"
+          "@id": "https://doi.org/10.1093/nar/gkw343"
         },
         {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
+          "@id": "https://doi.org/10.1093/bioinformatics/btp394"
         },
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
@@ -87,18 +87,18 @@
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/pindel2vcf/pindel2vcf/0.2.5a3"
     },
     {
-      "@id": "_:N57206454d066400a9acced3d9ab40d0a",
+      "@id": "_:N122fef1a398a458d9981c79b7fc3fe86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0863"
+        "@id": "edam:data_3498"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1929"
+        "@id": "edam:format_3016"
       },
-      "sc:name": "Sequence alignment"
+      "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Na63e0e0fc2364d1f894396418ceddcde",
+      "@id": "_:N761e131e91874ff881fc54abbeb1012e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -109,15 +109,15 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nb6bb93c926214cec832e633ad3f277b2",
+      "@id": "_:N9df1cb60ffcc42bfaa2cd3e1474e6055",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3498"
+        "@id": "edam:data_0863"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3016"
+        "@id": "edam:format_1929"
       },
-      "sc:name": "Sequence variations"
+      "sc:name": "Sequence alignment"
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btp394",

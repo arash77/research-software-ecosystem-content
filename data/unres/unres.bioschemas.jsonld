@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/unres",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Cezary Czaplewski",
-        "Adam Liwo"
+        "Adam Liwo",
+        "Cezary Czaplewski"
       ],
       "bsc:input": [
         {
-          "@id": "_:N3e1081c107344014b6bd11543a7e34bd"
+          "@id": "_:Ncca73fc0ada64fae87d9d07016b64598"
         },
         {
-          "@id": "_:N12dce4bb359042378c3e2c483b7455fe"
+          "@id": "_:Ncbdeb75cbd6447a5920dfad2a49a65e5"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nb45481b7c5dc4039b9691a2f9730725f"
+        "@id": "_:N8232ca246d0e4a63be84c57f6f5f96b1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -60,10 +60,10 @@
           "@id": "edam:topic_0176"
         },
         {
-          "@id": "edam:topic_0736"
+          "@id": "edam:topic_0593"
         },
         {
-          "@id": "edam:topic_0593"
+          "@id": "edam:topic_0736"
         }
       ],
       "sc:citation": [
@@ -89,7 +89,7 @@
       "sc:url": "http://unres-server.chem.ug.edu.pl/"
     },
     {
-      "@id": "_:N3e1081c107344014b6bd11543a7e34bd",
+      "@id": "_:Ncca73fc0ada64fae87d9d07016b64598",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -100,7 +100,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N12dce4bb359042378c3e2c483b7455fe",
+      "@id": "_:Ncbdeb75cbd6447a5920dfad2a49a65e5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -111,7 +111,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nb45481b7c5dc4039b9691a2f9730725f",
+      "@id": "_:N8232ca246d0e4a63be84c57f6f5f96b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"

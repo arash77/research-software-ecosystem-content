@@ -36,38 +36,34 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acs.jproteome.4c00911",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/prolfquapp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8a31618abe344bf49455a1d823034045"
+          "@id": "_:Ndc02337c499542039b1528fd45010ee2"
         },
         {
-          "@id": "_:N0374864e15f3477694c21bec02d0d15a"
+          "@id": "_:Na0d028055b7c411b964ef26580903417"
         },
         {
-          "@id": "_:Nc2b8e95b08ce40c4aa66626b27052474"
+          "@id": "_:N478a82c9055147c1be9028e99ea75c65"
         },
         {
-          "@id": "_:Nf17efd7ae14f4ff59076fcb76b14ccbd"
+          "@id": "_:Nede3f8fb14624fa5b72f7517a82b0add"
         },
         {
-          "@id": "_:Na4bbad47bf8a49c2ba47e633391cc4ab"
+          "@id": "_:N6d8a5e415e524b7b8afffc7089c0a8e8"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N667b0d3a389340afa9b4f47ac0c140de"
+          "@id": "_:N4be11f6e677541099249fc2eac077a27"
         },
         {
-          "@id": "_:N5a53ba2765d24530aa1bc6cf9bc24953"
+          "@id": "_:N51f6ecd002d44a31b4a80bd616625eff"
         },
         {
-          "@id": "_:N802855e119524c7a8d1bd5db8d50bbc5"
+          "@id": "_:N6ca6d4c9a27c45b2b88e8074049ef214"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,18 +80,18 @@
           "@id": "edam:operation_0571"
         },
         {
-          "@id": "edam:operation_3741"
+          "@id": "edam:operation_2428"
         },
         {
-          "@id": "edam:operation_2428"
+          "@id": "edam:operation_3741"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "MIT",
       "sc:name": "prolfquapp",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/prolfqua/prolfquapp/blob/master/README.md"
@@ -104,77 +100,7 @@
       "sc:url": "https://github.com/prolfqua/prolfquapp"
     },
     {
-      "@id": "_:N667b0d3a389340afa9b4f47ac0c140de",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3914"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Quality control report"
-    },
-    {
-      "@id": "_:N5a53ba2765d24530aa1bc6cf9bc24953",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3508"
-        },
-        {
-          "@id": "edam:format_2331"
-        }
-      ],
-      "sc:name": "Expression data"
-    },
-    {
-      "@id": "_:N802855e119524c7a8d1bd5db8d50bbc5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3620"
-        },
-        {
-          "@id": "edam:format_2331"
-        }
-      ],
-      "sc:name": "Expression data"
-    },
-    {
-      "@id": "_:N8a31618abe344bf49455a1d823034045",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2976"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:N0374864e15f3477694c21bec02d0d15a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3475"
-        },
-        {
-          "@id": "edam:format_3752"
-        }
-      ],
-      "sc:name": "Expression data"
-    },
-    {
-      "@id": "_:Nc2b8e95b08ce40c4aa66626b27052474",
+      "@id": "_:Ndc02337c499542039b1528fd45010ee2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -185,7 +111,29 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Nf17efd7ae14f4ff59076fcb76b14ccbd",
+      "@id": "_:Na0d028055b7c411b964ef26580903417",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N478a82c9055147c1be9028e99ea75c65",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Nede3f8fb14624fa5b72f7517a82b0add",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -201,15 +149,67 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Na4bbad47bf8a49c2ba47e633391cc4ab",
+      "@id": "_:N6d8a5e415e524b7b8afffc7089c0a8e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2044"
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3475"
+        }
+      ],
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N4be11f6e677541099249fc2eac077a27",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N51f6ecd002d44a31b4a80bd616625eff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N6ca6d4c9a27c45b2b88e8074049ef214",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3914"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1929"
+        "@id": "edam:format_2331"
       },
-      "sc:name": "Sequence"
+      "sc:name": "Quality control report"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.4c00911",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

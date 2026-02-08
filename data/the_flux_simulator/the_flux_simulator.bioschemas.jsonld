@@ -36,15 +36,19 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gks666",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/the_flux_simulator",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Micha Sammeth",
       "bsc:input": [
         {
-          "@id": "_:Neb12616df6f24b43bb8be10e0fefae86"
+          "@id": "_:N4cfd2639cf7043f6bfd932c7bae3e7d2"
         },
         {
-          "@id": "_:N293f85f5688543d789dd5c0cc21f12d6"
+          "@id": "_:Nbde62f6c8c0c480cbb35425a784e9a3e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,8 +61,8 @@
         {
           "@id": "https://doi.org/10.1093/nar/gks666"
         },
-        "pmcid:PMC3488205",
-        "pubmed:22962361"
+        "pubmed:22962361",
+        "pmcid:PMC3488205"
       ],
       "sc:description": "Model RNA-Seq experiments in silico: sequencing reads are produced from a reference genome according annotated transcripts.",
       "sc:featureList": {
@@ -68,12 +72,12 @@
       "sc:license": "BSD-3-Clause",
       "sc:name": "The Flux Simulator",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": [
-        "Lab Roderic Guigo Group",
-        "crg.eu"
+        "crg.eu",
+        "Lab Roderic Guigo Group"
       ],
       "sc:softwareHelp": {
         "@id": "http://sammeth.net/confluence/display/SIM/Home"
@@ -82,15 +86,7 @@
       "sc:url": "http://sammeth.net/confluence/display/SIM/Home"
     },
     {
-      "@id": "_:Neb12616df6f24b43bb8be10e0fefae86",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N293f85f5688543d789dd5c0cc21f12d6",
+      "@id": "_:N4cfd2639cf7043f6bfd932c7bae3e7d2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -101,8 +97,12 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gks666",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nbde62f6c8c0c480cbb35425a784e9a3e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:name": "Data"
     }
   ]
 }

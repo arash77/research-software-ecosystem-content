@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nc4931edeeb5845f687dc735f81900833"
+        "@id": "_:N28d5bc76abc04b7d80039f1b0725f07f"
       },
       "bsc:output": {
-        "@id": "_:N85b111d2c98f40b5b4f40b6bd61ca588"
+        "@id": "_:N346b1d202f6d40a7b7318eee3fad282a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -69,14 +69,14 @@
       "sc:name": "html4blast",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:softwareVersion": "1.7a",
       "sc:url": "https://bioweb.pasteur.fr/packages/pack@html4blast@1.7a"
     },
     {
-      "@id": "_:Nc4931edeeb5845f687dc735f81900833",
+      "@id": "_:N28d5bc76abc04b7d80039f1b0725f07f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -87,7 +87,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N85b111d2c98f40b5b4f40b6bd61ca588",
+      "@id": "_:N346b1d202f6d40a7b7318eee3fad282a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

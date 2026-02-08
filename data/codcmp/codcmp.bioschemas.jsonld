@@ -36,18 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/codcmp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5afe2f8d494b4b2aad5c548a5acd5cc7"
+          "@id": "_:Nd78266dd6cf042e09e9fbf1f20c63604"
         },
         {
-          "@id": "_:Ne8b648e6a083494880561cd920f04998"
+          "@id": "_:Nf49a201db6534fe3912682336e5a74de"
         }
       ],
       "bsc:output": {
-        "@id": "_:N2eb1a31add794d8a80a153618170ca26"
+        "@id": "_:Na607a1e7fbe74c31b7d1a1f14a8ba3e7"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -66,48 +78,48 @@
         }
       ],
       "sc:contributor": [
-        "EMBOSS Contributors",
-        "UK MRC",
         "UK BBSRC",
-        "Wellcome Trust"
+        "UK MRC",
+        "Wellcome Trust",
+        "EMBOSS Contributors"
       ],
       "sc:description": "Codon usage table comparison.",
       "sc:featureList": {
         "@id": "edam:operation_0285"
       },
       "sc:funder": [
-        "UK MRC",
         "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "codcmp",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": [
-        "EMBL-EBI",
-        "EMBOSS"
+        "EMBOSS",
+        "EMBL-EBI"
       ],
       "sc:softwareHelp": [
+        {
+          "@id": "http://emboss.open-bio.org/rel/rel6/apps/codcmp.html"
+        },
         {
           "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
         },
         {
           "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
-        },
-        {
-          "@id": "http://emboss.open-bio.org/rel/rel6/apps/codcmp.html"
         }
       ],
       "sc:softwareVersion": "r6",
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/codcmp.html"
     },
     {
-      "@id": "_:N2eb1a31add794d8a80a153618170ca26",
+      "@id": "_:Na607a1e7fbe74c31b7d1a1f14a8ba3e7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1602"
@@ -115,7 +127,7 @@
       "sc:name": "Codon usage fraction difference"
     },
     {
-      "@id": "_:N5afe2f8d494b4b2aad5c548a5acd5cc7",
+      "@id": "_:Nd78266dd6cf042e09e9fbf1f20c63604",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1597"
@@ -123,24 +135,12 @@
       "sc:name": "Codon usage table"
     },
     {
-      "@id": "_:Ne8b648e6a083494880561cd920f04998",
+      "@id": "_:Nf49a201db6534fe3912682336e5a74de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1597"
       },
       "sc:name": "Codon usage table"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

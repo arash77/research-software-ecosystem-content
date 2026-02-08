@@ -43,27 +43,27 @@
       "@id": "https://bio.tools/fimtrack",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7a6d7149f72445bd8daf518084ab8511"
+        "@id": "_:N62c94cac33394576ba065a57c73dbca8"
       },
       "bsc:output": {
-        "@id": "_:Nb294a04c985d47e98a1c052b6a106952"
+        "@id": "_:Nf30b7f3a2fb84f53b2848df451d3b1c9"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workbench",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0621"
+          "@id": "edam:topic_3382"
         },
         {
-          "@id": "edam:topic_3382"
+          "@id": "edam:topic_0621"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC5444858",
         "pubmed:28493862",
         {
           "@id": "https://doi.org/10.1371/journal.pcbi.1005530"
-        },
-        "pmcid:PMC5444858"
+        }
       ],
       "sc:description": "An open source tracking and locomotion analysis software for small animals",
       "sc:featureList": [
@@ -71,10 +71,10 @@
           "@id": "edam:operation_3553"
         },
         {
-          "@id": "edam:operation_3357"
+          "@id": "edam:operation_3443"
         },
         {
-          "@id": "edam:operation_3443"
+          "@id": "edam:operation_3357"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -90,18 +90,7 @@
       "sc:url": "https://www.uni-muenster.de/PRIA/en/FIM/index.html"
     },
     {
-      "@id": "_:Nb294a04c985d47e98a1c052b6a106952",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N7a6d7149f72445bd8daf518084ab8511",
+      "@id": "_:N62c94cac33394576ba065a57c73dbca8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -110,6 +99,17 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:Nf30b7f3a2fb84f53b2848df451d3b1c9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Report"
     }
   ]
 }

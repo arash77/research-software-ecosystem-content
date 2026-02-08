@@ -41,24 +41,24 @@
       "biotools:primaryContact": "Christopher Fields",
       "bsc:input": [
         {
-          "@id": "_:Naf964e088705468bb7f2c9627fa412a9"
+          "@id": "_:N0d9d8679ab414bc3a0fda4324b83f949"
         },
         {
-          "@id": "_:N6665c0a9e1fd4ab287b672fc0da580f4"
+          "@id": "_:N4df6bffc4394414c94cdb2ef3f9d5f30"
         },
         {
-          "@id": "_:N3c53b73407ca4f02b7b2798c5192176c"
+          "@id": "_:N60cb39a2e5814ca89a788dd9348f8f28"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nca174c82f9c44efd9ade41e5d7134b3d"
+          "@id": "_:Nabdcccfe7bde4f59816905c6e64a0877"
         },
         {
-          "@id": "_:N622ca783f7a74da7be26dc561b265755"
+          "@id": "_:N432ada41907b47f5bb24c59d75cadcb2"
         },
         {
-          "@id": "_:N9f8fc3cbf7424348ad80a6fa1dd260c5"
+          "@id": "_:N3453fc312b7742b9991cc514e7fa1539"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -67,24 +67,24 @@
         "@id": "edam:topic_3697"
       },
       "sc:author": [
-        "Jessica Holmes",
         "Gerrit Botha",
-        "Lindsay Clark",
-        "Katie Lennard"
-      ],
-      "sc:contributor": [
-        "Lindsay Clark",
         "Katie Lennard",
         "Jessica Holmes",
-        "Gerrit Botha"
+        "Lindsay Clark"
+      ],
+      "sc:contributor": [
+        "Jessica Holmes",
+        "Lindsay Clark",
+        "Gerrit Botha",
+        "Katie Lennard"
       ],
       "sc:description": "Targeted Amplicon Diversity Analysis - a DADA2-focused Nextflow workflow for any targeted amplicon region.  Microbiome, amplicon analysis, 16S, 18S, ITS, COI, PacBio, Shoreline, Loop",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3798"
+          "@id": "edam:operation_3237"
         },
         {
-          "@id": "edam:operation_3237"
+          "@id": "edam:operation_3798"
         },
         {
           "@id": "edam:operation_3192"
@@ -100,26 +100,7 @@
       "sc:url": "https://github.com/h3abionet/TADA"
     },
     {
-      "@id": "_:Nca174c82f9c44efd9ade41e5d7134b3d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3917"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Count matrix"
-    },
-    {
-      "@id": "_:N622ca783f7a74da7be26dc561b265755",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3707"
-      },
-      "sc:name": "Biodiversity data"
-    },
-    {
-      "@id": "_:N9f8fc3cbf7424348ad80a6fa1dd260c5",
+      "@id": "_:Nabdcccfe7bde4f59816905c6e64a0877",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -130,7 +111,26 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:Naf964e088705468bb7f2c9627fa412a9",
+      "@id": "_:N432ada41907b47f5bb24c59d75cadcb2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3707"
+      },
+      "sc:name": "Biodiversity data"
+    },
+    {
+      "@id": "_:N3453fc312b7742b9991cc514e7fa1539",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Count matrix"
+    },
+    {
+      "@id": "_:N0d9d8679ab414bc3a0fda4324b83f949",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -141,7 +141,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N6665c0a9e1fd4ab287b672fc0da580f4",
+      "@id": "_:N4df6bffc4394414c94cdb2ef3f9d5f30",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -152,7 +152,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N3c53b73407ca4f02b7b2798c5192176c",
+      "@id": "_:N60cb39a2e5814ca89a788dd9348f8f28",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1240"

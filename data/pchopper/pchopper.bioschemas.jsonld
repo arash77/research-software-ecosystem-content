@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/pchopper",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na9580615e2064538817f0add822c3030"
+        "@id": "_:Nd01fd113dd6749d7805a90a797cce677"
       },
       "bsc:output": {
-        "@id": "_:N420d53744b124b29826db7a4501e5c6f"
+        "@id": "_:Nba93e7a9182841bd8de031e4d4be5dc7"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -62,7 +62,18 @@
       "sc:url": "http://pchopper.lifesci.dundee.ac.uk"
     },
     {
-      "@id": "_:N420d53744b124b29826db7a4501e5c6f",
+      "@id": "_:Nd01fd113dd6749d7805a90a797cce677",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nba93e7a9182841bd8de031e4d4be5dc7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -75,17 +86,6 @@
           "@id": "edam:format_2330"
         }
       ],
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Na9580615e2064538817f0add822c3030",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
       "sc:name": "Data"
     }
   ]

@@ -39,22 +39,22 @@
       "@id": "https://bio.tools/pncshub",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne747ffda38af47ab8da0d9942745ec55"
+        "@id": "_:N779793bce7bd444d8e1dd3e9feecc835"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Database portal"
+        "Database portal",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3175"
+          "@id": "edam:topic_0749"
         },
         {
           "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_0749"
+          "@id": "edam:topic_3175"
         }
       ],
       "sc:citation": [
@@ -71,13 +71,13 @@
       "sc:name": "PncsHub",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:url": "https://pncshub.erc.monash.edu/"
     },
     {
-      "@id": "_:Ne747ffda38af47ab8da0d9942745ec55",
+      "@id": "_:N779793bce7bd444d8e1dd3e9feecc835",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0976"

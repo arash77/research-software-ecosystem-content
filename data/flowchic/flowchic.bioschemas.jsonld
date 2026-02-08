@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/flowchic",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Author: Joachim Schumann",
       "bsc:input": {
-        "@id": "_:N6817473b22b54e6eb3685bf06976621b"
+        "@id": "_:N0409cfd0bde44da68e0438e23c0f23e8"
       },
       "bsc:output": [
         {
-          "@id": "_:Nb3c9371da715464b85892f787506c86d"
+          "@id": "_:Na6ed0fbb8f3d41e0a8247c2371cfa66e"
         },
         {
-          "@id": "_:N1a8a4fc7e84844e08e5e71b43d18f744"
+          "@id": "_:N56cad3b13d5c4558acd2fd49ab56535e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -64,10 +60,10 @@
           "@id": "edam:topic_3306"
         },
         {
-          "@id": "edam:topic_3361"
+          "@id": "edam:topic_3301"
         },
         {
-          "@id": "edam:topic_3301"
+          "@id": "edam:topic_3361"
         }
       ],
       "sc:citation": {
@@ -76,10 +72,10 @@
       "sc:description": "A package to analyze flow cytometric data of complex microbial communities based on histogram images.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2409"
+          "@id": "edam:operation_0337"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2409"
         },
         {
           "@id": "edam:operation_2945"
@@ -88,9 +84,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "flowCHIC",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/flowCHIC.html"
@@ -99,39 +95,39 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/flowCHIC.html"
     },
     {
-      "@id": "_:Nb3c9371da715464b85892f787506c86d",
+      "@id": "_:Na6ed0fbb8f3d41e0a8247c2371cfa66e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3603"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3603"
         }
       ],
       "sc:name": "Score"
     },
     {
-      "@id": "_:N1a8a4fc7e84844e08e5e71b43d18f744",
+      "@id": "_:N56cad3b13d5c4558acd2fd49ab56535e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3603"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3603"
         }
       ],
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N6817473b22b54e6eb3685bf06976621b",
+      "@id": "_:N0409cfd0bde44da68e0438e23c0f23e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -140,6 +136,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

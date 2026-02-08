@@ -44,85 +44,81 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1038/ng.806",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/gatk_unified_genotyper",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N9844f787f3714900835d7846621a0e90"
+          "@id": "_:N27b3fe650fc64d9da34b34ac6c339c5d"
         },
         {
-          "@id": "_:N6493f4385f444dfb917cf6d0a1ee3517"
+          "@id": "_:N6e463a8da3b54a169868a88d2716eee8"
         },
         {
-          "@id": "_:N37b859a0f3a84fbea568201e4650a266"
+          "@id": "_:N9f46b25a6a10487298ea2decfb423a22"
         },
         {
-          "@id": "_:N579862bccfb744fd833639c5a08e53d9"
+          "@id": "_:N12cb9d19457840619df3db21cda801a5"
         },
         {
-          "@id": "_:Nf6269ff4967d41ebaa4d688b640b4e94"
+          "@id": "_:Nb85b1ce314784155afdd6a0e6c64a4ac"
         },
         {
-          "@id": "_:N4bb12cab835d4bbdb9e4054290d3825d"
+          "@id": "_:N93027c2ba6af49fdb1a28cc715342aa5"
         },
         {
-          "@id": "_:N32e823e01e5e450daafb17265d6126c3"
+          "@id": "_:N6a7523c2441e453e8576cd524255965d"
         },
         {
-          "@id": "_:N196b857161b64f128f7fd81415ddfc74"
+          "@id": "_:N8ece8f02c89e491d9a96cfee9fbbca72"
         },
         {
-          "@id": "_:Nf6b664a331654859ba2cd79639e866ab"
+          "@id": "_:N602def2834704f08ba884b9a9d05048b"
         },
         {
-          "@id": "_:N05849ee70aee4d34bd01854d826bcb48"
+          "@id": "_:N079171f24e004d10896d8af88050644f"
         },
         {
-          "@id": "_:N1f29fba70d72409e9bca4c044123e6d4"
+          "@id": "_:N3a2117c57c9f4768bb53de8771464001"
         },
         {
-          "@id": "_:Ne7b2abb3cd404671b167dfdfe0cf933b"
+          "@id": "_:N9963200032bf4861aa6896e866ce40ee"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N31a60b57285340cc9d347b8491cf898c"
+          "@id": "_:N02cb2331937c42d092b5d54d86339f00"
         },
         {
-          "@id": "_:Nbc6d4d0c9cac46d2843473e39df445d9"
+          "@id": "_:N2580012aa03f41a8b2bf76df66b9a66d"
         },
         {
-          "@id": "_:Nfebe70db8710457481c3dbcc89345d1b"
+          "@id": "_:Ne21d7aee7ef842bf80942356dd16268d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3168"
-        },
-        {
           "@id": "edam:topic_0199"
         },
         {
           "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_3168"
         }
       ],
       "sc:citation": [
-        "pubmed:21478889",
-        "pmcid:PMC4987906",
         "pubmed:27137889",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
+        "pubmed:21478889",
         {
           "@id": "https://doi.org/10.1038/ng.806"
         },
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
@@ -131,17 +127,17 @@
       "sc:description": "SNP and indel caller.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0452"
+          "@id": "edam:operation_3227"
         },
         {
-          "@id": "edam:operation_3227"
+          "@id": "edam:operation_0452"
         }
       ],
       "sc:name": "gatk_unified_genotyper",
       "sc:operatingSystem": [
-        "Mac",
+        "Windows",
         "Linux",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_genotyper_UnifiedGenotyper.php"
@@ -150,62 +146,7 @@
       "sc:url": "https://software.broadinstitute.org/gatk/"
     },
     {
-      "@id": "_:N9844f787f3714900835d7846621a0e90",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3475"
-        },
-        {
-          "@id": "edam:format_3003"
-        },
-        {
-          "@id": "edam:format_3016"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N6493f4385f444dfb917cf6d0a1ee3517",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2572"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:N37b859a0f3a84fbea568201e4650a266",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3475"
-        },
-        {
-          "@id": "edam:format_3003"
-        },
-        {
-          "@id": "edam:format_3016"
-        }
-      ],
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N579862bccfb744fd833639c5a08e53d9",
+      "@id": "_:N27b3fe650fc64d9da34b34ac6c339c5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -216,7 +157,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nf6269ff4967d41ebaa4d688b640b4e94",
+      "@id": "_:N6e463a8da3b54a169868a88d2716eee8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -227,7 +168,18 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N4bb12cab835d4bbdb9e4054290d3825d",
+      "@id": "_:N9f46b25a6a10487298ea2decfb423a22",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N12cb9d19457840619df3db21cda801a5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -238,7 +190,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N32e823e01e5e450daafb17265d6126c3",
+      "@id": "_:Nb85b1ce314784155afdd6a0e6c64a4ac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -249,7 +201,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N196b857161b64f128f7fd81415ddfc74",
+      "@id": "_:N93027c2ba6af49fdb1a28cc715342aa5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -260,7 +212,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nf6b664a331654859ba2cd79639e866ab",
+      "@id": "_:N6a7523c2441e453e8576cd524255965d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -271,7 +223,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N05849ee70aee4d34bd01854d826bcb48",
+      "@id": "_:N8ece8f02c89e491d9a96cfee9fbbca72",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -282,18 +234,40 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N1f29fba70d72409e9bca4c044123e6d4",
+      "@id": "_:N602def2834704f08ba884b9a9d05048b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N079171f24e004d10896d8af88050644f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3016"
+        }
+      ],
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne7b2abb3cd404671b167dfdfe0cf933b",
+      "@id": "_:N3a2117c57c9f4768bb53de8771464001",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -304,7 +278,51 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N31a60b57285340cc9d347b8491cf898c",
+      "@id": "_:N9963200032bf4861aa6896e866ce40ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3016"
+        },
+        {
+          "@id": "edam:format_3003"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N02cb2331937c42d092b5d54d86339f00",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N2580012aa03f41a8b2bf76df66b9a66d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ne21d7aee7ef842bf80942356dd16268d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -315,26 +333,8 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nbc6d4d0c9cac46d2843473e39df445d9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nfebe70db8710457481c3dbcc89345d1b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
+      "@id": "https://doi.org/10.1038/ng.806",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

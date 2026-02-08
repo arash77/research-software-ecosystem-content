@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0a5f6b73e0f242c9a038356a45ddcffd"
+          "@id": "_:N152ab0518a1545a9857ee2d1240f3a1c"
         },
         {
-          "@id": "_:Nb54af66408584b6d930d017e993431ac"
+          "@id": "_:N6b0d341d517e4080ada5ee3169a10b8c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N97f1bdb972e240669a0a70e3cb80ae6a"
+          "@id": "_:Nac00a674b3ea43c088d39d2cbac3065e"
         },
         {
-          "@id": "_:N9ece2f85006142e3ae5354bcb307e30a"
+          "@id": "_:N6201d3bec77c4fa0887bab76ea1d69d2"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,8 +66,8 @@
       "sc:name": "Mycobacterium leprae genome database",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://genolist.pasteur.fr/Leproma/help/general.html"
@@ -75,7 +75,29 @@
       "sc:url": "http://genolist.pasteur.fr/Leproma/"
     },
     {
-      "@id": "_:N0a5f6b73e0f242c9a038356a45ddcffd",
+      "@id": "_:Nac00a674b3ea43c088d39d2cbac3065e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N6201d3bec77c4fa0887bab76ea1d69d2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N152ab0518a1545a9857ee2d1240f3a1c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1097"
@@ -83,34 +105,12 @@
       "sc:name": "Sequence accession (nucleic acid)"
     },
     {
-      "@id": "_:Nb54af66408584b6d930d017e993431ac",
+      "@id": "_:N6b0d341d517e4080ada5ee3169a10b8c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
       },
       "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:N97f1bdb972e240669a0a70e3cb80ae6a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0916"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Gene report"
-    },
-    {
-      "@id": "_:N9ece2f85006142e3ae5354bcb307e30a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0916"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Gene report"
     }
   ]
 }

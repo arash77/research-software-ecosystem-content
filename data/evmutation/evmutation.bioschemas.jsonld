@@ -40,12 +40,12 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Debbie Marks",
       "bsc:output": {
-        "@id": "_:N0021d699b44649149fbb6efabf225d75"
+        "@id": "_:N802563467ed349f08c7b19e1975e6560"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Database portal",
-        "Command-line tool"
+        "Command-line tool",
+        "Database portal"
       ],
       "sc:applicationSubCategory": [
         {
@@ -65,10 +65,10 @@
       "sc:description": "A statistical method for predicting the effects of mutations.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2414"
+          "@id": "edam:operation_3202"
         },
         {
-          "@id": "edam:operation_3202"
+          "@id": "edam:operation_2414"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -79,7 +79,7 @@
       "sc:url": "https://marks.hms.harvard.edu/evmutation/index.html"
     },
     {
-      "@id": "_:N0021d699b44649149fbb6efabf225d75",
+      "@id": "_:N802563467ed349f08c7b19e1975e6560",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

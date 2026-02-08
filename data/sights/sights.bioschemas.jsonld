@@ -45,14 +45,11 @@
       "biotools:primaryContact": "Elika Garg",
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Suite",
         "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Suite"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_0092"
-        },
         {
           "@id": "edam:topic_3572"
         },
@@ -61,6 +58,9 @@
         },
         {
           "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0092"
         }
       ],
       "sc:citation": [
@@ -84,9 +84,9 @@
       "sc:license": "GPL-3.0",
       "sc:name": "sights",
       "sc:operatingSystem": [
-        "Mac",
+        "Linux",
         "Windows",
-        "Linux"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/sights.html"

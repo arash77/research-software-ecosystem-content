@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N2f737e66218e4094a47c153f365014ba"
+        "@id": "_:Nff546cb3b1e843f7885aa227f2798d3f"
       },
       "bsc:output": {
-        "@id": "_:Nd822cb7fd5bb404e8ee38755c42624b3"
+        "@id": "_:N87fa287bd3db40658e9f8209057e4932"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -56,10 +56,10 @@
       },
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+          "@id": "https://doi.org/10.1093/nar/gkw343"
         },
         {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         }
       ],
       "sc:description": "Creates a new Gff output, which corresponds to the region of two successive Elements.",
@@ -68,9 +68,9 @@
       },
       "sc:name": "interelementgff",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Furgi_tools%2FinterElementGff%2F1.0.0"
@@ -79,7 +79,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N2f737e66218e4094a47c153f365014ba",
+      "@id": "_:N87fa287bd3db40658e9f8209057e4932",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -90,7 +90,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd822cb7fd5bb404e8ee38755c42624b3",
+      "@id": "_:Nff546cb3b1e843f7885aa227f2798d3f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

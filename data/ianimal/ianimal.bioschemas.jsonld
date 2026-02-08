@@ -44,34 +44,34 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5876d3361d4c4a9fa62f17d875c70f03"
+          "@id": "_:Nfd15ea953d0948f3a92efe362b322283"
         },
         {
-          "@id": "_:Nd7d7fa1988544687a83a9ce3d58d95af"
+          "@id": "_:Nb88e5af8d2384d4f92cf24167bcd9637"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3673"
+          "@id": "edam:topic_3173"
         },
         {
-          "@id": "edam:topic_3170"
+          "@id": "edam:topic_3673"
         },
         {
           "@id": "edam:topic_3169"
         },
         {
-          "@id": "edam:topic_3298"
+          "@id": "edam:topic_3170"
         },
         {
-          "@id": "edam:topic_3173"
+          "@id": "edam:topic_3298"
         }
       ],
       "sc:citation": [
-        "pubmed:36300629",
         "pmcid:PMC9825575",
+        "pubmed:36300629",
         {
           "@id": "https://doi.org/10.1093/nar/gkac936"
         }
@@ -82,23 +82,23 @@
           "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_3196"
+          "@id": "edam:operation_1781"
         },
         {
-          "@id": "edam:operation_1781"
+          "@id": "edam:operation_3196"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "IAnimal",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:url": "https://ianimal.pro/"
     },
     {
-      "@id": "_:N5876d3361d4c4a9fa62f17d875c70f03",
+      "@id": "_:Nfd15ea953d0948f3a92efe362b322283",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -106,7 +106,7 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:Nd7d7fa1988544687a83a9ce3d58d95af",
+      "@id": "_:Nb88e5af8d2384d4f92cf24167bcd9637",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"

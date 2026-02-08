@@ -43,23 +43,23 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N05a3783df2cb440dbcf7abadc1f8512d"
+          "@id": "_:N1ae04ce6dc8e4560b18c27c16026f6f8"
         },
         {
-          "@id": "_:Nf27d2a2bc55241d2b2033f20229c711a"
+          "@id": "_:Ne805bbe0247345ae9c6a48eff9cff465"
         }
       ],
       "bsc:output": {
-        "@id": "_:Na35bd96ac2e94028843e2a557057549c"
+        "@id": "_:Nde9539a4305f4821a75a5c2fd751ffc7"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0622"
         }
       ],
       "sc:author": {
@@ -77,26 +77,26 @@
           "@id": "edam:operation_3214"
         },
         {
-          "@id": "edam:operation_3767"
-        },
-        {
           "@id": "edam:operation_3197"
         },
         {
           "@id": "edam:operation_2479"
+        },
+        {
+          "@id": "edam:operation_3767"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "MzVar",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:url": "https://bitbucket.org/sib-pig/mzvar-public/src/master/"
     },
     {
-      "@id": "_:Na35bd96ac2e94028843e2a557057549c",
+      "@id": "_:Nde9539a4305f4821a75a5c2fd751ffc7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -107,7 +107,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:N05a3783df2cb440dbcf7abadc1f8512d",
+      "@id": "_:N1ae04ce6dc8e4560b18c27c16026f6f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -118,7 +118,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:Nf27d2a2bc55241d2b2033f20229c711a",
+      "@id": "_:Ne805bbe0247345ae9c6a48eff9cff465",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -129,12 +129,12 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "https://doi.org/10.1021/acs.jproteome.8b00392",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0001-6548-709X",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.8b00392",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-015-0555-7",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/sominaclust",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8534a17443264a4fb076f0bc5318d7c5"
+        "@id": "_:N8a92c82bf83d4a45ad4db76afaf61f55"
       },
       "bsc:output": {
-        "@id": "_:Nb9f59cb1ebd5453c895e92412c444a73"
+        "@id": "_:Na104f4f1d16e494493c402554b466b32"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -55,10 +51,10 @@
       },
       "sc:citation": [
         "pubmed:25903787",
+        "pmcid:PMC4410004",
         {
           "@id": "https://doi.org/10.1186/s12859-015-0555-7"
-        },
-        "pmcid:PMC4410004"
+        }
       ],
       "sc:description": "Detection of cancer genes based on somatic mutation patterns of inactivation and clustering.",
       "sc:featureList": {
@@ -66,8 +62,8 @@
       },
       "sc:name": "SomInaClust",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -77,7 +73,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/sominaclust"
     },
     {
-      "@id": "_:N8534a17443264a4fb076f0bc5318d7c5",
+      "@id": "_:N8a92c82bf83d4a45ad4db76afaf61f55",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2538"
@@ -85,12 +81,16 @@
       "sc:name": "Mutation identifier"
     },
     {
-      "@id": "_:Nb9f59cb1ebd5453c895e92412c444a73",
+      "@id": "_:Na104f4f1d16e494493c402554b466b32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1246"
       },
       "sc:name": "Sequence cluster (nucleic acid)"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0555-7",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/iorbase",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N049ca1f3b3714068b9561df7ad35219c"
+        "@id": "_:Neab6a9d61a414fc7b988091716e8ee42"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -48,13 +48,13 @@
           "@id": "edam:topic_0623"
         },
         {
-          "@id": "edam:topic_3047"
-        },
-        {
           "@id": "edam:topic_2275"
         },
         {
           "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_3047"
         }
       ],
       "sc:citation": [
@@ -66,26 +66,26 @@
       "sc:description": "A database for the prediction of the structures and functions of insect olfactory receptors.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_2492"
+        },
+        {
           "@id": "edam:operation_0474"
         },
         {
           "@id": "edam:operation_3938"
-        },
-        {
-          "@id": "edam:operation_2492"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "iORbase",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:url": "https://www.iorbase.com"
     },
     {
-      "@id": "_:N049ca1f3b3714068b9561df7ad35219c",
+      "@id": "_:Neab6a9d61a414fc7b988091716e8ee42",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

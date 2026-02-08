@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx319",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/htsvis",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Michael Boutros",
@@ -53,8 +57,8 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC5870698",
         "pubmed:28505270",
+        "pmcid:PMC5870698",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btx319"
         }
@@ -70,23 +74,19 @@
       ],
       "sc:name": "HTSvis",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://b110-wiki.dkfz.de/confluence/display/HTSvis"
+          "@id": "https://github.com/boutroslab/HTSvis"
         },
         {
-          "@id": "https://github.com/boutroslab/HTSvis"
+          "@id": "http://b110-wiki.dkfz.de/confluence/display/HTSvis"
         }
       ],
       "sc:url": "http://htsvis.dkfz.de/HTSvis/"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btx319",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

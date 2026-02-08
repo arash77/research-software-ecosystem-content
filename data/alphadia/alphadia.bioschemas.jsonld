@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N1f8d8a0c9bcf43f2a88493f64f99085e"
+          "@id": "_:N3ccabb7c23f144a099b3f0c5989fca74"
         },
         {
-          "@id": "_:N1201f4945d474fb5ac6fec6da6ad6304"
+          "@id": "_:N7527f9913e2d41c5bed8eadfa5ae23ee"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -63,31 +63,15 @@
       "sc:license": "Apache-2.0",
       "sc:name": "alphaDIA",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareVersion": "1.6.2",
       "sc:url": "https://github.com/MannLabs/alphadia"
     },
     {
-      "@id": "_:N1f8d8a0c9bcf43f2a88493f64f99085e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3712"
-        },
-        {
-          "@id": "edam:format_3710"
-        }
-      ],
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N1201f4945d474fb5ac6fec6da6ad6304",
+      "@id": "_:N3ccabb7c23f144a099b3f0c5989fca74",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -95,6 +79,22 @@
       "sc:encodingFormat": {
         "@id": "edam:format_3873"
       },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N7527f9913e2d41c5bed8eadfa5ae23ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3710"
+        },
+        {
+          "@id": "edam:format_3712"
+        }
+      ],
       "sc:name": "Mass spectrometry data"
     }
   ]

@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Yves Van de Peer",
       "bsc:input": {
-        "@id": "_:Nbfb056e8b2bd4dc28a8d8105759e7d68"
+        "@id": "_:N508877aa19e640b7874df6ba5754a47b"
       },
       "bsc:output": {
-        "@id": "_:N8fd8700247d144979824052c86ce39c7"
+        "@id": "_:Na4d2ad51506f47c9b32d6d00f9c4f283"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -55,11 +55,11 @@
         "@id": "edam:topic_3473"
       },
       "sc:citation": [
+        "pubmed:23613707",
         "pmcid:PMC3629104",
         {
           "@id": "https://doi.org/10.1371/journal.pone.0055814"
-        },
-        "pubmed:23613707"
+        }
       ],
       "sc:description": "A text mining resource built on top of PubMed abstracts and PubMed Central full texts.",
       "sc:featureList": [
@@ -72,8 +72,8 @@
       ],
       "sc:name": "EVEX",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "PSB",
@@ -84,7 +84,7 @@
       "sc:url": "http://evexdb.org"
     },
     {
-      "@id": "_:Nbfb056e8b2bd4dc28a8d8105759e7d68",
+      "@id": "_:N508877aa19e640b7874df6ba5754a47b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -92,7 +92,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N8fd8700247d144979824052c86ce39c7",
+      "@id": "_:Na4d2ad51506f47c9b32d6d00f9c4f283",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0972"

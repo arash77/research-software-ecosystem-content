@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4941b4c40f9d4fb2b1c9d9413f8cea7d"
+          "@id": "_:Ncb1e928b5a22463aa26df94825e67174"
         },
         {
-          "@id": "_:Ncca99e18d4fe4aca9043865de526a872"
+          "@id": "_:N43ce623be16b489c9bbc99cd87ea9544"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne6bd0bf8c8004cfaadb9758d10090cdb"
+        "@id": "_:N4e927ed70c7145889ddbafff9ae33d9f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -74,18 +74,7 @@
       "sc:url": "https://github.com/wheaton5/souporcell"
     },
     {
-      "@id": "_:Ne6bd0bf8c8004cfaadb9758d10090cdb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3498"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3016"
-      },
-      "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "_:N4941b4c40f9d4fb2b1c9d9413f8cea7d",
+      "@id": "_:Ncb1e928b5a22463aa26df94825e67174",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -96,7 +85,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Ncca99e18d4fe4aca9043865de526a872",
+      "@id": "_:N43ce623be16b489c9bbc99cd87ea9544",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -105,6 +94,17 @@
         "@id": "edam:format_2572"
       },
       "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "_:N4e927ed70c7145889ddbafff9ae33d9f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
     },
     {
       "@id": "https://doi.org/10.1038/s41592-020-0820-1",

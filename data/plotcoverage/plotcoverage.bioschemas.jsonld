@@ -36,56 +36,52 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/plotcoverage",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N8a193ba2f0b6496e9ae2ff29fa6e0809"
+          "@id": "_:N8b995ee4e89c4bf392b800da2be415ca"
         },
         {
-          "@id": "_:Nfcba07f37cab4f0e82c721e1974daa29"
+          "@id": "_:N05edc5b692a04b2fb09b7c08932bb417"
         },
         {
-          "@id": "_:Neb42e6c8329f4064aa19ea3c89f928f2"
+          "@id": "_:Nd4589f4ad83f422b996f99d7adf58cbd"
         },
         {
-          "@id": "_:N6877029d57fa43a0a3ad818c70cc1c5b"
+          "@id": "_:Nf504dd6eedc04036916f607e10f5f567"
         },
         {
-          "@id": "_:N52656a239b82483e8522fc06fe68423a"
+          "@id": "_:Nfa7fb992a9a64b1c882357cdc2356a1e"
         },
         {
-          "@id": "_:N29dd55b8e1b143e69ef1357bfde261f1"
+          "@id": "_:N83ca0076b11d42a08c313be80bb22802"
         },
         {
-          "@id": "_:N7579c2fa57284c759da67174caf3e28b"
+          "@id": "_:Nf659640ac39b4e4bb9f553ed568405ff"
         },
         {
-          "@id": "_:N9560ecafb13f4e11b0a62e005bd23145"
+          "@id": "_:N7d07aac3def747289d3ba4700d82773c"
         },
         {
-          "@id": "_:N2964bc489ccb430f93e41e61d7a8523e"
+          "@id": "_:N8b10c29c2b5a4758a30b66e74782fab2"
         },
         {
-          "@id": "_:N7da9518fc6724eb0be70ac774bcb3092"
+          "@id": "_:N2378b56944ef4036a0c3cda2ee7f9058"
         },
         {
-          "@id": "_:Nd3968282bbb647959e49d18bbf45f41b"
+          "@id": "_:Nc207881fe8b04cb78d2058ac4bbcaf9f"
         },
         {
-          "@id": "_:N192d065fd967480eb9c6abbf84e70040"
+          "@id": "_:N0aa085fdb1b44fc9ac03a53ebb659c74"
         },
         {
-          "@id": "_:Nfc1edcd0682f47bd855df2aaadb95116"
+          "@id": "_:N591550fdb1af491d9f1520d1274ee74f"
         }
       ],
       "bsc:output": {
-        "@id": "_:N794af2324d5d4423a1a7a42cc21de5a1"
+        "@id": "_:N5d4fd5b4cd124e638a801823c57daa0c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -94,29 +90,29 @@
           "@id": "edam:topic_0797"
         },
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_3168"
         },
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_0622"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4987906",
         "pubmed:27137889",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
-        },
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
         }
       ],
       "sc:description": "Plot the coverage of the first data with respect to the second one.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2424"
         },
         {
-          "@id": "edam:operation_2424"
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:name": "plotcoverage",
@@ -127,84 +123,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N8a193ba2f0b6496e9ae2ff29fa6e0809",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nfcba07f37cab4f0e82c721e1974daa29",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1975"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Neb42e6c8329f4064aa19ea3c89f928f2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N6877029d57fa43a0a3ad818c70cc1c5b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1975"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N52656a239b82483e8522fc06fe68423a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2573"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:N29dd55b8e1b143e69ef1357bfde261f1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N7579c2fa57284c759da67174caf3e28b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N9560ecafb13f4e11b0a62e005bd23145",
+      "@id": "_:N8b995ee4e89c4bf392b800da2be415ca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -215,40 +134,18 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N2964bc489ccb430f93e41e61d7a8523e",
+      "@id": "_:N05edc5b692a04b2fb09b7c08932bb417",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2306"
+        "@id": "edam:format_1975"
       },
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7da9518fc6724eb0be70ac774bcb3092",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:Nd3968282bbb647959e49d18bbf45f41b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N192d065fd967480eb9c6abbf84e70040",
+      "@id": "_:Nd4589f4ad83f422b996f99d7adf58cbd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -259,7 +156,18 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nfc1edcd0682f47bd855df2aaadb95116",
+      "@id": "_:Nf504dd6eedc04036916f607e10f5f567",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Nfa7fb992a9a64b1c882357cdc2356a1e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -270,7 +178,29 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N794af2324d5d4423a1a7a42cc21de5a1",
+      "@id": "_:N83ca0076b11d42a08c313be80bb22802",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nf659640ac39b4e4bb9f553ed568405ff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N7d07aac3def747289d3ba4700d82773c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -279,6 +209,76 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "_:N8b10c29c2b5a4758a30b66e74782fab2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N2378b56944ef4036a0c3cda2ee7f9058",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nc207881fe8b04cb78d2058ac4bbcaf9f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N0aa085fdb1b44fc9ac03a53ebb659c74",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N591550fdb1af491d9f1520d1274ee74f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5d4fd5b4cd124e638a801823c57daa0c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",

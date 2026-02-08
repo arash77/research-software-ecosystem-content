@@ -45,24 +45,24 @@
       "biotools:primaryContact": "Yongming Andrew Sun",
       "bsc:input": [
         {
-          "@id": "_:N6ef5dc771ef6412ba1a3c8bd795f4b86"
+          "@id": "_:Nd8575d09d58941c28f40d39fcf7f8970"
         },
         {
-          "@id": "_:N8b3e8bfc5b8c4b38a1992461a7ac41b3"
+          "@id": "_:N2adf1c22224949ea8f10359a4b63c072"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd6f1827485254ad98b0cfba108a9c63f"
+          "@id": "_:N06fc5cbf942f47d7ac2688d81575bd0e"
         },
         {
-          "@id": "_:N440758d6e41e4b39af69d1578d08d9c9"
+          "@id": "_:N4bb761b38f5d4e5496eda945b56b8e3c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
@@ -72,15 +72,15 @@
           "@id": "edam:topic_3518"
         },
         {
-          "@id": "edam:topic_2269"
+          "@id": "edam:topic_0769"
         },
         {
-          "@id": "edam:topic_0769"
+          "@id": "edam:topic_2269"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4509590",
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
         }
@@ -88,27 +88,27 @@
       "sc:description": "An R package which functions provide an automated pipeline to perform expression analysis for Applied Biosystems Genome Survey Microarray (AB1700) data format. Functions include data preprocessing, filtering, control probe analysis, statistical analysis. A GUI interface is also provided.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2238"
+          "@id": "edam:operation_0337"
         },
         {
           "@id": "edam:operation_2409"
         },
         {
-          "@id": "edam:operation_2428"
-        },
-        {
-          "@id": "edam:operation_0337"
-        },
-        {
           "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_2428"
         }
       ],
       "sc:license": "GPL-3.0",
       "sc:name": "ABarray",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/ABarray.html"
@@ -117,29 +117,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/ABarray.html"
     },
     {
-      "@id": "_:N6ef5dc771ef6412ba1a3c8bd795f4b86",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3751"
-      },
-      "sc:name": "Gene expression data"
-    },
-    {
-      "@id": "_:N8b3e8bfc5b8c4b38a1992461a7ac41b3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2337"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3751"
-      },
-      "sc:name": "Resource metadata"
-    },
-    {
-      "@id": "_:Nd6f1827485254ad98b0cfba108a9c63f",
+      "@id": "_:N06fc5cbf942f47d7ac2688d81575bd0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -150,7 +128,7 @@
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:N440758d6e41e4b39af69d1578d08d9c9",
+      "@id": "_:N4bb761b38f5d4e5496eda945b56b8e3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -159,6 +137,28 @@
         "@id": "edam:format_3617"
       },
       "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nd8575d09d58941c28f40d39fcf7f8970",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2337"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3751"
+      },
+      "sc:name": "Resource metadata"
+    },
+    {
+      "@id": "_:N2adf1c22224949ea8f10359a4b63c072",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3751"
+      },
+      "sc:name": "Gene expression data"
     }
   ]
 }

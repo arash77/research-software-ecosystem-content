@@ -40,7 +40,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Frédéric Chalmel",
       "bsc:input": {
-        "@id": "_:N6c15c43d87694c9392079e3bdba82d2f"
+        "@id": "_:N44989fb6b63440659bd96378a6a50e61"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -49,11 +49,11 @@
       },
       "sc:author": "Thomas Darde",
       "sc:citation": [
+        "pmcid:PMC4489245",
+        "pubmed:25883147",
         {
           "@id": "https://doi.org/10.1093/nar/gkv345"
-        },
-        "pmcid:PMC4489245",
-        "pubmed:25883147"
+        }
       ],
       "sc:description": "The ReproGenomics Viewer (RGV) is a cross-species genomic toolbox for the reproductive community.",
       "sc:featureList": {
@@ -62,9 +62,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "ReproGenomics Viewer",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": [
         "GenOuest",
@@ -77,7 +77,7 @@
       "sc:url": "http://rgv.genouest.org"
     },
     {
-      "@id": "_:N6c15c43d87694c9392079e3bdba82d2f",
+      "@id": "_:N44989fb6b63440659bd96378a6a50e61",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"

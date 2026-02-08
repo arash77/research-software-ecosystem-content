@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/gosummaries",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nde40d3d0c3a248108b12ac5f7ee5d062"
+        "@id": "_:Nd0d2fbbf98644397b059f4eb7836e0af"
       },
       "bsc:output": {
-        "@id": "_:N5aa7b9be24c44ac1a13b88337f427ddb"
+        "@id": "_:N9039f760f6c040ea859f5517c05d1d6c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -75,9 +75,9 @@
       ],
       "sc:name": "GOsummaries",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "ELIXIR-EE",
       "sc:softwareHelp": {
@@ -87,20 +87,20 @@
       "sc:url": "http://raivokolde.github.io/GOsummaries/"
     },
     {
-      "@id": "_:Nde40d3d0c3a248108b12ac5f7ee5d062",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1276"
-      },
-      "sc:name": "Nucleic acid features"
-    },
-    {
-      "@id": "_:N5aa7b9be24c44ac1a13b88337f427ddb",
+      "@id": "_:N9039f760f6c040ea859f5517c05d1d6c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
       "sc:name": "Image"
+    },
+    {
+      "@id": "_:Nd0d2fbbf98644397b059f4eb7836e0af",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:name": "Nucleic acid features"
     }
   ]
 }

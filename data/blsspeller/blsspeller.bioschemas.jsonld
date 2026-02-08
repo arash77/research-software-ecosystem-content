@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btv466",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/blsspeller",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N58412a8675834fbca88270191a631727"
+        "@id": "_:N340071b97b3649358cd60aa6c5f8c63f"
       },
       "bsc:output": {
-        "@id": "_:N97617f2f457a4e6c9be3c9e16445c2d1"
+        "@id": "_:N83499977e6934a5193a29ff6bf41dbcb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -77,7 +73,15 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/blsspeller/index.html"
     },
     {
-      "@id": "_:N58412a8675834fbca88270191a631727",
+      "@id": "_:N83499977e6934a5193a29ff6bf41dbcb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N340071b97b3649358cd60aa6c5f8c63f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3148"
@@ -85,12 +89,8 @@
       "sc:name": "Gene family report"
     },
     {
-      "@id": "_:N97617f2f457a4e6c9be3c9e16445c2d1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:name": "Sequence motif"
+      "@id": "https://doi.org/10.1093/bioinformatics/btv466",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

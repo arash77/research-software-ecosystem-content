@@ -65,8 +65,8 @@
   "sc:name": "lncRNAtor",
   "sc:operatingSystem": [
     "Windows",
-    "Linux",
-    "Mac"
+    "Mac",
+    "Linux"
   ],
   "sc:softwareHelp": {
     "@id": "http://lncrnator.ewha.ac.kr/help.htm"

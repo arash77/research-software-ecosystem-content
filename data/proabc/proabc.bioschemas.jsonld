@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Pier Paolo Olimpieri",
       "bsc:input": {
-        "@id": "_:Nab88192918ee4d558ec0dcb1a1f23a1e"
+        "@id": "_:N286111e5fcea4c98abac0d71bc4c8424"
       },
       "bsc:output": {
-        "@id": "_:N64a016add5fe4f7c9dc7b43fb758a446"
+        "@id": "_:N061378ef3ab8412c94d642fb0cf0f10e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -55,26 +55,26 @@
         "@id": "edam:topic_0081"
       },
       "sc:citation": [
+        "pmcid:PMC3753563",
         "pubmed:23803466",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btt369"
-        },
-        "pmcid:PMC3753563"
+        }
       ],
       "sc:description": "Predictor of Antibody-Antigen interactions based on the Random Forest Algorithm. User submitted sequences are automatically aligned and annotated according to their source organism and germline families.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0474"
+          "@id": "edam:operation_2492"
         },
         {
-          "@id": "edam:operation_2492"
+          "@id": "edam:operation_0474"
         }
       ],
       "sc:name": "proABC",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "ELIXIR-ITA-SAPIENZA",
       "sc:softwareHelp": {
@@ -84,7 +84,7 @@
       "sc:url": "http://www.biocomputing.it/proABC"
     },
     {
-      "@id": "_:N64a016add5fe4f7c9dc7b43fb758a446",
+      "@id": "_:N061378ef3ab8412c94d642fb0cf0f10e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -92,7 +92,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:Nab88192918ee4d558ec0dcb1a1f23a1e",
+      "@id": "_:N286111e5fcea4c98abac0d71bc4c8424",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

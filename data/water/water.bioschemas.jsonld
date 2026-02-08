@@ -36,21 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/water",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nba71e41e851049e4a561b29955a35363"
+          "@id": "_:Nc05cef0c8bfb4f3396cf679c2ab67b24"
         },
         {
-          "@id": "_:N5843a7be102e463ba56bcd46700ab107"
+          "@id": "_:Nf0d9ccf0a878410f8eee7742cd05bf9e"
         },
         {
-          "@id": "_:N784561ef67ef4ec39d71e3f2a37701a8"
+          "@id": "_:Nd11931005b424a05b318202c960571b6"
         }
       ],
       "bsc:output": {
-        "@id": "_:N68d4d51bef06494d82053d4718b77a20"
+        "@id": "_:N49773db50ee04950a501c02251afd056"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -69,8 +81,8 @@
         }
       ],
       "sc:contributor": [
-        "UK MRC",
         "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust",
         "EMBOSS Contributors"
       ],
@@ -80,20 +92,20 @@
       },
       "sc:funder": [
         "UK MRC",
-        "UK BBSRC",
-        "Wellcome Trust"
+        "Wellcome Trust",
+        "UK BBSRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "water",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
-        "EMBOSS",
-        "EMBL-EBI"
+        "EMBL-EBI",
+        "EMBOSS"
       ],
       "sc:softwareHelp": [
         {
@@ -110,7 +122,15 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/water.html"
     },
     {
-      "@id": "_:Nba71e41e851049e4a561b29955a35363",
+      "@id": "_:Nc05cef0c8bfb4f3396cf679c2ab67b24",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:Nf0d9ccf0a878410f8eee7742cd05bf9e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0874"
@@ -118,7 +138,7 @@
       "sc:name": "Comparison matrix"
     },
     {
-      "@id": "_:N5843a7be102e463ba56bcd46700ab107",
+      "@id": "_:Nd11931005b424a05b318202c960571b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -126,32 +146,12 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N784561ef67ef4ec39d71e3f2a37701a8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0849"
-      },
-      "sc:name": "Sequence record"
-    },
-    {
-      "@id": "_:N68d4d51bef06494d82053d4718b77a20",
+      "@id": "_:N49773db50ee04950a501c02251afd056",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"
       },
       "sc:name": "Sequence alignment (pair)"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

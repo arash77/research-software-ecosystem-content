@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.2242",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/orcae",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Yves Van de Peer",
       "bsc:input": {
-        "@id": "_:Nd23dfce872734805b6eba5d83385f9fa"
+        "@id": "_:N60f9a139b2cf42ae8d59491599794bfb"
       },
       "bsc:output": {
-        "@id": "_:N58b539a6fce349b4892f06e1decba884"
+        "@id": "_:N01ac7be461ac46389a7712b6f5ca7d14"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -67,8 +63,8 @@
       "sc:name": "ORCAE",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:provider": "PSB",
       "sc:softwareHelp": {
@@ -78,7 +74,15 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/orcae/"
     },
     {
-      "@id": "_:N58b539a6fce349b4892f06e1decba884",
+      "@id": "_:N60f9a139b2cf42ae8d59491599794bfb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N01ac7be461ac46389a7712b6f5ca7d14",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -86,12 +90,8 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Nd23dfce872734805b6eba5d83385f9fa",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:name": "Identifier"
+      "@id": "https://doi.org/10.1038/nmeth.2242",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

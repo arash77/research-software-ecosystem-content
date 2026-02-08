@@ -40,31 +40,31 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Wentao Yang",
       "bsc:input": {
-        "@id": "_:N1fa99376d41c4e898012a346a6f340db"
+        "@id": "_:N8835a6bf22804b2a82aa53bbd37bcd19"
       },
       "bsc:output": [
         {
-          "@id": "_:N46839bce61f547e2a18596302d88ac53"
+          "@id": "_:Nb525b3fbd98e43ec9a9fc02a5c2fe665"
         },
         {
-          "@id": "_:Nd34161d084d448839236aee2889781b8"
+          "@id": "_:N5620a6711bb7476ba5dcb9a3de1bce48"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
+        "Command-line tool",
         "Library",
-        "Plug-in",
-        "Command-line tool"
+        "Plug-in"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_3170"
-        },
         {
           "@id": "edam:topic_0203"
         },
         {
           "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_3170"
         }
       ],
       "sc:citation": [
@@ -77,12 +77,6 @@
       "sc:description": "An R package which provides RNA-Seq analysis based on modelling absolute expression differences.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0337"
-        },
-        {
-          "@id": "edam:operation_2426"
-        },
-        {
           "@id": "edam:operation_2495"
         },
         {
@@ -90,14 +84,20 @@
         },
         {
           "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_2426"
+        },
+        {
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:license": "GPL-3.0",
       "sc:name": "ABSSeq",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/ABSSeq.html"
@@ -106,7 +106,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/ABSSeq.html"
     },
     {
-      "@id": "_:N46839bce61f547e2a18596302d88ac53",
+      "@id": "_:Nb525b3fbd98e43ec9a9fc02a5c2fe665",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -117,7 +117,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nd34161d084d448839236aee2889781b8",
+      "@id": "_:N5620a6711bb7476ba5dcb9a3de1bce48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -128,7 +128,7 @@
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:N1fa99376d41c4e898012a346a6f340db",
+      "@id": "_:N8835a6bf22804b2a82aa53bbd37bcd19",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

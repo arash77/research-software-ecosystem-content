@@ -36,18 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0003-1849-1269",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41467-018-05051-5",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-8869-3689",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/Sugarcane_Genome_Hub",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -55,21 +43,21 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N9e63716c30cd4e169acd53a4b5778c58"
+          "@id": "_:N33b36b4858fb4206952ac1dc4a9112e7"
         },
         {
-          "@id": "_:Nf696d57f29354f1fba4aa35fef98b7c9"
+          "@id": "_:N31da0d28cb024c939a6b0c3c41fa5054"
         },
         {
-          "@id": "_:N7a3669aaa30e4c09972ac24289237f23"
+          "@id": "_:N8cff570ca8084ff3b9e52c2b1b746ede"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne6631c8d9ac346e9894af52a16fc499b"
+          "@id": "_:N50ac8362dd8341bca748c9a76d2d9b21"
         },
         {
-          "@id": "_:N1af01e5e84b6444d86822de2f5e57fb5"
+          "@id": "_:Nff99629941d74a2e9f8544d5d27e394a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -79,24 +67,24 @@
           "@id": "edam:topic_0621"
         },
         {
-          "@id": "edam:topic_3810"
-        },
-        {
           "@id": "edam:topic_0622"
         },
         {
           "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3810"
         }
       ],
       "sc:author": {
         "@id": "https://orcid.org/0000-0003-1849-1269"
       },
       "sc:citation": [
-        "pubmed:29980662",
+        "pmcid:PMC6035169",
         {
           "@id": "https://doi.org/10.1038/s41467-018-05051-5"
         },
-        "pmcid:PMC6035169"
+        "pubmed:29980662"
       ],
       "sc:description": "The Sugarcane Genome Hub is an integrated web-based database providing centralized access to the sugarcane reference genome sequences and genomic resources.",
       "sc:featureList": {
@@ -112,7 +100,7 @@
       "sc:url": "https://sugarcane-genome.cirad.fr/"
     },
     {
-      "@id": "_:N9e63716c30cd4e169acd53a4b5778c58",
+      "@id": "_:N50ac8362dd8341bca748c9a76d2d9b21",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -120,7 +108,15 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nf696d57f29354f1fba4aa35fef98b7c9",
+      "@id": "_:Nff99629941d74a2e9f8544d5d27e394a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N33b36b4858fb4206952ac1dc4a9112e7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -128,15 +124,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N7a3669aaa30e4c09972ac24289237f23",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2080"
-      },
-      "sc:name": "Database search results"
-    },
-    {
-      "@id": "_:Ne6631c8d9ac346e9894af52a16fc499b",
+      "@id": "_:N31da0d28cb024c939a6b0c3c41fa5054",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -144,12 +132,24 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N1af01e5e84b6444d86822de2f5e57fb5",
+      "@id": "_:N8cff570ca8084ff3b9e52c2b1b746ede",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0863"
+        "@id": "edam:data_2080"
       },
-      "sc:name": "Sequence alignment"
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1849-1269",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8869-3689",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-018-05051-5",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

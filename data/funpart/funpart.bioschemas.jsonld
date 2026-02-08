@@ -36,28 +36,32 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/s41419-021-04075-y",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/funpart",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Antonio del Sol",
       "bsc:input": {
-        "@id": "_:Ne459867bedd14e65a98fa35564bc5eca"
+        "@id": "_:N7ca32f3fb23a4007b8000b1497a52d5c"
       },
       "bsc:output": [
         {
-          "@id": "_:Nb03d09b37fd540ae8545e2332a316927"
+          "@id": "_:Nbb26c84256c948a78a98cfc69bf70eb5"
         },
         {
-          "@id": "_:N2e328fb02a9648e0960d6832e2acb707"
+          "@id": "_:N968172b792804400b361a62bacf03ff1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3308"
+          "@id": "edam:topic_1775"
         },
         {
-          "@id": "edam:topic_1775"
+          "@id": "edam:topic_3308"
         }
       ],
       "sc:citation": [
@@ -79,21 +83,13 @@
       "sc:name": "FunPart",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:url": "https://github.com/BarlierC/FunPart"
     },
     {
-      "@id": "_:Nb03d09b37fd540ae8545e2332a316927",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3768"
-      },
-      "sc:name": "Clustered expression profiles"
-    },
-    {
-      "@id": "_:N2e328fb02a9648e0960d6832e2acb707",
+      "@id": "_:Nbb26c84256c948a78a98cfc69bf70eb5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3779"
@@ -101,7 +97,15 @@
       "sc:name": "Annotated text"
     },
     {
-      "@id": "_:Ne459867bedd14e65a98fa35564bc5eca",
+      "@id": "_:N968172b792804400b361a62bacf03ff1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3768"
+      },
+      "sc:name": "Clustered expression profiles"
+    },
+    {
+      "@id": "_:N7ca32f3fb23a4007b8000b1497a52d5c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -110,10 +114,6 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Gene expression matrix"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41419-021-04075-y",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -45,18 +45,18 @@
       "biotools:primaryContact": "N. Hawkins",
       "bsc:input": [
         {
-          "@id": "_:Ne73951b7b2354f60a13ad7d1000a0bfd"
+          "@id": "_:Nc827d1f9ed704782a288dcafb8260e8d"
         },
         {
-          "@id": "_:N2a23293413394cb9a318c8a8b0d73cb2"
+          "@id": "_:N730086e3fe7142778c3ab89d8fefc7cf"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5655d86fce134202bbd573fd104e5f34"
+          "@id": "_:N9be52c93f0474db3a75b5d1c4ec58330"
         },
         {
-          "@id": "_:Na6175ebf15284ec1bb81db9740f905dd"
+          "@id": "_:Nd6fdb51ec7cb4af4be133c7280af2069"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,6 +66,9 @@
       ],
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0092"
+        },
+        {
           "@id": "edam:topic_2830"
         },
         {
@@ -73,9 +76,6 @@
         },
         {
           "@id": "edam:topic_3361"
-        },
-        {
-          "@id": "edam:topic_0092"
         }
       ],
       "sc:citation": {
@@ -84,21 +84,21 @@
       "sc:description": "Graphical displays with embedded statistical tests for gated ICS flow cytometry data, and a data class which stores \"stacked\" data and has methods for computing summary measures on stacked data, such as marginal and polyfunctional degree data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2409"
+          "@id": "edam:operation_2945"
         },
         {
           "@id": "edam:operation_0337"
         },
         {
-          "@id": "edam:operation_2945"
+          "@id": "edam:operation_2409"
         }
       ],
       "sc:license": "Artistic-2.0",
       "sc:name": "flowPlots",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/flowPlots.html"
@@ -107,7 +107,50 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/flowPlots.html"
     },
     {
-      "@id": "_:Ne73951b7b2354f60a13ad7d1000a0bfd",
+      "@id": "_:N9be52c93f0474db3a75b5d1c4ec58330",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Nd6fdb51ec7cb4af4be133c7280af2069",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nc827d1f9ed704782a288dcafb8260e8d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N730086e3fe7142778c3ab89d8fefc7cf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -116,49 +159,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Experimental measurement"
-    },
-    {
-      "@id": "_:N2a23293413394cb9a318c8a8b0d73cb2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N5655d86fce134202bbd573fd104e5f34",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:Na6175ebf15284ec1bb81db9740f905dd",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
     }
   ]
 }

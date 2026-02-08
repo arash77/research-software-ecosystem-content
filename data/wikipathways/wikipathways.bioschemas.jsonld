@@ -36,6 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkaa1024",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1024",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0006447",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gkx1064",
       "@type": "sc:CreativeWork"
     },
@@ -43,51 +55,51 @@
       "@id": "https://bio.tools/wikipathways",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Alexander R. Pico",
-        "Martina Kutmon"
+        "Martina Kutmon",
+        "Alexander R. Pico"
       ],
       "bsc:input": {
-        "@id": "_:Ncabaa072f28942ccab87b389fedc68d7"
+        "@id": "_:N515ff89e0a99408c81bbda3e9109a7c8"
       },
       "bsc:output": {
-        "@id": "_:N8234bcb911ba458ba4795354f762fb05"
+        "@id": "_:N70040ef7d2b440e5894fa5072f9c3a27"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Database portal",
         "Web application",
-        "Web API",
-        "Web service"
+        "Database portal",
+        "Web service",
+        "Web API"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_3325"
         },
         {
-          "@id": "edam:topic_3325"
+          "@id": "edam:topic_0602"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC7779061",
-        "pmcid:PMC5753270",
-        "pubmed:19649250",
         {
           "@id": "https://doi.org/10.1093/nar/gkaa1024"
         },
+        "pmcid:PMC7779061",
         {
           "@id": "https://doi.org/10.1093/nar/gkv1024"
         },
-        "pubmed:33211851",
-        "pmcid:PMC4702772",
-        "pubmed:29136241",
+        "pubmed:19649250",
         "pubmed:26481357",
+        "pubmed:29136241",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkx1064"
+        },
         {
           "@id": "https://doi.org/10.1371/journal.pone.0006447"
         },
+        "pmcid:PMC4702772",
         "pmcid:PMC2714472",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkx1064"
-        }
+        "pubmed:33211851",
+        "pmcid:PMC5753270"
       ],
       "sc:description": "WikiPathways is a database of biological pathways maintained by and for the scientific community.",
       "sc:featureList": [
@@ -102,58 +114,46 @@
       "sc:license": "Apache-2.0",
       "sc:name": "WikiPathways",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://www.wikipathways.org/index.php/WikiPathways"
+          "@id": "http://www.wikipathways.org/index.php/Help:WikiPathways_Webservice"
         },
         {
-          "@id": "http://www.wikipathways.org/index.php/Help:WikiPathways_Webservice"
+          "@id": "https://www.wikipathways.org/index.php/WikiPathways"
         }
       ],
       "sc:url": "http://www.wikipathways.org"
     },
     {
-      "@id": "_:N8234bcb911ba458ba4795354f762fb05",
+      "@id": "_:N70040ef7d2b440e5894fa5072f9c3a27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3464"
-        },
-        {
           "@id": "edam:format_2332"
         },
         {
           "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
         }
       ],
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ncabaa072f28942ccab87b389fedc68d7",
+      "@id": "_:N515ff89e0a99408c81bbda3e9109a7c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
       },
       "sc:name": "Identifier"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pone.0006447",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkv1024",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkaa1024",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

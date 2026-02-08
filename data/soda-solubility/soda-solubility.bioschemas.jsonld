@@ -36,24 +36,16 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkx412",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-4525-7793",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/soda-solubility",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0003-4525-7793"
       },
       "bsc:input": {
-        "@id": "_:Neadfe05da242444c828a2d6aa102e59c"
+        "@id": "_:Nc44ebc8a409a49e9aa5c1b4a2714146c"
       },
       "bsc:output": {
-        "@id": "_:Nf43969aba0e045619f4f413e4f369afa"
+        "@id": "_:N996f567c52994cebaf4070345ed6c32a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -62,13 +54,13 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3510"
-        },
-        {
           "@id": "edam:topic_3538"
         },
         {
           "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_3510"
         }
       ],
       "sc:citation": [
@@ -90,9 +82,9 @@
       "sc:license": "CC-BY-NC-ND-4.0",
       "sc:name": "SODA",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://protein.bio.unipd.it/soda/help"
@@ -101,7 +93,26 @@
       "sc:url": "http://protein.bio.unipd.it/soda/"
     },
     {
-      "@id": "_:Neadfe05da242444c828a2d6aa102e59c",
+      "@id": "_:N996f567c52994cebaf4070345ed6c32a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3475"
+        }
+      ],
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:Nc44ebc8a409a49e9aa5c1b4a2714146c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -112,23 +123,12 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nf43969aba0e045619f4f413e4f369afa",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2331"
-        },
-        {
-          "@id": "edam:format_3475"
-        },
-        {
-          "@id": "edam:format_3464"
-        }
-      ],
-      "sc:name": "Protein features"
+      "@id": "http://orcid.org/0000-0003-4525-7793",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx412",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

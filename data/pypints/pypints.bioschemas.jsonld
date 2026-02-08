@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/s41587-022-01211-7",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pyPINTS",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3aff796a824c437792615cbb1c7b0635"
+        "@id": "_:Ncaa757f2268144ad8c1ea19ff9e21702"
       },
       "bsc:output": {
-        "@id": "_:N68a1a34f95fa4609bb6a5657b4a37be0"
+        "@id": "_:N8b723454ae934479a06d8b1cf59b5f52"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -54,19 +50,19 @@
         "@id": "edam:topic_0749"
       },
       "sc:citation": [
-        "pubmed:35177836",
         {
           "@id": "https://doi.org/10.1038/s41587-022-01211-7"
         },
-        "pmcid:PMC9288987"
+        "pmcid:PMC9288987",
+        "pubmed:35177836"
       ],
       "sc:description": "Peak Identifier for Nascent Transcript Starts",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3222"
+          "@id": "edam:operation_0438"
         },
         {
-          "@id": "edam:operation_0438"
+          "@id": "edam:operation_3222"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -78,32 +74,16 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://pints.yulab.org/tre_calling"
+          "@id": "https://github.com/hyulab/PINTS/blob/main/README.md"
         },
         {
-          "@id": "https://github.com/hyulab/PINTS/blob/main/README.md"
+          "@id": "https://pints.yulab.org/tre_calling"
         }
       ],
       "sc:url": "https://github.com/hyulab/PINTS"
     },
     {
-      "@id": "_:N3aff796a824c437792615cbb1c7b0635",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3495"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3006"
-        },
-        {
-          "@id": "edam:format_2572"
-        }
-      ],
-      "sc:name": "RNA sequence"
-    },
-    {
-      "@id": "_:N68a1a34f95fa4609bb6a5657b4a37be0",
+      "@id": "_:N8b723454ae934479a06d8b1cf59b5f52",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -112,6 +92,26 @@
         "@id": "edam:format_3003"
       },
       "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:Ncaa757f2268144ad8c1ea19ff9e21702",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_3006"
+        }
+      ],
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41587-022-01211-7",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

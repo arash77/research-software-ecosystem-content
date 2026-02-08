@@ -44,20 +44,20 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2e0fab332d774eaaae96ea72934f26a4"
+          "@id": "_:Nd9269751fb6c4a3fb3ce27c286710a28"
         },
         {
-          "@id": "_:N7aab2b33e5714a1eaeb8ea455f5340a8"
+          "@id": "_:N23b97662a16e4bf5b91888fcf1eb4bad"
         },
         {
-          "@id": "_:Ncf96ded79cd648949310ffeba514d1be"
+          "@id": "_:Nf92b5486f0c84fd69c39c4ace29ddabd"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_0128"
@@ -69,26 +69,26 @@
           "@id": "edam:topic_3534"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0080"
         }
       ],
       "sc:citation": [
-        "pubmed:36305460",
         "pmcid:PMC9677505",
         {
           "@id": "https://doi.org/10.1093/bib/bbac460"
-        }
+        },
+        "pubmed:36305460"
       ],
       "sc:description": "A comprehensive platform with the integration of manually curated resources and analysis tools for cysteine posttranslational modifications.",
       "sc:featureList": [
+        {
+          "@id": "edam:operation_0417"
+        },
         {
           "@id": "edam:operation_1830"
         },
         {
           "@id": "edam:operation_3755"
-        },
-        {
-          "@id": "edam:operation_0417"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -101,7 +101,15 @@
       "sc:url": "https://cysmoddb.bioinfogo.org/"
     },
     {
-      "@id": "_:N2e0fab332d774eaaae96ea72934f26a4",
+      "@id": "_:Nd9269751fb6c4a3fb3ce27c286710a28",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2291"
+      },
+      "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:N23b97662a16e4bf5b91888fcf1eb4bad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -109,20 +117,12 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N7aab2b33e5714a1eaeb8ea455f5340a8",
+      "@id": "_:Nf92b5486f0c84fd69c39c4ace29ddabd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
       },
       "sc:name": "Protein name"
-    },
-    {
-      "@id": "_:Ncf96ded79cd648949310ffeba514d1be",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2291"
-      },
-      "sc:name": "UniProt ID"
     }
   ]
 }

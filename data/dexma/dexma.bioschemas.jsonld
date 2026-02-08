@@ -41,18 +41,18 @@
       "biotools:primaryContact": "Juan Antonio Villatoro-García",
       "bsc:input": [
         {
-          "@id": "_:N5764e6fc36f0420baf785efcf27d094a"
+          "@id": "_:Nf56e45ab78e14a47816984e47e5859f9"
         },
         {
-          "@id": "_:Nc206896f29004dbe9fb565f2df3aaa34"
+          "@id": "_:Nb689854768fa408f80f84385f6cc06b4"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3dc1456785344a59b25f96fef3f7a091"
+          "@id": "_:N232a785963d5458ab15eb8b077869ad5"
         },
         {
-          "@id": "_:Nc89b0c900c404cfb9583f461691ea468"
+          "@id": "_:N28806e2913c74b87b9d104981fe67891"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -69,13 +69,13 @@
       "sc:description": "Performing all the steps of gene expression meta-analysis considering the possible existence of missing genes. It provides the necessary functions to be able to perform the different methods of gene expression meta-analysis. In addition, it contains functions to apply quality controls, download GEO datasets and show graphical representations of the results.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3436"
-        },
-        {
           "@id": "edam:operation_0531"
         },
         {
           "@id": "edam:operation_3223"
+        },
+        {
+          "@id": "edam:operation_3436"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -93,7 +93,15 @@
       "sc:url": "https://bioconductor.org/packages/release/bioc/html/DExMA.html"
     },
     {
-      "@id": "_:N3dc1456785344a59b25f96fef3f7a091",
+      "@id": "_:N232a785963d5458ab15eb8b077869ad5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "_:N28806e2913c74b87b9d104981fe67891",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -101,28 +109,20 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nc89b0c900c404cfb9583f461691ea468",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3112"
-      },
-      "sc:name": "Gene expression matrix"
-    },
-    {
-      "@id": "_:N5764e6fc36f0420baf785efcf27d094a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3112"
-      },
-      "sc:name": "Gene expression matrix"
-    },
-    {
-      "@id": "_:Nc206896f29004dbe9fb565f2df3aaa34",
+      "@id": "_:Nf56e45ab78e14a47816984e47e5859f9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1147"
       },
       "sc:name": "GEO accession number"
+    },
+    {
+      "@id": "_:Nb689854768fa408f80f84385f6cc06b4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:name": "Gene expression matrix"
     }
   ]
 }

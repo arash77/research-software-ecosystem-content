@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/cyp11b1",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf583ac9d206042b8b0aa71c9b75adf52"
+        "@id": "_:N1954d31899f04204862a4e8c4f3a5d4e"
       },
       "bsc:output": {
-        "@id": "_:Nc96b51b0c780463aaabe90d5c5fcef33"
+        "@id": "_:Nc05f872e142d4acfad37d0666c884fc6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -58,7 +58,7 @@
       "sc:url": "http://www.bioinfo.ifm.liu.se/services/cyp11B1/"
     },
     {
-      "@id": "_:Nc96b51b0c780463aaabe90d5c5fcef33",
+      "@id": "_:Nc05f872e142d4acfad37d0666c884fc6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -66,7 +66,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:Nf583ac9d206042b8b0aa71c9b75adf52",
+      "@id": "_:N1954d31899f04204862a4e8c4f3a5d4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

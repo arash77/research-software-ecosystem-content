@@ -40,42 +40,46 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/hgv_ldtools",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nf00e78a9e14e4299990bc84f1ce63e65"
+        "@id": "_:Nef0b27284580485fbfe9e4c1bcfe02c5"
       },
       "bsc:output": {
-        "@id": "_:N9d9bf4b44b224aab821358f5cc92427d"
+        "@id": "_:N4359fedfce5a43e9b7b0b1244ccf20f3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3473"
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0102"
         },
         {
           "@id": "edam:topic_2885"
         },
         {
-          "@id": "edam:topic_0602"
-        },
-        {
-          "@id": "edam:topic_0102"
+          "@id": "edam:topic_3473"
         }
       ],
       "sc:citation": [
+        "pubmed:27137889",
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC4987906",
-        "pmcid:PMC1181897",
-        "pubmed:27137889",
-        "pubmed:14681826",
         {
           "@id": "https://doi.org/10.1086/381000"
         },
+        "pmcid:PMC1181897",
+        "pubmed:14681826",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         }
@@ -83,20 +87,20 @@
       "sc:description": "This tool can be used to analyze the patterns of linkage disequilibrium (LD) between polymorphic sites in a locus.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3504"
+          "@id": "edam:operation_2409"
         },
         {
           "@id": "edam:operation_0488"
         },
         {
-          "@id": "edam:operation_2409"
+          "@id": "edam:operation_3504"
         }
       ],
       "sc:name": "hgv_ldtools",
       "sc:operatingSystem": [
         "Mac",
-        "Linux",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=hgv_ldtools"
@@ -105,7 +109,7 @@
       "sc:url": "https://github.com/galaxyproject/galaxy/tree/dev/tools"
     },
     {
-      "@id": "_:Nf00e78a9e14e4299990bc84f1ce63e65",
+      "@id": "_:N4359fedfce5a43e9b7b0b1244ccf20f3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -116,7 +120,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N9d9bf4b44b224aab821358f5cc92427d",
+      "@id": "_:Nef0b27284580485fbfe9e4c1bcfe02c5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -128,10 +132,6 @@
     },
     {
       "@id": "https://doi.org/10.1086/381000",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

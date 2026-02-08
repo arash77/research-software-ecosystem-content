@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nature06387",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/deltag_prediction",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N45e6114fa84049b7b17afa6d81f109ef"
+        "@id": "_:N3f3fddbe5b994e4fabfa10b3678b92f6"
       },
       "bsc:output": {
-        "@id": "_:N8f173b9f51b34f919d94b4cd7e27ecca"
+        "@id": "_:Naf94fa85dc54489f952b4bf90d97e995"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -50,10 +54,10 @@
         "@id": "edam:topic_0736"
       },
       "sc:citation": [
+        "pubmed:18075582",
         {
           "@id": "https://doi.org/10.1038/nature06387"
-        },
-        "pubmed:18075582"
+        }
       ],
       "sc:description": "Prediction of apparent free energy difference for a potential transmembrane helix.",
       "sc:featureList": {
@@ -61,9 +65,9 @@
       },
       "sc:name": "DeltaG prediction",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -73,15 +77,7 @@
       "sc:url": "http://dgpred.cbr.su.se/"
     },
     {
-      "@id": "_:N8f173b9f51b34f919d94b4cd7e27ecca",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:N45e6114fa84049b7b17afa6d81f109ef",
+      "@id": "_:N3f3fddbe5b994e4fabfa10b3678b92f6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -89,8 +85,12 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "https://doi.org/10.1038/nature06387",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Naf94fa85dc54489f952b4bf90d97e995",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
     }
   ]
 }

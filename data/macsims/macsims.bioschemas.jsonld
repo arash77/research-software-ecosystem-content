@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Julie Thompson",
       "bsc:input": {
-        "@id": "_:N2958a3588aa9451c97d907d7d1cc0363"
+        "@id": "_:N64045e89e6cb4a21a6845f1b8af512fd"
       },
       "bsc:output": [
         {
-          "@id": "_:Na8f1b43ae3864ba6932d748afca9f167"
+          "@id": "_:N694d4a35fb9647a68bd632efbdba8519"
         },
         {
-          "@id": "_:Na151331bff35445286e25d3f1b92b272"
+          "@id": "_:N9fa7502ad82b47c7971d226def7cf46d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,11 +60,11 @@
         "@id": "edam:topic_0092"
       },
       "sc:citation": [
-        "pmcid:PMC1539025",
         "pubmed:16792820",
         {
           "@id": "https://doi.org/10.1186/1471-2105-7-318"
-        }
+        },
+        "pmcid:PMC1539025"
       ],
       "sc:description": "Multiple alignment-based information management system that combines the advantages of both knowledge-based and ab initio sequence analysis methods.",
       "sc:featureList": [
@@ -77,8 +77,8 @@
       ],
       "sc:name": "MACSIMS",
       "sc:operatingSystem": [
-        "Windows",
         "Mac",
+        "Windows",
         "Linux"
       ],
       "sc:provider": "IFB ELIXIR-FR",
@@ -89,7 +89,23 @@
       "sc:url": "http://www.lbgi.fr/~julie/MACSIMS/"
     },
     {
-      "@id": "_:N2958a3588aa9451c97d907d7d1cc0363",
+      "@id": "_:N694d4a35fb9647a68bd632efbdba8519",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N9fa7502ad82b47c7971d226def7cf46d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N64045e89e6cb4a21a6845f1b8af512fd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -106,22 +122,6 @@
         }
       ],
       "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Na8f1b43ae3864ba6932d748afca9f167",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:Na151331bff35445286e25d3f1b92b272",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:name": "Annotation track"
     }
   ]
 }

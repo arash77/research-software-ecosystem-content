@@ -45,45 +45,45 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N34e2f208fd5c45ae8450bf0a903f6da1"
+          "@id": "_:N0df24389fcac492db92ec42951b55568"
         },
         {
-          "@id": "_:N6f459da23dcb4e9b98ff5b45619c2be3"
+          "@id": "_:Nb8344e28898b4f5cb1cbd2ee493146a6"
         },
         {
-          "@id": "_:N675150eda29943378f879e8ec5e436f5"
+          "@id": "_:Ne1531ff2b20b45a1b146c1a873b83d8a"
         },
         {
-          "@id": "_:N65b9bc075b7a42ffa02f57dec7370c4e"
+          "@id": "_:N99c29ba3d07646e0b8ae22e7d2adf2a1"
         },
         {
-          "@id": "_:Neb3133b54e074cab9c58ed217e20c820"
+          "@id": "_:N6442138724ce4add88a15293b06cb312"
         },
         {
-          "@id": "_:N291b8f4155b24c49a2d4ef63f23e6b55"
+          "@id": "_:Nf1f592b3409f424a88e8106b13cc3df0"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nb78f54ad094540de8f6559edb8403e51"
+        "@id": "_:N5c218526a96748c7bc3b590f631098cb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_0622"
         },
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_3071"
         }
       ],
       "sc:citation": [
-        "pubmed:27137889",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
-        },
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
+        "pubmed:27137889",
         "pmcid:PMC4987906"
       ],
       "sc:description": "Extend or shrink a list of genomic coordinates.",
@@ -92,9 +92,9 @@
       },
       "sc:name": "modifygenomiccoordinates",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Furgi_tools%2FmodifyGenomicCoordinates%2F1.0.0"
@@ -103,62 +103,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N34e2f208fd5c45ae8450bf0a903f6da1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N6f459da23dcb4e9b98ff5b45619c2be3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N675150eda29943378f879e8ec5e436f5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2306"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N65b9bc075b7a42ffa02f57dec7370c4e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2573"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:Neb3133b54e074cab9c58ed217e20c820",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N291b8f4155b24c49a2d4ef63f23e6b55",
+      "@id": "_:N0df24389fcac492db92ec42951b55568",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -169,7 +114,62 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nb78f54ad094540de8f6559edb8403e51",
+      "@id": "_:Nb8344e28898b4f5cb1cbd2ee493146a6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ne1531ff2b20b45a1b146c1a873b83d8a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N99c29ba3d07646e0b8ae22e7d2adf2a1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N6442138724ce4add88a15293b06cb312",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Nf1f592b3409f424a88e8106b13cc3df0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5c218526a96748c7bc3b590f631098cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

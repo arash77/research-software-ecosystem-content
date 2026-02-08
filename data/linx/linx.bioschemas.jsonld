@@ -40,6 +40,10 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://doi.org/10.1021/ACS.JPROTEOME.0C00858",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/LinX",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -47,35 +51,35 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N35730d8757924d1191fa1cc1ff5ce60f"
+          "@id": "_:Nabd995e9de594139870c29747b9fdf52"
         },
         {
-          "@id": "_:Nf2228984c4e94abc8ca17f94580a0179"
+          "@id": "_:N2a14fd95c8994726a884f334ce768ed2"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nbf923225d672433ca075f536ffddec61"
+        "@id": "_:N165f9fef52b3474da1ebf0787495b0fe"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
-        },
-        {
           "@id": "edam:topic_0154"
-        },
-        {
-          "@id": "edam:topic_3314"
         },
         {
           "@id": "edam:topic_0077"
         },
         {
-          "@id": "edam:topic_0601"
+          "@id": "edam:topic_3314"
         },
         {
           "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0601"
         }
       ],
       "sc:citation": [
@@ -87,16 +91,16 @@
       "sc:description": "LinX is a Java language-based program designed for fast assignment, evaluation, and validation of mass spectrometric datasets from chemical cross-linking.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2945"
+          "@id": "edam:operation_3767"
         },
         {
           "@id": "edam:operation_0389"
         },
         {
-          "@id": "edam:operation_3767"
+          "@id": "edam:operation_3860"
         },
         {
-          "@id": "edam:operation_3860"
+          "@id": "edam:operation_2945"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -110,29 +114,7 @@
       "sc:url": "http://peterslab.org/downloads.php"
     },
     {
-      "@id": "_:Nbf923225d672433ca075f536ffddec61",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N35730d8757924d1191fa1cc1ff5ce60f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Nf2228984c4e94abc8ca17f94580a0179",
+      "@id": "_:Nabd995e9de594139870c29747b9fdf52",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2978"
@@ -143,8 +125,26 @@
       "sc:name": "Reaction data"
     },
     {
-      "@id": "https://doi.org/10.1021/ACS.JPROTEOME.0C00858",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N2a14fd95c8994726a884f334ce768ed2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N165f9fef52b3474da1ebf0787495b0fe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
     }
   ]
 }

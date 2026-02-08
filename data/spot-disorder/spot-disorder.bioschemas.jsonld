@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btw678",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/spot-disorder",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd863b881705a41b5a96e681d2a2f18b0"
+          "@id": "_:N8b0cce92b8af43ff8582cfa359db423c"
         },
         {
-          "@id": "_:Nb639832fcd8d4fe8987375994e07eb21"
+          "@id": "_:Na9546ee4e5e14577a763fd9b693ed427"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -71,22 +67,14 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "SPOT-Disorder",
       "sc:operatingSystem": [
-        "Linux",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareVersion": "v1.0",
       "sc:url": "http://sparks-lab.org/server/spot-disorder/"
     },
     {
-      "@id": "_:Nd863b881705a41b5a96e681d2a2f18b0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:Nb639832fcd8d4fe8987375994e07eb21",
+      "@id": "_:N8b0cce92b8af43ff8582cfa359db423c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -95,6 +83,18 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Na9546ee4e5e14577a763fd9b693ed427",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btw678",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

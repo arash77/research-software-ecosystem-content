@@ -61,10 +61,10 @@
       "sc:description": "Machine learning toolbox for clustering analysis and visualization.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3432"
+          "@id": "edam:operation_3501"
         },
         {
-          "@id": "edam:operation_3501"
+          "@id": "edam:operation_3432"
         },
         {
           "@id": "edam:operation_2939"
@@ -74,9 +74,9 @@
       "sc:license": "GPL-3.0",
       "sc:name": "ACES",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://grabherrgroup.github.io/ACES/"

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/mascot2xml",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne856c2a2ec4d48ab9caabeb4a0c4f960"
+        "@id": "_:Naa67088a251049a9b9116963ba568c48"
       },
       "bsc:output": {
-        "@id": "_:Nd303444b075c4e0886c756f4962309c2"
+        "@id": "_:N010110b9e72c4957b123ac20fb3ea967"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -60,7 +60,7 @@
       "sc:url": "http://tools.proteomecenter.org/wiki/index.php?title=Software:Mascot2XML"
     },
     {
-      "@id": "_:Ne856c2a2ec4d48ab9caabeb4a0c4f960",
+      "@id": "_:Naa67088a251049a9b9116963ba568c48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -71,7 +71,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nd303444b075c4e0886c756f4962309c2",
+      "@id": "_:N010110b9e72c4957b123ac20fb3ea967",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

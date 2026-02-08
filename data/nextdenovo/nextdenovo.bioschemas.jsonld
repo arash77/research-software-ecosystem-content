@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Nextomics",
       "bsc:input": {
-        "@id": "_:N3112547490494d27b43a59f49ac0ebf5"
+        "@id": "_:N2b07e572ec9e4d7f96c0f8c6fb8fbacd"
       },
       "bsc:output": {
-        "@id": "_:N5c6d7f706cf2423dba79f0a697a777f1"
+        "@id": "_:N54d205536737464dafd3227bed10ab08"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -65,10 +65,10 @@
       "sc:description": "NextDenovo is a string graph-based de novo assembler for long reads (CLR, HiFi and ONT). It uses a \"correct-then-assemble\" strategy similar to canu (no correction step for PacBio Hifi reads), but requires significantly less computing resources and storages.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0524"
+          "@id": "edam:operation_0525"
         },
         {
-          "@id": "edam:operation_0525"
+          "@id": "edam:operation_0524"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -81,7 +81,23 @@
       "sc:url": "https://github.com/Nextomics/NextDenovo"
     },
     {
-      "@id": "_:N3112547490494d27b43a59f49ac0ebf5",
+      "@id": "_:N54d205536737464dafd3227bed10ab08",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2561"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N2b07e572ec9e4d7f96c0f8c6fb8fbacd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -95,22 +111,6 @@
         }
       ],
       "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:N5c6d7f706cf2423dba79f0a697a777f1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0925"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_2561"
-        }
-      ],
-      "sc:name": "Sequence assembly"
     }
   ]
 }

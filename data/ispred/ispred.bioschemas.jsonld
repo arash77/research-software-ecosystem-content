@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-7359-0633",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-3-642-35686-5_11",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ispred",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,41 +51,41 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N8f610039c53d4aa99dd1bfc6451afc94"
+          "@id": "_:N35259d058a614af6a236e55959505c34"
         },
         {
-          "@id": "_:N72a12118f9c9445d8bf3be3212202886"
+          "@id": "_:N5c990e7b07444910985ca5ce0aecc0b9"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N7a83f35779984062878ef24e65842fb2"
+          "@id": "_:N0cc2ae20e3344c84a44eebb48d652cf3"
         },
         {
-          "@id": "_:N26059823ec01421089c6c99851a94365"
+          "@id": "_:N5d78280b9ac8401895bf5a6cba90a7dc"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0160"
+          "@id": "edam:topic_0128"
         },
         {
-          "@id": "edam:topic_0128"
+          "@id": "edam:topic_0160"
         }
       ],
       "sc:author": {
         "@id": "https://orcid.org/0000-0002-7359-0633"
       },
       "sc:citation": [
-        "pubmed:28130235",
+        {
+          "@id": "https://doi.org/10.1007/978-3-642-35686-5_11"
+        },
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btx044"
         },
-        {
-          "@id": "https://doi.org/10.1007/978-3-642-35686-5_11"
-        }
+        "pubmed:28130235"
       ],
       "sc:description": "Prediction of interaction sites in proteins.",
       "sc:featureList": {
@@ -86,9 +94,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "ISPRED",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "ELIXIR-ITA-BOLOGNA",
       "sc:softwareHelp": {
@@ -98,7 +106,7 @@
       "sc:url": "http://ispred4.biocomp.unibo.it/"
     },
     {
-      "@id": "_:N8f610039c53d4aa99dd1bfc6451afc94",
+      "@id": "_:N35259d058a614af6a236e55959505c34",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -109,7 +117,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N72a12118f9c9445d8bf3be3212202886",
+      "@id": "_:N5c990e7b07444910985ca5ce0aecc0b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1008"
@@ -120,7 +128,7 @@
       "sc:name": "Polypeptide chain ID"
     },
     {
-      "@id": "_:N7a83f35779984062878ef24e65842fb2",
+      "@id": "_:N0cc2ae20e3344c84a44eebb48d652cf3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -131,7 +139,7 @@
       "sc:name": "Protein structure report"
     },
     {
-      "@id": "_:N26059823ec01421089c6c99851a94365",
+      "@id": "_:N5d78280b9ac8401895bf5a6cba90a7dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -142,16 +150,8 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "https://doi.org/10.1007/978-3-642-35686-5_11",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/bioinformatics/btx044",
       "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-7359-0633",
-      "@type": "sc:Person"
     }
   ]
 }

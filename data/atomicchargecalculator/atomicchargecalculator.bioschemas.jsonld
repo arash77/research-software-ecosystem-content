@@ -36,61 +36,57 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s13321-015-0099-x",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/atomicchargecalculator",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
         "Primary Contact",
-        "Crina Maria Ionescu",
-        "David Sehnal"
+        "David Sehnal",
+        "Crina Maria Ionescu"
       ],
       "bsc:input": [
         {
-          "@id": "_:Nde8106e472d44a49a6332f02f6736d90"
+          "@id": "_:N4d59de1f766e4db18840d29375433767"
         },
         {
-          "@id": "_:N71ba90f944bf4e6a819682547926f34d"
+          "@id": "_:N72e8719baae54e03bf86b012bc1cffd5"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2685e1d484cd44ec9fd205e48a891d57"
+          "@id": "_:N1e5c75f56b084976af261950a57b5f92"
         },
         {
-          "@id": "_:Nb2d4b004a63f46198a7ea62b4f4664f5"
+          "@id": "_:N224bcb41c9eb4faaa5e64dfea1a13215"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Command-line tool"
+        "Command-line tool",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3332"
+          "@id": "edam:topic_2258"
         },
         {
           "@id": "edam:topic_0081"
         },
         {
-          "@id": "edam:topic_2258"
+          "@id": "edam:topic_3332"
         }
       ],
       "sc:author": "David Sehnal",
       "sc:citation": [
         "pubmed:26500704",
+        "pmcid:PMC4613891",
         {
           "@id": "https://doi.org/10.1186/s13321-015-0099-x"
-        },
-        "pmcid:PMC4613891"
+        }
       ],
       "sc:contributor": [
+        "Stanislav Geidl",
         "Crina Maria Ionescu",
-        "Lukáš Pravda",
-        "Stanislav Geidl"
+        "Lukáš Pravda"
       ],
       "sc:description": "A web application for the calculation and analysis of atomic charges in both large biomolecular complexes and small drug-like molecules.",
       "sc:featureList": [
@@ -127,29 +123,7 @@
       "sc:url": "https://ncbr.muni.cz/ACC"
     },
     {
-      "@id": "_:N2685e1d484cd44ec9fd205e48a891d57",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2085"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Structure report"
-    },
-    {
-      "@id": "_:Nb2d4b004a63f46198a7ea62b4f4664f5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1917"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Atomic property"
-    },
-    {
-      "@id": "_:Nde8106e472d44a49a6332f02f6736d90",
+      "@id": "_:N4d59de1f766e4db18840d29375433767",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -165,12 +139,38 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N71ba90f944bf4e6a819682547926f34d",
+      "@id": "_:N72e8719baae54e03bf86b012bc1cffd5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
       },
       "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N1e5c75f56b084976af261950a57b5f92",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Atomic property"
+    },
+    {
+      "@id": "_:N224bcb41c9eb4faaa5e64dfea1a13215",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2085"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Structure report"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13321-015-0099-x",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

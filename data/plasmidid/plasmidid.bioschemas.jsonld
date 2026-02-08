@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-5881-7377",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/plasmidid",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,27 +47,27 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N0c843acc1a164248b24459870d1d8b81"
+          "@id": "_:N2926c228197c471792609a951cfd14cc"
         },
         {
-          "@id": "_:N6ef90634ed644185b47ed73cc721e15f"
+          "@id": "_:N3b907ebbafff46c1aa1d736986c94be2"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N900b6a6606c349738c17c2e0a240765e"
+          "@id": "_:Nfacbe31268b24e5285c4464c6cf0dbfe"
         },
         {
-          "@id": "_:Ncd60964fcbc7446f8718cb895f4b101e"
+          "@id": "_:N1f77c6f4f28c4025aa13ebb224162d28"
         },
         {
-          "@id": "_:N95f1220f1c324bf6ab57c80f654a6c86"
+          "@id": "_:N46a73eea323a4de4b1c6aba527248cae"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Workflow",
-        "Command-line tool"
+        "Command-line tool",
+        "Workflow"
       ],
       "sc:applicationSubCategory": [
         {
@@ -79,9 +83,6 @@
       "sc:description": "PlasmidID is a mapping-based, assembly-assisted plasmid identification tool that analyzes and gives graphic solution for plasmid identification.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0291"
-        },
-        {
           "@id": "edam:operation_0524"
         },
         {
@@ -91,10 +92,13 @@
           "@id": "edam:operation_3184"
         },
         {
+          "@id": "edam:operation_0578"
+        },
+        {
           "@id": "edam:operation_3472"
         },
         {
-          "@id": "edam:operation_0578"
+          "@id": "edam:operation_0291"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -105,25 +109,14 @@
         "@id": "https://github.com/BU-ISCIII/plasmidID/wiki"
       },
       "sc:softwareVersion": [
+        "1.6.4",
         "1.6.5",
-        "1.6.6",
-        "1.6.4"
+        "1.6.6"
       ],
       "sc:url": "https://github.com/BU-ISCIII/plasmidID"
     },
     {
-      "@id": "_:N900b6a6606c349738c17c2e0a240765e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2969"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3603"
-      },
-      "sc:name": "Sequence image"
-    },
-    {
-      "@id": "_:Ncd60964fcbc7446f8718cb895f4b101e",
+      "@id": "_:Nfacbe31268b24e5285c4464c6cf0dbfe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -134,7 +127,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N95f1220f1c324bf6ab57c80f654a6c86",
+      "@id": "_:N1f77c6f4f28c4025aa13ebb224162d28",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2084"
@@ -150,7 +143,29 @@
       "sc:name": "Nucleic acid report"
     },
     {
-      "@id": "_:N0c843acc1a164248b24459870d1d8b81",
+      "@id": "_:N46a73eea323a4de4b1c6aba527248cae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2969"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Sequence image"
+    },
+    {
+      "@id": "_:N2926c228197c471792609a951cfd14cc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "_:N3b907ebbafff46c1aa1d736986c94be2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -166,22 +181,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N6ef90634ed644185b47ed73cc721e15f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1234"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set (nucleic acid)"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-0740-6324",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-5881-7377",
       "@type": "sc:Person"
     }
   ]

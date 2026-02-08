@@ -47,18 +47,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nf2e644895a3249f1bde0095027bda771"
+          "@id": "_:N5a9f0277caca477bb1a1dfc1b5d38967"
         },
         {
-          "@id": "_:N80d1192b520141e99078e8ffcc49b9d6"
+          "@id": "_:N2f43718e8ca049649e13b27ffc158098"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N42adca1147f04882ae0115197a3fc899"
+          "@id": "_:N4107afdcba74485c9deb366daa0fafd8"
         },
         {
-          "@id": "_:Ne776cd147800425a9f40d3dd725fa400"
+          "@id": "_:Nad201b0c34b446b4844a866a29a2cfc8"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -77,8 +77,8 @@
       "sc:license": "MIT",
       "sc:name": "EUCAIM CDM Federated Unbalance Cheker",
       "sc:operatingSystem": [
-        "Linux",
         "Windows",
+        "Linux",
         "Mac"
       ],
       "sc:softwareHelp": {
@@ -88,7 +88,7 @@
       "sc:url": "https://gitlab.bsc.es/fl/eucaim-cdm-federated-unbalance"
     },
     {
-      "@id": "_:Nf2e644895a3249f1bde0095027bda771",
+      "@id": "_:N4107afdcba74485c9deb366daa0fafd8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -96,28 +96,28 @@
       "sc:name": "Score"
     },
     {
-      "@id": "_:N80d1192b520141e99078e8ffcc49b9d6",
+      "@id": "_:Nad201b0c34b446b4844a866a29a2cfc8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N5a9f0277caca477bb1a1dfc1b5d38967",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N2f43718e8ca049649e13b27ffc158098",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "_:N42adca1147f04882ae0115197a3fc899",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:name": "Score"
-    },
-    {
-      "@id": "_:Ne776cd147800425a9f40d3dd725fa400",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:name": "Score"
     }
   ]
 }

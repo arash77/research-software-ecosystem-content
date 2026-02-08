@@ -40,61 +40,53 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btq725",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/crop",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N7af49465c37f440da76b20d020e01393"
+        "@id": "_:Nd4bfa48061464ffab5594498060faead"
       },
       "bsc:output": [
         {
-          "@id": "_:N917e71a2e6944172ba920f30f2d57e12"
+          "@id": "_:N1426f6ee058144cab20815658656e3c0"
         },
         {
-          "@id": "_:N0a2e1ec2196544dda78e255f0f8996ad"
+          "@id": "_:N8892c4d3c66445c1839125b837782e28"
         },
         {
-          "@id": "_:N4aef6632252746adbfd671e74e8d5a22"
+          "@id": "_:Nbbb721cf7b2a459ebc92089e874a08c4"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3174"
+          "@id": "edam:topic_0637"
         },
         {
           "@id": "edam:topic_3168"
         },
         {
-          "@id": "edam:topic_3170"
+          "@id": "edam:topic_3174"
         },
         {
-          "@id": "edam:topic_0637"
+          "@id": "edam:topic_3170"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4987906",
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
         "pubmed:21233169",
-        "pmcid:PMC3042185",
-        "pubmed:27137889",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btq725"
         },
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
-        {
-          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
-        }
+        "pmcid:PMC3042185",
+        "pubmed:27137889",
+        "pmcid:PMC4987906"
       ],
       "sc:description": "A clustering tool which clusters 16S rRNA sequences into Operational Taxonomic Units (OTU).",
       "sc:featureList": {
@@ -110,29 +102,7 @@
       "sc:url": "https://code.google.com/archive/p/crop-tingchenlab/"
     },
     {
-      "@id": "_:N917e71a2e6944172ba920f30f2d57e12",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N0a2e1ec2196544dda78e255f0f8996ad",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N4aef6632252746adbfd671e74e8d5a22",
+      "@id": "_:Nd4bfa48061464ffab5594498060faead",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -143,7 +113,18 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N7af49465c37f440da76b20d020e01393",
+      "@id": "_:N1426f6ee058144cab20815658656e3c0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N8892c4d3c66445c1839125b837782e28",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -152,6 +133,25 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nbbb721cf7b2a459ebc92089e874a08c4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btq725",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

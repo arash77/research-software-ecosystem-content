@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.2174/157016306780136754",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/align",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -47,18 +43,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N0aa6994672194213a31cdc26343a62eb"
+          "@id": "_:Ne1b79a8466e7450ba7ff3c9064741231"
         },
         {
-          "@id": "_:N94a0d47307024520a1d84eba87160b36"
+          "@id": "_:N306d61e5f7694bcba656ff115f037a4f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nedb1bfe2a636485d94be1e22db0b4cf6"
+          "@id": "_:N16b5d0da1ea14791ae9ad2d7593af648"
         },
         {
-          "@id": "_:Nfdc74d1d4e594d67ae53a3c2e75a038d"
+          "@id": "_:Ndc27446db58343329a51c6dd0338c792"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -75,13 +71,13 @@
       "sc:description": "Pairwise alignment tool.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0495"
+          "@id": "edam:operation_0300"
         },
         {
           "@id": "edam:operation_0496"
         },
         {
-          "@id": "edam:operation_0300"
+          "@id": "edam:operation_0495"
         }
       ],
       "sc:name": "ALIGN",
@@ -101,18 +97,7 @@
       "sc:url": "http://protein.bio.unipd.it/align2"
     },
     {
-      "@id": "_:N0aa6994672194213a31cdc26343a62eb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1460"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1476"
-      },
-      "sc:name": "Protein structure"
-    },
-    {
-      "@id": "_:N94a0d47307024520a1d84eba87160b36",
+      "@id": "_:Ne1b79a8466e7450ba7ff3c9064741231",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -128,7 +113,18 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nedb1bfe2a636485d94be1e22db0b4cf6",
+      "@id": "_:N306d61e5f7694bcba656ff115f037a4f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N16b5d0da1ea14791ae9ad2d7593af648",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0869"
@@ -139,7 +135,7 @@
       "sc:name": "Sequence-profile alignment"
     },
     {
-      "@id": "_:Nfdc74d1d4e594d67ae53a3c2e75a038d",
+      "@id": "_:Ndc27446db58343329a51c6dd0338c792",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -148,6 +144,10 @@
         "@id": "edam:format_1984"
       },
       "sc:name": "Sequence alignment (protein)"
+    },
+    {
+      "@id": "https://doi.org/10.2174/157016306780136754",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "http://orcid.org/0000-0003-4525-7793",

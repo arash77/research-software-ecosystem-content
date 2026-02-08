@@ -36,85 +36,81 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw294",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/redundans",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nab81bffdebe34dd8b5a4eaef646d7eb4"
+          "@id": "_:Nd63b9d855afe4d7696b45f66284d8c99"
         },
         {
-          "@id": "_:Na631015523ec445184b3ce56f093521f"
+          "@id": "_:Ne0b472df36d94aaeb6caeaddfc572781"
         },
         {
-          "@id": "_:Nc9de300fa0854b01957b1c79ee87df84"
+          "@id": "_:N9d55cd3ad04e4048a89c8b496648290a"
         },
         {
-          "@id": "_:Nfc5ce6d4e9ab4f2a9fa5d8bfdff057e8"
+          "@id": "_:N666dd2d90e7f4fcf82fbd5255c64a7e6"
         },
         {
-          "@id": "_:N0f1997a6866f4edfa25113c88a63cc87"
+          "@id": "_:N6068d765af614d2d9708f25a0ecedafb"
         },
         {
-          "@id": "_:N86dce9098cb8401aacbd4bbe58cad94b"
+          "@id": "_:Nfe5b086f7dab42c1ad3c706782736d2d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nbc9052a3659d4c6b8285204373185218"
+          "@id": "_:Nf9a06dd4476f454fb87e1c9347ca0fe9"
         },
         {
-          "@id": "_:N7a5283cef316445497df558dce447d1b"
+          "@id": "_:Nf5958d2a65cc4cd6a4d72c93332c1baa"
         },
         {
-          "@id": "_:Nb36ff016b204490cb404a50af76ab9ee"
+          "@id": "_:N1dc88fa8052b4c279a70c67e9014f099"
         },
         {
-          "@id": "_:Nb4941a696feb41c9a26ee0690c479d4b"
+          "@id": "_:N7e14cbc6d0ba416cbed3fd7d56e12853"
         },
         {
-          "@id": "_:N63ecabc6f5cd4f378c14cf0f3d5c8072"
+          "@id": "_:Ne9d086c0291442f6bc02872e22c1fb93"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0196"
+        },
+        {
           "@id": "edam:topic_0157"
         },
         {
           "@id": "edam:topic_0797"
-        },
-        {
-          "@id": "edam:topic_0196"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4937319",
         {
           "@id": "https://doi.org/10.1093/nar/gkw294"
         },
-        "pubmed:27131372"
+        "pubmed:27131372",
+        "pmcid:PMC4937319"
       ],
       "sc:description": "Redundans is a pipeline that assists the assembly of heterozygous genomes. It takes as input assembled contigs, sequencing libraries and/or reference sequence and returns scaffolded homozygous genome assembly. Final assembly should be less fragmented and with total size smaller than the input contigs. In addition, Redundans will automatically close the gaps resulting from genome assembly or scaffolding.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3472"
+          "@id": "edam:operation_3180"
         },
         {
           "@id": "edam:operation_3935"
-        },
-        {
-          "@id": "edam:operation_3180"
         },
         {
           "@id": "edam:operation_3217"
         },
         {
           "@id": "edam:operation_0525"
+        },
+        {
+          "@id": "edam:operation_3472"
         },
         {
           "@id": "edam:operation_3216"
@@ -131,7 +127,118 @@
       "sc:url": "https://github.com/Gabaldonlab/redundans"
     },
     {
-      "@id": "_:Nab81bffdebe34dd8b5a4eaef646d7eb4",
+      "@id": "_:Nf9a06dd4476f454fb87e1c9347ca0fe9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3976"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:Nf5958d2a65cc4cd6a4d72c93332c1baa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_3976"
+        }
+      ],
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N1dc88fa8052b4c279a70c67e9014f099",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_3976"
+        }
+      ],
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N7e14cbc6d0ba416cbed3fd7d56e12853",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Ne9d086c0291442f6bc02872e22c1fb93",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:Nd63b9d855afe4d7696b45f66284d8c99",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:Ne0b472df36d94aaeb6caeaddfc572781",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N9d55cd3ad04e4048a89c8b496648290a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N666dd2d90e7f4fcf82fbd5255c64a7e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N6068d765af614d2d9708f25a0ecedafb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -142,7 +249,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Na631015523ec445184b3ce56f093521f",
+      "@id": "_:Nfe5b086f7dab42c1ad3c706782736d2d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -153,115 +260,8 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Nc9de300fa0854b01957b1c79ee87df84",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0925"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "_:Nfc5ce6d4e9ab4f2a9fa5d8bfdff057e8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0925"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "_:N0f1997a6866f4edfa25113c88a63cc87",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0925"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "_:N86dce9098cb8401aacbd4bbe58cad94b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0925"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "_:Nbc9052a3659d4c6b8285204373185218",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0925"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "_:N7a5283cef316445497df558dce447d1b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0925"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_3976"
-        }
-      ],
-      "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "_:Nb36ff016b204490cb404a50af76ab9ee",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nb4941a696feb41c9a26ee0690c479d4b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0925"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_3976"
-        }
-      ],
-      "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "_:N63ecabc6f5cd4f378c14cf0f3d5c8072",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0925"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_3976"
-        }
-      ],
-      "sc:name": "Sequence assembly"
+      "@id": "https://doi.org/10.1093/nar/gkw294",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -52,10 +52,10 @@
           "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_2259"
+          "@id": "edam:topic_3344"
         },
         {
-          "@id": "edam:topic_3344"
+          "@id": "edam:topic_2259"
         }
       ],
       "sc:citation": [
@@ -70,8 +70,8 @@
       },
       "sc:name": "VANESA",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {

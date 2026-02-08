@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Steven Maere",
       "bsc:input": {
-        "@id": "_:Na4ad6d62bd214aea95de31e95d3fc273"
+        "@id": "_:N6d6e658c043c490587ca61cfc3e3e3e9"
       },
       "bsc:output": {
-        "@id": "_:N593f584c60734c12a20f977658e87624"
+        "@id": "_:Ne9da50d4b5cc4730956d4e17d883fbbe"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -55,11 +55,11 @@
         "@id": "edam:topic_0602"
       },
       "sc:citation": [
+        "pmcid:PMC2386865",
+        "pubmed:18402676",
         {
           "@id": "https://doi.org/10.1186/1752-0509-2-33"
-        },
-        "pubmed:18402676",
-        "pmcid:PMC2386865"
+        }
       ],
       "sc:description": "A software tool to extract gene expression modules from perturbational microarray data, based on the use of combinatorial statistics and graph-based clustering.",
       "sc:featureList": {
@@ -68,8 +68,8 @@
       "sc:name": "Enigma",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "PSB",
       "sc:softwareHelp": {
@@ -79,7 +79,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/ENIGMA/"
     },
     {
-      "@id": "_:N593f584c60734c12a20f977658e87624",
+      "@id": "_:Ne9da50d4b5cc4730956d4e17d883fbbe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
@@ -87,7 +87,7 @@
       "sc:name": "Pathway or network report"
     },
     {
-      "@id": "_:Na4ad6d62bd214aea95de31e95d3fc273",
+      "@id": "_:N6d6e658c043c490587ca61cfc3e3e3e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"

@@ -36,22 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkv294",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkac459",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/merlin-sysbio",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N9f524203b8ce402b870ca51b8495ff6d"
+          "@id": "_:Nf51f80587cbc41c8a77898c3df5945a2"
         },
         {
-          "@id": "_:N5320de50314f495fb11c6de14d7f9ad2"
+          "@id": "_:N239ae57521194c5b91f1d2852bc6cf9b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N65cfef6df5454d7daa47779ecdd77ef5"
+          "@id": "_:N206dbcd170464506b70b4163b915036c"
         },
         {
-          "@id": "_:Nbc69dba19c5f4c25b8e11e70b853ab33"
+          "@id": "_:N7ec1ec39f1ed4905ba586172756a75e5"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,16 +68,16 @@
         "@id": "edam:topic_2259"
       },
       "sc:citation": [
-        "pmcid:PMC4417185",
-        "pubmed:25845595",
+        "pmcid:PMC9226533",
         {
           "@id": "https://doi.org/10.1093/nar/gkv294"
         },
-        "pubmed:35694833",
+        "pubmed:25845595",
         {
           "@id": "https://doi.org/10.1093/nar/gkac459"
         },
-        "pmcid:PMC9226533"
+        "pmcid:PMC4417185",
+        "pubmed:35694833"
       ],
       "sc:description": "Merlin is a simple, graphical and user-oriented solution for the reconstruction of genome-scale metabolic models.\n\nIt will guide you along the model reconstruction, providing several tools that help to improve and curate the model throughout the whole process.",
       "sc:featureList": {
@@ -79,15 +87,15 @@
       "sc:license": "GPL-3.0",
       "sc:name": "merlin",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareVersion": "4.0.0-beta",
       "sc:url": "https://merlin-sysbio.org/"
     },
     {
-      "@id": "_:N65cfef6df5454d7daa47779ecdd77ef5",
+      "@id": "_:N206dbcd170464506b70b4163b915036c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -98,7 +106,7 @@
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:Nbc69dba19c5f4c25b8e11e70b853ab33",
+      "@id": "_:N7ec1ec39f1ed4905ba586172756a75e5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2129"
@@ -109,18 +117,7 @@
       "sc:name": "File format name"
     },
     {
-      "@id": "_:N9f524203b8ce402b870ca51b8495ff6d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1179"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "NCBI taxonomy ID"
-    },
-    {
-      "@id": "_:N5320de50314f495fb11c6de14d7f9ad2",
+      "@id": "_:Nf51f80587cbc41c8a77898c3df5945a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -131,12 +128,15 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkv294",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkac459",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N239ae57521194c5b91f1d2852bc6cf9b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1179"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "NCBI taxonomy ID"
     }
   ]
 }

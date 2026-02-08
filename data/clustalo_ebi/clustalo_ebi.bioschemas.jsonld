@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkae241",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/clustalo_ebi",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:Nb613356a1223445fb1b2abc69aca2bcd"
+        "@id": "_:Nfa6cf51b4ccc4845bf28c78421bc66b0"
       },
       "bsc:output": {
-        "@id": "_:Naf94fee583aa40ba95264fb4f0af9975"
+        "@id": "_:Ncce5f28760a14e9f94ed937d9223f4c8"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -59,20 +55,20 @@
       },
       "sc:author": "Des Higgins",
       "sc:citation": [
-        "pubmed:38597606",
-        "pmcid:PMC11223882",
+        "pubmed:35412617",
+        "pmcid:PMC9252731",
         {
-          "@id": "https://doi.org/10.1002/0471250953.bi0313s48"
+          "@id": "https://doi.org/10.1093/nar/gkac240"
         },
         {
           "@id": "https://doi.org/10.1093/nar/gkae241"
         },
-        {
-          "@id": "https://doi.org/10.1093/nar/gkac240"
-        },
-        "pmcid:PMC9252731",
+        "pmcid:PMC11223882",
         "pubmed:25501942",
-        "pubmed:35412617"
+        {
+          "@id": "https://doi.org/10.1002/0471250953.bi0313s48"
+        },
+        "pubmed:38597606"
       ],
       "sc:description": "Multiple sequence alignment using guide trees and HMM profile-profile techniques.",
       "sc:featureList": {
@@ -80,9 +76,9 @@
       },
       "sc:name": "Clustal Omega (EBI)",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": [
         "EMBL-EBI",
@@ -90,20 +86,20 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
+          "@id": "http://www.clustal.org/omega/"
         },
         {
           "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
-          "@id": "http://www.clustal.org/omega/"
+          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/msa/clustalo"
     },
     {
-      "@id": "_:Nb613356a1223445fb1b2abc69aca2bcd",
+      "@id": "_:Nfa6cf51b4ccc4845bf28c78421bc66b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -114,7 +110,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Naf94fee583aa40ba95264fb4f0af9975",
+      "@id": "_:Ncce5f28760a14e9f94ed937d9223f4c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -123,6 +119,10 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkae241",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1002/0471250953.bi0313s48",

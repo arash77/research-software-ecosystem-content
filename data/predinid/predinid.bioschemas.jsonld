@@ -36,28 +36,32 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1109/TCBB.2023.3266232",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/predinid",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N177af7ebe77a4de1aacbcb2318c184cc"
+        "@id": "_:N2e292ef69aa048ef87eb146134b8aaea"
       },
       "bsc:output": {
-        "@id": "_:N730f0613cf43446faefc4e630ee61a57"
+        "@id": "_:N5eb51125d5ac4e59aa2377aae1b37da2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0634"
-        },
-        {
           "@id": "edam:topic_3810"
         },
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_0199"
         },
         {
-          "@id": "edam:topic_0199"
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_3474"
         }
       ],
       "sc:citation": [
@@ -69,34 +73,26 @@
       "sc:description": "Predicting pathogenic inframe indels in humans through graph convolution neural network with graph sampling technique.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3461"
+          "@id": "edam:operation_3436"
         },
         {
           "@id": "edam:operation_3927"
         },
         {
-          "@id": "edam:operation_3436"
+          "@id": "edam:operation_3461"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "PredinID",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "http://predinid.bio.aielab.cc/"
     },
     {
-      "@id": "_:N177af7ebe77a4de1aacbcb2318c184cc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3498"
-      },
-      "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "_:N730f0613cf43446faefc4e630ee61a57",
+      "@id": "_:N5eb51125d5ac4e59aa2377aae1b37da2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -104,8 +100,12 @@
       "sc:name": "Score"
     },
     {
-      "@id": "https://doi.org/10.1109/TCBB.2023.3266232",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N2e292ef69aa048ef87eb146134b8aaea",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:name": "Sequence variations"
     }
   ]
 }

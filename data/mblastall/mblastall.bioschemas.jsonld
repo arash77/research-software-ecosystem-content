@@ -48,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N4f9f0ea0bc8e4e8ba690441e3f143bdb"
+        "@id": "_:N71d21bfd0d824561a4b875041f75ea57"
       },
       "bsc:output": {
-        "@id": "_:N985ae415d0e64ca8aa630d0472103e38"
+        "@id": "_:Na48deff8062c458f8967d5b12e0cdb56"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -72,15 +72,15 @@
       },
       "sc:name": "mblastall",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareVersion": "2.2.26",
       "sc:url": "https://bioweb.pasteur.fr/packages/pack@ptools@0.99d"
     },
     {
-      "@id": "_:N4f9f0ea0bc8e4e8ba690441e3f143bdb",
+      "@id": "_:N71d21bfd0d824561a4b875041f75ea57",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -91,7 +91,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N985ae415d0e64ca8aa630d0472103e38",
+      "@id": "_:Na48deff8062c458f8967d5b12e0cdb56",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"

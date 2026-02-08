@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1534/genetics.115.179887",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/needles",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6212eeecf4c648189285f40e7d5295ad"
+        "@id": "_:N9b52eaf5cf9049c989ecabcc9aee928d"
       },
       "bsc:output": {
-        "@id": "_:N69bdb7c403d84d50b5ee83654addce9d"
+        "@id": "_:N0513d05d2d234504b8390f95dafdb372"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workbench",
@@ -50,8 +54,8 @@
         "@id": "edam:topic_0622"
       },
       "sc:citation": [
-        "pubmed:26936924",
         "pmcid:PMC4858798",
+        "pubmed:26936924",
         {
           "@id": "https://doi.org/10.1534/genetics.115.179887"
         }
@@ -66,8 +70,8 @@
         "Linux"
       ],
       "sc:provider": [
-        "Ghent Ubiversity",
-        "ugent.be"
+        "ugent.be",
+        "Ghent Ubiversity"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/arnedc/Needles"
@@ -76,7 +80,7 @@
       "sc:url": "https://github.com/arnedc/Needles"
     },
     {
-      "@id": "_:N6212eeecf4c648189285f40e7d5295ad",
+      "@id": "_:N9b52eaf5cf9049c989ecabcc9aee928d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2127"
@@ -84,16 +88,12 @@
       "sc:name": "Genetic code identifier"
     },
     {
-      "@id": "_:N69bdb7c403d84d50b5ee83654addce9d",
+      "@id": "_:N0513d05d2d234504b8390f95dafdb372",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
       },
       "sc:name": "Feature table"
-    },
-    {
-      "@id": "https://doi.org/10.1534/genetics.115.179887",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

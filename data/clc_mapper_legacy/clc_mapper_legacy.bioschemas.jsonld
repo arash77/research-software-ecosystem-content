@@ -36,58 +36,50 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2164-11-571",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/clc_mapper_legacy",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N76fe867ecaae472eb0ba83dad698bf68"
+          "@id": "_:N5a75f6e3429c49ed97765829f85b63dd"
         },
         {
-          "@id": "_:Nab6ca83547134f4ba45fc8b56a743c17"
+          "@id": "_:N3383cc970bf4429db7c0a01cd1e1e8c8"
         },
         {
-          "@id": "_:Ne75148173405405fa3d086a6b63d58fa"
+          "@id": "_:Ne114bdec74334f0f9d4424ed001f6dc3"
         },
         {
-          "@id": "_:N6b196025351644c49fc2d9937b772dc2"
+          "@id": "_:N2be81e83153e4bcb969a8cc1e47d5f00"
         }
       ],
       "bsc:output": {
-        "@id": "_:Na0fcc9177c3c489282bf318d00ad374c"
+        "@id": "_:N3d62ffb9b3ff4406bc47e1dd8b0ddd24"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_0102"
         },
         {
-          "@id": "edam:topic_0102"
+          "@id": "edam:topic_3168"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
+        "pubmed:20950480",
+        "pubmed:27137889",
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC4987906",
-        "pmcid:PMC3091720",
         {
           "@id": "https://doi.org/10.1186/1471-2164-11-571"
         },
-        "pubmed:27137889",
-        "pubmed:20950480"
+        "pmcid:PMC3091720"
       ],
       "sc:description": "Map some reads to some reference sequences.",
       "sc:featureList": {
@@ -95,9 +87,9 @@
       },
       "sc:name": "clc_mapper_legacy",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Fclc_assembly_4%2Fclc_mapper_legacy%2F4.010.83648"
@@ -106,7 +98,7 @@
       "sc:url": "https://bio.tools/clcbio_genomics_workbench"
     },
     {
-      "@id": "_:N76fe867ecaae472eb0ba83dad698bf68",
+      "@id": "_:N5a75f6e3429c49ed97765829f85b63dd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -117,34 +109,23 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nab6ca83547134f4ba45fc8b56a743c17",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1930"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Ne75148173405405fa3d086a6b63d58fa",
+      "@id": "_:N3383cc970bf4429db7c0a01cd1e1e8c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_1929"
         }
       ],
       "sc:name": "Data"
     },
     {
-      "@id": "_:N6b196025351644c49fc2d9937b772dc2",
+      "@id": "_:Ne114bdec74334f0f9d4424ed001f6dc3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -155,7 +136,18 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na0fcc9177c3c489282bf318d00ad374c",
+      "@id": "_:N2be81e83153e4bcb969a8cc1e47d5f00",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N3d62ffb9b3ff4406bc47e1dd8b0ddd24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -164,6 +156,14 @@
         "@id": "edam:format_2333"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2164-11-571",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",

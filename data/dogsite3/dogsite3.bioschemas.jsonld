@@ -39,22 +39,22 @@
       "@id": "https://bio.tools/dogsite3",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc750cc65fc3440f280f688087fd124d1"
+        "@id": "_:Na9ea7f35fe0b4702a75d6eac5836505d"
       },
       "bsc:output": {
-        "@id": "_:N368aaf8f2a5b42fc939876e19e1d7b2d"
+        "@id": "_:N7482874f00ea481aa8c6cc368736a64c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Web service"
+        "Web service",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3534"
+          "@id": "edam:topic_0749"
         },
         {
-          "@id": "edam:topic_0749"
+          "@id": "edam:topic_3534"
         }
       ],
       "sc:citation": {
@@ -73,28 +73,28 @@
       "sc:license": "Other",
       "sc:name": "DoGSite3",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "University of Hamburg, ZBH - Center for Bioinformatics",
       "sc:url": "https://www.zbh.uni-hamburg.de/en/forschung/amd/software/dogsite3.html"
     },
     {
-      "@id": "_:N368aaf8f2a5b42fc939876e19e1d7b2d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:Nc750cc65fc3440f280f688087fd124d1",
+      "@id": "_:Na9ea7f35fe0b4702a75d6eac5836505d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
       },
       "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N7482874f00ea481aa8c6cc368736a64c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
     },
     {
       "@id": "https://doi.org/10.1021/acs.jcim.3c00336",

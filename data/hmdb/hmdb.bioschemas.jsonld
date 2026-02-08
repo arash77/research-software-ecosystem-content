@@ -41,24 +41,27 @@
       "biotools:primaryContact": "Contact Form",
       "bsc:input": [
         {
-          "@id": "_:Nef7c8d4340924a3d9232113221e4ec48"
+          "@id": "_:N05cb3dd934544d16b3821bc3e44fa977"
         },
         {
-          "@id": "_:N5fc9428d8a8843c8a64df1fca2233f69"
+          "@id": "_:Ne10cd1b385b243aeb82d7aed17d1c81f"
         },
         {
-          "@id": "_:Nceb770135ca74d38befbadb214483ef1"
+          "@id": "_:N4836fa19410d4248ae0e6a6354988730"
         },
         {
-          "@id": "_:Nf08e93987bcb4e1ea4f22099ffa779fd"
+          "@id": "_:N8a0fd584727147bc9044802d6bcc5942"
         }
       ],
       "bsc:output": {
-        "@id": "_:N3529c590712c415b81b86b60f2d35802"
+        "@id": "_:N413d5c8bacde4b7d922c326f45c6853a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3421"
+        },
         {
           "@id": "edam:topic_3172"
         },
@@ -66,13 +69,10 @@
           "@id": "edam:topic_0154"
         },
         {
-          "@id": "edam:topic_3421"
+          "@id": "edam:topic_0593"
         },
         {
           "@id": "edam:topic_0621"
-        },
-        {
-          "@id": "edam:topic_0593"
         }
       ],
       "sc:citation": [
@@ -83,10 +83,7 @@
       "sc:description": "Freely available electronic database containing detailed information about small molecule metabolites found in the human body. The database supports extensive text, sequence, chemical structure and relational query searches.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2421"
-        },
-        {
-          "@id": "edam:operation_3431"
+          "@id": "edam:operation_0360"
         },
         {
           "@id": "edam:operation_0339"
@@ -95,15 +92,18 @@
           "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0360"
+          "@id": "edam:operation_3431"
+        },
+        {
+          "@id": "edam:operation_2421"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "HMDB",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
@@ -116,7 +116,7 @@
       "sc:url": "http://www.hmdb.ca/"
     },
     {
-      "@id": "_:N3529c590712c415b81b86b60f2d35802",
+      "@id": "_:N05cb3dd934544d16b3821bc3e44fa977",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0982"
@@ -127,7 +127,7 @@
       "sc:name": "Molecule identifier"
     },
     {
-      "@id": "_:Nef7c8d4340924a3d9232113221e4ec48",
+      "@id": "_:Ne10cd1b385b243aeb82d7aed17d1c81f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2050"
@@ -138,7 +138,7 @@
       "sc:name": "Molecular property (general)"
     },
     {
-      "@id": "_:N5fc9428d8a8843c8a64df1fca2233f69",
+      "@id": "_:N4836fa19410d4248ae0e6a6354988730",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0982"
@@ -149,7 +149,7 @@
       "sc:name": "Molecule identifier"
     },
     {
-      "@id": "_:Nceb770135ca74d38befbadb214483ef1",
+      "@id": "_:N8a0fd584727147bc9044802d6bcc5942",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3035"
@@ -160,7 +160,7 @@
       "sc:name": "Structure identifier"
     },
     {
-      "@id": "_:Nf08e93987bcb4e1ea4f22099ffa779fd",
+      "@id": "_:N413d5c8bacde4b7d922c326f45c6853a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0982"

@@ -36,11 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-8234-010X",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-5567-4278",
+      "@id": "https://orcid.org/0000-0002-9527-8093",
       "@type": "sc:Person"
     },
     {
@@ -51,22 +47,22 @@
       "@id": "https://bio.tools/ml_model_for_mr_series_categorisation",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na7d6afa6f5784422a462ca628661a515"
+        "@id": "_:N785fb2166ce548b0ad19b986f2c651ef"
       },
       "bsc:output": {
-        "@id": "_:Nb8522e8ee1ec4d889440b2d689f4dda3"
+        "@id": "_:N071583f208f34d29bc8f03730fec2a05"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3071"
+        },
+        {
           "@id": "edam:topic_3316"
         },
         {
           "@id": "edam:topic_3077"
-        },
-        {
-          "@id": "edam:topic_3071"
         }
       ],
       "sc:author": {
@@ -98,28 +94,17 @@
       "sc:provider": "GIBI230 - HULAFE",
       "sc:softwareHelp": [
         {
-          "@id": "https://drive.google.com/file/d/1lIUixmLItQXOyBPIXL_AzPg_jlqDKwNE/view?usp=drive_link"
+          "@id": "https://drive.google.com/file/d/1jF44iszmmiHd2paD8-YhFhW2uQJ0QBAZ/view?usp=drive_link"
         },
         {
-          "@id": "https://drive.google.com/file/d/1jF44iszmmiHd2paD8-YhFhW2uQJ0QBAZ/view?usp=drive_link"
+          "@id": "https://drive.google.com/file/d/1lIUixmLItQXOyBPIXL_AzPg_jlqDKwNE/view?usp=drive_link"
         }
       ],
       "sc:softwareVersion": "1.1.0",
       "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/4/repositories/ml_model_for_mr_series_categorisation/artifacts-tab"
     },
     {
-      "@id": "_:Na7d6afa6f5784422a462ca628661a515",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3548"
-      },
-      "sc:name": "Image"
-    },
-    {
-      "@id": "_:Nb8522e8ee1ec4d889440b2d689f4dda3",
+      "@id": "_:N071583f208f34d29bc8f03730fec2a05",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -130,7 +115,22 @@
       "sc:name": "Report"
     },
     {
-      "@id": "https://orcid.org/0000-0002-9527-8093",
+      "@id": "_:N785fb2166ce548b0ad19b986f2c651ef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5567-4278",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8234-010X",
       "@type": "sc:Person"
     }
   ]

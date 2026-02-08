@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/orphanet",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1dbb99fad9c54a6f99ba61cfdff4d14b"
+        "@id": "_:Nd5f1de972fad46c3aa173e97f01bf61d"
       },
       "bsc:output": {
-        "@id": "_:Nf0b2de21c4804eb68d6c8081c891ef8c"
+        "@id": "_:N9242997e2adb4588b3eac2a6e1f344c4"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -55,13 +55,13 @@
       ],
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3325"
+        },
+        {
           "@id": "edam:topic_0634"
         },
         {
           "@id": "edam:topic_0154"
-        },
-        {
-          "@id": "edam:topic_3325"
         }
       ],
       "sc:citation": [
@@ -77,9 +77,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "Orphanet",
       "sc:operatingSystem": [
-        "Windows",
         "Mac",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "Inserm US14",
       "sc:softwareHelp": {
@@ -88,7 +88,15 @@
       "sc:url": "http://www.orpha.net/consor/cgi-bin/index.php"
     },
     {
-      "@id": "_:Nf0b2de21c4804eb68d6c8081c891ef8c",
+      "@id": "_:Nd5f1de972fad46c3aa173e97f01bf61d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2800"
+      },
+      "sc:name": "Orpha number"
+    },
+    {
+      "@id": "_:N9242997e2adb4588b3eac2a6e1f344c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1622"
@@ -97,14 +105,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Disease report"
-    },
-    {
-      "@id": "_:N1dbb99fad9c54a6f99ba61cfdff4d14b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2800"
-      },
-      "sc:name": "Orpha number"
     }
   ]
 }

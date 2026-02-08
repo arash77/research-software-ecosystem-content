@@ -40,18 +40,14 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pileup_to_vcf",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nc4c7686371c44e928203b47303c3f5f2"
+        "@id": "_:N84b985adf15e40daa426dfb09388f0b4"
       },
       "bsc:output": {
-        "@id": "_:N21649edb05d24a288e83d349b2ecd970"
+        "@id": "_:Ne929c369b3004ceca226fb80f67feb2b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -73,14 +69,14 @@
       "sc:name": "pileup_to_vcf",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareVersion": "2.1",
       "sc:url": "https://toolshed.g2.bx.psu.edu/repos/jjohnson/pileup_to_vcf"
     },
     {
-      "@id": "_:N21649edb05d24a288e83d349b2ecd970",
+      "@id": "_:Ne929c369b3004ceca226fb80f67feb2b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -91,7 +87,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nc4c7686371c44e928203b47303c3f5f2",
+      "@id": "_:N84b985adf15e40daa426dfb09388f0b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -105,6 +101,10 @@
         }
       ],
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

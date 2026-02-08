@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/scampi",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N207d9df0e6ac442da0e1c5f0c38b5a4a"
+        "@id": "_:Nc9721a0b146f4568b84a29ecde61b079"
       },
       "bsc:output": {
-        "@id": "_:Nd8dbf8e47441488f87ff1d97d006ce62"
+        "@id": "_:N8bb2115a7bb145da9e903cf207819e4d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -61,9 +61,9 @@
       },
       "sc:name": "SCAMPI",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -73,20 +73,20 @@
       "sc:url": "http://scampi.cbr.su.se/"
     },
     {
-      "@id": "_:N207d9df0e6ac442da0e1c5f0c38b5a4a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2976"
-      },
-      "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:Nd8dbf8e47441488f87ff1d97d006ce62",
+      "@id": "_:N8bb2115a7bb145da9e903cf207819e4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
       },
       "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:Nc9721a0b146f4568b84a29ecde61b079",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btv709",

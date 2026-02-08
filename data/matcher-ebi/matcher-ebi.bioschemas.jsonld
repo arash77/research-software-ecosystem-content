@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N3589e4df8f344bf4a20003264f17ba4a"
+        "@id": "_:N240da1b0f5a5469c9f362b30b0e367bd"
       },
       "bsc:output": {
-        "@id": "_:N1ab8a7252b1c41d7a7abb9574378d093"
+        "@id": "_:N33655f8ec04f4397bf8ab07b25869f53"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -59,65 +59,65 @@
       },
       "sc:author": "EMBOSS",
       "sc:citation": [
-        "pubmed:35412617",
         "pmcid:PMC11223882",
-        "pubmed:38597606",
-        {
-          "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
-        },
         {
           "@id": "https://doi.org/10.1093/nar/gkae241"
         },
         {
-          "@id": "https://doi.org/10.1093/nar/gkac240"
+          "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
         },
-        "pmcid:PMC9252731"
+        "pubmed:38597606",
+        "pubmed:35412617",
+        "pmcid:PMC9252731",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkac240"
+        }
       ],
       "sc:description": "Waterman-Eggert local alignment of two sequences.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0495"
+          "@id": "edam:operation_0491"
         },
         {
-          "@id": "edam:operation_0491"
+          "@id": "edam:operation_0495"
         }
       ],
       "sc:name": "matcher (EBI)",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
-        "Mac"
+        "Mac",
+        "Windows"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
         {
-          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
+          "@id": "https://emboss.sourceforge.net/"
         },
         {
           "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
-          "@id": "https://emboss.sourceforge.net/"
+          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/psa/emboss_matcher"
     },
     {
-      "@id": "_:N1ab8a7252b1c41d7a7abb9574378d093",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1381"
-      },
-      "sc:name": "Sequence alignment (pair)"
-    },
-    {
-      "@id": "_:N3589e4df8f344bf4a20003264f17ba4a",
+      "@id": "_:N240da1b0f5a5469c9f362b30b0e367bd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
       },
       "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N33655f8ec04f4397bf8ab07b25869f53",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1381"
+      },
+      "sc:name": "Sequence alignment (pair)"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkae241",

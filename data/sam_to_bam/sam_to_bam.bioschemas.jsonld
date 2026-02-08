@@ -36,11 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/bioinformatics/btp352",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp352",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -49,17 +49,17 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Na92cb7ad5f51473eb28221f916519b49"
+          "@id": "_:N3e4a0d76c0dd43498716078fa084a134"
         },
         {
-          "@id": "_:N3aa738cce30e41aa9e8b58a56b2bd433"
+          "@id": "_:N4eda5d9cbfd243129f7979ce961cc577"
         },
         {
-          "@id": "_:N80bd19d1704d4f249ffa8570ea826ce1"
+          "@id": "_:Nd9191d6587bb40f288fa60820caec77c"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nacc813f06e204830824b2789739357af"
+        "@id": "_:N8f85ecb1e7c14dc2a436034870b9aa81"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -68,10 +68,10 @@
       },
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
         {
-          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+          "@id": "https://doi.org/10.1093/nar/gkw343"
         },
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btp352"
@@ -83,9 +83,9 @@
       },
       "sc:name": "sam_to_bam",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.htslib.org/doc/samtools.html"
@@ -94,7 +94,7 @@
       "sc:url": "http://www.htslib.org/"
     },
     {
-      "@id": "_:Na92cb7ad5f51473eb28221f916519b49",
+      "@id": "_:N3e4a0d76c0dd43498716078fa084a134",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -105,7 +105,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N3aa738cce30e41aa9e8b58a56b2bd433",
+      "@id": "_:N4eda5d9cbfd243129f7979ce961cc577",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -116,7 +116,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N80bd19d1704d4f249ffa8570ea826ce1",
+      "@id": "_:Nd9191d6587bb40f288fa60820caec77c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -127,7 +127,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Nacc813f06e204830824b2789739357af",
+      "@id": "_:N8f85ecb1e7c14dc2a436034870b9aa81",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"

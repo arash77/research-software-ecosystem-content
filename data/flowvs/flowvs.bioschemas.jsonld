@@ -36,27 +36,23 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-016-1083-9",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/flowvs",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ariful Azad",
       "bsc:input": [
         {
-          "@id": "_:Na904489567a443168fa30ab96c5468cf"
+          "@id": "_:N4b4d03917baf43bfa48cb00a845b0c38"
         },
         {
-          "@id": "_:N4b7e205134cd4c078f8fc2c22fb40c49"
+          "@id": "_:Ncdbb30ef7f6143b391773530991fd6fb"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9853f206180b4562bfa1ebddc903cf79"
+          "@id": "_:Nb620ba7fd16a4485bf4db01557514cff"
         },
         {
-          "@id": "_:Nb361d42c5fa24f308491aaf4da71e05f"
+          "@id": "_:N54bb1c4bf387457291358e6cf1dd98e1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,10 +62,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3306"
+          "@id": "edam:topic_2269"
         },
         {
-          "@id": "edam:topic_2269"
+          "@id": "edam:topic_3306"
         },
         {
           "@id": "edam:topic_3361"
@@ -79,11 +75,11 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4964071",
-        "pubmed:27465477",
         {
           "@id": "https://doi.org/10.1186/s12859-016-1083-9"
-        }
+        },
+        "pmcid:PMC4964071",
+        "pubmed:27465477"
       ],
       "sc:description": "Per-channel variance stabilization from a collection of flow cytometry samples by Bertlett test for homogeneity of variances. The approach is applicable to microarrays data as well.",
       "sc:featureList": {
@@ -92,9 +88,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "flowVS",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/flowVS.html"
@@ -103,23 +99,29 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/flowVS.html"
     },
     {
-      "@id": "_:N9853f206180b4562bfa1ebddc903cf79",
+      "@id": "_:N4b4d03917baf43bfa48cb00a845b0c38",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2884"
+        "@id": "edam:data_3108"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:Nb361d42c5fa24f308491aaf4da71e05f",
+      "@id": "_:Ncdbb30ef7f6143b391773530991fd6fb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:Nb620ba7fd16a4485bf4db01557514cff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -135,26 +137,24 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Na904489567a443168fa30ab96c5468cf",
+      "@id": "_:N54bb1c4bf387457291358e6cf1dd98e1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3108"
+        "@id": "edam:data_2884"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Experimental measurement"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
     },
     {
-      "@id": "_:N4b7e205134cd4c078f8fc2c22fb40c49",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Gene expression data"
+      "@id": "https://doi.org/10.1186/s12859-016-1083-9",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

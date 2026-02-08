@@ -36,35 +36,39 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/pmic.200300483",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/2d-page",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Luca Bini",
       "bsc:input": [
         {
-          "@id": "_:N4cc6f81a438b40a68443523dce091d93"
+          "@id": "_:Nbefa1b4470614e7594352fa0c845f95c"
         },
         {
-          "@id": "_:Ne583366e8c254c9aab73ed52a3cf758e"
+          "@id": "_:Na828122108554262bf79c54b34849f50"
         },
         {
-          "@id": "_:Nbd876cdc1c82448fa2ac0a47b6f53453"
+          "@id": "_:N753de75b05374034acd7850cd86931e8"
         },
         {
-          "@id": "_:N2d44b42995754b2ea1f753e2ff6d2dea"
+          "@id": "_:Nf04c3fbad48d4dbb8fcedfb6abd30fc8"
         },
         {
-          "@id": "_:N571e2bff5fea437ca4ba0403fdfc5c37"
+          "@id": "_:N96a7eb1c66624752852f89905513d8b3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6950a89bc6c6482c9f17f7b61f24d124"
+          "@id": "_:N561efc422be944af9c087b8788448745"
         },
         {
-          "@id": "_:Nb93d9fa2c5474b54a71072c1beaa9455"
+          "@id": "_:Na50d05b4a20446f78b2fa9161d57c668"
         },
         {
-          "@id": "_:N5484b4387ba943fdb7ba5e1c0dd424fa"
+          "@id": "_:Nd7ea7736c03a4a5d9b9b87c238bfdbcd"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,15 +99,7 @@
       "sc:url": "http://www.bio-mol.unisi.it/cgi-bin/2d/2d.cgi"
     },
     {
-      "@id": "_:N4cc6f81a438b40a68443523dce091d93",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1528"
-      },
-      "sc:name": "Protein isoelectric point"
-    },
-    {
-      "@id": "_:Ne583366e8c254c9aab73ed52a3cf758e",
+      "@id": "_:Nbefa1b4470614e7594352fa0c845f95c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2091"
@@ -111,7 +107,7 @@
       "sc:name": "Accession"
     },
     {
-      "@id": "_:Nbd876cdc1c82448fa2ac0a47b6f53453",
+      "@id": "_:Na828122108554262bf79c54b34849f50",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -119,15 +115,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N2d44b42995754b2ea1f753e2ff6d2dea",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2373"
-      },
-      "sc:name": "Spot ID"
-    },
-    {
-      "@id": "_:N571e2bff5fea437ca4ba0403fdfc5c37",
+      "@id": "_:N753de75b05374034acd7850cd86931e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1519"
@@ -135,7 +123,39 @@
       "sc:name": "Peptide molecular weights"
     },
     {
-      "@id": "_:N6950a89bc6c6482c9f17f7b61f24d124",
+      "@id": "_:Nf04c3fbad48d4dbb8fcedfb6abd30fc8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1528"
+      },
+      "sc:name": "Protein isoelectric point"
+    },
+    {
+      "@id": "_:N96a7eb1c66624752852f89905513d8b3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2373"
+      },
+      "sc:name": "Spot ID"
+    },
+    {
+      "@id": "_:N561efc422be944af9c087b8788448745",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1528"
+      },
+      "sc:name": "Protein isoelectric point"
+    },
+    {
+      "@id": "_:Na50d05b4a20446f78b2fa9161d57c668",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0942"
+      },
+      "sc:name": "2D PAGE image"
+    },
+    {
+      "@id": "_:Nd7ea7736c03a4a5d9b9b87c238bfdbcd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0897"
@@ -144,26 +164,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Protein property"
-    },
-    {
-      "@id": "_:Nb93d9fa2c5474b54a71072c1beaa9455",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1528"
-      },
-      "sc:name": "Protein isoelectric point"
-    },
-    {
-      "@id": "_:N5484b4387ba943fdb7ba5e1c0dd424fa",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0942"
-      },
-      "sc:name": "2D PAGE image"
-    },
-    {
-      "@id": "https://doi.org/10.1002/pmic.200300483",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

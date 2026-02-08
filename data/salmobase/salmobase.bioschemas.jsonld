@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-8428-1481",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nature17164",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1186/s12864-017-3877-1",
       "@type": "sc:CreativeWork"
     },
@@ -55,61 +47,61 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N4f373bcbcbb142809035913e029b0a6d"
+          "@id": "_:Nd200901f79c24f1ab833400651ad22de"
         },
         {
-          "@id": "_:Nde347102017649a297ba37cdc816dfb2"
+          "@id": "_:N8f5ad45250494d509aa95ba3073f5a6e"
         },
         {
-          "@id": "_:N3125c9cff7994945a4c0c8ae9317b2cb"
+          "@id": "_:N03830db005874b6693021066b2f605f5"
         },
         {
-          "@id": "_:Nac145991d2d14bc591251e872aaa318e"
+          "@id": "_:N9b6af032aa3949d08a8f65c957315520"
         },
         {
-          "@id": "_:Ne43952036cab413c8808bfa15f064beb"
+          "@id": "_:N48653acefd5c41f08280ae694182fcdb"
         },
         {
-          "@id": "_:N3bb049fca1fc492fba84d503cc4e7d4b"
+          "@id": "_:N4b8d739a7c59489fb5944d59d3961f54"
         },
         {
-          "@id": "_:Nc363eb26b4824465bcf8b4e0ba6d278e"
+          "@id": "_:N28bfd2f2082141999baaba84a9325ce5"
         },
         {
-          "@id": "_:Nfe0766623bfa4858ba75e8f9778ead34"
+          "@id": "_:N8234deae36244c2497dd6fa69f95e7fb"
         },
         {
-          "@id": "_:N55247c1a246c474cb9d66d039d8984f9"
+          "@id": "_:N172e01594fac4b57b42ca0db258e97de"
         },
         {
-          "@id": "_:N5f78abac373448e39b3df60ea7f109c5"
+          "@id": "_:N4ebc01fbcc2e47abadb2e266fa625cde"
         },
         {
-          "@id": "_:N950d62d035e740598dd371b6627002b6"
+          "@id": "_:Naac99481be2f4702806099b4d42b5dd3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N97496b5e10624f568f7b1fbf43864e4b"
+          "@id": "_:N8801fa65e2004b00910743e527664f76"
         },
         {
-          "@id": "_:N00e4ab5d2af24d6a93bef8924da6531e"
+          "@id": "_:N07f8234ab799419cb506cd6a3a0e825d"
         },
         {
-          "@id": "_:Nf3fd56ac88ca419bbf2e7c46d13276d9"
+          "@id": "_:N2ed1243af8134ac2ac31ca6e470690a3"
         },
         {
-          "@id": "_:N188b7d008d1048c7a8735a1c013ff7e5"
+          "@id": "_:N9049488df32045dbb5556e097a015f3b"
         },
         {
-          "@id": "_:N4843af0e6c1f45468228d2dda06c43fa"
+          "@id": "_:N32d3c93b661d484aa5ab4ec6f175a3da"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_3071"
         },
         {
           "@id": "edam:topic_0622"
@@ -118,26 +110,26 @@
           "@id": "edam:topic_3387"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_0091"
         }
       ],
       "sc:author": [
-        "Amine Namouchi",
         {
           "@id": "https://orcid.org/0000-0002-8428-1481"
-        }
+        },
+        "Amine Namouchi"
       ],
       "sc:citation": [
-        "pubmed:28651544",
+        "pubmed:27088604",
+        "pmcid:PMC8127823",
         {
           "@id": "https://doi.org/10.1186/s12864-017-3877-1"
         },
-        "pubmed:27088604",
         "pmcid:PMC5485693",
         {
           "@id": "https://doi.org/10.1038/nature17164"
         },
-        "pmcid:PMC8127823"
+        "pubmed:28651544"
       ],
       "sc:description": "Salmobase provides a visual and analytic framework for molecular genomic resources dedicated to salmonid species, including Atlantic salmon and rainbow trout.",
       "sc:featureList": [
@@ -145,54 +137,43 @@
           "@id": "edam:operation_3208"
         },
         {
-          "@id": "edam:operation_0346"
+          "@id": "edam:operation_0259"
         },
         {
           "@id": "edam:operation_3184"
         },
         {
-          "@id": "edam:operation_0259"
+          "@id": "edam:operation_0346"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "MIT",
       "sc:name": "Salmobase",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:url": "https://salmobase.org"
     },
     {
-      "@id": "_:N97496b5e10624f568f7b1fbf43864e4b",
+      "@id": "_:N8801fa65e2004b00910743e527664f76",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2787"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "NCBI genome accession"
-    },
-    {
-      "@id": "_:N00e4ab5d2af24d6a93bef8924da6531e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0925"
+        "@id": "edam:data_0919"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3989"
+          "@id": "edam:format_3475"
         },
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_2331"
         }
       ],
-      "sc:name": "Sequence assembly"
+      "sc:name": "Chromosome report"
     },
     {
-      "@id": "_:Nf3fd56ac88ca419bbf2e7c46d13276d9",
+      "@id": "_:N07f8234ab799419cb506cd6a3a0e825d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -203,23 +184,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N188b7d008d1048c7a8735a1c013ff7e5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0919"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2331"
-        },
-        {
-          "@id": "edam:format_3475"
-        }
-      ],
-      "sc:name": "Chromosome report"
-    },
-    {
-      "@id": "_:N4843af0e6c1f45468228d2dda06c43fa",
+      "@id": "_:N2ed1243af8134ac2ac31ca6e470690a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -230,29 +195,34 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N4f373bcbcbb142809035913e029b0a6d",
+      "@id": "_:N9049488df32045dbb5556e097a015f3b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2909"
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_3989"
+        }
+      ],
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N32d3c93b661d484aa5ab4ec6f175a3da",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2787"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_2331"
       },
-      "sc:name": "Organism name"
+      "sc:name": "NCBI genome accession"
     },
     {
-      "@id": "_:Nde347102017649a297ba37cdc816dfb2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2093"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data reference"
-    },
-    {
-      "@id": "_:N3125c9cff7994945a4c0c8ae9317b2cb",
+      "@id": "_:Nd200901f79c24f1ab833400651ad22de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -260,42 +230,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:Nac145991d2d14bc591251e872aaa318e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1056"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Database name"
-    },
-    {
-      "@id": "_:Ne43952036cab413c8808bfa15f064beb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1027"
-      },
-      "sc:name": "Gene ID (NCBI)"
-    },
-    {
-      "@id": "_:N3bb049fca1fc492fba84d503cc4e7d4b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2292"
-      },
-      "sc:name": "GenBank accession"
-    },
-    {
-      "@id": "_:Nc363eb26b4824465bcf8b4e0ba6d278e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1098"
-      },
-      "sc:name": "RefSeq accession"
-    },
-    {
-      "@id": "_:Nfe0766623bfa4858ba75e8f9778ead34",
+      "@id": "_:N8f5ad45250494d509aa95ba3073f5a6e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3266"
@@ -306,7 +241,29 @@
       "sc:name": "Sequence assembly ID"
     },
     {
-      "@id": "_:N55247c1a246c474cb9d66d039d8984f9",
+      "@id": "_:N03830db005874b6693021066b2f605f5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1056"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Database name"
+    },
+    {
+      "@id": "_:N9b6af032aa3949d08a8f65c957315520",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2093"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data reference"
+    },
+    {
+      "@id": "_:N48653acefd5c41f08280ae694182fcdb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2154"
@@ -314,7 +271,53 @@
       "sc:name": "Sequence name"
     },
     {
-      "@id": "_:N5f78abac373448e39b3df60ea7f109c5",
+      "@id": "_:N4b8d739a7c59489fb5944d59d3961f54",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2909"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Organism name"
+    },
+    {
+      "@id": "_:N28bfd2f2082141999baaba84a9325ce5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1098"
+      },
+      "sc:name": "RefSeq accession"
+    },
+    {
+      "@id": "_:N8234deae36244c2497dd6fa69f95e7fb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N172e01594fac4b57b42ca0db258e97de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1027"
+      },
+      "sc:name": "Gene ID (NCBI)"
+    },
+    {
+      "@id": "_:N4ebc01fbcc2e47abadb2e266fa625cde",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2292"
+      },
+      "sc:name": "GenBank accession"
+    },
+    {
+      "@id": "_:Naac99481be2f4702806099b4d42b5dd3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1192"
@@ -325,15 +328,12 @@
       "sc:name": "Tool name (BLAST)"
     },
     {
-      "@id": "_:N950d62d035e740598dd371b6627002b6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Sequence"
+      "@id": "https://doi.org/10.1038/nature17164",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8428-1481",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://orcid.org/0000-0001-5404-4285",

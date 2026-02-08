@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/callc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9abdd5cacc5d4b08af7b702c9063425a"
+        "@id": "_:N4be7f2211d65426e80696f826f5f5a99"
       },
       "bsc:output": {
-        "@id": "_:Nb1fd3e7ea5694cdfb92867cc65890dca"
+        "@id": "_:N374c837e8a214b33bf671c4213669274"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:citation": [
@@ -63,15 +63,15 @@
       "sc:license": "Apache-2.0",
       "sc:name": "CALLC",
       "sc:operatingSystem": [
+        "Mac",
         "Linux",
-        "Windows",
-        "Mac"
+        "Windows"
       ],
       "sc:softwareVersion": "v1.0",
       "sc:url": "https://github.com/compomics/CALLC"
     },
     {
-      "@id": "_:N9abdd5cacc5d4b08af7b702c9063425a",
+      "@id": "_:N374c837e8a214b33bf671c4213669274",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -82,7 +82,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nb1fd3e7ea5694cdfb92867cc65890dca",
+      "@id": "_:N4be7f2211d65426e80696f826f5f5a99",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

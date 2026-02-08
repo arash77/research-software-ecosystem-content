@@ -39,22 +39,22 @@
       "@id": "https://bio.tools/mzxml_viewer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na4bcf8e57fc0490082cbd8a314ee0c6c"
+        "@id": "_:Na7366cea23754cf89915190eccf81d8c"
       },
       "bsc:output": {
-        "@id": "_:N229644c7326548bb8c48324e1a9ee784"
+        "@id": "_:N01b5196f16e541aba8589dbc44373225"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3382"
+        },
+        {
           "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_3520"
-        },
-        {
-          "@id": "edam:topic_3382"
         }
       ],
       "sc:description": "MzXML viewer from Seattle Proteome Center.",
@@ -64,8 +64,8 @@
       "sc:name": "mzXML Viewer",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://tools.proteomecenter.org/mzXMLViewer.php"
@@ -73,7 +73,7 @@
       "sc:url": "http://tools.proteomecenter.org/mzXMLViewer.php"
     },
     {
-      "@id": "_:N229644c7326548bb8c48324e1a9ee784",
+      "@id": "_:N01b5196f16e541aba8589dbc44373225",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -84,7 +84,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Na4bcf8e57fc0490082cbd8a314ee0c6c",
+      "@id": "_:Na7366cea23754cf89915190eccf81d8c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

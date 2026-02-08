@@ -69,17 +69,17 @@
           "@id": "edam:operation_3232"
         },
         {
-          "@id": "edam:operation_2495"
+          "@id": "edam:operation_0314"
         },
         {
-          "@id": "edam:operation_0314"
+          "@id": "edam:operation_2495"
         }
       ],
       "sc:name": "T-profiler",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.t-profiler.org"

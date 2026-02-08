@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N6e91fa7698da46d581be04666e37d7ea"
+          "@id": "_:N464c7dfdca044d018eef387ea5cb1013"
         },
         {
-          "@id": "_:N442eef7296ca4a91b885fb1b502e5995"
+          "@id": "_:N01a98258652e450db51899e31517ea4d"
         },
         {
-          "@id": "_:N05c91e5397a54721ae619bcf67c4e17c"
+          "@id": "_:N7212a3b180154146891244e5a36cfb68"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8ae61ed1614f45669511703cfc37fac7"
+          "@id": "_:Nbec37228da834b92a44b3f76a199acfb"
         },
         {
-          "@id": "_:Nc713aa772c1a49e29926a5ffc8409586"
+          "@id": "_:N464d423af122431aa277cb69c555dbf4"
         },
         {
-          "@id": "_:Ne85c3dc9607f4605945c00b8ea74d304"
+          "@id": "_:Ne8981e82e3884b18b76f11d3c1233243"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -71,11 +71,11 @@
         }
       ],
       "sc:citation": [
-        "pubmed:18032431",
+        "pmcid:PMC2238853",
         {
           "@id": "https://doi.org/10.1093/nar/gkm1042"
         },
-        "pmcid:PMC2238853"
+        "pubmed:18032431"
       ],
       "sc:description": "An integrated environment for the analysis of microbial genomes.",
       "sc:featureList": {
@@ -83,9 +83,9 @@
       },
       "sc:name": "GenoList comparative analysis of microbial genomes",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://genodb.pasteur.fr/cgi-bin/WebObjects/GenoList"
@@ -93,7 +93,7 @@
       "sc:url": "http://genolist.pasteur.fr/GenoList"
     },
     {
-      "@id": "_:N8ae61ed1614f45669511703cfc37fac7",
+      "@id": "_:Nbec37228da834b92a44b3f76a199acfb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -104,7 +104,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nc713aa772c1a49e29926a5ffc8409586",
+      "@id": "_:N464d423af122431aa277cb69c555dbf4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -115,7 +115,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Ne85c3dc9607f4605945c00b8ea74d304",
+      "@id": "_:Ne8981e82e3884b18b76f11d3c1233243",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -126,7 +126,7 @@
       "sc:name": "Taxonomy"
     },
     {
-      "@id": "_:N6e91fa7698da46d581be04666e37d7ea",
+      "@id": "_:N464c7dfdca044d018eef387ea5cb1013",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2739"
@@ -134,7 +134,7 @@
       "sc:name": "Gene ID (Genolist)"
     },
     {
-      "@id": "_:N442eef7296ca4a91b885fb1b502e5995",
+      "@id": "_:N01a98258652e450db51899e31517ea4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -142,7 +142,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N05c91e5397a54721ae619bcf67c4e17c",
+      "@id": "_:N7212a3b180154146891244e5a36cfb68",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1868"

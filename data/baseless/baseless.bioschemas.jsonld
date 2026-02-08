@@ -39,25 +39,25 @@
       "@id": "https://bio.tools/baseless",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf974ad4115ab4971be9e0243df157f60"
+        "@id": "_:N1e0824b0e0194f9bbd9f37c71f7dfbe1"
       },
       "bsc:output": {
-        "@id": "_:N67efc857a80740d88bc35d7f219d051b"
+        "@id": "_:N4221157fc656480e827d58262c2efc2b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3174"
+          "@id": "edam:topic_0621"
         },
         {
           "@id": "edam:topic_0097"
         },
         {
-          "@id": "edam:topic_0621"
+          "@id": "edam:topic_3474"
         },
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_3174"
         }
       ],
       "sc:citation": [
@@ -83,14 +83,14 @@
       "sc:license": "MIT",
       "sc:name": "baseLess",
       "sc:operatingSystem": [
-        "Mac",
+        "Linux",
         "Windows",
-        "Linux"
+        "Mac"
       ],
       "sc:url": "https://github.com/cvdelannoy/baseLess"
     },
     {
-      "@id": "_:Nf974ad4115ab4971be9e0243df157f60",
+      "@id": "_:N1e0824b0e0194f9bbd9f37c71f7dfbe1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -101,7 +101,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N67efc857a80740d88bc35d7f219d051b",
+      "@id": "_:N4221157fc656480e827d58262c2efc2b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3743"

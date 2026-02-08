@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/met4j",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne3f32726078c431bad18e8850d28ad2e"
+        "@id": "_:Ne3ca088253344d3b80aa58123e38cfc5"
       },
       "bsc:output": {
-        "@id": "_:Nef61715ff40e42879adb2974d7ae4637"
+        "@id": "_:N906c4dc9b28f4cee9d1c4a23c6c4e5fb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -50,16 +50,16 @@
         "@id": "edam:topic_0602"
       },
       "sc:author": [
-        "Clément Frainay",
-        "Ludovic Cottret"
+        "Ludovic Cottret",
+        "Clément Frainay"
       ],
       "sc:description": "Java library for metabolic networks. Singularity and docker containers allow to use met4j without installing Java or computational skills. Met4j apps allow to parse and edit SBML and to analyse the network with graph analysis.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3929"
+          "@id": "edam:operation_3660"
         },
         {
-          "@id": "edam:operation_3660"
+          "@id": "edam:operation_3929"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -72,7 +72,18 @@
       "sc:url": "https://forgemia.inra.fr/metexplore/met4j"
     },
     {
-      "@id": "_:Nef61715ff40e42879adb2974d7ae4637",
+      "@id": "_:Ne3ca088253344d3b80aa58123e38cfc5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2585"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N906c4dc9b28f4cee9d1c4a23c6c4e5fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -85,17 +96,6 @@
           "@id": "edam:format_3822"
         }
       ],
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:Ne3f32726078c431bad18e8850d28ad2e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2585"
-      },
       "sc:name": "Pathway or network"
     }
   ]

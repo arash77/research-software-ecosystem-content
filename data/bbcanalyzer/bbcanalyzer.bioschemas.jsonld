@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s12859-017-1549-4",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/bbcanalyzer",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Sarah Sandmann",
       "bsc:input": {
-        "@id": "_:N171086eef08a4325a78fd6080be1cc2b"
+        "@id": "_:N9ea26c36fc7842cd933b2404e06ec9a5"
       },
       "bsc:output": [
         {
-          "@id": "_:N3aa4880e61f344baa009856e68fa2a6c"
+          "@id": "_:N691bcfda5011400c9d600d894a604c98"
         },
         {
-          "@id": "_:Na765647ba0ec4634959271a0eb6549b0"
+          "@id": "_:N6cd43ebce35c46858d3992c8d641d0e1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,10 +61,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_0092"
         },
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_0080"
         }
       ],
       "sc:citation": [
@@ -73,18 +77,18 @@
       "sc:description": "This package visualizes the relative or absolute number of bases, deletions and insertions at defined positions in sequence alignment data available as bam files in comparison to the reference bases. Markers for the relative base frequencies, the mean quality of the detected bases, known mutations or polymorphisms and variants called in the data may additionally be included in the plots.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2478"
+          "@id": "edam:operation_0564"
         },
         {
-          "@id": "edam:operation_0564"
+          "@id": "edam:operation_2478"
         }
       ],
       "sc:license": "GPL-3.0",
       "sc:name": "BBCAnalyzer",
       "sc:operatingSystem": [
+        "Linux",
         "Mac",
-        "Windows",
-        "Linux"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/BBCAnalyzer.html"
@@ -93,7 +97,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/BBCAnalyzer.html"
     },
     {
-      "@id": "_:N3aa4880e61f344baa009856e68fa2a6c",
+      "@id": "_:N691bcfda5011400c9d600d894a604c98",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2166"
@@ -109,7 +113,7 @@
       "sc:name": "Sequence composition plot"
     },
     {
-      "@id": "_:Na765647ba0ec4634959271a0eb6549b0",
+      "@id": "_:N6cd43ebce35c46858d3992c8d641d0e1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -125,7 +129,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N171086eef08a4325a78fd6080be1cc2b",
+      "@id": "_:N9ea26c36fc7842cd933b2404e06ec9a5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -134,10 +138,6 @@
         "@id": "edam:format_2572"
       },
       "sc:name": "Sequence alignment (nucleic acid)"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s12859-017-1549-4",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

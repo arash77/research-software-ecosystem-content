@@ -44,17 +44,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Oren Tzfadia",
       "bsc:input": {
-        "@id": "_:Ncc697caa38ae40a9be19f8ba86c34578"
+        "@id": "_:N64ac70f1fe6b45ebb1efcc9cf0fcc2c0"
       },
       "bsc:output": [
         {
-          "@id": "_:Nac75f348b3c548b6bcd83ce6390a50a1"
+          "@id": "_:N4531725e9b8047769ed41c8d045dc74c"
         },
         {
-          "@id": "_:N69c16e0228804e93a057491c1b0acd05"
+          "@id": "_:Nea4006e435d1477abef726f12ba422a8"
         },
         {
-          "@id": "_:N6e0f140c219849b7a37252ff3c4dd128"
+          "@id": "_:N48d772329b4e4dfea172f7eba31f2396"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -67,11 +67,11 @@
       },
       "sc:author": "Oren Tzfadia",
       "sc:citation": [
-        "pmcid:PMC4854547",
         "pubmed:27071037",
         {
           "@id": "https://doi.org/10.1080/15548627.2016.1147668"
-        }
+        },
+        "pmcid:PMC4854547"
       ],
       "sc:description": "A reliable bioinformatics approach for in silico genome-wide identification of autophagy-associated atg8-interacting motifs in various organisms.",
       "sc:featureList": [
@@ -84,9 +84,9 @@
       ],
       "sc:name": "hfAIM",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "PSB",
       "sc:softwareHelp": {
@@ -96,7 +96,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/hfAIM/"
     },
     {
-      "@id": "_:Nac75f348b3c548b6bcd83ce6390a50a1",
+      "@id": "_:N4531725e9b8047769ed41c8d045dc74c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1361"
@@ -104,23 +104,7 @@
       "sc:name": "Position frequency matrix"
     },
     {
-      "@id": "_:N69c16e0228804e93a057491c1b0acd05",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1384"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2332"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Sequence alignment (protein)"
-    },
-    {
-      "@id": "_:N6e0f140c219849b7a37252ff3c4dd128",
+      "@id": "_:Nea4006e435d1477abef726f12ba422a8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3479"
@@ -128,7 +112,23 @@
       "sc:name": "Gene order"
     },
     {
-      "@id": "_:Ncc697caa38ae40a9be19f8ba86c34578",
+      "@id": "_:N48d772329b4e4dfea172f7eba31f2396",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2332"
+        }
+      ],
+      "sc:name": "Sequence alignment (protein)"
+    },
+    {
+      "@id": "_:N64ac70f1fe6b45ebb1efcc9cf0fcc2c0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"

@@ -36,28 +36,32 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkt1065",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/selectome",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N9032e0224b8f45789f0a26b29c16ee55"
+          "@id": "_:N53e0a074a9584c6ab8c8da0d590796ea"
         },
         {
-          "@id": "_:Nf524760ad4534d22860f9def6f3dcb8d"
+          "@id": "_:N0e1ac5cc4e20431aac8741bb909530df"
         },
         {
-          "@id": "_:N2684bc5e773b4248918fbe0d1a034301"
+          "@id": "_:Nb4168134f5f64279ab34e999ff799664"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf6f6dc0dc313426aa016fc838a0060d6"
+          "@id": "_:Nef029ef2780c41e5a181b568bae6fb45"
         },
         {
-          "@id": "_:Nb4f32eca20b342609d243b1071cae78e"
+          "@id": "_:Nc2186e746e164c98b68c35b15d320630"
         },
         {
-          "@id": "_:N0fd4aca98c2541408aa1f03d811dc701"
+          "@id": "_:Nd11afaccb6e14d78899856c2d259f203"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,11 +70,11 @@
         "@id": "edam:topic_3293"
       },
       "sc:citation": [
-        "pmcid:PMC3964977",
         {
           "@id": "https://doi.org/10.1093/nar/gkt1065"
         },
-        "pubmed:24225318"
+        "pubmed:24225318",
+        "pmcid:PMC3964977"
       ],
       "sc:description": "Database of positive selection based on a rigorous branch-site specific likelihood test.",
       "sc:featureList": {
@@ -90,31 +94,7 @@
       "sc:url": "https://selectome.org/"
     },
     {
-      "@id": "_:N9032e0224b8f45789f0a26b29c16ee55",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1075"
-      },
-      "sc:name": "Protein family identifier"
-    },
-    {
-      "@id": "_:Nf524760ad4534d22860f9def6f3dcb8d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1868"
-      },
-      "sc:name": "Taxon"
-    },
-    {
-      "@id": "_:N2684bc5e773b4248918fbe0d1a034301",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:Nf6f6dc0dc313426aa016fc838a0060d6",
+      "@id": "_:Nef029ef2780c41e5a181b568bae6fb45",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -122,15 +102,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:Nb4f32eca20b342609d243b1071cae78e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0916"
-      },
-      "sc:name": "Gene report"
-    },
-    {
-      "@id": "_:N0fd4aca98c2541408aa1f03d811dc701",
+      "@id": "_:Nc2186e746e164c98b68c35b15d320630",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -138,8 +110,36 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkt1065",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nd11afaccb6e14d78899856c2d259f203",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N53e0a074a9584c6ab8c8da0d590796ea",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N0e1ac5cc4e20431aac8741bb909530df",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1075"
+      },
+      "sc:name": "Protein family identifier"
+    },
+    {
+      "@id": "_:Nb4168134f5f64279ab34e999ff799664",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1868"
+      },
+      "sc:name": "Taxon"
     }
   ]
 }

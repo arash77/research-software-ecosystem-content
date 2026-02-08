@@ -45,34 +45,34 @@
       "biotools:primaryContact": "li chen",
       "bsc:input": [
         {
-          "@id": "_:N5e673c805c98429e9ae386a059797781"
+          "@id": "_:N92ad71ab8346482b9500f1874441661c"
         },
         {
-          "@id": "_:N44e5e7b9a1d04643a1dc002fcdce685b"
+          "@id": "_:N1311b06eabf24700b1c1a05534e9d68c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9b4310a07ebb45338dbaede7bb2bf2fd"
+          "@id": "_:N33fb11fb574942dbab435a877c06d864"
         },
         {
-          "@id": "_:Nd16b52b37d05441b88b0e125832e6b7f"
+          "@id": "_:Nfa86cf16c33242e792996a5398ba77e3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_3517"
         },
         {
-          "@id": "edam:topic_2885"
+          "@id": "edam:topic_3053"
         },
         {
-          "@id": "edam:topic_3053"
+          "@id": "edam:topic_2885"
         }
       ],
       "sc:citation": [
@@ -100,7 +100,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/traseR.html"
     },
     {
-      "@id": "_:N9b4310a07ebb45338dbaede7bb2bf2fd",
+      "@id": "_:N33fb11fb574942dbab435a877c06d864",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0951"
@@ -116,7 +116,7 @@
       "sc:name": "Statistical estimate score"
     },
     {
-      "@id": "_:Nd16b52b37d05441b88b0e125832e6b7f",
+      "@id": "_:Nfa86cf16c33242e792996a5398ba77e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -132,7 +132,23 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N5e673c805c98429e9ae386a059797781",
+      "@id": "_:N92ad71ab8346482b9500f1874441661c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1017"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2197"
+        }
+      ],
+      "sc:name": "Sequence range"
+    },
+    {
+      "@id": "_:N1311b06eabf24700b1c1a05534e9d68c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -146,22 +162,6 @@
         }
       ],
       "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N44e5e7b9a1d04643a1dc002fcdce685b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1017"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2197"
-        },
-        {
-          "@id": "edam:format_3475"
-        }
-      ],
-      "sc:name": "Sequence range"
     }
   ]
 }

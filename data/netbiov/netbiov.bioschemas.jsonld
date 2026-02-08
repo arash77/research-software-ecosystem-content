@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Shailesh tripathi",
       "bsc:input": {
-        "@id": "_:Ncf32220619774f36bab7f0f9b7e47749"
+        "@id": "_:N36eed7762f034c7a90c20beed8e87221"
       },
       "bsc:output": [
         {
-          "@id": "_:Nef89ae73bc6d4e878d71d2a9355394f4"
+          "@id": "_:Nca50de48479f4a8db20d8bc165ce0762"
         },
         {
-          "@id": "_:Nb059525116284f588f718ac0ebed8bf5"
+          "@id": "_:N2a05d1ab612743d0a788bc52390e682f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -61,6 +61,9 @@
       ],
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0602"
+        },
+        {
           "@id": "edam:topic_3070"
         },
         {
@@ -68,9 +71,6 @@
         },
         {
           "@id": "edam:topic_3303"
-        },
-        {
-          "@id": "edam:topic_0602"
         },
         {
           "@id": "edam:topic_2640"
@@ -89,9 +89,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "netbiov",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/netbiov.html"
@@ -100,7 +100,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/netbiov.html"
     },
     {
-      "@id": "_:Nef89ae73bc6d4e878d71d2a9355394f4",
+      "@id": "_:Nca50de48479f4a8db20d8bc165ce0762",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -111,7 +111,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nb059525116284f588f718ac0ebed8bf5",
+      "@id": "_:N2a05d1ab612743d0a788bc52390e682f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -122,7 +122,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Ncf32220619774f36bab7f0f9b7e47749",
+      "@id": "_:N36eed7762f034c7a90c20beed8e87221",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"

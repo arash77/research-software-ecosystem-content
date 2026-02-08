@@ -72,8 +72,8 @@
       "sc:license": "Not licensed",
       "sc:name": "findZX",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
+        "Windows",
         "Mac"
       ],
       "sc:url": "https://github.com/hsigeman/findZX"

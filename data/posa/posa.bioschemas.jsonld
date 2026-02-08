@@ -66,9 +66,9 @@
       ],
       "sc:name": "POSA",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://posa.sanfordburnham.org/help.php"

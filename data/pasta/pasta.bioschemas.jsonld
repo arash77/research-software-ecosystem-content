@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "http://orcid.org/0000-0003-4525-7793",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gku399",
       "@type": "sc:CreativeWork"
     },
@@ -46,10 +50,10 @@
         "@id": "http://orcid.org/0000-0003-4525-7793"
       },
       "bsc:input": {
-        "@id": "_:Nc0845eba0dbc4d329e53750ad4e301e1"
+        "@id": "_:N82229a8c0e474fb5a3611391f19442de"
       },
       "bsc:output": {
-        "@id": "_:N2f7b2e2692634f47b97bb7443fa0a7b4"
+        "@id": "_:N1a5efa5d454d499ab6b8146e1959b4ab"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -58,18 +62,18 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_0128"
         },
         {
-          "@id": "edam:topic_0128"
+          "@id": "edam:topic_0080"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC4086119",
         "pubmed:24848016",
         {
           "@id": "https://doi.org/10.1093/nar/gku399"
-        },
-        "pmcid:PMC4086119"
+        }
       ],
       "sc:description": "A web server predictor for amyloid aggregation propensity from protein sequences.",
       "sc:featureList": {
@@ -77,13 +81,13 @@
       },
       "sc:name": "PASTA",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
-        "University of Padua, Department of Biomedical Sciences, BioComputing UP lab",
-        "ELIXIR-ITA-PADOVA"
+        "ELIXIR-ITA-PADOVA",
+        "University of Padua, Department of Biomedical Sciences, BioComputing UP lab"
       ],
       "sc:softwareHelp": {
         "@id": "http://protein.bio.unipd.it/pasta2/help.html"
@@ -92,18 +96,7 @@
       "sc:url": "http://protein.bio.unipd.it/pasta2/index.html"
     },
     {
-      "@id": "_:N2f7b2e2692634f47b97bb7443fa0a7b4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3556"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:Nc0845eba0dbc4d329e53750ad4e301e1",
+      "@id": "_:N82229a8c0e474fb5a3611391f19442de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -114,8 +107,15 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "http://orcid.org/0000-0003-4525-7793",
-      "@type": "sc:Person"
+      "@id": "_:N1a5efa5d454d499ab6b8146e1959b4ab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3556"
+      },
+      "sc:name": "Sequence features"
     }
   ]
 }

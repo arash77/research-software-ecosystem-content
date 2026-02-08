@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-7502-3157",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/OPRA",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncc5bf37fb9b24a85aeae003be677b220"
+        "@id": "_:N2737405c81b4491c846a0f01ffa0d973"
       },
       "bsc:output": {
-        "@id": "_:N1126ef5fdbc74a5bae3b1cf6d98ead31"
+        "@id": "_:N24e2510255e145ae8653a1156c1ebc68"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -55,10 +51,10 @@
       },
       "sc:author": [
         {
-          "@id": "https://orcid.org/0000-0002-7502-3157"
+          "@id": "http://orcid.org/0000-0001-7786-2109"
         },
         {
-          "@id": "http://orcid.org/0000-0001-7786-2109"
+          "@id": "https://orcid.org/0000-0002-7502-3157"
         }
       ],
       "sc:citation": [
@@ -73,9 +69,9 @@
       },
       "sc:name": "OPRA",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "Barcelona Supercomputing Center",
       "sc:softwareHelp": [
@@ -89,18 +85,7 @@
       "sc:url": "https://life.bsc.es/pid/opra"
     },
     {
-      "@id": "_:Ncc5bf37fb9b24a85aeae003be677b220",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1460"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1476"
-      },
-      "sc:name": "Protein structure"
-    },
-    {
-      "@id": "_:N1126ef5fdbc74a5bae3b1cf6d98ead31",
+      "@id": "_:N24e2510255e145ae8653a1156c1ebc68",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2042"
@@ -111,11 +96,26 @@
       "sc:name": "Evidence"
     },
     {
+      "@id": "_:N2737405c81b4491c846a0f01ffa0d973",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
       "@id": "https://doi.org/10.1002/prot.22527",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "http://orcid.org/0000-0001-7786-2109",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7502-3157",
       "@type": "sc:Person"
     }
   ]

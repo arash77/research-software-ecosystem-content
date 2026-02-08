@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/cnn6ma",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne83ef144b027407188cfa6c64f583cbe"
+        "@id": "_:N12973fce9d114e4a801bbde33a7916d6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -84,7 +84,7 @@
       "sc:url": "http://kurata35.bio.kyutech.ac.jp/CNN6mA/"
     },
     {
-      "@id": "_:Ne83ef144b027407188cfa6c64f583cbe",
+      "@id": "_:N12973fce9d114e4a801bbde33a7916d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"

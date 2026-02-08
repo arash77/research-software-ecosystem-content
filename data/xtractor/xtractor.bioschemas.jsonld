@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N6b4c20c9b6cf484f8d5c554e13e744ed"
+          "@id": "_:N711433fee76546d68308cd2dd7a944e5"
         },
         {
-          "@id": "_:N179be414d97b4777b67d802658a1585a"
+          "@id": "_:N59b7fda242de4f00a4e999458c3cfd63"
         },
         {
-          "@id": "_:N6a837b4b1bfb4bc396993a161a0a146d"
+          "@id": "_:Naa7957e4d3b74bb491d7a0f57a6ae0b9"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3c8585ec550b4d1488030daba3cda565"
+          "@id": "_:N93fa01f85b834eac8b1e759b798ae9e2"
         },
         {
-          "@id": "_:Ne0ca04c740714c96b71427bd761bf6c6"
+          "@id": "_:Naf0ef13ea40a40e8966aa1176af9a645"
         },
         {
-          "@id": "_:Ne1795410bc04481d83c87b5bd4967660"
+          "@id": "_:Naabc1bfdee4a4896a8e754e341db770d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -85,29 +85,7 @@
       "sc:url": "http://www.ms-utils.org/Xtractor/"
     },
     {
-      "@id": "_:N6b4c20c9b6cf484f8d5c554e13e744ed",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N179be414d97b4777b67d802658a1585a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0944"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Peptide mass fingerprint"
-    },
-    {
-      "@id": "_:N6a837b4b1bfb4bc396993a161a0a146d",
+      "@id": "_:N711433fee76546d68308cd2dd7a944e5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -118,18 +96,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N3c8585ec550b4d1488030daba3cda565",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:Ne0ca04c740714c96b71427bd761bf6c6",
+      "@id": "_:N59b7fda242de4f00a4e999458c3cfd63",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
@@ -140,7 +107,18 @@
       "sc:name": "Peptide mass fingerprint"
     },
     {
-      "@id": "_:Ne1795410bc04481d83c87b5bd4967660",
+      "@id": "_:Naa7957e4d3b74bb491d7a0f57a6ae0b9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N93fa01f85b834eac8b1e759b798ae9e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -149,6 +127,28 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Naf0ef13ea40a40e8966aa1176af9a645",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Naabc1bfdee4a4896a8e754e341db770d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0944"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Peptide mass fingerprint"
     }
   ]
 }

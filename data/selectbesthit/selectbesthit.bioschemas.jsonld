@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nca6152e8ba7a4fff945657195566b703"
+        "@id": "_:N8a3fcecdab5749c3a47ba1b8e064002c"
       },
       "bsc:output": {
-        "@id": "_:N7eafa4a9e0304a778cc4f1b6166c68c4"
+        "@id": "_:Nce910dd00b6240908d06178ad288995a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -68,15 +68,15 @@
       },
       "sc:name": "selectbesthit",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareVersion": "0.1 beta",
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/afelten/microbiome_analyses/SelectBestHit/0.1%20beta"
     },
     {
-      "@id": "_:N7eafa4a9e0304a778cc4f1b6166c68c4",
+      "@id": "_:Nce910dd00b6240908d06178ad288995a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -87,7 +87,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nca6152e8ba7a4fff945657195566b703",
+      "@id": "_:N8a3fcecdab5749c3a47ba1b8e064002c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

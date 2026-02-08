@@ -36,36 +36,32 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/molbev/msp259",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/seaview",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Manolo Gouy",
       "bsc:input": [
         {
-          "@id": "_:N39a6ae71b01e4e358b7236eb86480502"
+          "@id": "_:Nf897f2d451a34e59a77e7f6d0db05206"
         },
         {
-          "@id": "_:Ncb676bf564ad4c6a867a52226043aee1"
+          "@id": "_:Nbe1800e5e9cb491282038621ae037a40"
         },
         {
-          "@id": "_:N63cd478a4666430fa318e92a76520807"
+          "@id": "_:Nc153a050268d492680ac3c2ec2149ea3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Naae7957979ca45db982a61447359ac91"
+          "@id": "_:N323f581c51e34495a97bba6696e76d9f"
         },
         {
-          "@id": "_:Nac258deeedaa43bda13cc575bed40444"
+          "@id": "_:Na725090c0fc0430591b879536aca0c7c"
         },
         {
-          "@id": "_:N54b3c2da4909495fb40d20191375af55"
+          "@id": "_:N8382ac2c29534a9886a318dccb7a0a7d"
         },
         {
-          "@id": "_:N72548d543a3f4855a41de4790ed3098a"
+          "@id": "_:Ne1c06e4f8aa14208855de9ebdd704e8c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -93,29 +89,29 @@
       "sc:description": "Multiplatform graphical user interface designed to facilitate alignment and phylogenic tree building from molecular sequences.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0326"
-        },
-        {
-          "@id": "edam:operation_0567"
-        },
-        {
           "@id": "edam:operation_3081"
+        },
+        {
+          "@id": "edam:operation_0492"
         },
         {
           "@id": "edam:operation_0564"
         },
         {
+          "@id": "edam:operation_0326"
+        },
+        {
           "@id": "edam:operation_0540"
         },
         {
-          "@id": "edam:operation_0492"
+          "@id": "edam:operation_0567"
         }
       ],
       "sc:name": "SeaView",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "IFB ELIXIR-FR",
       "sc:softwareHelp": {
@@ -125,7 +121,47 @@
       "sc:url": "http://doua.prabi.fr/software/seaview"
     },
     {
-      "@id": "_:Naae7957979ca45db982a61447359ac91",
+      "@id": "_:Nf897f2d451a34e59a77e7f6d0db05206",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nbe1800e5e9cb491282038621ae037a40",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nc153a050268d492680ac3c2ec2149ea3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N323f581c51e34495a97bba6696e76d9f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Na725090c0fc0430591b879536aca0c7c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N8382ac2c29534a9886a318dccb7a0a7d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1707"
@@ -133,15 +169,7 @@
       "sc:name": "Phylogenetic tree image"
     },
     {
-      "@id": "_:Nac258deeedaa43bda13cc575bed40444",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N54b3c2da4909495fb40d20191375af55",
+      "@id": "_:Ne1c06e4f8aa14208855de9ebdd704e8c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1711"
@@ -149,36 +177,8 @@
       "sc:name": "Sequence alignment image"
     },
     {
-      "@id": "_:N72548d543a3f4855a41de4790ed3098a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:N39a6ae71b01e4e358b7236eb86480502",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:Ncb676bf564ad4c6a867a52226043aee1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N63cd478a4666430fa318e92a76520807",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:name": "Sequence"
+      "@id": "https://doi.org/10.1093/molbev/msp259",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -40,6 +40,10 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://orcid.org/0000-0003-1033-9895",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.1007/978-1-4939-6798-8_3",
       "@type": "sc:CreativeWork"
     },
@@ -51,14 +55,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N549a38c74ab347b2b1b2fa65c127cbf3"
+          "@id": "_:N252ffc7c480b4d9b9fe789deeb811b44"
         },
         {
-          "@id": "_:Ncacb459c0fa44be3b145ce9411d4626c"
+          "@id": "_:N6f33ef1de6ab4473ab9cf5c35b3a4a3b"
         }
       ],
       "bsc:output": {
-        "@id": "_:N5ae40c181d0e44ee8acc817ac0eccabb"
+        "@id": "_:N7afc748867a145f7b4702b474c5236c9"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -71,23 +75,23 @@
         }
       ],
       "sc:citation": [
-        "pubmed:24803671",
-        {
-          "@id": "https://doi.org/10.1007/978-1-4939-6798-8_3"
-        },
-        "pubmed:28236231",
         "pmcid:PMC4086095",
         {
           "@id": "https://doi.org/10.1093/nar/gku404"
-        }
+        },
+        {
+          "@id": "https://doi.org/10.1007/978-1-4939-6798-8_3"
+        },
+        "pubmed:24803671",
+        "pubmed:28236231"
       ],
       "sc:description": "PEP-SiteFinder is a web server tool for the blind identification of peptide binding sites on protein surfaces.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3897"
+          "@id": "edam:operation_0476"
         },
         {
-          "@id": "edam:operation_0476"
+          "@id": "edam:operation_3897"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -100,29 +104,7 @@
       "sc:url": "https://mobyle.rpbs.univ-paris-diderot.fr/cgi-bin/portal.py#forms::PEP-SiteFinder"
     },
     {
-      "@id": "_:N549a38c74ab347b2b1b2fa65c127cbf3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2976"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:Ncacb459c0fa44be3b145ce9411d4626c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1460"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1476"
-      },
-      "sc:name": "Protein structure"
-    },
-    {
-      "@id": "_:N5ae40c181d0e44ee8acc817ac0eccabb",
+      "@id": "_:N7afc748867a145f7b4702b474c5236c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -133,8 +115,26 @@
       "sc:name": "Protein-ligand complex"
     },
     {
-      "@id": "https://orcid.org/0000-0003-1033-9895",
-      "@type": "sc:Person"
+      "@id": "_:N252ffc7c480b4d9b9fe789deeb811b44",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N6f33ef1de6ab4473ab9cf5c35b3a4a3b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
     }
   ]
 }

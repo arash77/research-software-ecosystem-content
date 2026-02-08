@@ -46,10 +46,10 @@
         "@id": "https://orcid.org/0000-0002-6364-3332"
       },
       "bsc:input": {
-        "@id": "_:N5ca6896d96e24bce924a66159f0dd1af"
+        "@id": "_:N27da554fef8d48129d83a7165314f55b"
       },
       "bsc:output": {
-        "@id": "_:N71d1d978300c4b179996a04161e6926e"
+        "@id": "_:Nf2d7009654524007be444e865b4afdf1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:author": {
@@ -67,26 +67,26 @@
       "sc:url": "https://github.com/isinaltinkaya/vcfgl/"
     },
     {
-      "@id": "_:N71d1d978300c4b179996a04161e6926e",
+      "@id": "_:Nf2d7009654524007be444e865b4afdf1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3015"
+          "@id": "edam:format_3020"
         },
         {
           "@id": "edam:format_3016"
         },
         {
-          "@id": "edam:format_3020"
+          "@id": "edam:format_3015"
         }
       ],
       "sc:name": "Data"
     },
     {
-      "@id": "_:N5ca6896d96e24bce924a66159f0dd1af",
+      "@id": "_:N27da554fef8d48129d83a7165314f55b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

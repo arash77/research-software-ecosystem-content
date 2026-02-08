@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/gigascience/giaa065",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/galactic_circos",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nfcee9ef734dc402a8e12083ead0f2c95"
+        "@id": "_:N8eaecf83a9ee41fc97d5abef807f3899"
       },
       "bsc:output": {
-        "@id": "_:N052efbe29f4d4f0aa635f84eea0f9b8c"
+        "@id": "_:Nbf8d527f59d7458c822cc05661796803"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:citation": [
-        "pubmed:32530465",
         "pmcid:PMC7291503",
         {
           "@id": "https://doi.org/10.1093/gigascience/giaa065"
-        }
+        },
+        "pubmed:32530465"
       ],
       "sc:description": "Galactic Circos is a Galaxy wrapper providing a GUI for the Circos tool. Circos allows visualizing data in a circular format.",
       "sc:featureList": {
@@ -71,26 +67,7 @@
       "sc:url": "https://toolshed.g2.bx.psu.edu/view/iuc/circos/"
     },
     {
-      "@id": "_:Nfcee9ef734dc402a8e12083ead0f2c95",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3006"
-        },
-        {
-          "@id": "edam:format_3003"
-        },
-        {
-          "@id": "edam:format_2546"
-        }
-      ],
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N052efbe29f4d4f0aa635f84eea0f9b8c",
+      "@id": "_:Nbf8d527f59d7458c822cc05661796803",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1274"
@@ -104,6 +81,29 @@
         }
       ],
       "sc:name": "Map"
+    },
+    {
+      "@id": "_:N8eaecf83a9ee41fc97d5abef807f3899",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2546"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3006"
+        }
+      ],
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/gigascience/giaa065",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

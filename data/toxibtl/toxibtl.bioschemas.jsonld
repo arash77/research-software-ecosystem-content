@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/toxibtl",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0d6733c9bae7487b8ef0ff808ba4d75d"
+        "@id": "_:N5fe7f3b8bde449519f35f2a5a419c592"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0082"
+        },
+        {
           "@id": "edam:topic_0154"
         },
         {
           "@id": "edam:topic_3474"
-        },
-        {
-          "@id": "edam:topic_0082"
         },
         {
           "@id": "edam:topic_0121"
@@ -61,10 +61,10 @@
         }
       ],
       "sc:citation": [
+        "pubmed:34999757",
         {
           "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAC006"
-        },
-        "pubmed:34999757"
+        }
       ],
       "sc:description": "A generic webserver for peptide toxicity prediction",
       "sc:featureList": [
@@ -82,14 +82,14 @@
       "sc:license": "Not licensed",
       "sc:name": "ToxIBTL",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "http://server.wei-group.net/ToxIBTL"
     },
     {
-      "@id": "_:N0d6733c9bae7487b8ef0ff808ba4d75d",
+      "@id": "_:N5fe7f3b8bde449519f35f2a5a419c592",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

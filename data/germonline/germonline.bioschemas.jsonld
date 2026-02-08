@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N06d54757c610469896fea96827696a99"
+          "@id": "_:Neb3a70c591634973a31a46a84c929785"
         },
         {
-          "@id": "_:Nf80018466f274f3e9226156c10a17b73"
+          "@id": "_:Na6313c854040440d9cd45000df944794"
         },
         {
-          "@id": "_:Nefaab26290a0441da2de311ffe7ac193"
+          "@id": "_:N731381b5b77148968a28c639e2363e4d"
         },
         {
-          "@id": "_:N496aa49bd96a4bb9a7d4de5feaa63820"
+          "@id": "_:Nd36b0265988a4d7996ef91e5138305f4"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N56f5d401f6a34137b8aca986421dc354"
+          "@id": "_:N7efaab3c0dd64145a23d25530cf1e638"
         },
         {
-          "@id": "_:N8c4cf3f3a44546feb5734e38f873b9d8"
+          "@id": "_:Na42f3b66697648ada3889349748cea5d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,8 +66,8 @@
         "@id": "edam:topic_0623"
       },
       "sc:citation": [
-        "pmcid:PMC3004465",
         "pubmed:21149299",
+        "pmcid:PMC3004465",
         {
           "@id": "https://doi.org/10.1093/database/baq030"
         }
@@ -88,7 +88,7 @@
       "sc:url": "http://www.germonline.org/"
     },
     {
-      "@id": "_:N06d54757c610469896fea96827696a99",
+      "@id": "_:Neb3a70c591634973a31a46a84c929785",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -96,15 +96,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:Nf80018466f274f3e9226156c10a17b73",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:Nefaab26290a0441da2de311ffe7ac193",
+      "@id": "_:Na6313c854040440d9cd45000df944794",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -112,7 +104,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N496aa49bd96a4bb9a7d4de5feaa63820",
+      "@id": "_:N731381b5b77148968a28c639e2363e4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -120,7 +112,15 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:N56f5d401f6a34137b8aca986421dc354",
+      "@id": "_:Nd36b0265988a4d7996ef91e5138305f4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N7efaab3c0dd64145a23d25530cf1e638",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -131,7 +131,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N8c4cf3f3a44546feb5734e38f873b9d8",
+      "@id": "_:Na42f3b66697648ada3889349748cea5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"

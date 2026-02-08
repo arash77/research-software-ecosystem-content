@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/humu.20166",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/multidisp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb1dcf86d40c14c909886c3058ad7cf0b"
+        "@id": "_:N5ec8057c2de4472489b56d73a688c7bc"
       },
       "bsc:output": {
-        "@id": "_:N8ae86e083ac84ae79ab89dcbb0d48a10"
+        "@id": "_:Ne9eb8eb583b64f8fb12abb5c25eb2cd3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -61,9 +65,9 @@
       },
       "sc:name": "MultiDisp",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -73,15 +77,7 @@
       "sc:url": "http://structure.bmc.lu.se/MultiDisp/index.html"
     },
     {
-      "@id": "_:N8ae86e083ac84ae79ab89dcbb0d48a10",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1354"
-      },
-      "sc:name": "Sequence profile"
-    },
-    {
-      "@id": "_:Nb1dcf86d40c14c909886c3058ad7cf0b",
+      "@id": "_:N5ec8057c2de4472489b56d73a688c7bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -89,8 +85,12 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "https://doi.org/10.1002/humu.20166",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Ne9eb8eb583b64f8fb12abb5c25eb2cd3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1354"
+      },
+      "sc:name": "Sequence profile"
     }
   ]
 }

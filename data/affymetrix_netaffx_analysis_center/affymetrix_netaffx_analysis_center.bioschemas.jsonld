@@ -83,8 +83,8 @@
       "sc:name": "Affymetrix NetAffx Analysis Center",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.affymetrix.com/support/help/index.affx"

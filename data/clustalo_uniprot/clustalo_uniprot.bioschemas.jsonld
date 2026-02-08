@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/clustalo_uniprot",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6002feda8c424bea88eb73a8f593a808"
+        "@id": "_:N78e248872f004c1699c0e8d42446b6e7"
       },
       "bsc:output": {
-        "@id": "_:Ne0b8991af0784ab0ada6bf42b4e32250"
+        "@id": "_:Nf5e9d0f739ba43faa75d473ef5313390"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -55,9 +55,9 @@
       },
       "sc:name": "ClustalO UniProt",
       "sc:operatingSystem": [
-        "Mac",
+        "Linux",
         "Windows",
-        "Linux"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.uniprot.org/help/sequence-alignments"
@@ -65,7 +65,7 @@
       "sc:url": "http://www.uniprot.org/align"
     },
     {
-      "@id": "_:N6002feda8c424bea88eb73a8f593a808",
+      "@id": "_:N78e248872f004c1699c0e8d42446b6e7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -76,7 +76,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Ne0b8991af0784ab0ada6bf42b4e32250",
+      "@id": "_:Nf5e9d0f739ba43faa75d473ef5313390",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

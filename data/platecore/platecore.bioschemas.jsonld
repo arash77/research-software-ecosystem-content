@@ -44,31 +44,25 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Errol Strain",
       "bsc:input": {
-        "@id": "_:N8ea869c427044d68a8f619e7ee9aebf2"
+        "@id": "_:Ndf6ef5efbba6469d9bd01919317e76af"
       },
       "bsc:output": [
         {
-          "@id": "_:N3cc5a3847d0a49f8924ea3e4362ed850"
+          "@id": "_:N046938a390bf4eec82f6e3fb7846250d"
         },
         {
-          "@id": "_:N3010d8ee67304c9086cd08fadad3464d"
+          "@id": "_:N0d14a7c67c23488f8f1652630796421a"
         },
         {
-          "@id": "_:N00de8645dd18434587ec95cb46229ea6"
+          "@id": "_:N1296cd9287a24b6a9230236c64799412"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_0108"
-        },
-        {
-          "@id": "edam:topic_0092"
-        },
         {
           "@id": "edam:topic_3572"
         },
@@ -76,7 +70,13 @@
           "@id": "edam:topic_3382"
         },
         {
+          "@id": "edam:topic_0092"
+        },
+        {
           "@id": "edam:topic_2229"
+        },
+        {
+          "@id": "edam:topic_0108"
         }
       ],
       "sc:citation": {
@@ -85,18 +85,18 @@
       "sc:description": "Provides basic S4 data structures and routines for analyzing plate based flow cytometry data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3695"
+          "@id": "edam:operation_3741"
         },
         {
-          "@id": "edam:operation_3741"
+          "@id": "edam:operation_3695"
         }
       ],
       "sc:license": "Artistic-2.0",
       "sc:name": "plateCore",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/plateCore.html"
@@ -105,7 +105,26 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/plateCore.html"
     },
     {
-      "@id": "_:N3cc5a3847d0a49f8924ea3e4362ed850",
+      "@id": "_:N046938a390bf4eec82f6e3fb7846250d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N0d14a7c67c23488f8f1652630796421a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -115,35 +134,16 @@
           "@id": "edam:format_3033"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Score"
     },
     {
-      "@id": "_:N3010d8ee67304c9086cd08fadad3464d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2082"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3547"
-        },
-        {
-          "@id": "edam:format_3033"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:N00de8645dd18434587ec95cb46229ea6",
+      "@id": "_:N1296cd9287a24b6a9230236c64799412",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -153,16 +153,16 @@
           "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3033"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3033"
         }
       ],
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N8ea869c427044d68a8f619e7ee9aebf2",
+      "@id": "_:Ndf6ef5efbba6469d9bd01919317e76af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"

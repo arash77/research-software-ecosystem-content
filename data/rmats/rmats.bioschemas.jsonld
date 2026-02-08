@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1073/pnas.1419161111",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/rmats",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0f398efa51a24b92a66581e36240ee90"
+        "@id": "_:N07f275b58d014a16a2e56c5cc02c75e3"
       },
       "bsc:output": [
         {
-          "@id": "_:N90da66ec599f4e6ea19049f2321c3c31"
+          "@id": "_:N2cd5fb0560ec4239b6501571f257d627"
         },
         {
-          "@id": "_:N502052ed13164c05a67f692c3253d4d3"
+          "@id": "_:Na5bf89226d45422d9f093d0a730ad576"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -72,9 +76,9 @@
       "sc:license": "BSD-2-Clause",
       "sc:name": "rMATS",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/Xinglab/rmats-turbo"
@@ -83,15 +87,23 @@
       "sc:url": "http://rnaseq-mats.sourceforge.net/"
     },
     {
-      "@id": "_:N90da66ec599f4e6ea19049f2321c3c31",
+      "@id": "_:N07f275b58d014a16a2e56c5cc02c75e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1669"
+        "@id": "edam:data_2977"
       },
-      "sc:name": "P-value"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2573"
+        },
+        {
+          "@id": "edam:format_1930"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N502052ed13164c05a67f692c3253d4d3",
+      "@id": "_:N2cd5fb0560ec4239b6501571f257d627",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3932"
@@ -99,24 +111,12 @@
       "sc:name": "Q-value"
     },
     {
-      "@id": "_:N0f398efa51a24b92a66581e36240ee90",
+      "@id": "_:Na5bf89226d45422d9f093d0a730ad576",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2977"
+        "@id": "edam:data_1669"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1930"
-        },
-        {
-          "@id": "edam:format_2573"
-        }
-      ],
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1073/pnas.1419161111",
-      "@type": "sc:CreativeWork"
+      "sc:name": "P-value"
     }
   ]
 }

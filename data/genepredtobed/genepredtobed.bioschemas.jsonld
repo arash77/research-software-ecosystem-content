@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/genepredtobed",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N10643f7bf8804c13b9a55d2d04a60eb1"
+        "@id": "_:N3ce1bbb557e74856a9af0157675f34ae"
       },
       "bsc:output": {
-        "@id": "_:N7d4783e2975c4e74a8d21b5d6a2b125b"
+        "@id": "_:Na0792813bfcb4b5889f4f2913232c388"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:description": "Convert genePred file to a bed file",
@@ -54,24 +54,24 @@
       "sc:url": "https://github.com/ENCODE-DCC/kentUtils/blob/master/src/utils/genePredToBed/genePredToBed"
     },
     {
-      "@id": "_:N7d4783e2975c4e74a8d21b5d6a2b125b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N10643f7bf8804c13b9a55d2d04a60eb1",
+      "@id": "_:N3ce1bbb557e74856a9af0157675f34ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_3011"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Na0792813bfcb4b5889f4f2913232c388",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
       },
       "sc:name": "Annotation track"
     }

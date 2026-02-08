@@ -36,27 +36,23 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pcbi.1005518",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/esprit-forest",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Yijun Sun",
       "bsc:input": {
-        "@id": "_:N55dc85972ccd4142bab0d71d689bc93b"
+        "@id": "_:N5c97500a8c964d599f4e07724eba8485"
       },
       "bsc:output": {
-        "@id": "_:N7a48b3ec350a404fa91871113ca95ba6"
+        "@id": "_:Ncc63b213339c42e280cacc8a8ddd1046"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_3168"
         },
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_0080"
         },
         {
           "@id": "edam:topic_3697"
@@ -64,10 +60,10 @@
       ],
       "sc:citation": [
         "pmcid:PMC5421816",
-        "pubmed:28437450",
         {
           "@id": "https://doi.org/10.1371/journal.pcbi.1005518"
-        }
+        },
+        "pubmed:28437450"
       ],
       "sc:description": "An algorithm for hierarchical clustering and taxonomic clustering of next generation sequencing data.",
       "sc:featureList": [
@@ -87,7 +83,7 @@
       "sc:url": "https://www.acsu.buffalo.edu/~yijunsun/lab/ESPRIT-Forest.html"
     },
     {
-      "@id": "_:N55dc85972ccd4142bab0d71d689bc93b",
+      "@id": "_:N5c97500a8c964d599f4e07724eba8485",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -98,7 +94,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N7a48b3ec350a404fa91871113ca95ba6",
+      "@id": "_:Ncc63b213339c42e280cacc8a8ddd1046",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -107,6 +103,10 @@
         "@id": "edam:format_2006"
       },
       "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1005518",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

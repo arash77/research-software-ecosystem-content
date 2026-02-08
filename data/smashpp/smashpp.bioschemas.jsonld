@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/smashpp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf914ef881ea54c7b8095590fca06f8bd"
+        "@id": "_:N992ca540ae7944f5b01a5df79c8b98a3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -55,13 +55,13 @@
       "sc:name": "Smash++",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:url": "https://github.com/smortezah/smashpp"
     },
     {
-      "@id": "_:Nf914ef881ea54c7b8095590fca06f8bd",
+      "@id": "_:N992ca540ae7944f5b01a5df79c8b98a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"

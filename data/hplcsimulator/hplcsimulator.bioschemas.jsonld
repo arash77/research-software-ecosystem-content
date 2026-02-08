@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/hplcsimulator",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf241df7f997c4f32b15f8ca36cdd76ef"
+        "@id": "_:Na0864e9bbf7b4bc38dc5d318e2286e5a"
       },
       "bsc:output": {
-        "@id": "_:N6939cefdd67d44c3bd47a566d90207a3"
+        "@id": "_:N6efac06d1d6340779f808d05d77945f8"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -59,8 +59,8 @@
       "sc:name": "hplcsimulator",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.hplcsimulator.org/"
@@ -68,7 +68,7 @@
       "sc:url": "http://www.hplcsimulator.org/"
     },
     {
-      "@id": "_:N6939cefdd67d44c3bd47a566d90207a3",
+      "@id": "_:N6efac06d1d6340779f808d05d77945f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -79,7 +79,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nf241df7f997c4f32b15f8ca36cdd76ef",
+      "@id": "_:Na0864e9bbf7b4bc38dc5d318e2286e5a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2050"

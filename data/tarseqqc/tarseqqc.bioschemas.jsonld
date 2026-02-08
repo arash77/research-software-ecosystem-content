@@ -45,18 +45,18 @@
       "biotools:primaryContact": "Gabriela Merino",
       "bsc:input": [
         {
-          "@id": "_:N8717b35c67d3459380fb9c33526f61a4"
+          "@id": "_:N0b25bf414abb4d6093e478ae25feb7fc"
         },
         {
-          "@id": "_:N4c69c1d7fc604325b6ad85b3f4c269c5"
+          "@id": "_:N8ab44192721b47a9acff38abd622cc71"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N278ca6097d2d4b3683de6f11c6e69356"
+          "@id": "_:N8f9179d278b046eeada82dba9b170434"
         },
         {
-          "@id": "_:N781491eb00c547079718b3981454d352"
+          "@id": "_:Na0d49a96168b484aa58d617e92f333f2"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,10 +66,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3303"
+          "@id": "edam:topic_3168"
         },
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_3303"
         }
       ],
       "sc:citation": [
@@ -81,17 +81,17 @@
       "sc:description": "The package allows the representation of targeted experiment in R. This is based on current packages and incorporates functions to do a quality control over this kind of experiments and a fast exploration of the sequenced regions. An xlsx file is generated as output.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2428"
+          "@id": "edam:operation_2403"
         },
         {
-          "@id": "edam:operation_2403"
+          "@id": "edam:operation_2428"
         }
       ],
       "sc:license": "GPL-2.0",
       "sc:name": "TarSeqQC",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
+        "Windows",
         "Mac"
       ],
       "sc:softwareHelp": {
@@ -101,18 +101,45 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/TarSeqQC.html"
     },
     {
-      "@id": "_:N278ca6097d2d4b3683de6f11c6e69356",
+      "@id": "_:N0b25bf414abb4d6093e478ae25feb7fc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2048"
+        "@id": "edam:data_0863"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3620"
-      },
-      "sc:name": "Report"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N781491eb00c547079718b3981454d352",
+      "@id": "_:N8ab44192721b47a9acff38abd622cc71",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:N8f9179d278b046eeada82dba9b170434",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -123,42 +150,15 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N8717b35c67d3459380fb9c33526f61a4",
+      "@id": "_:Na0d49a96168b484aa58d617e92f333f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0863"
+        "@id": "edam:data_2048"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_3003"
-        },
-        {
-          "@id": "edam:format_2572"
-        }
-      ],
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N4c69c1d7fc604325b6ad85b3f4c269c5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0849"
+      "sc:encodingFormat": {
+        "@id": "edam:format_3620"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2572"
-        },
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_3003"
-        }
-      ],
-      "sc:name": "Sequence record"
+      "sc:name": "Report"
     }
   ]
 }

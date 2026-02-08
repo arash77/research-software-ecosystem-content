@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/netgo_3.0",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nafd90c943ee9479889ef53b372d7ab8f"
+        "@id": "_:N7ed79760bbd54bf7a8a421b87dac71cf"
       },
       "bsc:output": {
-        "@id": "_:Nf8316cd72a1d4b189988d8898b5cff4c"
+        "@id": "_:Nc0ac3a69a7c04d5495f0df4776ad6c2f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
@@ -61,35 +61,43 @@
         }
       ],
       "sc:citation": [
+        "pmcid:PMC10626176",
         {
           "@id": "https://doi.org/10.1016/j.gpb.2023.04.001"
         },
-        "pubmed:37075830",
-        "pmcid:PMC10626176"
+        "pubmed:37075830"
       ],
       "sc:description": "Protein language model to improve large-scale functional annotations.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0303"
+          "@id": "edam:operation_3659"
         },
         {
           "@id": "edam:operation_1777"
         },
         {
-          "@id": "edam:operation_3659"
+          "@id": "edam:operation_0303"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "NetGO 3.0",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:url": "https://dmiip.sjtu.edu.cn/ng3.0"
     },
     {
-      "@id": "_:Nafd90c943ee9479889ef53b372d7ab8f",
+      "@id": "_:Nc0ac3a69a7c04d5495f0df4776ad6c2f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2534"
+      },
+      "sc:name": "Sequence attribute"
+    },
+    {
+      "@id": "_:N7ed79760bbd54bf7a8a421b87dac71cf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -98,14 +106,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:Nf8316cd72a1d4b189988d8898b5cff4c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2534"
-      },
-      "sc:name": "Sequence attribute"
     },
     {
       "@id": "https://doi.org/10.1016/j.gpb.2023.04.001",

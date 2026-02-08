@@ -44,52 +44,52 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Eugenio Mattei",
       "bsc:input": {
-        "@id": "_:N19530c577ece48c3960a7a5a69255878"
+        "@id": "_:Ned695e86ae334a79a784108ca6029716"
       },
       "bsc:output": [
         {
-          "@id": "_:Nd8b178247a5f4997b7149478372fc565"
+          "@id": "_:Nc9016115add243f38aee39219576b57f"
         },
         {
-          "@id": "_:Nda3a298d082c481a9fadd06b836163dd"
+          "@id": "_:N97495bd9de7c468abd5ee5b2d700ef22"
         },
         {
-          "@id": "_:N7fd0f8cfaa974cbc8788f8fa223f455a"
+          "@id": "_:N785de75351d146848742c86b8336c0df"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0659"
+          "@id": "edam:topic_0097"
         },
         {
-          "@id": "edam:topic_0097"
+          "@id": "edam:topic_0659"
         },
         {
           "@id": "edam:topic_0082"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4489221",
+        "pubmed:25977293",
         {
           "@id": "https://doi.org/10.1093/nar/gkv489"
         },
-        "pubmed:25977293"
+        "pmcid:PMC4489221"
       ],
       "sc:description": "BEar Alignment Global and Local. Perform pairwise alignments of RNA secondary structure. The method exploits a new encoding for RNA secondary structure (BEAR) and a substitution matrix for RNA structural elements (MBR) .",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_0509"
-        },
-        {
-          "@id": "edam:operation_0503"
-        },
         {
           "@id": "edam:operation_2439"
         },
         {
           "@id": "edam:operation_0510"
+        },
+        {
+          "@id": "edam:operation_0503"
+        },
+        {
+          "@id": "edam:operation_0509"
         }
       ],
       "sc:name": "Web-Beagle",
@@ -99,7 +99,7 @@
       "sc:url": "http://beagle.bio.uniroma2.it/index.php"
     },
     {
-      "@id": "_:Nd8b178247a5f4997b7149478372fc565",
+      "@id": "_:Nc9016115add243f38aee39219576b57f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1394"
@@ -107,15 +107,7 @@
       "sc:name": "Alignment score or penalty"
     },
     {
-      "@id": "_:Nda3a298d082c481a9fadd06b836163dd",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:name": "Image"
-    },
-    {
-      "@id": "_:N7fd0f8cfaa974cbc8788f8fa223f455a",
+      "@id": "_:N97495bd9de7c468abd5ee5b2d700ef22",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -126,7 +118,15 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N19530c577ece48c3960a7a5a69255878",
+      "@id": "_:N785de75351d146848742c86b8336c0df",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Ned695e86ae334a79a784108ca6029716",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

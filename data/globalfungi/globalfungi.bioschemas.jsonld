@@ -36,26 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/s41597-020-0567-7",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/globalfungi",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Tomas Vetrovsky",
       "bsc:input": {
-        "@id": "_:N44642534757f49ec930a48fce3b64c87"
+        "@id": "_:N96ced20e820f4e3fa033f5fed2fe5bda"
       },
       "bsc:output": {
-        "@id": "_:Nae33ed8f21814beebdd5f8ae594d0937"
+        "@id": "_:Ncf9199cd53d349cc9a66dcc2c3b3f7d9"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3050"
+        },
+        {
           "@id": "edam:topic_3810"
         },
         {
           "@id": "edam:topic_3299"
-        },
-        {
-          "@id": "edam:topic_3050"
         }
       ],
       "sc:author": "Tomas Vetrovsky",
@@ -81,7 +85,7 @@
       "sc:url": "https://globalfungi.com/"
     },
     {
-      "@id": "_:N44642534757f49ec930a48fce3b64c87",
+      "@id": "_:N96ced20e820f4e3fa033f5fed2fe5bda",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -92,7 +96,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nae33ed8f21814beebdd5f8ae594d0937",
+      "@id": "_:Ncf9199cd53d349cc9a66dcc2c3b3f7d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -101,10 +105,6 @@
         "@id": "edam:format_2310"
       },
       "sc:name": "Sequence search results"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41597-020-0567-7",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

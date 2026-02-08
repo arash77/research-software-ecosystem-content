@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nb0feb3b1770d4cd18acb09e07549d5a1"
+        "@id": "_:Naff7b8e27dfe4b1fbfd49abfcd990dfd"
       },
       "bsc:output": {
-        "@id": "_:N0d78e8d3881840dca2864d39857e603b"
+        "@id": "_:N342c1010cc9147fcb1806b0e16b8e521"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -69,8 +69,8 @@
       "sc:name": "listannotation",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Furgi_tools%2FlistAnnotation%2F1.0.0"
@@ -79,7 +79,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:Nb0feb3b1770d4cd18acb09e07549d5a1",
+      "@id": "_:Naff7b8e27dfe4b1fbfd49abfcd990dfd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -90,7 +90,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N0d78e8d3881840dca2864d39857e603b",
+      "@id": "_:N342c1010cc9147fcb1806b0e16b8e521",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

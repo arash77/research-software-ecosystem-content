@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/t2d_converter",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na30744f1a4e64d62a35feaa0a8ef8777"
+        "@id": "_:Na4380f3e76284f21b061a3f66c85f1e3"
       },
       "bsc:output": {
-        "@id": "_:Nb591e7d1486a4339b2cc91386ebcfed1"
+        "@id": "_:Ncac8e833510d4913adf3ebaf472882b5"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:description": "Converts ABI SCIEX 4700/4800 t2d files to mzXML.",
@@ -62,7 +62,7 @@
       "sc:url": "http://www.pepchem.org"
     },
     {
-      "@id": "_:Na30744f1a4e64d62a35feaa0a8ef8777",
+      "@id": "_:Na4380f3e76284f21b061a3f66c85f1e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -73,7 +73,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nb591e7d1486a4339b2cc91386ebcfed1",
+      "@id": "_:Ncac8e833510d4913adf3ebaf472882b5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1099/mgen.0.000146",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/mentalist",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8eb18bfda14f4de5a6ae3d0628114f32"
+          "@id": "_:N776f1d4bf2724fad8aa9b8730c22d201"
         },
         {
-          "@id": "_:N854110f40af24c948dd500f3820de340"
+          "@id": "_:N7472ed7e56ea4db29ab760188d825fd3"
         }
       ],
       "bsc:output": {
-        "@id": "_:N99940405bfbb4c2ebd7fd4e4d0493276"
+        "@id": "_:N28d2562f17cf4a268e01aafb636efe28"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -80,18 +76,7 @@
       "sc:url": "https://github.com/WGS-TB/MentaLiST"
     },
     {
-      "@id": "_:N99940405bfbb4c2ebd7fd4e4d0493276",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3492"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Nucleic acid signature"
-    },
-    {
-      "@id": "_:N8eb18bfda14f4de5a6ae3d0628114f32",
+      "@id": "_:N776f1d4bf2724fad8aa9b8730c22d201",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3497"
@@ -102,7 +87,7 @@
       "sc:name": "DNA sequence (raw)"
     },
     {
-      "@id": "_:N854110f40af24c948dd500f3820de340",
+      "@id": "_:N7472ed7e56ea4db29ab760188d825fd3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3210"
@@ -111,6 +96,21 @@
         "@id": "edam:format_3590"
       },
       "sc:name": "Genome index"
+    },
+    {
+      "@id": "_:N28d2562f17cf4a268e01aafb636efe28",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3492"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Nucleic acid signature"
+    },
+    {
+      "@id": "https://doi.org/10.1099/mgen.0.000146",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

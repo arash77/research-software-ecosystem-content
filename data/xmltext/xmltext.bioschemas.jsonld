@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1017/CBO9781139151405",
       "@type": "sc:CreativeWork"
     },
@@ -43,10 +51,10 @@
       "@id": "https://bio.tools/xmltext",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf118d697b20b432c94ad741448f5d4f1"
+        "@id": "_:Nb5e04b6d45754d67ae3e49054f52a519"
       },
       "bsc:output": {
-        "@id": "_:Ne5c3fd539d5c45d3a608f42d9ff46cac"
+        "@id": "_:N935b2f2a25b3418eaacc73dd7ab2e73a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -55,28 +63,28 @@
           "@id": "edam:topic_0091"
         },
         {
-          "@id": "edam:topic_3316"
+          "@id": "edam:topic_3071"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_3316"
         }
       ],
       "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
+        },
         {
           "@id": "https://doi.org/10.1017/CBO9781139151399"
         },
         {
           "@id": "https://doi.org/10.1017/CBO9781139151405"
-        },
-        {
-          "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
         }
       ],
       "sc:contributor": [
         "Wellcome Trust",
         "EMBOSS Contributors",
-        "UK MRC",
-        "UK BBSRC"
+        "UK BBSRC",
+        "UK MRC"
       ],
       "sc:description": "An Emboss tool that reads XML data and rewrites it as the original entry text",
       "sc:featureList": [
@@ -91,17 +99,17 @@
         }
       ],
       "sc:funder": [
-        "UK MRC",
+        "Wellcome Trust",
         "UK BBSRC",
-        "Wellcome Trust"
+        "UK MRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "xmltext",
       "sc:operatingSystem": [
+        "Linux",
         "Mac",
-        "Windows",
-        "Linux"
+        "Windows"
       ],
       "sc:provider": [
         "EMBOSS",
@@ -122,7 +130,7 @@
       "sc:url": "http://www.bioinformatics.nl/cgi-bin/emboss/xmltext"
     },
     {
-      "@id": "_:Ne5c3fd539d5c45d3a608f42d9ff46cac",
+      "@id": "_:N935b2f2a25b3418eaacc73dd7ab2e73a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0957"
@@ -133,7 +141,7 @@
       "sc:name": "Database metadata"
     },
     {
-      "@id": "_:Nf118d697b20b432c94ad741448f5d4f1",
+      "@id": "_:Nb5e04b6d45754d67ae3e49054f52a519",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0957"
@@ -142,14 +150,6 @@
         "@id": "edam:format_2332"
       },
       "sc:name": "Database metadata"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,50 +36,54 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/hr/uhad195",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/omicssuite",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne65d773c773a4b9c847440a1ced4b092"
+          "@id": "_:Nc9c3aa7cea7846148cb2b760e7953576"
         },
         {
-          "@id": "_:Ne19f3b722fc54965a4a3eaf7e7bda253"
+          "@id": "_:N24882671327f4b3abd282f9c07d9eddf"
         },
         {
-          "@id": "_:Nae8414afb7a048238fdd12a63201169a"
+          "@id": "_:N38b5715702b3465ca855cba209192837"
         },
         {
-          "@id": "_:Nd19f72043c5446bc992f9abcb833dad4"
+          "@id": "_:N13c29ce149d04d65950fe2d7026bc602"
         },
         {
-          "@id": "_:N1744e16a3440410fb709872a32a08aa3"
+          "@id": "_:Ned5ecd42fb124ae5856d3cb4a4fa4581"
         },
         {
-          "@id": "_:Nd6b9b015644540e8aadf46538a95e8e1"
+          "@id": "_:N6fcbfe50af0a45f8bc4b09cfdc1a0142"
         }
       ],
       "bsc:output": {
-        "@id": "_:N82432fc8504e42d38523a90196875328"
+        "@id": "_:N6f49d314d9f14f9d941955db6f985437"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Workbench",
-        "Suite",
         "Plug-in",
-        "Desktop application",
-        "Bioinformatics portal",
         "Web application",
-        "Workflow"
+        "Bioinformatics portal",
+        "Desktop application",
+        "Workflow",
+        "Suite",
+        "Workbench"
       ],
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_3391"
         },
         {
-          "@id": "edam:topic_3070"
+          "@id": "edam:topic_3315"
         },
         {
-          "@id": "edam:topic_3315"
+          "@id": "edam:topic_3070"
         }
       ],
       "sc:citation": {
@@ -105,55 +109,7 @@
       "sc:url": "https://github.com/OmicsSuite/"
     },
     {
-      "@id": "_:Ne65d773c773a4b9c847440a1ced4b092",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Ne19f3b722fc54965a4a3eaf7e7bda253",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1916"
-      },
-      "sc:name": "Alignment"
-    },
-    {
-      "@id": "_:Nae8414afb7a048238fdd12a63201169a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:name": "Expression data"
-    },
-    {
-      "@id": "_:Nd19f72043c5446bc992f9abcb833dad4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:N1744e16a3440410fb709872a32a08aa3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2082"
-      },
-      "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:Nd6b9b015644540e8aadf46538a95e8e1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0950"
-      },
-      "sc:name": "Mathematical model"
-    },
-    {
-      "@id": "_:N82432fc8504e42d38523a90196875328",
+      "@id": "_:N6f49d314d9f14f9d941955db6f985437",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -163,17 +119,61 @@
           "@id": "edam:format_2376"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2333"
         },
         {
-          "@id": "edam:format_2333"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Plot"
     },
     {
-      "@id": "https://doi.org/10.1093/hr/uhad195",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nc9c3aa7cea7846148cb2b760e7953576",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N24882671327f4b3abd282f9c07d9eddf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:N38b5715702b3465ca855cba209192837",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N13c29ce149d04d65950fe2d7026bc602",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:Ned5ecd42fb124ae5856d3cb4a4fa4581",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N6fcbfe50af0a45f8bc4b09cfdc1a0142",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0950"
+      },
+      "sc:name": "Mathematical model"
     }
   ]
 }

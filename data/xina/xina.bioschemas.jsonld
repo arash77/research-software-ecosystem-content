@@ -43,30 +43,30 @@
       "@id": "https://bio.tools/xina",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Lang Ho Lee",
-        "Sasha A. Singh"
+        "Sasha A. Singh",
+        "Lang Ho Lee"
       ],
       "bsc:input": {
-        "@id": "_:Nf46ea66affee4194801073791db7e3f5"
+        "@id": "_:Nb212e531aec54458a9d480f4ce52c193"
       },
       "bsc:output": {
-        "@id": "_:N4f3b77ee118340878b16a7c1ae8098e4"
+        "@id": "_:N87fc3b4d54a14ba28c7b18726fbf0c80"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3308"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3308"
         }
       ],
       "sc:citation": [
-        "pubmed:30370770",
         {
           "@id": "https://doi.org/10.1021/acs.jproteome.8b00615"
-        }
+        },
+        "pubmed:30370770"
       ],
       "sc:description": "An R package for network analyses from multiplexed, time-resolved proteomics or trascriptomics data",
       "sc:featureList": {
@@ -77,8 +77,8 @@
       "sc:name": "XINA",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://www.bioconductor.org/packages/devel/bioc/manuals/XINA/man/XINA.pdf"
@@ -87,7 +87,7 @@
       "sc:url": "https://www.bioconductor.org/packages/devel/bioc/html/XINA.html"
     },
     {
-      "@id": "_:Nf46ea66affee4194801073791db7e3f5",
+      "@id": "_:Nb212e531aec54458a9d480f4ce52c193",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -98,7 +98,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N4f3b77ee118340878b16a7c1ae8098e4",
+      "@id": "_:N87fc3b4d54a14ba28c7b18726fbf0c80",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

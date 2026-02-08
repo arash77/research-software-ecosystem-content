@@ -36,29 +36,25 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pone.0157022",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/sartools",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Hugo Varet",
         "Jean-Yves Coppée",
-        "Marie-Agnès Dillies"
+        "Marie-Agnès Dillies",
+        "Hugo Varet"
       ],
       "bsc:input": {
-        "@id": "_:N3a34870146f14d9f9bbc7cd7aad35c7d"
+        "@id": "_:N6cd636c3b67a41d4b5ccdfaa501a575f"
       },
       "bsc:output": [
         {
-          "@id": "_:N2ba010e5f6c54248b251ddda365c7351"
+          "@id": "_:N186a840ba54144d481c57662d40a7664"
         },
         {
-          "@id": "_:N304d7bd16a1042f9856b9ceefd340767"
+          "@id": "_:N4aa68b01a78f4157a943f624bc1453cb"
         },
         {
-          "@id": "_:Nc4ae1b8c1a9f4e6aa4f1ae213be6075a"
+          "@id": "_:N1fdb3612e69b439ca6136c8853013ea8"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -72,8 +68,8 @@
         }
       ],
       "sc:author": [
-        "Hugo Varet",
-        "Marie-Agnès Dillies"
+        "Marie-Agnès Dillies",
+        "Hugo Varet"
       ],
       "sc:citation": [
         "pubmed:27280887",
@@ -86,13 +82,13 @@
       "sc:description": "R package dedicated to the differential analysis of RNA-seq data. It provides tools to generate descriptive and diagnostic graphs, to run the differential analysis with one of the well known DESeq2 or edgeR packages and to export the results into easily readable tab-delimited files. It also facilitates the generation of a HTML report which displays all the figures produced, explains the statistical methods and gives the results of the differential analysis.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3435"
+          "@id": "edam:operation_3563"
         },
         {
           "@id": "edam:operation_3223"
         },
         {
-          "@id": "edam:operation_3563"
+          "@id": "edam:operation_3435"
         }
       ],
       "sc:funder": "France Génomique",
@@ -100,9 +96,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "SARTools",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": [
         "Bioinformatics and Biostatistics Hub",
@@ -110,36 +106,17 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://dx.doi.org/10.1371/journal.pone.0157022"
+          "@id": "https://github.com/PF2-pasteur-fr/SARTools"
         },
         {
-          "@id": "https://github.com/PF2-pasteur-fr/SARTools"
+          "@id": "https://dx.doi.org/10.1371/journal.pone.0157022"
         }
       ],
       "sc:softwareVersion": "1.4.0",
       "sc:url": "https://github.com/PF2-pasteur-fr/SARTools"
     },
     {
-      "@id": "_:N2ba010e5f6c54248b251ddda365c7351",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N304d7bd16a1042f9856b9ceefd340767",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2531"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Experiment report"
-    },
-    {
-      "@id": "_:Nc4ae1b8c1a9f4e6aa4f1ae213be6075a",
+      "@id": "_:N186a840ba54144d481c57662d40a7664",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -150,7 +127,26 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N3a34870146f14d9f9bbc7cd7aad35c7d",
+      "@id": "_:N4aa68b01a78f4157a943f624bc1453cb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N1fdb3612e69b439ca6136c8853013ea8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N6cd636c3b67a41d4b5ccdfaa501a575f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -159,6 +155,10 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0157022",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

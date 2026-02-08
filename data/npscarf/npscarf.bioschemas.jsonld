@@ -36,19 +36,23 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/ncomms14515",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/npscarf",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Minh Duc Cao",
       "bsc:input": [
         {
-          "@id": "_:N462b79d5098d4055a0188be826810d8d"
+          "@id": "_:Nd22566652c49483c838eaf2df7a60e70"
         },
         {
-          "@id": "_:Ne8265acc79ec4c4ba81c06f97d935439"
+          "@id": "_:Ne88e50e84b74450da3ecfcb689d8a814"
         }
       ],
       "bsc:output": {
-        "@id": "_:N0f218f5dded444d4baaaa45cdab8fbf7"
+        "@id": "_:Nc04c4eae0a02457782612313daf37aaf"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Plug-in",
@@ -61,11 +65,11 @@
         }
       ],
       "sc:citation": [
+        "pubmed:28218240",
+        "pmcid:PMC5321748",
         {
           "@id": "https://doi.org/10.1038/ncomms14515"
-        },
-        "pubmed:28218240",
-        "pmcid:PMC5321748"
+        }
       ],
       "sc:description": "A hybrid sequence assembler that can scaffold and complete fragmented short read assemblies with sequence data streaming from the nanopore sequencing while sequencing is still in progress. Furthermore, it continuously reports assembly quality during the experiment so that users can terminate the sequencing when an assembly of sufficient quality and completeness is obtained.",
       "sc:featureList": [
@@ -88,7 +92,7 @@
       "sc:url": "https://github.com/mdcao/npScarf"
     },
     {
-      "@id": "_:N462b79d5098d4055a0188be826810d8d",
+      "@id": "_:Nd22566652c49483c838eaf2df7a60e70",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -99,7 +103,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Ne8265acc79ec4c4ba81c06f97d935439",
+      "@id": "_:Ne88e50e84b74450da3ecfcb689d8a814",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -110,7 +114,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N0f218f5dded444d4baaaa45cdab8fbf7",
+      "@id": "_:Nc04c4eae0a02457782612313daf37aaf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -119,10 +123,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence record"
-    },
-    {
-      "@id": "https://doi.org/10.1038/ncomms14515",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

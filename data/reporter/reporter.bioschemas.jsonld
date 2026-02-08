@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/reporter",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N69a9aea8723e49f0aee8d59f54aadf94"
+        "@id": "_:Nd80c8299fdc74bfc9790ad0c4aa1db52"
       },
       "bsc:output": {
-        "@id": "_:N427e1767d8ea4e8e9d55864e3895b223"
+        "@id": "_:Nf83de14dd60d4fac953dc125e5ea09b4"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -56,8 +56,8 @@
       "sc:name": "Reporter",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -67,20 +67,20 @@
       "sc:url": "http://compomics.github.io/projects/reporter.html"
     },
     {
-      "@id": "_:N427e1767d8ea4e8e9d55864e3895b223",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2886"
-      },
-      "sc:name": "Protein sequence record"
-    },
-    {
-      "@id": "_:N69a9aea8723e49f0aee8d59f54aadf94",
+      "@id": "_:Nd80c8299fdc74bfc9790ad0c4aa1db52",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
       },
       "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Nf83de14dd60d4fac953dc125e5ea09b4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2886"
+      },
+      "sc:name": "Protein sequence record"
     }
   ]
 }

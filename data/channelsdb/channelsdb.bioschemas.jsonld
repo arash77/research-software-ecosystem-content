@@ -36,31 +36,15 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0001-9472-2589",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-6435-4719",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-1396-2543",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-7848-8216",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1093/nar/gkad1012",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkx868",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0003-3393-3010",
+      "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-6803-0340",
+      "@id": "https://orcid.org/0000-0002-3840-8760",
       "@type": "sc:Person"
     },
     {
@@ -71,23 +55,38 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nff725d71a3c74b8cacbf1a063eb1c8dd"
+          "@id": "_:N144881d564be452dba6dd5a4e0051798"
         },
         {
-          "@id": "_:N83b0b7f6573146918adeac198d470dbc"
+          "@id": "_:Nc832fe7d634c4045923a2bd48ffb791e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2551deb303d740b9b7cb37b4bb797407"
+          "@id": "_:N1367815e27364406ad5ebc6f5e36234a"
         },
         {
-          "@id": "_:Nf339929ee3314149867be90d918e0a59"
+          "@id": "_:N88bc6cda1d6c44d2913a2941adb7798a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0123"
+        },
+        {
+          "@id": "edam:topic_0821"
+        },
+        {
+          "@id": "edam:topic_3306"
+        },
+        {
+          "@id": "edam:topic_1317"
+        },
         {
           "@id": "edam:topic_0154"
         },
@@ -95,36 +94,21 @@
           "@id": "edam:topic_3068"
         },
         {
-          "@id": "edam:topic_0078"
-        },
-        {
           "@id": "edam:topic_0820"
         },
         {
-          "@id": "edam:topic_0821"
-        },
-        {
-          "@id": "edam:topic_1317"
-        },
-        {
-          "@id": "edam:topic_3306"
-        },
-        {
           "@id": "edam:topic_0128"
-        },
-        {
-          "@id": "edam:topic_0123"
         }
       ],
       "sc:author": [
+        {
+          "@id": "https://orcid.org/0000-0002-6435-4719"
+        },
         {
           "@id": "https://orcid.org/0000-0002-0682-3089"
         },
         {
           "@id": "https://orcid.org/0000-0002-0296-2452"
-        },
-        {
-          "@id": "https://orcid.org/0000-0002-6435-4719"
         }
       ],
       "sc:citation": [
@@ -137,32 +121,29 @@
       ],
       "sc:contributor": [
         {
-          "@id": "https://orcid.org/0000-0003-3393-3010"
-        },
-        {
-          "@id": "https://orcid.org/0000-0003-1396-2543"
-        },
-        {
-          "@id": "https://orcid.org/0000-0002-3840-8760"
-        },
-        {
-          "@id": "https://orcid.org/0000-0001-9472-2589"
-        },
-        {
-          "@id": "https://orcid.org/0000-0002-6803-0340"
+          "@id": "https://orcid.org/0000-0001-7142-3092"
         },
         {
           "@id": "https://orcid.org/0000-0002-7848-8216"
         },
         {
-          "@id": "https://orcid.org/0000-0001-7142-3092"
+          "@id": "https://orcid.org/0000-0001-9472-2589"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3393-3010"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-6803-0340"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3840-8760"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1396-2543"
         }
       ],
       "sc:description": "A comprehensive resource of channels, pores and tunnels found in biomacromolecular structures deposited in the Protein Data Bank.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_0570"
-        },
         {
           "@id": "edam:operation_0245"
         },
@@ -171,15 +152,18 @@
         },
         {
           "@id": "edam:operation_0250"
+        },
+        {
+          "@id": "edam:operation_0570"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "Freeware",
       "sc:name": "ChannelsDB 2.0",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": {
         "@id": "https://orcid.org/0000-0002-3840-8760"
@@ -189,20 +173,36 @@
           "@id": "https://channelsdb2.biodata.ceitec.cz/methods.html"
         },
         {
+          "@id": "https://channelsdb2.biodata.ceitec.cz/about.html"
+        },
+        {
           "@id": "https://channelsdb2.biodata.ceitec.cz/api"
         },
         {
           "@id": "https://channelsdb2.biodata.ceitec.cz/documentation.html"
-        },
-        {
-          "@id": "https://channelsdb2.biodata.ceitec.cz/about.html"
         }
       ],
       "sc:softwareVersion": "2.0",
       "sc:url": "https://channelsdb2.biodata.ceitec.cz/"
     },
     {
-      "@id": "_:Nff725d71a3c74b8cacbf1a063eb1c8dd",
+      "@id": "_:N144881d564be452dba6dd5a4e0051798",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_1477"
+        }
+      ],
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:Nc832fe7d634c4045923a2bd48ffb791e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -213,33 +213,17 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N83b0b7f6573146918adeac198d470dbc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1127"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1477"
-        },
-        {
-          "@id": "edam:format_1476"
-        }
-      ],
-      "sc:name": "PDB ID"
-    },
-    {
-      "@id": "_:N2551deb303d740b9b7cb37b4bb797407",
+      "@id": "_:N1367815e27364406ad5ebc6f5e36234a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3464"
+          "@id": "edam:format_1476"
         },
         {
-          "@id": "edam:format_1476"
+          "@id": "edam:format_3464"
         },
         {
           "@id": "edam:format_2331"
@@ -248,17 +232,17 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:Nf339929ee3314149867be90d918e0a59",
+      "@id": "_:N88bc6cda1d6c44d2913a2941adb7798a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2878"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3464"
+          "@id": "edam:format_2332"
         },
         {
-          "@id": "edam:format_2332"
+          "@id": "edam:format_3464"
         }
       ],
       "sc:name": "Protein structural motif"
@@ -268,16 +252,32 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://orcid.org/0000-0002-7848-8216",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://orcid.org/0000-0002-0296-2452",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-3393-3010",
+      "@id": "https://orcid.org/0000-0001-9472-2589",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-3840-8760",
+      "@id": "https://orcid.org/0000-0002-6435-4719",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1396-2543",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6803-0340",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx868",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://orcid.org/0000-0001-7142-3092",

@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/j.jmb.2023.168091",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ligbind",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N721b9caff8be4ba283003b39f261d0ec"
+        "@id": "_:N494651d884634bd6a59051a7de8acf10"
       },
       "bsc:output": {
-        "@id": "_:Na4a90750865f4662989fbdba1c074a01"
+        "@id": "_:Nfee76a8b03ef42a9905d77456a575936"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -51,45 +55,45 @@
           "@id": "edam:topic_0128"
         },
         {
-          "@id": "edam:topic_2830"
+          "@id": "edam:topic_3336"
         },
         {
           "@id": "edam:topic_3474"
         },
         {
-          "@id": "edam:topic_3336"
+          "@id": "edam:topic_2830"
         }
       ],
       "sc:citation": [
+        "pubmed:37054909",
         {
           "@id": "https://doi.org/10.1016/j.jmb.2023.168091"
-        },
-        "pubmed:37054909"
+        }
       ],
       "sc:description": "LigBind is a relation-aware framework with graph-level pre-training to enhance the ligand-specific binding residue predictions for 1159 ligands, which can effectively cover the ligands with a few known binding proteins.",
       "sc:featureList": [
+        {
+          "@id": "edam:operation_4009"
+        },
         {
           "@id": "edam:operation_2950"
         },
         {
           "@id": "edam:operation_3897"
-        },
-        {
-          "@id": "edam:operation_4009"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "CC-BY-4.0",
       "sc:name": "LigBind",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:url": "http://www.csbio.sjtu.edu.cn/bioinf/LigBind/"
     },
     {
-      "@id": "_:Na4a90750865f4662989fbdba1c074a01",
+      "@id": "_:Nfee76a8b03ef42a9905d77456a575936",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -97,7 +101,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N721b9caff8be4ba283003b39f261d0ec",
+      "@id": "_:N494651d884634bd6a59051a7de8acf10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -106,10 +110,6 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Protein structure"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.jmb.2023.168091",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

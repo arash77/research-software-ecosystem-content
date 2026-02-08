@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/NAR/GKAC1094",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ribo-uorf",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na152d6ba3dc442469935fea0a6fab896"
+          "@id": "_:N81bcce00dc154836a7b5e3fdfc0bcc72"
         },
         {
-          "@id": "_:N0f3b716d4318471f9e44dd614bfc343a"
+          "@id": "_:N377fb4503e8247ba85e1cd9dd1df3669"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -53,19 +57,19 @@
       ],
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3512"
+        },
+        {
           "@id": "edam:topic_2229"
-        },
-        {
-          "@id": "edam:topic_0203"
-        },
-        {
-          "@id": "edam:topic_0108"
         },
         {
           "@id": "edam:topic_0621"
         },
         {
-          "@id": "edam:topic_3512"
+          "@id": "edam:topic_0108"
+        },
+        {
+          "@id": "edam:topic_0203"
         }
       ],
       "sc:citation": [
@@ -78,13 +82,13 @@
       "sc:description": "A comprehensive data resource of upstream open reading frames (uORFs) based on ribosome profiling.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3096"
+          "@id": "edam:operation_0314"
         },
         {
           "@id": "edam:operation_2421"
         },
         {
-          "@id": "edam:operation_0314"
+          "@id": "edam:operation_3096"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -98,15 +102,7 @@
       "sc:url": "http://rnainformatics.org.cn/RiboUORF"
     },
     {
-      "@id": "_:Na152d6ba3dc442469935fea0a6fab896",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:N0f3b716d4318471f9e44dd614bfc343a",
+      "@id": "_:N81bcce00dc154836a7b5e3fdfc0bcc72",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2610"
@@ -114,8 +110,12 @@
       "sc:name": "Ensembl ID"
     },
     {
-      "@id": "https://doi.org/10.1093/NAR/GKAC1094",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N377fb4503e8247ba85e1cd9dd1df3669",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
     }
   ]
 }

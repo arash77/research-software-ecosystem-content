@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/sub-spia",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N096902eee6cb4a2bb7f08f352f0e1a92"
+        "@id": "_:N87e1e1e5331048e8a83491159b0807f1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
@@ -61,14 +61,14 @@
       "sc:license": "MIT",
       "sc:name": "sub-SPIA",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "https://github.com/eshinesimida/subpathway-analysis"
     },
     {
-      "@id": "_:N096902eee6cb4a2bb7f08f352f0e1a92",
+      "@id": "_:N87e1e1e5331048e8a83491159b0807f1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

@@ -42,27 +42,27 @@
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3172"
-        },
-        {
-          "@id": "edam:topic_0121"
-        },
-        {
-          "@id": "edam:topic_0769"
+          "@id": "edam:topic_3520"
         },
         {
           "@id": "edam:topic_0153"
         },
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0769"
+        },
+        {
+          "@id": "edam:topic_3172"
+        },
+        {
+          "@id": "edam:topic_0121"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1016/J.ISCI.2023.106881"
         },
-        "pmcid:PMC10227420",
-        "pubmed:37260745"
+        "pubmed:37260745",
+        "pmcid:PMC10227420"
       ],
       "sc:description": "Integrative processing of untargeted metabolomic and lipidomic data using MultiABLER.",
       "sc:featureList": [
@@ -80,8 +80,8 @@
       "sc:name": "MultiABLER",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/holab-hku/MultiABLER/blob/main/tutorials/tutorial.html"

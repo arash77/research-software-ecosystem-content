@@ -42,15 +42,15 @@
         "@id": "https://orcid.org/0000-0002-6459-6224"
       },
       "bsc:input": {
-        "@id": "_:N19d922fbf41a42c1818b4da0d14d7451"
+        "@id": "_:Na6d144b291a24ed5a94ea77bd0f6609f"
       },
       "bsc:output": {
-        "@id": "_:N0dc4f1178e9d4002ade4fd8cb7f8e586"
+        "@id": "_:Nc19f5a1e275a415da05c3ece80faf8ca"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Command-line tool"
+        "Command-line tool",
+        "Web application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3307"
@@ -79,13 +79,24 @@
         "@id": "http://intervene.readthedocs.io"
       },
       "sc:softwareVersion": [
-        "0.6.4",
-        "0.5.8"
+        "0.5.8",
+        "0.6.4"
       ],
       "sc:url": "https://bitbucket.org/CBGR/intervene"
     },
     {
-      "@id": "_:N0dc4f1178e9d4002ade4fd8cb7f8e586",
+      "@id": "_:Na6d144b291a24ed5a94ea77bd0f6609f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:Nc19f5a1e275a415da05c3ece80faf8ca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -95,23 +106,12 @@
           "@id": "edam:format_3604"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3508"
         },
         {
-          "@id": "edam:format_3508"
+          "@id": "edam:format_2330"
         }
       ],
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:N19d922fbf41a42c1818b4da0d14d7451",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
       "sc:name": "Sequence set"
     },
     {

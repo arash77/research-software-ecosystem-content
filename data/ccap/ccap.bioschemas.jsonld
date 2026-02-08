@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/ccap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N441600a7992143f0bb798eb9591b24d1"
+        "@id": "_:N64889b9f7c4b47849d1a9f81219f9f97"
       },
       "bsc:output": {
-        "@id": "_:N25e2c8368fbf4e958c5c980102286527"
+        "@id": "_:Nad31f95d11e84415a55d6859c1b336de"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -62,8 +62,8 @@
       "sc:name": "Culture collection of algae and protozoa (CCAP)",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://www.ccap.ac.uk/index.htm"
@@ -71,7 +71,7 @@
       "sc:url": "http://www.ccap.ac.uk/index.htm"
     },
     {
-      "@id": "_:N441600a7992143f0bb798eb9591b24d1",
+      "@id": "_:N64889b9f7c4b47849d1a9f81219f9f97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2778"
@@ -79,7 +79,7 @@
       "sc:name": "CCAP strain number"
     },
     {
-      "@id": "_:N25e2c8368fbf4e958c5c980102286527",
+      "@id": "_:Nad31f95d11e84415a55d6859c1b336de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0963"

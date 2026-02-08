@@ -50,10 +50,10 @@
         "@id": "http://orcid.org/0000-0002-7395-8709"
       },
       "bsc:input": {
-        "@id": "_:Nf787123d521441459f941b61335fe9eb"
+        "@id": "_:Nf0672272ebbf460195f62d413f97e671"
       },
       "bsc:output": {
-        "@id": "_:N637257a62a244546a774928e634ca85c"
+        "@id": "_:N4a23edb752104ed6ab64bc5f3c4f6324"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -79,8 +79,8 @@
       "sc:license": "GPL-2.0",
       "sc:name": "HilbertCurve",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -90,7 +90,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/HilbertCurve.html"
     },
     {
-      "@id": "_:Nf787123d521441459f941b61335fe9eb",
+      "@id": "_:Nf0672272ebbf460195f62d413f97e671",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1017"
@@ -101,7 +101,7 @@
       "sc:name": "Sequence range"
     },
     {
-      "@id": "_:N637257a62a244546a774928e634ca85c",
+      "@id": "_:N4a23edb752104ed6ab64bc5f3c4f6324",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1279"

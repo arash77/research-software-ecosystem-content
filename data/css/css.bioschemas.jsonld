@@ -44,40 +44,40 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Nick Furnham",
       "bsc:input": {
-        "@id": "_:N4fc5abe6ab114f059b87f3680c7f9e7e"
+        "@id": "_:N9cb8a3fdddb747a0aa2bd316a578ee5d"
       },
       "bsc:output": [
         {
-          "@id": "_:N0da5071bfb6f4c229605f1d31d860513"
+          "@id": "_:N6040024c6a694ae392a63741c4ef86ed"
         },
         {
-          "@id": "_:Ndbfb6d9489914e0391e0fef6b27d99d8"
+          "@id": "_:Nac9733f377674d308935e589ea294dfd"
         },
         {
-          "@id": "_:Nc2570fca45ce4add9312144c79e37faa"
+          "@id": "_:Nff2e060f02fb4c12b1adb1620a016ed9"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_1775"
+          "@id": "edam:topic_2814"
         },
         {
-          "@id": "edam:topic_2814"
+          "@id": "edam:topic_1775"
         }
       ],
       "sc:author": [
         "Thornton Group",
-        "Nick Furnham",
-        "James Torrance"
+        "James Torrance",
+        "Nick Furnham"
       ],
       "sc:citation": [
+        "pubmed:14681376",
+        "pmcid:PMC308762",
         {
           "@id": "https://doi.org/10.1093/nar/gkh028"
-        },
-        "pmcid:PMC308762",
-        "pubmed:14681376"
+        }
       ],
       "sc:contributor": "Craig Porter",
       "sc:description": "Search a protein structure for likely catalytic sites.",
@@ -98,23 +98,7 @@
       "sc:url": "http://www.ebi.ac.uk/thornton-srv/databases/CSS_NEW"
     },
     {
-      "@id": "_:N0da5071bfb6f4c229605f1d31d860513",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2992"
-      },
-      "sc:name": "Protein structure image"
-    },
-    {
-      "@id": "_:Ndbfb6d9489914e0391e0fef6b27d99d8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:Nc2570fca45ce4add9312144c79e37faa",
+      "@id": "_:N6040024c6a694ae392a63741c4ef86ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -122,7 +106,23 @@
       "sc:name": "Protein structure report"
     },
     {
-      "@id": "_:N4fc5abe6ab114f059b87f3680c7f9e7e",
+      "@id": "_:Nac9733f377674d308935e589ea294dfd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2992"
+      },
+      "sc:name": "Protein structure image"
+    },
+    {
+      "@id": "_:Nff2e060f02fb4c12b1adb1620a016ed9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N9cb8a3fdddb747a0aa2bd316a578ee5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

@@ -44,22 +44,22 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Juliane Siebourg",
       "bsc:input": {
-        "@id": "_:Na8ce95b9d94d420587c4a69d46fb4179"
+        "@id": "_:Nb475ad4e3e2c49c297344cad7a43dbde"
       },
       "bsc:output": {
-        "@id": "_:N963a7825a2a442f0b11f03734f35ab67"
+        "@id": "_:N1e86b30735b245fa99fb77eb43cd5679"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3523"
+          "@id": "edam:topic_3572"
         },
         {
-          "@id": "edam:topic_3572"
+          "@id": "edam:topic_3523"
         }
       ],
       "sc:citation": [
@@ -75,8 +75,8 @@
       "sc:license": "GPL-3.0",
       "sc:name": "staRank",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -86,18 +86,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/staRank.html"
     },
     {
-      "@id": "_:Na8ce95b9d94d420587c4a69d46fb4179",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2082"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:N963a7825a2a442f0b11f03734f35ab67",
+      "@id": "_:N1e86b30735b245fa99fb77eb43cd5679",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -106,6 +95,17 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nb475ad4e3e2c49c297344cad7a43dbde",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Matrix"
     }
   ]
 }

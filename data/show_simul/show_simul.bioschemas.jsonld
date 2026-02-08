@@ -41,14 +41,14 @@
       "biotools:primaryContact": "Pierre Nicolas",
       "bsc:input": [
         {
-          "@id": "_:Naea33b6e46af401b82626cd81eb1898b"
+          "@id": "_:N86e66dd4ddba43cbb9ec280a8cbab8aa"
         },
         {
-          "@id": "_:N35a12cd9533d4044a64c6fc46fa10640"
+          "@id": "_:N8d6c49f17f1a43f7a109e2a6890b2901"
         }
       ],
       "bsc:output": {
-        "@id": "_:N46a18635661d4d53a853e9ca9fa99874"
+        "@id": "_:N91c91ddf3c0f4b0ab8c191de3dce00f8"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -67,8 +67,8 @@
       },
       "sc:name": "show_simul",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "IFB ELIXIR-FR",
       "sc:softwareHelp": {
@@ -78,15 +78,7 @@
       "sc:url": "http://genome.jouy.inra.fr/ssb/SHOW/"
     },
     {
-      "@id": "_:N46a18635661d4d53a853e9ca9fa99874",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:Naea33b6e46af401b82626cd81eb1898b",
+      "@id": "_:N86e66dd4ddba43cbb9ec280a8cbab8aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1249"
@@ -94,12 +86,20 @@
       "sc:name": "Sequence length"
     },
     {
-      "@id": "_:N35a12cd9533d4044a64c6fc46fa10640",
+      "@id": "_:N8d6c49f17f1a43f7a109e2a6890b2901",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
       },
       "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N91c91ddf3c0f4b0ab8c191de3dce00f8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
     },
     {
       "@id": "https://doi.org/10.1038/nbt1160",

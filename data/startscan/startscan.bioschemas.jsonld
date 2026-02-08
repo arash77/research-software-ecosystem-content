@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/startscan",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N90529e6c515f4662847071819a39b02e"
+        "@id": "_:N2b8e09475ca7487f9920950ac2db7e62"
       },
       "bsc:output": {
-        "@id": "_:N9d88446f4dec4c67a87ccb54bac1e0da"
+        "@id": "_:Nad671a4cf9174e8880d6490924e2d48b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -54,10 +54,10 @@
         "@id": "edam:topic_3511"
       },
       "sc:citation": [
-        "pubmed:17646326",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btm177"
-        }
+        },
+        "pubmed:17646326"
       ],
       "sc:description": "A tool to detect translation initiation sites in genomic sequences.",
       "sc:featureList": {
@@ -66,8 +66,8 @@
       "sc:name": "StartScan",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -77,7 +77,15 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/StartScan"
     },
     {
-      "@id": "_:N90529e6c515f4662847071819a39b02e",
+      "@id": "_:Nad671a4cf9174e8880d6490924e2d48b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2070"
+      },
+      "sc:name": "Sequence motif (nucleic acid)"
+    },
+    {
+      "@id": "_:N2b8e09475ca7487f9920950ac2db7e62",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -86,14 +94,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:N9d88446f4dec4c67a87ccb54bac1e0da",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2070"
-      },
-      "sc:name": "Sequence motif (nucleic acid)"
     }
   ]
 }

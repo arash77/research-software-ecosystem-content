@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,7 +44,7 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
       "@type": "sc:CreativeWork"
     },
     {
@@ -52,14 +52,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3cef5a50bdd74489912485d8e7da608d"
+          "@id": "_:Nf129dfa1b9ae4e7b92d517c8ee9ce42f"
         },
         {
-          "@id": "_:N75d194ee18674fd0912f493b9f924fd8"
+          "@id": "_:Nea200d5517e541ca857f19a1f55cf753"
         }
       ],
       "bsc:output": {
-        "@id": "_:N547087ec0a57486e9503056a01befc92"
+        "@id": "_:Nccc8133c47364f7286304e0e184eb247"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -78,19 +78,19 @@
         }
       ],
       "sc:contributor": [
-        "EMBOSS Contributors",
-        "UK MRC",
         "UK BBSRC",
-        "Wellcome Trust"
+        "UK MRC",
+        "Wellcome Trust",
+        "EMBOSS Contributors"
       ],
       "sc:description": "Draw a hydropathy plot for a protein sequence.",
       "sc:featureList": {
         "@id": "edam:operation_2574"
       },
       "sc:funder": [
-        "UK MRC",
+        "Wellcome Trust",
         "UK BBSRC",
-        "Wellcome Trust"
+        "UK MRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
@@ -106,10 +106,10 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
+          "@id": "http://emboss.open-bio.org/rel/rel6/apps/pepwindow.html"
         },
         {
-          "@id": "http://emboss.open-bio.org/rel/rel6/apps/pepwindow.html"
+          "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
         },
         {
           "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
@@ -119,7 +119,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/pepwindow.html"
     },
     {
-      "@id": "_:N3cef5a50bdd74489912485d8e7da608d",
+      "@id": "_:Nf129dfa1b9ae4e7b92d517c8ee9ce42f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1501"
@@ -127,7 +127,7 @@
       "sc:name": "Amino acid index"
     },
     {
-      "@id": "_:N75d194ee18674fd0912f493b9f924fd8",
+      "@id": "_:Nea200d5517e541ca857f19a1f55cf753",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -135,7 +135,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N547087ec0a57486e9503056a01befc92",
+      "@id": "_:Nccc8133c47364f7286304e0e184eb247",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1522"

@@ -36,22 +36,32 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btw170",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ordo",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Contact Form",
       "bsc:input": {
-        "@id": "_:Nd22e20f32ca2427cb2c0dba9edd0b320"
+        "@id": "_:N456657afb13443dcb9e454b0f084aa8f"
       },
       "bsc:output": {
-        "@id": "_:Nd3b247a077ac4a4a80eb59ea05be7eb0"
+        "@id": "_:Nb1dcaae2fd9044a58406166c4488cd57"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Ontology",
         "Database portal",
+        "Ontology",
         "Web application"
       ],
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_0089"
+        },
         {
           "@id": "edam:topic_0634"
         },
@@ -60,12 +70,6 @@
         },
         {
           "@id": "edam:topic_3307"
-        },
-        {
-          "@id": "edam:topic_3325"
-        },
-        {
-          "@id": "edam:topic_0089"
         }
       ],
       "sc:citation": {
@@ -84,9 +88,9 @@
       "sc:license": "Apache-2.0",
       "sc:name": "ORDO",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": "Inserm US14",
       "sc:softwareHelp": {
@@ -96,7 +100,7 @@
       "sc:url": "http://www.ebi.ac.uk/ols/ontologies/ordo"
     },
     {
-      "@id": "_:Nd3b247a077ac4a4a80eb59ea05be7eb0",
+      "@id": "_:Nb1dcaae2fd9044a58406166c4488cd57",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0967"
@@ -107,16 +111,12 @@
       "sc:name": "Ontology concept data"
     },
     {
-      "@id": "_:Nd22e20f32ca2427cb2c0dba9edd0b320",
+      "@id": "_:N456657afb13443dcb9e454b0f084aa8f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2800"
       },
       "sc:name": "Orpha number"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btw170",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

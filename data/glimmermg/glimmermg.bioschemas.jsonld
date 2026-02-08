@@ -36,38 +36,42 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkr1067",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/glimmermg",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "David R. Kelley",
       "bsc:input": [
         {
-          "@id": "_:N062aa8ad033941e1b6fd9ee74b52bd59"
+          "@id": "_:N07a8e589c4a549ac9b348bbea7b9d679"
         },
         {
-          "@id": "_:Neef7913d7994410e99401c64ae0f5c62"
+          "@id": "_:Nbc5ad011e7b7417c8badae718ffbe2dd"
         },
         {
-          "@id": "_:Nb25ea5e6c50b4e31bebfb8b07ca471ed"
+          "@id": "_:N540f941e881c4633812a9eff958f1871"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N106326bb0bcd406b9c432d80ff2eea9e"
+          "@id": "_:N4fefe7346c87447da87e1151e0e938aa"
         },
         {
-          "@id": "_:N8e5b2089998346ed9c1b3e9ed98c584c"
+          "@id": "_:Nd4104ac8fbe94234873c31d6619e5ab7"
         },
         {
-          "@id": "_:Nde478562075649ceafffba42fc32fff3"
+          "@id": "_:N43d291159e404349b8ef37f00508133c"
         },
         {
-          "@id": "_:N07c008c99ff94563a4d3abf7b99ae41f"
+          "@id": "_:Nc31fc3a801b647e38356cf31ce3b7aa8"
         },
         {
-          "@id": "_:Naa0de6f5e5a148ec8bd8094faef1cd89"
+          "@id": "_:N2f0a57ab92854de8a3c14b926a197b9c"
         },
         {
-          "@id": "_:Nf446205fd00d4e58b26738a42a3b3362"
+          "@id": "_:Ncdbaefc401c243558519f0e9623df80b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -81,22 +85,22 @@
         }
       ],
       "sc:citation": [
-        "pubmed:22102569",
         {
           "@id": "https://doi.org/10.1093/nar/gkr1067"
         },
-        "pmcid:PMC3245904"
+        "pmcid:PMC3245904",
+        "pubmed:22102569"
       ],
       "sc:description": "Glimmer-MG is a system for finding genes in environmental shotgun DNA\nsequences. Glimmer-MG (Gene Locator and Interpolated Markov ModelER -\nMetaGenomics) uses interpolated Markov models (IMMs) to identify the\ncoding regions and distinguish them from noncoding DNA. Licensed under Artistic License.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_2454"
-        },
         {
           "@id": "edam:operation_2422"
         },
         {
           "@id": "edam:operation_3937"
+        },
+        {
+          "@id": "edam:operation_2454"
         }
       ],
       "sc:license": "Other",
@@ -107,40 +111,7 @@
       "sc:url": "https://github.com/davek44/Glimmer-MG"
     },
     {
-      "@id": "_:N106326bb0bcd406b9c432d80ff2eea9e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2976"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:N8e5b2089998346ed9c1b3e9ed98c584c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0912"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Nucleic acid property"
-    },
-    {
-      "@id": "_:Nde478562075649ceafffba42fc32fff3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0914"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Codon usage data"
-    },
-    {
-      "@id": "_:N07c008c99ff94563a4d3abf7b99ae41f",
+      "@id": "_:N07a8e589c4a549ac9b348bbea7b9d679",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -148,15 +119,23 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Naa0de6f5e5a148ec8bd8094faef1cd89",
+      "@id": "_:Nbc5ad011e7b7417c8badae718ffbe2dd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1353"
+        "@id": "edam:data_3494"
       },
-      "sc:name": "Sequence motif"
+      "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Nf446205fd00d4e58b26738a42a3b3362",
+      "@id": "_:N540f941e881c4633812a9eff958f1871",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N4fefe7346c87447da87e1151e0e938aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1249"
@@ -167,7 +146,7 @@
       "sc:name": "Sequence length"
     },
     {
-      "@id": "_:N062aa8ad033941e1b6fd9ee74b52bd59",
+      "@id": "_:Nd4104ac8fbe94234873c31d6619e5ab7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -175,24 +154,45 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Neef7913d7994410e99401c64ae0f5c62",
+      "@id": "_:N43d291159e404349b8ef37f00508133c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3494"
+        "@id": "edam:data_0914"
       },
-      "sc:name": "DNA sequence"
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Codon usage data"
     },
     {
-      "@id": "_:Nb25ea5e6c50b4e31bebfb8b07ca471ed",
+      "@id": "_:Nc31fc3a801b647e38356cf31ce3b7aa8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0916"
+        "@id": "edam:data_0912"
       },
-      "sc:name": "Gene report"
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Nucleic acid property"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkr1067",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N2f0a57ab92854de8a3c14b926a197b9c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Ncdbaefc401c243558519f0e9623df80b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:name": "Sequence motif"
     }
   ]
 }

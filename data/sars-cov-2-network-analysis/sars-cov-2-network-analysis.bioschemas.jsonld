@@ -39,16 +39,16 @@
       "@id": "https://bio.tools/sars-cov-2-network-analysis",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne5a9144ff4394bd6ac3a67a9eb588a3a"
+        "@id": "_:Ne7faaba9bbca43e3be736f87a2909fa3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0128"
+          "@id": "edam:topic_2815"
         },
         {
-          "@id": "edam:topic_2815"
+          "@id": "edam:topic_0128"
         }
       ],
       "sc:description": "Predict human proteins that interact with SARS-CoV-2 and trace provenance of predictions",
@@ -67,14 +67,14 @@
       "sc:license": "GPL-3.0",
       "sc:name": "SARS-CoV-2 Protein Interaction Network Analysis",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "https://github.com/Murali-group/SARS-CoV-2-network-analysis"
     },
     {
-      "@id": "_:Ne5a9144ff4394bd6ac3a67a9eb588a3a",
+      "@id": "_:Ne7faaba9bbca43e3be736f87a2909fa3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

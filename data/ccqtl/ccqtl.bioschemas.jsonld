@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/ccqtl",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N32560a14ce4643d899dad1a1675d636d"
+        "@id": "_:N7c6fd7a665ae4c6b926e71a13e82b75f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -51,10 +51,10 @@
           "@id": "edam:topic_3338"
         },
         {
-          "@id": "edam:topic_3053"
+          "@id": "edam:topic_0625"
         },
         {
-          "@id": "edam:topic_0625"
+          "@id": "edam:topic_3053"
         }
       ],
       "sc:description": "CCQTL is a wrapper around the R/qtl2 (Broman et al, Genetics 2019 10.1534/genetics.118.301595) functions, with hard-coded parameters tailored for QTL mapping in the Collaborative Cross.",
@@ -76,7 +76,7 @@
       "sc:url": "https://gitlab.pasteur.fr/cc-qtl/ccqtl"
     },
     {
-      "@id": "_:N32560a14ce4643d899dad1a1675d636d",
+      "@id": "_:N7c6fd7a665ae4c6b926e71a13e82b75f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1274"

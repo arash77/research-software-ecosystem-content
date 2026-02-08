@@ -36,19 +36,23 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/bags",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Alejandro Quiroz-Zarate",
       "bsc:input": {
-        "@id": "_:N27b303a819584c7ab04a7c874708c478"
+        "@id": "_:N90a9dd1e1e7c44158e6a7418ea2fdb50"
       },
       "bsc:output": {
-        "@id": "_:Ncf83da5ad8af4ba6bb9f562687b1af83"
+        "@id": "_:N871bfc93fa8f4daea4c9727c0b7a7934"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0203"
@@ -78,7 +82,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/BAGS.html"
     },
     {
-      "@id": "_:N27b303a819584c7ab04a7c874708c478",
+      "@id": "_:N90a9dd1e1e7c44158e6a7418ea2fdb50",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -89,7 +93,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Ncf83da5ad8af4ba6bb9f562687b1af83",
+      "@id": "_:N871bfc93fa8f4daea4c9727c0b7a7934",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -98,10 +102,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Score"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

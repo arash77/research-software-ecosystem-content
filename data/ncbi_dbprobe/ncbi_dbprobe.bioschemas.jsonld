@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/ncbi_dbprobe",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7b1a2af23b044ffeb0ff4e103496ea7b"
+        "@id": "_:N7fc68afd0ead4eecbfafac65a1f8768c"
       },
       "bsc:output": {
-        "@id": "_:Nf0cc91f758bb4b53b84f33dd3da519a1"
+        "@id": "_:Na21ddfb2b30d488ca95b2d1fbffbb71d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -50,10 +50,10 @@
         "@id": "edam:topic_0607"
       },
       "sc:citation": [
+        "pmcid:PMC3013733",
         {
           "@id": "https://doi.org/10.1093/nar/gkq1172"
         },
-        "pmcid:PMC3013733",
         "pubmed:21097890"
       ],
       "sc:description": "Public registry of nucleic acid reagents designed for use in a wide variety of biomedical research applications, together with information on reagent distributors, probe effectiveness, and computed sequence similarities.",
@@ -62,9 +62,9 @@
       },
       "sc:name": "NCBI dbProbe",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.ncbi.nlm.nih.gov/probe/docs/"
@@ -72,7 +72,7 @@
       "sc:url": "http://www.ncbi.nlm.nih.gov/probe"
     },
     {
-      "@id": "_:N7b1a2af23b044ffeb0ff4e103496ea7b",
+      "@id": "_:N7fc68afd0ead4eecbfafac65a1f8768c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2719"
@@ -80,7 +80,7 @@
       "sc:name": "dbProbe ID"
     },
     {
-      "@id": "_:Nf0cc91f758bb4b53b84f33dd3da519a1",
+      "@id": "_:Na21ddfb2b30d488ca95b2d1fbffbb71d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2717"

@@ -60,10 +60,10 @@
       "sc:description": "AmplificationTimeR is an R package for timing sequential amplification events in genomic regions, enabling the inference of amplification order and providing insight into tumor evolution. It builds upon existing methods and allows for the timing of more copy number states.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3233"
+          "@id": "edam:operation_3965"
         },
         {
-          "@id": "edam:operation_3965"
+          "@id": "edam:operation_3233"
         }
       ],
       "sc:name": "AmplificationTimeR",

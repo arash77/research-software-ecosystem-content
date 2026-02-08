@@ -40,32 +40,32 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4e91e65b246d4d408947a02b9dce046e"
+          "@id": "_:N2c91869415ec443fad865fd006ada697"
         },
         {
-          "@id": "_:N9ffd1c19670d49a3854804f8b906349e"
+          "@id": "_:Ncdfdc95dd50a4222931368a31d965204"
         }
       ],
       "bsc:output": {
-        "@id": "_:N203edcfefa9640f2a9e69bf3b7481210"
+        "@id": "_:N7d04a5fd23ae40f3a5e10dc111f6223b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0634"
+          "@id": "edam:topic_2229"
         },
         {
-          "@id": "edam:topic_2259"
+          "@id": "edam:topic_0634"
         },
         {
           "@id": "edam:topic_0203"
         },
         {
-          "@id": "edam:topic_3067"
+          "@id": "edam:topic_2259"
         },
         {
-          "@id": "edam:topic_2229"
+          "@id": "edam:topic_3067"
         }
       ],
       "sc:citation": {
@@ -78,8 +78,8 @@
       "sc:name": "Cellosaurus",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "SIB Swiss Institute of Bioinformatics",
       "sc:softwareHelp": {
@@ -88,7 +88,7 @@
       "sc:url": "http://web.expasy.org/cellosaurus/"
     },
     {
-      "@id": "_:N4e91e65b246d4d408947a02b9dce046e",
+      "@id": "_:N2c91869415ec443fad865fd006ada697",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3671"
@@ -96,7 +96,7 @@
       "sc:name": "Text"
     },
     {
-      "@id": "_:N9ffd1c19670d49a3854804f8b906349e",
+      "@id": "_:Ncdfdc95dd50a4222931368a31d965204",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -104,7 +104,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N203edcfefa9640f2a9e69bf3b7481210",
+      "@id": "_:N7d04a5fd23ae40f3a5e10dc111f6223b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0963"

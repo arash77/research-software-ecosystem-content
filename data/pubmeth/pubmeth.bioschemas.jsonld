@@ -45,31 +45,31 @@
       "biotools:primaryContact": "Pubmeth Support",
       "bsc:input": [
         {
-          "@id": "_:Ne1ea0ca35a4c4022bdd250036391ad94"
+          "@id": "_:Nab36ac3985664c2d811dbf8e617dc53c"
         },
         {
-          "@id": "_:Nc2745f02ee054079ab0715d79b3db52b"
+          "@id": "_:N302fa08c7ce54b5a898716a1c9aae2bc"
         },
         {
-          "@id": "_:N61042293fbce477c8ae82a61ebcaa922"
+          "@id": "_:N6921f183ccbd4cab9089adfb566dde8b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2b58c8af58d54267b58c43b42a2007a5"
+          "@id": "_:N8edcfe13906641368381e2c899266f32"
         },
         {
-          "@id": "_:N466264ff663544878bc577835d78d200"
+          "@id": "_:N273f5eb0732e4e7599d97df8e94d0d62"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0654"
+          "@id": "edam:topic_2640"
         },
         {
-          "@id": "edam:topic_2640"
+          "@id": "edam:topic_0654"
         }
       ],
       "sc:citation": {
@@ -91,7 +91,7 @@
       "sc:url": "http://www.pubmeth.org"
     },
     {
-      "@id": "_:Ne1ea0ca35a4c4022bdd250036391ad94",
+      "@id": "_:Nab36ac3985664c2d811dbf8e617dc53c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -99,7 +99,15 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:Nc2745f02ee054079ab0715d79b3db52b",
+      "@id": "_:N302fa08c7ce54b5a898716a1c9aae2bc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N6921f183ccbd4cab9089adfb566dde8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0976"
@@ -107,15 +115,7 @@
       "sc:name": "Identifier (by type of data)"
     },
     {
-      "@id": "_:N61042293fbce477c8ae82a61ebcaa922",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:N2b58c8af58d54267b58c43b42a2007a5",
+      "@id": "_:N8edcfe13906641368381e2c899266f32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -126,7 +126,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N466264ff663544878bc577835d78d200",
+      "@id": "_:N273f5eb0732e4e7599d97df8e94d0d62",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"

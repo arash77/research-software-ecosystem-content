@@ -36,35 +36,31 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-015-0676-z",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/spirpro",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jittisak Senachak",
       "bsc:input": [
         {
-          "@id": "_:Ncfa5f46c8e6f4bc7b65d4e59f116b531"
+          "@id": "_:N40fe1e8af17049eea7a96ebe2f89e021"
         },
         {
-          "@id": "_:N471512247b4d4059ad9be4f0952b2ea9"
+          "@id": "_:N63b60d48577d455ca7181b21f59ee7be"
         }
       ],
       "bsc:output": {
-        "@id": "_:N5550ed9b00b74d85a6c8a832c97f2308"
+        "@id": "_:Nfbd1491963aa41388478b6382d9ff613"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Database portal",
-        "Web application"
+        "Web application",
+        "Database portal"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_0121"
         }
       ],
       "sc:citation": [
@@ -86,9 +82,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "SpirPro",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": [
         "National Center for Genetic Engineering and Biotechnology",
@@ -101,15 +97,7 @@
       "sc:url": "http://spirpro.sbi.kmutt.ac.th"
     },
     {
-      "@id": "_:Ncfa5f46c8e6f4bc7b65d4e59f116b531",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2343"
-      },
-      "sc:name": "Pathway ID (KEGG)"
-    },
-    {
-      "@id": "_:N471512247b4d4059ad9be4f0952b2ea9",
+      "@id": "_:N40fe1e8af17049eea7a96ebe2f89e021",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2099"
@@ -117,7 +105,15 @@
       "sc:name": "Name"
     },
     {
-      "@id": "_:N5550ed9b00b74d85a6c8a832c97f2308",
+      "@id": "_:N63b60d48577d455ca7181b21f59ee7be",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2343"
+      },
+      "sc:name": "Pathway ID (KEGG)"
+    },
+    {
+      "@id": "_:Nfbd1491963aa41388478b6382d9ff613",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -131,6 +127,10 @@
         }
       ],
       "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0676-z",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

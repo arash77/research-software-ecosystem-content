@@ -40,20 +40,20 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf82ca61ba6e64c768919f88382b61f91"
+          "@id": "_:N0f7020bd195c4e939f453b9f5094b25c"
         },
         {
-          "@id": "_:N247840b2a19647b38e1b16c9050fb4a5"
+          "@id": "_:N713d6533291d47cb8ce1a1b1fd413d3b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3365"
+          "@id": "edam:topic_3384"
         },
         {
-          "@id": "edam:topic_3384"
+          "@id": "edam:topic_3365"
         }
       ],
       "sc:description": "Scans the DICOM files of a defined directory at the series level, and produces as output either 1/one single csv file containing all preselected DICOM tags for each detected series; 2/ one single csv file only containing the patientID and the corresponding StudyUIDs.",
@@ -64,8 +64,8 @@
       "sc:license": "GPL-3.0",
       "sc:name": "DICOM tag extraction",
       "sc:operatingSystem": [
-        "Linux",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://docs.google.com/document/d/1QCRHohdMe7lX1xTYaw8WxOW_9v2D9EAl/edit"
@@ -74,7 +74,7 @@
       "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/3/repositories/dicom-tag-extraction/artifacts-tab"
     },
     {
-      "@id": "_:Nf82ca61ba6e64c768919f88382b61f91",
+      "@id": "_:N0f7020bd195c4e939f453b9f5094b25c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -85,7 +85,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N247840b2a19647b38e1b16c9050fb4a5",
+      "@id": "_:N713d6533291d47cb8ce1a1b1fd413d3b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

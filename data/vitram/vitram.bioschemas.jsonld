@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/vitram",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N67d3dbd5ff1f4644a4dd1f9c124363b9"
+        "@id": "_:N9fb25e9347124a52ad29cf5525f1b3ca"
       },
       "bsc:output": [
         {
-          "@id": "_:N7db39ac3db004af3be924ab7312f0789"
+          "@id": "_:Nbba6779be9ac4bf5b779f2f6aaf52841"
         },
         {
-          "@id": "_:N47df834f395847778e35b744ecfe50a3"
+          "@id": "_:Ne012ca3fb3064e4f8f0d50f776c8ea53"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -70,8 +70,8 @@
       },
       "sc:name": "ViTraM",
       "sc:operatingSystem": [
-        "Linux",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -81,7 +81,23 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/kmarchal/ViTraM/Index.html"
     },
     {
-      "@id": "_:N7db39ac3db004af3be924ab7312f0789",
+      "@id": "_:N9fb25e9347124a52ad29cf5525f1b3ca",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:Nbba6779be9ac4bf5b779f2f6aaf52841",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -89,28 +105,12 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N47df834f395847778e35b744ecfe50a3",
+      "@id": "_:Ne012ca3fb3064e4f8f0d50f776c8ea53",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
       "sc:name": "Image"
-    },
-    {
-      "@id": "_:N67d3dbd5ff1f4644a4dd1f9c124363b9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_2332"
-        }
-      ],
-      "sc:name": "Gene expression data"
     }
   ]
 }

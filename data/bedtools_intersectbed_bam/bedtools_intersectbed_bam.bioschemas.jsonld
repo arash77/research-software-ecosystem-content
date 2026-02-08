@@ -36,23 +36,19 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/bedtools_intersectbed_bam",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nd807af61ee7040709353aed53cd8a92a"
+          "@id": "_:Nc94dfe8c54cb46cf929850dc9b5ce84b"
         },
         {
-          "@id": "_:Nf842c37a73f54e7e92a89a1b0bdc4130"
+          "@id": "_:N13ba579e87974db0924780b2e9924f48"
         }
       ],
       "bsc:output": {
-        "@id": "_:N3d1480094e624862b87c1a45d5149ed9"
+        "@id": "_:Na198cfa1b39748bebd5034b0f2315fc0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -75,9 +71,9 @@
       },
       "sc:name": "bedtools_intersectbed_bam",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://quinlanlab.org/tutorials/bedtools/bedtools.html"
@@ -86,29 +82,7 @@
       "sc:url": "https://github.com/arq5x/bedtools5"
     },
     {
-      "@id": "_:N3d1480094e624862b87c1a45d5149ed9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2572"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:Nd807af61ee7040709353aed53cd8a92a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2572"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:Nf842c37a73f54e7e92a89a1b0bdc4130",
+      "@id": "_:Nc94dfe8c54cb46cf929850dc9b5ce84b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -119,7 +93,33 @@
       "sc:name": "Annotation track"
     },
     {
+      "@id": "_:N13ba579e87974db0924780b2e9924f48",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Na198cfa1b39748bebd5034b0f2315fc0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
       "@id": "https://doi.org/10.1002/0471250953.bi1112s47",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     }
   ]

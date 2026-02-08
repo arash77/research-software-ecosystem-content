@@ -36,23 +36,27 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkq1154",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/effectives346",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc351aed51771440c8366d21dab258428"
+        "@id": "_:Nb590d8d144bc4b558d37a5c6fda1ac5a"
       },
       "bsc:output": [
         {
-          "@id": "_:N9c3d9ae71a81493a9b2d8dff0bea690f"
+          "@id": "_:N458b000919174d89bb7a066d89deae4e"
         },
         {
-          "@id": "_:Nb20cb5e608cb46d0a432f96eab33ab60"
+          "@id": "_:Nf3bb2b5c39d04eec9dbef63e9893bd3a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Database portal",
-        "Web application"
+        "Web application",
+        "Database portal"
       ],
       "sc:applicationSubCategory": [
         {
@@ -63,8 +67,8 @@
         }
       ],
       "sc:citation": [
-        "pubmed:21071416",
         "pmcid:PMC3013723",
+        "pubmed:21071416",
         {
           "@id": "https://doi.org/10.1093/nar/gkq1154"
         }
@@ -76,13 +80,13 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "EffectiveS346",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": [
-        "AT-CUBE",
-        "CUBE - Computational Systems Biology"
+        "CUBE - Computational Systems Biology",
+        "AT-CUBE"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.effectivedb.org/method/effectives346"
@@ -90,15 +94,7 @@
       "sc:url": "http://www.effectivedb.org/method/effectives346"
     },
     {
-      "@id": "_:N9c3d9ae71a81493a9b2d8dff0bea690f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0920"
-      },
-      "sc:name": "Genotype/phenotype report"
-    },
-    {
-      "@id": "_:Nb20cb5e608cb46d0a432f96eab33ab60",
+      "@id": "_:N458b000919174d89bb7a066d89deae4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -109,7 +105,15 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:Nc351aed51771440c8366d21dab258428",
+      "@id": "_:Nf3bb2b5c39d04eec9dbef63e9893bd3a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:name": "Genotype/phenotype report"
+    },
+    {
+      "@id": "_:Nb590d8d144bc4b558d37a5c6fda1ac5a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -118,10 +122,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkq1154",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

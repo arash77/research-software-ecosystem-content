@@ -41,14 +41,14 @@
       "biotools:primaryContact": "Stinus Lindgreen",
       "bsc:input": [
         {
-          "@id": "_:Naf51b3c81fb849c1afaf5abac4cf367c"
+          "@id": "_:N088443fa102b49fb84f33dc1b6cf1a58"
         },
         {
-          "@id": "_:N7ec6776301834398b4e7d2908f1bf2f2"
+          "@id": "_:Nabe225a2d9a74aafb0df325360d2ca99"
         }
       ],
       "bsc:output": {
-        "@id": "_:N0736a91cd1f14285b4180db1789d110e"
+        "@id": "_:Ne58c941bdc0b433a9ce4b99386de7d41"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -73,9 +73,9 @@
       ],
       "sc:name": "WAR",
       "sc:operatingSystem": [
-        "Linux",
+        "Mac",
         "Windows",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": "binf.ku.dk",
       "sc:softwareHelp": {
@@ -85,26 +85,26 @@
       "sc:url": "http://genome.ku.dk/resources/war/"
     },
     {
-      "@id": "_:N0736a91cd1f14285b4180db1789d110e",
+      "@id": "_:Ne58c941bdc0b433a9ce4b99386de7d41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
       },
       "sc:encodingFormat": [
         {
+          "@id": "edam:format_1929"
+        },
+        {
           "@id": "edam:format_1961"
         },
         {
           "@id": "edam:format_1982"
-        },
-        {
-          "@id": "edam:format_1929"
         }
       ],
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Naf51b3c81fb849c1afaf5abac4cf367c",
+      "@id": "_:N088443fa102b49fb84f33dc1b6cf1a58",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -115,7 +115,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N7ec6776301834398b4e7d2908f1bf2f2",
+      "@id": "_:Nabe225a2d9a74aafb0df325360d2ca99",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

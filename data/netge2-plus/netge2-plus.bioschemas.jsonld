@@ -36,34 +36,30 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acs.jproteome.9b00749",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/netge2-plus",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Samuele Bovo",
-        "Pier Luigi Martelli"
+        "Pier Luigi Martelli",
+        "Samuele Bovo"
       ],
       "bsc:input": {
-        "@id": "_:Nd87105201e814a859ff0992c354c2326"
+        "@id": "_:Nbea3e2bd017b4e99ba87127af1e80ecb"
       },
       "bsc:output": [
         {
-          "@id": "_:N9e2cbe7c5eea4602a240c488ca1b9d8c"
+          "@id": "_:Nd8f71bc62b5149cdae070112e68bcac4"
         },
         {
-          "@id": "_:Nfafd87372eb54c0a81c2841736509578"
+          "@id": "_:N0c72b54613af4b73a374bde9cd8a5ad8"
         },
         {
-          "@id": "_:Nd87abcb860f7497dbc537fbbccb64f27"
+          "@id": "_:N2fb20c70fb784cc899bbf564815f9c29"
         },
         {
-          "@id": "_:Na3971c10bffe4545adc63520d3c51792"
+          "@id": "_:N840338131f064376915b215d2e4295ae"
         },
         {
-          "@id": "_:N6d31e23ee4034550a89f4942bf3dc3c7"
+          "@id": "_:N8d1026ca696c419dbad78c0b714eb552"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,8 +88,8 @@
       "sc:name": "NETGE-PLUS",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "ELIXIR-ITA-BOLOGNA",
       "sc:softwareHelp": {
@@ -103,66 +99,39 @@
       "sc:url": "http://net-ge2.biocomp.unibo.it"
     },
     {
-      "@id": "_:N9e2cbe7c5eea4602a240c488ca1b9d8c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3028"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2332"
-      },
-      "sc:name": "Taxonomy"
-    },
-    {
-      "@id": "_:Nfafd87372eb54c0a81c2841736509578",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:Nd87abcb860f7497dbc537fbbccb64f27",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2343"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_2331"
-        }
-      ],
-      "sc:name": "Pathway ID (KEGG)"
-    },
-    {
-      "@id": "_:Na3971c10bffe4545adc63520d3c51792",
+      "@id": "_:Nd8f71bc62b5149cdae070112e68bcac4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2331"
         },
         {
-          "@id": "edam:format_2331"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:N6d31e23ee4034550a89f4942bf3dc3c7",
+      "@id": "_:N0c72b54613af4b73a374bde9cd8a5ad8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N2fb20c70fb784cc899bbf564815f9c29",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1155"
@@ -178,7 +147,34 @@
       "sc:name": "Pathway ID (reactome)"
     },
     {
-      "@id": "_:Nd87105201e814a859ff0992c354c2326",
+      "@id": "_:N840338131f064376915b215d2e4295ae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2343"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Pathway ID (KEGG)"
+    },
+    {
+      "@id": "_:N8d1026ca696c419dbad78c0b714eb552",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "_:Nbea3e2bd017b4e99ba87127af1e80ecb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -187,6 +183,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.9b00749",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

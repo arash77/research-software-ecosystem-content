@@ -45,24 +45,24 @@
       "biotools:primaryContact": "Thomas Lütteke",
       "bsc:input": [
         {
-          "@id": "_:Nbacf7d1a9f514ee38c24d1be27aaab62"
+          "@id": "_:Nefc86d4401eb434185eaf36c95f5883d"
         },
         {
-          "@id": "_:Ne5795837dcf446c9985ab3f8518305f5"
+          "@id": "_:N07fc532d74664f1baefe7cac923603eb"
         },
         {
-          "@id": "_:N6feab671849f42d394288292edb0b2ea"
+          "@id": "_:N0ce60c6621e5416cb636ecba2de32cf1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9647674aa01449f69510ed4dc6a1f873"
+          "@id": "_:N7aafe82fb1ad4d229c7a54a4ff267c41"
         },
         {
-          "@id": "_:Nb170812540be42e6b7df21892e4dc38d"
+          "@id": "_:N50ac2e348b5c4ec6a4c46575592d29a5"
         },
         {
-          "@id": "_:N9061bafc25664b9aa44c44bd90e2c23c"
+          "@id": "_:N60ad4d8d25b140129195c3db8538c1a2"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,31 +92,7 @@
       "sc:url": "http://www.glycosciences.de/sweetdb/index.php"
     },
     {
-      "@id": "_:Nbacf7d1a9f514ee38c24d1be27aaab62",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2796"
-      },
-      "sc:name": "LINUCS ID"
-    },
-    {
-      "@id": "_:Ne5795837dcf446c9985ab3f8518305f5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1127"
-      },
-      "sc:name": "PDB ID"
-    },
-    {
-      "@id": "_:N6feab671849f42d394288292edb0b2ea",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2752"
-      },
-      "sc:name": "GlycoMap ID"
-    },
-    {
-      "@id": "_:N9647674aa01449f69510ed4dc6a1f873",
+      "@id": "_:N7aafe82fb1ad4d229c7a54a4ff267c41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2753"
@@ -127,7 +103,7 @@
       "sc:name": "Carbohydrate conformational map"
     },
     {
-      "@id": "_:Nb170812540be42e6b7df21892e4dc38d",
+      "@id": "_:N50ac2e348b5c4ec6a4c46575592d29a5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2313"
@@ -138,7 +114,7 @@
       "sc:name": "Carbohydrate report"
     },
     {
-      "@id": "_:N9061bafc25664b9aa44c44bd90e2c23c",
+      "@id": "_:N60ad4d8d25b140129195c3db8538c1a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2313"
@@ -147,6 +123,30 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Carbohydrate report"
+    },
+    {
+      "@id": "_:Nefc86d4401eb434185eaf36c95f5883d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2796"
+      },
+      "sc:name": "LINUCS ID"
+    },
+    {
+      "@id": "_:N07fc532d74664f1baefe7cac923603eb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2752"
+      },
+      "sc:name": "GlycoMap ID"
+    },
+    {
+      "@id": "_:N0ce60c6621e5416cb636ecba2de32cf1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:name": "PDB ID"
     }
   ]
 }

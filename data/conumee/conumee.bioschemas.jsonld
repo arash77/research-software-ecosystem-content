@@ -45,42 +45,42 @@
       "biotools:primaryContact": "Volker Hovestadt",
       "bsc:input": [
         {
-          "@id": "_:Nfd93f67fcc964ab0aff4bfa6b1c414a9"
+          "@id": "_:N42a306e54524429eb526dc36d53bfd67"
         },
         {
-          "@id": "_:N097fc9628e7c4c91a1b7075b70de1cf9"
+          "@id": "_:Na0f24f0736ed45fca74d9906fec9c5e3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd9ba203b858a479d8de92a9ae82111dd"
+          "@id": "_:N428187b576e2440bad715f1c77f74e1a"
         },
         {
-          "@id": "_:N3bc85f02240b43caa603576b6be0c597"
+          "@id": "_:N1eb2a1a3b4ec4af8a5387c7458b6d37b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_3295"
         },
         {
-          "@id": "edam:topic_3518"
+          "@id": "edam:topic_0080"
         },
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_3518"
         }
       ],
       "sc:citation": [
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
-        },
-        "pmcid:PMC4509590"
+        }
       ],
       "sc:description": "This package contains a set of processing and plotting methods for performing copy-number variation (CNV) analysis using Illumina 450k or EPIC methylation arrays.",
       "sc:featureList": {
@@ -89,9 +89,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "conumee",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/conumee.html"
@@ -100,18 +100,45 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/conumee.html"
     },
     {
-      "@id": "_:Nd9ba203b858a479d8de92a9ae82111dd",
+      "@id": "_:N42a306e54524429eb526dc36d53bfd67",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1276"
+        "@id": "edam:data_2012"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Nucleic acid features"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3578"
+        }
+      ],
+      "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N3bc85f02240b43caa603576b6be0c597",
+      "@id": "_:Na0f24f0736ed45fca74d9906fec9c5e3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3117"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3578"
+        }
+      ],
+      "sc:name": "Microarray hybridisation data"
+    },
+    {
+      "@id": "_:N428187b576e2440bad715f1c77f74e1a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -122,42 +149,15 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nfd93f67fcc964ab0aff4bfa6b1c414a9",
+      "@id": "_:N1eb2a1a3b4ec4af8a5387c7458b6d37b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2012"
+        "@id": "edam:data_1276"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3003"
-        },
-        {
-          "@id": "edam:format_3578"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Sequence coordinates"
-    },
-    {
-      "@id": "_:N097fc9628e7c4c91a1b7075b70de1cf9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3117"
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3578"
-        },
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3003"
-        }
-      ],
-      "sc:name": "Microarray hybridisation data"
+      "sc:name": "Nucleic acid features"
     }
   ]
 }

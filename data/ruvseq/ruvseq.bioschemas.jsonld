@@ -44,15 +44,15 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Davide Risso",
       "bsc:input": {
-        "@id": "_:Nc9b90dbbf8b24c29838337199f05f338"
+        "@id": "_:N170d5c6067524a8798592947de358810"
       },
       "bsc:output": {
-        "@id": "_:N6ad0dd9be29e465f87ef6373d434ebd9"
+        "@id": "_:Ne24aae0742d74670a2fcb0170a1d8c5d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
@@ -75,8 +75,8 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "RUVSeq",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -86,18 +86,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/RUVSeq.html"
     },
     {
-      "@id": "_:N6ad0dd9be29e465f87ef6373d434ebd9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nc9b90dbbf8b24c29838337199f05f338",
+      "@id": "_:N170d5c6067524a8798592947de358810",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -106,6 +95,17 @@
         "@id": "edam:format_1919"
       },
       "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:Ne24aae0742d74670a2fcb0170a1d8c5d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Plot"
     }
   ]
 }

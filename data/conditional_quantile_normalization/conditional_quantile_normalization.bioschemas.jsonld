@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/biostatistics/kxr054",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/conditional_quantile_normalization",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Bioconductor",
       "bsc:input": {
-        "@id": "_:Ncd0852c396cd469096d8a6c5fb6b7ded"
+        "@id": "_:N42c5d537c80b4d40afadee3e719b3159"
       },
       "bsc:output": {
-        "@id": "_:N1e63c38fecad42babc28ef82e5910b78"
+        "@id": "_:Ne33fb579b273492f83417e401029bb38"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -59,11 +55,11 @@
         "Kasper Daniel Hansen"
       ],
       "sc:citation": [
-        "pubmed:22285995",
+        "pmcid:PMC3297825",
         {
           "@id": "https://doi.org/10.1093/biostatistics/kxr054"
         },
-        "pmcid:PMC3297825"
+        "pubmed:22285995"
       ],
       "sc:description": "A normalization tool for RNA-Seq data, implementing the conditional quantile normalization method.",
       "sc:featureList": {
@@ -72,9 +68,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "Conditional quantile normalization",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "sanger.ac.uk",
       "sc:softwareHelp": {
@@ -84,7 +80,7 @@
       "sc:url": "http://www.bioconductor.org/packages/release/bioc/html/cqn.html"
     },
     {
-      "@id": "_:N1e63c38fecad42babc28ef82e5910b78",
+      "@id": "_:Ne33fb579b273492f83417e401029bb38",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -92,7 +88,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:Ncd0852c396cd469096d8a6c5fb6b7ded",
+      "@id": "_:N42c5d537c80b4d40afadee3e719b3159",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -101,6 +97,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "https://doi.org/10.1093/biostatistics/kxr054",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

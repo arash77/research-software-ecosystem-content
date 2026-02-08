@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nce0329e425d04a7cbeea307fa2a069aa"
+          "@id": "_:N8fff1b0256124e579c87668284d96998"
         },
         {
-          "@id": "_:Nade92c550a574d30a4af0a0720b204f4"
+          "@id": "_:Na2a44903d1a0429a8fcc0a25a8ac4ebc"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nb8d8757bda2d4d2a8461e8792c634ead"
+          "@id": "_:N308f7ec887b34193b3595d76af72323e"
         },
         {
-          "@id": "_:Nd8b1ac6fa87842d7b95b48bf0d716553"
+          "@id": "_:N2ccfd60db1b64623b5a09bb3ad28ce16"
         },
         {
-          "@id": "_:N7284113bf2764255b0a49632dd02e19c"
+          "@id": "_:Nea7c7b5f657545b68356725b40367bc9"
         },
         {
-          "@id": "_:N772b6b8cc6684afeba88060d9ff83cd3"
+          "@id": "_:N38ccb93dbe374b46b17d378d67a822aa"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -73,28 +73,28 @@
       "sc:description": "Free (Windows/WINE) tool for analysis of MS/MS, bottom-up proteomics data, including non-standard PTMs and more.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_3646"
+        },
+        {
+          "@id": "edam:operation_3647"
+        },
+        {
+          "@id": "edam:operation_3694"
+        },
+        {
+          "@id": "edam:operation_0531"
+        },
+        {
+          "@id": "edam:operation_3695"
+        },
+        {
           "@id": "edam:operation_3645"
         },
         {
           "@id": "edam:operation_3767"
         },
         {
-          "@id": "edam:operation_3647"
-        },
-        {
-          "@id": "edam:operation_0531"
-        },
-        {
-          "@id": "edam:operation_3694"
-        },
-        {
-          "@id": "edam:operation_3695"
-        },
-        {
           "@id": "edam:operation_3631"
-        },
-        {
-          "@id": "edam:operation_3646"
         },
         {
           "@id": "edam:operation_3629"
@@ -108,40 +108,7 @@
       "sc:url": "http://www.massai.dk"
     },
     {
-      "@id": "_:Nb8d8757bda2d4d2a8461e8792c634ead",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0945"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3651"
-      },
-      "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "_:Nd8b1ac6fa87842d7b95b48bf0d716553",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3483"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "Spectrum"
-    },
-    {
-      "@id": "_:N7284113bf2764255b0a49632dd02e19c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1636"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "Heat map"
-    },
-    {
-      "@id": "_:N772b6b8cc6684afeba88060d9ff83cd3",
+      "@id": "_:N308f7ec887b34193b3595d76af72323e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -152,7 +119,40 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Nce0329e425d04a7cbeea307fa2a069aa",
+      "@id": "_:N2ccfd60db1b64623b5a09bb3ad28ce16",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3483"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Spectrum"
+    },
+    {
+      "@id": "_:Nea7c7b5f657545b68356725b40367bc9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3651"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N38ccb93dbe374b46b17d378d67a822aa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N8fff1b0256124e579c87668284d96998",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -163,7 +163,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nade92c550a574d30a4af0a0720b204f4",
+      "@id": "_:Na2a44903d1a0429a8fcc0a25a8ac4ebc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

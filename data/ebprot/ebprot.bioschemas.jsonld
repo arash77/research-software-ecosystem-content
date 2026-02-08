@@ -36,24 +36,24 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acs.jproteome.8b00483",
+      "@id": "https://doi.org/10.1002/pmic.201400620",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1002/pmic.201400620",
+      "@id": "https://doi.org/10.1021/acs.jproteome.8b00483",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/ebprot",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
+        "Yunbin Zhang",
         "Christine Vogel",
         "Hyungwon Choi",
-        "Hiromi W.L. Koh",
-        "Yunbin Zhang"
+        "Hiromi W.L. Koh"
       ],
       "bsc:input": {
-        "@id": "_:N4ead096c38ff44dcb86dc15a04570b2f"
+        "@id": "_:Nd63f56d2576145658f5a062fb7f360af"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Plug-in",
@@ -61,14 +61,14 @@
         "@id": "edam:topic_0121"
       },
       "sc:citation": [
-        {
-          "@id": "https://doi.org/10.1002/pmic.201400620"
-        },
         "pubmed:25913743",
-        "pmcid:PMC6433620",
         "pubmed:30411623",
         {
           "@id": "https://doi.org/10.1021/acs.jproteome.8b00483"
+        },
+        "pmcid:PMC6433620",
+        {
+          "@id": "https://doi.org/10.1002/pmic.201400620"
         }
       ],
       "sc:description": "Perseus plugin for differential protein abundance analysis of labeling-based and label-free quantitative proteomics data",
@@ -91,7 +91,7 @@
       "sc:url": "https://github.com/cssblab/EBprot"
     },
     {
-      "@id": "_:N4ead096c38ff44dcb86dc15a04570b2f",
+      "@id": "_:Nd63f56d2576145658f5a062fb7f360af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

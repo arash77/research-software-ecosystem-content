@@ -40,28 +40,28 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8f6ecf0ab0664bc9a27180703aadae40"
+          "@id": "_:N96522038accc43b78b6ae1a293eab3c1"
         },
         {
-          "@id": "_:N7be8694827054b718fa8c25af3387a28"
+          "@id": "_:N784d050e9ff1483e8a00500b8b4389dd"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd4101a13c99a48b591c7b25dc3002f0b"
+          "@id": "_:N24fe2d6654334935bfbdaff304c7c57d"
         },
         {
-          "@id": "_:N9657d8841fee4594acc722f7cc48e08a"
+          "@id": "_:N5e365b50f4154caca011949977180944"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         },
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         }
       ],
       "sc:citation": "pubmed:16336652",
@@ -76,8 +76,8 @@
       ],
       "sc:name": "mres2x",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://sourceforge.net/p/protms/wiki/Home/"
@@ -85,7 +85,40 @@
       "sc:url": "https://sourceforge.net/projects/protms/files/mres2x/"
     },
     {
-      "@id": "_:Nd4101a13c99a48b591c7b25dc3002f0b",
+      "@id": "_:N96522038accc43b78b6ae1a293eab3c1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3713"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N784d050e9ff1483e8a00500b8b4389dd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3713"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N24fe2d6654334935bfbdaff304c7c57d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3713"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N5e365b50f4154caca011949977180944",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -98,39 +131,6 @@
           "@id": "edam:format_3475"
         }
       ],
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N9657d8841fee4594acc722f7cc48e08a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3713"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N8f6ecf0ab0664bc9a27180703aadae40",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3713"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N7be8694827054b718fa8c25af3387a28",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3713"
-      },
       "sc:name": "Mass spectrometry data"
     }
   ]

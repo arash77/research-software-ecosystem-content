@@ -40,20 +40,24 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://doi.org/10.1002/pmic.200300771",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/netphosk",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0001-6615-1141"
       },
       "bsc:input": {
-        "@id": "_:Ncb1eb56526f54da5bcd8231c388889a5"
+        "@id": "_:N171b40933ba14b90b097efcb650dba3b"
       },
       "bsc:output": [
         {
-          "@id": "_:N06655cf28fec4c189adce2b8eec39eb8"
+          "@id": "_:N8bebe568e1e44ec6b38f852d9e5976f2"
         },
         {
-          "@id": "_:N6909e05cb5cf430ba1ee487e6b035276"
+          "@id": "_:Nfe63dbede5844271b9414d6b93a3f22f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -75,9 +79,9 @@
       "sc:license": "Other",
       "sc:name": "NetPhosK",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": {
@@ -87,29 +91,7 @@
       "sc:url": "http://www.cbs.dtu.dk/services/NetPhosK/"
     },
     {
-      "@id": "_:N06655cf28fec4c189adce2b8eec39eb8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N6909e05cb5cf430ba1ee487e6b035276",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2955"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2333"
-      },
-      "sc:name": "Sequence report"
-    },
-    {
-      "@id": "_:Ncb1eb56526f54da5bcd8231c388889a5",
+      "@id": "_:N171b40933ba14b90b097efcb650dba3b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -120,8 +102,26 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "https://doi.org/10.1002/pmic.200300771",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N8bebe568e1e44ec6b38f852d9e5976f2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Sequence report"
+    },
+    {
+      "@id": "_:Nfe63dbede5844271b9414d6b93a3f22f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Report"
     }
   ]
 }

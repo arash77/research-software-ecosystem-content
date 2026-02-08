@@ -36,20 +36,24 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1080/15476286.2016.1141862",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ribogalaxy",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N62c00965e88941258a62aa1084ac662f"
+        "@id": "_:N5add26ded5f34a4cad40e2e17d8f1db2"
       },
       "bsc:output": [
         {
-          "@id": "_:N94810e88a5664a858c1cf20e9294a585"
+          "@id": "_:N3d308fb5c1854b7dbc732116bf1fc184"
         },
         {
-          "@id": "_:N4e96aa4cefab454a87f119551a2c2cdb"
+          "@id": "_:N87e72e4313ce42e68e42d206f86dfcef"
         },
         {
-          "@id": "_:Nc6e2ae612ff248c2a884d5cdc47906d1"
+          "@id": "_:N3a470bdeb38c40baad4e8d8d23104bae"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,10 +64,10 @@
       "sc:citation": [
         "pubmed:26821742",
         {
-          "@id": "https://doi.org/10.1080/15476286.2016.1141862"
+          "@id": "https://doi.org/10.1016/j.jmb.2023.168043"
         },
         {
-          "@id": "https://doi.org/10.1016/j.jmb.2023.168043"
+          "@id": "https://doi.org/10.1080/15476286.2016.1141862"
         },
         "pmcid:PMC4829337",
         "pubmed:37356899"
@@ -75,13 +79,13 @@
           "@id": "edam:operation_0337"
         },
         {
-          "@id": "edam:operation_2495"
-        },
-        {
           "@id": "edam:operation_0314"
         },
         {
           "@id": "edam:operation_2928"
+        },
+        {
+          "@id": "edam:operation_2495"
         }
       ],
       "sc:funder": "Science Foundation Ireland",
@@ -94,44 +98,17 @@
       "sc:provider": "ucc.ie",
       "sc:softwareHelp": [
         {
-          "@id": "http://ribogalaxy.ucc.ie/"
+          "@id": "http://ribogalaxy.ucc.ie/static/conditions_of_use.html"
         },
         {
-          "@id": "http://ribogalaxy.ucc.ie/static/conditions_of_use.html"
+          "@id": "http://ribogalaxy.ucc.ie/"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "http://ribogalaxy.ucc.ie"
     },
     {
-      "@id": "_:N94810e88a5664a858c1cf20e9294a585",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3603"
-      },
-      "sc:name": "Image"
-    },
-    {
-      "@id": "_:N4e96aa4cefab454a87f119551a2c2cdb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2572"
-        },
-        {
-          "@id": "edam:format_3006"
-        }
-      ],
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Nc6e2ae612ff248c2a884d5cdc47906d1",
+      "@id": "_:N3d308fb5c1854b7dbc732116bf1fc184",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2969"
@@ -142,7 +119,34 @@
       "sc:name": "Sequence image"
     },
     {
-      "@id": "_:N62c00965e88941258a62aa1084ac662f",
+      "@id": "_:N87e72e4313ce42e68e42d206f86dfcef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3006"
+        },
+        {
+          "@id": "edam:format_2572"
+        }
+      ],
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N3a470bdeb38c40baad4e8d8d23104bae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N5add26ded5f34a4cad40e2e17d8f1db2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0848"
@@ -154,10 +158,6 @@
     },
     {
       "@id": "https://doi.org/10.1016/j.jmb.2023.168043",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1080/15476286.2016.1141862",
       "@type": "sc:CreativeWork"
     }
   ]

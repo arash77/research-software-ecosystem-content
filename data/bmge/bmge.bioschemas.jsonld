@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Alexis Criscuolo",
       "bsc:input": {
-        "@id": "_:N0d6b2de87b134b38b3b352b8a96ee656"
+        "@id": "_:N1db70f053a2744eea419c766267e6cea"
       },
       "bsc:output": [
         {
-          "@id": "_:N5c43e2ecf9f2430dbdb6983bc29c1296"
+          "@id": "_:N9fe5b46aca2b4f7e83f2e79ccd8f97c9"
         },
         {
-          "@id": "_:N5a90b20f2862418099075dafbceb487b"
+          "@id": "_:N653e88cc2a2045cdb8cc4e72c22a6df2"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -81,8 +81,8 @@
         "Windows"
       ],
       "sc:provider": [
-        "Institut Pasteur",
-        "Bioinformatics and Biostatistics Hub"
+        "Bioinformatics and Biostatistics Hub",
+        "Institut Pasteur"
       ],
       "sc:softwareHelp": {
         "@id": "https://research.pasteur.fr/en/software/bmge-block-mapping-and-gathering-with-entropy/"
@@ -91,7 +91,7 @@
       "sc:url": "https://research.pasteur.fr/en/software/bmge-block-mapping-and-gathering-with-entropy/"
     },
     {
-      "@id": "_:N5c43e2ecf9f2430dbdb6983bc29c1296",
+      "@id": "_:N9fe5b46aca2b4f7e83f2e79ccd8f97c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -101,16 +101,16 @@
           "@id": "edam:format_1973"
         },
         {
-          "@id": "edam:format_1998"
+          "@id": "edam:format_1984"
         },
         {
-          "@id": "edam:format_1984"
+          "@id": "edam:format_1998"
         }
       ],
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N5a90b20f2862418099075dafbceb487b",
+      "@id": "_:N653e88cc2a2045cdb8cc4e72c22a6df2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -121,7 +121,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N0d6b2de87b134b38b3b352b8a96ee656",
+      "@id": "_:N1db70f053a2744eea419c766267e6cea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

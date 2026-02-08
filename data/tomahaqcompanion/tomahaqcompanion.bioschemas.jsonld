@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N599a7d7a3d8e4786a22ffcdcd7a1861e"
+          "@id": "_:N0f118e20afad4ffab0bd5795e7be9d35"
         },
         {
-          "@id": "_:Nc29b1aea3288482ca17294cee1c4735d"
+          "@id": "_:Ne606034dcb044da9b1d368562e0c1cb8"
         }
       ],
       "bsc:output": {
-        "@id": "_:N765e19f10ff8474a8a1d2f2e80d6d333"
+        "@id": "_:Nf7a0697414704b21a6dc3c8c08c5abf6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -56,10 +56,10 @@
       },
       "sc:citation": [
         "pmcid:PMC7315617",
-        "pubmed:30501201",
         {
           "@id": "https://doi.org/10.1021/acs.jproteome.8b00767"
-        }
+        },
+        "pubmed:30501201"
       ],
       "sc:description": "Desktop application that enables rapid creation of TOMAHAQ methods and analysis of TOMAHAQ data.",
       "sc:featureList": {
@@ -76,18 +76,15 @@
       "sc:url": "https://github.com/CMRose3355/TomahaqCompanionProgram"
     },
     {
-      "@id": "_:N599a7d7a3d8e4786a22ffcdcd7a1861e",
+      "@id": "_:Nf7a0697414704b21a6dc3c8c08c5abf6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0943"
+        "@id": "edam:data_0006"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3712"
-      },
-      "sc:name": "Mass spectrometry spectra"
+      "sc:name": "Data"
     },
     {
-      "@id": "_:Nc29b1aea3288482ca17294cee1c4735d",
+      "@id": "_:N0f118e20afad4ffab0bd5795e7be9d35",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -98,12 +95,15 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N765e19f10ff8474a8a1d2f2e80d6d333",
+      "@id": "_:Ne606034dcb044da9b1d368562e0c1cb8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0006"
+        "@id": "edam:data_0943"
       },
-      "sc:name": "Data"
+      "sc:encodingFormat": {
+        "@id": "edam:format_3712"
+      },
+      "sc:name": "Mass spectrometry spectra"
     },
     {
       "@id": "https://doi.org/10.1021/acs.jproteome.8b00767",

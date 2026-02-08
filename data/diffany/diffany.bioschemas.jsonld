@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s12859-015-0863-y",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/diffany",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1100a2b657ed4a83bb6d5aa057640627"
+        "@id": "_:Ne0a80b20eb5e4524ab045d9c5c90c27c"
       },
       "bsc:output": [
         {
-          "@id": "_:Nfc658c8ed76f422f978e707b296d69f3"
+          "@id": "_:Naedebc33218249be89660dc43907a598"
         },
         {
-          "@id": "_:N02b9d32cdc6e4c89bd6c6f953af7aa51"
+          "@id": "_:N3ce00a474eac48bda367a63214fe8d41"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -59,10 +63,10 @@
       },
       "sc:citation": [
         "pmcid:PMC4700732",
+        "pubmed:26729218",
         {
           "@id": "https://doi.org/10.1186/s12859-015-0863-y"
-        },
-        "pubmed:26729218"
+        }
       ],
       "sc:description": "Open-source toolbox for calculating and visualizing differential networks.",
       "sc:featureList": {
@@ -71,8 +75,8 @@
       "sc:name": "Diffany",
       "sc:operatingSystem": [
         "Linux",
-        "Windows",
-        "Mac"
+        "Mac",
+        "Windows"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -82,7 +86,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/supplementary_data/solan/diffany/"
     },
     {
-      "@id": "_:Nfc658c8ed76f422f978e707b296d69f3",
+      "@id": "_:Naedebc33218249be89660dc43907a598",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -90,7 +94,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N02b9d32cdc6e4c89bd6c6f953af7aa51",
+      "@id": "_:N3ce00a474eac48bda367a63214fe8d41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -101,16 +105,12 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N1100a2b657ed4a83bb6d5aa057640627",
+      "@id": "_:Ne0a80b20eb5e4524ab045d9c5c90c27c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s12859-015-0863-y",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

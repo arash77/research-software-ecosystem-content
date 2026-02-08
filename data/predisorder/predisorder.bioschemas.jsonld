@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/predisorder",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na6048815293748e7aa139a056766f190"
+        "@id": "_:N64f2870e37dc472888ed836e5ee0c42c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -75,7 +75,7 @@
       "sc:url": "http://casp.rnet.missouri.edu/predisorder.html"
     },
     {
-      "@id": "_:Na6048815293748e7aa139a056766f190",
+      "@id": "_:N64f2870e37dc472888ed836e5ee0c42c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

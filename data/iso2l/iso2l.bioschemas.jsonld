@@ -40,31 +40,31 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N9261d6667a324a1ab7acf335e22eb9a6"
+          "@id": "_:Ne8094416f1b34bb8bc9ee6f59d440b5a"
         },
         {
-          "@id": "_:Nc7c51754808043bca7ba4ffa629332b9"
+          "@id": "_:N2bde941533db41dfa7be812a53602097"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N68c8ff63632b4b6c95be2c9ec99d5fe2"
+          "@id": "_:N0abbecb5f7ad4c2c9891fee8bd7ca556"
         },
         {
-          "@id": "_:N632da3be12f5492db58ff6b5be5b630b"
+          "@id": "_:Ne5fa777a66c140b9b43070fdc0d695c4"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
-        },
-        {
           "@id": "edam:topic_2269"
         },
         {
           "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:description": "Calculates the isotopic distribution of a chemical formula or a amino acid chain.",
@@ -73,10 +73,10 @@
           "@id": "edam:operation_2238"
         },
         {
-          "@id": "edam:operation_3441"
+          "@id": "edam:operation_3632"
         },
         {
-          "@id": "edam:operation_3632"
+          "@id": "edam:operation_3441"
         }
       ],
       "sc:name": "iso2l",
@@ -87,29 +87,18 @@
       "sc:url": "http://blog.binfalse.de/software/iso2l/"
     },
     {
-      "@id": "_:N68c8ff63632b4b6c95be2c9ec99d5fe2",
+      "@id": "_:Ne8094416f1b34bb8bc9ee6f59d440b5a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2048"
+        "@id": "edam:data_1857"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3475"
+        "@id": "edam:format_2035"
       },
-      "sc:name": "Report"
+      "sc:name": "Atomic occupancy"
     },
     {
-      "@id": "_:N632da3be12f5492db58ff6b5be5b630b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3603"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N9261d6667a324a1ab7acf335e22eb9a6",
+      "@id": "_:N2bde941533db41dfa7be812a53602097",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -120,15 +109,26 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nc7c51754808043bca7ba4ffa629332b9",
+      "@id": "_:N0abbecb5f7ad4c2c9891fee8bd7ca556",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1857"
+        "@id": "edam:data_2048"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2035"
+        "@id": "edam:format_3475"
       },
-      "sc:name": "Atomic occupancy"
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Ne5fa777a66c140b9b43070fdc0d695c4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Plot"
     }
   ]
 }

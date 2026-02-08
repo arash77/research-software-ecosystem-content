@@ -36,7 +36,15 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-1507-4171",
+      "@id": "https://orcid.org/0000-0003-3054-1409",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1345-5015",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1639-1424",
       "@type": "sc:Person"
     },
     {
@@ -44,150 +52,186 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://orcid.org/0000-0002-9320-1666",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9097-7963",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1507-4171",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1890-7113",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1457-2731",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5721-0135",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6692-0876",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4802-8996",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9888-7954",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/immuneml",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
+        "Sandve Research Group for Biomedical Informatics",
         {
           "@id": "https://orcid.org/0000-0002-4959-1409"
-        },
-        "Sandve Research Group for Biomedical Informatics"
+        }
       ],
       "bsc:input": [
         {
-          "@id": "_:Nb9d0099776474aa89dc85328eef1846f"
+          "@id": "_:N2b333a5ea215449d9e90f5137050f200"
         },
         {
-          "@id": "_:N59796c1f74ac4c1bbf0bdee07c8829b0"
+          "@id": "_:N53c4471b156340c2af6e96900670e83c"
         },
         {
-          "@id": "_:Ndcecf4ed13d64b00a2ea632757a843ad"
+          "@id": "_:N2730ca10fab64aaaa3d91a9c4ee1d8f2"
         },
         {
-          "@id": "_:N54e6f1caf9064b54bd16cba3aab7ba80"
+          "@id": "_:Na81e05a316f74b12bb8aa596d373f0e0"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N12a80a46ea954c729e9be5c1556dec91"
+          "@id": "_:N7dfd48c036b74dbbb08c2061bca63308"
         },
         {
-          "@id": "_:Nb45cfd693b0e4efb850e88c6c61b11c4"
+          "@id": "_:Nb5b7fa8e20514fb5bd5c645845631d8f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Workbench",
-        "Workflow"
+        "Workflow",
+        "Workbench"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2830"
+          "@id": "edam:topic_0769"
         },
         {
           "@id": "edam:topic_3474"
         },
         {
-          "@id": "edam:topic_3948"
-        },
-        {
           "@id": "edam:topic_3524"
         },
         {
-          "@id": "edam:topic_0769"
+          "@id": "edam:topic_2830"
+        },
+        {
+          "@id": "edam:topic_3948"
         }
       ],
       "sc:author": [
-        "Sandve Research Group for Biomedical Informatics",
+        {
+          "@id": "https://orcid.org/0000-0003-1457-2731"
+        },
         {
           "@id": "https://orcid.org/0000-0002-4959-1409"
         },
         {
-          "@id": "https://orcid.org/0000-0002-2484-3868"
-        },
-        {
           "@id": "https://orcid.org/0000-0001-8900-075X"
         },
+        "Sandve Research Group for Biomedical Informatics",
         {
-          "@id": "https://orcid.org/0000-0003-1457-2731"
+          "@id": "https://orcid.org/0000-0002-2484-3868"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC10312379",
         {
           "@id": "https://doi.org/10.1038/s42256-021-00413-z"
         },
-        "pmcid:PMC10312379",
         "pubmed:37396030"
       ],
       "sc:contributor": [
-        {
-          "@id": "https://orcid.org/0000-0003-4802-8996"
-        },
-        {
-          "@id": "https://orcid.org/0000-0002-4783-9060"
-        },
+        "Knut Rand",
         {
           "@id": "https://orcid.org/0000-0002-9320-1666"
         },
-        "Radmila Kompova",
         {
-          "@id": "https://orcid.org/0000-0002-1507-4171"
+          "@id": "https://orcid.org/0000-0003-2622-5032"
         },
         {
           "@id": "https://orcid.org/0000-0001-9888-7954"
         },
-        "Nikolay Vazov",
-        {
-          "@id": "https://orcid.org/0000-0002-6692-0876"
-        },
-        {
-          "@id": "https://orcid.org/0000-0003-1345-5015"
-        },
-        {
-          "@id": "https://orcid.org/0000-0001-9097-7963"
-        },
-        "Ivar Grytten",
-        {
-          "@id": "https://orcid.org/0000-0003-1639-1424"
-        },
         {
           "@id": "https://orcid.org/0000-0003-1890-7113"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-4802-8996"
         },
         "Alexandre Almeida Costa",
         {
           "@id": "https://orcid.org/0000-0003-1607-5405"
         },
         {
+          "@id": "https://orcid.org/0000-0002-1507-4171"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1345-5015"
+        },
+        {
           "@id": "https://orcid.org/0000-0002-6794-9611"
         },
+        "Nikolay Vazov",
+        {
+          "@id": "https://orcid.org/0000-0002-6692-0876"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9097-7963"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4783-9060"
+        },
+        "Fabian L. M. Bernal",
+        "Knut Waagan",
+        {
+          "@id": "https://orcid.org/0000-0002-5721-0135"
+        },
+        "Radmila Kompova",
         {
           "@id": "https://orcid.org/0000-0003-3888-6495"
         },
         {
-          "@id": "https://orcid.org/0000-0002-5721-0135"
+          "@id": "https://orcid.org/0000-0003-1639-1424"
         },
-        "Knut Rand",
         {
           "@id": "https://orcid.org/0000-0003-3054-1409"
         },
-        "Knut Waagan",
-        {
-          "@id": "https://orcid.org/0000-0003-2622-5032"
-        },
-        "Fabian L. M. Bernal"
+        "Ivar Grytten"
       ],
       "sc:description": "immuneML is a flexible platform designed for machine learning-based analysis and classification of adaptive immune receptor repertoires (AIRR). The platform is available in several formats, including a command-line tool and a Galaxy web interface, and is accessible to a wide range of users from data scientists to clinicians. immuneML offers comprehensive functionality for exploratory analysis of datasets, training machine learning models for repertoire or receptor sequence classification, simulating immune events, and applying trained ML models to new datasets with unknown class labels. The platform also provides developer documentation for extending functionality with new components.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_2426"
-        },
-        {
-          "@id": "edam:operation_2945"
-        },
         {
           "@id": "edam:operation_0416"
         },
         {
           "@id": "edam:operation_0252"
+        },
+        {
+          "@id": "edam:operation_2945"
+        },
+        {
+          "@id": "edam:operation_2426"
         },
         {
           "@id": "edam:operation_0337"
@@ -197,9 +241,9 @@
       "sc:license": "AGPL-3.0",
       "sc:name": "immuneML",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "University of Oslo",
       "sc:softwareHelp": [
@@ -211,32 +255,32 @@
         }
       ],
       "sc:softwareVersion": [
-        "1.1.2 - 1.1.4",
-        "2.0.0 - 2.0.6",
-        "2.1.0 - 2.1.2",
         "2.2.0 - 2.2.5",
-        "1.2.0 - 1.2.5"
+        "1.2.0 - 1.2.5",
+        "2.0.0 - 2.0.6",
+        "1.1.2 - 1.1.4",
+        "2.1.0 - 2.1.2"
       ],
       "sc:url": "http://immuneml.uio.no"
     },
     {
-      "@id": "_:N12a80a46ea954c729e9be5c1556dec91",
+      "@id": "_:N7dfd48c036b74dbbb08c2061bca63308",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3987"
+          "@id": "edam:format_3750"
         },
         {
-          "@id": "edam:format_3750"
+          "@id": "edam:format_3987"
         }
       ],
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:Nb45cfd693b0e4efb850e88c6c61b11c4",
+      "@id": "_:Nb5b7fa8e20514fb5bd5c645845631d8f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -247,45 +291,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nb9d0099776474aa89dc85328eef1846f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2337"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Resource metadata"
-    },
-    {
-      "@id": "_:N59796c1f74ac4c1bbf0bdee07c8829b0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3779"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3750"
-      },
-      "sc:name": "Annotated text"
-    },
-    {
-      "@id": "_:Ndcecf4ed13d64b00a2ea632757a843ad",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0950"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3475"
-        },
-        {
-          "@id": "edam:format_2032"
-        }
-      ],
-      "sc:name": "Mathematical model"
-    },
-    {
-      "@id": "_:N54e6f1caf9064b54bd16cba3aab7ba80",
+      "@id": "_:N2b333a5ea215449d9e90f5137050f200",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -301,23 +307,45 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "https://orcid.org/0000-0002-6692-0876",
-      "@type": "sc:Person"
+      "@id": "_:N53c4471b156340c2af6e96900670e83c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0950"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2032"
+        }
+      ],
+      "sc:name": "Mathematical model"
     },
     {
-      "@id": "https://orcid.org/0000-0002-6794-9611",
-      "@type": "sc:Person"
+      "@id": "_:N2730ca10fab64aaaa3d91a9c4ee1d8f2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3779"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3750"
+      },
+      "sc:name": "Annotated text"
     },
     {
-      "@id": "https://orcid.org/0000-0003-3888-6495",
-      "@type": "sc:Person"
+      "@id": "_:Na81e05a316f74b12bb8aa596d373f0e0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2337"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Resource metadata"
     },
     {
-      "@id": "https://orcid.org/0000-0002-4959-1409",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-3054-1409",
+      "@id": "https://orcid.org/0000-0003-2622-5032",
       "@type": "sc:Person"
     },
     {
@@ -325,35 +353,15 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-2622-5032",
+      "@id": "https://orcid.org/0000-0002-2484-3868",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-1457-2731",
+      "@id": "https://orcid.org/0000-0002-4959-1409",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-5721-0135",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-4802-8996",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-9097-7963",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-9320-1666",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-1345-5015",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-9888-7954",
+      "@id": "https://orcid.org/0000-0002-6794-9611",
       "@type": "sc:Person"
     },
     {
@@ -361,19 +369,11 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://orcid.org/0000-0003-3888-6495",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://orcid.org/0000-0002-4783-9060",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-2484-3868",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-1890-7113",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-1639-1424",
       "@type": "sc:Person"
     }
   ]

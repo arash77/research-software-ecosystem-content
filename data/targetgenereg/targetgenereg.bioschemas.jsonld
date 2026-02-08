@@ -36,74 +36,70 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/narcan/zcac009",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/targetgenereg",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0961763363ff427eb72e76e4574ad057"
+          "@id": "_:N692d12ed6b1d4d818178059f63caacad"
         },
         {
-          "@id": "_:Ne1ee805b773b4e3c92e8147f2d69b426"
+          "@id": "_:N986319f8e88345c68e5851ad81d61be3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_0659"
         },
         {
           "@id": "edam:topic_0749"
         },
         {
-          "@id": "edam:topic_0204"
+          "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_0659"
+          "@id": "edam:topic_0204"
         },
         {
           "@id": "edam:topic_2229"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC8946727",
         {
           "@id": "https://doi.org/10.1093/narcan/zcac009"
         },
-        "pubmed:35350773",
-        "pmcid:PMC8946727"
+        "pubmed:35350773"
       ],
       "sc:description": "A comprehensive web-atlas for p53, p63, and cell cycle-dependent gene regulation.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0314"
+          "@id": "edam:operation_1781"
         },
         {
           "@id": "edam:operation_2437"
         },
         {
-          "@id": "edam:operation_1781"
+          "@id": "edam:operation_0314"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "TargetGeneReg",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareVersion": "2.0",
       "sc:url": "http://www.TargetGeneReg.org"
     },
     {
-      "@id": "_:N0961763363ff427eb72e76e4574ad057",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1033"
-      },
-      "sc:name": "Ensembl gene ID"
-    },
-    {
-      "@id": "_:Ne1ee805b773b4e3c92e8147f2d69b426",
+      "@id": "_:N692d12ed6b1d4d818178059f63caacad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -111,8 +107,12 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "https://doi.org/10.1093/narcan/zcac009",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N986319f8e88345c68e5851ad81d61be3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1033"
+      },
+      "sc:name": "Ensembl gene ID"
     }
   ]
 }

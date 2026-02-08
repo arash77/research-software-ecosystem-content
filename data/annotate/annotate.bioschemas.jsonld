@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "BioConductor Package Maintainer",
       "bsc:input": {
-        "@id": "_:N8dbcca79d3a949e2971a0f0f06584245"
+        "@id": "_:N8c64652b51d04248a98770c27a87cc34"
       },
       "bsc:output": {
-        "@id": "_:Na59ee799f9fe4cfba89443ea57aaa8aa"
+        "@id": "_:N05be78480a7649d98241cb82c2bdcbd4"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -55,26 +55,26 @@
       },
       "sc:citation": [
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
-        },
-        "pmcid:PMC4509590"
+        }
       ],
       "sc:description": "Using R enviroments for annotation.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2421"
+          "@id": "edam:operation_0361"
         },
         {
-          "@id": "edam:operation_0361"
+          "@id": "edam:operation_2421"
         }
       ],
       "sc:license": "Artistic-2.0",
       "sc:name": "annotate",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/annotate.html"
@@ -83,7 +83,23 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/annotate.html"
     },
     {
-      "@id": "_:Na59ee799f9fe4cfba89443ea57aaa8aa",
+      "@id": "_:N8c64652b51d04248a98770c27a87cc34",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1920"
+        },
+        {
+          "@id": "edam:format_2332"
+        }
+      ],
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N05be78480a7649d98241cb82c2bdcbd4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -92,22 +108,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Database search results"
-    },
-    {
-      "@id": "_:N8dbcca79d3a949e2971a0f0f06584245",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1276"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2332"
-        },
-        {
-          "@id": "edam:format_1920"
-        }
-      ],
-      "sc:name": "Nucleic acid features"
     },
     {
       "@id": "https://doi.org/10.1038/nmeth.3252",

@@ -40,7 +40,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Support",
       "bsc:output": {
-        "@id": "_:N3d968c20b70d4933a73f4106c04aad03"
+        "@id": "_:Nd07d5668b8e9451ba746fa46335e7f91"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -59,9 +59,9 @@
       },
       "sc:name": "UniParc",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "UniProt Consortium",
       "sc:softwareHelp": {
@@ -70,7 +70,7 @@
       "sc:url": "http://www.uniprot.org/uniparc/"
     },
     {
-      "@id": "_:N3d968c20b70d4933a73f4106c04aad03",
+      "@id": "_:Nd07d5668b8e9451ba746fa46335e7f91",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"

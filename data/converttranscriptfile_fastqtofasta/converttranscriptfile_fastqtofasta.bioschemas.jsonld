@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Ne9619fd42c34463e83a4cf3bb7cbc05b"
+        "@id": "_:N7f494e836058441980d9cc4063a5c17b"
       },
       "bsc:output": [
         {
-          "@id": "_:N36bd79b8060e40e5a8b0f29b203c04f5"
+          "@id": "_:N46c3d87af5fd4e248788c453c2453bb3"
         },
         {
-          "@id": "_:Nf3804ce3a43a4e03aafea20a8a571733"
+          "@id": "_:N16cfe083ce6349f1854a26469f9638fa"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -73,9 +73,9 @@
       },
       "sc:name": "converttranscriptfile_fastqtofasta",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Furgi_tools%2FConvertTranscriptFile_FastqToFasta%2F1.0.0"
@@ -84,18 +84,18 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N36bd79b8060e40e5a8b0f29b203c04f5",
+      "@id": "_:N7f494e836058441980d9cc4063a5c17b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2330"
+        "@id": "edam:format_1930"
       },
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf3804ce3a43a4e03aafea20a8a571733",
+      "@id": "_:N46c3d87af5fd4e248788c453c2453bb3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -106,13 +106,13 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Ne9619fd42c34463e83a4cf3bb7cbc05b",
+      "@id": "_:N16cfe083ce6349f1854a26469f9638fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1930"
+        "@id": "edam:format_2330"
       },
       "sc:name": "Data"
     },

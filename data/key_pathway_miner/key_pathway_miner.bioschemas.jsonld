@@ -36,34 +36,38 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1080/15427951.2011.604548",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/key_pathway_miner",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jan Baumbach",
       "bsc:input": [
         {
-          "@id": "_:Nff376ac317dd4dc38f41c7c38db9c9c9"
+          "@id": "_:N5c6e874e4c984e0cbc613612c3d5f523"
         },
         {
-          "@id": "_:Nff51f4612af3460cb6b5eb3576b8db99"
+          "@id": "_:N985363f34f3141b1bada84ae04b24d03"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nb09ada17eaa449d2b1ff34c736414031"
+        "@id": "_:Ncd82507b89ea41f0a6a3d3d593b635d3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Desktop application"
+        "Desktop application",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_3391"
-        },
         {
           "@id": "edam:topic_3360"
         },
         {
           "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_3391"
         }
       ],
       "sc:citation": {
@@ -83,9 +87,9 @@
       ],
       "sc:name": "Key Pathway Miner",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:provider": "bmb.sdu.dk",
       "sc:softwareHelp": {
@@ -95,7 +99,7 @@
       "sc:url": "http://keypathwayminer.compbio.sdu.dk/"
     },
     {
-      "@id": "_:Nb09ada17eaa449d2b1ff34c736414031",
+      "@id": "_:N5c6e874e4c984e0cbc613612c3d5f523",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -103,7 +107,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nff376ac317dd4dc38f41c7c38db9c9c9",
+      "@id": "_:N985363f34f3141b1bada84ae04b24d03",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -111,16 +115,12 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Nff51f4612af3460cb6b5eb3576b8db99",
+      "@id": "_:Ncd82507b89ea41f0a6a3d3d593b635d3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.1080/15427951.2011.604548",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

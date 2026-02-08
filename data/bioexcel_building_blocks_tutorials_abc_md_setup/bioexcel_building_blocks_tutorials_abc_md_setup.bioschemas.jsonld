@@ -36,32 +36,20 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0003-0513-0288",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-8291-8071",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41597-019-0177-4",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/bioexcel_building_blocks_tutorials_abc_md_setup",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "https://orcid.org/0000-0002-8291-8071"
       },
       "bsc:input": {
-        "@id": "_:N252667bf9c4942438ab7dcbbe2ad61da"
+        "@id": "_:Nbddc7d1fcc8c42bbb2f98b3a0e8458de"
       },
       "bsc:output": [
         {
-          "@id": "_:N0d58e91293f14b45881a44f3daaa981e"
+          "@id": "_:N12864ebb8c90448b9e50187a034b05c4"
         },
         {
-          "@id": "_:N581785f294c7403a8bbaa7dc8ee20811"
+          "@id": "_:N0935d4637d704b64a78dea849dcb866f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -83,28 +71,28 @@
         }
       ],
       "sc:citation": [
+        "pmcid:PMC6736963",
         {
           "@id": "https://doi.org/10.1038/s41597-019-0177-4"
         },
-        "pmcid:PMC6736963",
         "pubmed:31506435"
       ],
       "sc:description": "This BioExcel Building Blocks library (BioBB) workflow provides a pipeline to setup DNA structures for the Ascona B-DNA Consortium (ABC) members. It follows the work started with the NAFlex tool to offer a single, reproducible pipeline for structure preparation, ensuring reproducibility and coherence between all the members of the consortium.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2476"
+          "@id": "edam:operation_0477"
         },
         {
-          "@id": "edam:operation_0477"
+          "@id": "edam:operation_2476"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "Apache-2.0",
       "sc:name": "BioExcel Building Blocks tutorials: ABC MD Setup",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": "BioExcel Center of Excellence for Computational Biomolecular Research",
       "sc:softwareHelp": {
@@ -114,7 +102,7 @@
       "sc:url": "https://mmb.irbbarcelona.org/biobb/workflows/tutorials/amber_abcsetup"
     },
     {
-      "@id": "_:N0d58e91293f14b45881a44f3daaa981e",
+      "@id": "_:N12864ebb8c90448b9e50187a034b05c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3872"
@@ -125,23 +113,23 @@
       "sc:name": "Topology data"
     },
     {
-      "@id": "_:N581785f294c7403a8bbaa7dc8ee20811",
+      "@id": "_:N0935d4637d704b64a78dea849dcb866f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3870"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3878"
+          "@id": "edam:format_3650"
         },
         {
-          "@id": "edam:format_3650"
+          "@id": "edam:format_3878"
         }
       ],
       "sc:name": "Trajectory data"
     },
     {
-      "@id": "_:N252667bf9c4942438ab7dcbbe2ad61da",
+      "@id": "_:Nbddc7d1fcc8c42bbb2f98b3a0e8458de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -150,6 +138,18 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0513-0288",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41597-019-0177-4",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8291-8071",
+      "@type": "sc:Person"
     }
   ]
 }

@@ -76,9 +76,9 @@
       "sc:license": "Not licensed",
       "sc:name": "LPI-CSFFR",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "https://github.com/JianjunTan-Beijing/LPI-CSFFR"
     },

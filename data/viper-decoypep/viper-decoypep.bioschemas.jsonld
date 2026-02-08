@@ -48,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Anna Sophie Klingenberg",
       "bsc:input": {
-        "@id": "_:Nfc26c31a73104c4bb1010dd2002d2102"
+        "@id": "_:N5a5e71a6176d4148ac1faf5ce3b4ab3a"
       },
       "bsc:output": {
-        "@id": "_:Nab09575d02ed498d80e696885b32c761"
+        "@id": "_:N41483689ebf14b5788dbb6eaed3323a9"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -89,7 +89,7 @@
       "sc:url": "https://github.com/A-Klingenberg/VIPER/tree/main"
     },
     {
-      "@id": "_:Nab09575d02ed498d80e696885b32c761",
+      "@id": "_:N41483689ebf14b5788dbb6eaed3323a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -100,7 +100,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nfc26c31a73104c4bb1010dd2002d2102",
+      "@id": "_:N5a5e71a6176d4148ac1faf5ce3b4ab3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"

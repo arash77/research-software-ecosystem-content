@@ -40,27 +40,27 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N9ff2ec21343a4fed8d438d98d1a23539"
+          "@id": "_:N4ac98e969d9b4b61b536587bf9dece80"
         },
         {
-          "@id": "_:N99aa185583fd423f8d479262c84e0ed7"
+          "@id": "_:N7a881727830f46ff9d354aa94a734214"
         },
         {
-          "@id": "_:N6461c2f48e124058a22c2237e987d1bc"
+          "@id": "_:Na6e66b681f834589a38f1ea87953fd32"
         },
         {
-          "@id": "_:N4b77a5c17e774571bf63773583479755"
+          "@id": "_:Ne3ddc79589f746ebb4c1372d6661db68"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2039ff1d1cb74e3fb1f3c8621862fbc8"
+          "@id": "_:Nf6123b5c94104e8894984490977a278e"
         },
         {
-          "@id": "_:Nda56bb72a70848ce8807ab1722ccad10"
+          "@id": "_:N2c95c88a998d4521bc2b2befa2007143"
         },
         {
-          "@id": "_:N6b1fc6f8247c42f3ac42d4b027ccf398"
+          "@id": "_:N8d0f9de9f1124f46ade526510efecea2"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -77,10 +77,7 @@
       "sc:description": "Mascot file parsing and quantitation using ICAT and SILAC.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3634"
-        },
-        {
-          "@id": "edam:operation_3648"
+          "@id": "edam:operation_3630"
         },
         {
           "@id": "edam:operation_3638"
@@ -92,20 +89,23 @@
           "@id": "edam:operation_0335"
         },
         {
+          "@id": "edam:operation_3634"
+        },
+        {
           "@id": "edam:operation_3637"
         },
         {
-          "@id": "edam:operation_3630"
+          "@id": "edam:operation_3635"
         },
         {
-          "@id": "edam:operation_3635"
+          "@id": "edam:operation_3648"
         }
       ],
       "sc:name": "MFPaQ",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://mfpaq.sourceforge.net/"
@@ -113,7 +113,7 @@
       "sc:url": "http://mfpaq.sourceforge.net"
     },
     {
-      "@id": "_:N2039ff1d1cb74e3fb1f3c8621862fbc8",
+      "@id": "_:Nf6123b5c94104e8894984490977a278e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -124,34 +124,45 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Nda56bb72a70848ce8807ab1722ccad10",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0945"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2332"
-      },
-      "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "_:N6b1fc6f8247c42f3ac42d4b027ccf398",
+      "@id": "_:N2c95c88a998d4521bc2b2befa2007143",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3468"
+          "@id": "edam:format_2331"
         },
         {
-          "@id": "edam:format_2331"
+          "@id": "edam:format_3468"
         }
       ],
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N9ff2ec21343a4fed8d438d98d1a23539",
+      "@id": "_:N8d0f9de9f1124f46ade526510efecea2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N4ac98e969d9b4b61b536587bf9dece80",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N7a881727830f46ff9d354aa94a734214",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -162,7 +173,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N99aa185583fd423f8d479262c84e0ed7",
+      "@id": "_:Na6e66b681f834589a38f1ea87953fd32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -173,7 +184,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N6461c2f48e124058a22c2237e987d1bc",
+      "@id": "_:Ne3ddc79589f746ebb4c1372d6661db68",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -182,17 +193,6 @@
         "@id": "edam:format_3710"
       },
       "sc:name": "Mass spectrometry spectra"
-    },
-    {
-      "@id": "_:N4b77a5c17e774571bf63773583479755",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0945"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2332"
-      },
-      "sc:name": "Peptide identification"
     }
   ]
 }

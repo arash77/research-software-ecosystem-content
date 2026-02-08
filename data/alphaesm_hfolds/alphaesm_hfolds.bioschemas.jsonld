@@ -39,15 +39,15 @@
       "@id": "https://bio.tools/alphaesm_hfolds",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N30d4745239994657a2da5a65f17bdd02"
+        "@id": "_:N155c277c71bf40f383afc7ae19ffc8ea"
       },
       "bsc:output": {
-        "@id": "_:Nbd74419f6e634577a0c3df488510fbb1"
+        "@id": "_:N779d2c83fb0f405a961de9edc617f6b2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Database portal"
+        "Database portal",
+        "Web application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_2814"
@@ -66,9 +66,9 @@
       "sc:license": "CC-BY-NC-4.0",
       "sc:name": "AlphaESM hFolds",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://alpha-esmhfolds.biocomp.unibo.it/help/"
@@ -77,7 +77,15 @@
       "sc:url": "https://alpha-esmhfolds.biocomp.unibo.it"
     },
     {
-      "@id": "_:N30d4745239994657a2da5a65f17bdd02",
+      "@id": "_:N779d2c83fb0f405a961de9edc617f6b2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:N155c277c71bf40f383afc7ae19ffc8ea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -86,14 +94,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "UniProt accession"
-    },
-    {
-      "@id": "_:Nbd74419f6e634577a0c3df488510fbb1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1537"
-      },
-      "sc:name": "Protein structure report"
     },
     {
       "@id": "https://doi.org/10.1016/j.jmb.2024.168593",

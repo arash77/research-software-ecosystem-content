@@ -39,23 +39,23 @@
       "@id": "https://bio.tools/PolySTest",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nab7f535521194ba4a30ac564c7616ac6"
+        "@id": "_:Nf8f414e60deb4cf6947691cf6d3d43a7"
       },
       "bsc:output": [
         {
-          "@id": "_:Ndd839d87ebe54ac7a55514a4e92d3496"
+          "@id": "_:N0891657401744695b8b0837b82297e3f"
         },
         {
-          "@id": "_:N1be4db121b234d4eac6e27fe941fce36"
+          "@id": "_:N67216102e37045d4849bc56ef55ce5a2"
         },
         {
-          "@id": "_:N78319f22c3de46398be36bae8a8b556c"
+          "@id": "_:N157ed1ac21ef44729186dcdd3869c393"
         },
         {
-          "@id": "_:N1b54942619674f13bd36d71332ee5433"
+          "@id": "_:N6573d6a9860d4b24aa3f9c6945e95080"
         },
         {
-          "@id": "_:Nf95d2be70e9541adba4b20ce9421c5b5"
+          "@id": "_:Ncc73c7c5a36242f7a4acde68e1ccdcfe"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -72,11 +72,11 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC8015005",
-        "pubmed:32424025",
         {
           "@id": "https://doi.org/10.1074/mcp.RA119.001777"
-        }
+        },
+        "pubmed:32424025",
+        "pmcid:PMC8015005"
       ],
       "sc:description": "Robust statistical testing of quantitative proteomics data. The tool comprises and combines different tests and includes a new method for combined statistics of quantitative and missing values.",
       "sc:featureList": [
@@ -97,7 +97,7 @@
       "sc:url": "http://computproteomics.bmb.sdu.dk/app_direct/PolySTest"
     },
     {
-      "@id": "_:Ndd839d87ebe54ac7a55514a4e92d3496",
+      "@id": "_:N0891657401744695b8b0837b82297e3f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -108,29 +108,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:N1be4db121b234d4eac6e27fe941fce36",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3932"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Q-value"
-    },
-    {
-      "@id": "_:N78319f22c3de46398be36bae8a8b556c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3905"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3604"
-      },
-      "sc:name": "Histogram"
-    },
-    {
-      "@id": "_:N1b54942619674f13bd36d71332ee5433",
+      "@id": "_:N67216102e37045d4849bc56ef55ce5a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -141,7 +119,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nf95d2be70e9541adba4b20ce9421c5b5",
+      "@id": "_:N157ed1ac21ef44729186dcdd3869c393",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -152,17 +130,39 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:Nab7f535521194ba4a30ac564c7616ac6",
+      "@id": "_:N6573d6a9860d4b24aa3f9c6945e95080",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3905"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3604"
+      },
+      "sc:name": "Histogram"
+    },
+    {
+      "@id": "_:Ncc73c7c5a36242f7a4acde68e1ccdcfe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3932"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Q-value"
+    },
+    {
+      "@id": "_:Nf8f414e60deb4cf6947691cf6d3d43a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3752"
+          "@id": "edam:format_3751"
         },
         {
-          "@id": "edam:format_3751"
+          "@id": "edam:format_3752"
         }
       ],
       "sc:name": "Expression data"

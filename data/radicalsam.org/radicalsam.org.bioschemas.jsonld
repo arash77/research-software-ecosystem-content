@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N471ba8a1af8c4a8da0e564014b78ec34"
+          "@id": "_:N41704ff0182d4f50adc4feb9125f6d8d"
         },
         {
-          "@id": "_:N72c9e8d4408c456f82200c784532d0e8"
+          "@id": "_:N5f37ff6cd46a4b7587f154ca7653ed23"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -53,21 +53,21 @@
           "@id": "edam:topic_0821"
         },
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_3314"
         },
         {
           "@id": "edam:topic_3407"
         },
         {
-          "@id": "edam:topic_3314"
+          "@id": "edam:topic_0602"
         }
       ],
       "sc:citation": [
-        "pubmed:36119373",
-        "pmcid:PMC9477430",
         {
           "@id": "https://doi.org/10.1021/acsbiomedchemau.1c00048"
-        }
+        },
+        "pubmed:36119373",
+        "pmcid:PMC9477430"
       ],
       "sc:description": "A Resource to Interpret Sequence-Function Space and Discover New Radical SAM Enzyme Chemistry.",
       "sc:featureList": {
@@ -76,27 +76,27 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "RadicalSAM.org",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:url": "http://RadicalSAM.org"
     },
     {
-      "@id": "_:N471ba8a1af8c4a8da0e564014b78ec34",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N72c9e8d4408c456f82200c784532d0e8",
+      "@id": "_:N41704ff0182d4f50adc4feb9125f6d8d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
       },
       "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:N5f37ff6cd46a4b7587f154ca7653ed23",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
     },
     {
       "@id": "https://doi.org/10.1021/acsbiomedchemau.1c00048",

@@ -36,22 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAD181",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/streammd",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na50ac7cc8858472a805c6cdc0c8b05da"
+        "@id": "_:N9782df70ee354cf983bcc25e33da79fe"
       },
       "bsc:output": {
-        "@id": "_:N52316a817cfc4fd4850bde91df6f4a31"
+        "@id": "_:Nb2688728905f4085870c47a459e043e5"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3673"
+          "@id": "edam:topic_0102"
         },
         {
-          "@id": "edam:topic_0102"
+          "@id": "edam:topic_3673"
         },
         {
           "@id": "edam:topic_0769"
@@ -77,25 +81,14 @@
       "sc:license": "MIT",
       "sc:name": "streammd",
       "sc:operatingSystem": [
-        "Mac",
+        "Linux",
         "Windows",
-        "Linux"
+        "Mac"
       ],
       "sc:url": "https://github.com/delocalizer/streammd"
     },
     {
-      "@id": "_:N52316a817cfc4fd4850bde91df6f4a31",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2534"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2573"
-      },
-      "sc:name": "Sequence attribute"
-    },
-    {
-      "@id": "_:Na50ac7cc8858472a805c6cdc0c8b05da",
+      "@id": "_:N9782df70ee354cf983bcc25e33da79fe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -106,8 +99,15 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAD181",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nb2688728905f4085870c47a459e043e5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2534"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence attribute"
     }
   ]
 }

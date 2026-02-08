@@ -44,45 +44,45 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3325049df8434fb693d9faa568b1adb5"
+          "@id": "_:N0146ed4948024040960aa38b229da7b5"
         },
         {
-          "@id": "_:N26d154bb11044424aef33558bd18bfd2"
+          "@id": "_:N126ebf0c7dc4468fb41f54b1795803a9"
         },
         {
-          "@id": "_:N613bdbc403a84a2684ec9f82e567e168"
+          "@id": "_:N52e65f6ed66742dd849e80a4609acefd"
         },
         {
-          "@id": "_:N6f981cb8dbd04f61b2164b9a85154ff4"
+          "@id": "_:N0d09ec129a224ae3a7b9e61452c6bb85"
         },
         {
-          "@id": "_:N7bae5b63023a49d8bb5a7d6f621fd3ff"
+          "@id": "_:N155d9aa5495e4b42a87431f8e0393ae5"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nbb201985822745b5966c9e1c831e3e75"
+          "@id": "_:N1036d40021ff4af78eb20bd42b5a4b6e"
         },
         {
-          "@id": "_:N63c8fa2f2a574bbd8da4e19438c5e1f2"
+          "@id": "_:N6dad47c322ea4a30aed742895c28a7f5"
         },
         {
-          "@id": "_:N39c311956dce4140b3e965beb39dee84"
+          "@id": "_:N36f21ff231cf4e32829c1ca3057b214f"
         },
         {
-          "@id": "_:N370f80a3be06452385af3eaf537befe3"
+          "@id": "_:Nacb10a63a8bb4c83aabe48be9ce882e1"
         },
         {
-          "@id": "_:N01f51b804453437185d07c7fc21fee3f"
+          "@id": "_:Nf415941046b945b9a541b41c023173ec"
         },
         {
-          "@id": "_:N2941866c0922429ab179f2fbff44e16e"
+          "@id": "_:Nfd6f66c0c6024fadbd49bc4d5b7c228c"
         },
         {
-          "@id": "_:Ne447be21163d4aaaaffeccd23983f75c"
+          "@id": "_:Nbbaf29e6c9e340ddbf2007ec15c43c6f"
         },
         {
-          "@id": "_:N6b8a45f1a83240da9670aa522e5d9937"
+          "@id": "_:N4ee4ae96261a478cbfec9ae997088b10"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,26 +92,26 @@
           "@id": "edam:topic_0610"
         },
         {
-          "@id": "edam:topic_3387"
+          "@id": "edam:topic_3174"
         },
         {
           "@id": "edam:topic_3941"
         },
         {
-          "@id": "edam:topic_3174"
+          "@id": "edam:topic_3387"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC6030836",
         {
           "@id": "https://doi.org/10.1093/nar/gky376"
         },
-        "pubmed:29788376"
+        "pubmed:29788376",
+        "pmcid:PMC6030836"
       ],
       "sc:description": "The Ocean Gene Atlas service provides data mining access to three complementary data objects: gene sequence catalogs (ENA), sample environmental context (PANGAEA), and gene abundances estimates in samples (computed by mapping sequence reads onto gene catalogs).\nUser queries are composed of either a sequence (nucleic or protein), or a hidden Markov model derived from a multiple sequence alignment. Homologs of the user query in the gene catalogs are identified using standard sequence similarity search tools (eg BLAST or HMMER), and their read based estimated abundance are displayed in interactive maps and plots. A phylogenetic tree is also inferred in order to situate the user query within its context of marine environmental homologs as well as known homologs from reference sequences.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0292"
+          "@id": "edam:operation_3478"
         },
         {
           "@id": "edam:operation_3799"
@@ -123,7 +123,7 @@
           "@id": "edam:operation_0567"
         },
         {
-          "@id": "edam:operation_3478"
+          "@id": "edam:operation_0292"
         }
       ],
       "sc:funder": "OCEANOMICS",
@@ -133,16 +133,27 @@
       "sc:provider": "MIO",
       "sc:softwareHelp": [
         {
-          "@id": "http://tara-oceans.mio.osupytheas.fr/ocean-gene-atlas/build/pdf/Ocean-Gene-Atlas_User_Manual.pdf"
+          "@id": "http://tara-oceans.mio.osupytheas.fr/ocean-gene-atlas/termsOfUse"
         },
         {
-          "@id": "http://tara-oceans.mio.osupytheas.fr/ocean-gene-atlas/termsOfUse"
+          "@id": "http://tara-oceans.mio.osupytheas.fr/ocean-gene-atlas/build/pdf/Ocean-Gene-Atlas_User_Manual.pdf"
         }
       ],
       "sc:url": "http://tara-oceans.mio.osupytheas.fr/ocean-gene-atlas/"
     },
     {
-      "@id": "_:Nbb201985822745b5966c9e1c831e3e75",
+      "@id": "_:N1036d40021ff4af78eb20bd42b5a4b6e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N6dad47c322ea4a30aed742895c28a7f5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -153,7 +164,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N63c8fa2f2a574bbd8da4e19438c5e1f2",
+      "@id": "_:N36f21ff231cf4e32829c1ca3057b214f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -164,62 +175,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N39c311956dce4140b3e965beb39dee84",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0857"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1333"
-      },
-      "sc:name": "Sequence search results"
-    },
-    {
-      "@id": "_:N370f80a3be06452385af3eaf537befe3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3736"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Ecological data"
-    },
-    {
-      "@id": "_:N01f51b804453437185d07c7fc21fee3f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:N2941866c0922429ab179f2fbff44e16e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3579"
-        },
-        {
-          "@id": "edam:format_3603"
-        },
-        {
-          "@id": "edam:format_3508"
-        },
-        {
-          "@id": "edam:format_3604"
-        }
-      ],
-      "sc:name": "Image"
-    },
-    {
-      "@id": "_:Ne447be21163d4aaaaffeccd23983f75c",
+      "@id": "_:Nacb10a63a8bb4c83aabe48be9ce882e1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -230,7 +186,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N6b8a45f1a83240da9670aa522e5d9937",
+      "@id": "_:Nf415941046b945b9a541b41c023173ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -241,45 +197,51 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N3325049df8434fb693d9faa568b1adb5",
+      "@id": "_:Nfd6f66c0c6024fadbd49bc4d5b7c228c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2295"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Gene ID"
-    },
-    {
-      "@id": "_:N26d154bb11044424aef33558bd18bfd2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
+        "@id": "edam:data_2968"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_3508"
         },
         {
-          "@id": "edam:format_3464"
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3604"
         }
       ],
-      "sc:name": "Nucleic acid sequence"
+      "sc:name": "Image"
     },
     {
-      "@id": "_:N613bdbc403a84a2684ec9f82e567e168",
+      "@id": "_:Nbbaf29e6c9e340ddbf2007ec15c43c6f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1364"
+        "@id": "edam:data_3736"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1370"
+        "@id": "edam:format_3752"
       },
-      "sc:name": "Hidden Markov model"
+      "sc:name": "Ecological data"
     },
     {
-      "@id": "_:N6f981cb8dbd04f61b2164b9a85154ff4",
+      "@id": "_:N4ee4ae96261a478cbfec9ae997088b10",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1333"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:N0146ed4948024040960aa38b229da7b5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1138"
@@ -295,7 +257,7 @@
       "sc:name": "Pfam accession number"
     },
     {
-      "@id": "_:N7bae5b63023a49d8bb5a7d6f621fd3ff",
+      "@id": "_:N126ebf0c7dc4468fb41f54b1795803a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -309,6 +271,44 @@
         }
       ],
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N52e65f6ed66742dd849e80a4609acefd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N0d09ec129a224ae3a7b9e61452c6bb85",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1370"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N155d9aa5495e4b42a87431f8e0393ae5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2295"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene ID"
     }
   ]
 }

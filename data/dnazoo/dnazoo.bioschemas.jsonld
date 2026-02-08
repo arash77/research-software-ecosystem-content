@@ -40,33 +40,33 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd3884b5514384ac2bee807bcddc15729"
+          "@id": "_:N970e54545ba24cfead2b9331979e47e7"
         },
         {
-          "@id": "_:N4265c26b303c491c8b63a9b8bba7d873"
+          "@id": "_:N3960b963d9924e35b538ecfb694da274"
         },
         {
-          "@id": "_:Nedfef8c61fd142f289d1756c3843eaa3"
+          "@id": "_:Nc6bbe37827c047c8a239faf242d167c7"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1cd57bb45fa042fe9b6902c7e62c4759"
+          "@id": "_:N4a3409bf97b548cfa4a7ee22c65fb38f"
         },
         {
-          "@id": "_:N60361a73854f4782851fb1759014efd3"
+          "@id": "_:N3c2f1e2b9bf4464cbbf26fa216a08df0"
         },
         {
-          "@id": "_:Nd94517507d0c415e99421e30618deb1b"
+          "@id": "_:N5621282b08774caaad5c2f6f83c3b0d4"
         },
         {
-          "@id": "_:N7734f47ffcd5491a93e755024e732bc6"
+          "@id": "_:Nf989299e6bf8410892634c29443dc841"
         },
         {
-          "@id": "_:Nc3bdaa35099b4c6087c617a4e762b875"
+          "@id": "_:N73362551caca47d9a1df0aa4224bec57"
         },
         {
-          "@id": "_:N6e2e9d7018dc4f55ac400df8f258ccc2"
+          "@id": "_:Ncfc5e5b9d8b142c29e0cd7d145d63c08"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -83,15 +83,7 @@
       "sc:url": "https://www.dnazoo.org/"
     },
     {
-      "@id": "_:Nd3884b5514384ac2bee807bcddc15729",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2909"
-      },
-      "sc:name": "Organism name"
-    },
-    {
-      "@id": "_:N4265c26b303c491c8b63a9b8bba7d873",
+      "@id": "_:N970e54545ba24cfead2b9331979e47e7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3273"
@@ -99,7 +91,15 @@
       "sc:name": "Sample ID"
     },
     {
-      "@id": "_:Nedfef8c61fd142f289d1756c3843eaa3",
+      "@id": "_:N3960b963d9924e35b538ecfb694da274",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2909"
+      },
+      "sc:name": "Organism name"
+    },
+    {
+      "@id": "_:Nc6bbe37827c047c8a239faf242d167c7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -107,7 +107,15 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N1cd57bb45fa042fe9b6902c7e62c4759",
+      "@id": "_:N4a3409bf97b548cfa4a7ee22c65fb38f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N3c2f1e2b9bf4464cbbf26fa216a08df0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2711"
@@ -115,31 +123,7 @@
       "sc:name": "Genome report"
     },
     {
-      "@id": "_:N60361a73854f4782851fb1759014efd3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3495"
-      },
-      "sc:name": "RNA sequence"
-    },
-    {
-      "@id": "_:Nd94517507d0c415e99421e30618deb1b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N7734f47ffcd5491a93e755024e732bc6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2193"
-      },
-      "sc:name": "Database entry metadata"
-    },
-    {
-      "@id": "_:Nc3bdaa35099b4c6087c617a4e762b875",
+      "@id": "_:N5621282b08774caaad5c2f6f83c3b0d4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -147,12 +131,28 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N6e2e9d7018dc4f55ac400df8f258ccc2",
+      "@id": "_:Nf989299e6bf8410892634c29443dc841",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3494"
+        "@id": "edam:data_3495"
       },
-      "sc:name": "DNA sequence"
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:N73362551caca47d9a1df0aa4224bec57",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Ncfc5e5b9d8b142c29e0cd7d145d63c08",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2193"
+      },
+      "sc:name": "Database entry metadata"
     }
   ]
 }

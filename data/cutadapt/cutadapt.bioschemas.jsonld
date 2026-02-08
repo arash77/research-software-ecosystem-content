@@ -45,18 +45,18 @@
       "biotools:primaryContact": "Marcel Martin",
       "bsc:input": [
         {
-          "@id": "_:Ne5e060922dff4c25b9a0fb0256fd95ba"
+          "@id": "_:Nc84baf20c9dc4eaeb2608b38ca1eb60e"
         },
         {
-          "@id": "_:N331a702d2af4479d8ba6b29acff3892c"
+          "@id": "_:Nd820315b73214024b691a02395a15dd8"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc56874c836cd4e4c95aeb55b8d921988"
+          "@id": "_:N65e9d58be174467899f2092a3bcfe380"
         },
         {
-          "@id": "_:N2ad0c1c9d9ab409daceef8256689f55e"
+          "@id": "_:Nea5d151d2f1d4a47b44572d6adae3235"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,10 +66,10 @@
           "@id": "edam:topic_3168"
         },
         {
-          "@id": "edam:topic_0632"
+          "@id": "edam:topic_0622"
         },
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_0632"
         }
       ],
       "sc:citation": [
@@ -83,13 +83,13 @@
       "sc:description": "Find and remove adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3237"
+          "@id": "edam:operation_3192"
         },
         {
           "@id": "edam:operation_3219"
         },
         {
-          "@id": "edam:operation_3192"
+          "@id": "edam:operation_3237"
         }
       ],
       "sc:license": "MIT",
@@ -105,23 +105,34 @@
       "sc:url": "https://pypi.org/project/cutadapt/"
     },
     {
-      "@id": "_:Ne5e060922dff4c25b9a0fb0256fd95ba",
+      "@id": "_:Nc84baf20c9dc4eaeb2608b38ca1eb60e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "_:Nd820315b73214024b691a02395a15dd8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1930"
+          "@id": "edam:format_1929"
         },
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_1930"
         }
       ],
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N331a702d2af4479d8ba6b29acff3892c",
+      "@id": "_:N65e9d58be174467899f2092a3bcfe380",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -132,18 +143,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:Nc56874c836cd4e4c95aeb55b8d921988",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1383"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2572"
-      },
-      "sc:name": "Nucleic acid sequence alignment"
-    },
-    {
-      "@id": "_:N2ad0c1c9d9ab409daceef8256689f55e",
+      "@id": "_:Nea5d151d2f1d4a47b44572d6adae3235",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"

@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Timothy Grant",
       "bsc:input": {
-        "@id": "_:N894f2e0d714747ecb422f4aee3504549"
+        "@id": "_:Nfd3b0cb5c52641dea1bc895d8a38a5dd"
       },
       "bsc:output": {
-        "@id": "_:N78d5c2ba9fc94563a5b67154bd4fd60f"
+        "@id": "_:N88912017590c4b9aa726b78c0384a540"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -52,13 +52,13 @@
           "@id": "edam:topic_0092"
         },
         {
-          "@id": "edam:topic_0769"
-        },
-        {
           "@id": "edam:topic_0611"
         },
         {
           "@id": "edam:topic_0081"
+        },
+        {
+          "@id": "edam:topic_0769"
         }
       ],
       "sc:citation": {
@@ -67,16 +67,16 @@
       "sc:description": "cisTEM (computational imaging system for transmission electron microscopy) is a complete software solution for processing cryo-electron microscopy images of macromolecular complexes and obtain high-resolution 3D reconstructions from them.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3552"
-        },
-        {
-          "@id": "edam:operation_0570"
+          "@id": "edam:operation_3457"
         },
         {
           "@id": "edam:operation_3096"
         },
         {
-          "@id": "edam:operation_3457"
+          "@id": "edam:operation_3552"
+        },
+        {
+          "@id": "edam:operation_0570"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -88,18 +88,7 @@
       "sc:url": "https://cistem.org/"
     },
     {
-      "@id": "_:N78d5c2ba9fc94563a5b67154bd4fd60f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1710"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "Structure image"
-    },
-    {
-      "@id": "_:N894f2e0d714747ecb422f4aee3504549",
+      "@id": "_:Nfd3b0cb5c52641dea1bc895d8a38a5dd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -108,6 +97,17 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N88912017590c4b9aa726b78c0384a540",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1710"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Structure image"
     },
     {
       "@id": "https://doi.org/10.7554/eLife.35383",

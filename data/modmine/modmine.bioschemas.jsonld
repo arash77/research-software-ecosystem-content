@@ -44,60 +44,60 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N74bb9ec51ed74d2c93ac4eb8d89bf98c"
+          "@id": "_:N5dc4de23d22647b8b864d50bd8c9514f"
         },
         {
-          "@id": "_:N1820f6f07eb84146828a8bc594e6ff20"
+          "@id": "_:Neda04e40234943d2999e6e9fd89dc7c3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Neab9472db0074b309e404a854be7e50d"
+          "@id": "_:N812a715d9fb14fbb92d5880e09564185"
         },
         {
-          "@id": "_:N58fe5c66bb4a4b79824300cc5bf6b6c5"
+          "@id": "_:Na332e73c10d346e788eb09ea8cb65ffa"
         },
         {
-          "@id": "_:N9393f06aa2a24ee29576b06db8a83213"
+          "@id": "_:N182aa5a480bb40f19dea63b4e531c4e1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
         "Web application",
-        "Web service",
-        "Database portal"
+        "Database portal",
+        "Web service"
       ],
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_3071"
         },
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0622"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC3516146",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bts577"
         },
-        "pubmed:23023984",
-        "pmcid:PMC3516146"
+        "pubmed:23023984"
       ],
       "sc:description": "A data warehouse for the modENCODE project",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_2436"
         },
         {
           "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2422"
         },
         {
-          "@id": "edam:operation_2436"
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -109,17 +109,25 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+          "@id": "https://flymine.readthedocs.io/en/latest/"
         },
         {
-          "@id": "https://flymine.readthedocs.io/en/latest/"
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
         }
       ],
       "sc:softwareVersion": "33 28JUL2014",
       "sc:url": "http://intermine.modencode.org/release-33"
     },
     {
-      "@id": "_:N74bb9ec51ed74d2c93ac4eb8d89bf98c",
+      "@id": "_:N5dc4de23d22647b8b864d50bd8c9514f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Neda04e40234943d2999e6e9fd89dc7c3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -127,36 +135,28 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N1820f6f07eb84146828a8bc594e6ff20",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:Neab9472db0074b309e404a854be7e50d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N58fe5c66bb4a4b79824300cc5bf6b6c5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3786"
-      },
-      "sc:name": "Query script"
-    },
-    {
-      "@id": "_:N9393f06aa2a24ee29576b06db8a83213",
+      "@id": "_:N812a715d9fb14fbb92d5880e09564185",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
       },
       "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "_:Na332e73c10d346e788eb09ea8cb65ffa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N182aa5a480bb40f19dea63b4e531c4e1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:name": "Query script"
     }
   ]
 }

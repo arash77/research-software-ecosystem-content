@@ -36,44 +36,48 @@
   },
   "@graph": [
     {
+      "@id": "http://orcid.org/0000-0002-6485-8781",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/clusterprofiler",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0002-6485-8781"
       },
       "bsc:input": {
-        "@id": "_:Nc3231c30762745dd81a66e512f4a9096"
+        "@id": "_:N73b9abf391e04fe09900668cd2985a73"
       },
       "bsc:output": [
         {
-          "@id": "_:N2a1ebe6d7ccf497680e705090ec2b307"
+          "@id": "_:N02a458ca0ebd459191a92af029dcc8f2"
         },
         {
-          "@id": "_:N0bcc2f6b8e4140a0bd507760f817548b"
+          "@id": "_:Nc4a25a12e7a34606882a174eebff3f28"
         },
         {
-          "@id": "_:N24362057aa154dafbc6c44f99029e6e6"
+          "@id": "_:N89ca97b86ba64e4eabec13030675d625"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_3053"
         },
         {
-          "@id": "edam:topic_3053"
+          "@id": "edam:topic_0092"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC3339379",
+        "pubmed:22455463",
         {
           "@id": "https://doi.org/10.1089/omi.2011.0118"
-        },
-        "pmcid:PMC3339379",
-        "pubmed:22455463"
+        }
       ],
       "sc:description": "This package implements methods to analyze and visualize functional profiles (GO and KEGG) of gene and gene clusters.",
       "sc:featureList": [
@@ -88,9 +92,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "clusterProfiler",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html"
@@ -99,40 +103,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html"
     },
     {
-      "@id": "_:N2a1ebe6d7ccf497680e705090ec2b307",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1669"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "P-value"
-    },
-    {
-      "@id": "_:N0bcc2f6b8e4140a0bd507760f817548b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0862"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "Dotplot"
-    },
-    {
-      "@id": "_:N24362057aa154dafbc6c44f99029e6e6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nc3231c30762745dd81a66e512f4a9096",
+      "@id": "_:N73b9abf391e04fe09900668cd2985a73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1027"
@@ -143,12 +114,41 @@
       "sc:name": "Gene ID (NCBI)"
     },
     {
-      "@id": "https://doi.org/10.1089/omi.2011.0118",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N02a458ca0ebd459191a92af029dcc8f2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0862"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Dotplot"
     },
     {
-      "@id": "http://orcid.org/0000-0002-6485-8781",
-      "@type": "sc:Person"
+      "@id": "_:Nc4a25a12e7a34606882a174eebff3f28",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N89ca97b86ba64e4eabec13030675d625",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "https://doi.org/10.1089/omi.2011.0118",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

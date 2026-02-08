@@ -40,49 +40,53 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/computecoverage",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N48236f1342b74ba8bc456f49843fe7ea"
+          "@id": "_:Na8ac4a91d2214cbc9ff35c21d214d831"
         },
         {
-          "@id": "_:N6e683c69eec7466ca498a26ff45cf9a0"
+          "@id": "_:N2d304c3773434828bd37924470ebfe60"
         },
         {
-          "@id": "_:N58d65b6a13c24d85a09394ede2dc3618"
+          "@id": "_:N7b6c2b8bb998451b83696bca84ef20cc"
         },
         {
-          "@id": "_:N98aca0b5ef5347a1aec6917d24454dd1"
+          "@id": "_:N2261f7f526664664b160c3cc21ade594"
         },
         {
-          "@id": "_:N816901a165144559bfb3a8c269ad6120"
+          "@id": "_:N2996296a4592497abb2353e6c0064f3e"
         },
         {
-          "@id": "_:Nf6cf508277904edea7ff73df51f9a528"
+          "@id": "_:N161fc07f321140978893506959177b6c"
         },
         {
-          "@id": "_:N7753ee50563d414d806c2ddba791539f"
+          "@id": "_:Nc64ea43a461c4115a84a9d159be0dd4e"
         },
         {
-          "@id": "_:N8613c00913674ee498afe24be645ecc3"
+          "@id": "_:Neba880a016c14bc38a3179c92f43cace"
         },
         {
-          "@id": "_:Nfb698a8092574243af40e9238292eabf"
+          "@id": "_:N098d0f72eeff4dc5a34ce662b62390c1"
         },
         {
-          "@id": "_:N8018eab61ae142f98cc4db47cd1bd68b"
+          "@id": "_:N92db63d65d704b22b6a698eb3a183e47"
         },
         {
-          "@id": "_:N5541048a3f42426e8c94dcdeeae6aea4"
+          "@id": "_:Nf85a0b72c58044319a21fda2e6607509"
         },
         {
-          "@id": "_:Ncdf1d30df6af44a8962a860d357f41cc"
+          "@id": "_:N27535f21d8824058bd93c973c129487b"
         }
       ],
       "bsc:output": {
-        "@id": "_:N6ea35c3faca14ae6aff2b54c53c2465e"
+        "@id": "_:Nb20ae0b424bc4e9fb990e420236c7068"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -90,14 +94,14 @@
         "@id": "edam:topic_0080"
       },
       "sc:citation": [
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
         "pubmed:27137889",
-        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
-        {
-          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
-        }
+        "pmcid:PMC4987906"
       ],
       "sc:description": "Compute the coverage of a set with respect to another set.",
       "sc:featureList": {
@@ -105,9 +109,9 @@
       },
       "sc:name": "computecoverage",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/ComputeCoverage/1.0.0"
@@ -116,40 +120,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N48236f1342b74ba8bc456f49843fe7ea",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N6e683c69eec7466ca498a26ff45cf9a0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2573"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:N58d65b6a13c24d85a09394ede2dc3618",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2573"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:N98aca0b5ef5347a1aec6917d24454dd1",
+      "@id": "_:Na8ac4a91d2214cbc9ff35c21d214d831",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -160,7 +131,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N816901a165144559bfb3a8c269ad6120",
+      "@id": "_:N2d304c3773434828bd37924470ebfe60",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -171,18 +142,18 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Nf6cf508277904edea7ff73df51f9a528",
+      "@id": "_:N7b6c2b8bb998451b83696bca84ef20cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2306"
+        "@id": "edam:format_1975"
       },
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7753ee50563d414d806c2ddba791539f",
+      "@id": "_:N2261f7f526664664b160c3cc21ade594",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -193,7 +164,18 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N8613c00913674ee498afe24be645ecc3",
+      "@id": "_:N2996296a4592497abb2353e6c0064f3e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N161fc07f321140978893506959177b6c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -204,18 +186,18 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nfb698a8092574243af40e9238292eabf",
+      "@id": "_:Nc64ea43a461c4115a84a9d159be0dd4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1975"
+        "@id": "edam:format_2330"
       },
       "sc:name": "Data"
     },
     {
-      "@id": "_:N8018eab61ae142f98cc4db47cd1bd68b",
+      "@id": "_:Neba880a016c14bc38a3179c92f43cace",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -226,7 +208,40 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N5541048a3f42426e8c94dcdeeae6aea4",
+      "@id": "_:N098d0f72eeff4dc5a34ce662b62390c1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N92db63d65d704b22b6a698eb3a183e47",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Nf85a0b72c58044319a21fda2e6607509",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N27535f21d8824058bd93c973c129487b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -237,18 +252,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Ncdf1d30df6af44a8962a860d357f41cc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N6ea35c3faca14ae6aff2b54c53c2465e",
+      "@id": "_:Nb20ae0b424bc4e9fb990e420236c7068",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -257,10 +261,6 @@
         "@id": "edam:format_1975"
       },
       "sc:name": "Data"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

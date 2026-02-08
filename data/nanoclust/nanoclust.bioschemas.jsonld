@@ -36,11 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2020.05.14.087353",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-5352-069X",
+      "@id": "https://orcid.org/0000-0003-1777-9084",
       "@type": "sc:Person"
     },
     {
@@ -50,27 +46,27 @@
         "@id": "https://orcid.org/0000-0003-1777-9084"
       },
       "bsc:input": {
-        "@id": "_:N85072ca486b04c1bb66903e9d50f1af9"
+        "@id": "_:N06242fb21e2949d98f6a59ed58331079"
       },
       "bsc:output": [
         {
-          "@id": "_:Nf88d2f5d3a814ddda44e38ddb921fa22"
+          "@id": "_:N268a72a87206454283721f406d68453a"
         },
         {
-          "@id": "_:N64675c6ff62c423cb5b6356d1b31c8f1"
+          "@id": "_:N7a80ea71b9974b5098fe12e8b5ae370e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3174"
+        },
+        {
           "@id": "edam:topic_0637"
         },
         {
           "@id": "edam:topic_0769"
-        },
-        {
-          "@id": "edam:topic_3174"
         },
         {
           "@id": "edam:topic_3168"
@@ -94,10 +90,10 @@
           "@id": "edam:operation_3644"
         },
         {
-          "@id": "edam:operation_3432"
+          "@id": "edam:operation_3460"
         },
         {
-          "@id": "edam:operation_3460"
+          "@id": "edam:operation_3432"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -109,7 +105,15 @@
       "sc:url": "https://github.com/genomicsITER/NanoCLUST"
     },
     {
-      "@id": "_:Nf88d2f5d3a814ddda44e38ddb921fa22",
+      "@id": "_:N268a72a87206454283721f406d68453a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1246"
+      },
+      "sc:name": "Sequence cluster (nucleic acid)"
+    },
+    {
+      "@id": "_:N7a80ea71b9974b5098fe12e8b5ae370e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -120,15 +124,7 @@
       "sc:name": "Taxonomy"
     },
     {
-      "@id": "_:N64675c6ff62c423cb5b6356d1b31c8f1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1246"
-      },
-      "sc:name": "Sequence cluster (nucleic acid)"
-    },
-    {
-      "@id": "_:N85072ca486b04c1bb66903e9d50f1af9",
+      "@id": "_:N06242fb21e2949d98f6a59ed58331079",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -139,8 +135,12 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "https://orcid.org/0000-0003-1777-9084",
+      "@id": "https://orcid.org/0000-0001-5352-069X",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2020.05.14.087353",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

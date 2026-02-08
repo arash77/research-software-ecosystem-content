@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btab056",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/mzrecal",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3d82dc1749b24bf5a44b01312e2958b1"
+          "@id": "_:N1dc05c64b98c418687bb10b2bf95f1fb"
         },
         {
-          "@id": "_:N694857a2ac62419ab05fb8e8425e5058"
+          "@id": "_:N012f749be8c34093b68833c58e78fbac"
         }
       ],
       "bsc:output": {
-        "@id": "_:N0abbc10ab1ac45a6b44798d0a556da52"
+        "@id": "_:N129da181b32b4041a92e5f369a64df61"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -59,10 +55,10 @@
         "@id": "edam:topic_0121"
       },
       "sc:citation": [
-        "pubmed:33538780",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btab056"
-        }
+        },
+        "pubmed:33538780"
       ],
       "sc:description": "Recalibrate mass spectrometry datasets using peptides identified by MS/MS",
       "sc:featureList": {
@@ -82,7 +78,18 @@
       "sc:url": "https://github.com/524D/mzrecal/"
     },
     {
-      "@id": "_:N3d82dc1749b24bf5a44b01312e2958b1",
+      "@id": "_:N1dc05c64b98c418687bb10b2bf95f1fb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3244"
+      },
+      "sc:name": "Mass spectrum"
+    },
+    {
+      "@id": "_:N012f749be8c34093b68833c58e78fbac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -93,7 +100,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N694857a2ac62419ab05fb8e8425e5058",
+      "@id": "_:N129da181b32b4041a92e5f369a64df61",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -104,15 +111,8 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:N0abbc10ab1ac45a6b44798d0a556da52",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3244"
-      },
-      "sc:name": "Mass spectrum"
+      "@id": "https://doi.org/10.1093/bioinformatics/btab056",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

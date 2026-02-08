@@ -40,60 +40,60 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "http://orcid.org/0000-0002-4632-2086",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "http://orcid.org/0000-0003-4638-2879",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.1093/database/bav033",
-      "@type": "sc:CreativeWork"
+      "@id": "http://orcid.org/0000-0003-0642-3162",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-4632-2086",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/biosurfdb",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
         {
-          "@id": "http://orcid.org/0000-0002-4632-2086"
+          "@id": "https://orcid.org/0000-0001-6425-2176"
         },
         {
           "@id": "http://orcid.org/0000-0003-0642-3162"
         },
         {
-          "@id": "http://orcid.org/0000-0003-4638-2879"
+          "@id": "http://orcid.org/0000-0002-4632-2086"
         },
         {
-          "@id": "https://orcid.org/0000-0001-6425-2176"
+          "@id": "http://orcid.org/0000-0003-4638-2879"
         }
       ],
       "bsc:input": [
         {
-          "@id": "_:Nd969ef94668b4efcae806b7927e45bb9"
+          "@id": "_:N89589a70c0244ee1ad833af43b71c55f"
         },
         {
-          "@id": "_:N258ef2245c9c4a89aa81fbabc25ed9f2"
+          "@id": "_:Nd3e881978b7c47b695984f816ae06ec0"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N349d1d02d7b140c68d9e22bada60d351"
+          "@id": "_:N3cd40631955544dfb525016fe6b7733f"
         },
         {
-          "@id": "_:N24d33a994f50444e8e48d8f4c09c1c10"
+          "@id": "_:Nd974f2ce621447a8acb220f42eaf5aeb"
         },
         {
-          "@id": "_:Nef9d647c8fcd494fb72230915c958225"
+          "@id": "_:Nb679535777584c989c1ecd28e37005a0"
         },
         {
-          "@id": "_:N899d889fd3ab4206896aaa392373afee"
+          "@id": "_:Nfb6814135cbe4e2a94759239102e7665"
         },
         {
-          "@id": "_:N8d1b3decaeb14c7cb4d4c505ec47a494"
+          "@id": "_:N813368b64c764a40a4f2e59c9c156f2e"
         },
         {
-          "@id": "_:N1e4df4961bbd4b64b4899618495bf90c"
+          "@id": "_:Na020c7e9be154545af4033c251a7f9d3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -115,10 +115,10 @@
       "sc:description": "BioSurfDB is a online database for biodegradation and biosurfactants.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0349"
+          "@id": "edam:operation_0495"
         },
         {
-          "@id": "edam:operation_0495"
+          "@id": "edam:operation_0349"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -126,47 +126,7 @@
       "sc:url": "https://www.biosurfdb.org"
     },
     {
-      "@id": "_:N349d1d02d7b140c68d9e22bada60d351",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1027"
-      },
-      "sc:name": "Gene ID (NCBI)"
-    },
-    {
-      "@id": "_:N24d33a994f50444e8e48d8f4c09c1c10",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1383"
-      },
-      "sc:name": "Nucleic acid sequence alignment"
-    },
-    {
-      "@id": "_:Nef9d647c8fcd494fb72230915c958225",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:N899d889fd3ab4206896aaa392373afee",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2299"
-      },
-      "sc:name": "Gene name"
-    },
-    {
-      "@id": "_:N8d1b3decaeb14c7cb4d4c505ec47a494",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N1e4df4961bbd4b64b4899618495bf90c",
+      "@id": "_:N3cd40631955544dfb525016fe6b7733f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1385"
@@ -174,15 +134,23 @@
       "sc:name": "Hybrid sequence alignment"
     },
     {
-      "@id": "_:Nd969ef94668b4efcae806b7927e45bb9",
+      "@id": "_:Nd974f2ce621447a8acb220f42eaf5aeb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2886"
+        "@id": "edam:data_1383"
       },
-      "sc:name": "Protein sequence record"
+      "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N258ef2245c9c4a89aa81fbabc25ed9f2",
+      "@id": "_:Nb679535777584c989c1ecd28e37005a0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1027"
+      },
+      "sc:name": "Gene ID (NCBI)"
+    },
+    {
+      "@id": "_:Nfb6814135cbe4e2a94759239102e7665",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -190,8 +158,40 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "http://orcid.org/0000-0003-0642-3162",
-      "@type": "sc:Person"
+      "@id": "_:N813368b64c764a40a4f2e59c9c156f2e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:Na020c7e9be154545af4033c251a7f9d3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:N89589a70c0244ee1ad833af43b71c55f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:Nd3e881978b7c47b695984f816ae06ec0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2886"
+      },
+      "sc:name": "Protein sequence record"
+    },
+    {
+      "@id": "https://doi.org/10.1093/database/bav033",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     },
@@ -48,28 +44,32 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/variationget",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na43d513727344797ac228ed6b75be35a"
+        "@id": "_:N39d8e2933cc8415eaf4c39f63190fd92"
       },
       "bsc:output": {
-        "@id": "_:N96cf449f64624a07aea689c50b10534f"
+        "@id": "_:Nf04921c918214d35893b9d5ebd782620"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
-        },
-        {
           "@id": "edam:topic_0199"
         },
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_3071"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0622"
         }
       ],
       "sc:citation": [
@@ -84,38 +84,38 @@
         }
       ],
       "sc:contributor": [
+        "UK MRC",
         "Wellcome Trust",
         "EMBOSS Contributors",
-        "UK MRC",
         "UK BBSRC"
       ],
       "sc:description": "An Emboss tool that reads sequence variation data and writes the data in one of the EMBOSS variation output formats",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2403"
-        },
-        {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_3197"
         },
         {
           "@id": "edam:operation_0335"
         },
         {
-          "@id": "edam:operation_3197"
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_2403"
         }
       ],
       "sc:funder": [
-        "UK MRC",
         "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "variationget",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
         "EMBOSS",
@@ -123,20 +123,20 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
-        },
-        {
           "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
         },
         {
           "@id": "http://emboss.open-bio.org/rel/rel6/apps/variationget.html"
+        },
+        {
+          "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
         }
       ],
       "sc:softwareVersion": "r6",
       "sc:url": "http://www.bioinformatics.nl/cgi-bin/emboss/variationget"
     },
     {
-      "@id": "_:Na43d513727344797ac228ed6b75be35a",
+      "@id": "_:N39d8e2933cc8415eaf4c39f63190fd92",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -147,7 +147,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N96cf449f64624a07aea689c50b10534f",
+      "@id": "_:Nf04921c918214d35893b9d5ebd782620",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"

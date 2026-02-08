@@ -43,19 +43,19 @@
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3338"
-        },
-        {
-          "@id": "edam:topic_0634"
+          "@id": "edam:topic_0089"
         },
         {
           "@id": "edam:topic_0621"
         },
         {
-          "@id": "edam:topic_0625"
+          "@id": "edam:topic_0634"
         },
         {
-          "@id": "edam:topic_0089"
+          "@id": "edam:topic_3338"
+        },
+        {
+          "@id": "edam:topic_0625"
         }
       ],
       "sc:citation": [
@@ -71,10 +71,10 @@
           "@id": "edam:operation_3223"
         },
         {
-          "@id": "edam:operation_2429"
+          "@id": "edam:operation_3232"
         },
         {
-          "@id": "edam:operation_3232"
+          "@id": "edam:operation_2429"
         },
         {
           "@id": "edam:operation_3280"
@@ -85,8 +85,8 @@
       ],
       "sc:name": "PhenoHM",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
+        "Windows",
         "Mac"
       ],
       "sc:softwareHelp": {

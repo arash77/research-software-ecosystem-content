@@ -36,24 +36,20 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-016-1190-7",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/gatk-lodn",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
         {
           "@id": "http://orcid.org/0000-0003-3185-7456"
         },
-        "Gastone Castellani",
-        "Ítalo Faria do Valle"
+        "Ítalo Faria do Valle",
+        "Gastone Castellani"
       ],
       "bsc:input": {
-        "@id": "_:N7efc9f7e13dd49a48284534759563603"
+        "@id": "_:Nc8840a5d5daa4deda8b1f1aae371e174"
       },
       "bsc:output": {
-        "@id": "_:Ncca28f8378b94075b9ea48ed6a96bbe3"
+        "@id": "_:N9d836352e13a43da9e7e9135d5f1840a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -81,18 +77,7 @@
       "sc:url": "https://bitbucket.org/BBDA-UNIBO/wes-pipeline"
     },
     {
-      "@id": "_:N7efc9f7e13dd49a48284534759563603",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1234"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1930"
-      },
-      "sc:name": "Sequence set (nucleic acid)"
-    },
-    {
-      "@id": "_:Ncca28f8378b94075b9ea48ed6a96bbe3",
+      "@id": "_:N9d836352e13a43da9e7e9135d5f1840a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -103,8 +88,23 @@
       "sc:name": "Sequence variations"
     },
     {
+      "@id": "_:Nc8840a5d5daa4deda8b1f1aae371e174",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
       "@id": "http://orcid.org/0000-0003-3185-7456",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-016-1190-7",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

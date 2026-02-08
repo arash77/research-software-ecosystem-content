@@ -41,18 +41,18 @@
       "biotools:primaryContact": "Steven Maere",
       "bsc:input": [
         {
-          "@id": "_:N8a0c37b186a547e7a2e101c96985ad48"
+          "@id": "_:Nf9bc71e48d3f4e6fa3d5f6919150f016"
         },
         {
-          "@id": "_:Nfb38fbbee2f84eb9b46ae0ecb7b5d3bc"
+          "@id": "_:N7bad85fa061f4248be464a807f69735d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nb0ce554d5bd7425c97679b6d3697eda1"
+          "@id": "_:N26e6cd74eba243ceab7651be13b549b4"
         },
         {
-          "@id": "_:N6ff16a825cca42a38dece5a3a3ea8388"
+          "@id": "_:N3842a656d6084b65b62012e8c72ac1ae"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -61,11 +61,11 @@
         "@id": "edam:topic_0085"
       },
       "sc:citation": [
-        "pubmed:21278188",
-        "pmcid:PMC3065683",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btr045"
-        }
+        },
+        "pubmed:21278188",
+        "pmcid:PMC3065683"
       ],
       "sc:description": "Java-based tool to easily find unknown genes in a network that are significantly associated with user-defined target Gene Ontology (GO) categories.",
       "sc:featureList": {
@@ -73,9 +73,9 @@
       },
       "sc:name": "PiNGO",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "PSB",
       "sc:softwareHelp": {
@@ -85,23 +85,7 @@
       "sc:url": "http://www.psb.ugent.be/esb/PiNGO/Home.html"
     },
     {
-      "@id": "_:Nb0ce554d5bd7425c97679b6d3697eda1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1669"
-      },
-      "sc:name": "P-value"
-    },
-    {
-      "@id": "_:N6ff16a825cca42a38dece5a3a3ea8388",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1025"
-      },
-      "sc:name": "Gene identifier"
-    },
-    {
-      "@id": "_:N8a0c37b186a547e7a2e101c96985ad48",
+      "@id": "_:Nf9bc71e48d3f4e6fa3d5f6919150f016",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2338"
@@ -109,12 +93,28 @@
       "sc:name": "Ontology identifier"
     },
     {
-      "@id": "_:Nfb38fbbee2f84eb9b46ae0ecb7b5d3bc",
+      "@id": "_:N7bad85fa061f4248be464a807f69735d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1082"
       },
       "sc:name": "Pathway or network identifier"
+    },
+    {
+      "@id": "_:N26e6cd74eba243ceab7651be13b549b4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1025"
+      },
+      "sc:name": "Gene identifier"
+    },
+    {
+      "@id": "_:N3842a656d6084b65b62012e8c72ac1ae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:name": "P-value"
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btr045",

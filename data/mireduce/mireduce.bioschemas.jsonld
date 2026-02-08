@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N9e6af8e2f4a74cf9ab126d34d5068d2b"
+          "@id": "_:N6a0a8b5c27ab498bb91fd23f439ab9ec"
         },
         {
-          "@id": "_:Nb6b8b92d9d5942ffbf40bcff1dd6d45a"
+          "@id": "_:N8dfad7aed80748ba959d944435de67ea"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nb7c1da6342a44f0e80eaa82508c54f5a"
+        "@id": "_:Nc6d91ac45baa43f39bc780b857e21229"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -63,7 +63,7 @@
       "sc:url": "https://www.mdc-berlin.de/10615841/en/research/research_teams/systems_biology_of_gene_regulatory_elements/projects/mireduce"
     },
     {
-      "@id": "_:Nb7c1da6342a44f0e80eaa82508c54f5a",
+      "@id": "_:Nc6d91ac45baa43f39bc780b857e21229",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -71,7 +71,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N9e6af8e2f4a74cf9ab126d34d5068d2b",
+      "@id": "_:N6a0a8b5c27ab498bb91fd23f439ab9ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -79,7 +79,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Nb6b8b92d9d5942ffbf40bcff1dd6d45a",
+      "@id": "_:N8dfad7aed80748ba959d944435de67ea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"

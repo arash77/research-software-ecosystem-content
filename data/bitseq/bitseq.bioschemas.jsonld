@@ -43,14 +43,14 @@
         "Panagiotis Papastamoulis"
       ],
       "bsc:input": {
-        "@id": "_:N9f8c8f4e2ab146b59bb47c8a6b246664"
+        "@id": "_:N7a73b1ca276042a08619c999dc8c090d"
       },
       "bsc:output": [
         {
-          "@id": "_:N0987d3c0c0fc40d08d3f08c2dc574ce9"
+          "@id": "_:N8a6dc2aa62f44097aff937721c746401"
         },
         {
-          "@id": "_:Naeb38a9d01f2474597cd0407d9bf3011"
+          "@id": "_:N2744ce1dad60471f884c611d52d4dbc1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,18 +60,18 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3170"
+          "@id": "edam:topic_0203"
         },
         {
-          "@id": "edam:topic_0203"
+          "@id": "edam:topic_3170"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC3381971",
+        "pubmed:22563066",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bts260"
         },
-        "pubmed:22563066"
+        "pmcid:PMC3381971"
       ],
       "sc:description": "This package is targeted for transcript expression analysis and DE analysis of RNA-seq data in a two-stage process. In the first stage it uses Bayesian methodology to infer expression of individual transcripts from individual RNA-seq experiments. The second stage embraces the DE analysis of transcript expression by providing expression estimates from replicates of multiple conditions.",
       "sc:featureList": {
@@ -80,9 +80,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "BitSeq",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/BitSeq.html"
@@ -91,7 +91,29 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/BitSeq.html"
     },
     {
-      "@id": "_:N9f8c8f4e2ab146b59bb47c8a6b246664",
+      "@id": "_:N8a6dc2aa62f44097aff937721c746401",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N2744ce1dad60471f884c611d52d4dbc1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N7a73b1ca276042a08619c999dc8c090d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -105,28 +127,6 @@
         }
       ],
       "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N0987d3c0c0fc40d08d3f08c2dc574ce9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:Naeb38a9d01f2474597cd0407d9bf3011",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Plot"
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/bts260",

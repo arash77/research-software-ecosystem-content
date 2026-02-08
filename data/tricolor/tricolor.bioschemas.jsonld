@@ -44,21 +44,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3a5921b655a54e44b04144810c7824b2"
+          "@id": "_:Nc4b4e9c5a83e4b06a66f5342bd178425"
         },
         {
-          "@id": "_:N351e5216da104e8184d43e676847bc11"
+          "@id": "_:N0e204c4c7d2b439da4a62e1232d4689a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nb74d1f7e17f64827bd9933c953a11b70"
+          "@id": "_:Nd4b4452501fc40cd9866667739b5df53"
         },
         {
-          "@id": "_:Nbf85bb4301104232a3f2f5be502ab3d9"
+          "@id": "_:Naba49add93de43b0864f9455e42860a3"
         },
         {
-          "@id": "_:Nf963b3381142424f8245543368aba7b1"
+          "@id": "_:N9e18ded3349f49d5bb4745e968ca776e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -72,13 +72,13 @@
       "sc:description": "Command-line application for tandem repeats profiling from error-prone long-read sequencing data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0337"
-        },
-        {
           "@id": "edam:operation_2945"
         },
         {
           "@id": "edam:operation_2429"
+        },
+        {
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -92,40 +92,7 @@
       "sc:url": "https://github.com/davidebolo1993/TRiCoLOR"
     },
     {
-      "@id": "_:Nb74d1f7e17f64827bd9933c953a11b70",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3498"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "_:Nbf85bb4301104232a3f2f5be502ab3d9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2012"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Sequence coordinates"
-    },
-    {
-      "@id": "_:Nf963b3381142424f8245543368aba7b1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3016"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N3a5921b655a54e44b04144810c7824b2",
+      "@id": "_:Nc4b4e9c5a83e4b06a66f5342bd178425",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -136,7 +103,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N351e5216da104e8184d43e676847bc11",
+      "@id": "_:N0e204c4c7d2b439da4a62e1232d4689a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -145,6 +112,39 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nd4b4452501fc40cd9866667739b5df53",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:Naba49add93de43b0864f9455e42860a3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:N9e18ded3349f49d5bb4745e968ca776e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence features"
     }
   ]
 }

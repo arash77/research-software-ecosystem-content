@@ -40,15 +40,15 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Bionode Team",
       "bsc:input": {
-        "@id": "_:N9f2202c9ca6549de84fb76eabf21ca70"
+        "@id": "_:Nf4f9f79284614910a3695caf4cbf44bb"
       },
       "bsc:output": {
-        "@id": "_:N1c7c41e741834fc5b5e50de0742a9c32"
+        "@id": "_:Nb0ccbbaa7ac948429f943742873ba31b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3071"
@@ -62,8 +62,8 @@
       "sc:license": "MIT",
       "sc:name": "bionode-fasta",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -73,7 +73,7 @@
       "sc:url": "http://bionode.io/"
     },
     {
-      "@id": "_:N9f2202c9ca6549de84fb76eabf21ca70",
+      "@id": "_:Nf4f9f79284614910a3695caf4cbf44bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -84,7 +84,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N1c7c41e741834fc5b5e50de0742a9c32",
+      "@id": "_:Nb0ccbbaa7ac948429f943742873ba31b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

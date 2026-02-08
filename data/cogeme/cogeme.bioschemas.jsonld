@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1111/j.1364-3703.2005.00317.x",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cogeme",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0e2986fd0fa8407990117ecdc30dff22"
+          "@id": "_:N6ce1ec0852f74d989055b82e066a8e8a"
         },
         {
-          "@id": "_:N9e4dcf2f9e3c4241897fa9f2729097c1"
+          "@id": "_:N087d99f9aaae4357b347c218a4c9942c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd7884593b9944c90b134dbec1ee87d53"
+          "@id": "_:N0ef220a9c04c4037813802a1c855d781"
         },
         {
-          "@id": "_:Ne4e3430d73784a9aaec086e2ca8fca4c"
+          "@id": "_:N373514ef122341e9b116dd84e813dfe8"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -69,10 +65,10 @@
         }
       ],
       "sc:citation": [
-        "pubmed:20507428",
         {
           "@id": "https://doi.org/10.1111/j.1364-3703.2005.00317.x"
-        }
+        },
+        "pubmed:20507428"
       ],
       "sc:description": "Phytopathogenic fungi and oomycete EST database.",
       "sc:featureList": {
@@ -91,7 +87,7 @@
       "sc:url": "http://cogeme.ex.ac.uk/"
     },
     {
-      "@id": "_:Nd7884593b9944c90b134dbec1ee87d53",
+      "@id": "_:N0ef220a9c04c4037813802a1c855d781",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -102,7 +98,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:Ne4e3430d73784a9aaec086e2ca8fca4c",
+      "@id": "_:N373514ef122341e9b116dd84e813dfe8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -113,7 +109,15 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N0e2986fd0fa8407990117ecdc30dff22",
+      "@id": "_:N6ce1ec0852f74d989055b82e066a8e8a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2730"
+      },
+      "sc:name": "COGEME unisequence ID"
+    },
+    {
+      "@id": "_:N087d99f9aaae4357b347c218a4c9942c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2729"
@@ -121,12 +125,8 @@
       "sc:name": "COGEME EST ID"
     },
     {
-      "@id": "_:N9e4dcf2f9e3c4241897fa9f2729097c1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2730"
-      },
-      "sc:name": "COGEME unisequence ID"
+      "@id": "https://doi.org/10.1111/j.1364-3703.2005.00317.x",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

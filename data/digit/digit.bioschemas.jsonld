@@ -44,42 +44,42 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Paolo Marcatili",
       "bsc:input": {
-        "@id": "_:N405db7d04f8140abad2240730ee787bd"
+        "@id": "_:N8172d52b9e384ad68b3c7e3149b27068"
       },
       "bsc:output": {
-        "@id": "_:N23c511a5358e47b59b3570688bc24be0"
+        "@id": "_:N4f591df4bb2748e3a91aa53e5e879d05"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_0082"
         },
         {
-          "@id": "edam:topic_0082"
+          "@id": "edam:topic_0080"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC3245095",
         "pubmed:22080506",
         {
           "@id": "https://doi.org/10.1093/nar/gkr806"
-        },
-        "pmcid:PMC3245095"
+        }
       ],
       "sc:description": "A database of immunoglobulin variable domain sequences and related search and modelling tools.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2423"
+          "@id": "edam:operation_0361"
         },
         {
-          "@id": "edam:operation_0361"
+          "@id": "edam:operation_2423"
         }
       ],
       "sc:name": "DIGIT",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "ELIXIR-ITA-SAPIENZA",
       "sc:softwareHelp": {
@@ -88,7 +88,7 @@
       "sc:url": "http://www.biocomputing.it/digit/"
     },
     {
-      "@id": "_:N23c511a5358e47b59b3570688bc24be0",
+      "@id": "_:N4f591df4bb2748e3a91aa53e5e879d05",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -96,7 +96,7 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:N405db7d04f8140abad2240730ee787bd",
+      "@id": "_:N8172d52b9e384ad68b3c7e3149b27068",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

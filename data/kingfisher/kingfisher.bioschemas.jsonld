@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/kingfisher",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne13e690cee6e40df8facffe0f624279d"
+        "@id": "_:Naf047264cff145cd91fab3dcd8c24075"
       },
       "bsc:output": {
-        "@id": "_:Nf4132b152b294bbe9c8f619a1f06ea74"
+        "@id": "_:N218bd4bc37d143a3b1f8a00a1632fac6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": {
@@ -70,7 +70,7 @@
       "sc:url": "https://github.com/wwood/kingfisher-download"
     },
     {
-      "@id": "_:Ne13e690cee6e40df8facffe0f624279d",
+      "@id": "_:Naf047264cff145cd91fab3dcd8c24075",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2091"
@@ -78,20 +78,20 @@
       "sc:name": "Accession"
     },
     {
-      "@id": "_:Nf4132b152b294bbe9c8f619a1f06ea74",
+      "@id": "_:N218bd4bc37d143a3b1f8a00a1632fac6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1929"
-        },
-        {
           "@id": "edam:format_3698"
         },
         {
           "@id": "edam:format_1930"
+        },
+        {
+          "@id": "edam:format_1929"
         }
       ],
       "sc:name": "Nucleic acid sequence"

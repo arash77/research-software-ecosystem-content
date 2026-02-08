@@ -39,40 +39,40 @@
       "@id": "https://bio.tools/glassgo",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nba7b9074f8ca4f7ca53dc4add32900da"
+        "@id": "_:N5804f52922cb4eb096cae461d5f4aba3"
       },
       "bsc:output": [
         {
-          "@id": "_:N2049f6a051734dc7b0902c68cc1a2cad"
+          "@id": "_:N872d30be6eca4199869209f8db2b3d1f"
         },
         {
-          "@id": "_:N02d40dfb82d545e1921f989464154ab7"
+          "@id": "_:Ne0f0495fef2f43ec9e1ad2c3086a2f6d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0659"
+          "@id": "edam:topic_0637"
         },
         {
-          "@id": "edam:topic_0637"
+          "@id": "edam:topic_0659"
         }
       ],
       "sc:description": "GLobal Automated sRNA Search go, combines iterative BLAST searches, pairwise identity filtering, and structure based clustering in an automated prediction pipeline to find sRNA homologs from scratch. The web server provides predefined parameter sets for a non-expert usage as well as enables a manual setup of the query parameters. The returned GLASSgo result is in FASTA format, whereby the first entry represents the input sequence.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0438"
+          "@id": "edam:operation_0337"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_0438"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "GLASSgo",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -81,18 +81,18 @@
       "sc:url": "http://rna.informatik.uni-freiburg.de/GLASSgo/Input.jsp"
     },
     {
-      "@id": "_:N2049f6a051734dc7b0902c68cc1a2cad",
+      "@id": "_:N5804f52922cb4eb096cae461d5f4aba3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1246"
+        "@id": "edam:data_2977"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_1929"
       },
-      "sc:name": "Sequence cluster (nucleic acid)"
+      "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N02d40dfb82d545e1921f989464154ab7",
+      "@id": "_:N872d30be6eca4199869209f8db2b3d1f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -103,15 +103,15 @@
       "sc:name": "Taxonomy"
     },
     {
-      "@id": "_:Nba7b9074f8ca4f7ca53dc4add32900da",
+      "@id": "_:Ne0f0495fef2f43ec9e1ad2c3086a2f6d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2977"
+        "@id": "edam:data_1246"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_1929"
       },
-      "sc:name": "Nucleic acid sequence"
+      "sc:name": "Sequence cluster (nucleic acid)"
     }
   ]
 }

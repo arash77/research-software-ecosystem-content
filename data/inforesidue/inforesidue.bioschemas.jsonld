@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/inforesidue",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8a504c8e461343368dcea9be2520fcb0"
+          "@id": "_:N1e47c6cfb19945b1a94486ab51c761fd"
         },
         {
-          "@id": "_:N1a6000d016464a0b8de60dbcd46bbc36"
+          "@id": "_:N246ec62363e647f4a163a2037b6fb4b6"
         }
       ],
       "bsc:output": {
-        "@id": "_:N96485474664a48fc9cff03eefc30219b"
+        "@id": "_:N5090c51077d34d878ec017c5f3ba7816"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -56,18 +60,18 @@
       },
       "sc:citation": [
         {
+          "@id": "https://doi.org/10.1017/CBO9781139151399"
+        },
+        {
           "@id": "https://doi.org/10.1017/CBO9781139151405"
         },
         {
           "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
-        },
-        {
-          "@id": "https://doi.org/10.1017/CBO9781139151399"
         }
       ],
       "sc:contributor": [
-        "UK MRC",
         "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust",
         "EMBOSS Contributors"
       ],
@@ -76,17 +80,17 @@
         "@id": "edam:operation_0224"
       },
       "sc:funder": [
-        "UK BBSRC",
         "Wellcome Trust",
+        "UK BBSRC",
         "UK MRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "inforesidue",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
         "EMBOSS",
@@ -94,36 +98,20 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://emboss.open-bio.org/rel/rel6/apps/inforesidue.html"
-        },
-        {
           "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
         },
         {
           "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
+        },
+        {
+          "@id": "http://emboss.open-bio.org/rel/rel6/apps/inforesidue.html"
         }
       ],
       "sc:softwareVersion": "r6",
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/inforesidue.html"
     },
     {
-      "@id": "_:N8a504c8e461343368dcea9be2520fcb0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1502"
-      },
-      "sc:name": "Amino acid index (chemical classes)"
-    },
-    {
-      "@id": "_:N1a6000d016464a0b8de60dbcd46bbc36",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1505"
-      },
-      "sc:name": "Amino acid index (molecular weight)"
-    },
-    {
-      "@id": "_:N96485474664a48fc9cff03eefc30219b",
+      "@id": "_:N5090c51077d34d878ec017c5f3ba7816",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -131,15 +119,27 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N1e47c6cfb19945b1a94486ab51c761fd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1502"
+      },
+      "sc:name": "Amino acid index (chemical classes)"
+    },
+    {
+      "@id": "_:N246ec62363e647f4a163a2037b6fb4b6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1505"
+      },
+      "sc:name": "Amino acid index (molecular weight)"
     },
     {
       "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
       "@type": "sc:CreativeWork"
     }
   ]

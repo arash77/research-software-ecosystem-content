@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-016-1397-7",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/acdc_estimation",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Markus Lux",
       "bsc:input": {
-        "@id": "_:N0d6494526aaf401588758ae39822765e"
+        "@id": "_:Ndd552d37f4c5423db0043baa8cda303d"
       },
       "bsc:output": {
-        "@id": "_:N9a79174eeb7148bbbd3e7c99c8481dc7"
+        "@id": "_:Nacf78e90100946679fbdb5d9533e3a99"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -80,7 +76,18 @@
       "sc:url": "https://bibiserv.cebitec.uni-bielefeld.de/acdc/"
     },
     {
-      "@id": "_:N9a79174eeb7148bbbd3e7c99c8481dc7",
+      "@id": "_:Ndd552d37f4c5423db0043baa8cda303d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:Nacf78e90100946679fbdb5d9533e3a99",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -91,15 +98,8 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N0d6494526aaf401588758ae39822765e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0925"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence assembly"
+      "@id": "https://doi.org/10.1186/s12859-016-1397-7",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

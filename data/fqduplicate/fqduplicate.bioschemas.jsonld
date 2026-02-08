@@ -40,30 +40,29 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/fqduplicate",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N35706ce7e09149a692b071c9ded17759"
+          "@id": "_:N9631bc3c838d40a183db8a2efbce345c"
         },
         {
-          "@id": "_:Ncd69b6c8a456406085983bdc8ced2606"
+          "@id": "_:N59ebedbd50264591bef52344274341e7"
         },
         {
-          "@id": "_:N104c04a92ff44c5fb0f2a21ca7b4ee91"
+          "@id": "_:Nf11c767b2b3a4de1a6c68fa791f4bc73"
         }
       ],
       "bsc:output": {
-        "@id": "_:N1abf30a18bcd439fb29e3e07594f343f"
+        "@id": "_:N74e93fad8960403084b626258f60a83a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3572"
+        },
         {
           "@id": "edam:topic_0080"
         },
@@ -71,27 +70,24 @@
           "@id": "edam:topic_0077"
         },
         {
-          "@id": "edam:topic_3572"
-        },
-        {
           "@id": "edam:topic_3168"
         }
       ],
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
         {
-          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+          "@id": "https://doi.org/10.1093/nar/gkw343"
         }
       ],
       "sc:description": "Detect duplicate reads. Outputs a list of read names corresponding to reads already seen in the dataset with a better quality sum score (duplicates).",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3218"
+          "@id": "edam:operation_3230"
         },
         {
-          "@id": "edam:operation_3230"
+          "@id": "edam:operation_3218"
         }
       ],
       "sc:name": "fqduplicate",
@@ -99,55 +95,7 @@
       "sc:url": "http://ftp.pasteur.fr/pub/gensoft/projects/fqtools/README"
     },
     {
-      "@id": "_:N35706ce7e09149a692b071c9ded17759",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1932"
-        },
-        {
-          "@id": "edam:format_1931"
-        }
-      ],
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Ncd69b6c8a456406085983bdc8ced2606",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1932"
-        },
-        {
-          "@id": "edam:format_1931"
-        }
-      ],
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N104c04a92ff44c5fb0f2a21ca7b4ee91",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1931"
-        },
-        {
-          "@id": "edam:format_1932"
-        }
-      ],
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N1abf30a18bcd439fb29e3e07594f343f",
+      "@id": "_:N74e93fad8960403084b626258f60a83a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -156,6 +104,58 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "_:N9631bc3c838d40a183db8a2efbce345c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1931"
+        },
+        {
+          "@id": "edam:format_1932"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N59ebedbd50264591bef52344274341e7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1932"
+        },
+        {
+          "@id": "edam:format_1931"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nf11c767b2b3a4de1a6c68fa791f4bc73",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1931"
+        },
+        {
+          "@id": "edam:format_1932"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

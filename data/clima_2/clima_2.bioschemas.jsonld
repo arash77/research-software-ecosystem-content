@@ -50,13 +50,13 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N1640a799d4814145bd5f160994948642"
+          "@id": "_:Nd1c552edc1664a4a8228a35876d58a24"
         },
         {
-          "@id": "_:Nbcd4002413c54fc5a88cdba3a72e4227"
+          "@id": "_:N8e34541796684180bd32beb7432a41e4"
         },
         {
-          "@id": "_:Nbce8ead8362a4aab91eecb91efbb0491"
+          "@id": "_:N3a3735cfc9904caa8e61791dfd88a68e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,26 +66,26 @@
       ],
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3571"
+        },
+        {
           "@id": "edam:topic_3340"
         },
         {
           "@id": "edam:topic_2815"
-        },
-        {
-          "@id": "edam:topic_3571"
         }
       ],
       "sc:author": "Paolo Romano",
       "sc:citation": [
-        "pmcid:PMC2686526",
         "pubmed:18927105",
         {
           "@id": "https://doi.org/10.1093/nar/gkn730"
-        }
+        },
+        "pmcid:PMC2686526"
       ],
       "sc:contributor": [
-        "Paola Visconti",
-        "Ottavia Aresu"
+        "Ottavia Aresu",
+        "Paola Visconti"
       ],
       "sc:description": "Cell Line Integrated Molecular Authentication database and Identification tool. It represents a reference for validated molecular authentication of human cell lines independently from the platforms used.",
       "sc:featureList": [
@@ -106,7 +106,15 @@
       "sc:url": "http://bioinformatics.hsanmartino.it/clima2/"
     },
     {
-      "@id": "_:N1640a799d4814145bd5f160994948642",
+      "@id": "_:Nd1c552edc1664a4a8228a35876d58a24",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2892"
+      },
+      "sc:name": "Cell type name"
+    },
+    {
+      "@id": "_:N8e34541796684180bd32beb7432a41e4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -117,15 +125,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbcd4002413c54fc5a88cdba3a72e4227",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2892"
-      },
-      "sc:name": "Cell type name"
-    },
-    {
-      "@id": "_:Nbce8ead8362a4aab91eecb91efbb0491",
+      "@id": "_:N3a3735cfc9904caa8e61791dfd88a68e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1691"

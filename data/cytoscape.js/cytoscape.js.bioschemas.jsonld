@@ -41,14 +41,14 @@
       "biotools:primaryContact": "Max Franz",
       "bsc:input": [
         {
-          "@id": "_:N5a7cbfd4c9534cf08e8bbe48f92f1f3f"
+          "@id": "_:N85c8db9afdcd42af969c75a34dde889f"
         },
         {
-          "@id": "_:N7d853372352044589093025a58e66b41"
+          "@id": "_:Na9c35d2f7f214441ab0a2cd3cda2de4a"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ncea6b4788bec456ca759632cd950d341"
+        "@id": "_:N3c3b4b96feef44758a3244e28984659e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -61,11 +61,11 @@
         }
       ],
       "sc:citation": [
+        "pubmed:26415722",
+        "pmcid:PMC4708103",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btv557"
-        },
-        "pubmed:26415722",
-        "pmcid:PMC4708103"
+        }
       ],
       "sc:description": "Graph theory (a.k.a. network) library for analysis and visualisation of interactions.",
       "sc:featureList": [
@@ -87,15 +87,15 @@
       "sc:url": "http://js.cytoscape.org/"
     },
     {
-      "@id": "_:Ncea6b4788bec456ca759632cd950d341",
+      "@id": "_:N85c8db9afdcd42af969c75a34dde889f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2600"
+        "@id": "edam:data_0905"
       },
-      "sc:name": "Pathway or network"
+      "sc:name": "Protein interaction raw data"
     },
     {
-      "@id": "_:N5a7cbfd4c9534cf08e8bbe48f92f1f3f",
+      "@id": "_:Na9c35d2f7f214441ab0a2cd3cda2de4a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -103,12 +103,12 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N7d853372352044589093025a58e66b41",
+      "@id": "_:N3c3b4b96feef44758a3244e28984659e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0905"
+        "@id": "edam:data_2600"
       },
-      "sc:name": "Protein interaction raw data"
+      "sc:name": "Pathway or network"
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btv557",

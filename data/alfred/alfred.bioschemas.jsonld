@@ -39,22 +39,22 @@
       "@id": "https://bio.tools/alfred",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb42a68c1c70c4b8e8a56d03d5b9d5b30"
+        "@id": "_:N203dc2a19b494505b356e1046697e56b"
       },
       "bsc:output": {
-        "@id": "_:Na2c68d895ec24d4b98345f7f5d738db2"
+        "@id": "_:N2c1fac70b1884338aa3ee7177350fab9"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3053"
+        },
+        {
           "@id": "edam:topic_0091"
         },
         {
           "@id": "edam:topic_0080"
-        },
-        {
-          "@id": "edam:topic_3053"
         }
       ],
       "sc:author": {
@@ -62,21 +62,21 @@
       },
       "sc:citation": [
         "pmcid:PMC6612896",
-        "pubmed:30520945",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bty1007"
-        }
+        },
+        "pubmed:30520945"
       ],
       "sc:description": "BAM Statistics, Feature Counting and Annotation",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_0258"
-        },
         {
           "@id": "edam:operation_0292"
         },
         {
           "@id": "edam:operation_0564"
+        },
+        {
+          "@id": "edam:operation_0258"
         },
         {
           "@id": "edam:operation_0361"
@@ -86,8 +86,8 @@
       "sc:license": "BSD-3-Clause",
       "sc:name": "Alfred",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://www.gear-genomics.com/docs/alfred/"
@@ -95,7 +95,7 @@
       "sc:url": "https://github.com/tobiasrausch/alfred"
     },
     {
-      "@id": "_:Nb42a68c1c70c4b8e8a56d03d5b9d5b30",
+      "@id": "_:N203dc2a19b494505b356e1046697e56b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -106,17 +106,17 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:Na2c68d895ec24d4b98345f7f5d738db2",
+      "@id": "_:N2c1fac70b1884338aa3ee7177350fab9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1921"
+          "@id": "edam:format_3464"
         },
         {
-          "@id": "edam:format_3464"
+          "@id": "edam:format_1921"
         }
       ],
       "sc:name": "Text data"

@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8ecf4a44a40f4a05bf356faf2573bc25"
+          "@id": "_:N1becc8cfa4cd4a4489b7758f4846e293"
         },
         {
-          "@id": "_:N952d7fe0e7bb487aa1e77c0f040bd95f"
+          "@id": "_:Nd94592e80b7a429ba30b5d46af1df6eb"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,8 +66,8 @@
       "sc:name": "GlyConnect",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "https://glyconnect.expasy.org/help"
@@ -75,7 +75,7 @@
       "sc:url": "https://glyconnect.expasy.org/"
     },
     {
-      "@id": "_:N8ecf4a44a40f4a05bf356faf2573bc25",
+      "@id": "_:N1becc8cfa4cd4a4489b7758f4846e293",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -86,7 +86,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:N952d7fe0e7bb487aa1e77c0f040bd95f",
+      "@id": "_:Nd94592e80b7a429ba30b5d46af1df6eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0982"

@@ -70,7 +70,7 @@
       "sc:description": "SymProFold is a pipeline that predicts the structure of symmetrical protein assemblies, such as bacterial surface layers and viral capsids, by utilizing AlphaFold Multimer predictions. It identifies the most likely symmetry for the assembly and has been validated using experimental data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2475"
+          "@id": "edam:operation_0310"
         },
         {
           "@id": "edam:operation_0474"
@@ -79,7 +79,7 @@
           "@id": "edam:operation_0478"
         },
         {
-          "@id": "edam:operation_0310"
+          "@id": "edam:operation_2475"
         }
       ],
       "sc:name": "SymProFold",

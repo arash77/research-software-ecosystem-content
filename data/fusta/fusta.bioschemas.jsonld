@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/fusta",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N518110ff34b34d888eefb6ab65383a16"
+        "@id": "_:N2ec4e71a682743d9b055d71b8f755726"
       },
       "bsc:output": {
-        "@id": "_:Nc503ebc8171f44788389b6fbf0f7ac9d"
+        "@id": "_:N32a51f8fac01470fa3e042112f415afc"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -50,10 +50,10 @@
         "@id": "edam:topic_0091"
       },
       "sc:citation": [
+        "pubmed:36713287",
         {
           "@id": "https://doi.org/10.1093/bioadv/vbac091"
         },
-        "pubmed:36713287",
         "pmcid:PMC9875552"
       ],
       "sc:description": "FUSTA is a FUSE-based virtual filesystem mirroring a (multi)FASTA file as a hierarchy of individual virtual files, simplifying efficient data extraction and bulk/automated processing of FASTA files.",
@@ -64,31 +64,31 @@
       "sc:license": "CECILL-C",
       "sc:name": "FUSTA",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareVersion": "1.5.3",
       "sc:url": "https://github.com/delehef/fusta"
     },
     {
-      "@id": "_:Nc503ebc8171f44788389b6fbf0f7ac9d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1193"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Tool name (FASTA)"
-    },
-    {
-      "@id": "_:N518110ff34b34d888eefb6ab65383a16",
+      "@id": "_:N2ec4e71a682743d9b055d71b8f755726",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1193"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_2546"
+      },
+      "sc:name": "Tool name (FASTA)"
+    },
+    {
+      "@id": "_:N32a51f8fac01470fa3e042112f415afc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1193"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
       },
       "sc:name": "Tool name (FASTA)"
     },

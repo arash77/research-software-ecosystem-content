@@ -44,7 +44,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Support",
       "bsc:input": {
-        "@id": "_:N45c2f29a1cb14b1c99648b6af8ca2141"
+        "@id": "_:Nc33fbf139e0547eb89def9c9b62eaef6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -72,7 +72,7 @@
       "sc:url": "https://github.com/jcvi/METAREP"
     },
     {
-      "@id": "_:N45c2f29a1cb14b1c99648b6af8ca2141",
+      "@id": "_:Nc33fbf139e0547eb89def9c9b62eaef6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

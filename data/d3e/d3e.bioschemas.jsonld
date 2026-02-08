@@ -43,24 +43,24 @@
       "@id": "https://bio.tools/D3E",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N082ca61bed0841f9bf4bc957029b139e"
+        "@id": "_:N49aa3b8006b0400a8e68c168f96ec314"
       },
       "bsc:output": {
-        "@id": "_:N8b8c86c98cee4d159a0e012014a572d9"
+        "@id": "_:N7fabdd5045e942d0be3a4c403b92af96"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Command-line tool"
+        "Command-line tool",
+        "Web application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3308"
       },
       "sc:citation": [
-        "pubmed:26927822",
         {
           "@id": "https://doi.org/10.1186/s12859-016-0944-6"
         },
+        "pubmed:26927822",
         "pmcid:PMC4772470"
       ],
       "sc:description": "Identification of differentially-expressed genes in single-cell RNA sequencing data.",
@@ -72,21 +72,21 @@
       "sc:name": "D3E",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://github.com/hemberg-lab/D3E/wiki/User-Guide"
+          "@id": "https://github.com/hemberg-lab/D3E/wiki/Example"
         },
         {
-          "@id": "https://github.com/hemberg-lab/D3E/wiki/Example"
+          "@id": "https://github.com/hemberg-lab/D3E/wiki/User-Guide"
         }
       ],
       "sc:url": "https://www.sanger.ac.uk/science/tools/discrete-distributional-differential-expression-d3e"
     },
     {
-      "@id": "_:N082ca61bed0841f9bf4bc957029b139e",
+      "@id": "_:N49aa3b8006b0400a8e68c168f96ec314",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -97,7 +97,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N8b8c86c98cee4d159a0e012014a572d9",
+      "@id": "_:N7fabdd5045e942d0be3a4c403b92af96",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

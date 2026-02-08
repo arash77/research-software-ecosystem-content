@@ -40,19 +40,19 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Guohua Huang",
       "bsc:input": {
-        "@id": "_:Nbf24dd3a288e42a48bc57636d6e5d7ac"
+        "@id": "_:N38707bb4c3b3408aa359c83b2fe16598"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0160"
-        },
-        {
           "@id": "edam:topic_0622"
         },
         {
           "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0160"
         }
       ],
       "sc:citation": [
@@ -74,13 +74,13 @@
       "sc:name": "LangMoDHS",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:url": "http://www.biolscience.cn/LangMoDHS/"
     },
     {
-      "@id": "_:Nbf24dd3a288e42a48bc57636d6e5d7ac",
+      "@id": "_:N38707bb4c3b3408aa359c83b2fe16598",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"

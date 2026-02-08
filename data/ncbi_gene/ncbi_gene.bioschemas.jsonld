@@ -40,80 +40,80 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N14e84d91e6d04787bde909e7bc79f106"
+          "@id": "_:Nef93e41ce6b441b3b0c314ed9e1fb40e"
         },
         {
-          "@id": "_:N075b5d8c44024168b6f8b72b8cc02ec7"
+          "@id": "_:N12b282135cb44737bebdacc736e9bc88"
         },
         {
-          "@id": "_:Nb3c78d29a730488aa0de33ae549d98d0"
+          "@id": "_:Nf33bafaf99c84cb1a70304222f1489e9"
         },
         {
-          "@id": "_:N2e9557475a3b46f19a27047630cd65a2"
+          "@id": "_:Ne42a630e22dd4f198801f185d27d7c27"
         },
         {
-          "@id": "_:N2077467a6f634f4da0e0bb090aa2f02a"
+          "@id": "_:N5076eb3dd7ad4f208e8aac287e5fb06a"
         },
         {
-          "@id": "_:Ne4fa3aa747ec4d1d85d27ac0d6f8b0b4"
+          "@id": "_:N5a70a5a090294cd8a342d38418fb698c"
         },
         {
-          "@id": "_:Nbca2796c2e21423aa0254927e0dc43ed"
+          "@id": "_:N4976f47fcdea4207bc5dd0ead8620517"
         },
         {
-          "@id": "_:N36bfcc3bdc204e05b4e491b553cd200d"
+          "@id": "_:N8d1462f529ef4ab2bb607ddcd12acef2"
         },
         {
-          "@id": "_:N68506da7eceb4bba8aab47bde1405eec"
+          "@id": "_:Nddb530b6c83a4063902fc28a992132e2"
         },
         {
-          "@id": "_:N2aa55fc1009d4745b795ec852a89837b"
+          "@id": "_:N0f581a6afcb54ce5a10b99fdd23d777e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Na566e2156e10416e96fd74038033d6cd"
+          "@id": "_:N518ba2214a46456fac36e473faf94882"
         },
         {
-          "@id": "_:N80211b0940c34bd0a92e35f91922073b"
+          "@id": "_:N5827077d868e43ecaf1d63541362aad5"
         },
         {
-          "@id": "_:N729e7724ce694e01b7d6e6aaf2802472"
+          "@id": "_:Ne78e1f47310d44ae8ca94af356504e58"
         },
         {
-          "@id": "_:N132c17c89faa435c99aedf09fe1e0027"
+          "@id": "_:N4f3045e2e2174dd493ff2afc6264952b"
         },
         {
-          "@id": "_:N0f1aa41d6fbe46a5aa5f8aaecd0caf0f"
+          "@id": "_:N71b81b6de863421ea73cd56dee1118bb"
         },
         {
-          "@id": "_:N21ac7f00bf1e43019dd4c5e00f0c5495"
+          "@id": "_:Nc6ef680f92074cb4a29e62732da971a5"
         },
         {
-          "@id": "_:Nb13592c640c2483381dcf3ab307a033b"
+          "@id": "_:N98e3eadc8bf84bb29d01739e836694c4"
         },
         {
-          "@id": "_:N37ea884a5e344303a2cb315677cb153a"
+          "@id": "_:Naefc7bb6f1be4bc7ba79f3fad96dc3c0"
         },
         {
-          "@id": "_:Nc66d395863f04f529f8746ca1823baeb"
+          "@id": "_:N315ce2d22a9d4db69ad97339695bcb27"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0623"
+          "@id": "edam:topic_0621"
         },
         {
-          "@id": "edam:topic_0621"
+          "@id": "edam:topic_0623"
         }
       ],
       "sc:citation": [
+        "pubmed:25355515",
         {
           "@id": "https://doi.org/10.1093/nar/gku1055"
         },
-        "pubmed:25355515",
         "pmcid:PMC4383897"
       ],
       "sc:description": "Database of genes from NCBI RefSeq genomes.",
@@ -132,7 +132,7 @@
       "sc:url": "http://www.ncbi.nlm.nih.gov/sites/entrez?db=gene"
     },
     {
-      "@id": "_:Na566e2156e10416e96fd74038033d6cd",
+      "@id": "_:N518ba2214a46456fac36e473faf94882",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -143,7 +143,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N80211b0940c34bd0a92e35f91922073b",
+      "@id": "_:N5827077d868e43ecaf1d63541362aad5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -154,7 +154,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N729e7724ce694e01b7d6e6aaf2802472",
+      "@id": "_:Ne78e1f47310d44ae8ca94af356504e58",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -165,7 +165,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N132c17c89faa435c99aedf09fe1e0027",
+      "@id": "_:N4f3045e2e2174dd493ff2afc6264952b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -176,7 +176,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N0f1aa41d6fbe46a5aa5f8aaecd0caf0f",
+      "@id": "_:N71b81b6de863421ea73cd56dee1118bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -187,7 +187,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N21ac7f00bf1e43019dd4c5e00f0c5495",
+      "@id": "_:Nc6ef680f92074cb4a29e62732da971a5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -198,7 +198,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nb13592c640c2483381dcf3ab307a033b",
+      "@id": "_:N98e3eadc8bf84bb29d01739e836694c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -209,7 +209,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N37ea884a5e344303a2cb315677cb153a",
+      "@id": "_:Naefc7bb6f1be4bc7ba79f3fad96dc3c0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -220,7 +220,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nc66d395863f04f529f8746ca1823baeb",
+      "@id": "_:N315ce2d22a9d4db69ad97339695bcb27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -231,31 +231,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N14e84d91e6d04787bde909e7bc79f106",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1045"
-      },
-      "sc:name": "Species name"
-    },
-    {
-      "@id": "_:N075b5d8c44024168b6f8b72b8cc02ec7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1011"
-      },
-      "sc:name": "EC number"
-    },
-    {
-      "@id": "_:Nb3c78d29a730488aa0de33ae549d98d0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:N2e9557475a3b46f19a27047630cd65a2",
+      "@id": "_:Nef93e41ce6b441b3b0c314ed9e1fb40e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1097"
@@ -263,7 +239,23 @@
       "sc:name": "Sequence accession (nucleic acid)"
     },
     {
-      "@id": "_:N2077467a6f634f4da0e0bb090aa2f02a",
+      "@id": "_:N12b282135cb44737bebdacc736e9bc88",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0966"
+      },
+      "sc:name": "Ontology term"
+    },
+    {
+      "@id": "_:Nf33bafaf99c84cb1a70304222f1489e9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1011"
+      },
+      "sc:name": "EC number"
+    },
+    {
+      "@id": "_:Ne42a630e22dd4f198801f185d27d7c27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -271,7 +263,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Ne4fa3aa747ec4d1d85d27ac0d6f8b0b4",
+      "@id": "_:N5076eb3dd7ad4f208e8aac287e5fb06a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1187"
@@ -279,15 +271,7 @@
       "sc:name": "PubMed ID"
     },
     {
-      "@id": "_:Nbca2796c2e21423aa0254927e0dc43ed",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:N36bfcc3bdc204e05b4e491b553cd200d",
+      "@id": "_:N5a70a5a090294cd8a342d38418fb698c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0987"
@@ -295,7 +279,15 @@
       "sc:name": "Chromosome name"
     },
     {
-      "@id": "_:N68506da7eceb4bba8aab47bde1405eec",
+      "@id": "_:N4976f47fcdea4207bc5dd0ead8620517",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N8d1462f529ef4ab2bb607ddcd12acef2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -303,12 +295,20 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:N2aa55fc1009d4745b795ec852a89837b",
+      "@id": "_:Nddb530b6c83a4063902fc28a992132e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0966"
+        "@id": "edam:data_1045"
       },
-      "sc:name": "Ontology term"
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:N0f581a6afcb54ce5a10b99fdd23d777e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gku1055",

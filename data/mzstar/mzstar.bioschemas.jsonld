@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2105-5-162",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/mzstar",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N090ac333e22948bcb175e0ffabc4a679"
+        "@id": "_:Nb83e1bb8c6224cc68ba24a5357aab05e"
       },
       "bsc:output": {
-        "@id": "_:Nff4996a82a024cc2a483e7c362ad21aa"
+        "@id": "_:N1baa2e77150a43228217d3366bfd3a70"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -68,7 +64,18 @@
       "sc:url": "http://tools.proteomecenter.org/mzStar.php"
     },
     {
-      "@id": "_:N090ac333e22948bcb175e0ffabc4a679",
+      "@id": "_:N1baa2e77150a43228217d3366bfd3a70",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3654"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nb83e1bb8c6224cc68ba24a5357aab05e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -79,15 +86,8 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nff4996a82a024cc2a483e7c362ad21aa",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3654"
-      },
-      "sc:name": "Data"
+      "@id": "https://doi.org/10.1186/1471-2105-5-162",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

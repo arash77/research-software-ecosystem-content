@@ -36,25 +36,21 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/msmseda",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Josep Gregori",
       "bsc:input": {
-        "@id": "_:Nac7b6b384088403fb84669b17ac4990f"
+        "@id": "_:Ne40a5cb787c54f82a77892a3058a4626"
       },
       "bsc:output": [
         {
-          "@id": "_:N7713e2b50c614f63a5843dd190a7cf55"
+          "@id": "_:N5381fa2a4b7e4193b579ccf98f715ffe"
         },
         {
-          "@id": "_:Nee7f57eec5d44c2b8cc89d3c8efbd17c"
+          "@id": "_:N32bf8e1870184e22a83b2be3f08fff16"
         },
         {
-          "@id": "_:N2980b2c494b04f5681ca0852af303827"
+          "@id": "_:Nc9f4c216940849f4b30af9670f08ea7b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -67,30 +63,27 @@
           "@id": "edam:topic_0092"
         },
         {
-          "@id": "edam:topic_3572"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         },
         {
           "@id": "edam:topic_3365"
         },
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_3572"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
         },
-        "pmcid:PMC4509590",
-        "pubmed:25633503"
+        "pubmed:25633503",
+        "pmcid:PMC4509590"
       ],
       "sc:description": "Exploratory data analysis to assess the quality of a set of LC-MS/MS experiments, and visualize de influence of the involved factors.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_0531"
-        },
         {
           "@id": "edam:operation_3432"
         },
@@ -99,14 +92,17 @@
         },
         {
           "@id": "edam:operation_3214"
+        },
+        {
+          "@id": "edam:operation_0531"
         }
       ],
       "sc:license": "GPL-2.0",
       "sc:name": "msmsEDA",
       "sc:operatingSystem": [
+        "Linux",
         "Mac",
-        "Windows",
-        "Linux"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/msmsEDA.html"
@@ -115,29 +111,18 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/msmsEDA.html"
     },
     {
-      "@id": "_:Nac7b6b384088403fb84669b17ac4990f",
+      "@id": "_:N5381fa2a4b7e4193b579ccf98f715ffe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3245"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N7713e2b50c614f63a5843dd190a7cf55",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
+        "@id": "edam:data_2884"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_3547"
       },
-      "sc:name": "Image"
+      "sc:name": "Plot"
     },
     {
-      "@id": "_:Nee7f57eec5d44c2b8cc89d3c8efbd17c",
+      "@id": "_:N32bf8e1870184e22a83b2be3f08fff16",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -148,15 +133,30 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N2980b2c494b04f5681ca0852af303827",
+      "@id": "_:Nc9f4c216940849f4b30af9670f08ea7b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2884"
+        "@id": "edam:data_2968"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_3547"
       },
-      "sc:name": "Plot"
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Ne40a5cb787c54f82a77892a3058a4626",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3245"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

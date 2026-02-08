@@ -40,13 +40,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N6a3142528be943ff8a9d4761c7b02194"
+          "@id": "_:N12686da8b8c944559d7b9dd74c300f2b"
         },
         {
-          "@id": "_:N0212f82e51ed408ea64bfc7675562fdc"
+          "@id": "_:N1415e50b8d074d8997232b8f314e4d35"
         },
         {
-          "@id": "_:N2491f3f39b894741be971368f9c85f2d"
+          "@id": "_:N6824a0206b434dfbbada20f06e04f0c2"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -56,13 +56,13 @@
           "@id": "edam:topic_3542"
         },
         {
-          "@id": "edam:topic_0082"
+          "@id": "edam:topic_3474"
         },
         {
           "@id": "edam:topic_0625"
         },
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_0082"
         },
         {
           "@id": "edam:topic_3510"
@@ -81,35 +81,27 @@
           "@id": "edam:operation_0474"
         },
         {
-          "@id": "edam:operation_0267"
-        },
-        {
           "@id": "edam:operation_3904"
         },
         {
           "@id": "edam:operation_0331"
+        },
+        {
+          "@id": "edam:operation_0267"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "AFL-2.0",
       "sc:name": "LambdaPP",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:url": "http://embed.predictprotein.org"
     },
     {
-      "@id": "_:N6a3142528be943ff8a9d4761c7b02194",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3021"
-      },
-      "sc:name": "UniProt accession"
-    },
-    {
-      "@id": "_:N0212f82e51ed408ea64bfc7675562fdc",
+      "@id": "_:N12686da8b8c944559d7b9dd74c300f2b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -120,12 +112,20 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N2491f3f39b894741be971368f9c85f2d",
+      "@id": "_:N1415e50b8d074d8997232b8f314e4d35",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
       },
       "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:N6824a0206b434dfbbada20f06e04f0c2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
     },
     {
       "@id": "https://doi.org/10.1002/pro.4524",

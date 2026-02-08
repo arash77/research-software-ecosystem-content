@@ -50,13 +50,13 @@
           "@id": "edam:topic_0654"
         },
         {
-          "@id": "edam:topic_0625"
-        },
-        {
           "@id": "edam:topic_3336"
         },
         {
           "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0625"
         }
       ],
       "sc:citation": [
@@ -72,9 +72,9 @@
       },
       "sc:name": "Geno2pheno",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.geno2pheno.org/index.php"

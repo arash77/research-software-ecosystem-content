@@ -45,29 +45,29 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N0bf63c8dcbbf4e409eab72467bc88244"
+          "@id": "_:Nb46c6185585b4b6a8a0c1aebfebe37a0"
         },
         {
-          "@id": "_:N3fd971b2c51d4e98aee7dc6d478ee477"
+          "@id": "_:N0dfab603614c4c57ab4cccad17b8265d"
         },
         {
-          "@id": "_:Ne83de5b687d34efc9502640f93e30154"
+          "@id": "_:N63b8538d7d5a43f0ae1ed6b6d77cc69b"
         },
         {
-          "@id": "_:N86dc508374144363bfc5093e58d98123"
+          "@id": "_:Nce450319c0194efca263fd2d351a2044"
         },
         {
-          "@id": "_:Nf2bc0503a8b746dc803b1ccd7b72815a"
+          "@id": "_:Na438f06a39234fdaa8eb7e496d7fc178"
         },
         {
-          "@id": "_:N3e453d2e7e1a43bba9ff42a047f52b3b"
+          "@id": "_:N5e89588d2c1e4370a5e770f84b2eeda2"
         },
         {
-          "@id": "_:Ne76738f726f14bb79e84bd9d646e796c"
+          "@id": "_:Nd3badec6e7494f0a80fcda8fff6f0187"
         }
       ],
       "bsc:output": {
-        "@id": "_:N07a3ced81ef44636971dfc69904f10f5"
+        "@id": "_:Nb66b7442931e48a88414c3ab7b0d50e4"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -80,13 +80,13 @@
         }
       ],
       "sc:citation": [
-        {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
-        },
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC4987906",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
         "pubmed:27137889"
       ],
       "sc:description": "Get the coverage of a genome.",
@@ -95,9 +95,9 @@
       },
       "sc:name": "plotgenomecoverage",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Furgi_tools%2FplotGenomeCoverage%2F1.0.0"
@@ -106,29 +106,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N0bf63c8dcbbf4e409eab72467bc88244",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N3fd971b2c51d4e98aee7dc6d478ee477",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1975"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Ne83de5b687d34efc9502640f93e30154",
+      "@id": "_:Nb46c6185585b4b6a8a0c1aebfebe37a0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -139,18 +117,18 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N86dc508374144363bfc5093e58d98123",
+      "@id": "_:N0dfab603614c4c57ab4cccad17b8265d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2305"
+        "@id": "edam:format_1975"
       },
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf2bc0503a8b746dc803b1ccd7b72815a",
+      "@id": "_:N63b8538d7d5a43f0ae1ed6b6d77cc69b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -161,18 +139,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N3e453d2e7e1a43bba9ff42a047f52b3b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2306"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Ne76738f726f14bb79e84bd9d646e796c",
+      "@id": "_:Nce450319c0194efca263fd2d351a2044",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -183,7 +150,40 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N07a3ced81ef44636971dfc69904f10f5",
+      "@id": "_:Na438f06a39234fdaa8eb7e496d7fc178",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N5e89588d2c1e4370a5e770f84b2eeda2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nd3badec6e7494f0a80fcda8fff6f0187",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nb66b7442931e48a88414c3ab7b0d50e4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

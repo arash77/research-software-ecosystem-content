@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/spindlep",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N830c8b941a634f019dd6dbe6eaaa4719"
+        "@id": "_:N4a9f281be2f942d3bd4f6ce076f080ae"
       },
       "bsc:output": {
-        "@id": "_:Ncb900a03bebf416798ede5c364655bf4"
+        "@id": "_:N890844a3566c483aaace50669ac603f5"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -70,27 +70,16 @@
       "sc:license": "Other",
       "sc:name": "SpindleP",
       "sc:operatingSystem": [
-        "Linux",
         "Windows",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "CBS",
       "sc:softwareVersion": "4.1",
       "sc:url": "http://cbs.dtu.dk/services/SpindleP/"
     },
     {
-      "@id": "_:Ncb900a03bebf416798ede5c364655bf4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:N830c8b941a634f019dd6dbe6eaaa4719",
+      "@id": "_:N4a9f281be2f942d3bd4f6ce076f080ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -99,6 +88,17 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N890844a3566c483aaace50669ac603f5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein features"
     }
   ]
 }

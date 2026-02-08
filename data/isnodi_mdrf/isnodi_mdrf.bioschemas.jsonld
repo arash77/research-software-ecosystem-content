@@ -39,22 +39,22 @@
       "@id": "https://bio.tools/isnodi_mdrf",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nbe4c7af0550648b780dd9f3b6a95a976"
+        "@id": "_:Nf3ba2cad452d4e928750cb233769cb41"
       },
       "bsc:output": {
-        "@id": "_:N7d95652dc1964a4b8164787b2ee6547d"
+        "@id": "_:N3ec629648e384e509039614f792acd8f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0659"
-        },
-        {
           "@id": "edam:topic_3361"
         },
         {
           "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_0659"
         }
       ],
       "sc:citation": [
@@ -66,31 +66,23 @@
       "sc:description": "Identifying snoRNA-disease associations based on multiple biological data by ranking framework.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2478"
+          "@id": "edam:operation_3436"
         },
         {
-          "@id": "edam:operation_3436"
+          "@id": "edam:operation_2478"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "iSnoDi-MDRF",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "http://bliulab.net/iSnoDi-MDRF/"
     },
     {
-      "@id": "_:N7d95652dc1964a4b8164787b2ee6547d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:name": "Score"
-    },
-    {
-      "@id": "_:Nbe4c7af0550648b780dd9f3b6a95a976",
+      "@id": "_:Nf3ba2cad452d4e928750cb233769cb41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -99,6 +91,14 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:N3ec629648e384e509039614f792acd8f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:name": "Score"
     },
     {
       "@id": "https://doi.org/10.1109/tcbb.2023.3258448",

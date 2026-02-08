@@ -36,84 +36,80 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp504",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/massxpert",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nfa305333520442a5b6f6b784eeb97280"
+          "@id": "_:Nefcba6a5467540b3a1050cbe9958ddb7"
         },
         {
-          "@id": "_:Nda032f4c0aee4b358410c2814b4d830e"
+          "@id": "_:N5870cc6d92c44828a7c8c04204676394"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N59732ed3c7644fd18c3cceac572b8693"
+          "@id": "_:N18bdfdcfc8a547b6bb4acf4b5809e2d9"
         },
         {
-          "@id": "_:N728aecdd598d427eaa38ab48f57ea590"
+          "@id": "_:N2fc44336e4634ed689807c5193a0e3c0"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
-        },
-        {
           "@id": "edam:topic_3292"
-        },
-        {
-          "@id": "edam:topic_0622"
         },
         {
           "@id": "edam:topic_0123"
         },
         {
-          "@id": "edam:topic_0601"
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3520"
         },
         {
           "@id": "edam:topic_3511"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0601"
         }
       ],
       "sc:citation": [
+        "pubmed:19740912",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btp504"
-        },
-        "pubmed:19740912"
+        }
       ],
       "sc:description": "Tool for analysis of polymer and peptide/protein mass spectra.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3023"
-        },
-        {
-          "@id": "edam:operation_3024"
-        },
-        {
-          "@id": "edam:operation_0564"
-        },
-        {
-          "@id": "edam:operation_0239"
-        },
-        {
           "@id": "edam:operation_2929"
-        },
-        {
-          "@id": "edam:operation_0417"
         },
         {
           "@id": "edam:operation_0365"
         },
         {
+          "@id": "edam:operation_0564"
+        },
+        {
+          "@id": "edam:operation_0417"
+        },
+        {
           "@id": "edam:operation_2426"
+        },
+        {
+          "@id": "edam:operation_3023"
+        },
+        {
+          "@id": "edam:operation_0239"
+        },
+        {
+          "@id": "edam:operation_3024"
         }
       ],
       "sc:name": "massXpert",
@@ -121,18 +117,7 @@
       "sc:url": "http://www.massxpert.org"
     },
     {
-      "@id": "_:Nfa305333520442a5b6f6b784eeb97280",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0977"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2332"
-      },
-      "sc:name": "Tool identifier"
-    },
-    {
-      "@id": "_:Nda032f4c0aee4b358410c2814b4d830e",
+      "@id": "_:Nefcba6a5467540b3a1050cbe9958ddb7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -143,7 +128,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N59732ed3c7644fd18c3cceac572b8693",
+      "@id": "_:N5870cc6d92c44828a7c8c04204676394",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0977"
@@ -154,7 +139,7 @@
       "sc:name": "Tool identifier"
     },
     {
-      "@id": "_:N728aecdd598d427eaa38ab48f57ea590",
+      "@id": "_:N18bdfdcfc8a547b6bb4acf4b5809e2d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -163,6 +148,21 @@
         "@id": "edam:format_2332"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N2fc44336e4634ed689807c5193a0e3c0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Tool identifier"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp504",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

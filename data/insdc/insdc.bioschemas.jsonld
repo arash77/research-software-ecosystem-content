@@ -41,36 +41,36 @@
       "biotools:primaryContact": "ENA Contact details",
       "bsc:input": [
         {
-          "@id": "_:N72fe124725904bf58910722715446580"
+          "@id": "_:Nce9aea77a0fb48018b1972def25bc8ce"
         },
         {
-          "@id": "_:Nbd3b9af88a40401bb0c0837d5a25a5fe"
+          "@id": "_:N3f4aacb5a15b4de79bfcfa449cac35e5"
         },
         {
-          "@id": "_:N408068513aea429b87b490c2c4250745"
+          "@id": "_:N4d297920037a4b069731a6d50eef8a31"
         },
         {
-          "@id": "_:N071e60456b29413e9e121a3ea841bcd0"
+          "@id": "_:N9169488b2ff147538b70ff58c4f81b68"
         },
         {
-          "@id": "_:N9616b145a6ca451ca15546a9b765ed88"
+          "@id": "_:Nad4dab2f5205477a95cfa1cea60b9f3d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc5365f8936e44e77a626dfd298fa8182"
+          "@id": "_:N6d034f44ba3443afb86c2d426bed5a76"
         },
         {
-          "@id": "_:Naea983987fcb4750b957bf0f8369b3d5"
+          "@id": "_:Nf75432c02d5e4c59bd7fce652c61d5ab"
         },
         {
-          "@id": "_:N122b805c173848219e7f9b85342f7fb8"
+          "@id": "_:N2fbe07c6a9544bf9838534cbeffdcb67"
         },
         {
-          "@id": "_:Ne4eb07d190e3468fbd57ee2b22d9ae94"
+          "@id": "_:N3080c80121dc433fb70e955d93a8c445"
         },
         {
-          "@id": "_:N71176e8283b14725b4c1ecc8d10d6e79"
+          "@id": "_:N3d3ec83447ca41688b32a1f8ac05724d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,10 +84,10 @@
         }
       ],
       "sc:citation": [
-        "pubmed:12436968",
         {
           "@id": "https://doi.org/10.1126/science.298.5597.1333b"
-        }
+        },
+        "pubmed:12436968"
       ],
       "sc:description": "This database consists of a joint effort to collect and disseminate databases containing DNA and RNA sequences.  It is a long-standing foundational initiative that operates between DDBJ, EMBL-EBI and NCBI. It covers the spectrum of data raw reads, though alignments and assemblies to functional annotation, enriched with contextual information relating to samples and experimental configurations.",
       "sc:featureList": {
@@ -95,9 +95,9 @@
       },
       "sc:name": "Nucleotide Sequence Database Collaboration",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "Identifiers.org",
       "sc:softwareHelp": {
@@ -106,7 +106,47 @@
       "sc:url": "http://identifiers.org/insdc/"
     },
     {
-      "@id": "_:Nc5365f8936e44e77a626dfd298fa8182",
+      "@id": "_:Nce9aea77a0fb48018b1972def25bc8ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1103"
+      },
+      "sc:name": "EMBL/GenBank/DDBJ ID"
+    },
+    {
+      "@id": "_:N3f4aacb5a15b4de79bfcfa449cac35e5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1103"
+      },
+      "sc:name": "EMBL/GenBank/DDBJ ID"
+    },
+    {
+      "@id": "_:N4d297920037a4b069731a6d50eef8a31",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1103"
+      },
+      "sc:name": "EMBL/GenBank/DDBJ ID"
+    },
+    {
+      "@id": "_:N9169488b2ff147538b70ff58c4f81b68",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1103"
+      },
+      "sc:name": "EMBL/GenBank/DDBJ ID"
+    },
+    {
+      "@id": "_:Nad4dab2f5205477a95cfa1cea60b9f3d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1103"
+      },
+      "sc:name": "EMBL/GenBank/DDBJ ID"
+    },
+    {
+      "@id": "_:N6d034f44ba3443afb86c2d426bed5a76",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -117,7 +157,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Naea983987fcb4750b957bf0f8369b3d5",
+      "@id": "_:Nf75432c02d5e4c59bd7fce652c61d5ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -128,7 +168,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N122b805c173848219e7f9b85342f7fb8",
+      "@id": "_:N2fbe07c6a9544bf9838534cbeffdcb67",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -139,7 +179,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Ne4eb07d190e3468fbd57ee2b22d9ae94",
+      "@id": "_:N3080c80121dc433fb70e955d93a8c445",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -150,7 +190,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N71176e8283b14725b4c1ecc8d10d6e79",
+      "@id": "_:N3d3ec83447ca41688b32a1f8ac05724d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -159,46 +199,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:N72fe124725904bf58910722715446580",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1103"
-      },
-      "sc:name": "EMBL/GenBank/DDBJ ID"
-    },
-    {
-      "@id": "_:Nbd3b9af88a40401bb0c0837d5a25a5fe",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1103"
-      },
-      "sc:name": "EMBL/GenBank/DDBJ ID"
-    },
-    {
-      "@id": "_:N408068513aea429b87b490c2c4250745",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1103"
-      },
-      "sc:name": "EMBL/GenBank/DDBJ ID"
-    },
-    {
-      "@id": "_:N071e60456b29413e9e121a3ea841bcd0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1103"
-      },
-      "sc:name": "EMBL/GenBank/DDBJ ID"
-    },
-    {
-      "@id": "_:N9616b145a6ca451ca15546a9b765ed88",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1103"
-      },
-      "sc:name": "EMBL/GenBank/DDBJ ID"
     },
     {
       "@id": "https://doi.org/10.1126/science.298.5597.1333b",

@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gks1166",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/chemprot",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd9a708d08e53423abec65c854c01fc03"
+        "@id": "_:N680c1d234d36476abab1e42c06463fff"
       },
       "bsc:output": {
-        "@id": "_:Nf1f0f63962174f788e02b6d14b8f392f"
+        "@id": "_:Nb88d0cc198d3405d9adfde5c3adc80e3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -53,11 +57,11 @@
         "@id": "edam:topic_0602"
       },
       "sc:citation": [
+        "pubmed:23185041",
+        "pmcid:PMC3531079",
         {
           "@id": "https://doi.org/10.1093/nar/gks1166"
-        },
-        "pmcid:PMC3531079",
-        "pubmed:23185041"
+        }
       ],
       "sc:description": "Ressource of annotated and predicted chemical-protein interactions.",
       "sc:featureList": {
@@ -67,24 +71,24 @@
       "sc:license": "Other",
       "sc:name": "ChemProt",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": [
         {
-          "@id": "http://potentia.cbs.dtu.dk/ChemProt/New/Help.html"
+          "@id": "http://www.cbs.dtu.dk/services/ChemProt-2.0/instructions.php"
         },
         {
-          "@id": "http://www.cbs.dtu.dk/services/ChemProt-2.0/instructions.php"
+          "@id": "http://potentia.cbs.dtu.dk/ChemProt/New/Help.html"
         }
       ],
       "sc:softwareVersion": "2.0",
       "sc:url": "http://cbs.dtu.dk/services/ChemProt-2.0/"
     },
     {
-      "@id": "_:Nd9a708d08e53423abec65c854c01fc03",
+      "@id": "_:N680c1d234d36476abab1e42c06463fff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0990"
@@ -95,7 +99,7 @@
       "sc:name": "Compound name"
     },
     {
-      "@id": "_:Nf1f0f63962174f788e02b6d14b8f392f",
+      "@id": "_:Nb88d0cc198d3405d9adfde5c3adc80e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -104,10 +108,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Protein interaction data"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gks1166",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

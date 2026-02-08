@@ -39,61 +39,61 @@
       "@id": "https://bio.tools/fair-checker",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9e707e19d78548b3b8d2511126099100"
+        "@id": "_:N77dbd8529d60481cbc3098bb3e0b2118"
       },
       "bsc:output": [
         {
-          "@id": "_:N1399de0b38bc4e629ac004af0464fa2d"
+          "@id": "_:Nc2e816c60b48456d9b50977d0a654961"
         },
         {
-          "@id": "_:N0746a1e7c8354cce8abcdf323100ce71"
+          "@id": "_:N26c6a092c1d142a7a5aadf23a3cf7068"
         },
         {
-          "@id": "_:N52e59bd86e55430fb5ceb6df7c7833da"
+          "@id": "_:N088d9e10952549afbd05d61a8308ae5c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3316"
+          "@id": "edam:topic_0089"
         },
         {
-          "@id": "edam:topic_0089"
+          "@id": "edam:topic_3316"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC10315041",
+        "pubmed:37393296",
         {
           "@id": "https://doi.org/10.1186/s13326-023-00289-5"
-        },
-        "pmcid:PMC10315041",
-        "pubmed:37393296"
+        }
       ],
       "sc:description": "FAIR-Checker is a tool aimed at assessing FAIR principles and empowering data provider to enhance the quality of their digital resources. Data providers and consumers can check how FAIR are web resources. Developers can explore and inspect metadata exposed in web resources.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2428"
+          "@id": "edam:operation_0224"
         },
         {
           "@id": "edam:operation_0336"
         },
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_2428"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "MIT",
       "sc:name": "FAIR-Checker",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareVersion": "1.2.2b",
       "sc:url": "https://fair-checker.france-bioinformatique.fr"
     },
     {
-      "@id": "_:N1399de0b38bc4e629ac004af0464fa2d",
+      "@id": "_:Nc2e816c60b48456d9b50977d0a654961",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -104,7 +104,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N0746a1e7c8354cce8abcdf323100ce71",
+      "@id": "_:N26c6a092c1d142a7a5aadf23a3cf7068",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"
@@ -115,7 +115,7 @@
       "sc:name": "Resource metadata"
     },
     {
-      "@id": "_:N52e59bd86e55430fb5ceb6df7c7833da",
+      "@id": "_:N088d9e10952549afbd05d61a8308ae5c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3914"
@@ -126,7 +126,7 @@
       "sc:name": "Quality control report"
     },
     {
-      "@id": "_:N9e707e19d78548b3b8d2511126099100",
+      "@id": "_:N77dbd8529d60481cbc3098bb3e0b2118",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"

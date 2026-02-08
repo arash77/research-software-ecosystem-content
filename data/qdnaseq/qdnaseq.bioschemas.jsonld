@@ -40,10 +40,6 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.1101/gr.175141.114",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/qdnaseq",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -72,14 +68,18 @@
       "sc:name": "QDNAseq",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/QDNAseq.html"
       },
       "sc:softwareVersion": "1.10.0",
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/QDNAseq.html"
+    },
+    {
+      "@id": "https://doi.org/10.1101/gr.175141.114",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

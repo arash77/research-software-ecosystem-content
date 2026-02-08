@@ -48,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nb0a6d101fa83458fb5867dc7e82c3aef"
+        "@id": "_:N51373d051b344336aa315389a02e49f0"
       },
       "bsc:output": {
-        "@id": "_:N2fc2191a2ed54940aa7773b49f39468f"
+        "@id": "_:Nff94de6bb4af443387f6b85914e8c399"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -72,9 +72,9 @@
       },
       "sc:name": "cshl_fastx_artifacts_filter",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
-        "Mac"
+        "Mac",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://hannonlab.cshl.edu/fastx_toolkit/galaxy.html"
@@ -83,7 +83,29 @@
       "sc:url": "http://hannonlab.cshl.edu/fastx_toolkit/"
     },
     {
-      "@id": "_:N2fc2191a2ed54940aa7773b49f39468f",
+      "@id": "_:N51373d051b344336aa315389a02e49f0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1933"
+        },
+        {
+          "@id": "edam:format_1932"
+        },
+        {
+          "@id": "edam:format_1931"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nff94de6bb4af443387f6b85914e8c399",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -91,28 +113,6 @@
       "sc:encodingFormat": {
         "@id": "edam:format_2330"
       },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nb0a6d101fa83458fb5867dc7e82c3aef",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1931"
-        },
-        {
-          "@id": "edam:format_1932"
-        },
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_1933"
-        }
-      ],
       "sc:name": "Data"
     }
   ]

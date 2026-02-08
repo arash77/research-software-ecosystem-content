@@ -36,22 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1097/01.ftd.0000179845.53213.39",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/metlin",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nfbc0108fae914d73b4652318034d3b2f"
+          "@id": "_:Nccca67360395490391997e3a5bac4a98"
         },
         {
-          "@id": "_:N339f7eba6b4a42a18b093022de6376c4"
+          "@id": "_:Nc278a4c1e3644a0ba5755a0e8f83e6ae"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1cfc4b14a5644ce09c47f649b631a7ae"
+          "@id": "_:Ne92059b7eca34661b6cf0fd483422426"
         },
         {
-          "@id": "_:N2eed09ac61094d5a9ba43fc66b4a582f"
+          "@id": "_:N9145322e65c84bf8863b19aa0a907a5b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,10 +64,10 @@
         "@id": "edam:topic_3172"
       },
       "sc:citation": [
-        "pubmed:16404815",
         {
           "@id": "https://doi.org/10.1097/01.ftd.0000179845.53213.39"
-        }
+        },
+        "pubmed:16404815"
       ],
       "sc:description": "Metabolite mass spectrometry database with multiple searching capabilities, including precursor ion, neutral loss, accurate mass, and product ions.",
       "sc:featureList": {
@@ -74,7 +78,7 @@
       "sc:url": "https://metlin.scripps.edu/"
     },
     {
-      "@id": "_:N1cfc4b14a5644ce09c47f649b631a7ae",
+      "@id": "_:Ne92059b7eca34661b6cf0fd483422426",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -85,7 +89,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N2eed09ac61094d5a9ba43fc66b4a582f",
+      "@id": "_:N9145322e65c84bf8863b19aa0a907a5b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0982"
@@ -96,7 +100,7 @@
       "sc:name": "Molecule identifier"
     },
     {
-      "@id": "_:Nfbc0108fae914d73b4652318034d3b2f",
+      "@id": "_:Nccca67360395490391997e3a5bac4a98",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2605"
@@ -107,7 +111,7 @@
       "sc:name": "Compound ID (KEGG)"
     },
     {
-      "@id": "_:N339f7eba6b4a42a18b093022de6376c4",
+      "@id": "_:Nc278a4c1e3644a0ba5755a0e8f83e6ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0844"
@@ -116,10 +120,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Molecular mass"
-    },
-    {
-      "@id": "https://doi.org/10.1097/01.ftd.0000179845.53213.39",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

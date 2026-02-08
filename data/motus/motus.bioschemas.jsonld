@@ -51,10 +51,10 @@
       "@id": "https://bio.tools/motus",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7bf3469a706f44cb9184088ce665d07f"
+        "@id": "_:N9eed6fb5fb084fe5a9be7f5c8e66dcc8"
       },
       "bsc:output": {
-        "@id": "_:N89317e48ca9341e19aa13bc3c52f7e26"
+        "@id": "_:Nb00e7bde659d4efbab4456f6b539b42f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -62,15 +62,15 @@
         "@id": "edam:topic_3174"
       },
       "sc:citation": [
-        {
-          "@id": "https://doi.org/10.1038/nmeth.2693"
-        },
         "pubmed:24141494",
+        "pubmed:30833550",
         "pmcid:PMC6399450",
         {
           "@id": "https://doi.org/10.1038/s41467-019-08844-4"
         },
-        "pubmed:30833550"
+        {
+          "@id": "https://doi.org/10.1038/nmeth.2693"
+        }
       ],
       "sc:contributor": {
         "@id": "http://orcid.org/0000-0003-3065-0314"
@@ -83,12 +83,12 @@
       "sc:license": "GPL-3.0",
       "sc:name": "Metagenomic operational taxonomic units (mOTUs)",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": [
-        "HD-HuB",
-        "European Molecular Biology Laboratory (EMBL)"
+        "European Molecular Biology Laboratory (EMBL)",
+        "HD-HuB"
       ],
       "sc:softwareHelp": {
         "@id": "https://motu-tool.org/"
@@ -97,7 +97,7 @@
       "sc:url": "https://motu-tool.org/"
     },
     {
-      "@id": "_:N89317e48ca9341e19aa13bc3c52f7e26",
+      "@id": "_:Nb00e7bde659d4efbab4456f6b539b42f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -108,7 +108,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N7bf3469a706f44cb9184088ce665d07f",
+      "@id": "_:N9eed6fb5fb084fe5a9be7f5c8e66dcc8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"

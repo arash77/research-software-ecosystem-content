@@ -36,31 +36,27 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acs.jproteome.8b00713",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ppiexp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne196d44133134895ae21d12bc8690ea9"
+        "@id": "_:Nb5214781d712464681cea1c85d89a0be"
       },
       "bsc:output": [
         {
-          "@id": "_:N2f34ae31e7ef4891a9db217d3d0fd04d"
+          "@id": "_:Nbf62632dfc054d079b2ead29bb431c4a"
         },
         {
-          "@id": "_:N937f206da98f46cb8d9603003c093421"
+          "@id": "_:N4723547efcfd42218b815a8c3270d74a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0128"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0128"
         }
       ],
       "sc:citation": [
@@ -77,9 +73,9 @@
       "sc:license": "Unlicense",
       "sc:name": "PPIExp",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.fgvis.com/expressvis/tutorial"
@@ -88,7 +84,39 @@
       "sc:url": "http://www.fgvis.com/expressvis/PPIExp"
     },
     {
-      "@id": "_:Ne196d44133134895ae21d12bc8690ea9",
+      "@id": "_:Nbf62632dfc054d079b2ead29bb431c4a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3768"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Clustered expression profiles"
+    },
+    {
+      "@id": "_:N4723547efcfd42218b815a8c3270d74a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Nb5214781d712464681cea1c85d89a0be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -99,36 +127,8 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N2f34ae31e7ef4891a9db217d3d0fd04d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3768"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3464"
-        },
-        {
-          "@id": "edam:format_3603"
-        }
-      ],
-      "sc:name": "Clustered expression profiles"
-    },
-    {
-      "@id": "_:N937f206da98f46cb8d9603003c093421",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3464"
-        },
-        {
-          "@id": "edam:format_3603"
-        }
-      ],
-      "sc:name": "Pathway or network"
+      "@id": "https://doi.org/10.1021/acs.jproteome.8b00713",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

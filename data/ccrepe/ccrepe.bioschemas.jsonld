@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ccrepe",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "George Weingart",
         "Emma Schwager",
+        "George Weingart",
         "Craig Bielski"
       ],
       "bsc:input": {
-        "@id": "_:N10b03a41f6f54f37a0a8f5a1407a358f"
+        "@id": "_:Ne3b34a9e2d4947ebb06d6be75ee637e0"
       },
       "bsc:output": [
         {
-          "@id": "_:Ndfef622ee7504af2b87e43ff2ec673e8"
+          "@id": "_:Nd2c2cad6aaa047c49bf711675819a101"
         },
         {
-          "@id": "_:N00ef9d2122be44fbb72ab20536e3069c"
+          "@id": "_:N2d1bd9409a154c82bc3255a8981c7351"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -68,15 +64,15 @@
           "@id": "edam:topic_3174"
         },
         {
-          "@id": "edam:topic_2269"
+          "@id": "edam:topic_0091"
         },
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_2269"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4509590",
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
         }
@@ -93,9 +89,9 @@
       "sc:license": "MIT",
       "sc:name": "ccrepe",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/ccrepe.html"
@@ -104,7 +100,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/ccrepe.html"
     },
     {
-      "@id": "_:Ndfef622ee7504af2b87e43ff2ec673e8",
+      "@id": "_:Nd2c2cad6aaa047c49bf711675819a101",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -120,7 +116,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N00ef9d2122be44fbb72ab20536e3069c",
+      "@id": "_:N2d1bd9409a154c82bc3255a8981c7351",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0951"
@@ -136,7 +132,7 @@
       "sc:name": "Statistical estimate score"
     },
     {
-      "@id": "_:N10b03a41f6f54f37a0a8f5a1407a358f",
+      "@id": "_:Ne3b34a9e2d4947ebb06d6be75ee637e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -145,6 +141,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

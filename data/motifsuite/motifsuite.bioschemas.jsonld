@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/motifsuite",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8a039042e2d04a16b00c3e75c72f4489"
+        "@id": "_:N47630a8413124095a74f0dbc8947138f"
       },
       "bsc:output": {
-        "@id": "_:Nf8e852e178fc454e921d6a29b5585660"
+        "@id": "_:N365e2a0b8f6d431dac1f409d767248ee"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -65,8 +65,8 @@
       },
       "sc:name": "MotifSuite",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "ugent.be",
@@ -77,20 +77,20 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/MotifSuite/Index.htm"
     },
     {
-      "@id": "_:Nf8e852e178fc454e921d6a29b5585660",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2070"
-      },
-      "sc:name": "Sequence motif (nucleic acid)"
-    },
-    {
-      "@id": "_:N8a039042e2d04a16b00c3e75c72f4489",
+      "@id": "_:N47630a8413124095a74f0dbc8947138f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
       },
       "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N365e2a0b8f6d431dac1f409d767248ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2070"
+      },
+      "sc:name": "Sequence motif (nucleic acid)"
     }
   ]
 }

@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/gb-2010-11-3-r32",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/pathicular",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9423464ebe94443d937edcb179525392"
+        "@id": "_:N7653ff1e356a4c48ad698f6bd32c1c4c"
       },
       "bsc:output": {
-        "@id": "_:N2622de4dcb994fa398972174a91b3dee"
+        "@id": "_:N5506e95af69845e3b9ba7e4053d81546"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -50,10 +54,10 @@
         "@id": "edam:topic_0602"
       },
       "sc:citation": [
-        "pubmed:20230615",
         {
           "@id": "https://doi.org/10.1186/gb-2010-11-3-r32"
         },
+        "pubmed:20230615",
         "pmcid:PMC2864572"
       ],
       "sc:description": "Cytoscape plug-in that identifies path motifs in integrated networks and arranges them in a modular structure.",
@@ -62,9 +66,9 @@
       },
       "sc:name": "Pathicular",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -74,7 +78,15 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/Pathicular"
     },
     {
-      "@id": "_:N9423464ebe94443d937edcb179525392",
+      "@id": "_:N5506e95af69845e3b9ba7e4053d81546",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N7653ff1e356a4c48ad698f6bd32c1c4c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -83,18 +95,6 @@
         "@id": "edam:format_3477"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:N2622de4dcb994fa398972174a91b3dee",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.1186/gb-2010-11-3-r32",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

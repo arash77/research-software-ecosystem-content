@@ -45,14 +45,14 @@
       "biotools:primaryContact": "Uwe Ohler",
       "bsc:input": [
         {
-          "@id": "_:Nd9fbdc13470347ec82400954458ca9d3"
+          "@id": "_:N38223e36ef0d404090feefa497988366"
         },
         {
-          "@id": "_:Nf989757828944a0da3fc2e8dfcf2487d"
+          "@id": "_:Nb5492469bdfc47c59c509c5e6af23bba"
         }
       ],
       "bsc:output": {
-        "@id": "_:N7428c21368dd42cf859ee74cd26ba8eb"
+        "@id": "_:N9797b2f98fd54955a2164a2d13ccba1f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -72,8 +72,8 @@
       },
       "sc:name": "microMUMMIE",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://ohlerlab.mdc-berlin.de/software/microMUMMIE_99/"
@@ -81,7 +81,7 @@
       "sc:url": "https://ohlerlab.mdc-berlin.de/software/microMUMMIE_99/"
     },
     {
-      "@id": "_:Nd9fbdc13470347ec82400954458ca9d3",
+      "@id": "_:N38223e36ef0d404090feefa497988366",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -92,7 +92,7 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:Nf989757828944a0da3fc2e8dfcf2487d",
+      "@id": "_:Nb5492469bdfc47c59c509c5e6af23bba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -103,7 +103,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N7428c21368dd42cf859ee74cd26ba8eb",
+      "@id": "_:N9797b2f98fd54955a2164a2d13ccba1f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"

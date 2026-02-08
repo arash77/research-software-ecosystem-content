@@ -41,10 +41,10 @@
       "biotools:primaryContact": "Benedict Paten",
       "bsc:input": [
         {
-          "@id": "_:N09172825ec754b16a39b74c9597d022e"
+          "@id": "_:Naab9d0fb7b624c1b986251f8333e0852"
         },
         {
-          "@id": "_:N60aadefde5d14796ab58344e78757152"
+          "@id": "_:N4329836f7fbf4cdbaa21ac97254375d0"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -55,10 +55,10 @@
       "sc:description": "MarginPhase is a program for simultaneous haplotyping and genotyping.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3196"
+          "@id": "edam:operation_0487"
         },
         {
-          "@id": "edam:operation_0487"
+          "@id": "edam:operation_3196"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -67,7 +67,7 @@
       "sc:url": "https://github.com/benedictpaten/marginPhase"
     },
     {
-      "@id": "_:N09172825ec754b16a39b74c9597d022e",
+      "@id": "_:Naab9d0fb7b624c1b986251f8333e0852",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -78,7 +78,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N60aadefde5d14796ab58344e78757152",
+      "@id": "_:N4329836f7fbf4cdbaa21ac97254375d0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"

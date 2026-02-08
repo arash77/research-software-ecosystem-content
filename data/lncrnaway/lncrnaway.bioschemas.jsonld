@@ -36,25 +36,29 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkae383",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/lncrnaway",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0b888342158248169dec2fa46cad5402"
+          "@id": "_:N243a569b5dd0447fac8bcb13804a6acc"
         },
         {
-          "@id": "_:Ndae67af3037b44a4b6d9f7fa0da21942"
+          "@id": "_:Na861c9254e2843a8acb69bfdf94d9604"
         },
         {
-          "@id": "_:N11d90695534d487f881b42aa7cb8cc68"
+          "@id": "_:N42aa50023b7f42ba8a8882925242d134"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N7aa0146b58f14505a674efc077b180d7"
+          "@id": "_:N20be66bf69e1404d85359106659a9f3a"
         },
         {
-          "@id": "_:Nd77365b1f5664af0a8f5fe686af89774"
+          "@id": "_:N5cc9d9f3d0784bbca9b9be60fbb2c170"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -68,39 +72,23 @@
       "sc:description": "A web-based sgRNA design tool for precise and effective suppression of long noncoding RNAs",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0308"
+          "@id": "edam:operation_0230"
         },
         {
-          "@id": "edam:operation_0230"
+          "@id": "edam:operation_0308"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "LncRNAway",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:url": "https://www.lncrnaway.com"
     },
     {
-      "@id": "_:N7aa0146b58f14505a674efc077b180d7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3495"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3508"
-        }
-      ],
-      "sc:name": "RNA sequence"
-    },
-    {
-      "@id": "_:Nd77365b1f5664af0a8f5fe686af89774",
+      "@id": "_:N20be66bf69e1404d85359106659a9f3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0972"
@@ -108,15 +96,23 @@
       "sc:name": "Text mining report"
     },
     {
-      "@id": "_:N0b888342158248169dec2fa46cad5402",
+      "@id": "_:N5cc9d9f3d0784bbca9b9be60fbb2c170",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1026"
+        "@id": "edam:data_3495"
       },
-      "sc:name": "Gene symbol"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:Ndae67af3037b44a4b6d9f7fa0da21942",
+      "@id": "_:N243a569b5dd0447fac8bcb13804a6acc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -127,7 +123,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N11d90695534d487f881b42aa7cb8cc68",
+      "@id": "_:Na861c9254e2843a8acb69bfdf94d9604",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -135,8 +131,12 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkae383",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N42aa50023b7f42ba8a8882925242d134",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
     }
   ]
 }

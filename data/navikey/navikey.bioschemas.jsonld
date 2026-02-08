@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Universität Bayreuth, Department of Mycology",
       "bsc:input": {
-        "@id": "_:N764dbd76ac9948fab11bdd6a0c4ec314"
+        "@id": "_:N13937b337e9a4ca1ba378b8367d8d973"
       },
       "bsc:output": {
-        "@id": "_:N325e58b2d5a94d1d92869475616627d4"
+        "@id": "_:Ne13c202f28cd4973b621e791db0a9cb0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -52,10 +52,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_3070"
         },
         {
-          "@id": "edam:topic_3070"
+          "@id": "edam:topic_3071"
         }
       ],
       "sc:author": "Universität Bayreuth, Department of Mycology",
@@ -92,7 +92,7 @@
       "sc:url": "http://www.navikey.net/"
     },
     {
-      "@id": "_:N325e58b2d5a94d1d92869475616627d4",
+      "@id": "_:Ne13c202f28cd4973b621e791db0a9cb0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -108,17 +108,17 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N764dbd76ac9948fab11bdd6a0c4ec314",
+      "@id": "_:N13937b337e9a4ca1ba378b8367d8d973",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2332"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2332"
         }
       ],
       "sc:name": "Text data"

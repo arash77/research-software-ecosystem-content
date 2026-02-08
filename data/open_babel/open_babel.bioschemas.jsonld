@@ -36,22 +36,15 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1758-2946-3-33",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/open_babel",
       "@type": "sc:SoftwareApplication",
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
         "Desktop application",
+        "Web application",
         "Command-line tool"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_3292"
-        },
         {
           "@id": "edam:topic_2258"
         },
@@ -60,6 +53,9 @@
         },
         {
           "@id": "edam:topic_3314"
+        },
+        {
+          "@id": "edam:topic_3292"
         }
       ],
       "sc:citation": {
@@ -71,10 +67,10 @@
           "@id": "edam:operation_2409"
         },
         {
-          "@id": "edam:operation_3431"
+          "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_3431"
         }
       ],
       "sc:name": "Open Babel",
@@ -87,6 +83,10 @@
         "@id": "http://openbabel.org/wiki/Help"
       },
       "sc:url": "http://openbabel.org/wiki/Main_Page"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1758-2946-3-33",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

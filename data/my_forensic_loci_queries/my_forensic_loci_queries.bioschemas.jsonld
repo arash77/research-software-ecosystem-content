@@ -43,24 +43,24 @@
       "@id": "https://bio.tools/my_forensic_loci_queries",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3fbd83381927469f9b75e98b397f34bc"
+        "@id": "_:N26c1c875c1ee4fe5936731b3900c01aa"
       },
       "bsc:output": [
         {
-          "@id": "_:N65a6750d116448d08cab1e4894cdb2f4"
+          "@id": "_:Nccb5dc4de12a4674bae3b06d6125fcec"
         },
         {
-          "@id": "_:N01f4d18883134f5886af5c3b03c37d76"
+          "@id": "_:N26078fff0aa744f288b7574961ec8429"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3511"
+          "@id": "edam:topic_0199"
         },
         {
-          "@id": "edam:topic_0199"
+          "@id": "edam:topic_3511"
         }
       ],
       "sc:citation": [
@@ -86,15 +86,23 @@
       "sc:url": "https://github.com/beukueb/myflq"
     },
     {
-      "@id": "_:N65a6750d116448d08cab1e4894cdb2f4",
+      "@id": "_:N26c1c875c1ee4fe5936731b3900c01aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0916"
+        "@id": "edam:data_2977"
       },
-      "sc:name": "Gene report"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N01f4d18883134f5886af5c3b03c37d76",
+      "@id": "_:Nccb5dc4de12a4674bae3b06d6125fcec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -102,20 +110,12 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N3fbd83381927469f9b75e98b397f34bc",
+      "@id": "_:N26078fff0aa744f288b7574961ec8429",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2977"
+        "@id": "edam:data_0916"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_1929"
-        }
-      ],
-      "sc:name": "Nucleic acid sequence"
+      "sc:name": "Gene report"
     }
   ]
 }

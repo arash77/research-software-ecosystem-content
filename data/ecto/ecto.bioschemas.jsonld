@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/S13326-023-00283-X",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ecto",
       "@type": "sc:SoftwareApplication",
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -51,10 +55,10 @@
           "@id": "edam:topic_0780"
         },
         {
-          "@id": "edam:topic_0089"
+          "@id": "edam:topic_3298"
         },
         {
-          "@id": "edam:topic_3298"
+          "@id": "edam:topic_0089"
         }
       ],
       "sc:citation": [
@@ -79,10 +83,6 @@
       "sc:license": "CC-BY-3.0",
       "sc:name": "ECTO",
       "sc:url": "http://www.obofoundry.org/ontology/ecto.html"
-    },
-    {
-      "@id": "https://doi.org/10.1186/S13326-023-00283-X",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

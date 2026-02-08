@@ -36,33 +36,29 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/annotationfuncs",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Stefan McKinnon Edwards",
       "bsc:input": {
-        "@id": "_:N0a8536924da24be6a478228839d33069"
+        "@id": "_:Nf2ca3f38e5734f59ba29a2c6089ca264"
       },
       "bsc:output": {
-        "@id": "_:N79a64338eec3455ba553e404a933ccf1"
+        "@id": "_:N362159c4ac6247379073b98eba665a79"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3366"
       },
       "sc:citation": [
-        "pubmed:25633503",
-        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
-        }
+        },
+        "pubmed:25633503",
+        "pmcid:PMC4509590"
       ],
       "sc:description": "Functions for handling translating between different identifieres using the Biocore Data Team data-packages (e.g. org.Bt.eg.db).",
       "sc:featureList": {
@@ -71,9 +67,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "AnnotationFuncs",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/AnnotationFuncs.html"
@@ -82,7 +78,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/AnnotationFuncs.html"
     },
     {
-      "@id": "_:N79a64338eec3455ba553e404a933ccf1",
+      "@id": "_:N362159c4ac6247379073b98eba665a79",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2091"
@@ -93,7 +89,7 @@
       "sc:name": "Accession"
     },
     {
-      "@id": "_:N0a8536924da24be6a478228839d33069",
+      "@id": "_:Nf2ca3f38e5734f59ba29a2c6089ca264",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2091"
@@ -102,6 +98,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Accession"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

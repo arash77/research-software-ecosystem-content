@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/genbank",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1a8eb020a5e346ebb5541c0ab59915fc"
+        "@id": "_:N37c8e3e996184dde9f8cc7d88d9644ca"
       },
       "bsc:output": {
-        "@id": "_:Nfb40cfa7139c46b4892e299d7b371ff6"
+        "@id": "_:N68830a1e7823440caa2306af0b4b9e34"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -63,14 +63,14 @@
       "sc:name": "GenBank nucleotide sequence database",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "NCBI",
       "sc:url": "http://www.ncbi.nlm.nih.gov/"
     },
     {
-      "@id": "_:N1a8eb020a5e346ebb5541c0ab59915fc",
+      "@id": "_:N37c8e3e996184dde9f8cc7d88d9644ca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1097"
@@ -78,7 +78,7 @@
       "sc:name": "Sequence accession (nucleic acid)"
     },
     {
-      "@id": "_:Nfb40cfa7139c46b4892e299d7b371ff6",
+      "@id": "_:N68830a1e7823440caa2306af0b4b9e34",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"

@@ -40,25 +40,25 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Chris Wirth",
       "bsc:input": {
-        "@id": "_:N28e5cfd672e547e8b9b5933b3be3be30"
+        "@id": "_:Nf89a765f5e604b23add31a6e785fca0a"
       },
       "bsc:output": {
-        "@id": "_:N6fd9d98ced6f41d9bc858878f55a0deb"
+        "@id": "_:Nd47fa379e0ba4e0b8d01ad12ab2fc9b8"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0102"
       },
       "sc:citation": [
-        "pubmed:17932061",
         "pmcid:PMC2238884",
         {
           "@id": "https://doi.org/10.1093/nar/gkm779"
-        }
+        },
+        "pubmed:17932061"
       ],
       "sc:description": "This package can plot graphs in the X:Map genome browser. It exports plotting files in a suitable format.",
       "sc:featureList": {
@@ -67,8 +67,8 @@
       "sc:license": "GPL-3.0",
       "sc:name": "xmapbridge",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -78,7 +78,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/xmapbridge.html"
     },
     {
-      "@id": "_:N28e5cfd672e547e8b9b5933b3be3be30",
+      "@id": "_:Nf89a765f5e604b23add31a6e785fca0a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -89,7 +89,7 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:N6fd9d98ced6f41d9bc858878f55a0deb",
+      "@id": "_:Nd47fa379e0ba4e0b8d01ad12ab2fc9b8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2166"

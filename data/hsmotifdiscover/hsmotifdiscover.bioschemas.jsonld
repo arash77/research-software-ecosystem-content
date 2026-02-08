@@ -39,25 +39,25 @@
       "@id": "https://bio.tools/hsmotifdiscover",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nfcddcdb6011442ccb123d725d608d548"
+        "@id": "_:Naca0f32ae4a4420f9486d020a15bccb1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0128"
+        },
+        {
           "@id": "edam:topic_0203"
-        },
-        {
-          "@id": "edam:topic_0601"
-        },
-        {
-          "@id": "edam:topic_0160"
         },
         {
           "@id": "edam:topic_3518"
         },
         {
-          "@id": "edam:topic_0128"
+          "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_0601"
         }
       ],
       "sc:citation": [
@@ -70,10 +70,10 @@
       "sc:description": "Identification of motifs in sequences composed of non-single-letter elements.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0238"
+          "@id": "edam:operation_2238"
         },
         {
-          "@id": "edam:operation_2238"
+          "@id": "edam:operation_0238"
         },
         {
           "@id": "edam:operation_0337"
@@ -86,14 +86,14 @@
       "sc:license": "MIT",
       "sc:name": "HSMotifDiscover",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "https://hsmotifdiscover.shinyapps.io/HSMotifDiscover_ShinyApp/"
     },
     {
-      "@id": "_:Nfcddcdb6011442ccb123d725d608d548",
+      "@id": "_:Naca0f32ae4a4420f9486d020a15bccb1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

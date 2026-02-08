@@ -40,22 +40,22 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Colleen Davis",
       "bsc:input": {
-        "@id": "_:N3b0d731ecd054051b8963ab88445a8b7"
+        "@id": "_:Nd0a31e20578441e0b071e8f7ba214412"
       },
       "bsc:output": {
-        "@id": "_:Ned8c2aae13d14220be8d1215b7d0b11a"
+        "@id": "_:N30bddb15d2594f3981fbcf9fbdf4fd13"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0625"
+        },
+        {
           "@id": "edam:topic_2885"
         },
         {
           "@id": "edam:topic_0602"
-        },
-        {
-          "@id": "edam:topic_0625"
         }
       ],
       "sc:description": "Database for identifying, genotyping, and modelling the associations between single nucleotide polymorphisms (SNPs) in candidate genes and pathways that underlie inflammatory responses in humans.",
@@ -64,9 +64,9 @@
       },
       "sc:name": "SeattleSNPs variation discovery resource",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://pga.gs.washington.edu/protocols.html"
@@ -74,15 +74,7 @@
       "sc:url": "http://pga.gs.washington.edu/"
     },
     {
-      "@id": "_:N3b0d731ecd054051b8963ab88445a8b7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:Ned8c2aae13d14220be8d1215b7d0b11a",
+      "@id": "_:N30bddb15d2594f3981fbcf9fbdf4fd13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -91,6 +83,14 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nd0a31e20578441e0b071e8f7ba214412",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
     }
   ]
 }

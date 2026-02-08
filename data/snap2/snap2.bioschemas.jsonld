@@ -44,15 +44,15 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Rostlab",
       "bsc:input": {
-        "@id": "_:Ncd70d7c12216488ea8225656f83dba91"
+        "@id": "_:N6c9502bdd5724791a8caecd0b2672c32"
       },
       "bsc:output": {
-        "@id": "_:N20051e1d06564ebbb7e2214f7e2e3849"
+        "@id": "_:N901be11cbda34660b33971e555725b2c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Command-line tool"
+        "Command-line tool",
+        "Web application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_2885"
@@ -82,18 +82,7 @@
       "sc:url": "https://github.com/Rostlab/SNAP2"
     },
     {
-      "@id": "_:N20051e1d06564ebbb7e2214f7e2e3849",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Score"
-    },
-    {
-      "@id": "_:Ncd70d7c12216488ea8225656f83dba91",
+      "@id": "_:N6c9502bdd5724791a8caecd0b2672c32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -102,6 +91,17 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence record"
+    },
+    {
+      "@id": "_:N901be11cbda34660b33971e555725b2c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Score"
     }
   ]
 }

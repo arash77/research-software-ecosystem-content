@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/masswolf",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7a3dcf018d7c41c1b15d22014edd8155"
+        "@id": "_:N0075686705e44434b919e4c7c9829f3f"
       },
       "bsc:output": {
-        "@id": "_:N6025a772fc1241059639364fd1e46677"
+        "@id": "_:N017d252ba46941e8870a41d52d00c357"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:description": "Converts MassLynx format to mzXML.",
@@ -66,7 +66,7 @@
       "sc:url": "http://tools.proteomecenter.org/MassWolf.php"
     },
     {
-      "@id": "_:N6025a772fc1241059639364fd1e46677",
+      "@id": "_:N017d252ba46941e8870a41d52d00c357",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -82,7 +82,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N7a3dcf018d7c41c1b15d22014edd8155",
+      "@id": "_:N0075686705e44434b919e4c7c9829f3f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

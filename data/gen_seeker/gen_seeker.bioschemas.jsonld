@@ -40,20 +40,20 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7b59b48c873545b2afb5ec1c85aadfc8"
+          "@id": "_:N60db45a699674741937eebedd3e76988"
         },
         {
-          "@id": "_:Nfbe97cd5661245d28755af6eed0261cd"
+          "@id": "_:N019bc4a0213d4b35864e944db5f04f96"
         },
         {
-          "@id": "_:Nd74ed7b741f84d9ba9ec948e1fe500c6"
+          "@id": "_:N2a05e1b21637416aa3840dc9232514e7"
         },
         {
-          "@id": "_:N8108c9597f404726a8d257d7d919a954"
+          "@id": "_:Nde7b79350af140df85e6ab723272aa57"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne3181014d5d04ba2ae53de3c37c33de8"
+        "@id": "_:N5a656fb7671948aeb6550e0581a14ec0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -70,9 +70,9 @@
       "sc:license": "Not licensed",
       "sc:name": "Gen Seeker",
       "sc:operatingSystem": [
-        "Mac",
+        "Linux",
         "Windows",
-        "Linux"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://czechgenome.cz/data-info"
@@ -81,29 +81,7 @@
       "sc:url": "https://czechgenome.cz/search"
     },
     {
-      "@id": "_:N7b59b48c873545b2afb5ec1c85aadfc8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3134"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Gene transcript report"
-    },
-    {
-      "@id": "_:Nfbe97cd5661245d28755af6eed0261cd",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0860"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Sequence signature data"
-    },
-    {
-      "@id": "_:Nd74ed7b741f84d9ba9ec948e1fe500c6",
+      "@id": "_:N60db45a699674741937eebedd3e76988",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -114,7 +92,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N8108c9597f404726a8d257d7d919a954",
+      "@id": "_:N019bc4a0213d4b35864e944db5f04f96",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1027"
@@ -125,17 +103,39 @@
       "sc:name": "Gene ID (NCBI)"
     },
     {
-      "@id": "_:Ne3181014d5d04ba2ae53de3c37c33de8",
+      "@id": "_:N2a05e1b21637416aa3840dc9232514e7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0860"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence signature data"
+    },
+    {
+      "@id": "_:Nde7b79350af140df85e6ab723272aa57",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N5a656fb7671948aeb6550e0581a14ec0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3134"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2331"
+          "@id": "edam:format_3752"
         },
         {
-          "@id": "edam:format_3752"
+          "@id": "edam:format_2331"
         }
       ],
       "sc:name": "Gene transcript report"

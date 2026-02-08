@@ -36,11 +36,19 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1371/journal.pone.0289030",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9192-9709",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://orcid.org/0000-0001-5050-3157",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-9192-9709",
+      "@id": "https://orcid.org/0000-0003-0427-5311",
       "@type": "sc:Person"
     },
     {
@@ -50,34 +58,34 @@
         "@id": "https://orcid.org/0000-0002-9192-9709"
       },
       "bsc:input": {
-        "@id": "_:Ncb6c43b546fb497686cd65617d88aef2"
+        "@id": "_:N349e100af516452abc819d9906b50641"
       },
       "bsc:output": {
-        "@id": "_:Naa705562676242e5bc37b5e88b0c05a7"
+        "@id": "_:N0e03779ffc694f168bbbc4504c4f0152"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0078"
+          "@id": "edam:topic_0080"
         },
         {
           "@id": "edam:topic_3307"
         },
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_3474"
         },
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_0078"
         },
         {
           "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0781"
+          "@id": "edam:topic_0091"
         },
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_0781"
         }
       ],
       "sc:author": {
@@ -100,9 +108,9 @@
       "sc:license": "MIT",
       "sc:name": "PHIEmbed",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/bioinfodlsu/phage-host-prediction"
@@ -110,7 +118,7 @@
       "sc:url": "https://github.com/bioinfodlsu/phage-host-prediction"
     },
     {
-      "@id": "_:Ncb6c43b546fb497686cd65617d88aef2",
+      "@id": "_:N349e100af516452abc819d9906b50641",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -121,7 +129,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Naa705562676242e5bc37b5e88b0c05a7",
+      "@id": "_:N0e03779ffc694f168bbbc4504c4f0152",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -130,14 +138,6 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-0427-5311",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pone.0289030",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

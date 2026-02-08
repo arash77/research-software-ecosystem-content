@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1074/mcp.m117.068007",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pyQms",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N55f2f23bea7e4a88ba01fda6b97f6232"
+        "@id": "_:Nd2bd50ed93d34e9d8ba2873ec6c75b18"
       },
       "bsc:output": {
-        "@id": "_:Nbf061e05f4c3424596753c1e8c09497a"
+        "@id": "_:N989f3f8982d3486eb5d834ce0e4b366e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -59,8 +55,8 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC5629261",
         "pubmed:28729385",
+        "pmcid:PMC5629261",
         {
           "@id": "https://doi.org/10.1074/mcp.m117.068007"
         }
@@ -68,19 +64,19 @@
       "sc:description": "pyQms enables universal and accurate quantification of mass spectrometry data",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3715"
+          "@id": "edam:operation_3638"
         },
         {
-          "@id": "edam:operation_3638"
+          "@id": "edam:operation_3715"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "MIT",
       "sc:name": "pyQms",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://pyqms.readthedocs.io/en/latest/?badge=latest"
@@ -88,7 +84,18 @@
       "sc:url": "https://github.com/pyQms/pyqms"
     },
     {
-      "@id": "_:N55f2f23bea7e4a88ba01fda6b97f6232",
+      "@id": "_:N989f3f8982d3486eb5d834ce0e4b366e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:Nd2bd50ed93d34e9d8ba2873ec6c75b18",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -99,15 +106,8 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nbf061e05f4c3424596753c1e8c09497a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Expression data"
+      "@id": "https://doi.org/10.1074/mcp.m117.068007",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

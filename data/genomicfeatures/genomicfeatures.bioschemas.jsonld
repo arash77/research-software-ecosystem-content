@@ -45,27 +45,27 @@
       "biotools:primaryContact": "BioConductor Package Maintainer",
       "bsc:input": [
         {
-          "@id": "_:Nf6e4bf6229914d99aac4fb1c7ffc40b5"
+          "@id": "_:N6f9e51b2ef5d4dc3a1efe64aadfdff0a"
         },
         {
-          "@id": "_:Nf96fe1bb1ece45758e3c34f004d04fca"
+          "@id": "_:N6f44d843bb5c46cbb004ae3810b22e75"
         },
         {
-          "@id": "_:Nb33dab60e10c40c1b74a71403eedb505"
+          "@id": "_:N10c785b76fce45b7a043b4b9073f9ee7"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf3bd56e8d49a4bdfa06f1f5962ec7eef"
+          "@id": "_:N5ff4c57630fd4bb989f25b29d8a0f245"
         },
         {
-          "@id": "_:N8b3363c4858b4b46a622c9873c0d3e4a"
+          "@id": "_:N2158ab6472754f41a9330bd48774c9bf"
         },
         {
-          "@id": "_:N0e43212e6b404e5b99c093835e1bb984"
+          "@id": "_:N4a6577d0be464a1b987b1f199eae53ec"
         },
         {
-          "@id": "_:N29f4b9da189a48a58a3d025978d9d4e1"
+          "@id": "_:N0690ca7d19a24a8c926d15b5d5526ec9"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -78,34 +78,34 @@
           "@id": "edam:topic_3071"
         },
         {
-          "@id": "edam:topic_3170"
+          "@id": "edam:topic_3169"
         },
         {
-          "@id": "edam:topic_3169"
+          "@id": "edam:topic_3170"
         }
       ],
       "sc:citation": [
         "pubmed:23950696",
+        "pmcid:PMC3738458",
         {
           "@id": "https://doi.org/10.1371/journal.pcbi.1003118"
-        },
-        "pmcid:PMC3738458"
+        }
       ],
       "sc:description": "A set of tools and methods for making and manipulating transcript centric annotations. With these tools the user can easily download the genomic locations of the transcripts, exons and CDS of a given organism, from either the UCSC Genome Browser or a BioMart database. This information is then stored in a local database that keeps track of the relationship between transcripts, exons, CDS and genes.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_2409"
         },
         {
-          "@id": "edam:operation_2409"
+          "@id": "edam:operation_2422"
         }
       ],
       "sc:license": "Artistic-2.0",
       "sc:name": "GenomicFeatures",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html"
@@ -114,55 +114,23 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html"
     },
     {
-      "@id": "_:Nf3bd56e8d49a4bdfa06f1f5962ec7eef",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3134"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3621"
-        }
-      ],
-      "sc:name": "Gene transcript report"
-    },
-    {
-      "@id": "_:N8b3363c4858b4b46a622c9873c0d3e4a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3621"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N0e43212e6b404e5b99c093835e1bb984",
+      "@id": "_:N5ff4c57630fd4bb989f25b29d8a0f245",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3621"
         },
         {
-          "@id": "edam:format_3621"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N29f4b9da189a48a58a3d025978d9d4e1",
+      "@id": "_:N2158ab6472754f41a9330bd48774c9bf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1017"
@@ -178,20 +146,74 @@
       "sc:name": "Sequence range"
     },
     {
-      "@id": "_:Nf6e4bf6229914d99aac4fb1c7ffc40b5",
+      "@id": "_:N4a6577d0be464a1b987b1f199eae53ec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3621"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N0690ca7d19a24a8c926d15b5d5526ec9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3621"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N6f9e51b2ef5d4dc3a1efe64aadfdff0a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1050"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2306"
+        },
+        {
+          "@id": "edam:format_3621"
+        },
+        {
+          "@id": "edam:format_1975"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "File name"
+    },
+    {
+      "@id": "_:N6f44d843bb5c46cbb004ae3810b22e75",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
       },
       "sc:encodingFormat": [
         {
+          "@id": "edam:format_2330"
+        },
+        {
           "@id": "edam:format_1975"
         },
         {
           "@id": "edam:format_2306"
-        },
-        {
-          "@id": "edam:format_2330"
         },
         {
           "@id": "edam:format_3621"
@@ -200,29 +222,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:Nf96fe1bb1ece45758e3c34f004d04fca",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1050"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_2306"
-        },
-        {
-          "@id": "edam:format_3621"
-        },
-        {
-          "@id": "edam:format_1975"
-        }
-      ],
-      "sc:name": "File name"
-    },
-    {
-      "@id": "_:Nb33dab60e10c40c1b74a71403eedb505",
+      "@id": "_:N10c785b76fce45b7a043b4b9073f9ee7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3134"
@@ -232,10 +232,10 @@
           "@id": "edam:format_1975"
         },
         {
-          "@id": "edam:format_2306"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2306"
         },
         {
           "@id": "edam:format_3621"

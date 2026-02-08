@@ -36,30 +36,26 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkm796",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/eggnog",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "https://orcid.org/0000-0003-1429-7485"
       },
       "bsc:input": {
-        "@id": "_:Naed475754c3547d59486d63c48305b01"
+        "@id": "_:N908ee83b98654a9080542e01b45648c5"
       },
       "bsc:output": [
         {
-          "@id": "_:Nf1364fd9e15e4ccbbee6fae64536666b"
+          "@id": "_:N20531e91b45345f68581f92f542b65f2"
         },
         {
-          "@id": "_:N0c61852cf0a5456f96d301248d6cf0b1"
+          "@id": "_:Ne60434ff95fb4431b41d8682d4ccd322"
         },
         {
-          "@id": "_:N4bfb04798f4c47d4bf66c0118afcdab4"
+          "@id": "_:N1d46f687e07d4ab290a6f2369278aa30"
         },
         {
-          "@id": "_:Nfec49f8a29c04ca896ee94ad88dfb699"
+          "@id": "_:N1ac36264dceb4a28b5decc0548e24a51"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -76,46 +72,46 @@
         {
           "@id": "https://doi.org/10.1093/nar/gky1085"
         },
-        "pmcid:PMC3964997",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkt1253"
-        },
-        "pmcid:PMC2808932",
-        "pubmed:26582926",
-        "pmcid:PMC9825578",
         "pmcid:PMC6324079",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkv1248"
-        },
+        "pmcid:PMC2238944",
+        "pmcid:PMC4702882",
         {
           "@id": "https://doi.org/10.1093/nar/gkac1022"
         },
-        "pubmed:36399505",
-        "pubmed:17942413",
-        "pubmed:19900971",
-        "pubmed:30418610",
-        "pmcid:PMC4702882",
-        "pmcid:PMC3245133",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkp951"
-        },
+        "pmcid:PMC9825578",
         "pubmed:22096231",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkv1248"
+        },
+        "pubmed:17942413",
+        "pubmed:36399505",
+        "pubmed:30418610",
         {
           "@id": "https://doi.org/10.1093/nar/gkr1060"
         },
+        "pubmed:26582926",
+        "pubmed:19900971",
+        "pmcid:PMC3964997",
         {
-          "@id": "https://doi.org/10.1093/nar/gkm796"
+          "@id": "https://doi.org/10.1093/nar/gkp951"
+        },
+        "pmcid:PMC3245133",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkt1253"
         },
         "pubmed:24297252",
-        "pmcid:PMC2238944"
+        "pmcid:PMC2808932",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkm796"
+        }
       ],
       "sc:description": "eggNOG is a database of nested orthologous gene groups (NOGs) inferred using unsupervised clustering applied to >5,000 complete genomes followed by comprehensive characterization and analysis of the resulting gene families. eggNOG provides orthologous group assignments at 379 different taxonomic levels as well as multiple sequence alignments, maximum-likelihood trees and broad functional annotations for each group accessible via a web interface or through bulk download.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0346"
+          "@id": "edam:operation_0338"
         },
         {
-          "@id": "edam:operation_0338"
+          "@id": "edam:operation_0346"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -137,18 +133,7 @@
       "sc:url": "http://eggnogdb.embl.de/#/app/home"
     },
     {
-      "@id": "_:Nf1364fd9e15e4ccbbee6fae64536666b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1364"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1369"
-      },
-      "sc:name": "Hidden Markov model"
-    },
-    {
-      "@id": "_:N0c61852cf0a5456f96d301248d6cf0b1",
+      "@id": "_:N20531e91b45345f68581f92f542b65f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -159,7 +144,18 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:N4bfb04798f4c47d4bf66c0118afcdab4",
+      "@id": "_:Ne60434ff95fb4431b41d8682d4ccd322",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1369"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N1d46f687e07d4ab290a6f2369278aa30",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -170,7 +166,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:Nfec49f8a29c04ca896ee94ad88dfb699",
+      "@id": "_:N1ac36264dceb4a28b5decc0548e24a51",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -181,7 +177,7 @@
       "sc:name": "Sequence alignment (protein)"
     },
     {
-      "@id": "_:Naed475754c3547d59486d63c48305b01",
+      "@id": "_:N908ee83b98654a9080542e01b45648c5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -192,7 +188,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkv1248",
+      "@id": "https://doi.org/10.1093/nar/gkt1253",
       "@type": "sc:CreativeWork"
     },
     {
@@ -200,15 +196,15 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkac1022",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkt1253",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/nar/gkp951",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1248",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky1085",
       "@type": "sc:CreativeWork"
     },
     {
@@ -216,7 +212,11 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gky1085",
+      "@id": "https://doi.org/10.1093/nar/gkm796",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkac1022",
       "@type": "sc:CreativeWork"
     }
   ]

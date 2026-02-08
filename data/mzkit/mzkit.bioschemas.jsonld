@@ -44,34 +44,34 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nce6ab11db2cf4bb6838cf52136fbb2f7"
+          "@id": "_:N6a2d4038e65c4bfaa940bbbc33f84b14"
         },
         {
-          "@id": "_:Ncc90f226951b47deb727dc1459c56825"
+          "@id": "_:Na4e6487f9d864c448aa0d7a8853c1dd7"
         },
         {
-          "@id": "_:Nb98d648839f44495adf6ea4c669270c8"
+          "@id": "_:Nf1c25fb82ed94b29b8c3849dd3d586cc"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Na0d4851476ee4ec7a65dcb1bc55dfa06"
+          "@id": "_:N605c394bca7647019b6dcebce1c6cef6"
         },
         {
-          "@id": "_:Nfeb86246e1614d139c8448334de9c373"
+          "@id": "_:N06530076834f4939aaef9649cdc9c97f"
         },
         {
-          "@id": "_:N68698fac3a4b444da62d5e60e5a9a368"
+          "@id": "_:N7bbbc6fa252b4cb5a2b346ddb628b543"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3370"
+          "@id": "edam:topic_3382"
         },
         {
-          "@id": "edam:topic_3382"
+          "@id": "edam:topic_3370"
         },
         {
           "@id": "edam:topic_3172"
@@ -86,10 +86,10 @@
           "@id": "edam:operation_3432"
         },
         {
-          "@id": "edam:operation_3694"
+          "@id": "edam:operation_3928"
         },
         {
-          "@id": "edam:operation_3928"
+          "@id": "edam:operation_3694"
         },
         {
           "@id": "edam:operation_3214"
@@ -103,40 +103,79 @@
         "@id": "https://mzkit.org/"
       },
       "sc:softwareVersion": [
-        "v1.0.0.1-beta",
-        "v1.0.0.2-beta"
+        "v1.0.0.2-beta",
+        "v1.0.0.1-beta"
       ],
       "sc:url": "https://mzkit.org/"
     },
     {
-      "@id": "_:Na0d4851476ee4ec7a65dcb1bc55dfa06",
+      "@id": "_:N6a2d4038e65c4bfaa940bbbc33f84b14",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2013"
-      },
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:Nfeb86246e1614d139c8448334de9c373",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
+        "@id": "edam:data_2536"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3603"
+          "@id": "edam:format_3244"
         },
         {
-          "@id": "edam:format_3579"
+          "@id": "edam:format_3839"
+        },
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3682"
         }
       ],
-      "sc:name": "Image"
+      "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N68698fac3a4b444da62d5e60e5a9a368",
+      "@id": "_:Na4e6487f9d864c448aa0d7a8853c1dd7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3839"
+        },
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3682"
+        },
+        {
+          "@id": "edam:format_3244"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Nf1c25fb82ed94b29b8c3849dd3d586cc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3839"
+        },
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3682"
+        },
+        {
+          "@id": "edam:format_3244"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N605c394bca7647019b6dcebce1c6cef6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -152,70 +191,31 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nce6ab11db2cf4bb6838cf52136fbb2f7",
+      "@id": "_:N06530076834f4939aaef9649cdc9c97f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2536"
+        "@id": "edam:data_2600"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3654"
-        },
-        {
-          "@id": "edam:format_3682"
-        },
-        {
-          "@id": "edam:format_3244"
-        },
-        {
-          "@id": "edam:format_3839"
-        }
-      ],
-      "sc:name": "Mass spectrometry data"
+      "sc:encodingFormat": {
+        "@id": "edam:format_2013"
+      },
+      "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Ncc90f226951b47deb727dc1459c56825",
+      "@id": "_:N7bbbc6fa252b4cb5a2b346ddb628b543",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2536"
+        "@id": "edam:data_2968"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3682"
+          "@id": "edam:format_3603"
         },
         {
-          "@id": "edam:format_3244"
-        },
-        {
-          "@id": "edam:format_3839"
-        },
-        {
-          "@id": "edam:format_3654"
+          "@id": "edam:format_3579"
         }
       ],
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:Nb98d648839f44495adf6ea4c669270c8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3654"
-        },
-        {
-          "@id": "edam:format_3682"
-        },
-        {
-          "@id": "edam:format_3244"
-        },
-        {
-          "@id": "edam:format_3839"
-        }
-      ],
-      "sc:name": "Mass spectrometry data"
+      "sc:name": "Image"
     }
   ]
 }

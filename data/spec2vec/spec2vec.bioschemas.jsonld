@@ -44,33 +44,33 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb05f307987554dcf9d05649ed8310cd8"
+          "@id": "_:Ne5b3a4e5471d4e88aa70d385895b6355"
         },
         {
-          "@id": "_:N68f4402bae52410fac1a07b48a7f9485"
+          "@id": "_:Nbfaa50fcc0c0452086f6b9a7591c6a88"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N19fd21bd2e8b46899aadf0c3036bac41"
+          "@id": "_:N5518227dd44e466aa120a89b74cffb55"
         },
         {
-          "@id": "_:N230b4a74bbe949fbb9338cdefdf7b621"
+          "@id": "_:N738a6567f8f04f8285c8fdea09b319a1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0218"
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
         },
         {
           "@id": "edam:topic_3172"
         },
         {
-          "@id": "edam:topic_0121"
-        },
-        {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0218"
         }
       ],
       "sc:citation": {
@@ -85,13 +85,13 @@
           "@id": "edam:operation_3803"
         },
         {
+          "@id": "edam:operation_2424"
+        },
+        {
           "@id": "edam:operation_2426"
         },
         {
           "@id": "edam:operation_2421"
-        },
-        {
-          "@id": "edam:operation_2424"
         }
       ],
       "sc:license": "Apache-2.0",
@@ -99,55 +99,55 @@
       "sc:url": "https://github.com/iomega/spec2vec"
     },
     {
-      "@id": "_:Nb05f307987554dcf9d05649ed8310cd8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3464"
-        },
-        {
-          "@id": "edam:format_4039"
-        },
-        {
-          "@id": "edam:format_3651"
-        }
-      ],
-      "sc:name": "Mass spectrum"
-    },
-    {
-      "@id": "_:N68f4402bae52410fac1a07b48a7f9485",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:name": "Mass spectrum"
-    },
-    {
-      "@id": "_:N19fd21bd2e8b46899aadf0c3036bac41",
+      "@id": "_:N5518227dd44e466aa120a89b74cffb55",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3751"
+          "@id": "edam:format_3464"
         },
         {
-          "@id": "edam:format_3464"
+          "@id": "edam:format_3751"
         }
       ],
       "sc:name": "Score"
     },
     {
-      "@id": "_:N230b4a74bbe949fbb9338cdefdf7b621",
+      "@id": "_:N738a6567f8f04f8285c8fdea09b319a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
       },
       "sc:name": "Mathematical model"
+    },
+    {
+      "@id": "_:Ne5b3a4e5471d4e88aa70d385895b6355",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:name": "Mass spectrum"
+    },
+    {
+      "@id": "_:Nbfaa50fcc0c0452086f6b9a7591c6a88",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_4039"
+        },
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Mass spectrum"
     }
   ]
 }

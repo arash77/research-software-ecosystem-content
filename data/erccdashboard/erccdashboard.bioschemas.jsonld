@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/ncomms6125",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/erccdashboard",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Sarah Munro",
       "bsc:input": {
-        "@id": "_:Neeed0a1589014c54a8df5e4cf0f2449b"
+        "@id": "_:N4b92217fb5f34c33a8b02dea61fa7104"
       },
       "bsc:output": {
-        "@id": "_:N3b4301df3a97423a83f8d112c08f5e09"
+        "@id": "_:N1934b20a20cb4c3aa2f464e5c3908560"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -71,8 +75,8 @@
       "sc:license": "GPL-2.0",
       "sc:name": "erccdashboard",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -82,18 +86,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/erccdashboard.html"
     },
     {
-      "@id": "_:Neeed0a1589014c54a8df5e4cf0f2449b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2058"
-      },
-      "sc:name": "Gene expression data"
-    },
-    {
-      "@id": "_:N3b4301df3a97423a83f8d112c08f5e09",
+      "@id": "_:N1934b20a20cb4c3aa2f464e5c3908560",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -104,8 +97,15 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "https://doi.org/10.1038/ncomms6125",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N4b92217fb5f34c33a8b02dea61fa7104",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2058"
+      },
+      "sc:name": "Gene expression data"
     }
   ]
 }

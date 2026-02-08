@@ -44,25 +44,25 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Josef Spidlen",
       "bsc:input": {
-        "@id": "_:N0bc1a83283c84ae3b46be3af53fc4b52"
+        "@id": "_:N2e8a9408399f46a384c5b58c8f6c8ee7"
       },
       "bsc:output": {
-        "@id": "_:N20cc9ebb3ad147a585df6172f5ffa212"
+        "@id": "_:N49a6aafe56c247a6bea87e9c7c2781f2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_3071"
-        },
         {
           "@id": "edam:topic_3306"
         },
         {
           "@id": "edam:topic_3361"
+        },
+        {
+          "@id": "edam:topic_3071"
         }
       ],
       "sc:citation": {
@@ -94,33 +94,33 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/flowUtils.html"
     },
     {
-      "@id": "_:N20cc9ebb3ad147a585df6172f5ffa212",
+      "@id": "_:N49a6aafe56c247a6bea87e9c7c2781f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2332"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2332"
         }
       ],
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N0bc1a83283c84ae3b46be3af53fc4b52",
+      "@id": "_:N2e8a9408399f46a384c5b58c8f6c8ee7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2332"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2332"
         }
       ],
       "sc:name": "Experimental measurement"

@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "GitHub Issues",
       "bsc:input": {
-        "@id": "_:N34eb7f2b27fc4403b08263473812463c"
+        "@id": "_:Nb3e0af14d1884f1e9381b51fd7b639b1"
       },
       "bsc:output": {
-        "@id": "_:Na4b4e49411b14b088c8a54f257a1c907"
+        "@id": "_:Nc2db5fc080fc4cd3a4ce97f4a3aaeca2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -56,17 +56,17 @@
           "@id": "edam:topic_0654"
         },
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_0102"
         },
         {
-          "@id": "edam:topic_0102"
+          "@id": "edam:topic_3168"
         }
       ],
       "sc:citation": [
-        "pubmed:18227115",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btn032"
-        }
+        },
+        "pubmed:18227115"
       ],
       "sc:description": "BWT-SW is a local alignment tool for searching nucleotide sequences. It performs the same function as BLASTn, the BLAST program for finding regions of local similarity between nucleotide sequences. While BLAST is an approximation of the Smith-Waterman local alignment algorithm and may miss significant alignments, BWT-SW finds all local alignments.",
       "sc:featureList": [
@@ -80,13 +80,13 @@
       "sc:name": "BWT-SW",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:url": "https://github.com/mruffalo/bwt-sw"
     },
     {
-      "@id": "_:Na4b4e49411b14b088c8a54f257a1c907",
+      "@id": "_:Nc2db5fc080fc4cd3a4ce97f4a3aaeca2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -94,7 +94,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N34eb7f2b27fc4403b08263473812463c",
+      "@id": "_:Nb3e0af14d1884f1e9381b51fd7b639b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

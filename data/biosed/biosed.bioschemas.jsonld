@@ -36,13 +36,25 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/biosed",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4bc3b6ea45e74459ae38e6e2c301ca6a"
+        "@id": "_:N5e12ec8d47f84387868637ce0d95c14f"
       },
       "bsc:output": {
-        "@id": "_:Ndd58903ac53d4ff58a8762e5c648c40e"
+        "@id": "_:N8a189a2478a44ec4b3c2fde877626bbe"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -51,20 +63,20 @@
       },
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.1017/CBO9781139151399"
-        },
-        {
           "@id": "https://doi.org/10.1017/CBO9781139151405"
         },
         {
           "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
+        },
+        {
+          "@id": "https://doi.org/10.1017/CBO9781139151399"
         }
       ],
       "sc:contributor": [
-        "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust",
         "EMBOSS Contributors",
-        "UK MRC"
+        "UK BBSRC"
       ],
       "sc:description": "Replace or delete sequence sections.",
       "sc:featureList": [
@@ -76,17 +88,17 @@
         }
       ],
       "sc:funder": [
-        "Wellcome Trust",
         "UK MRC",
+        "Wellcome Trust",
         "UK BBSRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "biosed",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": [
         "EMBOSS",
@@ -107,7 +119,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/biosed.html"
     },
     {
-      "@id": "_:Ndd58903ac53d4ff58a8762e5c648c40e",
+      "@id": "_:N5e12ec8d47f84387868637ce0d95c14f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -115,24 +127,12 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N4bc3b6ea45e74459ae38e6e2c301ca6a",
+      "@id": "_:N8a189a2478a44ec4b3c2fde877626bbe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
       },
       "sc:name": "Sequence record"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

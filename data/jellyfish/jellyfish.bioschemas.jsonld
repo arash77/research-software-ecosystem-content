@@ -39,31 +39,31 @@
       "@id": "https://bio.tools/jellyfish",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Guillaume Marçais",
-        "Carl Kingsford"
+        "Carl Kingsford",
+        "Guillaume Marçais"
       ],
       "bsc:input": {
-        "@id": "_:Nfddd60a7ebbc405c80104db3e02b90c9"
+        "@id": "_:N35a517b1a5444957be88f7d66c59e317"
       },
       "bsc:output": {
-        "@id": "_:Nbc374f6a21474d9a820f7dd81f552181"
+        "@id": "_:N179d4687052f4d9abcd09eb0777a9f61"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_0080"
         },
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_0622"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC3051319",
-        "pubmed:21217122",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btr011"
-        }
+        },
+        "pubmed:21217122",
+        "pmcid:PMC3051319"
       ],
       "sc:description": "A command-line algorithm for counting k-mers in DNA sequence.",
       "sc:featureList": {
@@ -73,8 +73,8 @@
       "sc:license": "GPL-3.0",
       "sc:name": "Jellyfish",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
@@ -88,23 +88,23 @@
       "sc:url": "http://www.genome.umd.edu/jellyfish.html"
     },
     {
-      "@id": "_:Nfddd60a7ebbc405c80104db3e02b90c9",
+      "@id": "_:N35a517b1a5444957be88f7d66c59e317",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_1930"
         },
         {
-          "@id": "edam:format_1930"
+          "@id": "edam:format_1929"
         }
       ],
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Nbc374f6a21474d9a820f7dd81f552181",
+      "@id": "_:N179d4687052f4d9abcd09eb0777a9f61",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"

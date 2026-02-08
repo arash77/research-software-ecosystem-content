@@ -36,23 +36,27 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv146",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/cardinal",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Kylie A. Bemis",
       "bsc:input": [
         {
-          "@id": "_:Nb3f23bcdea854520809760333afa0c31"
+          "@id": "_:N6e6caba585f24b0fb1c5a74f7ebd6957"
         },
         {
-          "@id": "_:N4d9b5e15db1042b9af3c0c0724a46b30"
+          "@id": "_:Neef896e00a164c909a5faaca5f517c04"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N61a8796539854e398b5f88dd72aaedb2"
+          "@id": "_:N555f44975394404dbdce812a88eb1513"
         },
         {
-          "@id": "_:N9fa2bd4c68da48a087650aba7b0ec3dd"
+          "@id": "_:N3be10a7141f144898796151d2a2ae0c0"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -78,13 +82,10 @@
       "sc:description": "Implements statistical and computational tools for analyzing mass spectrometry imaging datasets, including methods for efficient pre-processing, spatial segmentation, and classification.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0531"
-        },
-        {
           "@id": "edam:operation_3694"
         },
         {
-          "@id": "edam:operation_3627"
+          "@id": "edam:operation_0337"
         },
         {
           "@id": "edam:operation_3214"
@@ -93,15 +94,18 @@
           "@id": "edam:operation_3435"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_0531"
+        },
+        {
+          "@id": "edam:operation_3627"
         }
       ],
       "sc:license": "Artistic-2.0",
       "sc:name": "Cardinal",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/Cardinal.html"
@@ -110,7 +114,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/Cardinal.html"
     },
     {
-      "@id": "_:N61a8796539854e398b5f88dd72aaedb2",
+      "@id": "_:N555f44975394404dbdce812a88eb1513",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -126,7 +130,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N9fa2bd4c68da48a087650aba7b0ec3dd",
+      "@id": "_:N3be10a7141f144898796151d2a2ae0c0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -142,7 +146,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nb3f23bcdea854520809760333afa0c31",
+      "@id": "_:N6e6caba585f24b0fb1c5a74f7ebd6957",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -158,24 +162,20 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N4d9b5e15db1042b9af3c0c0724a46b30",
+      "@id": "_:Neef896e00a164c909a5faaca5f517c04",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3682"
+          "@id": "edam:format_3839"
         },
         {
-          "@id": "edam:format_3839"
+          "@id": "edam:format_3682"
         }
       ],
       "sc:name": "Image"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btv146",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

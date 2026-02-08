@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Eric Frichot",
       "bsc:input": {
-        "@id": "_:N50ac644ee90249fc83f1290f20863b4d"
+        "@id": "_:N76480a2ac9fb471783466f9e1a28a949"
       },
       "bsc:output": [
         {
-          "@id": "_:N8aa8f0407c454897901d7e5a7c184b29"
+          "@id": "_:Ne02e333cfbf84d379f2ae5bacdd904dd"
         },
         {
-          "@id": "_:N0c26085dcaef47fd9ef092249e591dc8"
+          "@id": "_:N5ba069163bfe4e6891b89e44080aec81"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,7 +57,13 @@
       ],
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0622"
+        },
+        {
           "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_3572"
         },
         {
           "@id": "edam:topic_2885"
@@ -66,16 +72,10 @@
           "@id": "edam:topic_3518"
         },
         {
-          "@id": "edam:topic_3056"
-        },
-        {
           "@id": "edam:topic_2269"
         },
         {
-          "@id": "edam:topic_0622"
-        },
-        {
-          "@id": "edam:topic_3572"
+          "@id": "edam:topic_3056"
         },
         {
           "@id": "edam:topic_0610"
@@ -99,9 +99,9 @@
       "sc:license": "GPL-3.0",
       "sc:name": "LEA",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/LEA.html"
@@ -110,7 +110,39 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/LEA.html"
     },
     {
-      "@id": "_:N50ac644ee90249fc83f1290f20863b4d",
+      "@id": "_:Ne02e333cfbf84d379f2ae5bacdd904dd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N5ba069163bfe4e6891b89e44080aec81",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N76480a2ac9fb471783466f9e1a28a949",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -124,38 +156,6 @@
         }
       ],
       "sc:name": "Gene expression matrix"
-    },
-    {
-      "@id": "_:N8aa8f0407c454897901d7e5a7c184b29",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N0c26085dcaef47fd9ef092249e591dc8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Image"
     },
     {
       "@id": "https://doi.org/10.1111/2041-210X.12382",

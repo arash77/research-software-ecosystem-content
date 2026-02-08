@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N27d763cf6a10484f913456efc4082ab5"
+          "@id": "_:Nca4eeddf48084d77b642399788717741"
         },
         {
-          "@id": "_:Nd6b4293dcdd54289a5d0647895183769"
+          "@id": "_:N770ffe0b3b534fed99df706f7e62dee2"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -56,16 +56,16 @@
           "@id": "edam:topic_0634"
         },
         {
-          "@id": "edam:topic_0625"
+          "@id": "edam:topic_3068"
         },
         {
           "@id": "edam:topic_0203"
         },
         {
-          "@id": "edam:topic_0199"
+          "@id": "edam:topic_0625"
         },
         {
-          "@id": "edam:topic_3068"
+          "@id": "edam:topic_0199"
         }
       ],
       "sc:citation": {
@@ -74,23 +74,23 @@
       "sc:description": "An Evidence-based Database of Genes and Phenotypes of Male Infertility.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3196"
+          "@id": "edam:operation_2421"
         },
         {
-          "@id": "edam:operation_2421"
+          "@id": "edam:operation_3196"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "MIgene",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:url": "http://midb.geneworks.cn"
     },
     {
-      "@id": "_:N27d763cf6a10484f913456efc4082ab5",
+      "@id": "_:Nca4eeddf48084d77b642399788717741",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -98,7 +98,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:Nd6b4293dcdd54289a5d0647895183769",
+      "@id": "_:N770ffe0b3b534fed99df706f7e62dee2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3275"

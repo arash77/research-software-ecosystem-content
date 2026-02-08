@@ -36,46 +36,42 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/genbank_convertor",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N5190d0f5b3744fdc9c3a7f03e0231fc5"
+          "@id": "_:Nca3b61f096904b4490607881b30f7c66"
         },
         {
-          "@id": "_:N077517079d94486bbcb5edee7661390c"
+          "@id": "_:N002fb37fe79e4331be341bbb3cfee7e5"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nac20323475834265a09966ca4db3a42d"
+          "@id": "_:N5d6730350a53408682a2b4eeb1d88f1d"
         },
         {
-          "@id": "_:N2a36c6d7e96944ba834af432709e05e6"
+          "@id": "_:Nd1a439f3ee394d829c956f9cff1bfdf4"
         },
         {
-          "@id": "_:N3820a32c57a4477a9aedd4f2d563a0cf"
+          "@id": "_:N1e8dbf7373d74efaa1a7c93fa6b0c4aa"
         },
         {
-          "@id": "_:N13a7bd68df2044dfb329904eae049233"
+          "@id": "_:Ne37bcce11b1e42cc8af6aade4d4002ee"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3053"
+        },
+        {
           "@id": "edam:topic_0080"
         },
         {
           "@id": "edam:topic_0078"
-        },
-        {
-          "@id": "edam:topic_3053"
         }
       ],
       "sc:citation": [
@@ -95,51 +91,7 @@
       "sc:url": "https://bioweb.pasteur.fr/packages/pack@pf1-tools@0.1"
     },
     {
-      "@id": "_:Nac20323475834265a09966ca4db3a42d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N2a36c6d7e96944ba834af432709e05e6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N3820a32c57a4477a9aedd4f2d563a0cf",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N13a7bd68df2044dfb329904eae049233",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N5190d0f5b3744fdc9c3a7f03e0231fc5",
+      "@id": "_:Nca3b61f096904b4490607881b30f7c66",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -150,7 +102,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N077517079d94486bbcb5edee7661390c",
+      "@id": "_:N002fb37fe79e4331be341bbb3cfee7e5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -159,6 +111,54 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5d6730350a53408682a2b4eeb1d88f1d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nd1a439f3ee394d829c956f9cff1bfdf4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N1e8dbf7373d74efaa1a7c93fa6b0c4aa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ne37bcce11b1e42cc8af6aade4d4002ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",

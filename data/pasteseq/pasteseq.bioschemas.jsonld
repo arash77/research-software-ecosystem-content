@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,7 +44,7 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
       "@type": "sc:CreativeWork"
     },
     {
@@ -52,14 +52,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N1fb776bde0834d3caf2b2bf43ac35547"
+          "@id": "_:Nfacaed6e1e4f4c7fa0ada29ae77502d4"
         },
         {
-          "@id": "_:Nb3647d408e594a799f166e322941f225"
+          "@id": "_:N7ff31011177a41bfb202946bfe11682b"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nb776a6008a6d458c83213b2b11d02c98"
+        "@id": "_:N4582624c383846d18cb53ce18fe90009"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -78,10 +78,10 @@
         }
       ],
       "sc:contributor": [
-        "EMBOSS Contributors",
         "UK MRC",
-        "UK BBSRC",
-        "Wellcome Trust"
+        "Wellcome Trust",
+        "EMBOSS Contributors",
+        "UK BBSRC"
       ],
       "sc:description": "Insert one sequence into another.",
       "sc:featureList": {
@@ -89,8 +89,8 @@
       },
       "sc:funder": [
         "UK MRC",
-        "UK BBSRC",
-        "Wellcome Trust"
+        "Wellcome Trust",
+        "UK BBSRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
@@ -101,15 +101,15 @@
         "Mac"
       ],
       "sc:provider": [
-        "EMBOSS",
-        "EMBL-EBI"
+        "EMBL-EBI",
+        "EMBOSS"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://emboss.open-bio.org/rel/rel6/apps/pasteseq.html"
+          "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
         },
         {
-          "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
+          "@id": "http://emboss.open-bio.org/rel/rel6/apps/pasteseq.html"
         },
         {
           "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
@@ -119,7 +119,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/pasteseq.html"
     },
     {
-      "@id": "_:Nb776a6008a6d458c83213b2b11d02c98",
+      "@id": "_:Nfacaed6e1e4f4c7fa0ada29ae77502d4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -127,7 +127,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N1fb776bde0834d3caf2b2bf43ac35547",
+      "@id": "_:N7ff31011177a41bfb202946bfe11682b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -135,7 +135,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:Nb3647d408e594a799f166e322941f225",
+      "@id": "_:N4582624c383846d18cb53ce18fe90009",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"

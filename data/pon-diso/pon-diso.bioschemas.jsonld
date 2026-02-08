@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1002/humu.22600",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pon-diso",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N02eb3bcb80a7410cb27388e99d58552a"
+        "@id": "_:N38647cdcb1534c9db869f5050bc86123"
       },
       "bsc:output": {
-        "@id": "_:N7adda377a39f43a0a86666fd40b38b67"
+        "@id": "_:Nca6dff2f3add402497b4486278ef561b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -65,8 +61,8 @@
       },
       "sc:name": "PON-Diso",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "bils.se",
@@ -77,7 +73,15 @@
       "sc:url": "http://structure.bmc.lu.se/PON-Diso/"
     },
     {
-      "@id": "_:N02eb3bcb80a7410cb27388e99d58552a",
+      "@id": "_:Nca6dff2f3add402497b4486278ef561b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N38647cdcb1534c9db869f5050bc86123",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -85,12 +89,8 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N7adda377a39f43a0a86666fd40b38b67",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:name": "Protein features"
+      "@id": "https://doi.org/10.1002/humu.22600",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

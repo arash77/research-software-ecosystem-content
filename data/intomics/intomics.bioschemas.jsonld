@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4a076ffb172e43c0b9f40acec07ea338"
+          "@id": "_:N56afc2c222264304b9bdb1ea396f6647"
         },
         {
-          "@id": "_:Nf7c5f707438b4ff0ad5e71e583fcf4a8"
+          "@id": "_:N3291127fcf1847449abcdde6ec3f48cc"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nd3f340854e6f4fc0bc65c3e3e7eb00e9"
+        "@id": "_:N641bdc1d505a4aab935d3a9e684934fb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -62,26 +62,15 @@
       "sc:license": "GPL-3.0",
       "sc:name": "IntOmics",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareVersion": "1.2",
       "sc:url": "https://github.com/herrsalmi/IntOmics/"
     },
     {
-      "@id": "_:N4a076ffb172e43c0b9f40acec07ea338",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1009"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Protein name"
-    },
-    {
-      "@id": "_:Nf7c5f707438b4ff0ad5e71e583fcf4a8",
+      "@id": "_:N56afc2c222264304b9bdb1ea396f6647",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -92,7 +81,18 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Nd3f340854e6f4fc0bc65c3e3e7eb00e9",
+      "@id": "_:N3291127fcf1847449abcdde6ec3f48cc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1009"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein name"
+    },
+    {
+      "@id": "_:N641bdc1d505a4aab935d3a9e684934fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.6084/m9.figshare.1425030.v1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/pcrclipreads",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Pierre Lindenbaum",
       "bsc:input": {
-        "@id": "_:Nccd51754aa6b4c9d873847cf19766f5e"
+        "@id": "_:Nbc703ae94c0c4384a7693a745023881a"
       },
       "bsc:output": {
-        "@id": "_:N2e6cdb8c31fb4e64a2a17995a1ecb1f5"
+        "@id": "_:N95d4fab1dc484d2ba999afd9f0e7202e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -89,7 +93,7 @@
       "sc:url": "https://github.com/lindenb/jvarkit/wiki/PcrClipReads"
     },
     {
-      "@id": "_:Nccd51754aa6b4c9d873847cf19766f5e",
+      "@id": "_:N95d4fab1dc484d2ba999afd9f0e7202e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1050"
@@ -100,7 +104,7 @@
       "sc:name": "File name"
     },
     {
-      "@id": "_:N2e6cdb8c31fb4e64a2a17995a1ecb1f5",
+      "@id": "_:Nbc703ae94c0c4384a7693a745023881a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1050"
@@ -109,10 +113,6 @@
         "@id": "edam:format_2572"
       },
       "sc:name": "File name"
-    },
-    {
-      "@id": "https://doi.org/10.6084/m9.figshare.1425030.v1",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

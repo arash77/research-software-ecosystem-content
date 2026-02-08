@@ -48,14 +48,14 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nf1e77ddb5c5545ee9587f4ff3ed0d88e"
+          "@id": "_:Nfa678017f44e4e66bc959f6de335196d"
         },
         {
-          "@id": "_:N702dc0fba81c48ce9fcc4175048f6931"
+          "@id": "_:N7b4522e0554d42d8a7cda0c618be21ac"
         }
       ],
       "bsc:output": {
-        "@id": "_:N9be8b93e3d2f4178b2e3f1aff2bd1eb8"
+        "@id": "_:Nc36273897eae41dc8fe796d0c5909f45"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -68,11 +68,11 @@
         }
       ],
       "sc:citation": [
+        "pmcid:PMC3487130",
         "pubmed:23103226",
         {
           "@id": "https://doi.org/10.1016/j.ajhg.2012.09.004"
-        },
-        "pmcid:PMC3487130"
+        }
       ],
       "sc:description": "Software that verifies whether the reads in particular file match previously known genotypes for an individual (or group of individuals), and checks whether the reads are contaminated as a mixture of two samples. It can detect sample contamination and swaps when external genotypes are available. When external genotypes are not available, it still robustly detects sample swaps.",
       "sc:featureList": {
@@ -82,8 +82,8 @@
       "sc:license": "GPL-3.0",
       "sc:name": "verifyBamID",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": [
         "sanger.ac.uk",
@@ -96,15 +96,18 @@
       "sc:url": "http://genome.sph.umich.edu/wiki/VerifyBamID"
     },
     {
-      "@id": "_:N9be8b93e3d2f4178b2e3f1aff2bd1eb8",
+      "@id": "_:Nfa678017f44e4e66bc959f6de335196d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2048"
+        "@id": "edam:data_3498"
       },
-      "sc:name": "Report"
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nf1e77ddb5c5545ee9587f4ff3ed0d88e",
+      "@id": "_:N7b4522e0554d42d8a7cda0c618be21ac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -115,15 +118,12 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N702dc0fba81c48ce9fcc4175048f6931",
+      "@id": "_:Nc36273897eae41dc8fe796d0c5909f45",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3498"
+        "@id": "edam:data_2048"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3016"
-      },
-      "sc:name": "Sequence variations"
+      "sc:name": "Report"
     }
   ]
 }

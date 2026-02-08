@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Mike Smith",
       "bsc:input": {
-        "@id": "_:Nc735ec373a1840249f59ae42364b3201"
+        "@id": "_:N70322b4405574fd4b35ba811651a8229"
       },
       "bsc:output": [
         {
-          "@id": "_:N8ab316cecdfc425abc1ad1108b2a18e6"
+          "@id": "_:Ne09d615d7711488ca0211d9319f3d0d9"
         },
         {
-          "@id": "_:N181cec43ef2c48cab3df9ef5f58e18e4"
+          "@id": "_:N89e257f03890459b98e8a289d4633f97"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -69,8 +69,8 @@
         "Windows"
       ],
       "sc:provider": [
-        "EMBL Heidelberg",
-        "hdhub"
+        "hdhub",
+        "EMBL Heidelberg"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/vignettes/IONiseR/inst/doc/IONiseR.html"
@@ -78,7 +78,18 @@
       "sc:url": "http://bioconductor.org/packages/IONiseR/"
     },
     {
-      "@id": "_:N8ab316cecdfc425abc1ad1108b2a18e6",
+      "@id": "_:N70322b4405574fd4b35ba811651a8229",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:Ne09d615d7711488ca0211d9319f3d0d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -89,23 +100,12 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:N181cec43ef2c48cab3df9ef5f58e18e4",
+      "@id": "_:N89e257f03890459b98e8a289d4633f97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nc735ec373a1840249f59ae42364b3201",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3108"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2333"
-      },
-      "sc:name": "Experimental measurement"
     }
   ]
 }

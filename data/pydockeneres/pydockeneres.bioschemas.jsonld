@@ -36,34 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-7502-3157",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btz884",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0001-7786-2109",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/pyDockEneRes",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N53e855ae210a4146a880b81d5f2bf949"
+        "@id": "_:N52465e1f4c2e47f0a9341f54f50fc651"
       },
       "bsc:output": {
-        "@id": "_:Ned46f11f6112476285f0984c215066f7"
+        "@id": "_:Nb9749f5e1f1d451c896a72db5b7dd04f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0128"
+          "@id": "edam:topic_0199"
         },
         {
-          "@id": "edam:topic_0199"
+          "@id": "edam:topic_0128"
         },
         {
           "@id": "edam:topic_2275"
@@ -71,10 +59,10 @@
       ],
       "sc:author": [
         {
-          "@id": "https://orcid.org/0000-0002-7502-3157"
+          "@id": "http://orcid.org/0000-0001-7786-2109"
         },
         {
-          "@id": "http://orcid.org/0000-0001-7786-2109"
+          "@id": "https://orcid.org/0000-0002-7502-3157"
         }
       ],
       "sc:citation": [
@@ -86,20 +74,20 @@
       "sc:description": "pyDockEneRes is a web server for computational characterisation of protein-protein interactions.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_0482"
+        },
+        {
           "@id": "edam:operation_3899"
         },
         {
           "@id": "edam:operation_0250"
-        },
-        {
-          "@id": "edam:operation_0482"
         }
       ],
       "sc:name": "pyDockEneRes",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "Barcelona Supercomputing Center",
       "sc:softwareHelp": [
@@ -113,7 +101,18 @@
       "sc:url": "https://life.bsc.es/pid/pydockeneres"
     },
     {
-      "@id": "_:N53e855ae210a4146a880b81d5f2bf949",
+      "@id": "_:Nb9749f5e1f1d451c896a72db5b7dd04f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3981"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N52465e1f4c2e47f0a9341f54f50fc651",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2877"
@@ -124,15 +123,16 @@
       "sc:name": "Protein complex"
     },
     {
-      "@id": "_:Ned46f11f6112476285f0984c215066f7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3981"
-      },
-      "sc:name": "Data"
+      "@id": "https://doi.org/10.1093/bioinformatics/btz884",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7502-3157",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-7786-2109",
+      "@type": "sc:Person"
     }
   ]
 }

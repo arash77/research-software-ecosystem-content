@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr449",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/bbseq",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Yi-Hui Zhou",
       "bsc:input": {
-        "@id": "_:Neb6f0f6cc5df4c7490609c242fde726d"
+        "@id": "_:N26cf3fe32829482d8329c98b06fdc5e9"
       },
       "bsc:output": {
-        "@id": "_:Nb3734f1ee9d54bd39b3da87c9aa7454b"
+        "@id": "_:N4828d94f629e4c109e2aa23bbb926c81"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -59,16 +63,16 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC3179656",
-        "pubmed:21810900",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btr449"
-        }
+        },
+        "pmcid:PMC3179656",
+        "pubmed:21810900"
       ],
       "sc:description": "An R package for analyzing RNA-Seq transcriptional count data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2238"
+          "@id": "edam:operation_2495"
         },
         {
           "@id": "edam:operation_3563"
@@ -77,7 +81,7 @@
           "@id": "edam:operation_3800"
         },
         {
-          "@id": "edam:operation_2495"
+          "@id": "edam:operation_2238"
         }
       ],
       "sc:name": "BBSeq",
@@ -92,18 +96,7 @@
       "sc:url": "http://www.bios.unc.edu/research/genomic_software/BBSeq/"
     },
     {
-      "@id": "_:Nb3734f1ee9d54bd39b3da87c9aa7454b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0950"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2032"
-      },
-      "sc:name": "Mathematical model"
-    },
-    {
-      "@id": "_:Neb6f0f6cc5df4c7490609c242fde726d",
+      "@id": "_:N26cf3fe32829482d8329c98b06fdc5e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -114,8 +107,15 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btr449",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N4828d94f629e4c109e2aa23bbb926c81",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0950"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2032"
+      },
+      "sc:name": "Mathematical model"
     }
   ]
 }

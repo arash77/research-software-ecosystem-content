@@ -44,65 +44,57 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N90468a581e0f4640aa919e583753c35c"
+          "@id": "_:Nfa523016d6834664a3bbc041ae09296f"
         },
         {
-          "@id": "_:Nd6944139d5de4eb1a3d953e9e87a82c8"
+          "@id": "_:Naeb2bb1950be4e0c85d06806df7047ca"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3170"
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0659"
         },
         {
           "@id": "edam:topic_3512"
         },
         {
-          "@id": "edam:topic_3474"
-        },
-        {
-          "@id": "edam:topic_0659"
+          "@id": "edam:topic_3170"
         }
       ],
       "sc:citation": [
+        "pubmed:34850821",
         {
           "@id": "https://doi.org/10.1093/BIB/BBAB480"
-        },
-        "pubmed:34850821"
+        }
       ],
       "sc:description": "Identification of multispecies RNA 2'-O-methylation modification sites from RNA sequences.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3937"
+          "@id": "edam:operation_0250"
         },
         {
           "@id": "edam:operation_3936"
         },
         {
-          "@id": "edam:operation_0250"
+          "@id": "edam:operation_3937"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "NmRF",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:url": "http://lab.malab.cn/~acy/NmRF"
     },
     {
-      "@id": "_:N90468a581e0f4640aa919e583753c35c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1045"
-      },
-      "sc:name": "Species name"
-    },
-    {
-      "@id": "_:Nd6944139d5de4eb1a3d953e9e87a82c8",
+      "@id": "_:Nfa523016d6834664a3bbc041ae09296f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -111,6 +103,14 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:Naeb2bb1950be4e0c85d06806df7047ca",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
     }
   ]
 }

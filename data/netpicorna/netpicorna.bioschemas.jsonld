@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/netpicorna",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N61961599a2704f8596377573ae60797c"
+        "@id": "_:N332f14f87fbe400990b1324aed7be088"
       },
       "bsc:output": [
         {
-          "@id": "_:N7c91ab12edd2482ba8b574a66ebd817e"
+          "@id": "_:N3b22f61b14854d8cb8720b8c74f65132"
         },
         {
-          "@id": "_:N2ed49551f66d426d9f49d37444432f72"
+          "@id": "_:N41023c6d19c04e23ab7245825bae87b8"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,10 +60,10 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC2143287",
         {
           "@id": "https://doi.org/10.1002/pro.5560051107"
         },
+        "pmcid:PMC2143287",
         "pubmed:8931139"
       ],
       "sc:description": "Neural network predictions of cleavage sites of picornaviral proteases.",
@@ -82,7 +82,7 @@
       "sc:url": "http://cbs.dtu.dk/services/NetPicoRNA/"
     },
     {
-      "@id": "_:N61961599a2704f8596377573ae60797c",
+      "@id": "_:N332f14f87fbe400990b1324aed7be088",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -93,7 +93,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N7c91ab12edd2482ba8b574a66ebd817e",
+      "@id": "_:N3b22f61b14854d8cb8720b8c74f65132",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -104,7 +104,7 @@
       "sc:name": "Sequence report"
     },
     {
-      "@id": "_:N2ed49551f66d426d9f49d37444432f72",
+      "@id": "_:N41023c6d19c04e23ab7245825bae87b8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

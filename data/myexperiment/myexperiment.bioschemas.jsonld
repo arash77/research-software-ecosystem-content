@@ -68,8 +68,8 @@
   ],
   "sc:name": "myExperiment",
   "sc:operatingSystem": [
-    "Mac",
     "Windows",
+    "Mac",
     "Linux"
   ],
   "sc:softwareHelp": {

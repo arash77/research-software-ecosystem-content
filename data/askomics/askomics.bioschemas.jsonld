@@ -39,22 +39,22 @@
       "@id": "https://bio.tools/askomics",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Anthony Bretaudeau",
-        "Olivier Dameron"
+        "Olivier Dameron",
+        "Anthony Bretaudeau"
       ],
       "bsc:input": [
         {
-          "@id": "_:N697509c0000a4f28a51fe7b6f757c953"
+          "@id": "_:N526c674ec1c44d73b5390262ae3df9de"
         },
         {
-          "@id": "_:N2d1bc687241a401987a5c7af15b85aa2"
+          "@id": "_:N3e4613c527da499487f4e337657fbd19"
         },
         {
-          "@id": "_:Nc0121fa0701a4ca1888c2b278f4736b6"
+          "@id": "_:N1d0dea17260549bf9125692698a0b374"
         }
       ],
       "bsc:output": {
-        "@id": "_:N1e31637c38ea4bdaacfb97cbb73896e5"
+        "@id": "_:N58986c3c42914c339ac5d66d1bc9e136"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -65,10 +65,10 @@
       "sc:description": "AskOmics is a visual SPARQL query interface supporting both intuitive data integration and querying while shielding the user from most of the technical difficulties underlying RDF and SPARQL",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_2422"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -84,7 +84,40 @@
       "sc:url": "https://github.com/askomics"
     },
     {
-      "@id": "_:N1e31637c38ea4bdaacfb97cbb73896e5",
+      "@id": "_:N526c674ec1c44d73b5390262ae3df9de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3751"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N3e4613c527da499487f4e337657fbd19",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N1d0dea17260549bf9125692698a0b374",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2376"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N58986c3c42914c339ac5d66d1bc9e136",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -98,39 +131,6 @@
         }
       ],
       "sc:name": "Data"
-    },
-    {
-      "@id": "_:N697509c0000a4f28a51fe7b6f757c953",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2376"
-      },
-      "sc:name": "Ontology data"
-    },
-    {
-      "@id": "_:N2d1bc687241a401987a5c7af15b85aa2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3751"
-      },
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:Nc0121fa0701a4ca1888c2b278f4736b6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Sequence features"
     }
   ]
 }

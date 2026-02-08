@@ -55,8 +55,8 @@
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btq300"
         },
-        "pubmed:20529889",
-        "pmcid:PMC2913655"
+        "pmcid:PMC2913655",
+        "pubmed:20529889"
       ],
       "sc:description": "R package for analyzing large Affymetrix data sets which allows to analyze 100-1,000s of arrays of various chip types, e.g. expression arrays, SNP chips, exon arrays and so on.",
       "sc:featureList": [
@@ -70,8 +70,8 @@
       "sc:name": "aroma.affymetrix",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://aroma-project.org/docs/"

@@ -36,22 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/acs.analchem.4c04091",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/mzspeclib",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N6084f29325c74845a33c81f7ab17827a"
+          "@id": "_:N75e885c209934556a42dd5ce8d4f4f32"
         },
         {
-          "@id": "_:Nefe0c2b5283b4a0aa6abb0e018d96910"
+          "@id": "_:N835e6eb197fb4ed298bec7596af0a6a5"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc8d2c03004474cc4a3e69780835d28ec"
+          "@id": "_:N2e502faa441f48a0ab98a48e2fbedde0"
         },
         {
-          "@id": "_:N820c124de18d4f1284d2f4e1de39b11f"
+          "@id": "_:N5c6eab168f8e4e29b81d8c53d354d80f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +93,15 @@
       "sc:url": "https://github.com/HUPO-PSI/mzspeclib-py"
     },
     {
-      "@id": "_:N6084f29325c74845a33c81f7ab17827a",
+      "@id": "_:N75e885c209934556a42dd5ce8d4f4f32",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:name": "Mass spectrum"
+    },
+    {
+      "@id": "_:N835e6eb197fb4ed298bec7596af0a6a5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -105,7 +117,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Nefe0c2b5283b4a0aa6abb0e018d96910",
+      "@id": "_:N2e502faa441f48a0ab98a48e2fbedde0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -113,24 +125,12 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Nc8d2c03004474cc4a3e69780835d28ec",
+      "@id": "_:N5c6eab168f8e4e29b81d8c53d354d80f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
       },
       "sc:name": "Mass spectrum"
-    },
-    {
-      "@id": "_:N820c124de18d4f1284d2f4e1de39b11f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:name": "Mass spectrum"
-    },
-    {
-      "@id": "https://doi.org/10.1021/acs.analchem.4c04091",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

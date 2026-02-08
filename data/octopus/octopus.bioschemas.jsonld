@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btn221",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/octopus",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N2a98a85757ef419fa8ce8867fe5cd301"
+        "@id": "_:Nb231c859a3a94f62867c49b249c29a14"
       },
       "bsc:output": {
-        "@id": "_:N20ee245a3af94e059d28637dd51e8354"
+        "@id": "_:Nb8027d4bf9a64850a60ee12f8c43ba60"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -50,10 +54,10 @@
         "@id": "edam:topic_0080"
       },
       "sc:citation": [
-        "pubmed:18474507",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btn221"
-        }
+        },
+        "pubmed:18474507"
       ],
       "sc:description": "Prediction of membrane protein topology and signal peptides.",
       "sc:featureList": {
@@ -62,8 +66,8 @@
       "sc:name": "OCTOPUS",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -73,7 +77,7 @@
       "sc:url": "http://octopus.cbr.su.se/"
     },
     {
-      "@id": "_:N20ee245a3af94e059d28637dd51e8354",
+      "@id": "_:Nb8027d4bf9a64850a60ee12f8c43ba60",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -81,16 +85,12 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N2a98a85757ef419fa8ce8867fe5cd301",
+      "@id": "_:Nb231c859a3a94f62867c49b249c29a14",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
       },
       "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btn221",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

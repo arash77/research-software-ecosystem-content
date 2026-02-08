@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/netutr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4bd5d6d0fa954358a0902b5d1213bcd3"
+        "@id": "_:N29cf38f243da4fe9be5ce72f2ff22efd"
       },
       "bsc:output": {
-        "@id": "_:N5296f0aec8474d2d9c9ee3e99b1b613e"
+        "@id": "_:Ncde092c33bd74b21af916162bffeeb70"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -50,11 +50,11 @@
         "@id": "edam:topic_3320"
       },
       "sc:citation": [
+        "pmcid:PMC373407",
         {
           "@id": "https://doi.org/10.1093/nar/gkh273"
         },
-        "pubmed:14960723",
-        "pmcid:PMC373407"
+        "pubmed:14960723"
       ],
       "sc:description": "Neural network prediction of splice sites in 5' UTR regions of human genes.",
       "sc:featureList": {
@@ -65,8 +65,8 @@
       "sc:name": "NetUTR",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": {
@@ -76,7 +76,7 @@
       "sc:url": "http://cbs.dtu.dk/services/NetUTR/"
     },
     {
-      "@id": "_:N4bd5d6d0fa954358a0902b5d1213bcd3",
+      "@id": "_:N29cf38f243da4fe9be5ce72f2ff22efd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -87,7 +87,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N5296f0aec8474d2d9c9ee3e99b1b613e",
+      "@id": "_:Ncde092c33bd74b21af916162bffeeb70",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

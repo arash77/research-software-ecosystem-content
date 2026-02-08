@@ -40,60 +40,60 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N820926ed788e40b58175398a5f907535"
+          "@id": "_:Nd0a062fd46384715bfad0bd285103655"
         },
         {
-          "@id": "_:N6a7b6a2a0f0c41c582b28c13c553d9d4"
+          "@id": "_:N9fa78c7cf219499a828912857916d88a"
         },
         {
-          "@id": "_:Nf5801c51da99466dafe930f353a779a0"
+          "@id": "_:N33207b95e2ba42ed98ce589bd2475006"
         },
         {
-          "@id": "_:Ned4bb496bd1b48da9da65be4be3a901b"
+          "@id": "_:Nec62ae1177f64694969f5b8bf31c1638"
         },
         {
-          "@id": "_:N07c780f08a2846e680883583d6150ce5"
+          "@id": "_:N5284f34777664b60887ae2aa4e7f423a"
         },
         {
-          "@id": "_:N986ccafdc9bd41829c8ccac92d1a4011"
+          "@id": "_:N8995f275fb1d4600833f9af11b054b8e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N585de05047384a67a538c07fa3c37be0"
+          "@id": "_:Ndeef166f78f245fab437f58ea480264f"
         },
         {
-          "@id": "_:N797e7ca17529410c9d072dcf439cb414"
+          "@id": "_:N5a328e3bd68742abb0eecbacb20dba0b"
         },
         {
-          "@id": "_:Nd9607810e012426999903577329cfcef"
+          "@id": "_:Nb32720a496004e248130d24c03bdef3e"
         },
         {
-          "@id": "_:N404b4ede863a4dbaac85bda688db40d5"
+          "@id": "_:Nc7dc66e1ccdd4b099ecc8fa1341cfd9b"
         },
         {
-          "@id": "_:N92fddbf0f43d44fcb968de6307f30770"
+          "@id": "_:N3396aa659466453289296604a71f42e6"
         },
         {
-          "@id": "_:Nd96c137352834c1ca19635cfad3cf0ac"
+          "@id": "_:N2c6139bce5534d23b747fce5054af10d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0780"
+          "@id": "edam:topic_0623"
         },
         {
-          "@id": "edam:topic_0623"
+          "@id": "edam:topic_0780"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC2238931",
-        "pubmed:17940091",
         {
           "@id": "https://doi.org/10.1093/nar/gkm757"
-        }
+        },
+        "pmcid:PMC2238931",
+        "pubmed:17940091"
       ],
       "sc:description": "This database contains data on 105 Arabidopsis transcriptome projects (3262 hybridized samples) in public access out of a total of 172 projects (~6440 hybridized samples).",
       "sc:featureList": {
@@ -101,9 +101,9 @@
       },
       "sc:name": "Complete Arabidopsis transcriptome database",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "Unité de Recherche en Génomique Végétale",
       "sc:softwareHelp": {
@@ -112,55 +112,7 @@
       "sc:url": "http://urgv.evry.inra.fr/CATdb"
     },
     {
-      "@id": "_:N820926ed788e40b58175398a5f907535",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2388"
-      },
-      "sc:name": "TAIR accession (At gene)"
-    },
-    {
-      "@id": "_:N6a7b6a2a0f0c41c582b28c13c553d9d4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2388"
-      },
-      "sc:name": "TAIR accession (At gene)"
-    },
-    {
-      "@id": "_:Nf5801c51da99466dafe930f353a779a0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:Ned4bb496bd1b48da9da65be4be3a901b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:N07c780f08a2846e680883583d6150ce5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2388"
-      },
-      "sc:name": "TAIR accession (At gene)"
-    },
-    {
-      "@id": "_:N986ccafdc9bd41829c8ccac92d1a4011",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2388"
-      },
-      "sc:name": "TAIR accession (At gene)"
-    },
-    {
-      "@id": "_:N585de05047384a67a538c07fa3c37be0",
+      "@id": "_:Ndeef166f78f245fab437f58ea480264f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -171,7 +123,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N797e7ca17529410c9d072dcf439cb414",
+      "@id": "_:N5a328e3bd68742abb0eecbacb20dba0b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -182,7 +134,18 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nd9607810e012426999903577329cfcef",
+      "@id": "_:Nb32720a496004e248130d24c03bdef3e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nc7dc66e1ccdd4b099ecc8fa1341cfd9b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -193,7 +156,18 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:N404b4ede863a4dbaac85bda688db40d5",
+      "@id": "_:N3396aa659466453289296604a71f42e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N2c6139bce5534d23b747fce5054af10d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -204,26 +178,52 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:N92fddbf0f43d44fcb968de6307f30770",
+      "@id": "_:Nd0a062fd46384715bfad0bd285103655",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0916"
+        "@id": "edam:data_0842"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Gene report"
+      "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nd96c137352834c1ca19635cfad3cf0ac",
+      "@id": "_:N9fa78c7cf219499a828912857916d88a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0916"
+        "@id": "edam:data_2388"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
+      "sc:name": "TAIR accession (At gene)"
+    },
+    {
+      "@id": "_:N33207b95e2ba42ed98ce589bd2475006",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2388"
       },
-      "sc:name": "Gene report"
+      "sc:name": "TAIR accession (At gene)"
+    },
+    {
+      "@id": "_:Nec62ae1177f64694969f5b8bf31c1638",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2388"
+      },
+      "sc:name": "TAIR accession (At gene)"
+    },
+    {
+      "@id": "_:N5284f34777664b60887ae2aa4e7f423a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N8995f275fb1d4600833f9af11b054b8e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2388"
+      },
+      "sc:name": "TAIR accession (At gene)"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkm757",

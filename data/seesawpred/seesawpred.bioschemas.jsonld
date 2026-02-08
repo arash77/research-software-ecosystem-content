@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/s41598-018-31688-9",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/seesawpred",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Antonio del Sol",
       "bsc:input": {
-        "@id": "_:Naa1d94cbda14466187e575c103844d28"
+        "@id": "_:Nc43b4dd508934b1cba148bdff7ed676a"
       },
       "bsc:output": {
-        "@id": "_:N1ab143442a3d4521b709e49c1ad8db51"
+        "@id": "_:N378c7282ac484972a99cb83ff41fbe6d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Bioinformatics portal",
@@ -55,8 +51,8 @@
         "@id": "edam:topic_3308"
       },
       "sc:citation": [
-        "pmcid:PMC6127256",
         "pubmed:30190516",
+        "pmcid:PMC6127256",
         {
           "@id": "https://doi.org/10.1038/s41598-018-31688-9"
         }
@@ -68,9 +64,9 @@
       "sc:license": "AGPL-3.0",
       "sc:name": "SeesawPred",
       "sc:operatingSystem": [
-        "Linux",
         "Windows",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://seesaw.lcsb.uni.lu"
@@ -79,7 +75,18 @@
       "sc:url": "http://seesaw.lcsb.uni.lu"
     },
     {
-      "@id": "_:N1ab143442a3d4521b709e49c1ad8db51",
+      "@id": "_:Nc43b4dd508934b1cba148bdff7ed676a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N378c7282ac484972a99cb83ff41fbe6d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -90,15 +97,8 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:Naa1d94cbda14466187e575c103844d28",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Expression data"
+      "@id": "https://doi.org/10.1038/s41598-018-31688-9",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/srep34516",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/peffect",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1a88556abdf14178827e6e48e1b27b04"
+        "@id": "_:N55b50cc649fe40529f982fedb8487f48"
       },
       "bsc:output": {
-        "@id": "_:Na4730bde8a2945fba20927251fa7613d"
+        "@id": "_:Nbc5a35500c144410afd087d69b87816f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -56,16 +60,16 @@
       ],
       "sc:author": "Tatyana Goldberg",
       "sc:citation": [
+        "pubmed:27713481",
         {
           "@id": "https://doi.org/10.1038/srep34516"
         },
-        "pmcid:PMC5054392",
-        "pubmed:27713481"
+        "pmcid:PMC5054392"
       ],
       "sc:contributor": [
-        "Ernst Ludwig Ehrlich Studienwerk",
-        "Yana Bromberg",
         "Alexander von Humboldt foundation through the German Federal Ministry for Education and Research",
+        "Yana Bromberg",
+        "Ernst Ludwig Ehrlich Studienwerk",
         "Burkhard Rost"
       ],
       "sc:description": "Prediction of type III effector proteins from protein sequence.",
@@ -81,9 +85,9 @@
       "sc:name": "pEffect",
       "sc:operatingSystem": "Linux",
       "sc:provider": [
-        "RostLab",
+        "Rutgers University",
         "Technical University of Munich",
-        "Rutgers University"
+        "RostLab"
       ],
       "sc:softwareHelp": {
         "@id": "https://rostlab.org/owiki/index.php/PEffect"
@@ -92,7 +96,7 @@
       "sc:url": "https://rostlab.org/services/peffect/"
     },
     {
-      "@id": "_:Na4730bde8a2945fba20927251fa7613d",
+      "@id": "_:Nbc5a35500c144410afd087d69b87816f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -103,7 +107,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N1a88556abdf14178827e6e48e1b27b04",
+      "@id": "_:N55b50cc649fe40529f982fedb8487f48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -112,10 +116,6 @@
         "@id": "edam:format_2200"
       },
       "sc:name": "Protein sequence (raw)"
-    },
-    {
-      "@id": "https://doi.org/10.1038/srep34516",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

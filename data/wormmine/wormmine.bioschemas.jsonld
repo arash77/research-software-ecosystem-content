@@ -44,35 +44,35 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nbd91eb8d9cc74ba1ae73c603e0c45b9d"
+          "@id": "_:Nd4edf484598949c8a3368b9bd8a9a27a"
         },
         {
-          "@id": "_:N3df602e801244417aabc10cff120a01b"
+          "@id": "_:N3711cde26d4243d2a068ca4c8968fba6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N004f0f799143448da8bef594ac7eabb4"
+          "@id": "_:N5b0459c6621144acbccf1ea04570663e"
         },
         {
-          "@id": "_:N91c29e1084a044d4ab2560f7d2be59fe"
+          "@id": "_:Nd194edb8fe1349ff9e2a673ddffd090c"
         },
         {
-          "@id": "_:N4578dbaa227d402281b9089c846ec2f1"
+          "@id": "_:N69aae9565b76426081b98f5ca057db47"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
         "Database portal",
-        "Web application",
-        "Web service"
+        "Web service",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0622"
         },
         {
           "@id": "edam:topic_3071"
@@ -88,10 +88,10 @@
       "sc:description": "Intermine data mining platform for C. elegans and related nematodes",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_2422"
         },
         {
           "@id": "edam:operation_0337"
@@ -104,8 +104,8 @@
       "sc:license": "LGPL-2.1",
       "sc:name": "WormMine",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": [
         {
@@ -119,23 +119,7 @@
       "sc:url": "http://intermine.wormbase.org/tools/wormmine/"
     },
     {
-      "@id": "_:Nbd91eb8d9cc74ba1ae73c603e0c45b9d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2353"
-      },
-      "sc:name": "Ontology data"
-    },
-    {
-      "@id": "_:N3df602e801244417aabc10cff120a01b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N004f0f799143448da8bef594ac7eabb4",
+      "@id": "_:N5b0459c6621144acbccf1ea04570663e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -143,7 +127,7 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:N91c29e1084a044d4ab2560f7d2be59fe",
+      "@id": "_:Nd194edb8fe1349ff9e2a673ddffd090c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -151,12 +135,28 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N4578dbaa227d402281b9089c846ec2f1",
+      "@id": "_:N69aae9565b76426081b98f5ca057db47",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
       },
       "sc:name": "Query script"
+    },
+    {
+      "@id": "_:Nd4edf484598949c8a3368b9bd8a9a27a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N3711cde26d4243d2a068ca4c8968fba6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
     }
   ]
 }

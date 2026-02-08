@@ -45,14 +45,14 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N484f3cb338634dd88c7c4166cde8e25b"
+          "@id": "_:Nd06ba38ffe50441fa53ef435674f4bd3"
         },
         {
-          "@id": "_:N50e84b51adc847cdb89184f18aad3222"
+          "@id": "_:N292dfee9c6634a8ab824cca587d17a65"
         }
       ],
       "bsc:output": {
-        "@id": "_:N9390586c4e984208a4e7ea4fea9ca203"
+        "@id": "_:N903d93e3c6884d17b8c964bd258a6f68"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -60,11 +60,11 @@
         "@id": "edam:topic_0080"
       },
       "sc:citation": [
+        "pubmed:27137889",
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC4987906",
-        "pubmed:27137889",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         }
@@ -75,9 +75,9 @@
       },
       "sc:name": "restrictsequencelist",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Furgi_tools%2FrestrictSequenceList%2F1.0.0"
@@ -86,7 +86,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N484f3cb338634dd88c7c4166cde8e25b",
+      "@id": "_:Nd06ba38ffe50441fa53ef435674f4bd3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -97,7 +97,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N50e84b51adc847cdb89184f18aad3222",
+      "@id": "_:N292dfee9c6634a8ab824cca587d17a65",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -108,7 +108,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N9390586c4e984208a4e7ea4fea9ca203",
+      "@id": "_:N903d93e3c6884d17b8c964bd258a6f68",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

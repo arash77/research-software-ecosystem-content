@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/exfilms",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N180ff3f1c8654c08a77a44432766fb3c"
+        "@id": "_:Nb17acb0c77d84535800c61ed8a813d76"
       },
       "bsc:output": {
-        "@id": "_:N573ebdfe02e44a8b9f64f19d52a08d0f"
+        "@id": "_:Na8b12f1bdb1a47a3a4b8fda2810ff588"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
@@ -67,15 +67,26 @@
       "sc:license": "MIT",
       "sc:name": "ExfilMS",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareVersion": "1.3.0",
       "sc:url": "https://github.com/vmalnathnambiar/exfilms"
     },
     {
-      "@id": "_:N573ebdfe02e44a8b9f64f19d52a08d0f",
+      "@id": "_:Nb17acb0c77d84535800c61ed8a813d76",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3244"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Na8b12f1bdb1a47a3a4b8fda2810ff588",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -88,17 +99,6 @@
           "@id": "edam:format_3475"
         }
       ],
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N180ff3f1c8654c08a77a44432766fb3c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3244"
-      },
       "sc:name": "Mass spectrometry data"
     }
   ]

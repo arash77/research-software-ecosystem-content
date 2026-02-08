@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/mmtb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8c4e9f104f314ce892cc9a304139fb19"
+        "@id": "_:N246965dcd42b4bc09848cdd908156425"
       },
       "bsc:output": {
-        "@id": "_:N0376c2a6bdea4a4a883af218d7d35fad"
+        "@id": "_:N8902f4e4460e45648a40857f53af08cd"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -72,9 +72,9 @@
       "sc:license": "CC-BY-4.0",
       "sc:name": "MMTB",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:provider": "Leibniz-Institut DSMZ-Deutsche Sammlung von Mikroorganismen und Zellkulturen GmbH",
       "sc:softwareHelp": {
@@ -83,7 +83,7 @@
       "sc:url": "https://mmtb.brenda-enzymes.org/"
     },
     {
-      "@id": "_:N8c4e9f104f314ce892cc9a304139fb19",
+      "@id": "_:N246965dcd42b4bc09848cdd908156425",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -91,7 +91,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N0376c2a6bdea4a4a883af218d7d35fad",
+      "@id": "_:N8902f4e4460e45648a40857f53af08cd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"

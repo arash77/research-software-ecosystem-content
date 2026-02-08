@@ -44,46 +44,46 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N17feaeeee49540529ee1bc34655e7844"
+          "@id": "_:N41175202eab145fb8ed5500fc48bafcd"
         },
         {
-          "@id": "_:Nc1356677e73e4d95882efbe191fd9a89"
+          "@id": "_:Ne51bb7e704a24e0883095e7183e9d953"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc92cd15a882d40e0a8a9482eee5b8c6f"
+          "@id": "_:N300bc92ca9da4f6fa02f07a10a0a82a2"
         },
         {
-          "@id": "_:Nb6f5775cc30145b5bfaff0469fadc0bc"
+          "@id": "_:Ne8effc4dbddb492fb7650ce89a1175c9"
         },
         {
-          "@id": "_:N392df2c52ef8422fbed03e896adcce44"
+          "@id": "_:N0a3c8d8fe2194331b27bb69aa207757a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Database portal",
+        "Web service",
         "Web application",
-        "Web service"
+        "Database portal"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0622"
         },
         {
           "@id": "edam:topic_3071"
         }
       ],
       "sc:citation": [
-        "pubmed:23023984",
         "pmcid:PMC3516146",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bts577"
-        }
+        },
+        "pubmed:23023984"
       ],
       "sc:description": "An integrated Omics data warehouse for FAW, Spodoptera frugiperda",
       "sc:featureList": [
@@ -91,13 +91,13 @@
           "@id": "edam:operation_2422"
         },
         {
-          "@id": "edam:operation_0224"
-        },
-        {
           "@id": "edam:operation_0337"
         },
         {
           "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_0224"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -109,17 +109,33 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+          "@id": "https://flymine.readthedocs.io/en/latest/"
         },
         {
-          "@id": "https://flymine.readthedocs.io/en/latest/"
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
         }
       ],
       "sc:softwareVersion": "1.0",
       "sc:url": "http://insectmine.org:8080/fawmine"
     },
     {
-      "@id": "_:Nc92cd15a882d40e0a8a9482eee5b8c6f",
+      "@id": "_:N41175202eab145fb8ed5500fc48bafcd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:Ne51bb7e704a24e0883095e7183e9d953",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N300bc92ca9da4f6fa02f07a10a0a82a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -127,15 +143,7 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:Nb6f5775cc30145b5bfaff0469fadc0bc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N392df2c52ef8422fbed03e896adcce44",
+      "@id": "_:Ne8effc4dbddb492fb7650ce89a1175c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -143,20 +151,12 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N17feaeeee49540529ee1bc34655e7844",
+      "@id": "_:N0a3c8d8fe2194331b27bb69aa207757a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
       },
       "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:Nc1356677e73e4d95882efbe191fd9a89",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2353"
-      },
-      "sc:name": "Ontology data"
     }
   ]
 }

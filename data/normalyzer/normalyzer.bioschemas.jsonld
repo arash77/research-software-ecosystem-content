@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/pr401264n",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/normalyzer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8a534e74cdef408f8a801d2378b7e7b9"
+        "@id": "_:N75e79bf983b740029b86ed1ae9cc567f"
       },
       "bsc:output": [
         {
-          "@id": "_:N187190ce5de14f4195c406a442dc5bb4"
+          "@id": "_:Naadc14dfd6ad463c8f5f8cf2d6c732ad"
         },
         {
-          "@id": "_:Nf02a5e12e52644088c4e1095a39c6518"
+          "@id": "_:Nd7aab365e79a47e1af02c9d49343e662"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -70,9 +74,9 @@
       },
       "sc:name": "Normalyzer",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://quantitativeproteomics.org/normalyzer"
@@ -80,7 +84,7 @@
       "sc:url": "http://quantitativeproteomics.org/normalyzer"
     },
     {
-      "@id": "_:N8a534e74cdef408f8a801d2378b7e7b9",
+      "@id": "_:N75e79bf983b740029b86ed1ae9cc567f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -91,15 +95,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N187190ce5de14f4195c406a442dc5bb4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2082"
-      },
-      "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:Nf02a5e12e52644088c4e1095a39c6518",
+      "@id": "_:Naadc14dfd6ad463c8f5f8cf2d6c732ad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -110,8 +106,12 @@
       "sc:name": "Report"
     },
     {
-      "@id": "https://doi.org/10.1021/pr401264n",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nd7aab365e79a47e1af02c9d49343e662",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
     }
   ]
 }

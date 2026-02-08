@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/gtftogenepred",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8c8c6db7370f453fab5c8ac23591adec"
+        "@id": "_:N72664df75a494095987170bb937a724f"
       },
       "bsc:output": {
-        "@id": "_:N5b73636f264f428bb26b9ec04b54c0dc"
+        "@id": "_:Ndcd63a764755400799fb8995b2230b1f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:description": "convert a GTF file to a genePred",
@@ -54,7 +54,7 @@
       "sc:url": "https://github.com/ENCODE-DCC/kentUtils/blob/master/src/hg/utils/gtfToGenePred/gtfToGenePred.c"
     },
     {
-      "@id": "_:N8c8c6db7370f453fab5c8ac23591adec",
+      "@id": "_:N72664df75a494095987170bb937a724f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -65,7 +65,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N5b73636f264f428bb26b9ec04b54c0dc",
+      "@id": "_:Ndcd63a764755400799fb8995b2230b1f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"

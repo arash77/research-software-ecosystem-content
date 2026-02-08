@@ -45,10 +45,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0084"
+          "@id": "edam:topic_3957"
         },
         {
-          "@id": "edam:topic_3957"
+          "@id": "edam:topic_0084"
         },
         {
           "@id": "edam:topic_0128"
@@ -80,9 +80,9 @@
       "sc:license": "Not licensed",
       "sc:name": "cpxDeepMSA",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:url": "https://zhanggroup.org/cpxDeepMSA/"
     },

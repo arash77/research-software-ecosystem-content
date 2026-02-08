@@ -43,15 +43,15 @@
       "@id": "https://bio.tools/peptizer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf39656b35a744ea692840ec2a9ea791a"
+        "@id": "_:Nc46fb0389580486f87e5cdd3f4c7ba04"
       },
       "bsc:output": {
-        "@id": "_:Ne6dab323ce8d4ff99dcd5873de711c77"
+        "@id": "_:N95f157c05d184a358d4b4c418122ec3a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Desktop application",
-        "Command-line tool"
+        "Command-line tool",
+        "Desktop application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0121"
@@ -68,8 +68,8 @@
       },
       "sc:name": "Peptizer",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": [
@@ -84,7 +84,7 @@
       "sc:url": "https://github.com/compomics/peptizer"
     },
     {
-      "@id": "_:Nf39656b35a744ea692840ec2a9ea791a",
+      "@id": "_:Nc46fb0389580486f87e5cdd3f4c7ba04",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -92,7 +92,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Ne6dab323ce8d4ff99dcd5873de711c77",
+      "@id": "_:N95f157c05d184a358d4b4c418122ec3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

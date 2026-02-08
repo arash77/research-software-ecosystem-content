@@ -39,20 +39,20 @@
       "@id": "https://bio.tools/coexpnetviz",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N420edeb5eb554c219838f5308cccd69c"
+        "@id": "_:Ncbe87c9c002a42df836b56619462bb6b"
       },
       "bsc:output": [
         {
-          "@id": "_:N825ce582abf2450ab0f53fa01ee92cba"
+          "@id": "_:Ne89346786ce04cd3b93f673b9f3b1e46"
         },
         {
-          "@id": "_:N6a709bc5631e43e884715869fa0ce213"
+          "@id": "_:N9ad0160961374c9fb090a44031b937a3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Desktop application",
-        "Web application"
+        "Web application",
+        "Desktop application"
       ],
       "sc:applicationSubCategory": [
         {
@@ -63,11 +63,11 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4700130",
-        "pubmed:26779228",
         {
           "@id": "https://doi.org/10.3389/fpls.2015.01194"
-        }
+        },
+        "pubmed:26779228",
+        "pmcid:PMC4700130"
       ],
       "sc:description": "Comparative co-expression networks construction and visualization.",
       "sc:featureList": {
@@ -86,7 +86,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/webtools/coexpr/"
     },
     {
-      "@id": "_:N420edeb5eb554c219838f5308cccd69c",
+      "@id": "_:Ncbe87c9c002a42df836b56619462bb6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -97,15 +97,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N825ce582abf2450ab0f53fa01ee92cba",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:N6a709bc5631e43e884715869fa0ce213",
+      "@id": "_:Ne89346786ce04cd3b93f673b9f3b1e46",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -114,6 +106,14 @@
         "@id": "edam:format_3477"
       },
       "sc:name": "Image"
+    },
+    {
+      "@id": "_:N9ad0160961374c9fb090a44031b937a3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
     },
     {
       "@id": "https://doi.org/10.3389/fpls.2015.01194",

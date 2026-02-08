@@ -44,28 +44,28 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nea50f68e029046a1ad303b59c2b5a3a3"
+          "@id": "_:N5445d2ff1ba84a2e8e3af20388d594f1"
         },
         {
-          "@id": "_:N1ed42713307945649aeffc92c9c0f7c8"
+          "@id": "_:Ne11ce0eada3140df9ff9854442acca53"
         },
         {
-          "@id": "_:N458a06f047af473a8ed9b3f9f567f83e"
+          "@id": "_:N13f73197680e4a608a31db079709ddfe"
         },
         {
-          "@id": "_:N541b6ab0ba2f4714b60adb58949bea54"
+          "@id": "_:N28ace3e69217423a991f84bd7548e2b5"
         },
         {
-          "@id": "_:Nc66c7723cac742219212c160fddb0a38"
+          "@id": "_:N6f980510bc394bf39a85e0a7e5a86539"
         },
         {
-          "@id": "_:N4538e2d7d90345a2a2bd9252dcfe6098"
+          "@id": "_:N66366537980f4db79ed4b6b8bd653824"
         },
         {
-          "@id": "_:N0e7f558329e44b908295dabd501ab56f"
+          "@id": "_:N5032f7e0e28448b587004fd0d4395d4b"
         },
         {
-          "@id": "_:N88277a2c15224656af96acf20024bd49"
+          "@id": "_:N348e9dfb4f5c41d4b404aa9601bf0324"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +89,29 @@
       "sc:url": "http://wwwsql.iclc.it/"
     },
     {
-      "@id": "_:Nea50f68e029046a1ad303b59c2b5a3a3",
+      "@id": "_:N5445d2ff1ba84a2e8e3af20388d594f1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2193"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Database entry metadata"
+    },
+    {
+      "@id": "_:Ne11ce0eada3140df9ff9854442acca53",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2193"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Database entry metadata"
+    },
+    {
+      "@id": "_:N13f73197680e4a608a31db079709ddfe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2316"
@@ -97,56 +119,7 @@
       "sc:name": "Cell line name"
     },
     {
-      "@id": "_:N1ed42713307945649aeffc92c9c0f7c8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2193"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Database entry metadata"
-    },
-    {
-      "@id": "_:N458a06f047af473a8ed9b3f9f567f83e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2193"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Database entry metadata"
-    },
-    {
-      "@id": "_:N541b6ab0ba2f4714b60adb58949bea54",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nc66c7723cac742219212c160fddb0a38",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2193"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Database entry metadata"
-    },
-    {
-      "@id": "_:N4538e2d7d90345a2a2bd9252dcfe6098",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0860"
-      },
-      "sc:name": "Sequence signature data"
-    },
-    {
-      "@id": "_:N0e7f558329e44b908295dabd501ab56f",
+      "@id": "_:N28ace3e69217423a991f84bd7548e2b5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3671"
@@ -157,7 +130,15 @@
       "sc:name": "Text"
     },
     {
-      "@id": "_:N88277a2c15224656af96acf20024bd49",
+      "@id": "_:N6f980510bc394bf39a85e0a7e5a86539",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N66366537980f4db79ed4b6b8bd653824",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2193"
@@ -166,6 +147,25 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Database entry metadata"
+    },
+    {
+      "@id": "_:N5032f7e0e28448b587004fd0d4395d4b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2193"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Database entry metadata"
+    },
+    {
+      "@id": "_:N348e9dfb4f5c41d4b404aa9601bf0324",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0860"
+      },
+      "sc:name": "Sequence signature data"
     }
   ]
 }

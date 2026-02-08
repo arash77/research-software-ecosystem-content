@@ -36,88 +36,84 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gky1048",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/bkmsreact",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne726463075344af9adbdb252bbe4c3cb"
+          "@id": "_:Nc10bde9271924e419ff5c7dca4f59f5c"
         },
         {
-          "@id": "_:N65c5148c773e4d17896413c33ffb5bd6"
+          "@id": "_:Nb777a0d4743f4db6b66544975d61c1b7"
         },
         {
-          "@id": "_:N4c5e0d3fee7a42dd97edcbfaf5c22b1d"
+          "@id": "_:N25a94528510642b9a51fbe9e41ed7970"
         },
         {
-          "@id": "_:N2aca770622de40dea84028451a3a0621"
+          "@id": "_:N05519cd906d4431cb35655296c9fb54a"
         },
         {
-          "@id": "_:N9aa3c40d485e4b0b994056ccd5d42b85"
+          "@id": "_:N5be4a6afc59a4f93ba173f3b549e3f6a"
         },
         {
-          "@id": "_:Nf7435f1d65c84aa88a5e12eec4207c27"
+          "@id": "_:N24d039b269d74027a7313e45e73b0e90"
         },
         {
-          "@id": "_:Nac5d0365ef934a80a69680bed040188e"
+          "@id": "_:Ne0cdfe832e0b4cecb368064217675684"
         },
         {
-          "@id": "_:Nb17c9978791c40a1ad7446e556ae96c5"
+          "@id": "_:N7f10aed2475c48bba0a9145d80523be6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N62310ec9fd8f4c1ebb24c0f8faf6bdf5"
+          "@id": "_:N47a809d6f0ad4301955896bdad574ad9"
         },
         {
-          "@id": "_:N2bc3a34167764a4e94e4d2523c6333d7"
+          "@id": "_:N902fa25824f2409f9f3de1f906607d84"
         },
         {
-          "@id": "_:N8d11890530be4c7387c1f762b8b644bc"
+          "@id": "_:Ncfe91d0c888747d799dad40b487d2479"
         },
         {
-          "@id": "_:N9f531d8b501446abb67167fde5c86a9d"
+          "@id": "_:N848087f6db714c4393de822e65e4b3cd"
         },
         {
-          "@id": "_:Nda34c9a06b8e48c190aa71b9b3624c4a"
+          "@id": "_:N6c4905e2bcde4e3992d09d9b0b665b32"
         },
         {
-          "@id": "_:Nfe2225a9c5464f6daae5e4aa6800c766"
+          "@id": "_:N799d796a82694d149cf2543a27e1e181"
         },
         {
-          "@id": "_:N90b9ea2cd45e4f8bacb416fce8ab27cb"
+          "@id": "_:Nd5abac048b32492d958eca289a21ac43"
         },
         {
-          "@id": "_:Ne8318194230048e2b6ac40e59ae3d1c3"
+          "@id": "_:N5846d13bf33140b1a48e9efbbbf284a1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0821"
+          "@id": "edam:topic_3345"
         },
         {
           "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_3345"
+          "@id": "edam:topic_0821"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC3167764",
-        {
-          "@id": "https://doi.org/10.1186/1471-2091-12-42"
-        },
         {
           "@id": "https://doi.org/10.1093/nar/gky1048"
         },
-        "pmcid:PMC6323942",
+        "pubmed:21824409",
         "pubmed:30395242",
-        "pubmed:21824409"
+        {
+          "@id": "https://doi.org/10.1186/1471-2091-12-42"
+        },
+        "pmcid:PMC6323942",
+        "pmcid:PMC3167764"
       ],
       "sc:description": "BKMS-react is an integrated and non-redundant biochemical reaction database containing known enzyme-catalyzed and spontaneous reactions. Biochemical reactions collected from BRENDA, KEGG, MetaCyc and SABIO-RK were matched and integrated by aligning substrates and products.",
       "sc:featureList": [
@@ -132,9 +128,9 @@
       "sc:license": "CC-BY-4.0",
       "sc:name": "BKMS-react",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://bkms.brenda-enzymes.org/readme.php"
@@ -142,39 +138,7 @@
       "sc:url": "https://bkms.brenda-enzymes.org/"
     },
     {
-      "@id": "_:N62310ec9fd8f4c1ebb24c0f8faf6bdf5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:N2bc3a34167764a4e94e4d2523c6333d7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2309"
-      },
-      "sc:name": "Reaction ID (SABIO-RK)"
-    },
-    {
-      "@id": "_:N8d11890530be4c7387c1f762b8b644bc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1011"
-      },
-      "sc:name": "EC number"
-    },
-    {
-      "@id": "_:N9f531d8b501446abb67167fde5c86a9d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:Nda34c9a06b8e48c190aa71b9b3624c4a",
+      "@id": "_:N47a809d6f0ad4301955896bdad574ad9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2106"
@@ -182,15 +146,15 @@
       "sc:name": "Reaction ID (BioCyc)"
     },
     {
-      "@id": "_:Nfe2225a9c5464f6daae5e4aa6800c766",
+      "@id": "_:N902fa25824f2409f9f3de1f906607d84",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2978"
+        "@id": "edam:data_2600"
       },
-      "sc:name": "Reaction data"
+      "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N90b9ea2cd45e4f8bacb416fce8ab27cb",
+      "@id": "_:Ncfe91d0c888747d799dad40b487d2479",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2608"
@@ -198,39 +162,15 @@
       "sc:name": "Reaction ID (KEGG)"
     },
     {
-      "@id": "_:Ne8318194230048e2b6ac40e59ae3d1c3",
+      "@id": "_:N848087f6db714c4393de822e65e4b3cd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1012"
+        "@id": "edam:data_2309"
       },
-      "sc:name": "Enzyme name"
+      "sc:name": "Reaction ID (SABIO-RK)"
     },
     {
-      "@id": "_:Ne726463075344af9adbdb252bbe4c3cb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2342"
-      },
-      "sc:name": "Pathway or network name"
-    },
-    {
-      "@id": "_:N65c5148c773e4d17896413c33ffb5bd6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2105"
-      },
-      "sc:name": "Compound ID (BioCyc)"
-    },
-    {
-      "@id": "_:N4c5e0d3fee7a42dd97edcbfaf5c22b1d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:N2aca770622de40dea84028451a3a0621",
+      "@id": "_:N6c4905e2bcde4e3992d09d9b0b665b32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2978"
@@ -238,7 +178,7 @@
       "sc:name": "Reaction data"
     },
     {
-      "@id": "_:N9aa3c40d485e4b0b994056ccd5d42b85",
+      "@id": "_:N799d796a82694d149cf2543a27e1e181",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1012"
@@ -246,15 +186,15 @@
       "sc:name": "Enzyme name"
     },
     {
-      "@id": "_:Nf7435f1d65c84aa88a5e12eec4207c27",
+      "@id": "_:Nd5abac048b32492d958eca289a21ac43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2605"
+        "@id": "edam:data_0842"
       },
-      "sc:name": "Compound ID (KEGG)"
+      "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nac5d0365ef934a80a69680bed040188e",
+      "@id": "_:N5846d13bf33140b1a48e9efbbbf284a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1011"
@@ -262,12 +202,72 @@
       "sc:name": "EC number"
     },
     {
-      "@id": "_:Nb17c9978791c40a1ad7446e556ae96c5",
+      "@id": "_:Nc10bde9271924e419ff5c7dca4f59f5c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2978"
+      },
+      "sc:name": "Reaction data"
+    },
+    {
+      "@id": "_:Nb777a0d4743f4db6b66544975d61c1b7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1012"
+      },
+      "sc:name": "Enzyme name"
+    },
+    {
+      "@id": "_:N25a94528510642b9a51fbe9e41ed7970",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N05519cd906d4431cb35655296c9fb54a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1011"
+      },
+      "sc:name": "EC number"
+    },
+    {
+      "@id": "_:N5be4a6afc59a4f93ba173f3b549e3f6a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2605"
+      },
+      "sc:name": "Compound ID (KEGG)"
+    },
+    {
+      "@id": "_:N24d039b269d74027a7313e45e73b0e90",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2342"
+      },
+      "sc:name": "Pathway or network name"
+    },
+    {
+      "@id": "_:Ne0cdfe832e0b4cecb368064217675684",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0990"
       },
       "sc:name": "Compound name"
+    },
+    {
+      "@id": "_:N7f10aed2475c48bba0a9145d80523be6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2105"
+      },
+      "sc:name": "Compound ID (BioCyc)"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky1048",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1186/1471-2091-12-42",

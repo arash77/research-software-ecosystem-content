@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/metalizer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Necea1d800d06422985fac189745d5a9e"
+        "@id": "_:N45a77fc3f70949f58decb83b9c939cf4"
       },
       "bsc:output": {
-        "@id": "_:Nfee282760fe8461da5a59423dfeaaa65"
+        "@id": "_:Na9ab26c006204cee86fd35cae5fcaa42"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -60,8 +60,8 @@
       },
       "sc:name": "METALizer",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -70,7 +70,15 @@
       "sc:url": "https://proteins.plus/#metalizer"
     },
     {
-      "@id": "_:Necea1d800d06422985fac189745d5a9e",
+      "@id": "_:Na9ab26c006204cee86fd35cae5fcaa42",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "_:N45a77fc3f70949f58decb83b9c939cf4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -79,14 +87,6 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Protein structure"
-    },
-    {
-      "@id": "_:Nfee282760fe8461da5a59423dfeaaa65",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0906"
-      },
-      "sc:name": "Protein interaction data"
     }
   ]
 }

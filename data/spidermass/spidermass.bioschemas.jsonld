@@ -40,50 +40,50 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N6572b3e649654f798d5731ac6a0f5625"
+          "@id": "_:N4b74c9ff2dda4a50a911eeecc01e1bba"
         },
         {
-          "@id": "_:N50ed4926f4a541a6be9f0b8e5f94a61f"
+          "@id": "_:N3f03a4577f794d54bd2349a4bc67bb4c"
         },
         {
-          "@id": "_:N8cf077a18bca4aac97fe458b6e070274"
+          "@id": "_:N19d551edfeb34f2a9e64f7832e66cd5e"
         },
         {
-          "@id": "_:Nc6a4b54e22a3473ca452531f1d2b8fea"
+          "@id": "_:N0caf80ae04144c41bb21ef18c8be8173"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N41b78d83f7444424b1f7b59fbbc1e47a"
+          "@id": "_:Ne13f744eb7f1461889be82bf5e66f90f"
         },
         {
-          "@id": "_:N6ba9b504be6b4e25b8da5c4fa80bb0ea"
+          "@id": "_:N093cbd4857b14142b5a789d232bf8803"
         },
         {
-          "@id": "_:Nf2ac21a48c7b4cd39a20cff01ac32fb3"
+          "@id": "_:N5c87dc871b8c4ad0bcfc57bcec018a1b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Desktop application"
+        "Desktop application",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3172"
       },
       "sc:citation": [
+        "pubmed:25800189",
         {
           "@id": "https://doi.org/10.1002/jms.3559"
-        },
-        "pubmed:25800189"
+        }
       ],
       "sc:description": "Semantic chemical database generation, metabolite identification and ''de novo'' formula generation.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3803"
+          "@id": "edam:operation_3436"
         },
         {
-          "@id": "edam:operation_3436"
+          "@id": "edam:operation_3803"
         },
         {
           "@id": "edam:operation_3632"
@@ -91,9 +91,9 @@
       ],
       "sc:name": "SpiderMass",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://lababi.bioprocess.org/index.php/lababi-software/80-spidermass"
@@ -101,7 +101,7 @@
       "sc:url": "http://lababi.bioprocess.org/index.php/lababi-software/80-spidermass"
     },
     {
-      "@id": "_:N41b78d83f7444424b1f7b59fbbc1e47a",
+      "@id": "_:Ne13f744eb7f1461889be82bf5e66f90f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0990"
@@ -112,18 +112,7 @@
       "sc:name": "Compound name"
     },
     {
-      "@id": "_:N6ba9b504be6b4e25b8da5c4fa80bb0ea",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2093"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Data reference"
-    },
-    {
-      "@id": "_:Nf2ac21a48c7b4cd39a20cff01ac32fb3",
+      "@id": "_:N093cbd4857b14142b5a789d232bf8803",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1086"
@@ -134,18 +123,29 @@
       "sc:name": "Compound identifier"
     },
     {
-      "@id": "_:N6572b3e649654f798d5731ac6a0f5625",
+      "@id": "_:N5c87dc871b8c4ad0bcfc57bcec018a1b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3326"
+        "@id": "edam:format_3752"
       },
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:N50ed4926f4a541a6be9f0b8e5f94a61f",
+      "@id": "_:N4b74c9ff2dda4a50a911eeecc01e1bba",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0990"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Compound name"
+    },
+    {
+      "@id": "_:N3f03a4577f794d54bd2349a4bc67bb4c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1173"
@@ -156,7 +156,7 @@
       "sc:name": "ChemSpider ID"
     },
     {
-      "@id": "_:N8cf077a18bca4aac97fe458b6e070274",
+      "@id": "_:N19d551edfeb34f2a9e64f7832e66cd5e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -167,15 +167,15 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nc6a4b54e22a3473ca452531f1d2b8fea",
+      "@id": "_:N0caf80ae04144c41bb21ef18c8be8173",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0990"
+        "@id": "edam:data_2093"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2330"
+        "@id": "edam:format_3326"
       },
-      "sc:name": "Compound name"
+      "sc:name": "Data reference"
     },
     {
       "@id": "https://doi.org/10.1002/jms.3559",

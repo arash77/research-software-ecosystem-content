@@ -40,34 +40,34 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
         {
-          "@id": "https://orcid.org/0000-0002-1215-167X"
+          "@id": "https://orcid.org/0000-0002-1164-1351"
         },
         {
-          "@id": "https://orcid.org/0000-0002-1164-1351"
+          "@id": "https://orcid.org/0000-0002-1215-167X"
         }
       ],
       "bsc:input": {
-        "@id": "_:N3aef4a64c1824e71a709a48808c31144"
+        "@id": "_:Ncebefe631a794010b4647ae901fb01de"
       },
       "bsc:output": [
         {
-          "@id": "_:Nf08106ff01f34155aa050cca33f0c928"
+          "@id": "_:N5f7e3187b42142eb863abd8f8a97b785"
         },
         {
-          "@id": "_:N3d1196b2972744d095e99ee6b9d81bbc"
+          "@id": "_:N84aed4fc12804966987b888650eb6077"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Web API"
+        "Web API",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0605"
+          "@id": "edam:topic_0089"
         },
         {
-          "@id": "edam:topic_0089"
+          "@id": "edam:topic_0605"
         }
       ],
       "sc:author": [
@@ -94,9 +94,9 @@
       "sc:license": "MIT",
       "sc:name": "FAIRDataPoint",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/FAIRDataTeam/FAIRDataPoint/wiki"
@@ -104,29 +104,7 @@
       "sc:url": "https://github.com/FAIRDataTeam/FAIRDataPoint"
     },
     {
-      "@id": "_:N3aef4a64c1824e71a709a48808c31144",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3256"
-      },
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:Nf08106ff01f34155aa050cca33f0c928",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3256"
-      },
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:N3d1196b2972744d095e99ee6b9d81bbc",
+      "@id": "_:N5f7e3187b42142eb863abd8f8a97b785",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -137,12 +115,34 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "https://orcid.org/0000-0002-1164-1351",
-      "@type": "sc:Person"
+      "@id": "_:N84aed4fc12804966987b888650eb6077",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3256"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:Ncebefe631a794010b4647ae901fb01de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3256"
+      },
+      "sc:name": "Text data"
     },
     {
       "@id": "https://doi.org/10.1162/dint_a_00031",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1164-1351",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://orcid.org/0000-0002-1215-167X",

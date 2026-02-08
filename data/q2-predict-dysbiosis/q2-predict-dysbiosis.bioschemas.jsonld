@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/2023.12.04.569909",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/q2-predict-dysbiosis",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N140200af9f064014b50a030d967b513c"
+        "@id": "_:N45c43711c93b473e933d9dc4c4f0151d"
       },
       "bsc:output": {
-        "@id": "_:N864a379a6f4d4f5a9ae25163fd8b5af7"
+        "@id": "_:Nb45a6df92ec4498e891928c597d5e5ce"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
@@ -60,8 +64,8 @@
       "sc:license": "Other",
       "sc:name": "q2-predict-dysbiosis",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -70,18 +74,7 @@
       "sc:url": "https://github.com/Kizielins/q2-predict-dysbiosis/tree/master"
     },
     {
-      "@id": "_:N864a379a6f4d4f5a9ae25163fd8b5af7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Score"
-    },
-    {
-      "@id": "_:N140200af9f064014b50a030d967b513c",
+      "@id": "_:N45c43711c93b473e933d9dc4c4f0151d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -92,8 +85,15 @@
       "sc:name": "Taxonomy"
     },
     {
-      "@id": "https://doi.org/10.1101/2023.12.04.569909",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nb45a6df92ec4498e891928c597d5e5ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Score"
     }
   ]
 }

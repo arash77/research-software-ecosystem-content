@@ -65,16 +65,16 @@
       "sc:description": "Reconstructing the history of genomic island insertions in clades of closely related bacteria.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0253"
+          "@id": "edam:operation_0324"
         },
         {
-          "@id": "edam:operation_0324"
+          "@id": "edam:operation_0253"
         }
       ],
       "sc:name": "xenoGI",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {

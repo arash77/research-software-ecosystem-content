@@ -44,35 +44,35 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5cf54e1e65824f3dac5ebcaf7ff320cb"
+          "@id": "_:N22bdb665c3ba4c92aae4e73996e01b4b"
         },
         {
-          "@id": "_:N57ccf154db894d12b7b7f8a13501aed6"
+          "@id": "_:N1b3dc61cef7d4593978a97673acd4c88"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9b01bfd2121a460682e9d2c0af9e9a19"
+          "@id": "_:N1e3b6dc701864d469c96c700c707feca"
         },
         {
-          "@id": "_:Nebdbd8d8818445fe8637a4270e78e65a"
+          "@id": "_:Naf6429d9d36d4522abe19e3d4adc416c"
         },
         {
-          "@id": "_:Nee36f5384ab54dc8a1402737dbd87a8d"
+          "@id": "_:N943207d99ffb4deb9ad8f432329d75b7"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
         "Database portal",
-        "Web application",
-        "Web service"
+        "Web service",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0622"
         },
         {
           "@id": "edam:topic_3071"
@@ -88,10 +88,10 @@
       "sc:description": "HumanMine integrates many types of data for Homo sapiens and Mus musculus",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_2422"
         },
         {
           "@id": "edam:operation_0337"
@@ -119,23 +119,7 @@
       "sc:url": "https://www.humanmine.org/humanmine"
     },
     {
-      "@id": "_:N9b01bfd2121a460682e9d2c0af9e9a19",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3753"
-      },
-      "sc:name": "Over-representation data"
-    },
-    {
-      "@id": "_:Nebdbd8d8818445fe8637a4270e78e65a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:Nee36f5384ab54dc8a1402737dbd87a8d",
+      "@id": "_:N1e3b6dc701864d469c96c700c707feca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -143,7 +127,15 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N5cf54e1e65824f3dac5ebcaf7ff320cb",
+      "@id": "_:Naf6429d9d36d4522abe19e3d4adc416c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "_:N943207d99ffb4deb9ad8f432329d75b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -151,12 +143,20 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N57ccf154db894d12b7b7f8a13501aed6",
+      "@id": "_:N22bdb665c3ba4c92aae4e73996e01b4b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
       },
       "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N1b3dc61cef7d4593978a97673acd4c88",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
     }
   ]
 }

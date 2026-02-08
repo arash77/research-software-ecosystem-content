@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Mark Davies",
       "bsc:input": {
-        "@id": "_:Ncbf8eb4ee8914358b0a9082e02a947c8"
+        "@id": "_:Nd1414882abdb49978a67b60c391a7da5"
       },
       "bsc:output": {
-        "@id": "_:N51e24d064f0d44ba9ac3a618ff4bb137"
+        "@id": "_:Nc3e54b1ebb7a47278739150be3f37048"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -59,8 +59,8 @@
         {
           "@id": "https://doi.org/10.1093/nar/gkr777"
         },
-        "pubmed:21948594",
-        "pmcid:PMC3245175"
+        "pmcid:PMC3245175",
+        "pubmed:21948594"
       ],
       "sc:description": "Search against small molecules stored in GPCR SARfari database.",
       "sc:featureList": {
@@ -69,8 +69,8 @@
       "sc:name": "GPCR SARfari Small Molecule Search",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
@@ -85,20 +85,20 @@
       "sc:url": "https://www.ebi.ac.uk/chembl/sarfari/gpcrsarfari/compound"
     },
     {
-      "@id": "_:Ncbf8eb4ee8914358b0a9082e02a947c8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3490"
-      },
-      "sc:name": "Chemical structure sketch"
-    },
-    {
-      "@id": "_:N51e24d064f0d44ba9ac3a618ff4bb137",
+      "@id": "_:Nc3e54b1ebb7a47278739150be3f37048",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0962"
       },
       "sc:name": "Small molecule report"
+    },
+    {
+      "@id": "_:Nd1414882abdb49978a67b60c391a7da5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3490"
+      },
+      "sc:name": "Chemical structure sketch"
     }
   ]
 }

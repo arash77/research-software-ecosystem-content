@@ -40,43 +40,43 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na88cd943b234495ba51ca9739a4021c9"
+          "@id": "_:N1231a45add5a41e18a81506e6b28cc71"
         },
         {
-          "@id": "_:N182f2844dbc6446791e6f5ba2e94962f"
+          "@id": "_:Nacc5dd8acd534a2dbff89a2db6ac7adf"
         },
         {
-          "@id": "_:Nd2825fafe8d843009b427de2d1fc5ad0"
+          "@id": "_:N6eb2e7e3b4204f468c47898ac9f5bdaa"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N13472a5b56d9410591e1e1873e87d530"
+          "@id": "_:Nfef410ea68944510b850caa69262aaf8"
         },
         {
-          "@id": "_:Na96390ecab114775a9aa79ebd11afe3e"
+          "@id": "_:N462c988579e54b629faa89489f3bb9bd"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0078"
-        },
-        {
           "@id": "edam:topic_0654"
         },
         {
           "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0078"
         }
       ],
       "sc:description": "An algorithm for comparing primary biological sequence information, such as the amino-acid sequences of proteins or the nucleotides of DNA sequences. A BLAST search enables a researcher to compare a query sequence with a library or database of sequences, and identify library sequences that resemble the query sequence above a certain threshold.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0338"
+          "@id": "edam:operation_0495"
         },
         {
-          "@id": "edam:operation_0495"
+          "@id": "edam:operation_0338"
         }
       ],
       "sc:name": "BTOD",
@@ -92,26 +92,40 @@
       "sc:url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi"
     },
     {
-      "@id": "_:N13472a5b56d9410591e1e1873e87d530",
+      "@id": "_:N1231a45add5a41e18a81506e6b28cc71",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0857"
+        "@id": "edam:data_2044"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2066"
-        },
-        {
-          "@id": "edam:format_1333"
-        },
-        {
-          "@id": "edam:format_3331"
-        }
-      ],
-      "sc:name": "Sequence search results"
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
     },
     {
-      "@id": "_:Na96390ecab114775a9aa79ebd11afe3e",
+      "@id": "_:Nacc5dd8acd534a2dbff89a2db6ac7adf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N6eb2e7e3b4204f468c47898ac9f5bdaa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1056"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Database name"
+    },
+    {
+      "@id": "_:Nfef410ea68944510b850caa69262aaf8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"
@@ -127,37 +141,23 @@
       "sc:name": "Sequence alignment (pair)"
     },
     {
-      "@id": "_:Na88cd943b234495ba51ca9739a4021c9",
+      "@id": "_:N462c988579e54b629faa89489f3bb9bd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1056"
+        "@id": "edam:data_0857"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Database name"
-    },
-    {
-      "@id": "_:N182f2844dbc6446791e6f5ba2e94962f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Nd2825fafe8d843009b427de2d1fc5ad0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1333"
+        },
+        {
+          "@id": "edam:format_3331"
+        },
+        {
+          "@id": "edam:format_2066"
+        }
+      ],
+      "sc:name": "Sequence search results"
     }
   ]
 }

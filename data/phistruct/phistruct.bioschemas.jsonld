@@ -36,7 +36,19 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-9192-9709",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://orcid.org/0000-0001-5050-3157",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btaf016",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0427-5311",
       "@type": "sc:Person"
     },
     {
@@ -46,34 +58,34 @@
         "@id": "https://orcid.org/0000-0002-9192-9709"
       },
       "bsc:input": {
-        "@id": "_:N3bc2adefbca948c8b929fc6a9d7ba75d"
+        "@id": "_:N02032e5460134f3e93d61f4c76e789ee"
       },
       "bsc:output": {
-        "@id": "_:N039c4e4f00f04c0785559f268d9c05fd"
+        "@id": "_:Ncd3de61b75684267b7e44271b1438536"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0781"
+          "@id": "edam:topic_2814"
         },
         {
-          "@id": "edam:topic_0078"
-        },
-        {
-          "@id": "edam:topic_3307"
+          "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_0091"
         },
         {
+          "@id": "edam:topic_0781"
+        },
+        {
+          "@id": "edam:topic_3307"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
           "@id": "edam:topic_3474"
-        },
-        {
-          "@id": "edam:topic_2814"
-        },
-        {
-          "@id": "edam:topic_0121"
         }
       ],
       "sc:author": {
@@ -96,9 +108,9 @@
       "sc:license": "MIT",
       "sc:name": "PHIStruct",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/bioinfodlsu/PHIStruct"
@@ -106,7 +118,7 @@
       "sc:url": "https://github.com/bioinfodlsu/PHIStruct"
     },
     {
-      "@id": "_:N3bc2adefbca948c8b929fc6a9d7ba75d",
+      "@id": "_:N02032e5460134f3e93d61f4c76e789ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -117,7 +129,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N039c4e4f00f04c0785559f268d9c05fd",
+      "@id": "_:Ncd3de61b75684267b7e44271b1438536",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -126,18 +138,6 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btaf016",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-9192-9709",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-0427-5311",
-      "@type": "sc:Person"
     }
   ]
 }

@@ -40,43 +40,43 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Hoang Tan Nguyen",
       "bsc:input": {
-        "@id": "_:Na27b657b29554066b7659970a22dd288"
+        "@id": "_:Nae021ead0ff2434dafaf18e400aeb1c1"
       },
       "bsc:output": [
         {
-          "@id": "_:Nc6704e02b7874621a41d118318881dfe"
+          "@id": "_:N101543765aec44c3abf6a6e4ceed6a1f"
         },
         {
-          "@id": "_:Nab9ec77b29ac4f7580181026030a5013"
+          "@id": "_:Ncdf1b84c26db4ff8a9808bf8661bcdaf"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2885"
+          "@id": "edam:topic_3673"
         },
         {
-          "@id": "edam:topic_3673"
+          "@id": "edam:topic_2885"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.3389/fgene.2014.00248"
         },
-        "pubmed:25136349",
-        "pmcid:PMC4117933"
+        "pmcid:PMC4117933",
+        "pubmed:25136349"
       ],
       "sc:description": "This tool uses NGS data to measure human gene copy number for multiple samples, indentifying SNPs tagging copy number variants and detecting copy number polymorphic genomic regions.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0484"
+          "@id": "edam:operation_3432"
         },
         {
-          "@id": "edam:operation_3432"
+          "@id": "edam:operation_0484"
         }
       ],
       "sc:license": "GPL-2.0",
@@ -93,39 +93,39 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/CNVrd2.html"
     },
     {
-      "@id": "_:Nc6704e02b7874621a41d118318881dfe",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nab9ec77b29ac4f7580181026030a5013",
+      "@id": "_:N101543765aec44c3abf6a6e4ceed6a1f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Score"
     },
     {
-      "@id": "_:Na27b657b29554066b7659970a22dd288",
+      "@id": "_:Ncdf1b84c26db4ff8a9808bf8661bcdaf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nae021ead0ff2434dafaf18e400aeb1c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

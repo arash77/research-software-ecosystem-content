@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Lars Juhl Jensen",
       "bsc:input": {
-        "@id": "_:Nb8cd00a646b2413ba5df8a9f41cc570f"
+        "@id": "_:N3f3077764a7a4346972d817caee09c3e"
       },
       "bsc:output": {
-        "@id": "_:Na7d91107932e45db9fd7c4619965e089"
+        "@id": "_:Nac2a24214e2645a09ed8a0447d55a292"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -52,10 +52,10 @@
           "@id": "edam:topic_0140"
         },
         {
-          "@id": "edam:topic_0218"
+          "@id": "edam:topic_0092"
         },
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_0218"
         }
       ],
       "sc:citation": [
@@ -73,27 +73,27 @@
       "sc:license": "CC-BY-4.0",
       "sc:name": "COMPARTMENTS",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "https://compartments.jensenlab.org/"
     },
     {
-      "@id": "_:Nb8cd00a646b2413ba5df8a9f41cc570f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1025"
-      },
-      "sc:name": "Gene identifier"
-    },
-    {
-      "@id": "_:Na7d91107932e45db9fd7c4619965e089",
+      "@id": "_:Nac2a24214e2645a09ed8a0447d55a292",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
       },
       "sc:name": "GO concept ID"
+    },
+    {
+      "@id": "_:N3f3077764a7a4346972d817caee09c3e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1025"
+      },
+      "sc:name": "Gene identifier"
     },
     {
       "@id": "https://doi.org/10.1093/database/bau012",

@@ -45,14 +45,14 @@
       "biotools:primaryContact": "Contact Form",
       "bsc:input": [
         {
-          "@id": "_:N342be2c3bd5a415a968bd93c2406b1b5"
+          "@id": "_:N37f0791491c84b0eba384b82ea80a720"
         },
         {
-          "@id": "_:N7890968e088943a4a340cdd39cdef7d0"
+          "@id": "_:N7f25fe1810c840c19a85acfbdb396285"
         }
       ],
       "bsc:output": {
-        "@id": "_:N98dafc16b7aa4e79a967ff9a8e288b18"
+        "@id": "_:N4c6c12fe45ea4649a7e4efc3ceb102fc"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
@@ -61,10 +61,10 @@
           "@id": "edam:topic_0196"
         },
         {
-          "@id": "edam:topic_0085"
+          "@id": "edam:topic_3697"
         },
         {
-          "@id": "edam:topic_3697"
+          "@id": "edam:topic_0085"
         },
         {
           "@id": "edam:topic_3174"
@@ -79,13 +79,13 @@
       "sc:description": "A stand-alone metagenomic annotation and analysis pipeline suitable for data from Sanger and 454 sequencing technologies.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0362"
+          "@id": "edam:operation_0310"
         },
         {
           "@id": "edam:operation_2423"
         },
         {
-          "@id": "edam:operation_0310"
+          "@id": "edam:operation_0362"
         }
       ],
       "sc:license": "Other",
@@ -97,26 +97,7 @@
       "sc:url": "http://www.bork.embl.de/software/smash"
     },
     {
-      "@id": "_:N342be2c3bd5a415a968bd93c2406b1b5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3736"
-      },
-      "sc:name": "Ecological data"
-    },
-    {
-      "@id": "_:N7890968e088943a4a340cdd39cdef7d0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0848"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2571"
-      },
-      "sc:name": "Raw sequence"
-    },
-    {
-      "@id": "_:N98dafc16b7aa4e79a967ff9a8e288b18",
+      "@id": "_:N4c6c12fe45ea4649a7e4efc3ceb102fc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -125,6 +106,25 @@
         "@id": "edam:format_2032"
       },
       "sc:name": "Mathematical model"
+    },
+    {
+      "@id": "_:N37f0791491c84b0eba384b82ea80a720",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3736"
+      },
+      "sc:name": "Ecological data"
+    },
+    {
+      "@id": "_:N7f25fe1810c840c19a85acfbdb396285",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0848"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2571"
+      },
+      "sc:name": "Raw sequence"
     }
   ]
 }

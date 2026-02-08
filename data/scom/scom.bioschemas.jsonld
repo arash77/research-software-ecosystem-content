@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/SCOM",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4f8e42807cad49dd9d51be1d7de875ff"
+        "@id": "_:Nf08ddb7ffaa24bd3b8371c95110caba6"
       },
       "bsc:output": {
-        "@id": "_:N2e1f844001974d8f9ce34b5aab8d3ab2"
+        "@id": "_:N0e27ef6cb7a24d13b738b8dcde2befb2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Bioinformatics portal",
@@ -52,10 +52,7 @@
       "sc:description": "SCOM applies three criteria (significantly synergistic competition for mRNAs, significantly positive correlation, and significantly sensitive correlation conditioning on synergistically competed mRNAs) to predict ncRNA synergistic competition network from gene (ncRNAs acting as ceRNAs, and target mRNAs) expression data and predicted ncRNA-related ceRNA networks.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0313"
-        },
-        {
-          "@id": "edam:operation_3927"
+          "@id": "edam:operation_2437"
         },
         {
           "@id": "edam:operation_2495"
@@ -64,7 +61,10 @@
           "@id": "edam:operation_3463"
         },
         {
-          "@id": "edam:operation_2437"
+          "@id": "edam:operation_0313"
+        },
+        {
+          "@id": "edam:operation_3927"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -79,7 +79,7 @@
       "sc:url": "https://github.com/zhangjunpeng411/SCOM"
     },
     {
-      "@id": "_:N4f8e42807cad49dd9d51be1d7de875ff",
+      "@id": "_:Nf08ddb7ffaa24bd3b8371c95110caba6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -87,7 +87,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N2e1f844001974d8f9ce34b5aab8d3ab2",
+      "@id": "_:N0e27ef6cb7a24d13b738b8dcde2befb2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N711c970b4640499c97aef82e63c4fd86"
+          "@id": "_:Na402463a23ac466f80197918242d7eef"
         },
         {
-          "@id": "_:N8ef48eb332d0453c8e2df17d6080ad5c"
+          "@id": "_:Nd57e02462274435d9c0ea8e191931815"
         }
       ],
       "bsc:output": {
-        "@id": "_:N8aefcd9aaa554314ac681c2125d12456"
+        "@id": "_:N3403420b0a4a4325b2f1c7ed1d403a0b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
@@ -61,13 +61,13 @@
       "sc:description": "Compare multiple runs of long read sequencing data and alignments. Creates violin plots or box plots of length, quality and percent identity and creates dynamic, overlaying read length histograms and a cumulative yield plot.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_2943"
+        },
+        {
           "@id": "edam:operation_0337"
         },
         {
           "@id": "edam:operation_3744"
-        },
-        {
-          "@id": "edam:operation_2943"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -77,7 +77,7 @@
       "sc:url": "https://github.com/wdecoster/nanocomp"
     },
     {
-      "@id": "_:N711c970b4640499c97aef82e63c4fd86",
+      "@id": "_:Na402463a23ac466f80197918242d7eef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -88,23 +88,23 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N8ef48eb332d0453c8e2df17d6080ad5c",
+      "@id": "_:Nd57e02462274435d9c0ea8e191931815",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_1930"
         },
         {
-          "@id": "edam:format_1930"
+          "@id": "edam:format_1929"
         }
       ],
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N8aefcd9aaa554314ac681c2125d12456",
+      "@id": "_:N3403420b0a4a4325b2f1c7ed1d403a0b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

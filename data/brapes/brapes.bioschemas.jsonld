@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/389999",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/BRAPeS",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Shaked Afik",
       "bsc:input": {
-        "@id": "_:Ndac25a14ae9b4e3f8a6692fa4eda58e4"
+        "@id": "_:N63be7955d64d48bbacf6b69b8334bfaa"
       },
       "bsc:output": {
-        "@id": "_:N5fe1d400ccdd485cb11463e5235540d2"
+        "@id": "_:Na9ad3c22d5d9463097199c71bc3fd37e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -66,9 +70,9 @@
       "sc:license": "Other",
       "sc:name": "BRAPeS",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/YosefLab/BRAPeS/blob/master/README.md"
@@ -76,18 +80,7 @@
       "sc:url": "https://github.com/YosefLab/BRAPeS"
     },
     {
-      "@id": "_:N5fe1d400ccdd485cb11463e5235540d2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2955"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Sequence report"
-    },
-    {
-      "@id": "_:Ndac25a14ae9b4e3f8a6692fa4eda58e4",
+      "@id": "_:N63be7955d64d48bbacf6b69b8334bfaa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -98,8 +91,15 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "https://doi.org/10.1101/389999",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Na9ad3c22d5d9463097199c71bc3fd37e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence report"
     }
   ]
 }

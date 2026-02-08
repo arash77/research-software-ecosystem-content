@@ -40,17 +40,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jose Dana",
       "bsc:input": {
-        "@id": "_:Nb0d02d410bdb4937bbe1ceb49cc3e46c"
+        "@id": "_:N9c86c3fda482483d92daa73c27e294ed"
       },
       "bsc:output": [
         {
-          "@id": "_:N38b0239df3144682b30ab1de52f44657"
+          "@id": "_:N408b52c38e8d4e8baec18e6915ad65de"
         },
         {
-          "@id": "_:Nac6dd0660fd54bdf9b3f388c46c4624b"
+          "@id": "_:N7e8c036acf0840bab870ff95985f0cde"
         },
         {
-          "@id": "_:Nd6cd6d26cc7c44098fb7151905149e48"
+          "@id": "_:Nf6a19a5a11f94d29bd8025efbca75b15"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -68,9 +68,9 @@
       },
       "sc:name": "PDBeXplore: sequence similarity search",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
@@ -85,7 +85,7 @@
       "sc:url": "http://pdbe.org/FASTA"
     },
     {
-      "@id": "_:N38b0239df3144682b30ab1de52f44657",
+      "@id": "_:N408b52c38e8d4e8baec18e6915ad65de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -93,7 +93,7 @@
       "sc:name": "Sequence alignment (protein)"
     },
     {
-      "@id": "_:Nac6dd0660fd54bdf9b3f388c46c4624b",
+      "@id": "_:N7e8c036acf0840bab870ff95985f0cde",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -101,7 +101,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:Nd6cd6d26cc7c44098fb7151905149e48",
+      "@id": "_:Nf6a19a5a11f94d29bd8025efbca75b15",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"
@@ -109,7 +109,7 @@
       "sc:name": "Sequence alignment (pair)"
     },
     {
-      "@id": "_:Nb0d02d410bdb4937bbe1ceb49cc3e46c",
+      "@id": "_:N9c86c3fda482483d92daa73c27e294ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

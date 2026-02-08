@@ -46,10 +46,10 @@
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3063"
+          "@id": "edam:topic_0659"
         },
         {
-          "@id": "edam:topic_0659"
+          "@id": "edam:topic_3063"
         },
         {
           "@id": "edam:topic_0128"
@@ -77,8 +77,8 @@
       "sc:license": "Not licensed",
       "sc:name": "NPI-RGCNAE",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "https://github.com/Angelia0hh/NPI-RGCNAE"

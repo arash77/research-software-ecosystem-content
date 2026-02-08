@@ -41,45 +41,45 @@
       "biotools:primaryContact": "Support service",
       "bsc:input": [
         {
-          "@id": "_:N3b358fb700d1430681d79761403ba73f"
+          "@id": "_:Nad88f9a214fe43b2b85d1e78ef3098f9"
         },
         {
-          "@id": "_:N31cd5432e2c74e46a38a52636306a5da"
+          "@id": "_:N5e2b7925d0d7496286f256d9dadd75f9"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2ab0e40c4f984090aa53c1518a917a3e"
+          "@id": "_:Nb1cf7edd21d64ff98c05c0b7b0a95ea7"
         },
         {
-          "@id": "_:N367378d03dc0463eb00a877549301421"
+          "@id": "_:N3f5c6a40f08c40a280c81e40c29355a8"
         },
         {
-          "@id": "_:Ndb26f103756d4349aa9087f7cd80e41e"
+          "@id": "_:N6d9590e74f874699948d76be4f0b2b9a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Web API",
+        "Database portal",
         "Web service",
-        "Database portal"
+        "Web API",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3810"
+          "@id": "edam:topic_3071"
         },
         {
-          "@id": "edam:topic_0780"
+          "@id": "edam:topic_3810"
         },
         {
           "@id": "edam:topic_0610"
         },
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_0780"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_0091"
         }
       ],
       "sc:citation": [
@@ -96,13 +96,13 @@
           "@id": "edam:operation_3625"
         },
         {
-          "@id": "edam:operation_0227"
+          "@id": "edam:operation_3908"
         },
         {
           "@id": "edam:operation_2421"
         },
         {
-          "@id": "edam:operation_3908"
+          "@id": "edam:operation_0227"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -110,38 +110,22 @@
       "sc:name": "Plant DataDiscovery",
       "sc:softwareHelp": [
         {
-          "@id": "https://urgi.versailles.inrae.fr/data-discovery/join"
+          "@id": "https://urgi.versailles.inrae.fr/data-discovery/legal"
         },
         {
           "@id": "https://urgi.versailles.inrae.fr/data-discovery/help"
         },
         {
-          "@id": "https://urgi.versailles.inrae.fr/data-discovery/legal"
+          "@id": "https://urgi.versailles.inrae.fr/data-discovery/about"
         },
         {
-          "@id": "https://urgi.versailles.inrae.fr/data-discovery/about"
+          "@id": "https://urgi.versailles.inrae.fr/data-discovery/join"
         }
       ],
       "sc:url": "https://urgi.versailles.inrae.fr/data-discovery/"
     },
     {
-      "@id": "_:N3b358fb700d1430681d79761403ba73f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0968"
-      },
-      "sc:name": "Keyword"
-    },
-    {
-      "@id": "_:N31cd5432e2c74e46a38a52636306a5da",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2353"
-      },
-      "sc:name": "Ontology data"
-    },
-    {
-      "@id": "_:N2ab0e40c4f984090aa53c1518a917a3e",
+      "@id": "_:Nb1cf7edd21d64ff98c05c0b7b0a95ea7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -149,7 +133,15 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N367378d03dc0463eb00a877549301421",
+      "@id": "_:N3f5c6a40f08c40a280c81e40c29355a8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N6d9590e74f874699948d76be4f0b2b9a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -157,12 +149,20 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:Ndb26f103756d4349aa9087f7cd80e41e",
+      "@id": "_:Nad88f9a214fe43b2b85d1e78ef3098f9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0842"
+        "@id": "edam:data_2353"
       },
-      "sc:name": "Identifier"
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N5e2b7925d0d7496286f256d9dadd75f9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:name": "Keyword"
     },
     {
       "@id": "https://doi.org/10.1186/s13059-018-1491-4",

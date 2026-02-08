@@ -36,28 +36,32 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1756-0381-3-1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/hypergeny",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N29c95f54f6ed4a91b7bf75d2bf1d5ae2"
+        "@id": "_:Na442fd8d70284637895185be4271b56f"
       },
       "bsc:output": {
-        "@id": "_:Nb209d0bc2e82404e86b440c54001e9ae"
+        "@id": "_:N6ea2de9e09834370a2e9e57e11d2d40b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Desktop application",
         "Command-line tool",
+        "Desktop application",
         "Web application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3299"
       },
       "sc:citation": [
-        "pmcid:PMC2844399",
         {
           "@id": "https://doi.org/10.1186/1756-0381-3-1"
         },
+        "pmcid:PMC2844399",
         "pubmed:20175922"
       ],
       "sc:description": "HYPERbolic phyloGENY viewer allows hyperbolic visualisation of very large tree structures.",
@@ -66,8 +70,8 @@
       },
       "sc:name": "HyperGeny",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "ugent.be",
@@ -78,15 +82,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/HyperGeny"
     },
     {
-      "@id": "_:Nb209d0bc2e82404e86b440c54001e9ae",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:N29c95f54f6ed4a91b7bf75d2bf1d5ae2",
+      "@id": "_:Na442fd8d70284637895185be4271b56f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -94,8 +90,12 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "https://doi.org/10.1186/1756-0381-3-1",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N6ea2de9e09834370a2e9e57e11d2d40b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
     }
   ]
 }

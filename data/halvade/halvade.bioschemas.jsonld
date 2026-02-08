@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv179",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/halvade",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N655fd541fd39450d856ff1d2b0b0a638"
+        "@id": "_:N3277da26f19345c69d9df5b7b3e96b43"
       },
       "bsc:output": {
-        "@id": "_:Nd65f100c63df4a3aae14e48cb8191e68"
+        "@id": "_:Ncf97ca7a674f443a8737a49b8856363f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -53,8 +57,8 @@
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btv179"
         },
-        "pmcid:PMC4514927",
-        "pubmed:25819078"
+        "pubmed:25819078",
+        "pmcid:PMC4514927"
       ],
       "sc:description": "A mapreduce implementation of the best practice DNA-seq pipeline by Broad Institute.",
       "sc:featureList": {
@@ -74,15 +78,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/halvade"
     },
     {
-      "@id": "_:Nd65f100c63df4a3aae14e48cb8191e68",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3498"
-      },
-      "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "_:N655fd541fd39450d856ff1d2b0b0a638",
+      "@id": "_:N3277da26f19345c69d9df5b7b3e96b43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -90,8 +86,12 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btv179",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Ncf97ca7a674f443a8737a49b8856363f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:name": "Sequence variations"
     }
   ]
 }

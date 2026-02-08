@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N1ffa71bb2a784fbe8a53056bf4b6c70c"
+          "@id": "_:N52cfb3b7bba9492abcee19b393478f47"
         },
         {
-          "@id": "_:Ne0fe1e38e1224aef955e63d483f0db34"
+          "@id": "_:Nd4b154d84bb6482bbe39d596ab039992"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nc9bdefb19df942a3a37c6f09405e97cd"
+        "@id": "_:N2c0222572e564a29afd2fe0284c3bd41"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
@@ -61,9 +61,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "tbl2asn",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "https://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/tbl2asn/DOCUMENTATION/"
@@ -71,7 +71,7 @@
       "sc:url": "https://www.ncbi.nlm.nih.gov/genbank/tbl2asn2/"
     },
     {
-      "@id": "_:N1ffa71bb2a784fbe8a53056bf4b6c70c",
+      "@id": "_:N52cfb3b7bba9492abcee19b393478f47",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -82,7 +82,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Ne0fe1e38e1224aef955e63d483f0db34",
+      "@id": "_:Nd4b154d84bb6482bbe39d596ab039992",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -93,7 +93,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:Nc9bdefb19df942a3a37c6f09405e97cd",
+      "@id": "_:N2c0222572e564a29afd2fe0284c3bd41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"

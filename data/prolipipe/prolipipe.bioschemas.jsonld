@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/prolipipe",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na599fb58804b4a198d4d5e673105bfe7"
+        "@id": "_:N92a94fa3ebc444b6b78b79835efd8b55"
       },
       "bsc:output": {
-        "@id": "_:Nff780e111f6e4c2c949cdfe0fc738b14"
+        "@id": "_:Nbd230af1c20c40da885e725f663f24ff"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -58,36 +58,36 @@
       "sc:url": "https://github.com/AuReMe/prolipipe"
     },
     {
-      "@id": "_:Na599fb58804b4a198d4d5e673105bfe7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2013"
-        },
-        {
-          "@id": "edam:format_3475"
-        }
-      ],
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:Nff780e111f6e4c2c949cdfe0fc738b14",
+      "@id": "_:Nbd230af1c20c40da885e725f663f24ff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3475"
+          "@id": "edam:format_2331"
         },
         {
-          "@id": "edam:format_2331"
+          "@id": "edam:format_3475"
         }
       ],
       "sc:name": "Pathway or network report"
+    },
+    {
+      "@id": "_:N92a94fa3ebc444b6b78b79835efd8b55",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2013"
+        }
+      ],
+      "sc:name": "Pathway or network"
     }
   ]
 }

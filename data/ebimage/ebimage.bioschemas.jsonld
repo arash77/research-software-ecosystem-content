@@ -36,15 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0002-0474-2218",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/ebimage",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Andrzej Oleś",
       "bsc:input": {
-        "@id": "_:N313d93218b6948dc98e5482b94195fc2"
+        "@id": "_:Nb3d43879001a4cf6ae12cdce17f25ea9"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -52,17 +48,17 @@
         "@id": "edam:topic_3383"
       },
       "sc:author": [
-        "Oleg Sklyar",
         "Gregoire Pau",
+        "Oleg Sklyar",
         "Mike Smith",
+        "Andrzej Oleś",
         {
           "@id": "http://orcid.org/0000-0002-0474-2218"
-        },
-        "Andrzej Oleś"
+        }
       ],
       "sc:citation": [
-        "pubmed:20338898",
         "pmcid:PMC2844988",
+        "pubmed:20338898",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btq046"
         }
@@ -75,9 +71,9 @@
       "sc:license": "LGPL-2.1",
       "sc:name": "EBImage",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": [
         "hdhub",
@@ -90,12 +86,16 @@
       "sc:url": "http://bioconductor.org/packages/EBImage/"
     },
     {
-      "@id": "_:N313d93218b6948dc98e5482b94195fc2",
+      "@id": "_:Nb3d43879001a4cf6ae12cdce17f25ea9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
       "sc:name": "Image"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-0474-2218",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btq046",

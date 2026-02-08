@@ -40,37 +40,37 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3fb41f1d685c46f288c527e3966921d8"
+          "@id": "_:N60bd9c4425f946f3a83c6596e3458cf3"
         },
         {
-          "@id": "_:N227793594d0a4d42a43a7b60b64aef09"
+          "@id": "_:N6234f7cad0a54bf594d34c7dfe5ff27c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2a077a0f4a534a47a81d656b015b7ac6"
+          "@id": "_:Na67e02100f384ba2823f97e44b7a0158"
         },
         {
-          "@id": "_:Ned3bb1892d3641b2b302793f7d9fd11a"
+          "@id": "_:N50d66b7e53d94012906e18aa27d1e884"
         },
         {
-          "@id": "_:N036aae101b364266bc473866d44bc6c7"
+          "@id": "_:N4444a10d19644e9ebdc9e2b850e0a3d1"
         },
         {
-          "@id": "_:N07516374bb5a459795879e075735d811"
+          "@id": "_:Nfdb9b9027cb84f14b7efd335637862fb"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2275"
+          "@id": "edam:topic_0128"
         },
         {
           "@id": "edam:topic_3510"
         },
         {
-          "@id": "edam:topic_0128"
+          "@id": "edam:topic_2275"
         }
       ],
       "sc:description": "Integration of structural information with interactomics data.",
@@ -92,29 +92,7 @@
       "sc:url": "https://mobyle.rpbs.univ-paris-diderot.fr/cgi-bin/portal.py#forms::Proteo3Dnet"
     },
     {
-      "@id": "_:N2a077a0f4a534a47a81d656b015b7ac6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2628"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1957"
-      },
-      "sc:name": "BioGRID interaction ID"
-    },
-    {
-      "@id": "_:Ned3bb1892d3641b2b302793f7d9fd11a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3464"
-      },
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:N036aae101b364266bc473866d44bc6c7",
+      "@id": "_:Na67e02100f384ba2823f97e44b7a0158",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -125,7 +103,18 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N07516374bb5a459795879e075735d811",
+      "@id": "_:N50d66b7e53d94012906e18aa27d1e884",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3464"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N4444a10d19644e9ebdc9e2b850e0a3d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -136,7 +125,18 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N3fb41f1d685c46f288c527e3966921d8",
+      "@id": "_:Nfdb9b9027cb84f14b7efd335637862fb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2628"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1957"
+      },
+      "sc:name": "BioGRID interaction ID"
+    },
+    {
+      "@id": "_:N60bd9c4425f946f3a83c6596e3458cf3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -147,7 +147,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N227793594d0a4d42a43a7b60b64aef09",
+      "@id": "_:N6234f7cad0a54bf594d34c7dfe5ff27c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

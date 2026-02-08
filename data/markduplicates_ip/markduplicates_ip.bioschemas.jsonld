@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N784e43d157a3473d91a693b70dd53d85"
+        "@id": "_:N28603381020141b69db9734285d88f0a"
       },
       "bsc:output": [
         {
-          "@id": "_:N3bfc3766acc8471eb294c484f7751e0a"
+          "@id": "_:N1591173c13c34978a9ecc0d2d0a5ceb5"
         },
         {
-          "@id": "_:N82e8f19b94ea4411b64e7f64446fcc90"
+          "@id": "_:Nc6dc9ea562454a40a9f8bc9a8a3a4d11"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,11 +60,11 @@
         "@id": "edam:topic_3168"
       },
       "sc:citation": [
+        "pubmed:27137889",
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC4987906",
-        "pubmed:27137889",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         }
@@ -75,9 +75,9 @@
       },
       "sc:name": "MarkDuplicates (IP)",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/broadinstitute/picard"
@@ -86,29 +86,7 @@
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/picard_pasteur_wrapper/rgPicardMarkDups/1.56.0"
     },
     {
-      "@id": "_:N3bfc3766acc8471eb294c484f7751e0a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N82e8f19b94ea4411b64e7f64446fcc90",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2572"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:N784e43d157a3473d91a693b70dd53d85",
+      "@id": "_:N28603381020141b69db9734285d88f0a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -122,6 +100,28 @@
         }
       ],
       "sc:name": "Data"
+    },
+    {
+      "@id": "_:N1591173c13c34978a9ecc0d2d0a5ceb5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Nc6dc9ea562454a40a9f8bc9a8a3a4d11",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",

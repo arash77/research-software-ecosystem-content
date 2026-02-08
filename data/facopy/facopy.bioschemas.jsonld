@@ -45,24 +45,24 @@
       "biotools:primaryContact": "David Mosen-Ansorena",
       "bsc:input": [
         {
-          "@id": "_:N200d00e91b0648b587296b1cd63cfd0f"
+          "@id": "_:N382a37b3c9474366b14095168b3479ce"
         },
         {
-          "@id": "_:N622b1f72634e4087907fbe0cdf844048"
+          "@id": "_:N3238b60af05b48efbe1e5ac548dd85f8"
         },
         {
-          "@id": "_:N60c2ff0d06964ff0af0fb3041f3e5e75"
+          "@id": "_:N75ad38f1e2b4401ba17a8517cbbceda8"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N38049bf0b8104b2c92240499d8164d53"
+          "@id": "_:N6bb1af66e73b4c9fb23f3611ca641c3e"
         },
         {
-          "@id": "_:Na572e9c36c86490c8e3904ef636f5179"
+          "@id": "_:N045aa67b9cb240d799f67182345a8ab6"
         },
         {
-          "@id": "_:N50b542d9f646416c9ed8ffc0fb11827c"
+          "@id": "_:N41d70dbbf78e4437a3cca36ac0ab016e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -72,13 +72,13 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0199"
-        },
-        {
           "@id": "edam:topic_3298"
         },
         {
           "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0199"
         }
       ],
       "sc:citation": [
@@ -100,9 +100,9 @@
       "sc:license": "CC-BY-NC-4.0",
       "sc:name": "facopy",
       "sc:operatingSystem": [
+        "Linux",
         "Mac",
-        "Windows",
-        "Linux"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/facopy.html"
@@ -111,55 +111,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/facopy.html"
     },
     {
-      "@id": "_:N38049bf0b8104b2c92240499d8164d53",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2353"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Ontology data"
-    },
-    {
-      "@id": "_:Na572e9c36c86490c8e3904ef636f5179",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0920"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3547"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Genotype/phenotype report"
-    },
-    {
-      "@id": "_:N50b542d9f646416c9ed8ffc0fb11827c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N200d00e91b0648b587296b1cd63cfd0f",
+      "@id": "_:N382a37b3c9474366b14095168b3479ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -175,7 +127,23 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N622b1f72634e4087907fbe0cdf844048",
+      "@id": "_:N3238b60af05b48efbe1e5ac548dd85f8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_1920"
+        }
+      ],
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:N75ad38f1e2b4401ba17a8517cbbceda8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0920"
@@ -191,20 +159,52 @@
       "sc:name": "Genotype/phenotype report"
     },
     {
-      "@id": "_:N60c2ff0d06964ff0af0fb3041f3e5e75",
+      "@id": "_:N6bb1af66e73b4c9fb23f3611ca641c3e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3498"
+        "@id": "edam:data_2353"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1920"
+          "@id": "edam:format_3547"
         },
         {
           "@id": "edam:format_2330"
         }
       ],
-      "sc:name": "Sequence variations"
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N045aa67b9cb240d799f67182345a8ab6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N41d70dbbf78e4437a3cca36ac0ab016e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Genotype/phenotype report"
     }
   ]
 }

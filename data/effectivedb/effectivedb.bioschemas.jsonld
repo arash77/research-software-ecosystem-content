@@ -36,51 +36,47 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkq1154",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/effectivedb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4f6a5c4730d94994a70f2694c54549f4"
+        "@id": "_:N96c289e431244643bd5e4607c50c6d40"
       },
       "bsc:output": {
-        "@id": "_:N3545966647e441a1a9ede1e004aa09f3"
+        "@id": "_:N8933509babcf413daf90ec765893a8a1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Database portal"
+        "Database portal",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_0080"
         },
         {
+          "@id": "edam:topic_0797"
+        },
+        {
           "@id": "edam:topic_3510"
         },
         {
           "@id": "edam:topic_3174"
-        },
-        {
-          "@id": "edam:topic_0797"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC3013723",
+        "pubmed:21071416",
         {
           "@id": "https://doi.org/10.1093/nar/gkq1154"
-        },
-        "pubmed:21071416",
-        "pmcid:PMC3013723"
+        }
       ],
       "sc:description": "Prediction of intact bacterial protein secretion systems and putative secreted proteins.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3461"
+          "@id": "edam:operation_3092"
         },
         {
-          "@id": "edam:operation_3092"
+          "@id": "edam:operation_3461"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -100,7 +96,18 @@
       "sc:url": "http://www.effectivedb.org/"
     },
     {
-      "@id": "_:N4f6a5c4730d94994a70f2694c54549f4",
+      "@id": "_:N8933509babcf413daf90ec765893a8a1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein report"
+    },
+    {
+      "@id": "_:N96c289e431244643bd5e4607c50c6d40",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -111,15 +118,8 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N3545966647e441a1a9ede1e004aa09f3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0896"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Protein report"
+      "@id": "https://doi.org/10.1093/nar/gkq1154",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

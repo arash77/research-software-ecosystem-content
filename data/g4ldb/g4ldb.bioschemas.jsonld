@@ -36,80 +36,76 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/NAR/GKAB952",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/g4ldb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na274ed0d5a684e20bbddd62d6edba248"
+          "@id": "_:Ndbf9a9cf53934eb29920d73a47f770d8"
         },
         {
-          "@id": "_:Na8a6f6ac99ba408dbabeb1edc720d60d"
+          "@id": "_:N35134d8f880842a3b5685539b57b04e3"
         },
         {
-          "@id": "_:Nd8b75e262cf64b36b8a56477d1e083f2"
+          "@id": "_:N53be7f911f4944beafd835f6d06e0e0d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3512"
-        },
-        {
-          "@id": "edam:topic_0593"
-        },
-        {
           "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3512"
         },
         {
           "@id": "edam:topic_0749"
         },
         {
-          "@id": "edam:topic_0154"
+          "@id": "edam:topic_0593"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC8728129",
         {
           "@id": "https://doi.org/10.1093/NAR/GKAB952"
         },
-        "pmcid:PMC8728129",
         "pubmed:34718746"
       ],
       "sc:description": "A database for discovering and studying G-quadruplex and i-Motif ligands.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_4009"
-        },
-        {
-          "@id": "edam:operation_0478"
-        },
-        {
           "@id": "edam:operation_2422"
         },
         {
+          "@id": "edam:operation_4009"
+        },
+        {
           "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0478"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "G4LDB",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareVersion": "2.2",
       "sc:url": "http://www.g4ldb.com"
     },
     {
-      "@id": "_:Na274ed0d5a684e20bbddd62d6edba248",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2099"
-      },
-      "sc:name": "Name"
-    },
-    {
-      "@id": "_:Na8a6f6ac99ba408dbabeb1edc720d60d",
+      "@id": "_:Ndbf9a9cf53934eb29920d73a47f770d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -117,7 +113,7 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:Nd8b75e262cf64b36b8a56477d1e083f2",
+      "@id": "_:N35134d8f880842a3b5685539b57b04e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -125,8 +121,12 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "https://doi.org/10.1093/NAR/GKAB952",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N53be7f911f4944beafd835f6d06e0e0d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2099"
+      },
+      "sc:name": "Name"
     }
   ]
 }

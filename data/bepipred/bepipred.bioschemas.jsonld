@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Morten Nielsen",
       "bsc:input": {
-        "@id": "_:N24f3d85cd5294c61848aa03d13ff51dc"
+        "@id": "_:Ndf1e329788274a64b353eed2b95d8c6e"
       },
       "bsc:output": {
-        "@id": "_:N109683f5480a4ca391da00e918fd12fa"
+        "@id": "_:N0f8c61c140694c078a50a19e9a68f9db"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -59,11 +59,11 @@
       },
       "sc:author": "Morten Nielsen",
       "sc:citation": [
-        "pubmed:16635264",
         {
           "@id": "https://doi.org/10.1186/1745-7580-2-2"
         },
-        "pmcid:PMC1479323"
+        "pmcid:PMC1479323",
+        "pubmed:16635264"
       ],
       "sc:description": "Prediction of the location of linear B-cell epitopes.",
       "sc:featureList": {
@@ -81,18 +81,7 @@
       "sc:url": "http://cbs.dtu.dk/services/BepiPred/"
     },
     {
-      "@id": "_:N24f3d85cd5294c61848aa03d13ff51dc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N109683f5480a4ca391da00e918fd12fa",
+      "@id": "_:N0f8c61c140694c078a50a19e9a68f9db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -101,6 +90,17 @@
         "@id": "edam:format_2305"
       },
       "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:Ndf1e329788274a64b353eed2b95d8c6e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
     }
   ]
 }

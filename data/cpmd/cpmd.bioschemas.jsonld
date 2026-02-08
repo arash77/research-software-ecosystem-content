@@ -39,23 +39,23 @@
       "@id": "https://bio.tools/cpmd",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "CPMD contact",
-        "Emiliano Ippoliti"
+        "Emiliano Ippoliti",
+        "CPMD contact"
       ],
       "bsc:input": [
         {
-          "@id": "_:N43f6e74c99854df582111b8536044e56"
+          "@id": "_:N65e06533e2b94677a94f2e95ffacc0ec"
         },
         {
-          "@id": "_:Ncaf0b1caa14e4a4da6d5c3d050c96507"
+          "@id": "_:Nf3a3a22779234c9aa76a148568d76f8a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N65b7e9467404493a9fc7d5b95858073c"
+          "@id": "_:N8cba29e36caa490a8c23d9fba903bac7"
         },
         {
-          "@id": "_:Nd5cdbae54e524606a37e5abef8310817"
+          "@id": "_:N51c2fad6c6304b77a8ceaea6a124551f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -65,10 +65,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3332"
+          "@id": "edam:topic_0176"
         },
         {
-          "@id": "edam:topic_0176"
+          "@id": "edam:topic_3332"
         }
       ],
       "sc:citation": {
@@ -83,13 +83,13 @@
       "sc:operatingSystem": "Linux",
       "sc:softwareHelp": [
         {
+          "@id": "http://cpmd.org/documentation"
+        },
+        {
           "@id": "http://cpmd.org/downloadable-files/no-authentication/manual_v4_0_1.pdf"
         },
         {
           "@id": "http://cpmd.org/cpmd-tutorial"
-        },
-        {
-          "@id": "http://cpmd.org/documentation"
         },
         {
           "@id": "http://cpmd.org/documentation/cpmd-html-manual"
@@ -98,7 +98,15 @@
       "sc:url": "http://www.cpmd.org/"
     },
     {
-      "@id": "_:N65b7e9467404493a9fc7d5b95858073c",
+      "@id": "_:N8cba29e36caa490a8c23d9fba903bac7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0883"
+      },
+      "sc:name": "Structure"
+    },
+    {
+      "@id": "_:N51c2fad6c6304b77a8ceaea6a124551f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -106,7 +114,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:Nd5cdbae54e524606a37e5abef8310817",
+      "@id": "_:N65e06533e2b94677a94f2e95ffacc0ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -114,15 +122,7 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:N43f6e74c99854df582111b8536044e56",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0883"
-      },
-      "sc:name": "Structure"
-    },
-    {
-      "@id": "_:Ncaf0b1caa14e4a4da6d5c3d050c96507",
+      "@id": "_:Nf3a3a22779234c9aa76a148568d76f8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"

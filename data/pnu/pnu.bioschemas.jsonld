@@ -36,34 +36,30 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1099/ijsem.0.004332",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pnu",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5da25b1a407746f69f5bbce7bb4d31f8"
+          "@id": "_:N0869f49a3bcd42ae8c4aa13bd8ee0209"
         },
         {
-          "@id": "_:N8b90319d4aae4bb48b91430e519f99cc"
+          "@id": "_:N90700ee64c8f47b69a9fd32360283861"
         },
         {
-          "@id": "_:N42c06fb3c22c41fc9a2498dad442acf1"
+          "@id": "_:N6adf882820ff4e19856dc7cc88d8f946"
         },
         {
-          "@id": "_:Na92809665322412aa282a6cd46405681"
+          "@id": "_:Nc830ab88daa94b85b00d0f01ad38f027"
         },
         {
-          "@id": "_:Ne06476fa01c948c584aa65f1c6ae1f72"
+          "@id": "_:Nca606e1c9b954f95a43ad5e2216ea3e6"
         },
         {
-          "@id": "_:Nce6cf06f700c4ee7ace205bb75d3d6cf"
+          "@id": "_:N93e4a46fd2d946598e35c58155a54243"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nba4d33f306504c6d9c31915a0556035d"
+        "@id": "_:N6ff41cba810c4466b643d42b9775d2b6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -72,21 +68,21 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3301"
-        },
-        {
           "@id": "edam:topic_3050"
         },
         {
           "@id": "edam:topic_0637"
+        },
+        {
+          "@id": "edam:topic_3301"
         }
       ],
       "sc:citation": [
-        "pubmed:32701423",
-        "pmcid:PMC7723251",
         {
           "@id": "https://doi.org/10.1099/ijsem.0.004332"
-        }
+        },
+        "pubmed:32701423",
+        "pmcid:PMC7723251"
       ],
       "sc:description": "Compilation of all names of Bacteria and Archaea which have been validly published according to the Bacteriological Code since 1 January 1980, and nomenclatural proposals that have been validly published since then. Was merged with LPSN and replaced by the new LPSN when LPSN was taken over by DSMZ.",
       "sc:featureList": {
@@ -95,8 +91,8 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "Prokaryotic Nomenclature up-to-date (PNU)",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "Leibniz Institute DSMZ - German Collection of Microorganisms and Cell Cultures",
       "sc:softwareHelp": {
@@ -105,42 +101,15 @@
       "sc:url": "https://lpsn.dsmz.de/"
     },
     {
-      "@id": "_:Nba4d33f306504c6d9c31915a0556035d",
+      "@id": "_:N0869f49a3bcd42ae8c4aa13bd8ee0209",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1872"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3464"
-        },
-        {
-          "@id": "edam:format_2332"
-        },
-        {
-          "@id": "edam:format_2331"
-        }
-      ],
       "sc:name": "Taxonomic classification"
     },
     {
-      "@id": "_:N5da25b1a407746f69f5bbce7bb4d31f8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1045"
-      },
-      "sc:name": "Species name"
-    },
-    {
-      "@id": "_:N8b90319d4aae4bb48b91430e519f99cc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2732"
-      },
-      "sc:name": "Family name"
-    },
-    {
-      "@id": "_:N42c06fb3c22c41fc9a2498dad442acf1",
+      "@id": "_:N90700ee64c8f47b69a9fd32360283861",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1868"
@@ -148,15 +117,15 @@
       "sc:name": "Taxon"
     },
     {
-      "@id": "_:Na92809665322412aa282a6cd46405681",
+      "@id": "_:N6adf882820ff4e19856dc7cc88d8f946",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2912"
+        "@id": "edam:data_1045"
       },
-      "sc:name": "Strain accession"
+      "sc:name": "Species name"
     },
     {
-      "@id": "_:Ne06476fa01c948c584aa65f1c6ae1f72",
+      "@id": "_:Nc830ab88daa94b85b00d0f01ad38f027",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1870"
@@ -164,12 +133,43 @@
       "sc:name": "Genus name"
     },
     {
-      "@id": "_:Nce6cf06f700c4ee7ace205bb75d3d6cf",
+      "@id": "_:Nca606e1c9b954f95a43ad5e2216ea3e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2732"
+      },
+      "sc:name": "Family name"
+    },
+    {
+      "@id": "_:N93e4a46fd2d946598e35c58155a54243",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2912"
+      },
+      "sc:name": "Strain accession"
+    },
+    {
+      "@id": "_:N6ff41cba810c4466b643d42b9775d2b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1872"
       },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
       "sc:name": "Taxonomic classification"
+    },
+    {
+      "@id": "https://doi.org/10.1099/ijsem.0.004332",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

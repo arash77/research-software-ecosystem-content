@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N38c30a9b849e446e95bc026a26b492e3"
+          "@id": "_:Ncfca30234bf2439e8b0add6825caac10"
         },
         {
-          "@id": "_:N088cb26557ac44618b441adc854099cb"
+          "@id": "_:N54a65d167b6c4f3db589a41a0926612c"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne095af5401914a9a9f43f85a86f91943"
+        "@id": "_:Nc73723b8c9234d35819ed116936c85f8"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -55,15 +55,15 @@
         "@id": "edam:topic_3343"
       },
       "sc:citation": [
-        {
-          "@id": "https://doi.org/10.1093/nar/gkv306"
-        },
+        "pmcid:PMC4489289",
         "pubmed:25855812",
         {
           "@id": "https://doi.org/10.3390/ijms20184648"
         },
         "pmcid:PMC6769597",
-        "pmcid:PMC4489289",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkv306"
+        },
         "pubmed:31546814"
       ],
       "sc:description": "Automated virtual screening with AutoDock Vina.",
@@ -80,7 +80,7 @@
       "sc:url": "https://mobyle.rpbs.univ-paris-diderot.fr/cgi-bin/portal.py#forms::MTiOpenScreen"
     },
     {
-      "@id": "_:Ne095af5401914a9a9f43f85a86f91943",
+      "@id": "_:Nc73723b8c9234d35819ed116936c85f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -91,7 +91,7 @@
       "sc:name": "Protein-ligand complex"
     },
     {
-      "@id": "_:N38c30a9b849e446e95bc026a26b492e3",
+      "@id": "_:Ncfca30234bf2439e8b0add6825caac10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -107,27 +107,27 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N088cb26557ac44618b441adc854099cb",
+      "@id": "_:N54a65d167b6c4f3db589a41a0926612c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3816"
+          "@id": "edam:format_3814"
         },
         {
-          "@id": "edam:format_3814"
+          "@id": "edam:format_3816"
         }
       ],
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkv306",
+      "@id": "https://doi.org/10.3390/ijms20184648",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.3390/ijms20184648",
+      "@id": "https://doi.org/10.1093/nar/gkv306",
       "@type": "sc:CreativeWork"
     }
   ]

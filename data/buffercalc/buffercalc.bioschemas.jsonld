@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/buffercalc",
       "@type": "sc:SoftwareApplication",
       "bsc:output": {
-        "@id": "_:N0e6572e107ac4950be686b59e85bfdce"
+        "@id": "_:N8fc72ac35b70494190383512680572be"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -61,7 +61,7 @@
       "sc:url": "http://phbuffers.org/BuffferCalc/Buffer.html"
     },
     {
-      "@id": "_:N0e6572e107ac4950be686b59e85bfdce",
+      "@id": "_:N8fc72ac35b70494190383512680572be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"

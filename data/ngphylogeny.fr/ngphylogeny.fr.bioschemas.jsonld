@@ -36,38 +36,42 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkz303",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/NGphylogeny.fr",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Frédéric Lemoine",
       "bsc:input": [
         {
-          "@id": "_:N3f706559bf15437abcaa4fafe336ee20"
+          "@id": "_:N7b2a8fddbb784f058822b15e40eaaac9"
         },
         {
-          "@id": "_:N69f2e107e3c247cc8383f0f780e310fc"
+          "@id": "_:Nb7848640735e40c3b5d2b3d7055aa5e1"
         },
         {
-          "@id": "_:Nd6ab24d6a7f3475fba3b8ff17e319f3b"
+          "@id": "_:Ndf40abd7f3b84f78a0269a447a0ca188"
         },
         {
-          "@id": "_:N606f4b294af74fe09261156e29d63166"
+          "@id": "_:N98a9cbc7ac744fcbae2b0f7966c89b04"
         },
         {
-          "@id": "_:Ncc7e910a126342c4a767532b74b9c91b"
+          "@id": "_:N4465c48cfdb8470fa1f3772874f7cdcc"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8c1bbb383e4c48dd940b4928e25e8d94"
+          "@id": "_:Ndfa8017c21064bd799aa6fd0061e92b1"
         },
         {
-          "@id": "_:N4ab06a1ccaa248d4a6d558239b27db1f"
+          "@id": "_:N97baeb8e76024f509cb8d4e8a2910ca3"
         },
         {
-          "@id": "_:N51488d09c4ee4ea490d1e008dc62eb4e"
+          "@id": "_:Na6b216bc642b47f9b9e1364a34cac345"
         },
         {
-          "@id": "_:N3a735fcd564a4d2db8f2ea70228a8002"
+          "@id": "_:Ne76247eaae964774b448e0f2ab4f8c5d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -78,10 +82,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_3293"
         },
         {
-          "@id": "edam:topic_3293"
+          "@id": "edam:topic_0091"
         }
       ],
       "sc:author": [
@@ -96,8 +100,8 @@
         "pmcid:PMC6602494"
       ],
       "sc:contributor": [
-        "Vincent Lefort",
-        "Fabien Mareuil"
+        "Fabien Mareuil",
+        "Vincent Lefort"
       ],
       "sc:description": "Free, simple to use web service dedicated to reconstructing and analysing phylogenetic relationships between molecular sequences.",
       "sc:featureList": [
@@ -105,13 +109,13 @@
           "@id": "edam:operation_2089"
         },
         {
-          "@id": "edam:operation_0567"
+          "@id": "edam:operation_0492"
         },
         {
           "@id": "edam:operation_0540"
         },
         {
-          "@id": "edam:operation_0492"
+          "@id": "edam:operation_0567"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -127,7 +131,7 @@
       "sc:url": "https://ngphylogeny.fr/"
     },
     {
-      "@id": "_:N8c1bbb383e4c48dd940b4928e25e8d94",
+      "@id": "_:N7b2a8fddbb784f058822b15e40eaaac9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -135,69 +139,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N4ab06a1ccaa248d4a6d558239b27db1f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3271"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3604"
-        },
-        {
-          "@id": "edam:format_3508"
-        }
-      ],
-      "sc:name": "Gene tree"
-    },
-    {
-      "@id": "_:N51488d09c4ee4ea490d1e008dc62eb4e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3271"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1910"
-      },
-      "sc:name": "Gene tree"
-    },
-    {
-      "@id": "_:N3a735fcd564a4d2db8f2ea70228a8002",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N3f706559bf15437abcaa4fafe336ee20",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3271"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1910"
-      },
-      "sc:name": "Gene tree"
-    },
-    {
-      "@id": "_:N69f2e107e3c247cc8383f0f780e310fc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Nd6ab24d6a7f3475fba3b8ff17e319f3b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:N606f4b294af74fe09261156e29d63166",
+      "@id": "_:Nb7848640735e40c3b5d2b3d7055aa5e1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -205,7 +147,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Ncc7e910a126342c4a767532b74b9c91b",
+      "@id": "_:Ndf40abd7f3b84f78a0269a447a0ca188",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -213,8 +155,66 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkz303",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N98a9cbc7ac744fcbae2b0f7966c89b04",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3271"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Gene tree"
+    },
+    {
+      "@id": "_:N4465c48cfdb8470fa1f3772874f7cdcc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Ndfa8017c21064bd799aa6fd0061e92b1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3271"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Gene tree"
+    },
+    {
+      "@id": "_:N97baeb8e76024f509cb8d4e8a2910ca3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Na6b216bc642b47f9b9e1364a34cac345",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Ne76247eaae964774b448e0f2ab4f8c5d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3271"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_3604"
+        }
+      ],
+      "sc:name": "Gene tree"
     }
   ]
 }

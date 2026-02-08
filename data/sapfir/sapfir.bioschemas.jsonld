@@ -40,45 +40,45 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3654b6e43c5c410dbf998a61d8021791"
+          "@id": "_:N51e99d75466a458d85c2101f992797eb"
         },
         {
-          "@id": "_:N2b26898766d743c28c175d9fde0f5e11"
+          "@id": "_:N3fb3284350604314a79ff364e967e70f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3512"
+          "@id": "edam:topic_3320"
         },
         {
-          "@id": "edam:topic_3510"
+          "@id": "edam:topic_3512"
         },
         {
           "@id": "edam:topic_0749"
         },
         {
-          "@id": "edam:topic_3320"
+          "@id": "edam:topic_3510"
         },
         {
           "@id": "edam:topic_0736"
         }
       ],
       "sc:citation": [
+        "pubmed:35751026",
         {
           "@id": "https://doi.org/10.1186/s12859-022-04804-w"
         },
-        "pmcid:PMC9229502",
-        "pubmed:35751026"
+        "pmcid:PMC9229502"
       ],
       "sc:description": "A webserver for the identification of alternative protein features.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3501"
+          "@id": "edam:operation_0433"
         },
         {
-          "@id": "edam:operation_0433"
+          "@id": "edam:operation_3501"
         },
         {
           "@id": "edam:operation_0303"
@@ -91,27 +91,27 @@
       "sc:license": "GPL-3.0",
       "sc:name": "SAPFIR",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:url": "https://bioinfo-scottgroup.med.usherbrooke.ca/sapfir/"
     },
     {
-      "@id": "_:N3654b6e43c5c410dbf998a61d8021791",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1033"
-      },
-      "sc:name": "Ensembl gene ID"
-    },
-    {
-      "@id": "_:N2b26898766d743c28c175d9fde0f5e11",
+      "@id": "_:N51e99d75466a458d85c2101f992797eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2298"
       },
       "sc:name": "Gene ID (HGNC)"
+    },
+    {
+      "@id": "_:N3fb3284350604314a79ff364e967e70f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1033"
+      },
+      "sc:name": "Ensembl gene ID"
     },
     {
       "@id": "https://doi.org/10.1186/s12859-022-04804-w",

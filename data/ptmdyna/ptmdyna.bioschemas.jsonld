@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/ptmdyna",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8069a931d0594e0eac4cb7f9f8ccda1e"
+        "@id": "_:Ne96c1b1630ee43a29df2e90ed8ac162d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -76,26 +76,26 @@
           "@id": "edam:operation_2476"
         },
         {
+          "@id": "edam:operation_0417"
+        },
+        {
           "@id": "edam:operation_0244"
         },
         {
           "@id": "edam:operation_3755"
-        },
-        {
-          "@id": "edam:operation_0417"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "PTMdyna",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "http://ccbportal.com/PTMdyna"
     },
     {
-      "@id": "_:N8069a931d0594e0eac4cb7f9f8ccda1e",
+      "@id": "_:Ne96c1b1630ee43a29df2e90ed8ac162d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

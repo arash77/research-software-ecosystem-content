@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf307fbb927804cceb83187b4f4eaf722"
+          "@id": "_:N89285ec6170f4b88a8679cd5ef8f55ab"
         },
         {
-          "@id": "_:N1d4188d40394423ea9a918aca8199dbd"
+          "@id": "_:Ned9fc187b33c4942ad056eded495229d"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne79ad51392114bfda814822b3c5a8b48"
+        "@id": "_:N292a46d1c31e4fabb74ecfe4518b3ebf"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Suite",
@@ -66,7 +66,7 @@
       "sc:url": "https://github.com/PGSB-HMGU/plant.annot"
     },
     {
-      "@id": "_:Ne79ad51392114bfda814822b3c5a8b48",
+      "@id": "_:N292a46d1c31e4fabb74ecfe4518b3ebf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -74,7 +74,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:Nf307fbb927804cceb83187b4f4eaf722",
+      "@id": "_:N89285ec6170f4b88a8679cd5ef8f55ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -85,7 +85,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N1d4188d40394423ea9a918aca8199dbd",
+      "@id": "_:Ned9fc187b33c4942ad056eded495229d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

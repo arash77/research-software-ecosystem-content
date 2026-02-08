@@ -39,16 +39,16 @@
       "@id": "https://bio.tools/prop",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na47e459ace394fe2a88ffb18b5ce3caa"
+        "@id": "_:N17212e10dda7431da94d8c2aaff66d3a"
       },
       "bsc:output": {
-        "@id": "_:N227cd8a9729e485691e28f2e1a14c8b1"
+        "@id": "_:Nc90fb31ed5854a31aa429a3e14fbe1ef"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web service",
         "Command-line tool",
-        "Web application"
+        "Web application",
+        "Web service"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3510"
@@ -67,9 +67,9 @@
       "sc:license": "Other",
       "sc:name": "ProP",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": {
@@ -79,7 +79,7 @@
       "sc:url": "http://cbs.dtu.dk/services/ProP/"
     },
     {
-      "@id": "_:Na47e459ace394fe2a88ffb18b5ce3caa",
+      "@id": "_:N17212e10dda7431da94d8c2aaff66d3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -90,7 +90,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N227cd8a9729e485691e28f2e1a14c8b1",
+      "@id": "_:Nc90fb31ed5854a31aa429a3e14fbe1ef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"

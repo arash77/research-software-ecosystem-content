@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Mark Davies",
       "bsc:input": {
-        "@id": "_:N6b8a1f697b194d38b2bee18a7461eb88"
+        "@id": "_:N5a68512a089f416685e0619729f0ebcb"
       },
       "bsc:output": {
-        "@id": "_:Nbc49580e56424d21b90ec4265455a5ed"
+        "@id": "_:N1054234b07fd4e26a54e1fba919d2510"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -89,15 +89,7 @@
       "sc:url": "https://www.ebi.ac.uk/chembl/malaria/target"
     },
     {
-      "@id": "_:Nbc49580e56424d21b90ec4265455a5ed",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0857"
-      },
-      "sc:name": "Sequence search results"
-    },
-    {
-      "@id": "_:N6b8a1f697b194d38b2bee18a7461eb88",
+      "@id": "_:N5a68512a089f416685e0619729f0ebcb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -106,6 +98,14 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N1054234b07fd4e26a54e1fba919d2510",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkr777",

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/seqlm",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6cc33cd970a94fa8b02888a1e2323869"
+        "@id": "_:N42de05f5a4584961804fb44f037fdb92"
       },
       "bsc:output": {
-        "@id": "_:Naa93404b8d2d4ee6b5a0a05854004fef"
+        "@id": "_:Ne4735e32f658459897b0c1c760a9189b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -50,11 +50,11 @@
         "@id": "edam:topic_0160"
       },
       "sc:citation": [
+        "pmcid:PMC5013909",
         "pubmed:27187204",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btw304"
-        },
-        "pmcid:PMC5013909"
+        }
       ],
       "sc:description": "An R package for identification of differentially methylated regions (DMRs) from high density chip, for example Illumina 450K, data.",
       "sc:featureList": {
@@ -62,8 +62,8 @@
       },
       "sc:name": "seqlm",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
+        "Windows",
         "Mac"
       ],
       "sc:provider": "ELIXIR-EE",
@@ -74,7 +74,7 @@
       "sc:url": "https://github.com/raivokolde/seqlm"
     },
     {
-      "@id": "_:Naa93404b8d2d4ee6b5a0a05854004fef",
+      "@id": "_:Ne4735e32f658459897b0c1c760a9189b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -82,7 +82,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N6cc33cd970a94fa8b02888a1e2323869",
+      "@id": "_:N42de05f5a4584961804fb44f037fdb92",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"

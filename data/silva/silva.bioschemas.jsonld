@@ -36,150 +36,146 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/silva",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "SILVA Team",
       "bsc:input": [
         {
-          "@id": "_:Nac1f08140f81494c80bc4f9d2653bc8e"
+          "@id": "_:Nd73e869cdc054753b997129bb84f2d1f"
         },
         {
-          "@id": "_:N966b50c138ba41ab8497f62d107bcd27"
+          "@id": "_:Ne525740caa654ac5b2fe4fa2306e91ba"
         },
         {
-          "@id": "_:N0f6239df6cf64d31980472b1c66a361a"
+          "@id": "_:N95e8c36becfe4243bbb0c658f3cb172e"
         },
         {
-          "@id": "_:N9fa0536e86a740b3a41b24dabadd359d"
+          "@id": "_:Ne5da553b6d634afc906d098477d7ba22"
         },
         {
-          "@id": "_:N5e70d795d84e46c4b145b09081ca7e33"
+          "@id": "_:N340fc1b6ae804602ae780403f9d4fc12"
         },
         {
-          "@id": "_:Nfd4791d1018943649c94d2c5cb0e0c9c"
+          "@id": "_:N2df4a6858ce34d2f96fce38f20021889"
         },
         {
-          "@id": "_:N11dca4bff92e4d66920b599a221601d0"
+          "@id": "_:N698fa1cf8b264f17aa8c792413f09e45"
         },
         {
-          "@id": "_:N7afb7369f8244a19916a15372f05722b"
+          "@id": "_:N6ac98ed37cd941a6af9848f9d3f2d46d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nbb83ede505dc4198bf5a43619505e951"
+          "@id": "_:Na0063fb66026499baf233e7d70fcd9a8"
         },
         {
-          "@id": "_:N09ec37b5db6a48a1b31a7853c299bd18"
+          "@id": "_:N43babb5a0de74cc38aecdd5966848ef5"
         },
         {
-          "@id": "_:Nbf76b0b855674db8bf19f1d2fcb96cc4"
+          "@id": "_:Nd1f88785d5f94ba68508eaa546f722aa"
         },
         {
-          "@id": "_:N8d5c8b4c85114a8db25a94751f0262b3"
+          "@id": "_:N55c10880bba844b0a13cfafd7fb26d39"
         },
         {
-          "@id": "_:N0442e12133714349b196b01f0c2cfe7b"
+          "@id": "_:Na825ba0760d348f9ad179e9de87749d2"
         },
         {
-          "@id": "_:N5133d7e0d9a84420a26c7dcf6f6dc906"
+          "@id": "_:Na26ee00aa0a94ec3b89d650ff6fb98b1"
         },
         {
-          "@id": "_:N60375991d0a74b9b894835da3a124a63"
+          "@id": "_:N9c085b6ae43243fda6c73cada33a4c11"
         },
         {
-          "@id": "_:Nd4d59db6dc1b4eb0bdba67e04b52389c"
+          "@id": "_:Nb9368d43108a468cbae91caed8b31a31"
         },
         {
-          "@id": "_:Nb570344d13324596bb1ffc8d9362c73d"
+          "@id": "_:N2c287635459e477684cc8c33f7a59d3b"
         },
         {
-          "@id": "_:N01d1c2180f26449ea9a00c71e2ade52f"
+          "@id": "_:N1e4446746557435390ad06c9766a05b3"
         },
         {
-          "@id": "_:Nc1099e38856747c8a39b0ff0ac961b92"
+          "@id": "_:Nd1a08b758f9148998933ac63a09d8bf4"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Database portal",
-        "Web application"
+        "Web application",
+        "Database portal"
       ],
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0632"
+        },
         {
           "@id": "edam:topic_0637"
         },
         {
-          "@id": "edam:topic_0632"
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3050"
+        },
+        {
+          "@id": "edam:topic_3293"
         },
         {
           "@id": "edam:topic_3301"
         },
         {
           "@id": "edam:topic_0659"
-        },
-        {
-          "@id": "edam:topic_0080"
-        },
-        {
-          "@id": "edam:topic_3293"
-        },
-        {
-          "@id": "edam:topic_3050"
         }
       ],
       "sc:citation": [
-        "pubmed:17947321",
-        "pmcid:PMC3531112",
-        "pmcid:PMC2175337",
+        "pmcid:PMC3389763",
+        "pmcid:PMC3965112",
         {
-          "@id": "https://doi.org/10.1093/nar/gks1219"
+          "@id": "https://doi.org/10.1093/nar/gkt1209"
         },
-        "pubmed:24293649",
+        "pubmed:17947321",
         {
           "@id": "https://doi.org/10.1016/j.jbiotec.2017.06.1198"
         },
-        "pubmed:28648396",
-        "pubmed:23193283",
         {
           "@id": "https://doi.org/10.1186/s12859-017-1841-3"
         },
-        "pmcid:PMC3389763",
-        "pubmed:22556368",
+        "pubmed:23193283",
+        {
+          "@id": "https://doi.org/10.1093/nar/gks1219"
+        },
         {
           "@id": "https://doi.org/10.1093/nar/gkm864"
         },
-        "pmcid:PMC3965112",
+        "pubmed:28648396",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bts252"
         },
-        {
-          "@id": "https://doi.org/10.1093/nar/gkt1209"
-        }
+        "pmcid:PMC3531112",
+        "pubmed:22556368",
+        "pmcid:PMC2175337",
+        "pubmed:24293649"
       ],
       "sc:description": "SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukaryota).",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0496"
-        },
-        {
-          "@id": "edam:operation_0492"
+          "@id": "edam:operation_0224"
         },
         {
           "@id": "edam:operation_2419"
         },
         {
+          "@id": "edam:operation_3460"
+        },
+        {
+          "@id": "edam:operation_0492"
+        },
+        {
           "@id": "edam:operation_0547"
         },
         {
-          "@id": "edam:operation_0224"
-        },
-        {
-          "@id": "edam:operation_3460"
+          "@id": "edam:operation_0496"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -188,196 +184,22 @@
       "sc:provider": "Leibniz Institute DSMZ-German Collection of Microorganisms and Cell Cultures",
       "sc:softwareHelp": [
         {
-          "@id": "https://www.arb-silva.de/documentation/faqs/"
-        },
-        {
-          "@id": "https://www.arb-silva.de/documentation/"
-        },
-        {
           "@id": "https://www.arb-silva.de/contact/"
         },
         {
           "@id": "https://www.arb-silva.de/silva-license-information/"
+        },
+        {
+          "@id": "https://www.arb-silva.de/documentation/faqs/"
+        },
+        {
+          "@id": "https://www.arb-silva.de/documentation/"
         }
       ],
       "sc:url": "https://www.arb-silva.de"
     },
     {
-      "@id": "_:Nac1f08140f81494c80bc4f9d2653bc8e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1088"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1964"
-      },
-      "sc:name": "Article ID"
-    },
-    {
-      "@id": "_:N966b50c138ba41ab8497f62d107bcd27",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1868"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1964"
-      },
-      "sc:name": "Taxon"
-    },
-    {
-      "@id": "_:N0f6239df6cf64d31980472b1c66a361a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1097"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1964"
-      },
-      "sc:name": "Sequence accession (nucleic acid)"
-    },
-    {
-      "@id": "_:N9fa0536e86a740b3a41b24dabadd359d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1207"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:N5e70d795d84e46c4b145b09081ca7e33",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1984"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:Nfd4791d1018943649c94d2c5cb0e0c9c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2909"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1964"
-      },
-      "sc:name": "Organism name"
-    },
-    {
-      "@id": "_:N11dca4bff92e4d66920b599a221601d0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1046"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1964"
-      },
-      "sc:name": "Strain name"
-    },
-    {
-      "@id": "_:N7afb7369f8244a19916a15372f05722b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1240"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1207"
-      },
-      "sc:name": "PCR primers"
-    },
-    {
-      "@id": "_:Nbb83ede505dc4198bf5a43619505e951",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1984"
-        },
-        {
-          "@id": "edam:format_3830"
-        }
-      ],
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:N09ec37b5db6a48a1b31a7853c299bd18",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1383"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3830"
-        },
-        {
-          "@id": "edam:format_1984"
-        }
-      ],
-      "sc:name": "Nucleic acid sequence alignment"
-    },
-    {
-      "@id": "_:Nbf76b0b855674db8bf19f1d2fcb96cc4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3830"
-        },
-        {
-          "@id": "edam:format_1984"
-        }
-      ],
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:N8d5c8b4c85114a8db25a94751f0262b3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1872"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Taxonomic classification"
-    },
-    {
-      "@id": "_:N0442e12133714349b196b01f0c2cfe7b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1383"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1984"
-        },
-        {
-          "@id": "edam:format_3830"
-        }
-      ],
-      "sc:name": "Sequence alignment (nucleic acid)"
-    },
-    {
-      "@id": "_:N5133d7e0d9a84420a26c7dcf6f6dc906",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1910"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:N60375991d0a74b9b894835da3a124a63",
+      "@id": "_:Na0063fb66026499baf233e7d70fcd9a8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -393,23 +215,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nd4d59db6dc1b4eb0bdba67e04b52389c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0867"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3752"
-        }
-      ],
-      "sc:name": "Sequence alignment report"
-    },
-    {
-      "@id": "_:Nb570344d13324596bb1ffc8d9362c73d",
+      "@id": "_:N43babb5a0de74cc38aecdd5966848ef5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -420,18 +226,7 @@
       "sc:name": "Sequence report"
     },
     {
-      "@id": "_:N01d1c2180f26449ea9a00c71e2ade52f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2333"
-      },
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:Nc1099e38856747c8a39b0ff0ac961b92",
+      "@id": "_:Nd1f88785d5f94ba68508eaa546f722aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -447,11 +242,212 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkt1209",
+      "@id": "_:N55c10880bba844b0a13cfafd7fb26d39",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3830"
+        },
+        {
+          "@id": "edam:format_1984"
+        }
+      ],
+      "sc:name": "Sequence alignment (nucleic acid)"
+    },
+    {
+      "@id": "_:Na825ba0760d348f9ad179e9de87749d2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1984"
+        },
+        {
+          "@id": "edam:format_3830"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Na26ee00aa0a94ec3b89d650ff6fb98b1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Taxonomic classification"
+    },
+    {
+      "@id": "_:N9c085b6ae43243fda6c73cada33a4c11",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1984"
+        },
+        {
+          "@id": "edam:format_3830"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nb9368d43108a468cbae91caed8b31a31",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0867"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Sequence alignment report"
+    },
+    {
+      "@id": "_:N2c287635459e477684cc8c33f7a59d3b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1984"
+        },
+        {
+          "@id": "edam:format_3830"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "_:N1e4446746557435390ad06c9766a05b3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:Nd1a08b758f9148998933ac63a09d8bf4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:Nd73e869cdc054753b997129bb84f2d1f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2909"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Organism name"
+    },
+    {
+      "@id": "_:Ne525740caa654ac5b2fe4fa2306e91ba",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1207"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N95e8c36becfe4243bbb0c658f3cb172e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1868"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Taxon"
+    },
+    {
+      "@id": "_:Ne5da553b6d634afc906d098477d7ba22",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1240"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1207"
+      },
+      "sc:name": "PCR primers"
+    },
+    {
+      "@id": "_:N340fc1b6ae804602ae780403f9d4fc12",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1088"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Article ID"
+    },
+    {
+      "@id": "_:N2df4a6858ce34d2f96fce38f20021889",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1984"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N698fa1cf8b264f17aa8c792413f09e45",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1046"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Strain name"
+    },
+    {
+      "@id": "_:N6ac98ed37cd941a6af9848f9d3f2d46d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1097"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Sequence accession (nucleic acid)"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gks1219",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1016/j.jbiotec.2017.06.1198",
+      "@id": "https://doi.org/10.1093/nar/gkt1209",
       "@type": "sc:CreativeWork"
     },
     {
@@ -459,11 +455,15 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gks1219",
+      "@id": "https://doi.org/10.1016/j.jbiotec.2017.06.1198",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1186/s12859-017-1841-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts252",
       "@type": "sc:CreativeWork"
     }
   ]

@@ -68,8 +68,8 @@
       "sc:name": "MKDCNet",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:url": "https://github.com/nikhilroxtomar/MKDCNet"
     }

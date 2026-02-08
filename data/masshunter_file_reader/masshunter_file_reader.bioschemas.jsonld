@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/masshunter_file_reader",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3d630e7ff1ee458b81d6085305c9a5ca"
+        "@id": "_:Nc8ef18d160a547abb71c1b1830852ed3"
       },
       "bsc:output": {
-        "@id": "_:N6276a79ebb99421a8875638aadd9c0b4"
+        "@id": "_:Nd93a92fb92f74cd09b0800bd55dbd08f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -57,19 +57,19 @@
       "sc:description": "Access raw data from Agilent MassHunter GC/MS and GC/MS/MS, export to plain text.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3694"
-        },
-        {
           "@id": "edam:operation_3203"
         },
         {
           "@id": "edam:operation_0335"
+        },
+        {
+          "@id": "edam:operation_3694"
         }
       ],
       "sc:name": "MassHunter File Reader",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -78,24 +78,24 @@
       "sc:url": "http://www.quadtechassociates.com/freeware.html"
     },
     {
-      "@id": "_:N6276a79ebb99421a8875638aadd9c0b4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Mass spectrometry spectra"
-    },
-    {
-      "@id": "_:N3d630e7ff1ee458b81d6085305c9a5ca",
+      "@id": "_:Nc8ef18d160a547abb71c1b1830852ed3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_3245"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Nd93a92fb92f74cd09b0800bd55dbd08f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
       },
       "sc:name": "Mass spectrometry spectra"
     }

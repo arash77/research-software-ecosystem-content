@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Fabian Schmich",
       "bsc:input": {
-        "@id": "_:N623548d535d647d6a8930a332eb51b24"
+        "@id": "_:N0668c4d4651c46638a7afb1802fb4590"
       },
       "bsc:output": [
         {
-          "@id": "_:Nb1b3f8ac83044c7bab664da0305936c0"
+          "@id": "_:Nb09d8bca16694246968ad2abd315bee9"
         },
         {
-          "@id": "_:N8f2bbf610b944376b2555b9d6e53ef19"
+          "@id": "_:Nb328fb11b0a845aa88ffbc00ecd9ff21"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,10 +57,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2269"
+          "@id": "edam:topic_3523"
         },
         {
-          "@id": "edam:topic_3523"
+          "@id": "edam:topic_2269"
         }
       ],
       "sc:citation": [
@@ -93,23 +93,34 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/gespeR.html"
     },
     {
-      "@id": "_:Nb1b3f8ac83044c7bab664da0305936c0",
+      "@id": "_:N0668c4d4651c46638a7afb1802fb4590",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:Nb09d8bca16694246968ad2abd315bee9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Score"
     },
     {
-      "@id": "_:N8f2bbf610b944376b2555b9d6e53ef19",
+      "@id": "_:Nb328fb11b0a845aa88ffbc00ecd9ff21",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -123,17 +134,6 @@
         }
       ],
       "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N623548d535d647d6a8930a332eb51b24",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Gene expression data"
     },
     {
       "@id": "https://doi.org/10.1186/s13059-015-0783-1",

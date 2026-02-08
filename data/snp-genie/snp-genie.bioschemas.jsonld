@@ -39,22 +39,22 @@
       "@id": "https://bio.tools/snp-genie",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N72a24580d9e14d919c4df5c2cc9b4aa3"
+        "@id": "_:N639f06f75e0f42dda8542ad336580830"
       },
       "bsc:output": {
-        "@id": "_:N0ed3388b36404ad89c1a6f3740fe77f9"
+        "@id": "_:Ne0b1767d50ae4b5ba87de0203a5a97be"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Desktop application",
-        "Command-line tool"
+        "Command-line tool",
+        "Desktop application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3293"
+          "@id": "edam:topic_2533"
         },
         {
-          "@id": "edam:topic_2533"
+          "@id": "edam:topic_3293"
         }
       ],
       "sc:author": {
@@ -68,8 +68,8 @@
       "sc:license": "GPL-3.0",
       "sc:name": "snpgenie",
       "sc:operatingSystem": [
-        "Linux",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/dmnfarrell/snpgenie"
@@ -77,7 +77,7 @@
       "sc:url": "https://github.com/dmnfarrell/snpgenie"
     },
     {
-      "@id": "_:N72a24580d9e14d919c4df5c2cc9b4aa3",
+      "@id": "_:N639f06f75e0f42dda8542ad336580830",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -88,7 +88,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N0ed3388b36404ad89c1a6f3740fe77f9",
+      "@id": "_:Ne0b1767d50ae4b5ba87de0203a5a97be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

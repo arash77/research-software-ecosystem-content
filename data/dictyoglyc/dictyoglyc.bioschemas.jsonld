@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ramneek Gupta",
       "bsc:input": {
-        "@id": "_:Ne92e494e7c8c448f9fba0adb77d15e38"
+        "@id": "_:N7f29e8b22d5a405b92d9f724685b399b"
       },
       "bsc:output": [
         {
-          "@id": "_:N1b363383baae47e79e71c8651f65fa3c"
+          "@id": "_:Na03409e554d540ae92aad3a74af0716a"
         },
         {
-          "@id": "_:N3577a7e1b4bf4c3fadf4c3357752c8ec"
+          "@id": "_:N17ce5b6f5bcd42e08e6027d0fcdea28c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -61,10 +61,10 @@
         }
       ],
       "sc:citation": [
-        "pubmed:10521537",
         {
           "@id": "https://doi.org/10.1093/glycob/9.10.1009"
-        }
+        },
+        "pubmed:10521537"
       ],
       "sc:description": "Neural network predictions for GlcNAc O-glycosylation sites in Dictyostelium discoideum proteins.",
       "sc:featureList": {
@@ -82,7 +82,7 @@
       "sc:url": "http://cbs.dtu.dk/services/DictyOGlyc/"
     },
     {
-      "@id": "_:Ne92e494e7c8c448f9fba0adb77d15e38",
+      "@id": "_:N7f29e8b22d5a405b92d9f724685b399b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -93,18 +93,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N1b363383baae47e79e71c8651f65fa3c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:N3577a7e1b4bf4c3fadf4c3357752c8ec",
+      "@id": "_:Na03409e554d540ae92aad3a74af0716a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -113,6 +102,17 @@
         "@id": "edam:format_2333"
       },
       "sc:name": "Sequence report"
+    },
+    {
+      "@id": "_:N17ce5b6f5bcd42e08e6027d0fcdea28c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein features"
     },
     {
       "@id": "https://doi.org/10.1093/glycob/9.10.1009",

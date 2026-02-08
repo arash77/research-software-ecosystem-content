@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkm825",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/unitrap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ndab861f036ee432bbd07a023845cf8ff"
+        "@id": "_:N1298b5b834754a299fb1b58a30f89445"
       },
       "bsc:output": {
-        "@id": "_:N9609ce23c5844231a5af9683e30ed91d"
+        "@id": "_:N20453fc330aa433d8f7ff21cf3bce548"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -50,11 +54,11 @@
         "@id": "edam:topic_0114"
       },
       "sc:citation": [
+        "pubmed:17942430",
+        "pmcid:PMC2238955",
         {
           "@id": "https://doi.org/10.1093/nar/gkm825"
-        },
-        "pubmed:17942430",
-        "pmcid:PMC2238955"
+        }
       ],
       "sc:description": "Tools for the biologist enabling optimized use of gene trap clones.",
       "sc:featureList": {
@@ -62,9 +66,9 @@
       },
       "sc:name": "UniTrap gene trap clones",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://unitrap.crg.es/about.php"
@@ -72,7 +76,7 @@
       "sc:url": "http://unitrap.crg.es/about.php"
     },
     {
-      "@id": "_:Ndab861f036ee432bbd07a023845cf8ff",
+      "@id": "_:N1298b5b834754a299fb1b58a30f89445",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -80,7 +84,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:N9609ce23c5844231a5af9683e30ed91d",
+      "@id": "_:N20453fc330aa433d8f7ff21cf3bce548",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -89,10 +93,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Gene report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkm825",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

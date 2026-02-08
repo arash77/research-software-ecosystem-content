@@ -39,58 +39,64 @@
       "@id": "https://bio.tools/spectra",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6f9d3b74975446ebb375ad0c354f9a94"
+        "@id": "_:N561b4bfbe45949cc943ee1e22299806a"
       },
       "bsc:output": {
-        "@id": "_:N3679c4e2814541788eaa81cae6f8d40f"
+        "@id": "_:N3f9d21b5b52944be9e8f260e23f70f39"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0121"
+        },
+        {
           "@id": "edam:topic_3520"
         },
         {
           "@id": "edam:topic_3172"
-        },
-        {
-          "@id": "edam:topic_0121"
         }
       ],
       "sc:description": "The Spectra package defines an efficient infrastructure for storing and handling mass spectrometry spectra and functionality to subset, process, visualize and compare spectra data. It provides different implementations (backends) to store mass spectrometry data. These comprise backends tuned for fast data access and processing and backends for very large data sets ensuring a small memory footprint.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3695"
+          "@id": "edam:operation_3214"
         },
         {
-          "@id": "edam:operation_3214"
+          "@id": "edam:operation_3695"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "Artistic-2.0",
       "sc:name": "Spectra",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://jorainer.github.io/SpectraTutorials/"
+          "@id": "https://rformassspectrometry.github.io/Spectra/"
         },
         {
-          "@id": "https://rformassspectrometry.github.io/Spectra/"
+          "@id": "https://jorainer.github.io/SpectraTutorials/"
         }
       ],
       "sc:url": "https://github.com/RforMassSpectrometry/Spectra"
     },
     {
-      "@id": "_:N3679c4e2814541788eaa81cae6f8d40f",
+      "@id": "_:N561b4bfbe45949cc943ee1e22299806a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
       },
       "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3651"
+        },
         {
           "@id": "edam:format_3650"
         },
@@ -98,22 +104,13 @@
           "@id": "edam:format_3654"
         },
         {
-          "@id": "edam:format_3621"
-        },
-        {
           "@id": "edam:format_4039"
-        },
-        {
-          "@id": "edam:format_3244"
-        },
-        {
-          "@id": "edam:format_3651"
         }
       ],
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N6f9d3b74975446ebb375ad0c354f9a94",
+      "@id": "_:N3f9d21b5b52944be9e8f260e23f70f39",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -124,6 +121,9 @@
         },
         {
           "@id": "edam:format_3650"
+        },
+        {
+          "@id": "edam:format_3621"
         },
         {
           "@id": "edam:format_3654"

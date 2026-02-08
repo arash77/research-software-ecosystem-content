@@ -36,35 +36,39 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/gbe/evw010",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/phenetic_eqtl",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf3acb72ff90d4e97a86646faabe98d65"
+          "@id": "_:Nbc8227945fc147c0b18622717d6e3575"
         },
         {
-          "@id": "_:Ne1ed7ef754fe4117b68c7d11c131e28b"
+          "@id": "_:Nb4a692f1576e44fa8b23c65bcb6eb15d"
         },
         {
-          "@id": "_:N803f271c6ccb4fcc801010a2034b896f"
+          "@id": "_:Nea1fd9f2b86c418baf86a806600b264f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne8e2982dbf7347bea587f63ac62dc362"
+          "@id": "_:N48ac2ac2bfd441dba7b86c3b1f2ae90d"
         },
         {
-          "@id": "_:N1b205394f1724b5c9c93dca9a682b559"
+          "@id": "_:Nefcc34299e4e4ae2a9d381a48c1710f2"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0203"
+          "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_0203"
         }
       ],
       "sc:citation": [
@@ -81,13 +85,13 @@
       "sc:license": "GPL-2.0",
       "sc:name": "PheNetic eQTL",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
-        "ugent.be",
-        "Ghent University"
+        "Ghent University",
+        "ugent.be"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioinformatics.intec.ugent.be/phenetic_eqtl/index.html"
@@ -96,7 +100,15 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/phenetic_eqtl/index.html"
     },
     {
-      "@id": "_:Ne8e2982dbf7347bea587f63ac62dc362",
+      "@id": "_:N48ac2ac2bfd441dba7b86c3b1f2ae90d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Nefcc34299e4e4ae2a9d381a48c1710f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -104,15 +116,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N1b205394f1724b5c9c93dca9a682b559",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:Nf3acb72ff90d4e97a86646faabe98d65",
+      "@id": "_:Nbc8227945fc147c0b18622717d6e3575",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -120,15 +124,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:Ne1ed7ef754fe4117b68c7d11c131e28b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:name": "Gene expression data"
-    },
-    {
-      "@id": "_:N803f271c6ccb4fcc801010a2034b896f",
+      "@id": "_:Nb4a692f1576e44fa8b23c65bcb6eb15d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -136,8 +132,12 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "https://doi.org/10.1093/gbe/evw010",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nea1fd9f2b86c418baf86a806600b264f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:name": "Gene expression data"
     }
   ]
 }

@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.14806/EJ.21.A.807",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pacman",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7f0e38291393447dabb2a09c07b5e24e"
+          "@id": "_:N825595d53c9440aa96b8cf3656ed5fac"
         },
         {
-          "@id": "_:N215a725844e845708d58db9ba4095b43"
+          "@id": "_:N64df19426a8c417395610bdabd69eae7"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nc4f8b0a9b08e44ceb7643506a679369d"
+        "@id": "_:N484e3b2f94934aab99fbec4551564db6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -67,27 +63,16 @@
       },
       "sc:name": "PACMAN",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "SIB Swiss Institute of Bioinformatics",
       "sc:softwareVersion": "1",
       "sc:url": "http://www.unifr.ch/bugfri/pacman"
     },
     {
-      "@id": "_:N7f0e38291393447dabb2a09c07b5e24e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2084"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Nucleic acid report"
-    },
-    {
-      "@id": "_:N215a725844e845708d58db9ba4095b43",
+      "@id": "_:N825595d53c9440aa96b8cf3656ed5fac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -98,20 +83,35 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:Nc4f8b0a9b08e44ceb7643506a679369d",
+      "@id": "_:N64df19426a8c417395610bdabd69eae7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2084"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Nucleic acid report"
+    },
+    {
+      "@id": "_:N484e3b2f94934aab99fbec4551564db6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3508"
+          "@id": "edam:format_3603"
         },
         {
-          "@id": "edam:format_3603"
+          "@id": "edam:format_3508"
         }
       ],
       "sc:name": "Image"
+    },
+    {
+      "@id": "https://doi.org/10.14806/EJ.21.A.807",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

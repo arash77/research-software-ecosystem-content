@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-7271-733X",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/findcpcli",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nef23badbd8114e08a8e3d0879c092184"
+        "@id": "_:Na977a51996b64b89b35b25c71206f1f0"
       },
       "bsc:output": {
-        "@id": "_:Nf756958fbaf54d408f5e743817ddcb8e"
+        "@id": "_:N8a036b5953144d6899b4003bb6908390"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -61,16 +65,16 @@
       "sc:name": "findCPcli",
       "sc:softwareHelp": [
         {
-          "@id": "https://findcpcli.readthedocs.io/en/latest/"
+          "@id": "https://findcpcore.readthedocs.io/en/latest/"
         },
         {
-          "@id": "https://findcpcore.readthedocs.io/en/latest/"
+          "@id": "https://findcpcli.readthedocs.io/en/latest/"
         }
       ],
       "sc:url": "https://github.com/findCP/findCPcli"
     },
     {
-      "@id": "_:Nef23badbd8114e08a8e3d0879c092184",
+      "@id": "_:Na977a51996b64b89b35b25c71206f1f0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -81,7 +85,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nf756958fbaf54d408f5e743817ddcb8e",
+      "@id": "_:N8a036b5953144d6899b4003bb6908390",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -90,10 +94,6 @@
         "@id": "edam:format_3468"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-7271-733X",
-      "@type": "sc:Person"
     }
   ]
 }

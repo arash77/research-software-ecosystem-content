@@ -41,22 +41,22 @@
       "biotools:primaryContact": "Esteban Pérez-Wohlfeil",
       "bsc:input": [
         {
-          "@id": "_:Nec69a13097694199a926512be9b87d9a"
+          "@id": "_:Nc1aa2e42423a417d839eba03a66d29d2"
         },
         {
-          "@id": "_:N22475c2e85344ea4a72ef99f29aad641"
+          "@id": "_:N5d80a2f57acb423c9b863707bd15da44"
         },
         {
-          "@id": "_:Nda33fee73db64e96aa1dda8cdb3cea78"
+          "@id": "_:N8fdc6c4f6911430dba90045d1c5b5caf"
         }
       ],
       "bsc:output": {
-        "@id": "_:Na33fb9631aa2423b8fe1bc3c40e59b28"
+        "@id": "_:Nc297307cb56d4b28877f355ed5f7e90c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Web application"
+        "Web application",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0080"
@@ -82,7 +82,7 @@
       "sc:url": "http://bitlab-es.com/gecko/template.php#GECKO-CSB"
     },
     {
-      "@id": "_:Na33fb9631aa2423b8fe1bc3c40e59b28",
+      "@id": "_:Nc1aa2e42423a417d839eba03a66d29d2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"
@@ -93,7 +93,7 @@
       "sc:name": "Sequence alignment (pair)"
     },
     {
-      "@id": "_:Nec69a13097694199a926512be9b87d9a",
+      "@id": "_:N5d80a2f57acb423c9b863707bd15da44",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -104,7 +104,18 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N22475c2e85344ea4a72ef99f29aad641",
+      "@id": "_:N8fdc6c4f6911430dba90045d1c5b5caf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:Nc297307cb56d4b28877f355ed5f7e90c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"
@@ -113,17 +124,6 @@
         "@id": "edam:format_2333"
       },
       "sc:name": "Sequence alignment (pair)"
-    },
-    {
-      "@id": "_:Nda33fee73db64e96aa1dda8cdb3cea78",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "DNA sequence"
     }
   ]
 }

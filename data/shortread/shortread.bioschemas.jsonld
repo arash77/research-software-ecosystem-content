@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp450",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/shortread",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "BioConductor Package Maintainer",
@@ -64,18 +60,18 @@
           "@id": "edam:operation_2428"
         },
         {
-          "@id": "edam:operation_1812"
+          "@id": "edam:operation_0231"
         },
         {
-          "@id": "edam:operation_0231"
+          "@id": "edam:operation_1812"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "Artistic-2.0",
       "sc:name": "ShortRead",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -83,6 +79,10 @@
       },
       "sc:softwareVersion": "1.32.0",
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/ShortRead.html"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp450",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

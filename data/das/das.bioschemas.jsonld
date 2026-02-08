@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/protein/10.6.673",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/das",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd0db699b3db141968f9f89b38b74dda0"
+        "@id": "_:Nec52c23570454304a89e5ed6f816fb55"
       },
       "bsc:output": {
-        "@id": "_:Ne5cefa7ba47e489a850b6a0d59cc65d9"
+        "@id": "_:N9971579e189647a7a68a977b33fc02c7"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -54,10 +50,10 @@
         "@id": "edam:topic_0736"
       },
       "sc:citation": [
-        "pubmed:9278280",
         {
           "@id": "https://doi.org/10.1093/protein/10.6.673"
-        }
+        },
+        "pubmed:9278280"
       ],
       "sc:description": "Prediction of transmembrane regions.",
       "sc:featureList": {
@@ -68,8 +64,8 @@
       "sc:name": "DAS",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -79,7 +75,7 @@
       "sc:url": "https://tmdas.bioinfo.se/DAS/index.html"
     },
     {
-      "@id": "_:Ne5cefa7ba47e489a850b6a0d59cc65d9",
+      "@id": "_:N9971579e189647a7a68a977b33fc02c7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -87,12 +83,16 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:Nd0db699b3db141968f9f89b38b74dda0",
+      "@id": "_:Nec52c23570454304a89e5ed6f816fb55",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/protein/10.6.673",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

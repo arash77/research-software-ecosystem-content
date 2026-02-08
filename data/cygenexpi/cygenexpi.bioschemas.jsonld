@@ -36,16 +36,24 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s12859-018-2138-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-8886-7797",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/CyGenexpi",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0002-8886-7797"
       },
       "bsc:input": {
-        "@id": "_:N8caccc33ea2e4c0cae18724b770b09f3"
+        "@id": "_:N2e072b5eac6d4069b9228a5093922b62"
       },
       "bsc:output": {
-        "@id": "_:N7d53cf328b85472e89156ed75c53d398"
+        "@id": "_:N7bfb4a5c91e042888470bf30e5d41f87"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Plug-in",
@@ -56,11 +64,11 @@
         "@id": "http://orcid.org/0000-0002-8886-7797"
       },
       "sc:citation": [
-        "pmcid:PMC5899412",
-        "pubmed:29653518",
         {
           "@id": "https://doi.org/10.1186/s12859-018-2138-x"
-        }
+        },
+        "pmcid:PMC5899412",
+        "pubmed:29653518"
       ],
       "sc:description": "CyGenexpi is a Cytoscape plugin for validating/inferring genetic networks from time series expression data. It is based on a ordinary differential equation (ODE) model of gene regulation.",
       "sc:featureList": {
@@ -71,9 +79,9 @@
       "sc:license": "LGPL-3.0",
       "sc:name": "CyGenexpi",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/cas-bioinf/genexpi/wiki/CyGenexpi"
@@ -85,7 +93,7 @@
       "sc:url": "https://github.com/cas-bioinf/genexpi/wiki/CyGenexpi"
     },
     {
-      "@id": "_:N8caccc33ea2e4c0cae18724b770b09f3",
+      "@id": "_:N2e072b5eac6d4069b9228a5093922b62",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -96,7 +104,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N7d53cf328b85472e89156ed75c53d398",
+      "@id": "_:N7bfb4a5c91e042888470bf30e5d41f87",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
@@ -105,14 +113,6 @@
         "@id": "edam:format_3751"
       },
       "sc:name": "Pathway or network report"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s12859-018-2138-x",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0002-8886-7797",
-      "@type": "sc:Person"
     }
   ]
 }

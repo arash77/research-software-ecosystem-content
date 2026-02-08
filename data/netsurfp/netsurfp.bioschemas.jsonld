@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Bent Petersen",
       "bsc:input": {
-        "@id": "_:N626e9b4469ae4d419ddfc37966da71e0"
+        "@id": "_:N037a92e5b6ee4dada405084913d880da"
       },
       "bsc:output": {
-        "@id": "_:N846166be9ce74e838c5ed1ef1307b7ba"
+        "@id": "_:N1ddf1ecceb0f4670bbce64cb07bee6be"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -68,9 +68,9 @@
       "sc:license": "Other",
       "sc:name": "NetSurfP",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": {
@@ -80,18 +80,7 @@
       "sc:url": "http://cbs.dtu.dk/services/NetSurfP/"
     },
     {
-      "@id": "_:N846166be9ce74e838c5ed1ef1307b7ba",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2085"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Structure report"
-    },
-    {
-      "@id": "_:N626e9b4469ae4d419ddfc37966da71e0",
+      "@id": "_:N037a92e5b6ee4dada405084913d880da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -100,6 +89,17 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N1ddf1ecceb0f4670bbce64cb07bee6be",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2085"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Structure report"
     },
     {
       "@id": "https://doi.org/10.1186/1472-6807-9-51",

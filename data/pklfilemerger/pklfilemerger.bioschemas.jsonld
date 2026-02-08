@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/pklfilemerger",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5e43b576245c497687b8152b0d291b6f"
+        "@id": "_:N067ad922c2ac4c25ba628f0961dfd0c8"
       },
       "bsc:output": {
-        "@id": "_:N635ab32e0e4249f48d7a0b6b26110c65"
+        "@id": "_:N4323c71c1f0747a38c87d4d7228b2e88"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3366"
         },
         {
-          "@id": "edam:topic_3366"
+          "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_3520"
@@ -68,9 +68,9 @@
       ],
       "sc:name": "PklFileMerger",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.uib.no/en/rg/probe/66698/pklfilemerger"
@@ -78,7 +78,7 @@
       "sc:url": "http://www.uib.no/en/rg/probe/66698/pklfilemerger"
     },
     {
-      "@id": "_:N5e43b576245c497687b8152b0d291b6f",
+      "@id": "_:N067ad922c2ac4c25ba628f0961dfd0c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -89,17 +89,17 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N635ab32e0e4249f48d7a0b6b26110c65",
+      "@id": "_:N4323c71c1f0747a38c87d4d7228b2e88",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3651"
+          "@id": "edam:format_3653"
         },
         {
-          "@id": "edam:format_3653"
+          "@id": "edam:format_3651"
         }
       ],
       "sc:name": "Mass spectrometry data"

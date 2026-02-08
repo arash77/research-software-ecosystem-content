@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/varvamp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N2677ac347da84a07abe0972739dbb587"
+        "@id": "_:N2f520e98e8e94791ba105aa57fd69e05"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -65,13 +65,13 @@
       "sc:license": "GPL-3.0",
       "sc:name": "varVAMP",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:url": "https://github.com/jonas-fuchs/varVAMP"
     },
     {
-      "@id": "_:N2677ac347da84a07abe0972739dbb587",
+      "@id": "_:N2f520e98e8e94791ba105aa57fd69e05",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"

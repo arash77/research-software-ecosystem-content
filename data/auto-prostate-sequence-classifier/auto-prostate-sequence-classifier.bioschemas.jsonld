@@ -46,15 +46,15 @@
         "@id": "https://orcid.org/0000-0002-1887-0157"
       },
       "bsc:input": {
-        "@id": "_:Nada4efe139d447ba8c2cf6b8c5586948"
+        "@id": "_:N9218c095166b43229f6eb79ba869b138"
       },
       "bsc:output": {
-        "@id": "_:N9270e78bb5cd4c98bd201d46e470b6d4"
+        "@id": "_:N75a32ec2c7424a6096842352fe429d4a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Web API"
+        "Web API",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3063"
@@ -63,11 +63,11 @@
         "@id": "https://orcid.org/0000-0002-1887-0157"
       },
       "sc:citation": [
+        "pubmed:40146375",
+        "pmcid:PMC12187622",
         {
           "@id": "https://doi.org/10.1186/s13244-025-01938-2"
-        },
-        "pmcid:PMC12187622",
-        "pubmed:40146375"
+        }
       ],
       "sc:contributor": {
         "@id": "https://orcid.org/0000-0003-3298-2072"
@@ -87,18 +87,7 @@
       "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/4/repositories/champ-autoproseq"
     },
     {
-      "@id": "_:N9270e78bb5cd4c98bd201d46e470b6d4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0968"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Keyword"
-    },
-    {
-      "@id": "_:Nada4efe139d447ba8c2cf6b8c5586948",
+      "@id": "_:N9218c095166b43229f6eb79ba869b138",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -107,6 +96,17 @@
         "@id": "edam:format_3548"
       },
       "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N75a32ec2c7424a6096842352fe429d4a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Keyword"
     },
     {
       "@id": "https://orcid.org/0000-0002-1887-0157",

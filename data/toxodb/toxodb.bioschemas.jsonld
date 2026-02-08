@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkm981",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/toxodb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0b30d98c1fda4636977a901b00023cdb"
+        "@id": "_:N95cbd28d8a0d45628bfa5ccfd36422b4"
       },
       "bsc:output": {
-        "@id": "_:N3f1a858b430b475cb139dffa705570be"
+        "@id": "_:N03dd6a1022b14c388a95218422c5196c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -51,10 +55,10 @@
       },
       "sc:citation": [
         "pubmed:18003657",
-        "pmcid:PMC2238934",
         {
           "@id": "https://doi.org/10.1093/nar/gkm981"
-        }
+        },
+        "pmcid:PMC2238934"
       ],
       "sc:description": "Genomic-scale datasets associated with the eukaryotic pathogens Toxoplasma.",
       "sc:featureList": {
@@ -62,8 +66,8 @@
       },
       "sc:name": "Toxoplasma genome resources (ToxoDB)",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
+        "Windows",
         "Mac"
       ],
       "sc:softwareHelp": {
@@ -72,7 +76,7 @@
       "sc:url": "http://toxodb.org/toxo/"
     },
     {
-      "@id": "_:N0b30d98c1fda4636977a901b00023cdb",
+      "@id": "_:N95cbd28d8a0d45628bfa5ccfd36422b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -80,7 +84,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N3f1a858b430b475cb139dffa705570be",
+      "@id": "_:N03dd6a1022b14c388a95218422c5196c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -89,10 +93,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Gene report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkm981",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

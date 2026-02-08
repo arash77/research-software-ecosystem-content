@@ -40,15 +40,15 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Cokelaer",
       "bsc:input": {
-        "@id": "_:Nfc5ef4167ac94583b8decfb65bc6cef8"
+        "@id": "_:Nc56a56b0801c49b68cce97b475ae226c"
       },
       "bsc:output": {
-        "@id": "_:Na91c7578141848f1be147a93172584ad"
+        "@id": "_:N449001c7093c4d13be31336ead9ac851"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Desktop application",
-        "Workflow"
+        "Workflow",
+        "Desktop application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0080"
@@ -74,20 +74,20 @@
       "sc:url": "http://sequana.readthedocs.io"
     },
     {
-      "@id": "_:Nfc5ef4167ac94583b8decfb65bc6cef8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Na91c7578141848f1be147a93172584ad",
+      "@id": "_:N449001c7093c4d13be31336ead9ac851",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "_:Nc56a56b0801c49b68cce97b475ae226c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:name": "Data"
     },
     {
       "@id": "https://doi.org/10.1101/162701",

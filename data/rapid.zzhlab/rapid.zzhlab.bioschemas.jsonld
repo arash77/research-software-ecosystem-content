@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/rapid.zzhlab",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf7c1f1981e744efb9f98e826ae5fde22"
+        "@id": "_:N5808b76f4f0d452994a8423a7fbdd608"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Database portal"
+        "Database portal",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0769"
+          "@id": "edam:topic_3297"
         },
         {
-          "@id": "edam:topic_3297"
+          "@id": "edam:topic_0769"
         },
         {
           "@id": "edam:topic_3168"
@@ -64,29 +64,29 @@
         }
       ],
       "sc:citation": [
+        "pmcid:PMC8414647",
         {
           "@id": "https://doi.org/10.3389/FIMMU.2021.717496"
         },
-        "pmcid:PMC8414647",
         "pubmed:34484220"
       ],
       "sc:description": "A Rep-Seq Dataset Analysis Platform With an Integrated Antibody Database.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0224"
-        },
-        {
           "@id": "edam:operation_0256"
         },
         {
           "@id": "edam:operation_0416"
+        },
+        {
+          "@id": "edam:operation_0224"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "RAPID",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -95,7 +95,7 @@
       "sc:url": "https://rapid.zzhlab.org/"
     },
     {
-      "@id": "_:Nf7c1f1981e744efb9f98e826ae5fde22",
+      "@id": "_:N5808b76f4f0d452994a8423a7fbdd608",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

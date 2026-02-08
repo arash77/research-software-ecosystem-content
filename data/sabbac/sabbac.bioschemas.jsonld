@@ -36,8 +36,8 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkl289",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0003-1033-9895",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/sabbac",
@@ -46,10 +46,10 @@
         "@id": "https://orcid.org/0000-0003-1033-9895"
       },
       "bsc:input": {
-        "@id": "_:N38eb83254ffb4a54a248139c4347dacb"
+        "@id": "_:N4301c3b85fbb48f5aede1e4dcdd3ba89"
       },
       "bsc:output": {
-        "@id": "_:N7f26b10423f947b0bae03f62c0a2c7a8"
+        "@id": "_:N27d03701db6a48888637c29e61975e6e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -77,7 +77,7 @@
       "sc:url": "https://mobyle.rpbs.univ-paris-diderot.fr/cgi-bin/portal.py#forms::SABBAC"
     },
     {
-      "@id": "_:N7f26b10423f947b0bae03f62c0a2c7a8",
+      "@id": "_:N27d03701db6a48888637c29e61975e6e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -88,7 +88,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N38eb83254ffb4a54a248139c4347dacb",
+      "@id": "_:N4301c3b85fbb48f5aede1e4dcdd3ba89",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1470"
@@ -99,8 +99,8 @@
       "sc:name": "C-alpha trace"
     },
     {
-      "@id": "https://orcid.org/0000-0003-1033-9895",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1093/nar/gkl289",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -43,37 +43,37 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N9f94cd1f106243888a8b1f1a07c01f12"
+          "@id": "_:N2686f1c16cc0420d9b9a2b1344be6a3c"
         },
         {
-          "@id": "_:Nc9f6b432eb5a4b13b3eec97778d6f64e"
+          "@id": "_:N2cf1617cc3454f7a813ebb71390ab4a7"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf075dc4b830140d6a44b5eeb5d7b90e1"
+          "@id": "_:N6f0aa5f739a5487eacf7d5c07b89bf0a"
         },
         {
-          "@id": "_:Ndcb4c6962d8a4722aa364f7340d30345"
+          "@id": "_:N6d6d3eb5789a4cec9185c784384302f4"
         },
         {
-          "@id": "_:Ne52785aeae544073986c552f0316517c"
+          "@id": "_:Na0667ae57f9341cfa5a9d59003e94061"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3308"
+          "@id": "edam:topic_2229"
         },
         {
-          "@id": "edam:topic_2229"
+          "@id": "edam:topic_2640"
         },
         {
           "@id": "edam:topic_0208"
         },
         {
-          "@id": "edam:topic_2640"
+          "@id": "edam:topic_3308"
         },
         {
           "@id": "edam:topic_3170"
@@ -85,63 +85,39 @@
       "sc:description": "Beyondcell is a computational methodology for identifying tumour cell subpopulations with distinct drug responses in single-cell RNA-seq data and proposing cancer-specific treatments.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_3223"
+        },
+        {
           "@id": "edam:operation_4009"
         },
         {
           "@id": "edam:operation_0313"
-        },
-        {
-          "@id": "edam:operation_3223"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "Other",
       "sc:name": "Beyondcell",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": [
-        "CNIO",
-        "BU_CNIO"
+        "BU_CNIO",
+        "CNIO"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://gitlab.com/bu_cnio/beyondcell/-/blob/master/CHANGELOG.md"
+          "@id": "https://gitlab.com/bu_cnio/beyondcell/-/tree/master/tutorial/analysis_workflow"
         },
         {
-          "@id": "https://gitlab.com/bu_cnio/beyondcell/-/tree/master/tutorial/analysis_workflow"
+          "@id": "https://gitlab.com/bu_cnio/beyondcell/-/blob/master/CHANGELOG.md"
         }
       ],
       "sc:softwareVersion": "2.1",
       "sc:url": "https://github.com/cnio-bu/beyondcell"
     },
     {
-      "@id": "_:Nf075dc4b830140d6a44b5eeb5d7b90e1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1621"
-      },
-      "sc:name": "Pharmacogenomic test report"
-    },
-    {
-      "@id": "_:Ndcb4c6962d8a4722aa364f7340d30345",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3768"
-      },
-      "sc:name": "Clustered expression profiles"
-    },
-    {
-      "@id": "_:Ne52785aeae544073986c552f0316517c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0951"
-      },
-      "sc:name": "Statistical estimate score"
-    },
-    {
-      "@id": "_:N9f94cd1f106243888a8b1f1a07c01f12",
+      "@id": "_:N2686f1c16cc0420d9b9a2b1344be6a3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -152,20 +128,44 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Nc9f6b432eb5a4b13b3eec97778d6f64e",
+      "@id": "_:N2cf1617cc3454f7a813ebb71390ab4a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3475"
+          "@id": "edam:format_3752"
         },
         {
-          "@id": "edam:format_3752"
+          "@id": "edam:format_3475"
         }
       ],
       "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "_:N6f0aa5f739a5487eacf7d5c07b89bf0a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1621"
+      },
+      "sc:name": "Pharmacogenomic test report"
+    },
+    {
+      "@id": "_:N6d6d3eb5789a4cec9185c784384302f4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3768"
+      },
+      "sc:name": "Clustered expression profiles"
+    },
+    {
+      "@id": "_:Na0667ae57f9341cfa5a9d59003e94061",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0951"
+      },
+      "sc:name": "Statistical estimate score"
     },
     {
       "@id": "https://doi.org/10.1101/2021.04.08.438954",

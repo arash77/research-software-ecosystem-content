@@ -45,9 +45,6 @@
           "@id": "edam:topic_3169"
         },
         {
-          "@id": "edam:topic_3940"
-        },
-        {
           "@id": "edam:topic_2885"
         },
         {
@@ -55,6 +52,9 @@
         },
         {
           "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_3940"
         }
       ],
       "sc:citation": {
@@ -66,10 +66,10 @@
           "@id": "edam:operation_3222"
         },
         {
-          "@id": "edam:operation_3659"
+          "@id": "edam:operation_3802"
         },
         {
-          "@id": "edam:operation_3802"
+          "@id": "edam:operation_3659"
         }
       ],
       "sc:name": "MaxHiC",

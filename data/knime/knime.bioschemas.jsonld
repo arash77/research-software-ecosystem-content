@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Alexander Fillbrunn",
       "bsc:input": {
-        "@id": "_:Nf62ca29fe95740be8d5763359494c874"
+        "@id": "_:Ndfc1da0d2faa462ca1e2afaf1f1ba810"
       },
       "bsc:output": [
         {
-          "@id": "_:N96ae96c138aa47f7934f6d837d69a240"
+          "@id": "_:N583f0b0f177042ff92986f393ddbf211"
         },
         {
-          "@id": "_:N816b4112d2bf4abe829179a2ede40b12"
+          "@id": "_:Nc5dbf39127304a48a79dbdc5c756baf0"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -59,9 +59,6 @@
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_3473"
-        },
-        {
-          "@id": "edam:topic_0092"
         },
         {
           "@id": "edam:topic_0091"
@@ -74,6 +71,9 @@
         },
         {
           "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_0092"
         }
       ],
       "sc:citation": {
@@ -82,9 +82,6 @@
       "sc:description": "Open source graphical workbench for building workflows. Among others it provides various extensions for data analysis and life sciences.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3799"
-        },
-        {
           "@id": "edam:operation_0531"
         },
         {
@@ -92,22 +89,25 @@
         },
         {
           "@id": "edam:operation_3443"
+        },
+        {
+          "@id": "edam:operation_3799"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "Konstanz Information Miner (KNIME)",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://docs.knime.com"
+          "@id": "https://www.knime.org/learning-hub"
         },
         {
-          "@id": "https://www.knime.org/learning-hub"
+          "@id": "https://docs.knime.com"
         },
         {
           "@id": "https://www.knime.org/downloads/full-license"
@@ -121,7 +121,7 @@
       "sc:url": "http://www.knime.org"
     },
     {
-      "@id": "_:Nf62ca29fe95740be8d5763359494c874",
+      "@id": "_:Ndfc1da0d2faa462ca1e2afaf1f1ba810",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -132,7 +132,15 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N96ae96c138aa47f7934f6d837d69a240",
+      "@id": "_:N583f0b0f177042ff92986f393ddbf211",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:Nc5dbf39127304a48a79dbdc5c756baf0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -141,14 +149,6 @@
         "@id": "edam:format_2350"
       },
       "sc:name": "Image"
-    },
-    {
-      "@id": "_:N816b4112d2bf4abe829179a2ede40b12",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:name": "Score"
     }
   ]
 }

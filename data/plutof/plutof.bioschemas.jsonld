@@ -36,25 +36,29 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.4137/EBO.S6271",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/plutof",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3108616ce05545fab0362893e0f587eb"
+          "@id": "_:N94c0ab7a37fa4708813143dfb39b38c4"
         },
         {
-          "@id": "_:N3f69f4648d6c483cad632d9ca5329c5c"
+          "@id": "_:Nb8038e55f7184a19b7a17f8ddb48a3db"
         },
         {
-          "@id": "_:Ne75e407f5dad4954934db6b6654eace7"
+          "@id": "_:Nd5a629897d374ae7bf73fbdc1236e2f8"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1a4b3402f26b4b24a4d0694bb6a0b2af"
+          "@id": "_:N69979570dff84db494a313cdb3eb4252"
         },
         {
-          "@id": "_:Nf3c3187e9e01434ca0b8d0ea0c1f87e9"
+          "@id": "_:N5614521bea154760911ce29d75c92430"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -64,10 +68,10 @@
           "@id": "edam:topic_3050"
         },
         {
-          "@id": "edam:topic_0219"
+          "@id": "edam:topic_3489"
         },
         {
-          "@id": "edam:topic_3489"
+          "@id": "edam:topic_0219"
         }
       ],
       "sc:citation": {
@@ -88,41 +92,25 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "PlutoF",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
-        "Mac"
+        "Mac",
+        "Windows"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://plutof.docs.apiary.io/#"
+          "@id": "https://plutof.ut.ee/#/manual"
         },
         {
           "@id": "https://plutof.ut.ee/#/videos"
         },
         {
-          "@id": "https://plutof.ut.ee/#/manual"
+          "@id": "https://plutof.docs.apiary.io/#"
         }
       ],
       "sc:url": "https://plutof.ut.ee"
     },
     {
-      "@id": "_:N3108616ce05545fab0362893e0f587eb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3707"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3752"
-        }
-      ],
-      "sc:name": "Biodiversity data"
-    },
-    {
-      "@id": "_:N3f69f4648d6c483cad632d9ca5329c5c",
+      "@id": "_:N94c0ab7a37fa4708813143dfb39b38c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -132,16 +120,16 @@
           "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_3752"
+          "@id": "edam:format_1929"
         },
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_3752"
         }
       ],
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:Ne75e407f5dad4954934db6b6654eace7",
+      "@id": "_:Nb8038e55f7184a19b7a17f8ddb48a3db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -152,7 +140,23 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N1a4b3402f26b4b24a4d0694bb6a0b2af",
+      "@id": "_:Nd5a629897d374ae7bf73fbdc1236e2f8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3707"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Biodiversity data"
+    },
+    {
+      "@id": "_:N69979570dff84db494a313cdb3eb4252",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"
@@ -163,24 +167,20 @@
       "sc:name": "Resource metadata"
     },
     {
-      "@id": "_:Nf3c3187e9e01434ca0b8d0ea0c1f87e9",
+      "@id": "_:N5614521bea154760911ce29d75c92430",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3707"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2331"
+          "@id": "edam:format_3752"
         },
         {
-          "@id": "edam:format_3752"
+          "@id": "edam:format_2331"
         }
       ],
       "sc:name": "Biodiversity data"
-    },
-    {
-      "@id": "https://doi.org/10.4137/EBO.S6271",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

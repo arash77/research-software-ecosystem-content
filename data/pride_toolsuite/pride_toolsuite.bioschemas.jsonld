@@ -36,32 +36,28 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/152579",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pride_toolsuite",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncfcd3c20541943dcbe52ff45ec5ae5d3"
+        "@id": "_:Nb63e25298b68470e97662dfa64aeeca6"
       },
       "bsc:output": {
-        "@id": "_:Nc0a771964b1a41b2b7ad1d10fb71bd09"
+        "@id": "_:Nd8e66aed9e37486c8dd6aefa0e5498d0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Desktop application",
-        "Suite"
+        "Suite",
+        "Desktop application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_0219"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:citation": {
@@ -73,8 +69,8 @@
       },
       "sc:name": "PRIDE Toolsuite",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://code.google.com/archive/p/pride-toolsuite/"
@@ -82,7 +78,7 @@
       "sc:url": "https://github.com/PRIDE-Toolsuite"
     },
     {
-      "@id": "_:Nc0a771964b1a41b2b7ad1d10fb71bd09",
+      "@id": "_:Nd8e66aed9e37486c8dd6aefa0e5498d0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -93,7 +89,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ncfcd3c20541943dcbe52ff45ec5ae5d3",
+      "@id": "_:Nb63e25298b68470e97662dfa64aeeca6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -102,6 +98,10 @@
         "@id": "edam:format_3244"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1101/152579",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

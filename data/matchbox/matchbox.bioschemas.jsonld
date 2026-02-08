@@ -36,24 +36,28 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nmeth756",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/matchbox",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Luigi Marchionni",
-        "Anuj Gupta"
+        "Anuj Gupta",
+        "Luigi Marchionni"
       ],
       "bsc:input": {
-        "@id": "_:N09ec0c3a6a3a4c5c9915161bb1389c87"
+        "@id": "_:N1ae758b27d094f24a37cf600ba601375"
       },
       "bsc:output": [
         {
-          "@id": "_:N4ec851fb18ea4382a98be171d788e323"
+          "@id": "_:N472f2d5ab4c648ee820be477cb2ab852"
         },
         {
-          "@id": "_:N378d48ccfbc8442d8523b006643b7ae8"
+          "@id": "_:N4d04f6060ef84d5688311670300e1623"
         },
         {
-          "@id": "_:N1f008f351c0e4f10bc4fbaa764bf85eb"
+          "@id": "_:N7d2a0101729d4f58a05a8d475ebdf9ac"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -73,10 +77,10 @@
         }
       ],
       "sc:citation": [
+        "pubmed:15846361",
         {
           "@id": "https://doi.org/10.1038/nmeth756"
-        },
-        "pubmed:15846361"
+        }
       ],
       "sc:description": "This package enables comparing ranked vectors of features, merging multiple datasets, removing redundant features, using CAT-plots and Venn diagrams, and computing statistical significance.",
       "sc:featureList": [
@@ -101,55 +105,55 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/matchBox.html"
     },
     {
-      "@id": "_:N4ec851fb18ea4382a98be171d788e323",
+      "@id": "_:N472f2d5ab4c648ee820be477cb2ab852",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N378d48ccfbc8442d8523b006643b7ae8",
+      "@id": "_:N4d04f6060ef84d5688311670300e1623",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N1f008f351c0e4f10bc4fbaa764bf85eb",
+      "@id": "_:N7d2a0101729d4f58a05a8d475ebdf9ac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Report"
     },
     {
-      "@id": "_:N09ec0c3a6a3a4c5c9915161bb1389c87",
+      "@id": "_:N1ae758b27d094f24a37cf600ba601375",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -158,10 +162,6 @@
         "@id": "edam:format_2058"
       },
       "sc:name": "Gene expression data"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nmeth756",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

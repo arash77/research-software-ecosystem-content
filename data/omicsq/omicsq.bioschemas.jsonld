@@ -36,29 +36,36 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.48550/ARXIV.2504.19813",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/OmicsQ",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncb3b2b04c6ed41d99d72efd523385a8f"
+        "@id": "_:N27b8065c4c3d4f4295ff020bc5a6a368"
       },
       "bsc:output": [
         {
-          "@id": "_:Ndac3115e1a524362815ddd7c2a81201c"
+          "@id": "_:N4ab796b4a18d4bd39b8ce4d662d5b057"
         },
         {
-          "@id": "_:N2266bea5a2a64fbbb6eb37e585240530"
+          "@id": "_:Nab8e9e09724247b9a0113a975630a0a7"
         },
         {
-          "@id": "_:Nc5d4ffca50b04c8fbbf1307385233500"
+          "@id": "_:N672a78c520eb48188d46d15f192ee5b6"
         },
         {
-          "@id": "_:N20b4ba84a3ba455f81b2e60a98f982fe"
+          "@id": "_:N55cfc9d906b7450c8a9f86854704450e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0769"
         },
         {
           "@id": "edam:topic_0121"
@@ -67,10 +74,7 @@
           "@id": "edam:topic_3391"
         },
         {
-          "@id": "edam:topic_2269"
-        },
-        {
-          "@id": "edam:topic_0769"
+          "@id": "edam:topic_0602"
         }
       ],
       "sc:citation": {
@@ -82,22 +86,22 @@
           "@id": "edam:operation_3799"
         },
         {
-          "@id": "edam:operation_2238"
-        },
-        {
           "@id": "edam:operation_3465"
         },
         {
-          "@id": "edam:operation_2939"
-        },
-        {
-          "@id": "edam:operation_0313"
+          "@id": "edam:operation_2238"
         },
         {
           "@id": "edam:operation_4034"
         },
         {
+          "@id": "edam:operation_2939"
+        },
+        {
           "@id": "edam:operation_3435"
+        },
+        {
+          "@id": "edam:operation_0313"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -109,7 +113,7 @@
       "sc:url": "https://computproteomics.bmb.sdu.dk/app_direct/OmicsQ/"
     },
     {
-      "@id": "_:Ndac3115e1a524362815ddd7c2a81201c",
+      "@id": "_:N4ab796b4a18d4bd39b8ce4d662d5b057",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -120,29 +124,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N2266bea5a2a64fbbb6eb37e585240530",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Expression data"
-    },
-    {
-      "@id": "_:Nc5d4ffca50b04c8fbbf1307385233500",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3753"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Over-representation data"
-    },
-    {
-      "@id": "_:N20b4ba84a3ba455f81b2e60a98f982fe",
+      "@id": "_:Nab8e9e09724247b9a0113a975630a0a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0951"
@@ -153,24 +135,42 @@
       "sc:name": "Statistical estimate score"
     },
     {
-      "@id": "_:Ncb3b2b04c6ed41d99d72efd523385a8f",
+      "@id": "_:N672a78c520eb48188d46d15f192ee5b6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N55cfc9d906b7450c8a9f86854704450e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "_:N27b8065c4c3d4f4295ff020bc5a6a368",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3620"
+          "@id": "edam:format_3751"
         },
         {
-          "@id": "edam:format_3751"
+          "@id": "edam:format_3620"
         }
       ],
       "sc:name": "Expression data"
-    },
-    {
-      "@id": "https://doi.org/10.48550/ARXIV.2504.19813",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

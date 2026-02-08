@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gks1219",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1093/bioinformatics/bts252",
       "@type": "sc:CreativeWork"
     },
@@ -48,28 +52,31 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "SILVA Team",
       "bsc:input": {
-        "@id": "_:N447166d0dd3740f3a557bdc80ce63c00"
+        "@id": "_:Na5cb6f31838140ab88289e9b4a17493d"
       },
       "bsc:output": [
         {
-          "@id": "_:Nabe2706b57e64368981f47675411c4cb"
+          "@id": "_:N122728b2487c40e3969f75f179253065"
         },
         {
-          "@id": "_:Nb206d11299ca40b9b032392959d2b621"
+          "@id": "_:Ne42e22b18ffd49adb2564f7a29217b7f"
         },
         {
-          "@id": "_:N20db896666394f65b322ab7a486d9a62"
+          "@id": "_:N3148db465187415aa033b9f765609efa"
         },
         {
-          "@id": "_:N24a2c39e2c4c46e4a2d2e87248123036"
+          "@id": "_:N82d089cc1b9d411a91da71037b89e866"
         },
         {
-          "@id": "_:Na5bb23e1344d48dabdaef2baf092b870"
+          "@id": "_:Ncf1647c60e3c4a33a33839bd575fdb03"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0637"
+        },
         {
           "@id": "edam:topic_0080"
         },
@@ -77,57 +84,54 @@
           "@id": "edam:topic_0659"
         },
         {
-          "@id": "edam:topic_3050"
+          "@id": "edam:topic_3697"
         },
         {
           "@id": "edam:topic_3174"
         },
         {
-          "@id": "edam:topic_0637"
-        },
-        {
-          "@id": "edam:topic_3697"
+          "@id": "edam:topic_3050"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC3389763",
-        "pubmed:22556368",
-        "pmcid:PMC3531112",
-        {
-          "@id": "https://doi.org/10.1093/nar/gks1219"
-        },
-        "pubmed:24293649",
-        "pmcid:PMC3965112",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bts252"
         },
+        "pmcid:PMC3965112",
+        "pmcid:PMC3531112",
+        "pubmed:22556368",
         {
           "@id": "https://doi.org/10.1093/nar/gkt1209"
         },
-        "pubmed:23193283"
+        "pubmed:23193283",
+        {
+          "@id": "https://doi.org/10.1093/nar/gks1219"
+        },
+        "pmcid:PMC3389763",
+        "pubmed:24293649"
       ],
       "sc:description": "SILVAngs is a data analysis service for ribosomal RNA gene (rDNA) amplicon reads from high-throughput sequencing (next-generation sequencing (NGS)) approaches based on an automatic software pipeline. It uses the SILVA rDNA databases, taxonomies, and alignments as a reference. It facilitates the classification of rDNA reads and provides a wealth of results (tables, graphs and sequence files) for download.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_2428"
+        },
+        {
           "@id": "edam:operation_0292"
-        },
-        {
-          "@id": "edam:operation_2238"
-        },
-        {
-          "@id": "edam:operation_0291"
         },
         {
           "@id": "edam:operation_2478"
         },
         {
-          "@id": "edam:operation_3460"
+          "@id": "edam:operation_2238"
         },
         {
           "@id": "edam:operation_0337"
         },
         {
-          "@id": "edam:operation_2428"
+          "@id": "edam:operation_0291"
+        },
+        {
+          "@id": "edam:operation_3460"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -148,7 +152,29 @@
       "sc:url": "https://ngs.arb-silva.de"
     },
     {
-      "@id": "_:Nabe2706b57e64368981f47675411c4cb",
+      "@id": "_:Na5cb6f31838140ab88289e9b4a17493d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N122728b2487c40e3969f75f179253065",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Ne42e22b18ffd49adb2564f7a29217b7f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -156,7 +182,29 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nb206d11299ca40b9b032392959d2b621",
+      "@id": "_:N3148db465187415aa033b9f765609efa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N82d089cc1b9d411a91da71037b89e866",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1246"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1984"
+      },
+      "sc:name": "Sequence cluster (nucleic acid)"
+    },
+    {
+      "@id": "_:Ncf1647c60e3c4a33a33839bd575fdb03",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -170,54 +218,6 @@
         }
       ],
       "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:N20db896666394f65b322ab7a486d9a62",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2082"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:N24a2c39e2c4c46e4a2d2e87248123036",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1246"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1984"
-      },
-      "sc:name": "Sequence cluster (nucleic acid)"
-    },
-    {
-      "@id": "_:Na5bb23e1344d48dabdaef2baf092b870",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3508"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N447166d0dd3740f3a557bdc80ce63c00",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gks1219",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

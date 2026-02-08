@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/artem",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nbe90c0ad65ff450eb51f7a2a9f83a697"
+        "@id": "_:N634f35d6e32e429590d33f58fae60be0"
       },
       "bsc:output": {
-        "@id": "_:N07e5db69e4314d23a914f62ff25dee8c"
+        "@id": "_:Nc4e6df0ac56648e08f2b5ecdd984a16f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -51,16 +51,13 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0097"
-        },
-        {
-          "@id": "edam:topic_0077"
-        },
-        {
-          "@id": "edam:topic_3307"
+          "@id": "edam:topic_0659"
         },
         {
           "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_0077"
         },
         {
           "@id": "edam:topic_3511"
@@ -69,19 +66,22 @@
           "@id": "edam:topic_0654"
         },
         {
-          "@id": "edam:topic_0659"
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_3307"
         }
       ],
       "sc:author": "Davyd Bohdan",
       "sc:citation": [
-        "pubmed:37471030",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkad605"
+        },
         {
           "@id": "https://doi.org/10.1101/2024.05.31.596898"
         },
         "pmcid:PMC10484739",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkad605"
-        }
+        "pubmed:37471030"
       ],
       "sc:description": "ARTEM is a tool for the superposition of two arbitrary RNA 3D structure fragments.\nARTEM doesn’t rely on sequence similarity, annotated interactions, or backbone topology. Instead, ARTEM assumes at least one residue-residue match has a close-to-zero RMSD in the ideal superposition. Then, ARTEM tries all N*M single-residue matches and derives a subset of mutually closest residues as the matches for each of the single-residue-based superpositions. Finally, ARTEM returns the superpositions ordered by their size, letting the user choose the best one based on any specific requirements. ARTEM can read/write both PDB and mmCIF format.",
       "sc:featureList": [
@@ -96,9 +96,9 @@
       "sc:license": "Apache-2.0",
       "sc:name": "ARTEM",
       "sc:operatingSystem": [
-        "Mac",
+        "Linux",
         "Windows",
-        "Linux"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/david-bogdan-r/ARTEM/blob/main/README.md"
@@ -107,23 +107,7 @@
       "sc:url": "https://github.com/david-bogdan-r/ARTEM"
     },
     {
-      "@id": "_:Nbe90c0ad65ff450eb51f7a2a9f83a697",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1465"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1477"
-        },
-        {
-          "@id": "edam:format_1476"
-        }
-      ],
-      "sc:name": "RNA structure"
-    },
-    {
-      "@id": "_:N07e5db69e4314d23a914f62ff25dee8c",
+      "@id": "_:Nc4e6df0ac56648e08f2b5ecdd984a16f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1493"
@@ -139,11 +123,27 @@
       "sc:name": "RNA structure alignment"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkad605",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N634f35d6e32e429590d33f58fae60be0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1465"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1477"
+        },
+        {
+          "@id": "edam:format_1476"
+        }
+      ],
+      "sc:name": "RNA structure"
     },
     {
       "@id": "https://doi.org/10.1101/2024.05.31.596898",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkad605",
       "@type": "sc:CreativeWork"
     }
   ]

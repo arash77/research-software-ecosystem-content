@@ -45,21 +45,21 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Ne65eca269c5e4784ae4d940b835d8634"
+          "@id": "_:Nf66d299bdab045cabad69cf9223d9e96"
         },
         {
-          "@id": "_:Nb658a43594ff4959ba19df24c2816d32"
+          "@id": "_:Ne44f7a9aaa2449f9a71b455dc2c21da0"
         },
         {
-          "@id": "_:Na5b19dbd948a46b7bceb88782ddfc39e"
+          "@id": "_:N055f3ccd304c4d3da2cac496e8e81e63"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N86ee32bde5824c258ce5d63c505cfaef"
+          "@id": "_:Nccd9819b9f7f45f294e16747e7448679"
         },
         {
-          "@id": "_:N072d07a9c765477fbf25a0eb0257631f"
+          "@id": "_:N51d81b2505004ec981eff0b776a544ee"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -69,18 +69,18 @@
           "@id": "edam:topic_3071"
         },
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_2885"
         },
         {
-          "@id": "edam:topic_2885"
+          "@id": "edam:topic_3168"
         }
       ],
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
         {
-          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+          "@id": "https://doi.org/10.1093/nar/gkw343"
         }
       ],
       "sc:description": "Filter bam file using mpileup on coverage and SNPs.",
@@ -89,26 +89,15 @@
       },
       "sc:name": "mpileup",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareVersion": "0.1.19",
       "sc:url": "http://www.htslib.org/"
     },
     {
-      "@id": "_:N86ee32bde5824c258ce5d63c505cfaef",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N072d07a9c765477fbf25a0eb0257631f",
+      "@id": "_:Nccd9819b9f7f45f294e16747e7448679",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -119,18 +108,18 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Ne65eca269c5e4784ae4d940b835d8634",
+      "@id": "_:N51d81b2505004ec981eff0b776a544ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0863"
+        "@id": "edam:data_0006"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1929"
+        "@id": "edam:format_3475"
       },
-      "sc:name": "Sequence alignment"
+      "sc:name": "Data"
     },
     {
-      "@id": "_:Nb658a43594ff4959ba19df24c2816d32",
+      "@id": "_:Nf66d299bdab045cabad69cf9223d9e96",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -141,7 +130,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na5b19dbd948a46b7bceb88782ddfc39e",
+      "@id": "_:Ne44f7a9aaa2449f9a71b455dc2c21da0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -150,6 +139,17 @@
         "@id": "edam:format_2572"
       },
       "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N055f3ccd304c4d3da2cac496e8e81e63",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",

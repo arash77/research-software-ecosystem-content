@@ -40,22 +40,22 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Aly Azeem Khan",
       "bsc:input": {
-        "@id": "_:Nc0e11ec27f44490dba27a40657a815de"
+        "@id": "_:N159234615f844e64bfc03ee6e2dcaceb"
       },
       "bsc:output": {
-        "@id": "_:Ncd09280e0db7498ea0e872e9c1dfcf25"
+        "@id": "_:Ndc592863cec94576a65a1cf599b77e4d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2830"
+          "@id": "edam:topic_0196"
         },
         {
           "@id": "edam:topic_3170"
         },
         {
-          "@id": "edam:topic_0196"
+          "@id": "edam:topic_2830"
         }
       ],
       "sc:citation": {
@@ -69,9 +69,9 @@
       "sc:license": "MIT",
       "sc:name": "BASIC",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://ttic.uchicago.edu/~aakhan/BASIC/"
@@ -79,7 +79,7 @@
       "sc:url": "http://ttic.uchicago.edu/~aakhan/BASIC/"
     },
     {
-      "@id": "_:Ncd09280e0db7498ea0e872e9c1dfcf25",
+      "@id": "_:Ndc592863cec94576a65a1cf599b77e4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -90,7 +90,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nc0e11ec27f44490dba27a40657a815de",
+      "@id": "_:N159234615f844e64bfc03ee6e2dcaceb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"

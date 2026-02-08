@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-0740-6324",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/taranis",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -47,51 +43,57 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N4cd0ab1b26184b66bd64676d27f12fb5"
+          "@id": "_:N48f6cadd0a7641d382716c038987cb2f"
         },
         {
-          "@id": "_:N2dfb734263794151b62d249d40179598"
+          "@id": "_:N3e1b8d50be714206b23421a1cb284f09"
         },
         {
-          "@id": "_:N9b0a985b029c4de3972b3f831d64bcd8"
+          "@id": "_:Nbc6344f21dd54e62a84d3ee4e4958c7c"
         },
         {
-          "@id": "_:Nf5496f8c2bfd44f8bf40b2f675dcbcfa"
+          "@id": "_:N830a2d7c15ab41709ecf553a70df0095"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nff1e746fa7ba4d4a89a6d426aaec1e55"
+          "@id": "_:N2cca2d05cf2041c18940161bbf7ace70"
         },
         {
-          "@id": "_:N1ae8bd4114a04f0dace983655efa1b84"
+          "@id": "_:N66d4ce78e0c940968b1788eed0c9c1cd"
         },
         {
-          "@id": "_:N313200b479c7423895c534d4bafc6aaf"
+          "@id": "_:N5e338afbf5824ab79b1f39fbaef3f282"
         },
         {
-          "@id": "_:Nbb8dc21ae7f440b090fc9ec226c3a9d8"
+          "@id": "_:Nb01a87d37494460daa9e2bc9d3c8938e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3301"
+          "@id": "edam:topic_3339"
         },
         {
-          "@id": "edam:topic_3339"
+          "@id": "edam:topic_3301"
         }
       ],
       "sc:author": [
-        "Luis Chapado",
-        "Esperanza López",
         {
           "@id": "https://orcid.org/0000-0002-0740-6324"
-        }
+        },
+        "Luis Chapado",
+        "Esperanza López"
       ],
       "sc:description": "cg/wgMLST allele calling software, schema evaluation and allele distance estimation for outbreak reserch.",
       "sc:featureList": [
+        {
+          "@id": "edam:operation_3209"
+        },
+        {
+          "@id": "edam:operation_0289"
+        },
         {
           "@id": "edam:operation_3840"
         },
@@ -100,12 +102,6 @@
         },
         {
           "@id": "edam:operation_2478"
-        },
-        {
-          "@id": "edam:operation_3209"
-        },
-        {
-          "@id": "edam:operation_0289"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -119,7 +115,23 @@
       "sc:url": "https://github.com/BU-ISCIII/taranis"
     },
     {
-      "@id": "_:Nff1e746fa7ba4d4a89a6d426aaec1e55",
+      "@id": "_:N2cca2d05cf2041c18940161bbf7ace70",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2084"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3475"
+        }
+      ],
+      "sc:name": "Nucleic acid report"
+    },
+    {
+      "@id": "_:N66d4ce78e0c940968b1788eed0c9c1cd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2855"
@@ -130,7 +142,7 @@
       "sc:name": "Distance matrix"
     },
     {
-      "@id": "_:N1ae8bd4114a04f0dace983655efa1b84",
+      "@id": "_:N5e338afbf5824ab79b1f39fbaef3f282",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3914"
@@ -146,23 +158,7 @@
       "sc:name": "Quality control report"
     },
     {
-      "@id": "_:N313200b479c7423895c534d4bafc6aaf",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2084"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3475"
-        },
-        {
-          "@id": "edam:format_3603"
-        }
-      ],
-      "sc:name": "Nucleic acid report"
-    },
-    {
-      "@id": "_:Nbb8dc21ae7f440b090fc9ec226c3a9d8",
+      "@id": "_:Nb01a87d37494460daa9e2bc9d3c8938e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -173,7 +169,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N4cd0ab1b26184b66bd64676d27f12fb5",
+      "@id": "_:N48f6cadd0a7641d382716c038987cb2f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -184,18 +180,18 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N2dfb734263794151b62d249d40179598",
+      "@id": "_:N3e1b8d50be714206b23421a1cb284f09",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2977"
+        "@id": "edam:data_2082"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1929"
+        "@id": "edam:format_3475"
       },
-      "sc:name": "Nucleic acid sequence"
+      "sc:name": "Matrix"
     },
     {
-      "@id": "_:N9b0a985b029c4de3972b3f831d64bcd8",
+      "@id": "_:Nbc6344f21dd54e62a84d3ee4e4958c7c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -206,15 +202,19 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Nf5496f8c2bfd44f8bf40b2f675dcbcfa",
+      "@id": "_:N830a2d7c15ab41709ecf553a70df0095",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2082"
+        "@id": "edam:data_2977"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3475"
+        "@id": "edam:format_1929"
       },
-      "sc:name": "Matrix"
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0740-6324",
+      "@type": "sc:Person"
     }
   ]
 }

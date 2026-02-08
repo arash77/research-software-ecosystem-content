@@ -36,14 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkae241",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkh340",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/muscle_ebi",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N3bc5b47caead49989c51515efec6ca69"
+        "@id": "_:Nfc589069a5b043ab8f147949aaab99bc"
       },
       "bsc:output": {
-        "@id": "_:Nf38a5b4176f14b438cc3cec14ab805d3"
+        "@id": "_:Ndc7fda53b6054ac8a1f7f89c053aa846"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -56,20 +64,20 @@
       "sc:author": "Robert Edgar",
       "sc:citation": [
         "pubmed:35412617",
-        "pmcid:PMC390337",
-        "pmcid:PMC11223882",
-        "pubmed:38597606",
         "pubmed:15034147",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkae241"
-        },
-        {
-          "@id": "https://doi.org/10.1093/nar/gkh340"
-        },
+        "pmcid:PMC9252731",
         {
           "@id": "https://doi.org/10.1093/nar/gkac240"
         },
-        "pmcid:PMC9252731"
+        {
+          "@id": "https://doi.org/10.1093/nar/gkae241"
+        },
+        "pmcid:PMC11223882",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkh340"
+        },
+        "pubmed:38597606",
+        "pmcid:PMC390337"
       ],
       "sc:description": "Sequence alignment using the Multiple Sequence Comparison by Log-Expectation (MUSCLE) method",
       "sc:featureList": {
@@ -77,35 +85,27 @@
       },
       "sc:name": "MUSCLE (EBI)",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
         {
-          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
+          "@id": "https://www.drive5.com/muscle/"
         },
         {
           "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
-          "@id": "https://www.drive5.com/muscle/"
+          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/msa/muscle"
     },
     {
-      "@id": "_:Nf38a5b4176f14b438cc3cec14ab805d3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N3bc5b47caead49989c51515efec6ca69",
+      "@id": "_:Nfc589069a5b043ab8f147949aaab99bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -113,12 +113,12 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkh340",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkae241",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Ndc7fda53b6054ac8a1f7f89c053aa846",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkac240",

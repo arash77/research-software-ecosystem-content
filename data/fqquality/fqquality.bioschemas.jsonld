@@ -45,48 +45,48 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Ne1ee79b5dd49409789611a81d002a412"
+          "@id": "_:N5e6f4b96d1a34202bbe700367bee5cda"
         },
         {
-          "@id": "_:Na68a6b748d6b4f7ca2bfddec29c55bc4"
+          "@id": "_:N16b9a5a712724f47b7a54a52a486fbfd"
         },
         {
-          "@id": "_:Nf9db42987b11404994aac8e56ecd3edd"
+          "@id": "_:N553d6f2f5d764255a213722798777afa"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N277444a87723471d867900dc0dd32f28"
+          "@id": "_:N388ed5bed4ad47ae823ff9fa659f3004"
         },
         {
-          "@id": "_:N5f6035475eb54b2db0a67856a042ff26"
+          "@id": "_:Nf46b1dbdac4c4234a2980a4de72dbda4"
         },
         {
-          "@id": "_:Nda4f792f0e5c4cc9967f83da1f152173"
+          "@id": "_:N3901951d21244012b4a6c4fee6697e0f"
         },
         {
-          "@id": "_:N482c6a75fc4444d3a04feac0baa2775b"
+          "@id": "_:N084cd6d3edd94702b6131e04e375515b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_3572"
         },
         {
           "@id": "edam:topic_0080"
         },
         {
-          "@id": "edam:topic_3572"
+          "@id": "edam:topic_3168"
         }
       ],
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
         {
-          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+          "@id": "https://doi.org/10.1093/nar/gkw343"
         }
       ],
       "sc:description": "Output reads with low quality bases trimmed (at the extremities) or masked and/or with quality descreased to the minimum. Output an extra singlet dataset if paired-end data provided.",
@@ -98,7 +98,70 @@
       "sc:url": "http://ftp.pasteur.fr/pub/gensoft/projects/fqtools/README"
     },
     {
-      "@id": "_:Ne1ee79b5dd49409789611a81d002a412",
+      "@id": "_:N388ed5bed4ad47ae823ff9fa659f3004",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nf46b1dbdac4c4234a2980a4de72dbda4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N3901951d21244012b4a6c4fee6697e0f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N084cd6d3edd94702b6131e04e375515b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5e6f4b96d1a34202bbe700367bee5cda",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1932"
+        },
+        {
+          "@id": "edam:format_1930"
+        },
+        {
+          "@id": "edam:format_1931"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N16b9a5a712724f47b7a54a52a486fbfd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -108,16 +171,16 @@
           "@id": "edam:format_1931"
         },
         {
-          "@id": "edam:format_1930"
+          "@id": "edam:format_1932"
         },
         {
-          "@id": "edam:format_1932"
+          "@id": "edam:format_1930"
         }
       ],
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na68a6b748d6b4f7ca2bfddec29c55bc4",
+      "@id": "_:N553d6f2f5d764255a213722798777afa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -127,75 +190,12 @@
           "@id": "edam:format_1932"
         },
         {
-          "@id": "edam:format_1931"
-        },
-        {
-          "@id": "edam:format_1930"
-        }
-      ],
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nf9db42987b11404994aac8e56ecd3edd",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1931"
-        },
-        {
           "@id": "edam:format_1930"
         },
         {
-          "@id": "edam:format_1932"
+          "@id": "edam:format_1931"
         }
       ],
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N277444a87723471d867900dc0dd32f28",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N5f6035475eb54b2db0a67856a042ff26",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nda4f792f0e5c4cc9967f83da1f152173",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N482c6a75fc4444d3a04feac0baa2775b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
       "sc:name": "Data"
     },
     {

@@ -40,20 +40,20 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5c25004f8eca434e81fb5ef7876ba957"
+          "@id": "_:Nbd8bf9554b2a41a38538568292f154c2"
         },
         {
-          "@id": "_:Ne0785f33a1eb411cb9bbb3229c35f998"
+          "@id": "_:N15f302bbc3ca4880a59338556283aeea"
         },
         {
-          "@id": "_:Ne5526a1ba22741309eb4a5c035b28ed4"
+          "@id": "_:N7059409deb4e407b90a6dbb826e02aee"
         },
         {
-          "@id": "_:Nf5e70e004e6f4544a18bd2d34dc0d6f8"
+          "@id": "_:N894d1e0ec2ac4ec1941377d6fe2a03a1"
         }
       ],
       "bsc:output": {
-        "@id": "_:Na8ccc65d703f4e1aaa387a280e890db6"
+        "@id": "_:N9142a72cd0e94e3a98d5526572eff458"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -62,13 +62,13 @@
           "@id": "edam:topic_0123"
         },
         {
-          "@id": "edam:topic_0137"
-        },
-        {
           "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0137"
         }
       ],
       "sc:description": "Another web based protein digestion applet.",
@@ -79,18 +79,7 @@
       "sc:url": "http://www.expasy.ch/tools/peptidecutter"
     },
     {
-      "@id": "_:N5c25004f8eca434e81fb5ef7876ba957",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2974"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Protein sequence (raw)"
-    },
-    {
-      "@id": "_:Ne0785f33a1eb411cb9bbb3229c35f998",
+      "@id": "_:Nbd8bf9554b2a41a38538568292f154c2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -101,7 +90,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:Ne5526a1ba22741309eb4a5c035b28ed4",
+      "@id": "_:N15f302bbc3ca4880a59338556283aeea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -112,7 +101,18 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Nf5e70e004e6f4544a18bd2d34dc0d6f8",
+      "@id": "_:N7059409deb4e407b90a6dbb826e02aee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:N894d1e0ec2ac4ec1941377d6fe2a03a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1056"
@@ -123,7 +123,7 @@
       "sc:name": "Database name"
     },
     {
-      "@id": "_:Na8ccc65d703f4e1aaa387a280e890db6",
+      "@id": "_:N9142a72cd0e94e3a98d5526572eff458",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1238"

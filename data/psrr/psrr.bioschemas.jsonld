@@ -40,26 +40,26 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf94c3d9689da4a029e061c75434203e0"
+          "@id": "_:N5a0192f56de442549966466aca2b8abb"
         },
         {
-          "@id": "_:Nacaba93a854244ecb04026f86f70f88e"
+          "@id": "_:N70b8206ea09c4c438c5bb8f20e08efc3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2275"
+          "@id": "edam:topic_0659"
         },
         {
-          "@id": "edam:topic_0659"
+          "@id": "edam:topic_0154"
         },
         {
           "@id": "edam:topic_3512"
         },
         {
-          "@id": "edam:topic_0154"
+          "@id": "edam:topic_2275"
         },
         {
           "@id": "edam:topic_3047"
@@ -75,6 +75,9 @@
       "sc:description": "A Web Server for Predicting the Regulation of miRNAs Expression by Small Molecules.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_0463"
+        },
+        {
           "@id": "edam:operation_3792"
         },
         {
@@ -82,22 +85,19 @@
         },
         {
           "@id": "edam:operation_0478"
-        },
-        {
-          "@id": "edam:operation_0463"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "PSRR",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "https://rnadrug.shinyapps.io/PSRR/"
     },
     {
-      "@id": "_:Nf94c3d9689da4a029e061c75434203e0",
+      "@id": "_:N5a0192f56de442549966466aca2b8abb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -105,7 +105,7 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:Nacaba93a854244ecb04026f86f70f88e",
+      "@id": "_:N70b8206ea09c4c438c5bb8f20e08efc3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

@@ -40,50 +40,54 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/frogs_normalisation",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N0167c00f2e9440c19aad4dac205620ea"
+          "@id": "_:N9c87c2111e3542278948e4a9823f510d"
         },
         {
-          "@id": "_:N974ccd3f1da8403d87d965effdd984bc"
+          "@id": "_:N096ddcdbb45948178ab037e899cb172d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf0f0b5ee8dda4c38916a4551dcd44a14"
+          "@id": "_:Naf6f3058452a49559aaf14e88568f732"
         },
         {
-          "@id": "_:N6c8c4fa887d7441a8e272f21810ffd48"
+          "@id": "_:N0d5106fc8a534071b3803458aa939884"
         },
         {
-          "@id": "_:Na203c089eb9048bc98234be281c4f421"
+          "@id": "_:Nf45e45f8ed4c493b8c52ecaee2830799"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3174"
-        },
-        {
           "@id": "edam:topic_3168"
         },
         {
           "@id": "edam:topic_3301"
+        },
+        {
+          "@id": "edam:topic_3174"
         }
       ],
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
-        },
-        {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC4987906",
-        "pubmed:27137889"
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
+        "pubmed:27137889",
+        "pmcid:PMC4987906"
       ],
       "sc:description": "Keeps in each sample the same number of element by random sampling.",
       "sc:featureList": {
@@ -91,9 +95,9 @@
       },
       "sc:name": "frogs_normalisation",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Fmvalade%2Ffrogs%2FFROGS_normalisation%2F1.1.0"
@@ -102,7 +106,7 @@
       "sc:url": "http://frogs.toulouse.inra.fr/"
     },
     {
-      "@id": "_:N0167c00f2e9440c19aad4dac205620ea",
+      "@id": "_:N9c87c2111e3542278948e4a9823f510d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -113,7 +117,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N974ccd3f1da8403d87d965effdd984bc",
+      "@id": "_:N096ddcdbb45948178ab037e899cb172d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -124,29 +128,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf0f0b5ee8dda4c38916a4551dcd44a14",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N6c8c4fa887d7441a8e272f21810ffd48",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3464"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Na203c089eb9048bc98234be281c4f421",
+      "@id": "_:Naf6f3058452a49559aaf14e88568f732",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -157,8 +139,26 @@
       "sc:name": "Report"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N0d5106fc8a534071b3803458aa939884",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nf45e45f8ed4c493b8c52ecaee2830799",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3464"
+      },
+      "sc:name": "Data"
     }
   ]
 }

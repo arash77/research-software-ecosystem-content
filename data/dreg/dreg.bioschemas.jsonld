@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N6f99882a9a5a47cb8c19ad4f9aaea5fd"
+          "@id": "_:Nd7d9f50b81d942c89bd973a66267e681"
         },
         {
-          "@id": "_:N27714711aa1c4dba9568889cd8fad601"
+          "@id": "_:N2816af87c3f04a6797828b6745e1d8e9"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nbeb47044451c47eda7a477b0c58559e2"
+        "@id": "_:Nc046395bf2aa45a7868b2cc8ce1ead36"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -60,33 +60,33 @@
       },
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.1017/CBO9781139151399"
-        },
-        {
           "@id": "https://doi.org/10.1017/CBO9781139151405"
         },
         {
           "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
+        },
+        {
+          "@id": "https://doi.org/10.1017/CBO9781139151399"
         }
       ],
       "sc:contributor": [
-        "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust",
         "EMBOSS Contributors",
-        "UK MRC"
+        "UK BBSRC"
       ],
       "sc:description": "Regular expression search of nucleotide sequence(s).",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0338"
+          "@id": "edam:operation_0415"
         },
         {
-          "@id": "edam:operation_0415"
+          "@id": "edam:operation_0338"
         }
       ],
       "sc:funder": [
-        "Wellcome Trust",
         "UK MRC",
+        "Wellcome Trust",
         "UK BBSRC"
       ],
       "sc:isAccessibleForFree": true,
@@ -116,7 +116,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/dreg.html"
     },
     {
-      "@id": "_:N6f99882a9a5a47cb8c19ad4f9aaea5fd",
+      "@id": "_:Nd7d9f50b81d942c89bd973a66267e681",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -124,7 +124,7 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:N27714711aa1c4dba9568889cd8fad601",
+      "@id": "_:N2816af87c3f04a6797828b6745e1d8e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1352"
@@ -132,7 +132,7 @@
       "sc:name": "Regular expression"
     },
     {
-      "@id": "_:Nbeb47044451c47eda7a477b0c58559e2",
+      "@id": "_:Nc046395bf2aa45a7868b2cc8ce1ead36",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1114"
@@ -140,11 +140,11 @@
       "sc:name": "Sequence motif identifier"
     },
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
       "@type": "sc:CreativeWork"
     }
   ]

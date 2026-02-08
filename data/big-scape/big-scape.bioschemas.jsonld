@@ -42,6 +42,12 @@
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0084"
+        },
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
           "@id": "edam:topic_3172"
         },
         {
@@ -52,12 +58,6 @@
         },
         {
           "@id": "edam:topic_3697"
-        },
-        {
-          "@id": "edam:topic_0091"
-        },
-        {
-          "@id": "edam:topic_0084"
         }
       ],
       "sc:citation": [

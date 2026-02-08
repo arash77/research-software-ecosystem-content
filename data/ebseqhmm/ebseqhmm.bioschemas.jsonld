@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv193",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ebseqhmm",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ning Leng",
       "bsc:input": {
-        "@id": "_:N8e977a7a85d240db88db29a8b72a9cb8"
+        "@id": "_:N911fbb36e6d549debf6351f67b0dec5b"
       },
       "bsc:output": [
         {
-          "@id": "_:Nf8c582df4bc0407791e5f7eaf978929f"
+          "@id": "_:N0817761440b64babac7e11133cc1c11f"
         },
         {
-          "@id": "_:Nc9dc2c6b0d38462b9c0b64f9a470e0a7"
+          "@id": "_:N0b8f7ab2c40740d1a28ea6903e837e34"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,10 +61,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_3170"
         },
         {
-          "@id": "edam:topic_3170"
+          "@id": "edam:topic_0602"
         },
         {
           "@id": "edam:topic_0203"
@@ -70,10 +74,10 @@
         }
       ],
       "sc:citation": [
-        "pubmed:25847007",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btv193"
         },
+        "pubmed:25847007",
         "pmcid:PMC4528625"
       ],
       "sc:description": "This package implements an auto-regressive hidden Markov model for statistical analysis in ordered RNA-seq experiments (e.g. time course or spatial course data). It provides functions to identify genes and isoforms that have non-constant expression profile over the time points/positions, and cluster them into expression paths.",
@@ -91,9 +95,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "EBSeqHMM",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/EBSeqHMM.html"
@@ -102,39 +106,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/EBSeqHMM.html"
     },
     {
-      "@id": "_:Nf8c582df4bc0407791e5f7eaf978929f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nc9dc2c6b0d38462b9c0b64f9a470e0a7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N8e977a7a85d240db88db29a8b72a9cb8",
+      "@id": "_:N911fbb36e6d549debf6351f67b0dec5b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -150,8 +122,36 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btv193",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N0817761440b64babac7e11133cc1c11f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N0b8f7ab2c40740d1a28ea6903e837e34",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
     }
   ]
 }

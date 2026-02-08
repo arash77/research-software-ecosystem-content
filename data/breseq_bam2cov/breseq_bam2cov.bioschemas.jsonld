@@ -40,26 +40,30 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1007/978-1-4939-0554-6_12",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/breseq_bam2cov",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N641871b7850647beae0977eb548c428e"
+          "@id": "_:N89b780e7129e4531ab4735bbd0fb029f"
         },
         {
-          "@id": "_:Nec74e99eff0a43ebb30ed49a60a72418"
+          "@id": "_:Ndf5d142fce9644408a84cc3e7e7c6638"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N7e8b4b4571064b63a11958c9715a7717"
+          "@id": "_:N0229e3fe0f1e4230a3a3a9d5229f08c8"
         },
         {
-          "@id": "_:N1d6ea0c32da84b91bab4ac2c6ca05132"
+          "@id": "_:N780af9e611364ea8965478789e25a234"
         },
         {
-          "@id": "_:N994c51b0eb884861811c64440c03aeec"
+          "@id": "_:N97b6098fea034798a4c6ca94dbe0d6f1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -79,16 +83,16 @@
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pubmed:24838886",
-        "pmcid:PMC4987906",
+        "pmcid:PMC4239701",
         {
           "@id": "https://doi.org/10.1007/978-1-4939-0554-6_12"
         },
-        "pmcid:PMC4239701",
-        "pubmed:27137889",
+        "pubmed:24838886",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
-        }
+        },
+        "pubmed:27137889",
+        "pmcid:PMC4987906"
       ],
       "sc:description": "Create a coverage plot or table for the specified region.",
       "sc:featureList": {
@@ -96,9 +100,9 @@
       },
       "sc:name": "breseq_bam2cov",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Fmvalade%2Fbreseq%2Fbreseq_bam2cov%2F0.26"
@@ -107,18 +111,7 @@
       "sc:url": "http://barricklab.org/twiki/bin/view/Lab/ToolsBacterialGenomeResequencing"
     },
     {
-      "@id": "_:N641871b7850647beae0977eb548c428e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Nec74e99eff0a43ebb30ed49a60a72418",
+      "@id": "_:N89b780e7129e4531ab4735bbd0fb029f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -129,7 +122,18 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N7e8b4b4571064b63a11958c9715a7717",
+      "@id": "_:Ndf5d142fce9644408a84cc3e7e7c6638",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N0229e3fe0f1e4230a3a3a9d5229f08c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -140,7 +144,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N1d6ea0c32da84b91bab4ac2c6ca05132",
+      "@id": "_:N780af9e611364ea8965478789e25a234",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -151,7 +155,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N994c51b0eb884861811c64440c03aeec",
+      "@id": "_:N97b6098fea034798a4c6ca94dbe0d6f1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -160,10 +164,6 @@
         "@id": "edam:format_3508"
       },
       "sc:name": "Data"
-    },
-    {
-      "@id": "https://doi.org/10.1007/978-1-4939-0554-6_12",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",

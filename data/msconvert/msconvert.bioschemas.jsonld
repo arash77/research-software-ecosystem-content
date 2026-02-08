@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nbt.2377",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/msconvert",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Matt Chambers",
       "bsc:input": {
-        "@id": "_:Nea55cea54c6b40dd875bd74d6c3b1ef6"
+        "@id": "_:Nf9e07da7c6124231b8ecd9df2c2b0e43"
       },
       "bsc:output": {
-        "@id": "_:Nd8269b1bb7a14a20a9fcde851ebd7a33"
+        "@id": "_:N26432fd06a00440a814c524928fca961"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -56,18 +52,18 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1038/nbt.2377"
         },
-        "pubmed:23051804",
-        "pmcid:PMC3471674"
+        "pmcid:PMC3471674",
+        "pubmed:23051804"
       ],
       "sc:description": "msConvert is a command-line utility for converting between various mass spectrometry data formats, including from raw data from several commercial companies (with vendor libraries, Windows-only). For Windows users, there is also a GUI, msConvertGUI.",
       "sc:featureList": [
@@ -90,60 +86,64 @@
       "sc:url": "http://proteowizard.sourceforge.net/tools.shtml"
     },
     {
-      "@id": "_:Nea55cea54c6b40dd875bd74d6c3b1ef6",
+      "@id": "_:N26432fd06a00440a814c524928fca961",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3244"
-        },
-        {
-          "@id": "edam:format_3651"
-        },
-        {
-          "@id": "edam:format_3712"
-        },
-        {
-          "@id": "edam:format_3247"
+          "@id": "edam:format_3654"
         },
         {
           "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_3654"
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3712"
+        },
+        {
+          "@id": "edam:format_3651"
         }
       ],
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Nd8269b1bb7a14a20a9fcde851ebd7a33",
+      "@id": "_:Nf9e07da7c6124231b8ecd9df2c2b0e43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3654"
-        },
-        {
-          "@id": "edam:format_3244"
+          "@id": "edam:format_3712"
         },
         {
           "@id": "edam:format_3651"
         },
         {
-          "@id": "edam:format_3712"
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_2330"
         },
         {
           "@id": "edam:format_3247"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3244"
         }
       ],
       "sc:name": "Mass spectrum"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nbt.2377",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

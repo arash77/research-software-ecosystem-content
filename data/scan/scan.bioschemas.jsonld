@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/Scan",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N171fd56f1a0e4d2bbec9e0a33b394ede"
+        "@id": "_:Nefea47097f124da5b89ca4082a9d7a4c"
       },
       "bsc:output": {
-        "@id": "_:Nc53f55e8e9834d4eb191ef21bb74cd44"
+        "@id": "_:N1da11e5ce7c34f22a86272c05d54850a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_3308"
         },
         {
-          "@id": "edam:topic_3308"
+          "@id": "edam:topic_0602"
         },
         {
           "@id": "edam:topic_0091"
@@ -63,18 +63,18 @@
       "sc:description": "Scanning sample-specific miRNA regulation from bulk and single-cell RNA-sequencing data",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2437"
+          "@id": "edam:operation_3792"
         },
         {
-          "@id": "edam:operation_3792"
+          "@id": "edam:operation_2437"
         }
       ],
       "sc:license": "AGPL-3.0",
       "sc:name": "Scan",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/zhangjunpeng411/Scan"
@@ -83,20 +83,20 @@
       "sc:url": "https://github.com/zhangjunpeng411/Scan"
     },
     {
-      "@id": "_:N171fd56f1a0e4d2bbec9e0a33b394ede",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3112"
-      },
-      "sc:name": "Gene expression matrix"
-    },
-    {
-      "@id": "_:Nc53f55e8e9834d4eb191ef21bb74cd44",
+      "@id": "_:N1da11e5ce7c34f22a86272c05d54850a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
       },
       "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Nefea47097f124da5b89ca4082a9d7a4c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:name": "Gene expression matrix"
     }
   ]
 }

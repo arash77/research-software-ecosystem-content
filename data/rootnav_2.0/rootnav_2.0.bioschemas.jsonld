@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/709147",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/Rootnav_2.0",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9e653352173847408ca1f48d123079d7"
+        "@id": "_:Na89a986281a14c9da0a60a5f4614930d"
       },
       "bsc:output": {
-        "@id": "_:Ndb230da5463042ea81db9075873c9634"
+        "@id": "_:N197bf830cd8744018fb21532a498f952"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -63,7 +59,7 @@
       "sc:url": "https://github.com/robail-yasrab/RootNav-2.0/"
     },
     {
-      "@id": "_:Ndb230da5463042ea81db9075873c9634",
+      "@id": "_:N197bf830cd8744018fb21532a498f952",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -74,12 +70,16 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N9e653352173847408ca1f48d123079d7",
+      "@id": "_:Na89a986281a14c9da0a60a5f4614930d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
       "sc:name": "Image"
+    },
+    {
+      "@id": "https://doi.org/10.1101/709147",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -41,45 +41,45 @@
       "biotools:primaryContact": "Support service",
       "bsc:input": [
         {
-          "@id": "_:Ncad674ba9a734fe6b849356e8c6eda92"
+          "@id": "_:N3f4d73ab36b34d188892c9d2ab77243d"
         },
         {
-          "@id": "_:N6d3210440c8b4105b782586749486cb2"
+          "@id": "_:N856517f50e6e40bd9e5391fe8b2eada7"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ndfe4b698ab10408889d2355e317e3a3d"
+          "@id": "_:N6170549cb2874acbb61b11318c62c6e2"
         },
         {
-          "@id": "_:Nacc22412f5b6458da9c91f05181f3536"
+          "@id": "_:Ncd0eaa57764243df94cb53e8d8fc1f93"
         },
         {
-          "@id": "_:N94afecf519884da7b04497a1486382b5"
+          "@id": "_:Nedf96fe403f9461aad9c369271672685"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
         "Web application",
+        "Database portal",
         "Web API",
-        "Web service",
-        "Database portal"
+        "Web service"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0780"
+          "@id": "edam:topic_3071"
         },
         {
           "@id": "edam:topic_3810"
         },
         {
-          "@id": "edam:topic_0091"
-        },
-        {
           "@id": "edam:topic_0610"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_0091"
         }
       ],
       "sc:citation": {
@@ -88,16 +88,16 @@
       "sc:description": "This project aims at building an International Wheat Information System (WheatIS) to support the wheat research community. The main objective is to provide a single-access web based system to access to the available data resources and bioinformatics tools. The web portal indexes and makes findable any kind of data from wheat related species. \nThe WheatIS search is an implementation of DataDiscovery.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3625"
-        },
-        {
           "@id": "edam:operation_0227"
         },
         {
-          "@id": "edam:operation_2421"
+          "@id": "edam:operation_3625"
         },
         {
           "@id": "edam:operation_3908"
+        },
+        {
+          "@id": "edam:operation_2421"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -105,46 +105,30 @@
       "sc:name": "WheatIS",
       "sc:softwareHelp": [
         {
-          "@id": "https://urgi.versailles.inra.fr/wheatis/join"
-        },
-        {
-          "@id": "https://urgi.versailles.inra.fr/wheatis/help"
-        },
-        {
           "@id": "https://urgi.versailles.inra.fr/wheatis/about"
         },
         {
+          "@id": "https://urgi.versailles.inra.fr/wheatis/join"
+        },
+        {
           "@id": "https://urgi.versailles.inra.fr/wheatis/legal"
+        },
+        {
+          "@id": "https://urgi.versailles.inra.fr/wheatis/help"
         }
       ],
       "sc:url": "https://urgi.versailles.inrae.fr/wheatis/"
     },
     {
-      "@id": "_:Ndfe4b698ab10408889d2355e317e3a3d",
+      "@id": "_:N3f4d73ab36b34d188892c9d2ab77243d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0842"
+        "@id": "edam:data_0968"
       },
-      "sc:name": "Identifier"
+      "sc:name": "Keyword"
     },
     {
-      "@id": "_:Nacc22412f5b6458da9c91f05181f3536",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2080"
-      },
-      "sc:name": "Database search results"
-    },
-    {
-      "@id": "_:N94afecf519884da7b04497a1486382b5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2093"
-      },
-      "sc:name": "Data reference"
-    },
-    {
-      "@id": "_:Ncad674ba9a734fe6b849356e8c6eda92",
+      "@id": "_:N856517f50e6e40bd9e5391fe8b2eada7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -152,12 +136,28 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N6d3210440c8b4105b782586749486cb2",
+      "@id": "_:N6170549cb2874acbb61b11318c62c6e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0968"
+        "@id": "edam:data_2080"
       },
-      "sc:name": "Keyword"
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:Ncd0eaa57764243df94cb53e8d8fc1f93",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2093"
+      },
+      "sc:name": "Data reference"
+    },
+    {
+      "@id": "_:Nedf96fe403f9461aad9c369271672685",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
     },
     {
       "@id": "https://doi.org/10.1186/s13059-018-1491-4",

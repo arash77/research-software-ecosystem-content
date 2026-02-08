@@ -40,27 +40,27 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nce6d184b8609474597702107a0a1da2c"
+          "@id": "_:N4e0acb187da54432891b3e3cbebf4a46"
         },
         {
-          "@id": "_:Na517c429ecec45e18fb759a6901bdf20"
+          "@id": "_:Nf70a39ee7cf54347a7ee36bc941a24ac"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Na20430a22c7c4c658624d7d87381fc6c"
+          "@id": "_:Ncd47bfe926cf4fe584a0fddde04f532e"
         },
         {
-          "@id": "_:N255b29ec1b1f40c0827cedb1ccf9965b"
+          "@id": "_:N42ada012dcde47a5800b1bca9865b25e"
         },
         {
-          "@id": "_:Ne8cf7964fca748f2b7f60c79f44f69ba"
+          "@id": "_:Na39b7039eeb54551b2e434b566496fe4"
         },
         {
-          "@id": "_:N4525bf3143934587b4a0710e89a1841b"
+          "@id": "_:N1ec0b18b0e6849159d43c3e6abf698a3"
         },
         {
-          "@id": "_:N875859bab4464905bb8ac5b8d0c28eb0"
+          "@id": "_:Ndd3db468b27449469e94eb1e685ab7ea"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -70,16 +70,16 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0780"
+          "@id": "edam:topic_3293"
         },
         {
           "@id": "edam:topic_3512"
         },
         {
-          "@id": "edam:topic_3308"
+          "@id": "edam:topic_0780"
         },
         {
-          "@id": "edam:topic_3293"
+          "@id": "edam:topic_3308"
         },
         {
           "@id": "edam:topic_0196"
@@ -97,9 +97,6 @@
           "@id": "edam:operation_3208"
         },
         {
-          "@id": "edam:operation_2436"
-        },
-        {
           "@id": "edam:operation_2495"
         },
         {
@@ -107,15 +104,18 @@
         },
         {
           "@id": "edam:operation_0362"
+        },
+        {
+          "@id": "edam:operation_2436"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "CC-BY-NC-ND-4.0",
       "sc:name": "Rice Gene Index",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://riceome.hzau.edu.cn/tutorial.html"
@@ -123,31 +123,7 @@
       "sc:url": "https://riceome.hzau.edu.cn/"
     },
     {
-      "@id": "_:Na20430a22c7c4c658624d7d87381fc6c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3148"
-      },
-      "sc:name": "Gene family report"
-    },
-    {
-      "@id": "_:N255b29ec1b1f40c0827cedb1ccf9965b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3754"
-      },
-      "sc:name": "GO-term enrichment data"
-    },
-    {
-      "@id": "_:Ne8cf7964fca748f2b7f60c79f44f69ba",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1916"
-      },
-      "sc:name": "Alignment"
-    },
-    {
-      "@id": "_:N4525bf3143934587b4a0710e89a1841b",
+      "@id": "_:Ncd47bfe926cf4fe584a0fddde04f532e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -155,7 +131,15 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N875859bab4464905bb8ac5b8d0c28eb0",
+      "@id": "_:N42ada012dcde47a5800b1bca9865b25e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3148"
+      },
+      "sc:name": "Gene family report"
+    },
+    {
+      "@id": "_:Na39b7039eeb54551b2e434b566496fe4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -163,20 +147,36 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Nce6d184b8609474597702107a0a1da2c",
+      "@id": "_:N1ec0b18b0e6849159d43c3e6abf698a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2977"
+        "@id": "edam:data_1916"
       },
-      "sc:name": "Nucleic acid sequence"
+      "sc:name": "Alignment"
     },
     {
-      "@id": "_:Na517c429ecec45e18fb759a6901bdf20",
+      "@id": "_:Ndd3db468b27449469e94eb1e685ab7ea",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3754"
+      },
+      "sc:name": "GO-term enrichment data"
+    },
+    {
+      "@id": "_:N4e0acb187da54432891b3e3cbebf4a46",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
       },
       "sc:name": "Gene ID"
+    },
+    {
+      "@id": "_:Nf70a39ee7cf54347a7ee36bc941a24ac",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
     },
     {
       "@id": "https://doi.org/10.1101/2023.02.14.528456",

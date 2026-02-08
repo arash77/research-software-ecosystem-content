@@ -36,27 +36,23 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1002/0471250953.bi1308s21",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pride",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "PRIDE Feedback",
       "bsc:input": [
         {
-          "@id": "_:Ne2f4c62fb04443a1b630edbd196003ac"
+          "@id": "_:Nd68f0a6681ff471187aeb8467de45db2"
         },
         {
-          "@id": "_:N969d17049fa74b188238a8cfe8b1302b"
+          "@id": "_:Nd276c569228340869cfd986d78edb062"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N289a3750376145e99b0906cb39f9b98b"
+          "@id": "_:N407c99df7967404c9f2d31c63528a9ee"
         },
         {
-          "@id": "_:N33b3c9881f3e4e5ab8f5fa2525229397"
+          "@id": "_:N52edb2dfb4b34587b0a8e60ebfea4e9d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,9 +85,9 @@
       ],
       "sc:name": "PRIDE",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
         "EMBL-EBI Databases",
@@ -103,7 +99,23 @@
       "sc:url": "http://www.ebi.ac.uk/pride/"
     },
     {
-      "@id": "_:N289a3750376145e99b0906cb39f9b98b",
+      "@id": "_:Nd68f0a6681ff471187aeb8467de45db2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Nd276c569228340869cfd986d78edb062",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1145"
+      },
+      "sc:name": "PRIDE experiment accession number"
+    },
+    {
+      "@id": "_:N407c99df7967404c9f2d31c63528a9ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -114,7 +126,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N33b3c9881f3e4e5ab8f5fa2525229397",
+      "@id": "_:N52edb2dfb4b34587b0a8e60ebfea4e9d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -125,20 +137,8 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Ne2f4c62fb04443a1b630edbd196003ac",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1145"
-      },
-      "sc:name": "PRIDE experiment accession number"
-    },
-    {
-      "@id": "_:N969d17049fa74b188238a8cfe8b1302b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3021"
-      },
-      "sc:name": "UniProt accession"
+      "@id": "https://doi.org/10.1002/0471250953.bi1308s21",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

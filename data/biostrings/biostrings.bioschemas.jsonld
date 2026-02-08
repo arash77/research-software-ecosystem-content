@@ -45,30 +45,30 @@
       "biotools:primaryContact": "H. Pagès",
       "bsc:input": [
         {
-          "@id": "_:Naf7a1f4338254c299d4a6c0f05d96f61"
+          "@id": "_:Ned0e9b9d4f5f4929af9d761263902173"
         },
         {
-          "@id": "_:Nff20e04945c345a891b5441308fa2ee3"
+          "@id": "_:N3c5f89bdacdf458595b980ebf733210b"
         },
         {
-          "@id": "_:N984cef0afc16428ea43ea1990b239b53"
+          "@id": "_:N6898051b432f4270a09f6377092cc20b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5bc2834ceadf40b892afb8e358504bcb"
+          "@id": "_:N3b0e2d26124a4f43b7058138d1dc056c"
         },
         {
-          "@id": "_:N530e0c5fcfdc4161845a9cb2c84beebc"
+          "@id": "_:N56d23af7cf1441c0b8bbbebc1b5b0bab"
         },
         {
-          "@id": "_:Nb76f6c10f8574564aa54d37ae487f732"
+          "@id": "_:N2408ba8721aa4b799ecb79ed33bff576"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
@@ -79,8 +79,8 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4509590",
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
         }
@@ -98,9 +98,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "Biostrings",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/Biostrings.html"
@@ -109,26 +109,59 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/Biostrings.html"
     },
     {
-      "@id": "_:Naf7a1f4338254c299d4a6c0f05d96f61",
+      "@id": "_:N3b0e2d26124a4f43b7058138d1dc056c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N56d23af7cf1441c0b8bbbebc1b5b0bab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:N2408ba8721aa4b799ecb79ed33bff576",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3115"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Microarray metadata"
+    },
+    {
+      "@id": "_:Ned0e9b9d4f5f4929af9d761263902173",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3115"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1919"
-        },
-        {
           "@id": "edam:format_2061"
         },
         {
           "@id": "edam:format_2554"
+        },
+        {
+          "@id": "edam:format_1919"
         }
       ],
       "sc:name": "Microarray metadata"
     },
     {
-      "@id": "_:Nff20e04945c345a891b5441308fa2ee3",
+      "@id": "_:N3c5f89bdacdf458595b980ebf733210b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -147,56 +180,23 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N984cef0afc16428ea43ea1990b239b53",
+      "@id": "_:N6898051b432f4270a09f6377092cc20b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
       },
       "sc:encodingFormat": [
         {
+          "@id": "edam:format_2554"
+        },
+        {
           "@id": "edam:format_1919"
         },
         {
           "@id": "edam:format_2061"
-        },
-        {
-          "@id": "edam:format_2554"
         }
       ],
       "sc:name": "Sequence record"
-    },
-    {
-      "@id": "_:N5bc2834ceadf40b892afb8e358504bcb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0849"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Sequence record"
-    },
-    {
-      "@id": "_:N530e0c5fcfdc4161845a9cb2c84beebc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3115"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Microarray metadata"
-    },
-    {
-      "@id": "_:Nb76f6c10f8574564aa54d37ae487f732",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Sequence alignment"
     }
   ]
 }

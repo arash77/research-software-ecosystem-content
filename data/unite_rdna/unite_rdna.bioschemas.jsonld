@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/unite_rdna",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N09fb89f50b444535867975a13980d894"
+        "@id": "_:Nfcac47897503471b924e59e376eb7adc"
       },
       "bsc:output": [
         {
-          "@id": "_:N8efa2398eb054215baf6566c0bf49e8d"
+          "@id": "_:N338925a781cc441e86dc3fe0ef6a4acd"
         },
         {
-          "@id": "_:N20e64d5f8f44428ba34fe1aed265924d"
+          "@id": "_:Nacfe3e913a514b87a595b8480e507dff"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -64,10 +64,10 @@
         }
       ],
       "sc:citation": [
+        "pubmed:24112409",
         {
           "@id": "https://doi.org/10.1111/mec.12481"
-        },
-        "pubmed:24112409"
+        }
       ],
       "sc:description": "UNITE is a database and sequence management environment centered on the eukaryotic nuclear ribosomal ITS region. All eukaryotic ITS sequences from the International Nucleotide Sequence Database Collaboration are clustered to approximately the species level (distance between species in steps of 0.5%), and all such species hypotheses are given a DOI to facilitate unambiguous scientific communication and data assembly.",
       "sc:featureList": [
@@ -78,22 +78,22 @@
           "@id": "edam:operation_3200"
         },
         {
-          "@id": "edam:operation_0566"
+          "@id": "edam:operation_3460"
         },
         {
           "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_3460"
+          "@id": "edam:operation_0566"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "CC-BY-SA-4.0",
       "sc:name": "UNITE database",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://unite.ut.ee/primers.php"
@@ -101,18 +101,7 @@
       "sc:url": "http://unite.ut.ee/"
     },
     {
-      "@id": "_:N8efa2398eb054215baf6566c0bf49e8d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3028"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Taxonomy"
-    },
-    {
-      "@id": "_:N20e64d5f8f44428ba34fe1aed265924d",
+      "@id": "_:N338925a781cc441e86dc3fe0ef6a4acd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -123,7 +112,18 @@
       "sc:name": "Sequence report"
     },
     {
-      "@id": "_:N09fb89f50b444535867975a13980d894",
+      "@id": "_:Nacfe3e913a514b87a595b8480e507dff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "_:Nfcac47897503471b924e59e376eb7adc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2390"

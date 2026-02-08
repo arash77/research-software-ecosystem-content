@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/recetox-msfinder",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N2412e670de85470e972978770e14e18d"
+        "@id": "_:Nf44c35b0ef2947fd8e89da06b696320f"
       },
       "bsc:output": {
-        "@id": "_:Nfa419b193acb44a898d216cb534bab2a"
+        "@id": "_:N5a6eefda3a35480e87072970e72e7e44"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": {
@@ -58,7 +58,7 @@
       "sc:url": "https://github.com/RECETOX/recetox-msfinder"
     },
     {
-      "@id": "_:N2412e670de85470e972978770e14e18d",
+      "@id": "_:Nf44c35b0ef2947fd8e89da06b696320f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -66,7 +66,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nfa419b193acb44a898d216cb534bab2a",
+      "@id": "_:N5a6eefda3a35480e87072970e72e7e44",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

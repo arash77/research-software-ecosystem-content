@@ -36,56 +36,64 @@
   },
   "@graph": [
     {
+      "@id": "http://orcid.org/0000-0003-2229-4508",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1534/genetics.114.169573",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/qpgraph",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0003-2229-4508"
       },
       "bsc:input": {
-        "@id": "_:N971fe4fe40b84056b62fe71e84c881e8"
+        "@id": "_:N0cafede3e8eb4fbabfbc277ed5c2c14f"
       },
       "bsc:output": [
         {
-          "@id": "_:Nb042ade4a636472d88760ebead0cc402"
+          "@id": "_:Nae875ad482aa4185886293db74f399c5"
         },
         {
-          "@id": "_:Nf917f47d6a3649c5b2adef9844c4c2fb"
+          "@id": "_:Nb1ee12fe0ede4668a4aafb5dd83a05d9"
         },
         {
-          "@id": "_:Ne1d1ef048474473d8cc108d7d715b0f3"
+          "@id": "_:N14774c8380114e80a419ac6021e7f2c3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
-        },
-        {
-          "@id": "edam:topic_3308"
+          "@id": "edam:topic_0203"
         },
         {
           "@id": "edam:topic_2885"
         },
         {
-          "@id": "edam:topic_0203"
-        },
-        {
           "@id": "edam:topic_3518"
         },
         {
+          "@id": "edam:topic_0622"
+        },
+        {
           "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_3308"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC4256758",
         "pubmed:25271303",
         {
           "@id": "https://doi.org/10.1534/genetics.114.169573"
-        },
-        "pmcid:PMC4256758"
+        }
       ],
       "sc:description": "Estimate gene and eQTL networks from high-throughput expression and genotyping assays.",
       "sc:featureList": {
@@ -94,9 +102,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "qpgraph",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/qpgraph.html"
@@ -105,23 +113,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/qpgraph.html"
     },
     {
-      "@id": "_:Nb042ade4a636472d88760ebead0cc402",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1669"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3547"
-        },
-        {
-          "@id": "edam:format_3033"
-        }
-      ],
-      "sc:name": "P-value"
-    },
-    {
-      "@id": "_:Nf917f47d6a3649c5b2adef9844c4c2fb",
+      "@id": "_:Nae875ad482aa4185886293db74f399c5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -137,23 +129,39 @@
       "sc:name": "Score"
     },
     {
-      "@id": "_:Ne1d1ef048474473d8cc108d7d715b0f3",
+      "@id": "_:Nb1ee12fe0ede4668a4aafb5dd83a05d9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N14774c8380114e80a419ac6021e7f2c3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_3033"
         },
         {
-          "@id": "edam:format_3033"
+          "@id": "edam:format_3547"
         }
       ],
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N971fe4fe40b84056b62fe71e84c881e8",
+      "@id": "_:N0cafede3e8eb4fbabfbc277ed5c2c14f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -162,14 +170,6 @@
         "@id": "edam:format_3033"
       },
       "sc:name": "Processed microarray data"
-    },
-    {
-      "@id": "https://doi.org/10.1534/genetics.114.169573",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-2229-4508",
-      "@type": "sc:Person"
     }
   ]
 }

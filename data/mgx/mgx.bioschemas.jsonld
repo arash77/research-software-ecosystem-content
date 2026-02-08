@@ -39,20 +39,20 @@
       "@id": "https://bio.tools/mgx",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4a01eb021335483bba627c8db94f9e77"
+        "@id": "_:N5a574f53644b460eac0e32d8354c285b"
       },
       "bsc:output": [
         {
-          "@id": "_:Nf5b8aab0b3ee4679852390345ce34182"
+          "@id": "_:N770023f61b664c56b5f830dcda14476c"
         },
         {
-          "@id": "_:N13f07ff560434e03a48d49e8a262aaf8"
+          "@id": "_:Nc8fce99026f343fcb497ca66e63650a3"
         },
         {
-          "@id": "_:Nca0632afda4740a68af82d430be69f84"
+          "@id": "_:N32b45d2dcbab4d84a4454b2700a734c3"
         },
         {
-          "@id": "_:N25772e6fddb3411795548eeba94f9b21"
+          "@id": "_:N0d35efeb5dea4c71b8a9ccf0f751ce38"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -61,28 +61,28 @@
         "@id": "edam:topic_3174"
       },
       "sc:citation": [
+        "pubmed:29690922",
         "pmcid:PMC5937802",
         {
           "@id": "https://doi.org/10.1186/s40168-018-0460-1"
-        },
-        "pubmed:29690922"
+        }
       ],
       "sc:description": "Open source client/server framework for the analysis of shotgun metagenome data. Flexible analysis workflows based on the Conveyor workflow engine provide the user with a wide range of recent algorithms for taxonomic, functional and statistical analysis. The ability to integrate own datasources and custom analysis pipelines enables researchers to address highly specific study aims and generate high-quality charts as well as interactive visualizations.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0346"
+          "@id": "edam:operation_3460"
         },
         {
-          "@id": "edam:operation_3460"
+          "@id": "edam:operation_0346"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "AGPL-3.0",
       "sc:name": "MGX",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "bigi",
       "sc:softwareHelp": {
@@ -92,23 +92,7 @@
       "sc:url": "https://mgx-metagenomics.github.io/"
     },
     {
-      "@id": "_:Nf5b8aab0b3ee4679852390345ce34182",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N13f07ff560434e03a48d49e8a262aaf8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3028"
-      },
-      "sc:name": "Taxonomy"
-    },
-    {
-      "@id": "_:Nca0632afda4740a68af82d430be69f84",
+      "@id": "_:N770023f61b664c56b5f830dcda14476c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -116,7 +100,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N25772e6fddb3411795548eeba94f9b21",
+      "@id": "_:Nc8fce99026f343fcb497ca66e63650a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -124,15 +108,28 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N4a01eb021335483bba627c8db94f9e77",
+      "@id": "_:N32b45d2dcbab4d84a4454b2700a734c3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "_:N0d35efeb5dea4c71b8a9ccf0f751ce38",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N5a574f53644b460eac0e32d8354c285b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
       },
       "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1936"
-        },
         {
           "@id": "edam:format_1929"
         },
@@ -140,10 +137,13 @@
           "@id": "edam:format_1930"
         },
         {
-          "@id": "edam:format_1927"
+          "@id": "edam:format_3284"
         },
         {
-          "@id": "edam:format_3284"
+          "@id": "edam:format_1936"
+        },
+        {
+          "@id": "edam:format_1927"
         }
       ],
       "sc:name": "Nucleic acid sequence (raw)"

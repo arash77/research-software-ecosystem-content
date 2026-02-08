@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/deseq2",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N81cf22d70c3b42239d818babde22bc54"
+        "@id": "_:Na7860320d805409393d7dc242570b45d"
       },
       "bsc:output": {
-        "@id": "_:N153a39f0c5e049d0a3eb14e07721a791"
+        "@id": "_:N009d76349f3044af92fe5c9adfebea25"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -51,32 +51,32 @@
       },
       "sc:author": [
         "Simon Anders",
-        "Wolfgang Huber",
-        "Michael Love"
+        "Michael Love",
+        "Wolfgang Huber"
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1186/s13059-014-0550-8"
         },
-        "pmcid:PMC4302049",
-        "pubmed:25516281"
+        "pubmed:25516281",
+        "pmcid:PMC4302049"
       ],
       "sc:description": "R/Bioconductor package for differential gene expression analysis based on the negative binomial distribution. Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3680"
+          "@id": "edam:operation_3223"
         },
         {
-          "@id": "edam:operation_3223"
+          "@id": "edam:operation_3680"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "LGPL-2.1",
       "sc:name": "DESeq2",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": "hdhub",
       "sc:softwareHelp": {
@@ -86,7 +86,7 @@
       "sc:url": "http://bioconductor.org/packages/DESeq2/"
     },
     {
-      "@id": "_:N153a39f0c5e049d0a3eb14e07721a791",
+      "@id": "_:N009d76349f3044af92fe5c9adfebea25",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -97,7 +97,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N81cf22d70c3b42239d818babde22bc54",
+      "@id": "_:Na7860320d805409393d7dc242570b45d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"

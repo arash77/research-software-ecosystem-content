@@ -36,42 +36,46 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/BeanMine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nbad2a0497fe44915b624893fd102c58d"
+          "@id": "_:N3323e0e64dcd4fefa61b7578243cf667"
         },
         {
-          "@id": "_:Nce281103630746b892f85d5b00626d78"
+          "@id": "_:N090cd0ae35114cb1a5cf829ef8613e76"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2f03c3af1d1c4e6caf32b93b195af233"
+          "@id": "_:Nf28d82f3fb2d43ccbc71518e934838c2"
         },
         {
-          "@id": "_:Nd7365e1672de4dbb81a9d4494425474a"
+          "@id": "_:Nfc1021050bcb41a6995a8048185a7f24"
         },
         {
-          "@id": "_:N711bdfb11c11482c9cc02b2e8b987324"
+          "@id": "_:N7e096c4c93e84b69b27d2b986f31fff3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
         "Web application",
-        "Web service",
-        "Database portal"
+        "Database portal",
+        "Web service"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_3071"
         },
         {
           "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_0622"
         }
       ],
       "sc:citation": [
@@ -84,16 +88,16 @@
       "sc:description": "A mine with common bean data from the Legume Info tripal.chado database",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_2436"
         },
         {
           "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0337"
-        },
-        {
-          "@id": "edam:operation_2436"
+          "@id": "edam:operation_2422"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -105,41 +109,17 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+          "@id": "https://flymine.readthedocs.io/en/latest/"
         },
         {
-          "@id": "https://flymine.readthedocs.io/en/latest/"
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
         }
       ],
       "sc:softwareVersion": "0.10",
       "sc:url": "https://mines.legumeinfo.org/beanmine"
     },
     {
-      "@id": "_:Nbad2a0497fe44915b624893fd102c58d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:Nce281103630746b892f85d5b00626d78",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2353"
-      },
-      "sc:name": "Ontology data"
-    },
-    {
-      "@id": "_:N2f03c3af1d1c4e6caf32b93b195af233",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3753"
-      },
-      "sc:name": "Over-representation data"
-    },
-    {
-      "@id": "_:Nd7365e1672de4dbb81a9d4494425474a",
+      "@id": "_:Nf28d82f3fb2d43ccbc71518e934838c2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -147,7 +127,7 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N711bdfb11c11482c9cc02b2e8b987324",
+      "@id": "_:Nfc1021050bcb41a6995a8048185a7f24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -155,8 +135,28 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N7e096c4c93e84b69b27d2b986f31fff3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "_:N3323e0e64dcd4fefa61b7578243cf667",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N090cd0ae35114cb1a5cf829ef8613e76",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
     }
   ]
 }

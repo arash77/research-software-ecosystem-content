@@ -44,34 +44,34 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nba4c9e102f814869993a42eecca52ee2"
+          "@id": "_:N4d5d0c6e8a8a47a390c7a07edbe20b9f"
         },
         {
-          "@id": "_:Nd11e3d2c4de84d74a96b50aa916463f2"
+          "@id": "_:Nad998ce9cd6c4ab1b826af2752a28906"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nbf929134196e4d578a6b56af4281a277"
+          "@id": "_:N0d430b3866a249b29d2429b7a787a3f4"
         },
         {
-          "@id": "_:Ndeb5bf47c74f46c5b165f21eb46b8de0"
+          "@id": "_:Ne824d7ffdec5471bb3a19c3cffbd0c03"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3047"
+          "@id": "edam:topic_0080"
         },
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_3047"
         }
       ],
       "sc:author": "Torbjørn Rognes",
       "sc:citation": [
-        "pubmed:21631914",
         "pmcid:PMC3120707",
+        "pubmed:21631914",
         {
           "@id": "https://doi.org/10.1186/1471-2105-12-221"
         }
@@ -87,17 +87,17 @@
       "sc:provider": "UiO",
       "sc:softwareHelp": [
         {
-          "@id": "http://dna.uio.no/swipe/"
+          "@id": "http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-221"
         },
         {
-          "@id": "http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-221"
+          "@id": "http://dna.uio.no/swipe/"
         }
       ],
       "sc:softwareVersion": "2.0.5",
       "sc:url": "http://dna.uio.no/swipe"
     },
     {
-      "@id": "_:Nbf929134196e4d578a6b56af4281a277",
+      "@id": "_:N0d430b3866a249b29d2429b7a787a3f4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -105,7 +105,7 @@
       "sc:name": "Sequence alignment (protein)"
     },
     {
-      "@id": "_:Ndeb5bf47c74f46c5b165f21eb46b8de0",
+      "@id": "_:Ne824d7ffdec5471bb3a19c3cffbd0c03",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -113,20 +113,20 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:Nba4c9e102f814869993a42eecca52ee2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2976"
-      },
-      "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:Nd11e3d2c4de84d74a96b50aa916463f2",
+      "@id": "_:N4d5d0c6e8a8a47a390c7a07edbe20b9f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
       },
       "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nad998ce9cd6c4ab1b826af2752a28906",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
     }
   ]
 }

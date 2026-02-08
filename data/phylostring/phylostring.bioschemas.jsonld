@@ -45,13 +45,13 @@
           "@id": "edam:topic_3293"
         },
         {
-          "@id": "edam:topic_0128"
+          "@id": "edam:topic_3512"
         },
         {
           "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_3512"
+          "@id": "edam:topic_0128"
         }
       ],
       "sc:citation": [
@@ -64,6 +64,9 @@
       "sc:description": "Web server designed to identify, visualize, and evaluate functional relationships between orthologous protein groups across different phylogenetic lineages.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_2949"
+        },
+        {
           "@id": "edam:operation_3925"
         },
         {
@@ -71,17 +74,14 @@
         },
         {
           "@id": "edam:operation_2436"
-        },
-        {
-          "@id": "edam:operation_2949"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "PhyloString",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:url": "https://string-db.org/"
     },

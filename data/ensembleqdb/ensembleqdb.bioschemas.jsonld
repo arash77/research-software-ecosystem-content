@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr307",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ensembleqdb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na400859b20c24b45bea879f89bcc2aa7"
+        "@id": "_:N49a01f786d044146a344820007d7568e"
       },
       "bsc:output": {
-        "@id": "_:N3872aac1001d407babdf0ddfe894ccf2"
+        "@id": "_:N3c46b5c8e45f43aea0abbf69a891678c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -61,8 +65,8 @@
       },
       "sc:name": "Ensembl query-based biclustering",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -72,7 +76,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/kmarchal/Supplementary_Information_DeSmet_2011/"
     },
     {
-      "@id": "_:Na400859b20c24b45bea879f89bcc2aa7",
+      "@id": "_:N49a01f786d044146a344820007d7568e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1893"
@@ -80,7 +84,7 @@
       "sc:name": "Locus ID"
     },
     {
-      "@id": "_:N3872aac1001d407babdf0ddfe894ccf2",
+      "@id": "_:N3c46b5c8e45f43aea0abbf69a891678c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1246"
@@ -89,10 +93,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Sequence cluster (nucleic acid)"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btr307",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

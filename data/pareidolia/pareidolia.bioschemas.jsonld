@@ -36,28 +36,32 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-1126-1535",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/pareidolia",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc84c6818d8d6410e876ca2dd6e7c3d53"
+        "@id": "_:Nadb6f00cf8504d07bdd14d02544fae80"
       },
       "bsc:output": {
-        "@id": "_:Na4de74691dec467ea27b54f85a2abc5d"
+        "@id": "_:N3a41c69e5b2f4aa89b1c82a1b7d30d29"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_0654"
-        },
         {
           "@id": "edam:topic_3473"
         },
         {
           "@id": "edam:topic_3173"
+        },
+        {
+          "@id": "edam:topic_0654"
         }
       ],
       "sc:author": {
@@ -71,22 +75,22 @@
       "sc:license": "MIT",
       "sc:name": "pareidolia",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://pareidolia.readthedocs.io/en/latest/"
+          "@id": "https://github.com/koszullab/pareidolia"
         },
         {
-          "@id": "https://github.com/koszullab/pareidolia"
+          "@id": "https://pareidolia.readthedocs.io/en/latest/"
         }
       ],
       "sc:softwareVersion": "1.2.0",
       "sc:url": "https://github.com/koszullab/pareidolia"
     },
     {
-      "@id": "_:Nc84c6818d8d6410e876ca2dd6e7c3d53",
+      "@id": "_:Nadb6f00cf8504d07bdd14d02544fae80",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2856"
@@ -97,7 +101,7 @@
       "sc:name": "Structural distance matrix"
     },
     {
-      "@id": "_:Na4de74691dec467ea27b54f85a2abc5d",
+      "@id": "_:N3a41c69e5b2f4aa89b1c82a1b7d30d29",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0951"
@@ -106,10 +110,6 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Statistical estimate score"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-1126-1535",
-      "@type": "sc:Person"
     }
   ]
 }

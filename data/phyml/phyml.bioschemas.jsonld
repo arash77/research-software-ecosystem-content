@@ -36,15 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gki352",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1080/10635150600755453",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/sysbio/syq010",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gki352",
       "@type": "sc:CreativeWork"
     },
     {
@@ -56,19 +52,23 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1080/10635150600755453",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/phyml",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Stephane Guindon",
       "bsc:input": [
         {
-          "@id": "_:Nd72e8f683fc94607bcfaaeba93c2c1a8"
+          "@id": "_:N5042054a369c4187a9ee0fbcfbd925dc"
         },
         {
-          "@id": "_:N8add6fb2b24d4529ac1b130a355c26e8"
+          "@id": "_:Nb4e691dac52d4640b1326f5de12bd748"
         }
       ],
       "bsc:output": {
-        "@id": "_:N6ae7e04ca1f0412a8c9d7c7cb18a141d"
+        "@id": "_:Nb22306d486ca479989656c8f7d26cf58"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -77,35 +77,35 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_3293"
         },
         {
-          "@id": "edam:topic_3293"
+          "@id": "edam:topic_0091"
         }
       ],
       "sc:author": "Stephane Guindon",
       "sc:citation": [
-        "pubmed:15980534",
-        "pubmed:16785212",
-        "pubmed:14530136",
         {
           "@id": "https://doi.org/10.1093/sysbio/syq010"
         },
         {
-          "@id": "https://doi.org/10.1080/10635150390235520"
-        },
-        {
           "@id": "https://doi.org/10.1093/nar/gki352"
         },
+        "pubmed:14530136",
+        "pubmed:15980534",
         "pmcid:PMC1160113",
+        "pubmed:20525638",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/bti713"
+        },
         "pubmed:16234323",
+        "pubmed:16785212",
         {
           "@id": "https://doi.org/10.1080/10635150600755453"
         },
         {
-          "@id": "https://doi.org/10.1093/bioinformatics/bti713"
-        },
-        "pubmed:20525638"
+          "@id": "https://doi.org/10.1080/10635150390235520"
+        }
       ],
       "sc:description": "Phylogenetic estimation software using Maximum Likelihood",
       "sc:featureList": {
@@ -124,18 +124,7 @@
       "sc:url": "https://www.atgc-montpellier.fr/phyml/"
     },
     {
-      "@id": "_:N6ae7e04ca1f0412a8c9d7c7cb18a141d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1910"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:Nd72e8f683fc94607bcfaaeba93c2c1a8",
+      "@id": "_:N5042054a369c4187a9ee0fbcfbd925dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -146,7 +135,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N8add6fb2b24d4529ac1b130a355c26e8",
+      "@id": "_:Nb4e691dac52d4640b1326f5de12bd748",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -155,6 +144,17 @@
         "@id": "edam:format_2924"
       },
       "sc:name": "Protein sequence alignment"
+    },
+    {
+      "@id": "_:Nb22306d486ca479989656c8f7d26cf58",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Phylogenetic tree"
     }
   ]
 }

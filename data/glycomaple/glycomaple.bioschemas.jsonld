@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/glycomaple",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8b678e1948c1423bb7e023355934b0fe"
+        "@id": "_:Nd9e1d98889894a148bcb1e4c6982f2d5"
       },
       "bsc:output": {
-        "@id": "_:N5f5828fc41cf45a889c2ed5fe0fa080b"
+        "@id": "_:Ncebf438d381646d9b951a6a8d2b28124"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:citation": [
@@ -69,18 +69,7 @@
       "sc:url": "https://glycosmos.org/glycomaple"
     },
     {
-      "@id": "_:N5f5828fc41cf45a889c2ed5fe0fa080b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2333"
-      },
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:N8b678e1948c1423bb7e023355934b0fe",
+      "@id": "_:Nd9e1d98889894a148bcb1e4c6982f2d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -89,6 +78,17 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:Ncebf438d381646d9b951a6a8d2b28124",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Pathway or network"
     }
   ]
 }

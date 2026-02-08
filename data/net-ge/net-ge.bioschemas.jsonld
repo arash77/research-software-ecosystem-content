@@ -42,27 +42,27 @@
         {
           "@id": "http://orcid.org/0000-0002-1838-8918"
         },
-        "Samuele Bovo",
-        "Pier Luigi Martelli"
+        "Pier Luigi Martelli",
+        "Samuele Bovo"
       ],
       "bsc:input": {
-        "@id": "_:N9c382b9accd441aaaf1c5a5724f607e5"
+        "@id": "_:N733f6fb5f05c486ea915c7a5c8f02640"
       },
       "bsc:output": [
         {
-          "@id": "_:N8beff17f427044eaaa44d65287622a2e"
+          "@id": "_:N6d1b22dceac949328daf96a79e4a2928"
         },
         {
-          "@id": "_:N236857937411456da8838ff246ca627a"
+          "@id": "_:Ndec13bdffac5455b8cedd6743300e404"
         },
         {
-          "@id": "_:N12fce0e33a8446d4a987d29b2c636077"
+          "@id": "_:N40526cedfeba45f7862ce5e9fb9a8ece"
         },
         {
-          "@id": "_:N7af3647600d546aa9ba581386dbd1471"
+          "@id": "_:N32511e37d5204ab5a0bda26c60d98084"
         },
         {
-          "@id": "_:Nc6817a9629a845b6b7847b0fadafbb2f"
+          "@id": "_:Nf338f4e06f9647fda3b574f7a2bca5b1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -72,11 +72,11 @@
       },
       "sc:author": "Samuele Bovo",
       "sc:citation": [
-        "pubmed:26110971",
-        "pmcid:PMC4480278",
         {
           "@id": "https://doi.org/10.1186/1471-2164-16-s8-s6"
-        }
+        },
+        "pubmed:26110971",
+        "pmcid:PMC4480278"
       ],
       "sc:description": "Network-based enrichment analysis of gene sets.",
       "sc:featureList": [
@@ -102,55 +102,34 @@
       "sc:url": "http://net-ge.biocomp.unibo.it/"
     },
     {
-      "@id": "_:N8beff17f427044eaaa44d65287622a2e",
+      "@id": "_:N6d1b22dceac949328daf96a79e4a2928",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1155"
+        "@id": "edam:data_3028"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_2331"
-        }
-      ],
-      "sc:name": "Pathway ID (reactome)"
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Taxonomy"
     },
     {
-      "@id": "_:N236857937411456da8838ff246ca627a",
+      "@id": "_:Ndec13bdffac5455b8cedd6743300e404",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2343"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2331"
         },
         {
-          "@id": "edam:format_2331"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Pathway ID (KEGG)"
     },
     {
-      "@id": "_:N12fce0e33a8446d4a987d29b2c636077",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:N7af3647600d546aa9ba581386dbd1471",
+      "@id": "_:N40526cedfeba45f7862ce5e9fb9a8ece",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -166,18 +145,39 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:Nc6817a9629a845b6b7847b0fadafbb2f",
+      "@id": "_:N32511e37d5204ab5a0bda26c60d98084",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3028"
+        "@id": "edam:data_1155"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2332"
-      },
-      "sc:name": "Taxonomy"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Pathway ID (reactome)"
     },
     {
-      "@id": "_:N9c382b9accd441aaaf1c5a5724f607e5",
+      "@id": "_:Nf338f4e06f9647fda3b574f7a2bca5b1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N733f6fb5f05c486ea915c7a5c8f02640",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"

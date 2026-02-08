@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/prokaryote-rnaseq",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -43,19 +47,19 @@
         "Alexander Raknes"
       ],
       "bsc:input": {
-        "@id": "_:Nbbe00b5e9d6f4fe9aab9dfe2c9c007b8"
+        "@id": "_:N6cea607d4b5a4af0ba61d75414eababc"
       },
       "bsc:output": {
-        "@id": "_:N99cc969152a545b3898cdcf00ee72cc3"
+        "@id": "_:N3c27396dfb73418cafd7e881823f506f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3297"
+          "@id": "edam:topic_3047"
         },
         {
-          "@id": "edam:topic_3047"
+          "@id": "edam:topic_3297"
         }
       ],
       "sc:author": "Alexander Raknes",
@@ -68,27 +72,16 @@
       },
       "sc:name": "Prokaryote RNA sequence analysis workflow",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:provider": "ELIXIR-NO",
       "sc:softwareVersion": "1.0",
       "sc:url": "https://galaxy-uit.bioinfo.no/u/ehj000/p/prokaryote-rnaseq-dataset"
     },
     {
-      "@id": "_:N99cc969152a545b3898cdcf00ee72cc3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Gene expression data"
-    },
-    {
-      "@id": "_:Nbbe00b5e9d6f4fe9aab9dfe2c9c007b8",
+      "@id": "_:N6cea607d4b5a4af0ba61d75414eababc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -99,8 +92,15 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N3c27396dfb73418cafd7e881823f506f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene expression data"
     }
   ]
 }

@@ -45,21 +45,21 @@
       "biotools:primaryContact": "Gro Nilsen",
       "bsc:input": [
         {
-          "@id": "_:N4dcde05866d741389832e3bb9ee12565"
+          "@id": "_:N8895338a02c94c3ead0c3b398b63319a"
         },
         {
-          "@id": "_:N5bda803fc23e4cf9b647785f7911f7d8"
+          "@id": "_:N80f11c2733424900987ffebe28910a9f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N371afa3e0fd2483ab8b4c781ef2e65b4"
+          "@id": "_:N35447d07365e462f968a9bbfa0f93100"
         },
         {
-          "@id": "_:Ne7d356a148394f898ddd8e90fff60b9b"
+          "@id": "_:N83823fe115c040fcadb4506419de574c"
         },
         {
-          "@id": "_:N8f98b9e33e5e434f970b5aa2b37e58dc"
+          "@id": "_:N8eb5f579509944088a760ac49edd38f9"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -69,13 +69,13 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2269"
+          "@id": "edam:topic_2640"
         },
         {
           "@id": "edam:topic_3360"
         },
         {
-          "@id": "edam:topic_2640"
+          "@id": "edam:topic_2269"
         }
       ],
       "sc:citation": [
@@ -108,7 +108,55 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/copynumber.html"
     },
     {
-      "@id": "_:N4dcde05866d741389832e3bb9ee12565",
+      "@id": "_:N35447d07365e462f968a9bbfa0f93100",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1622"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Disease report"
+    },
+    {
+      "@id": "_:N83823fe115c040fcadb4506419de574c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N8eb5f579509944088a760ac49edd38f9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N8895338a02c94c3ead0c3b398b63319a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -119,7 +167,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N5bda803fc23e4cf9b647785f7911f7d8",
+      "@id": "_:N80f11c2733424900987ffebe28910a9f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -128,54 +176,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Sequence coordinates"
-    },
-    {
-      "@id": "_:N371afa3e0fd2483ab8b4c781ef2e65b4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Ne7d356a148394f898ddd8e90fff60b9b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1636"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Heat map"
-    },
-    {
-      "@id": "_:N8f98b9e33e5e434f970b5aa2b37e58dc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1622"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Disease report"
     }
   ]
 }

@@ -44,30 +44,30 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nce5c0579d9674f39847d3736ac585efb"
+          "@id": "_:Ndc1b104d02e64e7883488643a05a53a6"
         },
         {
-          "@id": "_:N73b06a8e644c46529797ea72f3ea2a27"
+          "@id": "_:N3855c29f0ed34780a2fb6ec917b95f18"
         },
         {
-          "@id": "_:N9c2e64194f0d42f08746788e1775257d"
+          "@id": "_:Nb753123852d04b5d893dfe94e3f51c43"
         },
         {
-          "@id": "_:N670fc122d74b4a21a7a08d10b76eae45"
+          "@id": "_:Ncfc6346ac4da4928a426a47f363e1659"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8d483df1398e4964a692bd38be6efe16"
+          "@id": "_:Nefe1748092a44ff98a973bdb686f9797"
         },
         {
-          "@id": "_:Nae9014e5164544f58c10fb3f3885073d"
+          "@id": "_:N4f24f9e4c4d64356b1851b4cb978581c"
         },
         {
-          "@id": "_:N9c97bf615b6f46478f11e5131cd7d8cc"
+          "@id": "_:N394cc97555be4575b7715c4f7c085686"
         },
         {
-          "@id": "_:N6c53cf9c04b64cc7b232e6e1b0c7501d"
+          "@id": "_:N2fc7b46ae56d49a08c7d2e2d32127303"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -76,8 +76,8 @@
         "@id": "edam:topic_0820"
       },
       "sc:citation": [
-        "pmcid:PMC2238857",
         "pubmed:17921502",
+        "pmcid:PMC2238857",
         {
           "@id": "https://doi.org/10.1093/nar/gkm751"
         }
@@ -88,9 +88,9 @@
       },
       "sc:name": "Topology Data Bank of Transmembrane Proteins",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://topdb.enzim.hu/?m=docs&&mid=1"
@@ -98,7 +98,7 @@
       "sc:url": "http://toPDB.enzim.hu"
     },
     {
-      "@id": "_:Nce5c0579d9674f39847d3736ac585efb",
+      "@id": "_:Ndc1b104d02e64e7883488643a05a53a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2789"
@@ -106,7 +106,7 @@
       "sc:name": "Protein ID (TopDB)"
     },
     {
-      "@id": "_:N73b06a8e644c46529797ea72f3ea2a27",
+      "@id": "_:N3855c29f0ed34780a2fb6ec917b95f18",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2789"
@@ -114,7 +114,7 @@
       "sc:name": "Protein ID (TopDB)"
     },
     {
-      "@id": "_:N9c2e64194f0d42f08746788e1775257d",
+      "@id": "_:Nb753123852d04b5d893dfe94e3f51c43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2789"
@@ -122,7 +122,7 @@
       "sc:name": "Protein ID (TopDB)"
     },
     {
-      "@id": "_:N670fc122d74b4a21a7a08d10b76eae45",
+      "@id": "_:Ncfc6346ac4da4928a426a47f363e1659",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2789"
@@ -130,7 +130,7 @@
       "sc:name": "Protein ID (TopDB)"
     },
     {
-      "@id": "_:N8d483df1398e4964a692bd38be6efe16",
+      "@id": "_:Nefe1748092a44ff98a973bdb686f9797",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -141,7 +141,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:Nae9014e5164544f58c10fb3f3885073d",
+      "@id": "_:N4f24f9e4c4d64356b1851b4cb978581c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -152,7 +152,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N9c97bf615b6f46478f11e5131cd7d8cc",
+      "@id": "_:N394cc97555be4575b7715c4f7c085686",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -163,7 +163,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N6c53cf9c04b64cc7b232e6e1b0c7501d",
+      "@id": "_:N2fc7b46ae56d49a08c7d2e2d32127303",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

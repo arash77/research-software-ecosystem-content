@@ -50,10 +50,10 @@
         "@id": "https://orcid.org/0000-0002-3703-834X"
       },
       "bsc:input": {
-        "@id": "_:Ndcea6c0ade294ecca7396e82d40b5f2c"
+        "@id": "_:N0e5e5ac767504acfb4038bfbd9aeac82"
       },
       "bsc:output": {
-        "@id": "_:Ne37e7c20f9a946748a97de7de1c3faaa"
+        "@id": "_:N849db45358dc4a8a9eb0f60e7d89b2ac"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:citation": {
@@ -70,24 +70,13 @@
         "@id": "https://guidemaker.org"
       },
       "sc:softwareVersion": [
-        "v0.3.4",
-        "v0.3.1"
+        "v0.3.1",
+        "v0.3.4"
       ],
       "sc:url": "https://guidemaker.org"
     },
     {
-      "@id": "_:Ne37e7c20f9a946748a97de7de1c3faaa",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2084"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Nucleic acid report"
-    },
-    {
-      "@id": "_:Ndcea6c0ade294ecca7396e82d40b5f2c",
+      "@id": "_:N0e5e5ac767504acfb4038bfbd9aeac82",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -96,6 +85,17 @@
         "@id": "edam:format_2205"
       },
       "sc:name": "Nucleic acid sequence record"
+    },
+    {
+      "@id": "_:N849db45358dc4a8a9eb0f60e7d89b2ac",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2084"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Nucleic acid report"
     }
   ]
 }

@@ -39,11 +39,11 @@
       "@id": "https://bio.tools/bio.tools_sum",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Karel Berka",
-        "Radka Svobodová Vařeková"
+        "Radka Svobodová Vařeková",
+        "Karel Berka"
       ],
       "bsc:output": {
-        "@id": "_:N2c1b7b87f4744cbc94c410133815026d"
+        "@id": "_:N19c4e97bfe4d4756a3553ecc115f9ab0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -60,28 +60,28 @@
       "sc:license": "MIT",
       "sc:name": "bio.tools Sum",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "ELIXIR-CZ",
       "sc:url": "http://ncbr.muni.cz/biotoolssum"
     },
     {
-      "@id": "_:N2c1b7b87f4744cbc94c410133815026d",
+      "@id": "_:N19c4e97bfe4d4756a3553ecc115f9ab0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3506"
-        },
-        {
           "@id": "edam:format_3620"
         },
         {
           "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3506"
         }
       ],
       "sc:name": "Resource metadata"

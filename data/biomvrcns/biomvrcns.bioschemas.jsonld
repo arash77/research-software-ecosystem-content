@@ -36,49 +36,45 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1155/2014/910390",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/biomvrcns",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Yang Du",
       "bsc:input": [
         {
-          "@id": "_:Na85f80091b3a48fa806d7f37b46bb0cd"
+          "@id": "_:N83c450c7377c411e95af477ecede6816"
         },
         {
-          "@id": "_:Nedce9afb5b214b43bb989f06643be4c2"
+          "@id": "_:N92dd411d19d64fbeb3752f362c46db05"
         }
       ],
       "bsc:output": {
-        "@id": "_:N63d04f5aa8fc42148e05a2c52de6db88"
+        "@id": "_:Na01c9f64a745496fa7f9eb98358b3b09"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_3170"
         },
         {
-          "@id": "edam:topic_3518"
+          "@id": "edam:topic_0080"
         },
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_3518"
         },
         {
           "@id": "edam:topic_2269"
         }
       ],
       "sc:citation": [
+        "pubmed:24995333",
+        "pmcid:PMC4065698",
         {
           "@id": "https://doi.org/10.1155/2014/910390"
-        },
-        "pmcid:PMC4065698",
-        "pubmed:24995333"
+        }
       ],
       "sc:description": "In this package, a Hidden Semi Markov Model (HSMM) and one homogeneous segmentation model are designed and implemented for segmentation genomic data, with the aim of assisting in transcripts detection using high throughput technology like RNA-seq or tiling array, and copy number analysis using aCGH or sequencing.",
       "sc:featureList": {
@@ -87,9 +83,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "biomvRCNS",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/biomvRCNS.html"
@@ -98,7 +94,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/biomvRCNS.html"
     },
     {
-      "@id": "_:N63d04f5aa8fc42148e05a2c52de6db88",
+      "@id": "_:Na01c9f64a745496fa7f9eb98358b3b09",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -109,7 +105,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:Na85f80091b3a48fa806d7f37b46bb0cd",
+      "@id": "_:N83c450c7377c411e95af477ecede6816",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -125,20 +121,24 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:Nedce9afb5b214b43bb989f06643be4c2",
+      "@id": "_:N92dd411d19d64fbeb3752f362c46db05",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2058"
+          "@id": "edam:format_1920"
         },
         {
-          "@id": "edam:format_1920"
+          "@id": "edam:format_2058"
         }
       ],
       "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1155/2014/910390",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

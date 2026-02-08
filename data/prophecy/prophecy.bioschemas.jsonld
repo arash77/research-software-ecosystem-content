@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkl1029",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/prophecy",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc9966f2cf4a847dbaf9b94b02420b6e9"
+        "@id": "_:N6b158ab247224c359a7b5b46e2d79ac1"
       },
       "bsc:output": {
-        "@id": "_:N1be82a749d624dbb8de8ac96dabaa2d9"
+        "@id": "_:N217f2569fbdb4dd8bf179d1a543fc2ee"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -54,11 +50,11 @@
         "@id": "edam:topic_3298"
       },
       "sc:citation": [
-        "pubmed:17148481",
         "pmcid:PMC1761427",
         {
           "@id": "https://doi.org/10.1093/nar/gkl1029"
-        }
+        },
+        "pubmed:17148481"
       ],
       "sc:description": "Profiling of phenotypic characteristics in yeast.",
       "sc:featureList": {
@@ -67,8 +63,8 @@
       "sc:name": "PROPHECY",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -77,7 +73,15 @@
       "sc:url": "http://prophecy.lundberg.gu.se/"
     },
     {
-      "@id": "_:N1be82a749d624dbb8de8ac96dabaa2d9",
+      "@id": "_:N6b158ab247224c359a7b5b46e2d79ac1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:N217f2569fbdb4dd8bf179d1a543fc2ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"
@@ -85,12 +89,8 @@
       "sc:name": "Resource metadata"
     },
     {
-      "@id": "_:Nc9966f2cf4a847dbaf9b94b02420b6e9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0968"
-      },
-      "sc:name": "Keyword"
+      "@id": "https://doi.org/10.1093/nar/gkl1029",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

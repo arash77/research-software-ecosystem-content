@@ -40,32 +40,32 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N73c4a9e4fda9495bae7bc3832cecfda5"
+          "@id": "_:Na6eb315a41d44b5c939051715187eeb6"
         },
         {
-          "@id": "_:N95bdc8ef0e4d46f4b66ac4cfe65fe243"
+          "@id": "_:Nbafc0c4c53ca49e98d6b4c973a66d297"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N50e4ea72ffaa4d6181811983e7b05ee6"
+          "@id": "_:Nc933586c889f4314ac3bb6569e71c6e9"
         },
         {
-          "@id": "_:Nc349ba7ca0a544dcb9d44e5846b8cbd9"
+          "@id": "_:N59e0c8b6aba5404bb0b64ff55f586895"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web API",
         "Database portal",
+        "Web API",
         "Web application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2814"
+          "@id": "edam:topic_3538"
         },
         {
-          "@id": "edam:topic_3538"
+          "@id": "edam:topic_2814"
         }
       ],
       "sc:citation": [
@@ -88,69 +88,23 @@
       "sc:license": "CC-BY-4.0",
       "sc:name": "Protein Ensemble Database",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://proteinensemble.org/help"
+          "@id": "https://proteinensemble.org/about"
         },
         {
-          "@id": "https://proteinensemble.org/about"
+          "@id": "https://proteinensemble.org/help"
         }
       ],
       "sc:softwareVersion": "4",
       "sc:url": "https://proteinensemble.org/"
     },
     {
-      "@id": "_:N50e4ea72ffaa4d6181811983e7b05ee6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1460"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3508"
-        },
-        {
-          "@id": "edam:format_2331"
-        },
-        {
-          "@id": "edam:format_3464"
-        }
-      ],
-      "sc:name": "Protein structure"
-    },
-    {
-      "@id": "_:Nc349ba7ca0a544dcb9d44e5846b8cbd9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3508"
-        },
-        {
-          "@id": "edam:format_2331"
-        },
-        {
-          "@id": "edam:format_3464"
-        }
-      ],
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N73c4a9e4fda9495bae7bc3832cecfda5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3021"
-      },
-      "sc:name": "UniProt accession"
-    },
-    {
-      "@id": "_:N95bdc8ef0e4d46f4b66ac4cfe65fe243",
+      "@id": "_:Na6eb315a41d44b5c939051715187eeb6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2007"
@@ -159,6 +113,52 @@
         "@id": "edam:format_1964"
       },
       "sc:name": "UniProt keyword"
+    },
+    {
+      "@id": "_:Nbafc0c4c53ca49e98d6b4c973a66d297",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Nc933586c889f4314ac3bb6569e71c6e9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N59e0c8b6aba5404bb0b64ff55f586895",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Protein structure"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkaa1021",

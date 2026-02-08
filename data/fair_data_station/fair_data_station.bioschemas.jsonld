@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2022.08.03.502622",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/fair_data_station",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb724b2e7cb8042afaf1c5f46b976e572"
+        "@id": "_:N7de352b6debe4ecc934c41e0cef1d098"
       },
       "bsc:output": {
-        "@id": "_:N527dbe97503f4bb89ca80d9bebaecdca"
+        "@id": "_:N707428a01ea443cdbabfcc6f571b1754"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -80,9 +76,9 @@
       "sc:license": "Apache-2.0",
       "sc:name": "FAIR Data Station",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://docs.fairbydesign.nl"
@@ -91,7 +87,18 @@
       "sc:url": "https://fairbydesign.nl"
     },
     {
-      "@id": "_:N527dbe97503f4bb89ca80d9bebaecdca",
+      "@id": "_:N7de352b6debe4ecc934c41e0cef1d098",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2337"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3620"
+      },
+      "sc:name": "Resource metadata"
+    },
+    {
+      "@id": "_:N707428a01ea443cdbabfcc6f571b1754",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -107,15 +114,8 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nb724b2e7cb8042afaf1c5f46b976e572",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2337"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3620"
-      },
-      "sc:name": "Resource metadata"
+      "@id": "https://doi.org/10.1101/2022.08.03.502622",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

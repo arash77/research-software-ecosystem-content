@@ -42,25 +42,25 @@
         "@id": "https://orcid.org/0000-0003-1850-2482"
       },
       "bsc:input": {
-        "@id": "_:Nd04e1f73a6b445f7a27492a73c4429df"
+        "@id": "_:N3bded43e8062494e815768a310b59422"
       },
       "bsc:output": {
-        "@id": "_:N3ef57a2f4db44af7a4cbc816d0d3a383"
+        "@id": "_:N3b172e17fcdf4963bf5cd171c5b9ccca"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3511"
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0160"
         },
         {
           "@id": "edam:topic_0114"
         },
         {
-          "@id": "edam:topic_0078"
-        },
-        {
-          "@id": "edam:topic_0160"
+          "@id": "edam:topic_3511"
         }
       ],
       "sc:citation": [
@@ -75,8 +75,8 @@
       },
       "sc:name": "SpliceAid",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -85,7 +85,7 @@
       "sc:url": "http://www.introni.it/splicing.html"
     },
     {
-      "@id": "_:Nd04e1f73a6b445f7a27492a73c4429df",
+      "@id": "_:N3bded43e8062494e815768a310b59422",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -93,7 +93,7 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:N3ef57a2f4db44af7a4cbc816d0d3a383",
+      "@id": "_:N3b172e17fcdf4963bf5cd171c5b9ccca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -104,12 +104,12 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "https://orcid.org/0000-0003-1850-2482",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1093/bioinformatics/btp124",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1850-2482",
+      "@type": "sc:Person"
     }
   ]
 }

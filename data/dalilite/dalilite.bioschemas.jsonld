@@ -40,18 +40,14 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkac240",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/dalilite",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:Nfc500dbcd5c646d184f7cd809dca94ea"
+        "@id": "_:Nd078dd75c58d43538d88f7b14103582f"
       },
       "bsc:output": {
-        "@id": "_:N139550e4c37546dda488d86cba81e197"
+        "@id": "_:Nab3fa7d8601947ad9fe204b56f61cc8a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -60,20 +56,20 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0081"
+          "@id": "edam:topic_2814"
         },
         {
-          "@id": "edam:topic_2814"
+          "@id": "edam:topic_0081"
         }
       ],
       "sc:author": "Liisa Holm",
       "sc:citation": [
         "pubmed:10980157",
+        "pubmed:35412617",
+        "pmcid:PMC9252731",
         {
           "@id": "https://doi.org/10.1093/nar/gkac240"
         },
-        "pmcid:PMC9252731",
-        "pubmed:35412617",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/16.6.566"
         }
@@ -84,9 +80,9 @@
       },
       "sc:name": "DaliLite (EBI)",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
         "University of Helsinki",
@@ -94,17 +90,17 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://www.ebi.ac.uk/Tools/structure/dalilite/"
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
-          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+          "@id": "http://www.ebi.ac.uk/Tools/structure/dalilite/"
         }
       ],
       "sc:softwareVersion": "Retired",
       "sc:url": "http://www.ebi.ac.uk/Tools/structure/dalilite/"
     },
     {
-      "@id": "_:Nfc500dbcd5c646d184f7cd809dca94ea",
+      "@id": "_:Nd078dd75c58d43538d88f7b14103582f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -112,12 +108,16 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N139550e4c37546dda488d86cba81e197",
+      "@id": "_:Nab3fa7d8601947ad9fe204b56f61cc8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1481"
       },
       "sc:name": "Structure alignment (protein)"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkac240",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

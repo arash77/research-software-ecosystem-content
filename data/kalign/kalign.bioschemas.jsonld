@@ -36,22 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkae241",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkac240",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/kalign",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N51580508fffb44d8ab4bdc26c1cb1180"
+        "@id": "_:N260f778b2bb8427097454b0c66c458f4"
       },
       "bsc:output": {
-        "@id": "_:Nae08d9cf8a504c2cafcab5656486ea1b"
+        "@id": "_:N401b3dc9107442adabbee5b7b36a6757"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -62,25 +54,25 @@
         "@id": "edam:topic_0080"
       },
       "sc:author": [
-        "Timo Lassmann",
-        "Erik Sonnhammer"
+        "Erik Sonnhammer",
+        "Timo Lassmann"
       ],
       "sc:citation": [
+        "pubmed:35412617",
+        "pmcid:PMC2647288",
+        "pmcid:PMC9252731",
         {
           "@id": "https://doi.org/10.1093/nar/gkae241"
         },
-        "pmcid:PMC9252731",
-        "pmcid:PMC2647288",
         {
           "@id": "https://doi.org/10.1093/nar/gkac240"
         },
+        "pmcid:PMC11223882",
+        "pubmed:38597606",
+        "pubmed:19103665",
         {
           "@id": "https://doi.org/10.1093/nar/gkn1006"
-        },
-        "pubmed:35412617",
-        "pubmed:19103665",
-        "pmcid:PMC11223882",
-        "pubmed:38597606"
+        }
       ],
       "sc:description": "Fast and accurate multiple sequence alignment which handles large sequences.",
       "sc:featureList": {
@@ -88,38 +80,30 @@
       },
       "sc:name": "Kalign (EBI)",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
-        "Stockholm Bioinformatics Center",
-        "EMBL-EBI"
+        "EMBL-EBI",
+        "Stockholm Bioinformatics Center"
       ],
       "sc:softwareHelp": [
         {
           "@id": "https://github.com/TimoLassmann/kalign"
         },
         {
-          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
-          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "http://www.ebi.ac.uk/jdispatcher/msa/kalign/"
     },
     {
-      "@id": "_:Nae08d9cf8a504c2cafcab5656486ea1b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N51580508fffb44d8ab4bdc26c1cb1180",
+      "@id": "_:N260f778b2bb8427097454b0c66c458f4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -127,7 +111,23 @@
       "sc:name": "Sequence"
     },
     {
+      "@id": "_:N401b3dc9107442adabbee5b7b36a6757",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkae241",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gkn1006",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkac240",
       "@type": "sc:CreativeWork"
     }
   ]

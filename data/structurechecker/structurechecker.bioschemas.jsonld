@@ -43,22 +43,22 @@
       "@id": "https://bio.tools/structurechecker",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nec4b385ef37c4142b9bc9804d6d2671f"
+        "@id": "_:N0c026aa9c1b24864ab44bd30e09c93dd"
       },
       "bsc:output": {
-        "@id": "_:N3891231de5bc4eef9fd17eb61def6f18"
+        "@id": "_:N1295f579a8d74bf3913a96a46c7b4aa3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0154"
+          "@id": "edam:topic_3332"
         },
         {
           "@id": "edam:topic_3534"
         },
         {
-          "@id": "edam:topic_3332"
+          "@id": "edam:topic_0154"
         }
       ],
       "sc:citation": {
@@ -70,8 +70,8 @@
       },
       "sc:name": "StructureProfiler",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
+        "Windows",
         "Mac"
       ],
       "sc:softwareHelp": {
@@ -80,18 +80,7 @@
       "sc:url": "http://proteinsplus.zbh.uni-hamburg.de/#structureprofiler"
     },
     {
-      "@id": "_:N3891231de5bc4eef9fd17eb61def6f18",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2087"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Molecular property"
-    },
-    {
-      "@id": "_:Nec4b385ef37c4142b9bc9804d6d2671f",
+      "@id": "_:N0c026aa9c1b24864ab44bd30e09c93dd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -100,6 +89,17 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Protein-ligand complex"
+    },
+    {
+      "@id": "_:N1295f579a8d74bf3913a96a46c7b4aa3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2087"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Molecular property"
     }
   ]
 }

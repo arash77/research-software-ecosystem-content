@@ -36,68 +36,64 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/CHOmine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nc12b84ed973b45eca105d458c4f7e631"
+          "@id": "_:Nb945f65db5374d8cb4e69a7992ff6ddc"
         },
         {
-          "@id": "_:N96a91267163f4340a8ae412db8021f8e"
+          "@id": "_:N75592d5fa016429db3f50966a006c9b0"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne3dc840660f54be3aa8b26f368ea1061"
+          "@id": "_:Ndf60a68bce794080b9a99904e5e9288d"
         },
         {
-          "@id": "_:Nba91e31b370b4e31a6b32be5fe585264"
+          "@id": "_:Nbaf1e3c43e2142b2943b67ab8286350c"
         },
         {
-          "@id": "_:N26fab5e948344601b59bf4e029e4b0f3"
+          "@id": "_:N90eb523a79504c40bfdbe7c137748511"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web service",
+        "Web application",
         "Database portal",
-        "Web application"
+        "Web service"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_3071"
         },
         {
           "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_0622"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC3516146",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bts577"
         },
-        "pubmed:23023984"
+        "pubmed:23023984",
+        "pmcid:PMC3516146"
       ],
       "sc:description": "An integrated database for Cricetulus griseus and CHO cells",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_2436"
         },
         {
           "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2422"
         },
         {
-          "@id": "edam:operation_2436"
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -119,31 +115,7 @@
       "sc:url": "https://chomine.boku.ac.at/chomine"
     },
     {
-      "@id": "_:Ne3dc840660f54be3aa8b26f368ea1061",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:Nba91e31b370b4e31a6b32be5fe585264",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3753"
-      },
-      "sc:name": "Over-representation data"
-    },
-    {
-      "@id": "_:N26fab5e948344601b59bf4e029e4b0f3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3786"
-      },
-      "sc:name": "Query script"
-    },
-    {
-      "@id": "_:Nc12b84ed973b45eca105d458c4f7e631",
+      "@id": "_:Nb945f65db5374d8cb4e69a7992ff6ddc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -151,12 +123,40 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N96a91267163f4340a8ae412db8021f8e",
+      "@id": "_:N75592d5fa016429db3f50966a006c9b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
       },
       "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Ndf60a68bce794080b9a99904e5e9288d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "_:Nbaf1e3c43e2142b2943b67ab8286350c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N90eb523a79504c40bfdbe7c137748511",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

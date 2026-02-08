@@ -36,39 +36,35 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-015-0708-8",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/bridgedbr",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Egon Willighagen",
       "bsc:input": [
         {
-          "@id": "_:Ne1fd32cf144a4352bb23f9473bfe7e2d"
+          "@id": "_:N76cd9169414b4518adf05cacfe0c88db"
         },
         {
-          "@id": "_:Nfc5be2dd8e95436ca3592959b7c2b237"
+          "@id": "_:Nc3b66ca32b5245b28a543a59e32fec73"
         },
         {
-          "@id": "_:N6ffccc7a6940468a85f07a20cb723dec"
+          "@id": "_:N61a30066fc5946009143b628c257f467"
         },
         {
-          "@id": "_:Nebc3aea6c0c0466aba8dd6391a7426c6"
+          "@id": "_:Nbeb52382e84e4655b26954d5d4b068a3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8bcc7c5dc6bb4a8f84c2aeb752da30e0"
+          "@id": "_:N540eeacfe1e7430195c03282feea0838"
         },
         {
-          "@id": "_:N6cfef01c57894143b867bb81c01786f8"
+          "@id": "_:N54d0d5db7d754f6b8710f1e2f05ac1f8"
         },
         {
-          "@id": "_:N1394302e695045bf8abc87ae872427f7"
+          "@id": "_:N369bd620ceb24324aa6a6e83f278b8df"
         },
         {
-          "@id": "_:N7a315389eafa4249a48ebd0220f31de4"
+          "@id": "_:N1e6f492acf0944598a74786558f9edb4"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -85,11 +81,11 @@
         }
       ],
       "sc:citation": [
+        "pubmed:26298294",
+        "pmcid:PMC4546821",
         {
           "@id": "https://doi.org/10.1186/s12859-015-0708-8"
-        },
-        "pubmed:26298294",
-        "pmcid:PMC4546821"
+        }
       ],
       "sc:description": "Use BridgeDb functions and load identifier mapping databases in R.",
       "sc:featureList": [
@@ -103,21 +99,21 @@
       "sc:license": "GPL-3.0",
       "sc:name": "BridgeDbR",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/BridgeDbR.html"
       },
       "sc:softwareVersion": [
-        "2.4.0",
-        "1.8.0"
+        "1.8.0",
+        "2.4.0"
       ],
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/BridgeDbR.html"
     },
     {
-      "@id": "_:N8bcc7c5dc6bb4a8f84c2aeb752da30e0",
+      "@id": "_:N76cd9169414b4518adf05cacfe0c88db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0989"
@@ -128,18 +124,7 @@
       "sc:name": "Protein identifier"
     },
     {
-      "@id": "_:N6cfef01c57894143b867bb81c01786f8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1086"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Compound identifier"
-    },
-    {
-      "@id": "_:N1394302e695045bf8abc87ae872427f7",
+      "@id": "_:Nc3b66ca32b5245b28a543a59e32fec73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2108"
@@ -150,18 +135,7 @@
       "sc:name": "Reaction ID"
     },
     {
-      "@id": "_:N7a315389eafa4249a48ebd0220f31de4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1025"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Gene identifier"
-    },
-    {
-      "@id": "_:Ne1fd32cf144a4352bb23f9473bfe7e2d",
+      "@id": "_:N61a30066fc5946009143b628c257f467",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1086"
@@ -172,18 +146,7 @@
       "sc:name": "Compound identifier"
     },
     {
-      "@id": "_:Nfc5be2dd8e95436ca3592959b7c2b237",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2108"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Reaction ID"
-    },
-    {
-      "@id": "_:N6ffccc7a6940468a85f07a20cb723dec",
+      "@id": "_:Nbeb52382e84e4655b26954d5d4b068a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -194,7 +157,40 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:Nebc3aea6c0c0466aba8dd6391a7426c6",
+      "@id": "_:N540eeacfe1e7430195c03282feea0838",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1025"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene identifier"
+    },
+    {
+      "@id": "_:N54d0d5db7d754f6b8710f1e2f05ac1f8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2108"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Reaction ID"
+    },
+    {
+      "@id": "_:N369bd620ceb24324aa6a6e83f278b8df",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1086"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Compound identifier"
+    },
+    {
+      "@id": "_:N1e6f492acf0944598a74786558f9edb4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0989"
@@ -203,6 +199,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0708-8",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

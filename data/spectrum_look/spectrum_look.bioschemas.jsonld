@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/spectrum_look",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8bb5ff4d1a8642ef8912f1b9fd23a490"
+        "@id": "_:N945ddf853be54cda8058821947d8e8a7"
       },
       "bsc:output": {
-        "@id": "_:Nf90d4cef917c4cef9c663b0da9e002ae"
+        "@id": "_:N79fa131d9bf54df7a1e28da0cb9f5ab5"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -66,23 +66,23 @@
       "sc:url": "http://omics.pnl.gov/software/spectrumlook"
     },
     {
-      "@id": "_:Nf90d4cef917c4cef9c663b0da9e002ae",
+      "@id": "_:N79fa131d9bf54df7a1e28da0cb9f5ab5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3467"
-        },
-        {
           "@id": "edam:format_3592"
         },
         {
-          "@id": "edam:format_3603"
+          "@id": "edam:format_3467"
         },
         {
           "@id": "edam:format_3591"
+        },
+        {
+          "@id": "edam:format_3603"
         },
         {
           "@id": "edam:format_3579"
@@ -91,7 +91,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N8bb5ff4d1a8642ef8912f1b9fd23a490",
+      "@id": "_:N945ddf853be54cda8058821947d8e8a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

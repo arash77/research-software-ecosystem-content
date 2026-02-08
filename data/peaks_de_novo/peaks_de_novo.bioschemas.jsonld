@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2cb21a6e4d964491ac651f0c439ef287"
+          "@id": "_:Na0033a7de8474da6ad4a8dd322b02124"
         },
         {
-          "@id": "_:Nb3e2a50a63c74165b32b98dcf51fa982"
+          "@id": "_:N6482399596034b12a405c24bde3265d1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5e97553b024947d988b5bf2e160aaab0"
+          "@id": "_:N72dad288584f45408b17b6263b36592d"
         },
         {
-          "@id": "_:Na16bd9a452764f959d0e0e67202a9728"
+          "@id": "_:Nd45b60080f8248579689c9a97b02cfb5"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -65,11 +65,17 @@
         }
       ],
       "sc:citation": [
-        "pubmed:14558135",
-        "pubmed:16108090"
+        "pubmed:16108090",
+        "pubmed:14558135"
       ],
       "sc:description": "Integrated ''de novo'' peptide sequencing , PTM finder , and homology search (demo available).",
       "sc:featureList": [
+        {
+          "@id": "edam:operation_3695"
+        },
+        {
+          "@id": "edam:operation_3767"
+        },
         {
           "@id": "edam:operation_3631"
         },
@@ -77,16 +83,10 @@
           "@id": "edam:operation_3629"
         },
         {
-          "@id": "edam:operation_3767"
-        },
-        {
-          "@id": "edam:operation_3644"
-        },
-        {
           "@id": "edam:operation_3694"
         },
         {
-          "@id": "edam:operation_3695"
+          "@id": "edam:operation_3644"
         }
       ],
       "sc:name": "PEAKS De Novo",
@@ -97,18 +97,102 @@
       "sc:url": "http://www.bioinfor.com/peaks/features/denovo.html"
     },
     {
-      "@id": "_:N5e97553b024947d988b5bf2e160aaab0",
+      "@id": "_:Na0033a7de8474da6ad4a8dd322b02124",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3603"
+          "@id": "edam:format_3654"
         },
         {
-          "@id": "edam:format_3579"
+          "@id": "edam:format_2330"
         },
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3652"
+        },
+        {
+          "@id": "edam:format_3712"
+        },
+        {
+          "@id": "edam:format_3834"
+        },
+        {
+          "@id": "edam:format_3653"
+        },
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3710"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N6482399596034b12a405c24bde3265d1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3652"
+        },
+        {
+          "@id": "edam:format_3834"
+        },
+        {
+          "@id": "edam:format_3712"
+        },
+        {
+          "@id": "edam:format_3653"
+        },
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3710"
+        },
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N72dad288584f45408b17b6263b36592d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:Nd45b60080f8248579689c9a97b02cfb5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
         {
           "@id": "edam:format_3467"
         },
@@ -116,97 +200,13 @@
           "@id": "edam:format_3592"
         },
         {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3579"
+        },
+        {
           "@id": "edam:format_3604"
-        }
-      ],
-      "sc:name": "Mass spectrometry spectra"
-    },
-    {
-      "@id": "_:Na16bd9a452764f959d0e0e67202a9728",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0945"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_2331"
-        }
-      ],
-      "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "_:N2cb21a6e4d964491ac651f0c439ef287",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3834"
-        },
-        {
-          "@id": "edam:format_3712"
-        },
-        {
-          "@id": "edam:format_3652"
-        },
-        {
-          "@id": "edam:format_3653"
-        },
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3654"
-        },
-        {
-          "@id": "edam:format_3710"
-        },
-        {
-          "@id": "edam:format_3244"
-        },
-        {
-          "@id": "edam:format_3651"
-        }
-      ],
-      "sc:name": "Mass spectrometry spectra"
-    },
-    {
-      "@id": "_:Nb3e2a50a63c74165b32b98dcf51fa982",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3654"
-        },
-        {
-          "@id": "edam:format_3710"
-        },
-        {
-          "@id": "edam:format_3244"
-        },
-        {
-          "@id": "edam:format_3651"
-        },
-        {
-          "@id": "edam:format_3834"
-        },
-        {
-          "@id": "edam:format_3712"
-        },
-        {
-          "@id": "edam:format_3652"
-        },
-        {
-          "@id": "edam:format_3653"
-        },
-        {
-          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Mass spectrometry spectra"

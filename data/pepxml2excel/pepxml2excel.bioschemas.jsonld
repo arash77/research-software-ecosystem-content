@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/j.phytochem.2008.04.007",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/pepxml2excel",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N78daf38490344c288f7608ed83b3cc4d"
+        "@id": "_:N523d3c4a775340388f2fb566f80cdffc"
       },
       "bsc:output": {
-        "@id": "_:Nbd90ca5bd03e421e80f95cbf431a837e"
+        "@id": "_:N4b375625c7dc442dbbe4efc81c2f648f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -81,18 +85,7 @@
       "sc:url": "http://www.ms-utils.org/pepXML2Excel.html"
     },
     {
-      "@id": "_:N78daf38490344c288f7608ed83b3cc4d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3468"
-      },
-      "sc:name": "Expression data"
-    },
-    {
-      "@id": "_:Nbd90ca5bd03e421e80f95cbf431a837e",
+      "@id": "_:N4b375625c7dc442dbbe4efc81c2f648f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -103,8 +96,15 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "https://doi.org/10.1016/j.phytochem.2008.04.007",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N523d3c4a775340388f2fb566f80cdffc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3468"
+      },
+      "sc:name": "Expression data"
     }
   ]
 }

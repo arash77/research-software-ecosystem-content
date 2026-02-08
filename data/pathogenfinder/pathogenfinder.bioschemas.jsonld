@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Mette Voldby Larsen",
       "bsc:input": {
-        "@id": "_:N899229d3bab245f5880bce05a5597b1e"
+        "@id": "_:N0bd2e6e1abc348d3b8e53b3b93d30785"
       },
       "bsc:output": {
-        "@id": "_:N9d648b73dee9423d960bf462d912cdbf"
+        "@id": "_:Nc2276105312e4254adf5b78e957cbc4b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -73,7 +73,18 @@
       "sc:url": "http://cge.cbs.dtu.dk/services/PathogenFinder/"
     },
     {
-      "@id": "_:N899229d3bab245f5880bce05a5597b1e",
+      "@id": "_:Nc2276105312e4254adf5b78e957cbc4b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Sequence report"
+    },
+    {
+      "@id": "_:N0bd2e6e1abc348d3b8e53b3b93d30785",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -87,17 +98,6 @@
         }
       ],
       "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N9d648b73dee9423d960bf462d912cdbf",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2955"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2333"
-      },
-      "sc:name": "Sequence report"
     },
     {
       "@id": "https://doi.org/10.1371/journal.pone.0077302",

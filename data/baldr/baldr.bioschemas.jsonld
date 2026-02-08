@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/baldr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0c63398a13fe446182ebd354440d54e5"
+        "@id": "_:Na7877a65a5b0410abe4d88ea055388ba"
       },
       "bsc:output": {
-        "@id": "_:N920048fb8aee4ed9ba19def6931d2025"
+        "@id": "_:N88f72ea2908147ffb89584a252699722"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
@@ -65,9 +65,9 @@
       "sc:license": "MIT",
       "sc:name": "BALDR",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/BosingerLab/BALDR"
@@ -75,18 +75,7 @@
       "sc:url": "https://www.bosingerlab.com/baldr/"
     },
     {
-      "@id": "_:N920048fb8aee4ed9ba19def6931d2025",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2082"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:N0c63398a13fe446182ebd354440d54e5",
+      "@id": "_:Na7877a65a5b0410abe4d88ea055388ba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -95,6 +84,17 @@
         "@id": "edam:format_2182"
       },
       "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:N88f72ea2908147ffb89584a252699722",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Matrix"
     },
     {
       "@id": "https://doi.org/10.1186/s13073-018-0528-3",

@@ -75,8 +75,8 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "EmVClass",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {

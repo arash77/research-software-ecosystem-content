@@ -45,14 +45,14 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nc2c424eb79764241b3a807fa0152d8cd"
+          "@id": "_:Ncf873e0a277e43b8bd25e72e69bc4b6a"
         },
         {
-          "@id": "_:Nc5fba05a94604dc99edb2075c7d94cdd"
+          "@id": "_:Nac2a5015cd0c4d5ea326a15aceacb595"
         }
       ],
       "bsc:output": {
-        "@id": "_:N20a345f6d3c64e198e8798e45d83d311"
+        "@id": "_:Nfd35d198dd634f9f8f3b4247fbaf44ad"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -74,28 +74,28 @@
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
+        "pubmed:27137889",
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
-        },
-        "pmcid:PMC4987906",
-        "pubmed:27137889"
+        }
       ],
       "sc:description": "This tool identifies which SNPs create amino-acid changes in the specified coding regions.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0306"
-        },
-        {
-          "@id": "edam:operation_3225"
+          "@id": "edam:operation_3661"
         },
         {
           "@id": "edam:operation_2403"
         },
         {
-          "@id": "edam:operation_3661"
+          "@id": "edam:operation_3225"
         },
         {
           "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_0306"
         }
       ],
       "sc:name": "hgv_codingsnps",
@@ -111,7 +111,7 @@
       "sc:url": "https://github.com/galaxyproject/galaxy/tree/dev/tools"
     },
     {
-      "@id": "_:N20a345f6d3c64e198e8798e45d83d311",
+      "@id": "_:Ncf873e0a277e43b8bd25e72e69bc4b6a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -122,7 +122,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc2c424eb79764241b3a807fa0152d8cd",
+      "@id": "_:Nac2a5015cd0c4d5ea326a15aceacb595",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -133,7 +133,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc5fba05a94604dc99edb2075c7d94cdd",
+      "@id": "_:Nfd35d198dd634f9f8f3b4247fbaf44ad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

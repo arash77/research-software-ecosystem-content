@@ -39,24 +39,24 @@
       "@id": "https://bio.tools/cornet_maize",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3ef4b48f6045495da800b4724162f172"
+        "@id": "_:N6e18164c788e4afdb77bb7c5efa02373"
       },
       "bsc:output": [
         {
-          "@id": "_:Nf79a3c569c4a4c32bed1f094828e7252"
+          "@id": "_:N540ac0dcd6df4ceda3c6ca7b089e1101"
         },
         {
-          "@id": "_:N51eaab614ae24cf5b2c108796eafc3f3"
+          "@id": "_:Neafc68e072154a16894c23abfb6fc969"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0128"
+          "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_0128"
         }
       ],
       "sc:citation": [
@@ -72,8 +72,8 @@
       "sc:name": "CorNet Maize",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "PSB",
       "sc:softwareHelp": {
@@ -83,15 +83,15 @@
       "sc:url": "https://bioinformatics.psb.ugent.be/cornet_maize/"
     },
     {
-      "@id": "_:N3ef4b48f6045495da800b4724162f172",
+      "@id": "_:N540ac0dcd6df4ceda3c6ca7b089e1101",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1025"
+        "@id": "edam:data_1669"
       },
-      "sc:name": "Gene identifier"
+      "sc:name": "P-value"
     },
     {
-      "@id": "_:Nf79a3c569c4a4c32bed1f094828e7252",
+      "@id": "_:Neafc68e072154a16894c23abfb6fc969",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -99,12 +99,12 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N51eaab614ae24cf5b2c108796eafc3f3",
+      "@id": "_:N6e18164c788e4afdb77bb7c5efa02373",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1669"
+        "@id": "edam:data_1025"
       },
-      "sc:name": "P-value"
+      "sc:name": "Gene identifier"
     },
     {
       "@id": "https://doi.org/10.1111/j.1469-8137.2012.04184.x",

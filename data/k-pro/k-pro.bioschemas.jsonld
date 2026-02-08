@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N1bfb12d3c8e54ecf99360df8adc3a59d"
+          "@id": "_:N572f90c62f26411abcc8ec4e3ddab7f8"
         },
         {
-          "@id": "_:N3405e4bd69cd4dc6aaf4a66b1cf53d0b"
+          "@id": "_:Nf4536b9714fb4099bae23b10fcac0687"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,10 +57,10 @@
           "@id": "edam:topic_3120"
         },
         {
-          "@id": "edam:topic_0736"
+          "@id": "edam:topic_0625"
         },
         {
-          "@id": "edam:topic_0625"
+          "@id": "edam:topic_0736"
         },
         {
           "@id": "edam:topic_0130"
@@ -75,10 +75,10 @@
       "sc:description": "Database of kinetics data on proteins and mutants.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2415"
+          "@id": "edam:operation_0337"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2415"
         },
         {
           "@id": "edam:operation_0268"
@@ -88,27 +88,27 @@
       "sc:license": "CC-BY-NC-SA-3.0",
       "sc:name": "K-Pro",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "https://folding.biofold.org/k-pro"
     },
     {
-      "@id": "_:N1bfb12d3c8e54ecf99360df8adc3a59d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1127"
-      },
-      "sc:name": "PDB ID"
-    },
-    {
-      "@id": "_:N3405e4bd69cd4dc6aaf4a66b1cf53d0b",
+      "@id": "_:N572f90c62f26411abcc8ec4e3ddab7f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
       },
       "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:Nf4536b9714fb4099bae23b10fcac0687",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:name": "PDB ID"
     }
   ]
 }

@@ -36,25 +36,21 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1007/978-1-62703-607-8_8",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/chippeakanno",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Lihua Julie Zhu",
-        "Jianhong Ou"
+        "Jianhong Ou",
+        "Lihua Julie Zhu"
       ],
       "bsc:input": {
-        "@id": "_:Nb58edd4b3fd249e1b442f6e50994c047"
+        "@id": "_:N4ba4944bfc6c4ba188adef5f953b59d9"
       },
       "bsc:output": [
         {
-          "@id": "_:N815e14e0489b48878be92d7bcb2e9cf3"
+          "@id": "_:N6175d08468754ad3a983ffc2c9fbd634"
         },
         {
-          "@id": "_:N30b2d58526154961a2329598d2ef285f"
+          "@id": "_:N1b7137bfb295448eb48b979575e22f1d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -71,10 +67,10 @@
         }
       ],
       "sc:citation": [
+        "pubmed:23975789",
         {
           "@id": "https://doi.org/10.1007/978-1-62703-607-8_8"
-        },
-        "pubmed:23975789"
+        }
       ],
       "sc:description": "The package includes functions to retrieve the sequences around the peak, obtain enriched GO terms, find the nearest gene, exon, miRNA or custom features such as most conserved elements and other TF binding sites supplied by users. New functions have been added for finding the peaks with bi-directional promoters with summary statistics, for summarizing the occurrence of motifs in peaks and for adding other IDs to annotated peaks or enrichedGO.",
       "sc:featureList": [
@@ -88,9 +84,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "ChIPpeakAnno",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
-        "Mac"
+        "Mac",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/ChIPpeakAnno.html"
@@ -99,26 +95,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/ChIPpeakAnno.html"
     },
     {
-      "@id": "_:Nb58edd4b3fd249e1b442f6e50994c047",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2012"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3003"
-        },
-        {
-          "@id": "edam:format_2305"
-        },
-        {
-          "@id": "edam:format_2078"
-        }
-      ],
-      "sc:name": "Sequence coordinates"
-    },
-    {
-      "@id": "_:N815e14e0489b48878be92d7bcb2e9cf3",
+      "@id": "_:N6175d08468754ad3a983ffc2c9fbd634",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -129,7 +106,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N30b2d58526154961a2329598d2ef285f",
+      "@id": "_:N1b7137bfb295448eb48b979575e22f1d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -138,6 +115,29 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N4ba4944bfc6c4ba188adef5f953b59d9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2078"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_2305"
+        }
+      ],
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-1-62703-607-8_8",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

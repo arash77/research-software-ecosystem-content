@@ -36,10 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkad214",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/fuzpred",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N2e91add2980843b98ca8da28d4796b62"
+        "@id": "_:Nddbd456f9b2a44da8767848ee6995235"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -64,35 +68,31 @@
       "sc:description": "Web server for the sequence-based prediction of the context-dependent binding modes of proteins.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2492"
+          "@id": "edam:operation_0474"
         },
         {
           "@id": "edam:operation_2476"
         },
         {
-          "@id": "edam:operation_0474"
+          "@id": "edam:operation_2492"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "FuzPred",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "https://fuzpred.bio.unipd.it"
     },
     {
-      "@id": "_:N2e91add2980843b98ca8da28d4796b62",
+      "@id": "_:Nddbd456f9b2a44da8767848ee6995235",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
       },
       "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkad214",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

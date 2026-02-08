@@ -40,19 +40,23 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/fastafrombed",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nfc39c2db4e774287b69ae434ec7050f7"
+          "@id": "_:Nc8a6ae6fa09747549deaacfdf8402b72"
         },
         {
-          "@id": "_:Naff7e08f9c1e462eaf3927288588d7c3"
+          "@id": "_:N121ae20776ec469cb9fe8968428a6464"
         }
       ],
       "bsc:output": {
-        "@id": "_:N2b50efdd64ec4ffb87e723836ca1776e"
+        "@id": "_:N9b285844b5d9441b879c9d875338056b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -78,37 +82,15 @@
       },
       "sc:name": "fastafrombed",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareVersion": "1.0",
       "sc:url": "https://github.com/arq5x/bedtools2"
     },
     {
-      "@id": "_:N2b50efdd64ec4ffb87e723836ca1776e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Nfc39c2db4e774287b69ae434ec7050f7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Naff7e08f9c1e462eaf3927288588d7c3",
+      "@id": "_:Nc8a6ae6fa09747549deaacfdf8402b72",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -119,8 +101,26 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N121ae20776ec469cb9fe8968428a6464",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N9b285844b5d9441b879c9d875338056b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
     }
   ]
 }

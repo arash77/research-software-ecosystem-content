@@ -45,89 +45,89 @@
       "biotools:primaryContact": "Samuel Blanck",
       "bsc:input": [
         {
-          "@id": "_:N9a1e7a5c16624ce989401bee3cc7052c"
+          "@id": "_:Nc735716c3b8744b1b2c5a48b9aedd3fd"
         },
         {
-          "@id": "_:N229280a39d04421fa5f63b9a53ac38c9"
+          "@id": "_:N92a810b172404a1b836f3b5b620ef5be"
         },
         {
-          "@id": "_:Nbffea48c630447b49727a12c27559ff5"
+          "@id": "_:N71514aad309a474f9aefd17ea1232049"
         },
         {
-          "@id": "_:Nf4ca806f04d44e03beb14198f3174437"
+          "@id": "_:N5811e0ceb4e44b4db61cda0178829d77"
         },
         {
-          "@id": "_:N0f5c86070f6d4ade83b2e9590691d7fe"
+          "@id": "_:N2193c74a406a41fba3236409028801a8"
         },
         {
-          "@id": "_:N2bc3e3958e5842b8b03c381657ed45b9"
+          "@id": "_:N615a277b6da741499baabf9e3805b11e"
         },
         {
-          "@id": "_:Ncd43bdd0085c4b5bb299e72e6b7fa4c2"
+          "@id": "_:N5cf10a26c31e470ba579732f43f1a44c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N7703951d9b314dcbab853ee6962f0725"
+          "@id": "_:N54cc547eef0a42bfbac90cac58c9f79b"
         },
         {
-          "@id": "_:N1eb3b5ced55647ee9b98ac9fb2978ae3"
+          "@id": "_:Nc7f86daf53a9435881d17c21c4b43b00"
         },
         {
-          "@id": "_:Nf33f2ba223a6432ca5a54ebec56c2b3d"
+          "@id": "_:Naa79968ba91a4cf980a71be76d20384a"
         },
         {
-          "@id": "_:N76be2563c24d4eda91b957e2ce4fecb0"
+          "@id": "_:Nfab734cd396c4207a8c370d2bb4691d7"
         },
         {
-          "@id": "_:N683a0402c7bf4cf3b32296109e45d932"
+          "@id": "_:Nccaa01998cd8416f84030ae4126e63e3"
         },
         {
-          "@id": "_:N45e4bb5fcfd948df9527914b3eccfb8f"
+          "@id": "_:N939455381d254e47b4228090e695ad73"
         },
         {
-          "@id": "_:N425fdc96919e47049b63f9d985f2eae4"
+          "@id": "_:N41e79b1602e641838e0bce0ffc3004f6"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workbench",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2885"
+          "@id": "edam:topic_2269"
         },
         {
           "@id": "edam:topic_0203"
         },
         {
-          "@id": "edam:topic_2269"
+          "@id": "edam:topic_2885"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4269855",
         "pubmed:25495450",
         {
           "@id": "https://doi.org/10.1186/s12859-014-0394-y"
-        }
+        },
+        "pmcid:PMC4269855"
       ],
       "sc:description": "A package for multi-patients analysis of genomic markers. It is devoted to (i) efficient segmentation and (ii) genomic marker selection from multi-patient copy number and SNP data profiles.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_0309"
-        },
-        {
-          "@id": "edam:operation_3224"
-        },
-        {
-          "@id": "edam:operation_0415"
-        },
-        {
-          "@id": "edam:operation_0226"
-        },
         {
           "@id": "edam:operation_0256"
         },
         {
           "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_0226"
+        },
+        {
+          "@id": "edam:operation_0309"
+        },
+        {
+          "@id": "edam:operation_0415"
+        },
+        {
+          "@id": "edam:operation_3224"
         }
       ],
       "sc:name": "MPAgenomics",
@@ -144,23 +144,31 @@
       "sc:url": "http://modal.lille.inria.fr/wikimodal/"
     },
     {
-      "@id": "_:N7703951d9b314dcbab853ee6962f0725",
+      "@id": "_:Nc735716c3b8744b1b2c5a48b9aedd3fd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1255"
+        "@id": "edam:data_3111"
       },
-      "sc:name": "Sequence features"
+      "sc:name": "Processed microarray data"
     },
     {
-      "@id": "_:N1eb3b5ced55647ee9b98ac9fb2978ae3",
+      "@id": "_:N92a810b172404a1b836f3b5b620ef5be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2535"
+        "@id": "edam:data_3111"
       },
-      "sc:name": "Sequence tag profile"
+      "sc:name": "Processed microarray data"
     },
     {
-      "@id": "_:Nf33f2ba223a6432ca5a54ebec56c2b3d",
+      "@id": "_:N71514aad309a474f9aefd17ea1232049",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:N5811e0ceb4e44b4db61cda0178829d77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -168,39 +176,7 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N76be2563c24d4eda91b957e2ce4fecb0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3111"
-      },
-      "sc:name": "Processed microarray data"
-    },
-    {
-      "@id": "_:N683a0402c7bf4cf3b32296109e45d932",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3111"
-      },
-      "sc:name": "Processed microarray data"
-    },
-    {
-      "@id": "_:N45e4bb5fcfd948df9527914b3eccfb8f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3111"
-      },
-      "sc:name": "Processed microarray data"
-    },
-    {
-      "@id": "_:N425fdc96919e47049b63f9d985f2eae4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2531"
-      },
-      "sc:name": "Experiment report"
-    },
-    {
-      "@id": "_:N9a1e7a5c16624ce989401bee3cc7052c",
+      "@id": "_:N2193c74a406a41fba3236409028801a8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3110"
@@ -208,7 +184,55 @@
       "sc:name": "Raw microarray data"
     },
     {
-      "@id": "_:N229280a39d04421fa5f63b9a53ac38c9",
+      "@id": "_:N615a277b6da741499baabf9e3805b11e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:N5cf10a26c31e470ba579732f43f1a44c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:N54cc547eef0a42bfbac90cac58c9f79b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:Nc7f86daf53a9435881d17c21c4b43b00",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:Naa79968ba91a4cf980a71be76d20384a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Nfab734cd396c4207a8c370d2bb4691d7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2535"
+      },
+      "sc:name": "Sequence tag profile"
+    },
+    {
+      "@id": "_:Nccaa01998cd8416f84030ae4126e63e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -216,39 +240,15 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:Nbffea48c630447b49727a12c27559ff5",
+      "@id": "_:N939455381d254e47b4228090e695ad73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3111"
+        "@id": "edam:data_2531"
       },
-      "sc:name": "Processed microarray data"
+      "sc:name": "Experiment report"
     },
     {
-      "@id": "_:Nf4ca806f04d44e03beb14198f3174437",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3111"
-      },
-      "sc:name": "Processed microarray data"
-    },
-    {
-      "@id": "_:N0f5c86070f6d4ade83b2e9590691d7fe",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3111"
-      },
-      "sc:name": "Processed microarray data"
-    },
-    {
-      "@id": "_:N2bc3e3958e5842b8b03c381657ed45b9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3111"
-      },
-      "sc:name": "Processed microarray data"
-    },
-    {
-      "@id": "_:Ncd43bdd0085c4b5bb299e72e6b7fa4c2",
+      "@id": "_:N41e79b1602e641838e0bce0ffc3004f6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"

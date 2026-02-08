@@ -36,26 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/a4",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Willem Ligtenberg",
-        "Tobias Verbeke"
+        "Tobias Verbeke",
+        "Willem Ligtenberg"
       ],
       "bsc:input": [
         {
-          "@id": "_:N4b9ed0d2bc9947bd8dea1c7fe8b37939"
+          "@id": "_:N0d9dddb8ba21496c885273fe25b85933"
         },
         {
-          "@id": "_:N17569f3fe95c4adcafd06b963e708f8f"
+          "@id": "_:N7fd07602f2864a99a207057c0dce6e53"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1628686b59144961bbc74c88ba8a382d"
+          "@id": "_:Na9c8149960c6430fa9c096a48756c4bc"
         },
         {
-          "@id": "_:N74f2104dd0124334a8f2009df704545d"
+          "@id": "_:Nfee27e0c19f94635a966906e5bbed468"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -76,10 +80,10 @@
       ],
       "sc:citation": [
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
-        },
-        "pmcid:PMC4509590"
+        }
       ],
       "sc:description": "Suite of R packages for analysis of Affymetrix microarray experiments.",
       "sc:featureList": [
@@ -96,9 +100,9 @@
       "sc:license": "GPL-3.0",
       "sc:name": "a4",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/a4.html"
@@ -107,18 +111,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/a4.html"
     },
     {
-      "@id": "_:N1628686b59144961bbc74c88ba8a382d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3113"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3751"
-      },
-      "sc:name": "Sample annotation"
-    },
-    {
-      "@id": "_:N74f2104dd0124334a8f2009df704545d",
+      "@id": "_:N0d9dddb8ba21496c885273fe25b85933",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -129,7 +122,7 @@
       "sc:name": "Processed microarray data"
     },
     {
-      "@id": "_:N4b9ed0d2bc9947bd8dea1c7fe8b37939",
+      "@id": "_:N7fd07602f2864a99a207057c0dce6e53",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3113"
@@ -140,7 +133,18 @@
       "sc:name": "Sample annotation"
     },
     {
-      "@id": "_:N17569f3fe95c4adcafd06b963e708f8f",
+      "@id": "_:Na9c8149960c6430fa9c096a48756c4bc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3113"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3751"
+      },
+      "sc:name": "Sample annotation"
+    },
+    {
+      "@id": "_:Nfee27e0c19f94635a966906e5bbed468",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -149,10 +153,6 @@
         "@id": "edam:format_2056"
       },
       "sc:name": "Processed microarray data"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

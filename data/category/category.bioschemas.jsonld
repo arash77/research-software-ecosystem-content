@@ -36,42 +36,38 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/category",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "BioConductor Package Maintainer",
       "bsc:input": {
-        "@id": "_:N77fbf544bb6c4f439bbad13dbfa103f8"
+        "@id": "_:N5a55abc9b0c9492eba2fb30c879c3b54"
       },
       "bsc:output": [
         {
-          "@id": "_:N79b9b1a301264431b75c316dbbadd926"
+          "@id": "_:N13ede9477ba648708db0b93c242f1eaa"
         },
         {
-          "@id": "_:Nc632c40276054a61ad6144436c20da25"
+          "@id": "_:Na9b6b708037f49128b610576fdbb0341"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0203"
+          "@id": "edam:topic_0091"
         },
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_0203"
         }
       ],
       "sc:citation": [
-        "pubmed:25633503",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
         },
+        "pubmed:25633503",
         "pmcid:PMC4509590"
       ],
       "sc:description": "A collection of tools for performing categoric analysis.",
@@ -92,18 +88,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/Category.html"
     },
     {
-      "@id": "_:N77fbf544bb6c4f439bbad13dbfa103f8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2058"
-      },
-      "sc:name": "Gene expression data"
-    },
-    {
-      "@id": "_:N79b9b1a301264431b75c316dbbadd926",
+      "@id": "_:N13ede9477ba648708db0b93c242f1eaa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -114,7 +99,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nc632c40276054a61ad6144436c20da25",
+      "@id": "_:Na9b6b708037f49128b610576fdbb0341",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -123,6 +108,21 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N5a55abc9b0c9492eba2fb30c879c3b54",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2058"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -40,7 +40,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Raffael Bild",
       "bsc:output": {
-        "@id": "_:Nbdf1d705138f45e8a6cd8e89b0e62cc2"
+        "@id": "_:N5ae4ad335b274eae8aec14499a258ae1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -53,9 +53,9 @@
       },
       "sc:name": "BBMRI-EU catalog",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "TUM",
       "sc:softwareHelp": {
@@ -64,7 +64,7 @@
       "sc:url": "http://bbmri.eu"
     },
     {
-      "@id": "_:Nbdf1d705138f45e8a6cd8e89b0e62cc2",
+      "@id": "_:N5ae4ad335b274eae8aec14499a258ae1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0957"

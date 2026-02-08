@@ -36,24 +36,20 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s13059-017-1382-0",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/scanpy",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "F. Alexander Wolf",
       "bsc:input": {
-        "@id": "_:Ne156779889964576860e3329b6712de0"
+        "@id": "_:N6d14ddabc7314357a766c8981a34e235"
       },
       "bsc:output": {
-        "@id": "_:Ncc73800f483942669a3606caf09c1488"
+        "@id": "_:Nf86d235f22f64c4db108455a2ce44599"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3053"
+          "@id": "edam:topic_0203"
         },
         {
           "@id": "edam:topic_4028"
@@ -62,7 +58,7 @@
           "@id": "edam:topic_2229"
         },
         {
-          "@id": "edam:topic_0203"
+          "@id": "edam:topic_3053"
         }
       ],
       "sc:citation": [
@@ -75,13 +71,13 @@
       "sc:description": "Scalable toolkit for analyzing single-cell gene expression data. It includes preprocessing, visualization, clustering, pseudotime and trajectory inference and differential expression testing. The Python-based implementation efficiently deals with datasets of more than one million cells.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_3223"
+        },
+        {
           "@id": "edam:operation_2939"
         },
         {
           "@id": "edam:operation_0313"
-        },
-        {
-          "@id": "edam:operation_3223"
         }
       ],
       "sc:license": "BSD-3-Clause",
@@ -96,7 +92,7 @@
       "sc:url": "https://github.com/theislab/Scanpy"
     },
     {
-      "@id": "_:Ncc73800f483942669a3606caf09c1488",
+      "@id": "_:Nf86d235f22f64c4db108455a2ce44599",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3768"
@@ -107,7 +103,7 @@
       "sc:name": "Clustered expression profiles"
     },
     {
-      "@id": "_:Ne156779889964576860e3329b6712de0",
+      "@id": "_:N6d14ddabc7314357a766c8981a34e235",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -116,6 +112,10 @@
         "@id": "edam:format_3590"
       },
       "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13059-017-1382-0",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

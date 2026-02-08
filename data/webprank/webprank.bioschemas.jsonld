@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ari Loytynoja",
       "bsc:input": {
-        "@id": "_:N5bd96405d70e4e8b8cb94becf5e5f488"
+        "@id": "_:N2710c7f040ea4efa9e82710f1fd4ecd9"
       },
       "bsc:output": {
-        "@id": "_:N7ad57a2c3d6f433e8df75d05aa99d1d8"
+        "@id": "_:N23c392d78bed49d2b6e6033d67f258b4"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -55,15 +55,15 @@
         "@id": "edam:topic_0080"
       },
       "sc:author": [
-        "Goldman group",
-        "Ari Loytynoja"
+        "Ari Loytynoja",
+        "Goldman group"
       ],
       "sc:citation": [
+        "pubmed:21110866",
         {
           "@id": "https://doi.org/10.1186/1471-2105-11-579"
         },
-        "pmcid:PMC3009689",
-        "pubmed:21110866"
+        "pmcid:PMC3009689"
       ],
       "sc:contributor": "Nick Goldman",
       "sc:description": "Multiple sequence alignment tool.",
@@ -72,24 +72,32 @@
       },
       "sc:name": "webPRANK",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
         {
-          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+          "@id": "http://www.ebi.ac.uk/goldman-srv/webprank/"
         },
         {
-          "@id": "http://www.ebi.ac.uk/goldman-srv/webprank/"
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "http://www.ebi.ac.uk/goldman-srv/webprank/"
     },
     {
-      "@id": "_:N5bd96405d70e4e8b8cb94becf5e5f488",
+      "@id": "_:N23c392d78bed49d2b6e6033d67f258b4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N2710c7f040ea4efa9e82710f1fd4ecd9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -98,14 +106,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N7ad57a2c3d6f433e8df75d05aa99d1d8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:name": "Sequence alignment"
     }
   ]
 }

@@ -36,37 +36,33 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1006/jmbi.1999.3310",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/netphos",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3cf243752d2c47ed987f088e3741a7d4"
+        "@id": "_:Nafcfea731bc44c30844a1d1c1407cf96"
       },
       "bsc:output": [
         {
-          "@id": "_:N82690ecf129e4235b2a0178075b13cbb"
+          "@id": "_:N54d89bd140ba4156adde438f57a809c9"
         },
         {
-          "@id": "_:Nf96c124d012f4758bb06efa4bd0adb58"
+          "@id": "_:N6bfa306a41674ea69fa0981765f42abb"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
+        "Web service",
         "Command-line tool",
-        "Web application",
-        "Web service"
+        "Web application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0160"
       },
       "sc:citation": [
-        "pubmed:10600390",
         {
           "@id": "https://doi.org/10.1006/jmbi.1999.3310"
-        }
+        },
+        "pubmed:10600390"
       ],
       "sc:description": "Neural network predictions for serine, threonine and tyrosine phosphorylation sites in eukaryotic proteins.",
       "sc:featureList": {
@@ -88,18 +84,18 @@
       "sc:url": "http://cbs.dtu.dk/services/NetPhos/"
     },
     {
-      "@id": "_:N82690ecf129e4235b2a0178075b13cbb",
+      "@id": "_:Nafcfea731bc44c30844a1d1c1407cf96",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2955"
+        "@id": "edam:data_2044"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2333"
+        "@id": "edam:format_1929"
       },
-      "sc:name": "Sequence report"
+      "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nf96c124d012f4758bb06efa4bd0adb58",
+      "@id": "_:N54d89bd140ba4156adde438f57a809c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -110,15 +106,19 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N3cf243752d2c47ed987f088e3741a7d4",
+      "@id": "_:N6bfa306a41674ea69fa0981765f42abb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2044"
+        "@id": "edam:data_2955"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1929"
+        "@id": "edam:format_2333"
       },
-      "sc:name": "Sequence"
+      "sc:name": "Sequence report"
+    },
+    {
+      "@id": "https://doi.org/10.1006/jmbi.1999.3310",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

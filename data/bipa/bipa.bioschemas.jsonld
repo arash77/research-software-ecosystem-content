@@ -45,18 +45,18 @@
       "biotools:primaryContact": "Semin Lee",
       "bsc:input": [
         {
-          "@id": "_:N64f0a27d28804b62a15b764395b1da61"
+          "@id": "_:N88e8d6b47fc24882a2ee24f4cda88dc9"
         },
         {
-          "@id": "_:Necc3f92428f94b2f9e440899f815f98e"
+          "@id": "_:Nbf4cf68ec66a47849798d5ec04cb044c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N317322aac5d244d296c89aaa463b18ab"
+          "@id": "_:Na2e9ef43c72245448520571a6401e54a"
         },
         {
-          "@id": "_:N9bd9aaaf9a464ffb9fe01481a46b6918"
+          "@id": "_:N774574dbe21d44d0bea00645df3942f8"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -65,10 +65,10 @@
         "@id": "edam:topic_0128"
       },
       "sc:citation": [
+        "pubmed:19357098",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btp243"
-        },
-        "pubmed:19357098"
+        }
       ],
       "sc:description": "Protein-nucleic acid interactions, with various features of protein-nuleic acid interfaces.",
       "sc:featureList": {
@@ -79,7 +79,7 @@
       "sc:url": "http://www-cryst.bioc.cam.ac.uk/bipa"
     },
     {
-      "@id": "_:N64f0a27d28804b62a15b764395b1da61",
+      "@id": "_:N88e8d6b47fc24882a2ee24f4cda88dc9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1042"
@@ -87,7 +87,7 @@
       "sc:name": "SCOP sunid"
     },
     {
-      "@id": "_:Necc3f92428f94b2f9e440899f815f98e",
+      "@id": "_:Nbf4cf68ec66a47849798d5ec04cb044c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -95,7 +95,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N317322aac5d244d296c89aaa463b18ab",
+      "@id": "_:Na2e9ef43c72245448520571a6401e54a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -106,7 +106,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N9bd9aaaf9a464ffb9fe01481a46b6918",
+      "@id": "_:N774574dbe21d44d0bea00645df3942f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"

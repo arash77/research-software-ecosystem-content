@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/samclip",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3247e3a722344a149294c6012c8f1e8e"
+        "@id": "_:N6dc95411c93541dea23182733dee67ce"
       },
       "bsc:output": {
-        "@id": "_:N99077bcac0ed45b18a1557fa356de999"
+        "@id": "_:N94861d4ade82410d881c867b7f319381"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -63,8 +63,8 @@
       },
       "sc:name": "samclip",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/tseemann/samclip"
@@ -73,7 +73,7 @@
       "sc:url": "https://github.com/tseemann/samclip"
     },
     {
-      "@id": "_:N3247e3a722344a149294c6012c8f1e8e",
+      "@id": "_:N6dc95411c93541dea23182733dee67ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -81,7 +81,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N99077bcac0ed45b18a1557fa356de999",
+      "@id": "_:N94861d4ade82410d881c867b7f319381",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"

@@ -39,26 +39,26 @@
       "@id": "https://bio.tools/decoy.pl",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0a02c48bcb8e4546b3d66d734b1464d5"
+        "@id": "_:N34978cde45cb4f4f85bf5cf4a0486bb1"
       },
       "bsc:output": {
-        "@id": "_:Ndf3819ca92bd49a79c53d3f36c8abea4"
+        "@id": "_:N1046d369036d4255a974c080c5e317ee"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:citation": [
+        "pubmed:16118637",
         {
           "@id": "https://doi.org/10.1038/nmeth785"
-        },
-        "pubmed:16118637"
+        }
       ],
       "sc:description": "Decoy database generator from Matrix Science.",
       "sc:featureList": {
@@ -66,8 +66,8 @@
       },
       "sc:name": "decoy.pl",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.matrixscience.com/help/decoy_help.html#MANUAL"
@@ -75,7 +75,7 @@
       "sc:url": "http://www.matrixscience.com/help/decoy_help.html"
     },
     {
-      "@id": "_:Ndf3819ca92bd49a79c53d3f36c8abea4",
+      "@id": "_:N34978cde45cb4f4f85bf5cf4a0486bb1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -86,7 +86,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N0a02c48bcb8e4546b3d66d734b1464d5",
+      "@id": "_:N1046d369036d4255a974c080c5e317ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

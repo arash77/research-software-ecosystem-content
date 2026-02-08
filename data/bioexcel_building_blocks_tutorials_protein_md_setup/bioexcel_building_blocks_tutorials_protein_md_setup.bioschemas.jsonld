@@ -50,14 +50,14 @@
         "@id": "https://orcid.org/0000-0002-8291-8071"
       },
       "bsc:input": {
-        "@id": "_:Neba298b537ee4470aef4d92030e95205"
+        "@id": "_:Nf51c1e8beadf4dc1b6636b86991fc169"
       },
       "bsc:output": [
         {
-          "@id": "_:N6147caf20b9e4281b6e850ac427b1924"
+          "@id": "_:N97313622a4c14fb8aa783e4b9c209b9a"
         },
         {
-          "@id": "_:Nda63ac5ec80042ddb1235a8e7841bd4c"
+          "@id": "_:N71edf39d9288431f99dbeca4df5c3c32"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -67,21 +67,21 @@
           "@id": "edam:topic_0081"
         },
         {
-          "@id": "edam:topic_2814"
+          "@id": "edam:topic_0176"
         },
         {
-          "@id": "edam:topic_0176"
+          "@id": "edam:topic_2814"
         }
       ],
       "sc:author": [
-        "Genís Bayarri",
-        "Pau Andrio"
+        "Pau Andrio",
+        "Genís Bayarri"
       ],
       "sc:citation": [
+        "pmcid:PMC6736963",
         {
           "@id": "https://doi.org/10.1038/s41597-019-0177-4"
         },
-        "pmcid:PMC6736963",
         "pubmed:31506435"
       ],
       "sc:description": "This tutorial aims to illustrate the process of setting up a simulation system containing a protein, step by step, using the BioExcel Building Blocks library (biobb). The particular example used is the Lysozyme protein (PDB code 1AKI).",
@@ -97,9 +97,9 @@
       "sc:license": "Apache-2.0",
       "sc:name": "BioExcel Building Blocks tutorials: Protein MD Setup (Gromacs Version)",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "BioExcel Centre of Excellence",
       "sc:softwareHelp": {
@@ -109,34 +109,7 @@
       "sc:url": "http://mmb.irbbarcelona.org/biobb/availability/tutorials/md_setup"
     },
     {
-      "@id": "_:N6147caf20b9e4281b6e850ac427b1924",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3870"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3910"
-      },
-      "sc:name": "Trajectory data"
-    },
-    {
-      "@id": "_:Nda63ac5ec80042ddb1235a8e7841bd4c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3872"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3880"
-        },
-        {
-          "@id": "edam:format_3883"
-        }
-      ],
-      "sc:name": "Topology data"
-    },
-    {
-      "@id": "_:Neba298b537ee4470aef4d92030e95205",
+      "@id": "_:Nf51c1e8beadf4dc1b6636b86991fc169",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -145,6 +118,33 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N97313622a4c14fb8aa783e4b9c209b9a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3872"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3883"
+        },
+        {
+          "@id": "edam:format_3880"
+        }
+      ],
+      "sc:name": "Topology data"
+    },
+    {
+      "@id": "_:N71edf39d9288431f99dbeca4df5c3c32",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3870"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3910"
+      },
+      "sc:name": "Trajectory data"
     }
   ]
 }

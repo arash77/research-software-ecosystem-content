@@ -40,40 +40,36 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1038/npre.2011.6107",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/gatk_variant_recalibrator",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nf5dd7893efb046bca26f22051c4ee86d"
+          "@id": "_:N59d0c0fd707543638ebda831851c987b"
         },
         {
-          "@id": "_:N91d317f7236f4368b1f5f5c3b7533625"
+          "@id": "_:Nb22d22c788eb4adbbb4dc04642418c79"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nbb7ef070b6f4492f9c7ed75f79090740"
+          "@id": "_:Nb9602ef604aa4b23b141f3b026be76f4"
         },
         {
-          "@id": "_:Nc8fec1d94c9e4c5286bba91b04dd9c23"
+          "@id": "_:N9d29dd924aaf4367a0a6c9e95d30d681"
         },
         {
-          "@id": "_:Nf567ea6c5619449380affbf8fee37848"
+          "@id": "_:Nbeaf988be9604e5f8291cb1bcda61075"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_0199"
         },
         {
-          "@id": "edam:topic_0199"
+          "@id": "edam:topic_3168"
         }
       ],
       "sc:citation": [
@@ -90,9 +86,9 @@
       },
       "sc:name": "gatk_variant_recalibrator",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_variantrecalibration_VariantRecalibrator.php"
@@ -101,7 +97,7 @@
       "sc:url": "https://software.broadinstitute.org/gatk/"
     },
     {
-      "@id": "_:Nf5dd7893efb046bca26f22051c4ee86d",
+      "@id": "_:N59d0c0fd707543638ebda831851c987b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -112,7 +108,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N91d317f7236f4368b1f5f5c3b7533625",
+      "@id": "_:Nb22d22c788eb4adbbb4dc04642418c79",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -122,19 +118,19 @@
           "@id": "edam:format_3475"
         },
         {
-          "@id": "edam:format_3003"
-        },
-        {
           "@id": "edam:format_3016"
         },
         {
           "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3003"
         }
       ],
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbb7ef070b6f4492f9c7ed75f79090740",
+      "@id": "_:Nb9602ef604aa4b23b141f3b026be76f4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -145,7 +141,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc8fec1d94c9e4c5286bba91b04dd9c23",
+      "@id": "_:N9d29dd924aaf4367a0a6c9e95d30d681",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -156,7 +152,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf567ea6c5619449380affbf8fee37848",
+      "@id": "_:Nbeaf988be9604e5f8291cb1bcda61075",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -165,6 +161,10 @@
         "@id": "edam:format_3508"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1038/npre.2011.6107",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

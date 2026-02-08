@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/serotypefinder",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na6e16727c2404f1f95e6afd0ae692f33"
+        "@id": "_:Nca972f49326a404a9e01d153e6abe92f"
       },
       "bsc:output": [
         {
-          "@id": "_:N5707c52c7d4a4001b8247affa1ab3431"
+          "@id": "_:Nb5cd1e5d5d064097844460589ff20746"
         },
         {
-          "@id": "_:N87925b36099441b3844b0457462adce6"
+          "@id": "_:N9627d591c743488fb7e43938c82ca5f3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -59,8 +59,8 @@
         "@id": "edam:topic_0102"
       },
       "sc:citation": [
-        "pmcid:PMC4508402",
         "pubmed:25972421",
+        "pmcid:PMC4508402",
         {
           "@id": "https://doi.org/10.1128/JCM.00008-15"
         }
@@ -72,23 +72,15 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "SerotypeFinder",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareVersion": "2.0",
       "sc:url": "https://cge.cbs.dtu.dk/services/SerotypeFinder/"
     },
     {
-      "@id": "_:N5707c52c7d4a4001b8247affa1ab3431",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2299"
-      },
-      "sc:name": "Gene name"
-    },
-    {
-      "@id": "_:N87925b36099441b3844b0457462adce6",
+      "@id": "_:Nb5cd1e5d5d064097844460589ff20746",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1413"
@@ -96,7 +88,15 @@
       "sc:name": "Sequence similarity"
     },
     {
-      "@id": "_:Na6e16727c2404f1f95e6afd0ae692f33",
+      "@id": "_:N9627d591c743488fb7e43938c82ca5f3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:Nca972f49326a404a9e01d153e6abe92f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

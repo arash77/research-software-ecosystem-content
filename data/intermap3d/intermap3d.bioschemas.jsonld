@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/intermap3d",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N018d13e412c04af6962fecb00e46b2d3"
+        "@id": "_:Nf3efee6e5f59421a924e31cffcccc309"
       },
       "bsc:output": [
         {
-          "@id": "_:Nc74b57743bd54fa5aa1a0c7fca1338b7"
+          "@id": "_:Nf1a5b8bf20d441a48841c1d06d62f32d"
         },
         {
-          "@id": "_:N685ff57f5dfa421da47ab6940105cd06"
+          "@id": "_:Nc0fa5a7ebd8c4d34b5e6cf93472a26f9"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -77,9 +77,9 @@
       "sc:license": "Other",
       "sc:name": "InterMap3D",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": {
@@ -89,7 +89,7 @@
       "sc:url": "http://cbs.dtu.dk/services/InterMap3D/"
     },
     {
-      "@id": "_:N018d13e412c04af6962fecb00e46b2d3",
+      "@id": "_:Nf3efee6e5f59421a924e31cffcccc309",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -100,18 +100,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nc74b57743bd54fa5aa1a0c7fca1338b7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:N685ff57f5dfa421da47ab6940105cd06",
+      "@id": "_:Nf1a5b8bf20d441a48841c1d06d62f32d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -120,6 +109,17 @@
         "@id": "edam:format_2333"
       },
       "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:Nc0fa5a7ebd8c4d34b5e6cf93472a26f9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Protein features"
     }
   ]
 }

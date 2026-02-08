@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd9d2ae799923401198e8ea90e9f324e5"
+          "@id": "_:N7fabbe0ecf354568918aa036c8c9432f"
         },
         {
-          "@id": "_:Nc4cc07641e1a4b289a289a2b40333e78"
+          "@id": "_:Nd03ec8fafe8147ffa196784620a6ee54"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nf468c6357bdd4770af34aa0731892781"
+        "@id": "_:N7fb462d573754cfb9cbc9d50b25da5d1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -55,27 +55,27 @@
         "@id": "edam:topic_3172"
       },
       "sc:citation": [
-        "pubmed:23109552",
+        "pmcid:PMC3531110",
         {
           "@id": "https://doi.org/10.1093/nar/gks1004"
         },
-        "pmcid:PMC3531110"
+        "pubmed:23109552"
       ],
       "sc:description": "Database for Metabolomics experiments and derived information.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3431"
+          "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_3431"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "MetaboLights",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "EMBL-EBI Databases",
       "sc:softwareHelp": [
@@ -89,7 +89,15 @@
       "sc:url": "http://www.ebi.ac.uk/metabolights/"
     },
     {
-      "@id": "_:Nd9d2ae799923401198e8ea90e9f324e5",
+      "@id": "_:N7fabbe0ecf354568918aa036c8c9432f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2091"
+      },
+      "sc:name": "Accession"
+    },
+    {
+      "@id": "_:Nd03ec8fafe8147ffa196784620a6ee54",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -100,15 +108,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nc4cc07641e1a4b289a289a2b40333e78",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2091"
-      },
-      "sc:name": "Accession"
-    },
-    {
-      "@id": "_:Nf468c6357bdd4770af34aa0731892781",
+      "@id": "_:N7fb462d573754cfb9cbc9d50b25da5d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

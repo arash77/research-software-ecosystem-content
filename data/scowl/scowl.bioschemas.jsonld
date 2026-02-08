@@ -41,18 +41,18 @@
       "biotools:primaryContact": "Webmaster",
       "bsc:input": [
         {
-          "@id": "_:N3eaf2f3986d042bca7b35fa24327ba27"
+          "@id": "_:Naf91270c33fe47d1a5f7113691d9e19b"
         },
         {
-          "@id": "_:Ne17b4f2776af4b83b7007e7adb35f435"
+          "@id": "_:N3cdaf367a3e040dc8a19e11989552c61"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N23d93d1bdf2c40c4bb5fab7e3d6444f6"
+          "@id": "_:N8e565fce7e5449bd8745dd9477926a63"
         },
         {
-          "@id": "_:Na0b1b164ba8e4c73aaff212365a3dab2"
+          "@id": "_:N0a545efabd2245dda2002156420415c8"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -68,15 +68,29 @@
       "sc:url": "http://www.scowlp.org"
     },
     {
-      "@id": "_:N3eaf2f3986d042bca7b35fa24327ba27",
+      "@id": "_:N8e565fce7e5449bd8745dd9477926a63",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1127"
+        "@id": "edam:data_0906"
       },
-      "sc:name": "PDB ID"
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:Ne17b4f2776af4b83b7007e7adb35f435",
+      "@id": "_:N0a545efabd2245dda2002156420415c8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "_:Naf91270c33fe47d1a5f7113691d9e19b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1042"
@@ -84,26 +98,12 @@
       "sc:name": "SCOP sunid"
     },
     {
-      "@id": "_:N23d93d1bdf2c40c4bb5fab7e3d6444f6",
+      "@id": "_:N3cdaf367a3e040dc8a19e11989552c61",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0906"
+        "@id": "edam:data_1127"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Protein interaction data"
-    },
-    {
-      "@id": "_:Na0b1b164ba8e4c73aaff212365a3dab2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0906"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Protein interaction data"
+      "sc:name": "PDB ID"
     }
   ]
 }

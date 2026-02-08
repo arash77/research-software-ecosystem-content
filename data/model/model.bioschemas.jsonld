@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Institute for Research in Biomedicine Barcelona",
       "bsc:input": {
-        "@id": "_:Nde302ec444164882a2c2e7e6f2e94855"
+        "@id": "_:N03bc7637072d4fdeb666629251f0143a"
       },
       "bsc:output": {
-        "@id": "_:Nedb29a2a178d48e1a53b1f623f3d6c99"
+        "@id": "_:Nf9db69a5430a451ea43d2ed2dec221e3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -64,8 +64,8 @@
       "sc:name": "MoDEL",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://mmb.irbbarcelona.org/MoDEL/"
@@ -74,20 +74,20 @@
       "sc:url": "http://mmb.irbbarcelona.org/MoDEL"
     },
     {
-      "@id": "_:Nedb29a2a178d48e1a53b1f623f3d6c99",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2080"
-      },
-      "sc:name": "Database search results"
-    },
-    {
-      "@id": "_:Nde302ec444164882a2c2e7e6f2e94855",
+      "@id": "_:N03bc7637072d4fdeb666629251f0143a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
       },
       "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:Nf9db69a5430a451ea43d2ed2dec221e3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
     },
     {
       "@id": "https://doi.org/10.1016/j.str.2010.07.013",

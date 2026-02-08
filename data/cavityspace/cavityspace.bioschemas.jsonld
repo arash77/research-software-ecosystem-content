@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.3390/biom12070967",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cavityspace",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3402967bc5474b069bea4509371b4b87"
+          "@id": "_:N6b38ca5a7a0247c69021e9d687030aaf"
         },
         {
-          "@id": "_:Na33c709eadb044fc874c1c54dd85db97"
+          "@id": "_:N2b2989142d244f289a303950e1511def"
         },
         {
-          "@id": "_:Nb5f19934099743dfb6e2d6dd3ef612e3"
+          "@id": "_:Nbe46cad7b5704dde99edcea89ce9edaa"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,7 +56,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3534"
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0080"
         },
         {
           "@id": "edam:topic_0082"
@@ -69,18 +68,15 @@
           "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0154"
-        },
-        {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_3534"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.3390/biom12070967"
         },
-        "pmcid:PMC9312471",
-        "pubmed:35883523"
+        "pubmed:35883523",
+        "pmcid:PMC9312471"
       ],
       "sc:description": "A database of potential ligand binding sites in the human proteome.",
       "sc:featureList": [
@@ -88,23 +84,31 @@
           "@id": "edam:operation_4009"
         },
         {
-          "@id": "edam:operation_0474"
+          "@id": "edam:operation_3897"
         },
         {
-          "@id": "edam:operation_3897"
+          "@id": "edam:operation_0474"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "CavitySpace",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:url": "http://www.pkumdl.cn:8000/cavityspace/"
     },
     {
-      "@id": "_:N3402967bc5474b069bea4509371b4b87",
+      "@id": "_:N6b38ca5a7a0247c69021e9d687030aaf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:N2b2989142d244f289a303950e1511def",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -112,7 +116,7 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:Na33c709eadb044fc874c1c54dd85db97",
+      "@id": "_:Nbe46cad7b5704dde99edcea89ce9edaa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2764"
@@ -120,12 +124,8 @@
       "sc:name": "Protein name (UniProt)"
     },
     {
-      "@id": "_:Nb5f19934099743dfb6e2d6dd3ef612e3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2299"
-      },
-      "sc:name": "Gene name"
+      "@id": "https://doi.org/10.3390/biom12070967",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

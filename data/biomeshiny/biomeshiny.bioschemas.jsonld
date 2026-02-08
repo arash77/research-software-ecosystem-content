@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/BiomeShiny",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd753056af99249799f67a6c546fe323a"
+        "@id": "_:Ne9ab91146d8c4032a6b03d4fb1b98ee2"
       },
       "bsc:output": {
-        "@id": "_:N2648e052fa8440c19beaf5f362c9eeb5"
+        "@id": "_:N5571a109a31d4550bf5ba639633bb59a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -55,9 +55,9 @@
       },
       "sc:name": "Biome-Shiny",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/BioData-PT/Biome-Shiny/blob/master/README.md"
@@ -66,7 +66,15 @@
       "sc:url": "https://github.com/BioData-PT/Biome-Shiny"
     },
     {
-      "@id": "_:Nd753056af99249799f67a6c546fe323a",
+      "@id": "_:N5571a109a31d4550bf5ba639633bb59a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Ne9ab91146d8c4032a6b03d4fb1b98ee2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -75,14 +83,6 @@
         "@id": "edam:format_3746"
       },
       "sc:name": "Database search results"
-    },
-    {
-      "@id": "_:N2648e052fa8440c19beaf5f362c9eeb5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:name": "Plot"
     }
   ]
 }

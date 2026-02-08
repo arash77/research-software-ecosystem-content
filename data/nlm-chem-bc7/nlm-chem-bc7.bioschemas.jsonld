@@ -42,6 +42,9 @@
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3343"
+        },
+        {
           "@id": "edam:topic_3292"
         },
         {
@@ -52,9 +55,6 @@
         },
         {
           "@id": "edam:topic_3068"
-        },
-        {
-          "@id": "edam:topic_3343"
         }
       ],
       "sc:citation": [
@@ -67,9 +67,6 @@
       "sc:description": "Manually annotated full-text resources for chemical entity annotation and indexing in biomedical articles.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3280"
-        },
-        {
           "@id": "edam:operation_3778"
         },
         {
@@ -77,13 +74,16 @@
         },
         {
           "@id": "edam:operation_3096"
+        },
+        {
+          "@id": "edam:operation_3280"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "NLM-Chem-BC7",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "https://ftp.ncbi.nlm.nih.gov/pub/lu/NLM-Chem-BC7-corpus/"

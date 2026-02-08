@@ -36,19 +36,12 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkt377",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/straw",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Liang Liu",
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_0102"
-        },
         {
           "@id": "edam:topic_0084"
         },
@@ -57,6 +50,9 @@
         },
         {
           "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_0102"
         }
       ],
       "sc:citation": [
@@ -69,9 +65,6 @@
       "sc:description": "STRAW is a web server of workflows for reconstruction of phylogenies of species using 3 species tree methods: MP-EST, STAR, and NJst.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0557"
-        },
-        {
           "@id": "edam:operation_3478"
         },
         {
@@ -81,19 +74,26 @@
           "@id": "edam:operation_3221"
         },
         {
+          "@id": "edam:operation_0557"
+        },
+        {
           "@id": "edam:operation_0546"
         }
       ],
       "sc:name": "STRAW",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioinformatics.publichealth.uga.edu/SpeciesTreeAnalysis/Help/index.php"
       },
       "sc:url": "http://bioinformatics.publichealth.uga.edu/SpeciesTreeAnalysis/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt377",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

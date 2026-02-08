@@ -36,40 +36,38 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gks363",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gky309",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/moleonline",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
         "David Sehnal",
-        "Primary contact",
-        "Karel Berka"
+        "Karel Berka",
+        "Primary contact"
       ],
       "bsc:input": [
         {
-          "@id": "_:N5bae0b657aae419fb1da948212be7020"
+          "@id": "_:N19e7933b755942289c75b934b23f3762"
         },
         {
-          "@id": "_:Ndec65589df8d4b48908467f2a57d74f0"
+          "@id": "_:Ndc084491571d431ca5d1da13be840d0a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N52a7941ecaee40f8a99efab21131429d"
+          "@id": "_:Neabd26897e504a3e8fefccc6528b0839"
         },
         {
-          "@id": "_:Nbd827b98aeda4c8da361df20f0dbc3c1"
+          "@id": "_:Nc3a737b2081c4f54b8b82b3abe2cd425"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0123"
+        },
+        {
+          "@id": "edam:topic_0821"
+        },
         {
           "@id": "edam:topic_0166"
         },
@@ -77,70 +75,64 @@
           "@id": "edam:topic_0820"
         },
         {
-          "@id": "edam:topic_0821"
-        },
-        {
           "@id": "edam:topic_0128"
-        },
-        {
-          "@id": "edam:topic_0123"
         }
       ],
       "sc:author": [
         "David Sehnal",
-        "Karel Berka",
         "Ondřej Hanák",
-        "Michal Otyepka"
+        "Michal Otyepka",
+        "Karel Berka"
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1093/nar/gks363"
         },
+        "pmcid:PMC3394309",
         "pmcid:PMC6030847",
-        "pubmed:29718451",
         {
           "@id": "https://doi.org/10.1093/nar/gky309"
         },
-        "pmcid:PMC3394309",
+        "pubmed:29718451",
         "pubmed:22553366"
       ],
       "sc:contributor": [
-        "Palacky University",
-        "Pavel Banáš",
-        "Crina-Maria Ionescu",
-        "European Regional Development Fund",
-        "European Social Fund",
-        "Radka Svobodová Vařeková",
-        "Veronika Navrátilová",
         "Czech Science foundation",
-        "Deepti Jaiswal",
+        "Palacky University",
         "Jaroslav Koča",
-        "Ministry of Education of the Czech Republic"
+        "European Social Fund",
+        "Crina-Maria Ionescu",
+        "Veronika Navrátilová",
+        "Radka Svobodová Vařeková",
+        "Ministry of Education of the Czech Republic",
+        "Deepti Jaiswal",
+        "European Regional Development Fund",
+        "Pavel Banáš"
       ],
       "sc:description": "Provides a direct access to MOLE functionality and enables on-line and easy-to-use interactive channel analysis.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0570"
+          "@id": "edam:operation_1816"
         },
         {
           "@id": "edam:operation_0245"
         },
         {
-          "@id": "edam:operation_0250"
-        },
-        {
           "@id": "edam:operation_2241"
         },
         {
-          "@id": "edam:operation_1816"
+          "@id": "edam:operation_0250"
+        },
+        {
+          "@id": "edam:operation_0570"
         }
       ],
       "sc:funder": [
-        "European Regional Development Fund",
         "Czech Science foundation",
-        "Ministry of Education of the Czech Republic",
         "Palacky University",
-        "European Social Fund"
+        "European Social Fund",
+        "Ministry of Education of the Czech Republic",
+        "European Regional Development Fund"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "CC-BY-NC-3.0",
@@ -151,56 +143,42 @@
         "Mac"
       ],
       "sc:provider": [
+        "Masaryk University Brno, Czech Republic",
         "ELIXIR-CZ",
-        "Palacký University Olomouc, Czech Republic",
-        "Masaryk University Brno, Czech Republic"
+        "Palacký University Olomouc, Czech Republic"
       ],
       "sc:softwareHelp": [
         {
           "@id": "https://mole.upol.cz/about"
         },
         {
-          "@id": "http://mole.upol.cz/about"
+          "@id": "http://mole.upol.cz/documentation/"
         },
         {
-          "@id": "http://mole.upol.cz/documentation/"
+          "@id": "http://mole.upol.cz/about"
         }
       ],
       "sc:softwareVersion": "3.0",
       "sc:url": "https://mole.upol.cz/"
     },
     {
-      "@id": "_:N52a7941ecaee40f8a99efab21131429d",
+      "@id": "_:N19e7933b755942289c75b934b23f3762",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3464"
+          "@id": "edam:format_1477"
         },
         {
           "@id": "edam:format_1476"
-        },
-        {
-          "@id": "edam:format_1475"
         }
       ],
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nbd827b98aeda4c8da361df20f0dbc3c1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1539"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Protein structural quality report"
-    },
-    {
-      "@id": "_:N5bae0b657aae419fb1da948212be7020",
+      "@id": "_:Ndc084491571d431ca5d1da13be840d0a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -211,7 +189,18 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:Ndec65589df8d4b48908467f2a57d74f0",
+      "@id": "_:Neabd26897e504a3e8fefccc6528b0839",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1539"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein structural quality report"
+    },
+    {
+      "@id": "_:Nc3a737b2081c4f54b8b82b3abe2cd425",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -221,10 +210,21 @@
           "@id": "edam:format_1476"
         },
         {
-          "@id": "edam:format_1477"
+          "@id": "edam:format_1475"
+        },
+        {
+          "@id": "edam:format_3464"
         }
       ],
       "sc:name": "Protein structure"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky309",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gks363",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

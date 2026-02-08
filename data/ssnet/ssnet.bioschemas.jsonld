@@ -46,18 +46,18 @@
         "@id": "https://orcid.org/0000-0003-4762-944X"
       },
       "bsc:input": {
-        "@id": "_:Nce2e31236b394d33bc5ab65c8b7c3005"
+        "@id": "_:Ned60544d030f4e24b16807e6c8a52ccf"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0128"
+        },
         {
           "@id": "edam:topic_3474"
         },
         {
           "@id": "edam:topic_3336"
-        },
-        {
-          "@id": "edam:topic_0128"
         },
         {
           "@id": "edam:topic_3542"
@@ -81,7 +81,7 @@
       "sc:url": "https://github.com/ekraka/SSnet"
     },
     {
-      "@id": "_:Nce2e31236b394d33bc5ab65c8b7c3005",
+      "@id": "_:Ned60544d030f4e24b16807e6c8a52ccf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

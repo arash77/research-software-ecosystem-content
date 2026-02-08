@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/nonpareil",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb9d9d35ef60f496e8646643c35d309ed"
+        "@id": "_:N6607410eac3d43e68e8a8627077eddee"
       },
       "bsc:output": {
-        "@id": "_:Nc64ff93a61574604a6a3057ca7a11804"
+        "@id": "_:Nafbb10a224b649c2bf962c5277960440"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:author": "Luis M Rodriguez-R",
@@ -70,7 +70,7 @@
       "sc:url": "http://enve-omics.ce.gatech.edu/nonpareil/"
     },
     {
-      "@id": "_:Nb9d9d35ef60f496e8646643c35d309ed",
+      "@id": "_:N6607410eac3d43e68e8a8627077eddee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -81,7 +81,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:Nc64ff93a61574604a6a3057ca7a11804",
+      "@id": "_:Nafbb10a224b649c2bf962c5277960440",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2042"

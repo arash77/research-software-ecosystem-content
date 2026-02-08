@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Vojtech Spiwok",
       "bsc:input": {
-        "@id": "_:N5ad5c08d0340476f9ecc362606e24278"
+        "@id": "_:Na2344ceca4294bb294f30384965a5d58"
       },
       "bsc:output": {
-        "@id": "_:N01afca6ba3e246e5b3442ed4be961946"
+        "@id": "_:Nb2f658bcbcfe4accbc5e43a5f28c85c4"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Plug-in",
@@ -58,40 +58,29 @@
       "sc:license": "GPL-3.0",
       "sc:name": "metadynminer",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://cran.r-project.org/web/packages/metadynminer/metadynminer.pdf"
+          "@id": "http://www.metadynamics.cz/metadynminer/"
         },
         {
-          "@id": "http://www.metadynamics.cz/metadynminer/"
+          "@id": "https://cran.r-project.org/web/packages/metadynminer/metadynminer.pdf"
         }
       ],
       "sc:softwareVersion": [
         "v0.1.3",
-        "v0.1.1",
-        "v0.1.2",
         "v0.1.0",
+        "v0.1.2",
+        "v0.1.1",
         "v0.1.4"
       ],
       "sc:url": "http://www.metadynamics.cz/metadynminer/"
     },
     {
-      "@id": "_:N5ad5c08d0340476f9ecc362606e24278",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3870"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Trajectory data"
-    },
-    {
-      "@id": "_:N01afca6ba3e246e5b3442ed4be961946",
+      "@id": "_:Nb2f658bcbcfe4accbc5e43a5f28c85c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -100,6 +89,17 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Image"
+    },
+    {
+      "@id": "_:Na2344ceca4294bb294f30384965a5d58",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3870"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Trajectory data"
     }
   ]
 }

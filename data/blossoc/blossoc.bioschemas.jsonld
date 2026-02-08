@@ -41,14 +41,14 @@
       "biotools:primaryContact": "Thomas Mailund",
       "bsc:input": [
         {
-          "@id": "_:N2875fd5a62ed4a429d0f819605f0f707"
+          "@id": "_:N9dbf85f0381e43fb9de6fa2aa0a42c0a"
         },
         {
-          "@id": "_:N0a331ef5b0db481585f438d5caa7c644"
+          "@id": "_:Nadabe1ddb38944928ffedac6cbab9f14"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ndf3132d5c3bc47ba96acf32b0217e749"
+        "@id": "_:Nceb7db36f0dc438f8a14179a6f8c0082"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -56,16 +56,16 @@
         "@id": "edam:topic_0102"
       },
       "sc:citation": [
+        "pubmed:19064712",
         {
           "@id": "https://doi.org/10.1186/1471-2105-7-454"
         },
-        "pmcid:PMC2644962",
-        "pmcid:PMC1624851",
-        "pubmed:19064712",
         "pubmed:17042942",
         {
           "@id": "https://doi.org/10.1534/genetics.108.092643"
-        }
+        },
+        "pmcid:PMC1624851",
+        "pmcid:PMC2644962"
       ],
       "sc:description": "Block-Association Mapping.",
       "sc:featureList": {
@@ -84,7 +84,7 @@
       "sc:url": "http://www.daimi.au.dk/~mailund/Blossoc/"
     },
     {
-      "@id": "_:N2875fd5a62ed4a429d0f819605f0f707",
+      "@id": "_:N9dbf85f0381e43fb9de6fa2aa0a42c0a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -92,7 +92,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N0a331ef5b0db481585f438d5caa7c644",
+      "@id": "_:Nadabe1ddb38944928ffedac6cbab9f14",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1863"
@@ -100,7 +100,7 @@
       "sc:name": "Haplotype map"
     },
     {
-      "@id": "_:Ndf3132d5c3bc47ba96acf32b0217e749",
+      "@id": "_:Nceb7db36f0dc438f8a14179a6f8c0082",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -108,11 +108,11 @@
       "sc:name": "Image"
     },
     {
-      "@id": "https://doi.org/10.1186/1471-2105-7-454",
+      "@id": "https://doi.org/10.1534/genetics.108.092643",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1534/genetics.108.092643",
+      "@id": "https://doi.org/10.1186/1471-2105-7-454",
       "@type": "sc:CreativeWork"
     }
   ]

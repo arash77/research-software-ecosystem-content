@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/aCLImatise",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0fb53d065d6441f19c4191bc2e5111f7"
+        "@id": "_:Nf30697dd15f3464cb66c6e057a8e8fe5"
       },
       "bsc:output": {
-        "@id": "_:N7be9edf400924d368b266ed901ab4782"
+        "@id": "_:N56686cb53c974d4194e6c168c7e085e0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -64,21 +64,21 @@
       "sc:url": "https://github.com/aCLImatise/CliHelpParser"
     },
     {
-      "@id": "_:N0fb53d065d6441f19c4191bc2e5111f7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:N7be9edf400924d368b266ed901ab4782",
+      "@id": "_:N56686cb53c974d4194e6c168c7e085e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_3857"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:Nf30697dd15f3464cb66c6e057a8e8fe5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
       },
       "sc:name": "Text data"
     }

@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/poseedit",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb98970cb98f8477ebbb498c76227516b"
+        "@id": "_:N29059fca905949b19cba1f8984e860fc"
       },
       "bsc:output": {
-        "@id": "_:Nc78d30acb2d0437086c58b2378d44cd8"
+        "@id": "_:N25aeb61ef69b40f8ae2948108a526dcc"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
@@ -64,15 +64,15 @@
       "sc:license": "Other",
       "sc:name": "PoseEdit",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "University of Hamburg, ZBH - Center for Bioinformatics",
       "sc:url": "https://www.zbh.uni-hamburg.de/en/forschung/amd/software/poseedit.html"
     },
     {
-      "@id": "_:Nc78d30acb2d0437086c58b2378d44cd8",
+      "@id": "_:N25aeb61ef69b40f8ae2948108a526dcc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1566"
@@ -80,7 +80,7 @@
       "sc:name": "Protein-ligand interaction report"
     },
     {
-      "@id": "_:Nb98970cb98f8477ebbb498c76227516b",
+      "@id": "_:N29059fca905949b19cba1f8984e860fc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

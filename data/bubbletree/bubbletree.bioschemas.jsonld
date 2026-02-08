@@ -39,24 +39,24 @@
       "@id": "https://bio.tools/bubbletree",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Todd Creasy",
-        "Wei Zhu"
+        "Wei Zhu",
+        "Todd Creasy"
       ],
       "bsc:input": {
-        "@id": "_:N9627fa6019c94cd693a50c98c20a4b10"
+        "@id": "_:N56348e2d4f694bf8822d0555eab7de79"
       },
       "bsc:output": [
         {
-          "@id": "_:Nacb789ab01b64b6f8998d0a012b47d4a"
+          "@id": "_:N5867557153464200a80cb097a2ab4283"
         },
         {
-          "@id": "_:Nc573a9d1238046449f26c94b5cfd4d3d"
+          "@id": "_:N5c8bdcffe26f4724b9eb6c4a73804a9a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
@@ -67,10 +67,10 @@
         }
       ],
       "sc:citation": [
+        "pubmed:26578606",
         {
           "@id": "https://doi.org/10.1093/nar/gkv1102"
         },
-        "pubmed:26578606",
         "pmcid:PMC4770205"
       ],
       "sc:description": "CNV analysis in groups of tumor samples (Publication Pending).",
@@ -79,18 +79,18 @@
           "@id": "edam:operation_3227"
         },
         {
-          "@id": "edam:operation_3731"
+          "@id": "edam:operation_3233"
         },
         {
-          "@id": "edam:operation_3233"
+          "@id": "edam:operation_3731"
         }
       ],
       "sc:license": "GPL-3.0",
       "sc:name": "BubbleTree",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/BubbleTree.html"
@@ -99,23 +99,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/BubbleTree.html"
     },
     {
-      "@id": "_:Nacb789ab01b64b6f8998d0a012b47d4a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3567"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3468"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Reference sample report"
-    },
-    {
-      "@id": "_:Nc573a9d1238046449f26c94b5cfd4d3d",
+      "@id": "_:N5867557153464200a80cb097a2ab4283",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1622"
@@ -131,17 +115,33 @@
       "sc:name": "Disease report"
     },
     {
-      "@id": "_:N9627fa6019c94cd693a50c98c20a4b10",
+      "@id": "_:N5c8bdcffe26f4724b9eb6c4a73804a9a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3567"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3468"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Reference sample report"
+    },
+    {
+      "@id": "_:N56348e2d4f694bf8822d0555eab7de79",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2921"
+          "@id": "edam:format_2155"
         },
         {
-          "@id": "edam:format_2155"
+          "@id": "edam:format_2921"
         }
       ],
       "sc:name": "Sequence variations"

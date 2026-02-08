@@ -36,15 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2023.05.14.23289949",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1101/2022.06.30.498213",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1001/jamaoncol.2022.3846",
+      "@id": "https://doi.org/10.1101/2023.05.14.23289949",
       "@type": "sc:CreativeWork"
     },
     {
@@ -53,34 +49,34 @@
       "biotools:primaryContact": "Oleksii Nikolaienko",
       "bsc:input": [
         {
-          "@id": "_:Na6b6c6cc8129401ebf33b9832a1cdf54"
+          "@id": "_:N23777826330f4e50bad14c51d7bf2068"
         },
         {
-          "@id": "_:Nc621d2c2f04b4b47a2dc792bcd82200a"
+          "@id": "_:N575d63996751450bbb30c4d0f827e557"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6c4d333262304e3bbb1fb38b278743df"
+          "@id": "_:Nf0d8e0e290174248a3bde6d3cbd79e97"
         },
         {
-          "@id": "_:Na4cfdd3c69744ea2a82f4e653d18676a"
+          "@id": "_:N9bdfacaddeb64755b744eb19e6eb2b87"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3295"
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0654"
         },
         {
           "@id": "edam:topic_0080"
         },
         {
-          "@id": "edam:topic_0199"
-        },
-        {
-          "@id": "edam:topic_0654"
+          "@id": "edam:topic_3295"
         }
       ],
       "sc:author": "Oleksii Nikolaienko",
@@ -89,42 +85,42 @@
         {
           "@id": "https://doi.org/10.1101/2023.05.14.23289949"
         },
-        "pubmed:36074460",
         {
           "@id": "https://doi.org/10.1001/jamaoncol.2022.3846"
         },
         {
           "@id": "https://doi.org/10.1101/2022.06.30.498213"
-        }
+        },
+        "pubmed:36074460"
       ],
       "sc:description": "Fast, epiallele-aware methylation caller and reporter — an R/Bioconductor package",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0564"
-        },
-        {
-          "@id": "edam:operation_3207"
-        },
-        {
-          "@id": "edam:operation_2928"
+          "@id": "edam:operation_0554"
         },
         {
           "@id": "edam:operation_3919"
         },
         {
+          "@id": "edam:operation_2928"
+        },
+        {
           "@id": "edam:operation_3206"
         },
         {
-          "@id": "edam:operation_0554"
+          "@id": "edam:operation_0564"
+        },
+        {
+          "@id": "edam:operation_3207"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "Artistic-2.0",
       "sc:name": "epialleleR",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
@@ -137,7 +133,7 @@
       "sc:url": "http://bioconductor.org/packages/epialleleR/"
     },
     {
-      "@id": "_:Na6b6c6cc8129401ebf33b9832a1cdf54",
+      "@id": "_:Nf0d8e0e290174248a3bde6d3cbd79e97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -148,7 +144,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:Nc621d2c2f04b4b47a2dc792bcd82200a",
+      "@id": "_:N9bdfacaddeb64755b744eb19e6eb2b87",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -159,7 +155,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N6c4d333262304e3bbb1fb38b278743df",
+      "@id": "_:N23777826330f4e50bad14c51d7bf2068",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -170,7 +166,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:Na4cfdd3c69744ea2a82f4e653d18676a",
+      "@id": "_:N575d63996751450bbb30c4d0f827e557",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -179,6 +175,10 @@
         "@id": "edam:format_2572"
       },
       "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.1001/jamaoncol.2022.3846",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

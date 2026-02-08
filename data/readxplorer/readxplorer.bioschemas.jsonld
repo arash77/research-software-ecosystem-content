@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N1cc555a711e84613b9d2e28271ca397c"
+          "@id": "_:N4622ff91ce79492895d580cefd130808"
         },
         {
-          "@id": "_:Ndfcc584c604047709f84f65cc624ad58"
+          "@id": "_:N140fe053480442638dbf6f12ee8af2b6"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,10 +57,10 @@
           "@id": "edam:topic_3308"
         },
         {
-          "@id": "edam:topic_0797"
+          "@id": "edam:topic_0122"
         },
         {
-          "@id": "edam:topic_0122"
+          "@id": "edam:topic_0797"
         }
       ],
       "sc:citation": [
@@ -78,8 +78,8 @@
       "sc:license": "GPL-2.0",
       "sc:name": "ReadXplorer",
       "sc:operatingSystem": [
-        "Mac",
         "Linux",
+        "Mac",
         "Windows"
       ],
       "sc:provider": "bigi",
@@ -90,29 +90,29 @@
       "sc:url": "http://readxplorer.org"
     },
     {
-      "@id": "_:N1cc555a711e84613b9d2e28271ca397c",
+      "@id": "_:N4622ff91ce79492895d580cefd130808",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1927"
+          "@id": "edam:format_1929"
         },
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_1975"
         },
         {
           "@id": "edam:format_1936"
         },
         {
-          "@id": "edam:format_1975"
+          "@id": "edam:format_1927"
         }
       ],
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:Ndfcc584c604047709f84f65cc624ad58",
+      "@id": "_:N140fe053480442638dbf6f12ee8af2b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

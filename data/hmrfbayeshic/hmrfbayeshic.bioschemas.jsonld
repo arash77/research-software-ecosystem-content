@@ -50,10 +50,10 @@
           "@id": "edam:topic_3175"
         },
         {
-          "@id": "edam:topic_0654"
+          "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_0654"
         },
         {
           "@id": "edam:topic_0081"
@@ -72,8 +72,8 @@
       },
       "sc:name": "HMRFBayesHiC",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {

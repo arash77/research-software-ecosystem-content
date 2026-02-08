@@ -39,24 +39,24 @@
       "@id": "https://bio.tools/deeplbcepred",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N994879d3aa5a4ec2a20c9d420814ad43"
+        "@id": "_:N2c54275a7f9d49208d4768d0a18e3f97"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3966"
+          "@id": "edam:topic_2830"
         },
         {
-          "@id": "edam:topic_2830"
+          "@id": "edam:topic_3966"
         },
         {
           "@id": "edam:topic_3474"
         }
       ],
       "sc:citation": [
-        "pubmed:36910218",
         "pmcid:PMC9992402",
+        "pubmed:36910218",
         {
           "@id": "https://doi.org/10.3389/FMICB.2023.1117027"
         }
@@ -77,13 +77,13 @@
       "sc:name": "DeepLBCEPred",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:url": "http://www.biolscience.cn/DeepLBCEPred/"
     },
     {
-      "@id": "_:N994879d3aa5a4ec2a20c9d420814ad43",
+      "@id": "_:N2c54275a7f9d49208d4768d0a18e3f97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

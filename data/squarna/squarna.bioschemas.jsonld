@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/2023.08.28.555103",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4694-9783",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/squarna",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,53 +51,53 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N39a56fb623644cce9c7140a6d923f7ce"
+          "@id": "_:N212b351060e643ef87d1405006b9d801"
         },
         {
-          "@id": "_:N18e94d17c7db4037aed784eeab6d546e"
+          "@id": "_:Ncc495c67b3674c8ab70b04f9cbdd6642"
         },
         {
-          "@id": "_:N3582851f17384fe887bda0265bb8a53e"
+          "@id": "_:N02fbed37ca17436eb87164e270b0de52"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6f7acd919ca043b1a9ca842397bf0be5"
+          "@id": "_:N16d3dfc4d6e34ea6b394bfa4166631b4"
         },
         {
-          "@id": "_:N4294820cda9347649461dc28f15af3df"
+          "@id": "_:N06880d1313fc4d06b5222dddd4bf453f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
         "Library",
-        "Script"
+        "Script",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_0659"
         },
         {
-          "@id": "edam:topic_0097"
+          "@id": "edam:topic_0099"
         },
         {
           "@id": "edam:topic_0077"
         },
         {
-          "@id": "edam:topic_0081"
-        },
-        {
-          "@id": "edam:topic_3307"
-        },
-        {
-          "@id": "edam:topic_0099"
+          "@id": "edam:topic_0082"
         },
         {
           "@id": "edam:topic_3511"
         },
         {
-          "@id": "edam:topic_0082"
+          "@id": "edam:topic_0081"
+        },
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_3307"
         }
       ],
       "sc:author": {
@@ -106,9 +114,9 @@
       "sc:license": "Apache-2.0",
       "sc:name": "SQUARNA",
       "sc:operatingSystem": [
+        "Linux",
         "Mac",
-        "Windows",
-        "Linux"
+        "Windows"
       ],
       "sc:softwareHelp": [
         {
@@ -122,17 +130,17 @@
       "sc:url": "https://github.com/febos/SQUARNA"
     },
     {
-      "@id": "_:N39a56fb623644cce9c7140a6d923f7ce",
+      "@id": "_:N212b351060e643ef87d1405006b9d801",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1961"
+          "@id": "edam:format_1982"
         },
         {
-          "@id": "edam:format_1982"
+          "@id": "edam:format_1961"
         },
         {
           "@id": "edam:format_1929"
@@ -141,26 +149,26 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N18e94d17c7db4037aed784eeab6d546e",
+      "@id": "_:Ncc495c67b3674c8ab70b04f9cbdd6642",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1982"
-        },
-        {
           "@id": "edam:format_1929"
         },
         {
           "@id": "edam:format_1961"
+        },
+        {
+          "@id": "edam:format_1982"
         }
       ],
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N3582851f17384fe887bda0265bb8a53e",
+      "@id": "_:N02fbed37ca17436eb87164e270b0de52",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0889"
@@ -168,7 +176,15 @@
       "sc:name": "Structural profile"
     },
     {
-      "@id": "_:N6f7acd919ca043b1a9ca842397bf0be5",
+      "@id": "_:N16d3dfc4d6e34ea6b394bfa4166631b4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N06880d1313fc4d06b5222dddd4bf453f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0880"
@@ -177,22 +193,6 @@
         "@id": "edam:format_2546"
       },
       "sc:name": "RNA secondary structure"
-    },
-    {
-      "@id": "_:N4294820cda9347649461dc28f15af3df",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:name": "Score"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-4694-9783",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2023.08.28.555103",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

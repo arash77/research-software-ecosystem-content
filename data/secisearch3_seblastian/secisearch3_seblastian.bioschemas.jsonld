@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Didac Santesmasses & Marco Mariotti",
       "bsc:input": {
-        "@id": "_:N26118df0332340f5ac625a9ea7f1c5dc"
+        "@id": "_:N7d0a908c87d146c98b0b0ea1b5060414"
       },
       "bsc:output": {
-        "@id": "_:Nb190be8cfece45f3a732ac9fbeeaa347"
+        "@id": "_:N88fb9c982d404b15aa27b7c15b43350d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -71,13 +71,13 @@
       "sc:license": "GPL-3.0",
       "sc:name": "SECISearch3  Seblastian",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
-        "crg.eu",
-        "Lab Roderic Guigo Group"
+        "Lab Roderic Guigo Group",
+        "crg.eu"
       ],
       "sc:softwareHelp": {
         "@id": "http://big.crg.cat/services/secisearch3seblastian"
@@ -86,20 +86,20 @@
       "sc:url": "http://seblastian.crg.es/"
     },
     {
-      "@id": "_:Nb190be8cfece45f3a732ac9fbeeaa347",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N26118df0332340f5ac625a9ea7f1c5dc",
+      "@id": "_:N7d0a908c87d146c98b0b0ea1b5060414",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
       },
       "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N88fb9c982d404b15aa27b7c15b43350d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
     }
   ]
 }

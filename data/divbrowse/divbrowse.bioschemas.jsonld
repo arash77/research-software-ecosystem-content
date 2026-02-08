@@ -36,11 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0001-6113-3518",
+      "@id": "https://orcid.org/0000-0002-8948-6793",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-8948-6793",
+      "@id": "https://orcid.org/0000-0001-6113-3518",
       "@type": "sc:Person"
     },
     {
@@ -56,18 +56,18 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N038f118fc5794a48a4e1810160c4b325"
+          "@id": "_:N70233ef5ef9b42bb991353d3a91bc37e"
         },
         {
-          "@id": "_:N12136533400f4579adfaeced5ae25ceb"
+          "@id": "_:N60081b25d9e8478db6988e4926242114"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6488cf75957a47328467b8f1fbcece62"
+          "@id": "_:N87ad37b53c7e4089adfa876e830d3ef8"
         },
         {
-          "@id": "_:N8992c1957edc4fc59d4089f9e589acec"
+          "@id": "_:N0eeafdbe49124c9889491a224a16d642"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -78,19 +78,19 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3056"
+          "@id": "edam:topic_0622"
         },
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_0091"
         },
         {
           "@id": "edam:topic_0199"
         },
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_3056"
         },
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_0092"
         }
       ],
       "sc:author": {
@@ -109,9 +109,9 @@
       "sc:license": "MIT",
       "sc:name": "DivBrowse",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": {
         "@id": "https://orcid.org/0000-0001-6113-3518"
@@ -123,7 +123,7 @@
       "sc:url": "https://divbrowse.ipk-gatersleben.de"
     },
     {
-      "@id": "_:N6488cf75957a47328467b8f1fbcece62",
+      "@id": "_:N70233ef5ef9b42bb991353d3a91bc37e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -134,7 +134,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N8992c1957edc4fc59d4089f9e589acec",
+      "@id": "_:N60081b25d9e8478db6988e4926242114",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -145,7 +145,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N038f118fc5794a48a4e1810160c4b325",
+      "@id": "_:N87ad37b53c7e4089adfa876e830d3ef8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -156,7 +156,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N12136533400f4579adfaeced5ae25ceb",
+      "@id": "_:N0eeafdbe49124c9889491a224a16d642",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

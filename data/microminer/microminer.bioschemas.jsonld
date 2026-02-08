@@ -36,30 +36,34 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bib/bbad357",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/microminer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N74ae956e9eff4cd6a495fd22058c966f"
+        "@id": "_:Nd88c144b65c846fc94806b15fd55e12d"
       },
       "bsc:output": [
         {
-          "@id": "_:Nd6f37ecdd72b40ed93bf38ae179760a5"
+          "@id": "_:Na904304c58d944129d15f9f5e33fc6a6"
         },
         {
-          "@id": "_:N459b12065b944c20ab79b1228f852bcc"
+          "@id": "_:N01f8c4466db94ffa942840ad5ca8edfb"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web service",
-        "Command-line tool"
+        "Command-line tool",
+        "Web service"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0130"
+          "@id": "edam:topic_0081"
         },
         {
-          "@id": "edam:topic_0081"
+          "@id": "edam:topic_0130"
         }
       ],
       "sc:citation": {
@@ -68,10 +72,10 @@
       "sc:description": "MicroMiner assists in identifying single-residue substitutions in protein structure databases. It searches protein residue environments with local sequence and structural similarity based on the SIENA methodology. Users can search for structural mutation in the entire PDB, their in-house structure collection, or (subsets of) the AlphaFold Database. They can use the method to explore the mutation landscape of proteins with experimental or predicted structures. MicroMiner can be applied to single domains or even protein-protein or protein-ligand interfaces. Several filter options to simplify downstream analysis are available.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0509"
+          "@id": "edam:operation_0360"
         },
         {
-          "@id": "edam:operation_0360"
+          "@id": "edam:operation_0509"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -79,14 +83,14 @@
       "sc:name": "MicroMiner",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "University of Hamburg, ZBH - Center for Bioinformatics",
       "sc:url": "https://www.zbh.uni-hamburg.de/en/forschung/amd/software/microminer.html"
     },
     {
-      "@id": "_:Nd6f37ecdd72b40ed93bf38ae179760a5",
+      "@id": "_:Na904304c58d944129d15f9f5e33fc6a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -94,7 +98,7 @@
       "sc:name": "Protein structure report"
     },
     {
-      "@id": "_:N459b12065b944c20ab79b1228f852bcc",
+      "@id": "_:N01f8c4466db94ffa942840ad5ca8edfb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1479"
@@ -102,16 +106,12 @@
       "sc:name": "Structure alignment (pair)"
     },
     {
-      "@id": "_:N74ae956e9eff4cd6a495fd22058c966f",
+      "@id": "_:Nd88c144b65c846fc94806b15fd55e12d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
       },
       "sc:name": "Protein structure"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bib/bbad357",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/biotransformer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nba4bfa862dc14828b6eb7f44b14aba01"
+        "@id": "_:N5e4fa8c0d93f489fa8c8c19fcf489cab"
       },
       "bsc:output": {
-        "@id": "_:Nd19cf09035e34e7ba48a669cb1b54e06"
+        "@id": "_:Naf2d246935d847b189c672db4d951073"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -52,38 +52,38 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3407"
-        },
-        {
-          "@id": "edam:topic_0154"
-        },
-        {
           "@id": "edam:topic_0593"
         },
         {
           "@id": "edam:topic_0152"
         },
         {
+          "@id": "edam:topic_3407"
+        },
+        {
           "@id": "edam:topic_3172"
+        },
+        {
+          "@id": "edam:topic_0154"
         }
       ],
       "sc:citation": [
+        "pubmed:35536252",
+        "pmcid:PMC9252798",
         {
           "@id": "https://doi.org/10.1093/nar/gkac313"
-        },
-        "pubmed:35536252",
-        "pmcid:PMC9252798"
+        }
       ],
       "sc:description": "BioTransformer is a freely available web server that supports accurate, rapid and comprehensive in silico metabolism prediction.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_3929"
-        },
         {
           "@id": "edam:operation_3803"
         },
         {
           "@id": "edam:operation_0417"
+        },
+        {
+          "@id": "edam:operation_3929"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -98,7 +98,7 @@
       "sc:url": "https://biotransformer.ca"
     },
     {
-      "@id": "_:Nba4bfa862dc14828b6eb7f44b14aba01",
+      "@id": "_:N5e4fa8c0d93f489fa8c8c19fcf489cab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -109,7 +109,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:Nd19cf09035e34e7ba48a669cb1b54e06",
+      "@id": "_:Naf2d246935d847b189c672db4d951073",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"

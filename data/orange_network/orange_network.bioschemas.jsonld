@@ -41,57 +41,57 @@
       "biotools:primaryContact": "Blaž Zupan",
       "bsc:input": [
         {
-          "@id": "_:Nd4bab0a70a384a789617b99b5d1bc235"
+          "@id": "_:Nc7bd4e4cf29944289e66bca46125ebab"
         },
         {
-          "@id": "_:N570ebd5e61b34be4b0fad71179834c0e"
+          "@id": "_:Nec7a486eed51446a8172b3c15dced272"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N80340662fe7943568ebe603ddfab1f41"
+          "@id": "_:N68cc36d75a4c4fb9882e7bc713dac906"
         },
         {
-          "@id": "_:N5f8bf9f265a241279d6e36acb6a17e4d"
+          "@id": "_:N2617bcb30fc142d8a3a0c375477379df"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Desktop application",
-        "Command-line tool"
+        "Command-line tool",
+        "Desktop application"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3473"
+          "@id": "edam:topic_3474"
         },
         {
           "@id": "edam:topic_0092"
         },
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_3473"
         }
       ],
       "sc:author": "Jernej Kernc",
       "sc:description": "A network analysis extension for a data mining software Orange. Network add-on includes components for network generation, network analysis, clustering and access to SNAP network database. All features can be combined with powerful visualizations, bioinformatics tools and data mining techniques from the core Orange data mining framework.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_1781"
+          "@id": "edam:operation_3083"
         },
         {
-          "@id": "edam:operation_3083"
+          "@id": "edam:operation_1781"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "Orange Network",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
-        "ELIXIR-SI-hackathon",
-        "Laboratory for Bioinformatics, University of Ljubljana"
+        "Laboratory for Bioinformatics, University of Ljubljana",
+        "ELIXIR-SI-hackathon"
       ],
       "sc:softwareHelp": {
         "@id": "http://orange-network.readthedocs.org"
@@ -100,7 +100,15 @@
       "sc:url": "http://orange.biolab.si"
     },
     {
-      "@id": "_:Nd4bab0a70a384a789617b99b5d1bc235",
+      "@id": "_:N68cc36d75a4c4fb9882e7bc713dac906",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N2617bcb30fc142d8a3a0c375477379df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -111,23 +119,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N570ebd5e61b34be4b0fad71179834c0e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2353"
-      },
-      "sc:name": "Ontology data"
-    },
-    {
-      "@id": "_:N80340662fe7943568ebe603ddfab1f41",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2353"
-      },
-      "sc:name": "Ontology data"
-    },
-    {
-      "@id": "_:N5f8bf9f265a241279d6e36acb6a17e4d",
+      "@id": "_:Nc7bd4e4cf29944289e66bca46125ebab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -136,6 +128,14 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:Nec7a486eed51446a8172b3c15dced272",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
     }
   ]
 }

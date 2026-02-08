@@ -36,56 +36,52 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/S0959-440X(02)00333-0",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ecid",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ned119d5e936c487187449b7aa860b4dc"
+          "@id": "_:N37ca4b2184214e319053bf6fec165e4b"
         },
         {
-          "@id": "_:N6292054ad08243cfb35a3c0a6f949975"
+          "@id": "_:N3a3135f22a174798bd8d4c599bfda128"
         },
         {
-          "@id": "_:Nd61f1578c0f1488cb21a4325493364a8"
+          "@id": "_:N0797101f9e3147bf9fc3e833cf543d58"
         },
         {
-          "@id": "_:N6fb2f361d4054ffbbde986b8e6a6b743"
+          "@id": "_:Nb6ac587b005941319160a874b909170d"
         },
         {
-          "@id": "_:N06f0058ee7fc4dd8a8ea92962483238e"
+          "@id": "_:N2a47eb4a94bf42c18dd0ee3df58d448b"
         },
         {
-          "@id": "_:N219598a716664cac9d1b2eb64d75148d"
+          "@id": "_:N5ef215a1a1aa4975afb382a827d06cad"
         },
         {
-          "@id": "_:Nefc7acf32ad34692987ce5ceba0cabce"
+          "@id": "_:N043ec27ca9bd4282ae65bd7a278534c0"
         },
         {
-          "@id": "_:N190b1d7e8bff43289ea6e08d7a65579b"
+          "@id": "_:N3f4b8a589a5043cb8b0217005d4a674b"
         },
         {
-          "@id": "_:N9a2f796b2a4940c49a3805e415714edd"
+          "@id": "_:Nd14837b35aa84a5da8260ac1ea6e581b"
         },
         {
-          "@id": "_:N89551b7bd59842f8863b3376ce86223c"
+          "@id": "_:N07139eed20484cca94a4332d0bd7a99b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nef4640b68c374a2589bad3d164f927ec"
+          "@id": "_:N21c0435c49a44b838683246df40a6af2"
         },
         {
-          "@id": "_:N51710b33c50b47c88eb5bda069ddc76d"
+          "@id": "_:Nb27e3890c88d4ad3a1de2d3ff53268d6"
         },
         {
-          "@id": "_:N8f072f95e2d042ca971c24ed2a04885f"
+          "@id": "_:N7a2041d807244b90a6c57738c0a17bdb"
         },
         {
-          "@id": "_:Nf3287b744bac4b0faef813189438cea1"
+          "@id": "_:N67e82f69088748879b51878373336fd9"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -110,87 +106,7 @@
       "sc:url": "http://ecid.bioinfo.cnio.es/index.php"
     },
     {
-      "@id": "_:Ned119d5e936c487187449b7aa860b4dc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:N6292054ad08243cfb35a3c0a6f949975",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0989"
-      },
-      "sc:name": "Protein identifier"
-    },
-    {
-      "@id": "_:Nd61f1578c0f1488cb21a4325493364a8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2802"
-      },
-      "sc:name": "Protein ID (EcID)"
-    },
-    {
-      "@id": "_:N6fb2f361d4054ffbbde986b8e6a6b743",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2802"
-      },
-      "sc:name": "Protein ID (EcID)"
-    },
-    {
-      "@id": "_:N06f0058ee7fc4dd8a8ea92962483238e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0989"
-      },
-      "sc:name": "Protein identifier"
-    },
-    {
-      "@id": "_:N219598a716664cac9d1b2eb64d75148d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:Nefc7acf32ad34692987ce5ceba0cabce",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0989"
-      },
-      "sc:name": "Protein identifier"
-    },
-    {
-      "@id": "_:N190b1d7e8bff43289ea6e08d7a65579b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:N9a2f796b2a4940c49a3805e415714edd",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0989"
-      },
-      "sc:name": "Protein identifier"
-    },
-    {
-      "@id": "_:N89551b7bd59842f8863b3376ce86223c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2802"
-      },
-      "sc:name": "Protein ID (EcID)"
-    },
-    {
-      "@id": "_:Nef4640b68c374a2589bad3d164f927ec",
+      "@id": "_:N21c0435c49a44b838683246df40a6af2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -201,7 +117,18 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N51710b33c50b47c88eb5bda069ddc76d",
+      "@id": "_:Nb27e3890c88d4ad3a1de2d3ff53268d6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "_:N7a2041d807244b90a6c57738c0a17bdb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -212,7 +139,7 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:N8f072f95e2d042ca971c24ed2a04885f",
+      "@id": "_:N67e82f69088748879b51878373336fd9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -223,15 +150,88 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:Nf3287b744bac4b0faef813189438cea1",
+      "@id": "_:N37ca4b2184214e319053bf6fec165e4b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0906"
+        "@id": "edam:data_0989"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
+      "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "_:N3a3135f22a174798bd8d4c599bfda128",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0989"
       },
-      "sc:name": "Protein interaction data"
+      "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "_:N0797101f9e3147bf9fc3e833cf543d58",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0989"
+      },
+      "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "_:Nb6ac587b005941319160a874b909170d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N2a47eb4a94bf42c18dd0ee3df58d448b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2802"
+      },
+      "sc:name": "Protein ID (EcID)"
+    },
+    {
+      "@id": "_:N5ef215a1a1aa4975afb382a827d06cad",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N043ec27ca9bd4282ae65bd7a278534c0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0989"
+      },
+      "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "_:N3f4b8a589a5043cb8b0217005d4a674b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2802"
+      },
+      "sc:name": "Protein ID (EcID)"
+    },
+    {
+      "@id": "_:Nd14837b35aa84a5da8260ac1ea6e581b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2802"
+      },
+      "sc:name": "Protein ID (EcID)"
+    },
+    {
+      "@id": "_:N07139eed20484cca94a4332d0bd7a99b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0959-440X(02)00333-0",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

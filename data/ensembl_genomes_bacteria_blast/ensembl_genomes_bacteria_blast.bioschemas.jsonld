@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ensembl team",
       "bsc:input": {
-        "@id": "_:N5d344b82397a404ab211ac1125fdc07e"
+        "@id": "_:Naf2bf5d65aec4ce29b558c1a2202a47a"
       },
       "bsc:output": [
         {
-          "@id": "_:Nbdc01ce5ca5b4ae48edc13bdea6796b1"
+          "@id": "_:Nafe9a76c42f646b09ae86b17b10c55fc"
         },
         {
-          "@id": "_:N4b6966879c9c419f858864813e9eb0b2"
+          "@id": "_:N2a2cbf7f70414aee89ca7c5401240634"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -62,10 +62,10 @@
       "sc:description": "Searches Ensembl Bacteria sequences using WU-BLAST.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0292"
+          "@id": "edam:operation_0346"
         },
         {
-          "@id": "edam:operation_0346"
+          "@id": "edam:operation_0292"
         }
       ],
       "sc:name": "Ensembl Genomes Bacteria Blast",
@@ -87,7 +87,23 @@
       "sc:url": "http://bacteria.ensembl.org/Multi/blastview"
     },
     {
-      "@id": "_:N5d344b82397a404ab211ac1125fdc07e",
+      "@id": "_:Nafe9a76c42f646b09ae86b17b10c55fc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:N2a2cbf7f70414aee89ca7c5401240634",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Naf2bf5d65aec4ce29b558c1a2202a47a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -96,22 +112,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Nbdc01ce5ca5b4ae48edc13bdea6796b1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N4b6966879c9c419f858864813e9eb0b2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0857"
-      },
-      "sc:name": "Sequence search results"
     },
     {
       "@id": "https://doi.org/10.1016/S0022-2836(05)80360-2",

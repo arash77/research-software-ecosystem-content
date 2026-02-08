@@ -36,29 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/18.suppl_1.s181",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/splicinggraphs",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "H. Pagès",
       "bsc:input": {
-        "@id": "_:Nadef6d5cc62944b3bec08fd67a8446d7"
+        "@id": "_:Nfb427409413d487397b63f4e246da8e2"
       },
       "bsc:output": {
-        "@id": "_:N2f371a8563464c32b2a180d5baf42776"
+        "@id": "_:N51352f93fbe94d949b9347244b9c4594"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_3320"
         },
         {
-          "@id": "edam:topic_3170"
+          "@id": "edam:topic_3308"
         },
         {
-          "@id": "edam:topic_3308"
+          "@id": "edam:topic_3170"
         }
       ],
       "sc:citation": [
@@ -74,9 +78,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "SplicingGraphs",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/SplicingGraphs.html"
@@ -85,7 +89,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/SplicingGraphs.html"
     },
     {
-      "@id": "_:Nadef6d5cc62944b3bec08fd67a8446d7",
+      "@id": "_:Nfb427409413d487397b63f4e246da8e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3134"
@@ -96,7 +100,7 @@
       "sc:name": "Gene transcript report"
     },
     {
-      "@id": "_:N2f371a8563464c32b2a180d5baf42776",
+      "@id": "_:N51352f93fbe94d949b9347244b9c4594",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -105,10 +109,6 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/18.suppl_1.s181",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

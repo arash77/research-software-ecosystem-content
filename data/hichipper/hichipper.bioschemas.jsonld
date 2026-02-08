@@ -40,17 +40,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Caleb Lareau",
       "bsc:input": {
-        "@id": "_:Nddcfbefb260a4a4dac0b3b00c6ac8ef6"
+        "@id": "_:N845ac08e3e8f4bcb85cfd9d7b1e90e6e"
       },
       "bsc:output": [
         {
-          "@id": "_:N8d26e4826119411a82bba616d501b296"
+          "@id": "_:N23892ed58ca349f9937337146d0b1900"
         },
         {
-          "@id": "_:Ndf18634a9de64c8792da12fd04578da3"
+          "@id": "_:Ncfc47128579f4c2581a28de61ba1ea3a"
         },
         {
-          "@id": "_:N8ff4ddd786874b5c9d9a8fd7aefe7aed"
+          "@id": "_:Ndc68c74a2c6c477a934eeac922b4664d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -75,10 +75,10 @@
           "@id": "edam:operation_0279"
         },
         {
-          "@id": "edam:operation_0570"
+          "@id": "edam:operation_2428"
         },
         {
-          "@id": "edam:operation_2428"
+          "@id": "edam:operation_0570"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -94,7 +94,15 @@
       "sc:url": "http://aryee.mgh.harvard.edu/hichipper/"
     },
     {
-      "@id": "_:N8d26e4826119411a82bba616d501b296",
+      "@id": "_:N23892ed58ca349f9937337146d0b1900",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0889"
+      },
+      "sc:name": "Structural profile"
+    },
+    {
+      "@id": "_:Ncfc47128579f4c2581a28de61ba1ea3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -105,7 +113,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Ndf18634a9de64c8792da12fd04578da3",
+      "@id": "_:Ndc68c74a2c6c477a934eeac922b4664d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -116,15 +124,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N8ff4ddd786874b5c9d9a8fd7aefe7aed",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0889"
-      },
-      "sc:name": "Structural profile"
-    },
-    {
-      "@id": "_:Nddcfbefb260a4a4dac0b3b00c6ac8ef6",
+      "@id": "_:N845ac08e3e8f4bcb85cfd9d7b1e90e6e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"

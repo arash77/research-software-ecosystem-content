@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "http://orcid.org/0000-0001-7032-5650",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.1038/s41559-022-01956-z",
       "@type": "sc:CreativeWork"
     },
@@ -52,45 +56,45 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
         {
-          "@id": "http://orcid.org/0000-0002-8209-173X"
-        },
-        {
           "@id": "http://orcid.org/0000-0001-7032-5650"
         },
         {
           "@id": "https://orcid.org/0000-0002-7860-3560"
+        },
+        {
+          "@id": "http://orcid.org/0000-0002-8209-173X"
         }
       ],
       "bsc:input": [
         {
-          "@id": "_:Nf9fbd427c9e34eee946d988e6ba3992f"
+          "@id": "_:N5ac25127f0384328bfbe1d5b8f19fb38"
         },
         {
-          "@id": "_:N4322a28bb0074202aeaa95db834f71ca"
+          "@id": "_:N0d0d308c806f4786b8d25adff313cc41"
         },
         {
-          "@id": "_:N017c50860c564e4ba6e6fd24495dd77d"
+          "@id": "_:N5b48a2a422b840e6a373d090d4523740"
         }
       ],
       "bsc:output": {
-        "@id": "_:N0c23b3531f074201a1c835abd6eb1f25"
+        "@id": "_:N2de7ef09cfc64296a4d117b5ba13aa54"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0194"
+          "@id": "edam:topic_3299"
         },
         {
-          "@id": "edam:topic_3299"
+          "@id": "edam:topic_0194"
         },
         {
           "@id": "edam:topic_0084"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC9998269",
         "pubmed:36646945",
+        "pmcid:PMC9998269",
         {
           "@id": "https://doi.org/10.1038/s41559-022-01956-z"
         }
@@ -109,23 +113,7 @@
       "sc:url": "https://github.com/DyogenIBENS/Agora"
     },
     {
-      "@id": "_:Nf9fbd427c9e34eee946d988e6ba3992f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0916"
-      },
-      "sc:name": "Gene report"
-    },
-    {
-      "@id": "_:N4322a28bb0074202aeaa95db834f71ca",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3271"
-      },
-      "sc:name": "Gene tree"
-    },
-    {
-      "@id": "_:N017c50860c564e4ba6e6fd24495dd77d",
+      "@id": "_:N5ac25127f0384328bfbe1d5b8f19fb38",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3272"
@@ -133,16 +121,28 @@
       "sc:name": "Species tree"
     },
     {
-      "@id": "_:N0c23b3531f074201a1c835abd6eb1f25",
+      "@id": "_:N0d0d308c806f4786b8d25adff313cc41",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3271"
+      },
+      "sc:name": "Gene tree"
+    },
+    {
+      "@id": "_:N5b48a2a422b840e6a373d090d4523740",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N2de7ef09cfc64296a4d117b5ba13aa54",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2711"
       },
       "sc:name": "Genome report"
-    },
-    {
-      "@id": "http://orcid.org/0000-0001-7032-5650",
-      "@type": "sc:Person"
     }
   ]
 }

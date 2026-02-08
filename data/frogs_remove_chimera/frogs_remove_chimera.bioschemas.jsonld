@@ -45,40 +45,40 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N7f660aec9c374b0fba232d9aca5504ab"
+          "@id": "_:N947400f098d240d1badcf7f27f47f4bd"
         },
         {
-          "@id": "_:Neccc6afdcb1e4153b55e374a0efcb6bf"
+          "@id": "_:Nab71710382ae47f096ac69a0eb747b0d"
         },
         {
-          "@id": "_:Nda2d829ccca0480d83aa502deba60b8d"
+          "@id": "_:N152cf867c15f4cb0b2cda32c4bd1dccb"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5f7711e95c4f4b098213ba4f007f0b19"
+          "@id": "_:N039d7f4cb653424092d3cb5238234e98"
         },
         {
-          "@id": "_:Na0da4c73cb6844618032973224d35b61"
+          "@id": "_:N5434f0e1e8a240dbaad90ddd054f5c0d"
         },
         {
-          "@id": "_:N593259160dd5490ca0bcb977c9c65787"
+          "@id": "_:Nddaa17c2c357482681eb2830200523ee"
         },
         {
-          "@id": "_:N39eba6b1466147f3b5da89cf54cf04a5"
+          "@id": "_:N8ddaab9dce324e27b3524d0b5b306821"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
-        },
-        {
           "@id": "edam:topic_0077"
         },
         {
           "@id": "edam:topic_3519"
+        },
+        {
+          "@id": "edam:topic_0080"
         }
       ],
       "sc:citation": [
@@ -95,9 +95,9 @@
       },
       "sc:name": "frogs_remove_chimera",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Fmvalade%2Ffrogs%2FFROGS_remove_chimera%2F1.3.0"
@@ -106,62 +106,7 @@
       "sc:url": "http://frogs.toulouse.inra.fr/"
     },
     {
-      "@id": "_:N7f660aec9c374b0fba232d9aca5504ab",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3464"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Neccc6afdcb1e4153b55e374a0efcb6bf",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Nda2d829ccca0480d83aa502deba60b8d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N5f7711e95c4f4b098213ba4f007f0b19",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Na0da4c73cb6844618032973224d35b61",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3464"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N593259160dd5490ca0bcb977c9c65787",
+      "@id": "_:N039d7f4cb653424092d3cb5238234e98",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -172,7 +117,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N39eba6b1466147f3b5da89cf54cf04a5",
+      "@id": "_:N5434f0e1e8a240dbaad90ddd054f5c0d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -181,6 +126,61 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nddaa17c2c357482681eb2830200523ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3464"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N8ddaab9dce324e27b3524d0b5b306821",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N947400f098d240d1badcf7f27f47f4bd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nab71710382ae47f096ac69a0eb747b0d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N152cf867c15f4cb0b2cda32c4bd1dccb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3464"
+      },
+      "sc:name": "Data"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",

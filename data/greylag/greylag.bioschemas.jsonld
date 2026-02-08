@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2d93b855369e4dda82f7c2aa8d36a124"
+          "@id": "_:Ne33b0e7b47944f5981b87dbf578573da"
         },
         {
-          "@id": "_:N24b5048637694058a8c72f50f6581264"
+          "@id": "_:N6352033fc1b54620809e74780534043e"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne9a925890e15406381f8f2c75528194b"
+        "@id": "_:Ne05feb23c96c429ca94c2a06ee7b1a6c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -62,10 +62,10 @@
       "sc:description": "Free MS/MS search engine.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3631"
+          "@id": "edam:operation_3649"
         },
         {
-          "@id": "edam:operation_3649"
+          "@id": "edam:operation_3631"
         },
         {
           "@id": "edam:operation_3646"
@@ -78,18 +78,18 @@
       "sc:url": "http://greylag.org/"
     },
     {
-      "@id": "_:Ne9a925890e15406381f8f2c75528194b",
+      "@id": "_:Ne33b0e7b47944f5981b87dbf578573da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0945"
+        "@id": "edam:data_0943"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3758"
+        "@id": "edam:format_2330"
       },
-      "sc:name": "Peptide identification"
+      "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N2d93b855369e4dda82f7c2aa8d36a124",
+      "@id": "_:N6352033fc1b54620809e74780534043e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -100,15 +100,15 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:N24b5048637694058a8c72f50f6581264",
+      "@id": "_:Ne05feb23c96c429ca94c2a06ee7b1a6c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0943"
+        "@id": "edam:data_0945"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2330"
+        "@id": "edam:format_3758"
       },
-      "sc:name": "Mass spectrometry spectra"
+      "sc:name": "Peptide identification"
     }
   ]
 }

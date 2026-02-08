@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N82823e18b27c42a6ac561ffc8d407fa5"
+          "@id": "_:Nb5c7a9799e0e4dbe8e62831d3ace7a33"
         },
         {
-          "@id": "_:Na969f43f19a1440789d654f4880b0d09"
+          "@id": "_:Nc3fc31feee174c959d766c530a471a27"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,7 +60,7 @@
       "sc:url": "https://skyline.ms/skyts/home/software/Skyline/tools/details.view?name=SProCoP"
     },
     {
-      "@id": "_:N82823e18b27c42a6ac561ffc8d407fa5",
+      "@id": "_:Nb5c7a9799e0e4dbe8e62831d3ace7a33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -71,7 +71,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Na969f43f19a1440789d654f4880b0d09",
+      "@id": "_:Nc3fc31feee174c959d766c530a471a27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/collect_mgf",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3469b248946c4968aae10b72cd28a09e"
+        "@id": "_:N7757ad54603e4f7094402edbc64d308a"
       },
       "bsc:output": {
-        "@id": "_:N9451253b906d4b669fe74ee4aa1b5a19"
+        "@id": "_:Nd1222fd3c72f469fb04fb3dd94cd705d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -57,10 +57,10 @@
       "sc:description": "Collects MGF files and dd_results from an XMass setup_QDD.tcl experiment to a single MGF file.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3436"
+          "@id": "edam:operation_0335"
         },
         {
-          "@id": "edam:operation_0335"
+          "@id": "edam:operation_3436"
         },
         {
           "@id": "edam:operation_1812"
@@ -69,8 +69,8 @@
       "sc:license": "GPL-3.0",
       "sc:name": "collect_mgf",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -79,7 +79,7 @@
       "sc:url": "http://www.ms-utils.org/collect_mgf.c"
     },
     {
-      "@id": "_:N3469b248946c4968aae10b72cd28a09e",
+      "@id": "_:Nd1222fd3c72f469fb04fb3dd94cd705d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -90,7 +90,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N9451253b906d4b669fe74ee4aa1b5a19",
+      "@id": "_:N7757ad54603e4f7094402edbc64d308a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

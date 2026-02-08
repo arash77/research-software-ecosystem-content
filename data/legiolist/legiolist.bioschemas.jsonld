@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0002-6350-5001",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1099/13500872-141-2-261",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/legiolist",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -54,18 +46,18 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Ne0b3bb666a1d40838c63765cfab04159"
+          "@id": "_:N0e8b6a22aa9b453996b692b9df1a87e5"
         },
         {
-          "@id": "_:N21eaa3aef9434a34bc32250a354b61ba"
+          "@id": "_:N72bd6fd003034e2c98e08dccf478c940"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N0bcb58f9cfbc4786921d4f0c1e55ad92"
+          "@id": "_:N8a266d63575c4b7dadc09a1c85182c33"
         },
         {
-          "@id": "_:N364dc8fa6c8443149e140226d3ea82c1"
+          "@id": "_:N85169af912644e4f862ab2e4990969ce"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +88,29 @@
       "sc:url": "http://genolist.pasteur.fr/LegioList/"
     },
     {
-      "@id": "_:Ne0b3bb666a1d40838c63765cfab04159",
+      "@id": "_:N8a266d63575c4b7dadc09a1c85182c33",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N85169af912644e4f862ab2e4990969ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N0e8b6a22aa9b453996b692b9df1a87e5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -104,7 +118,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N21eaa3aef9434a34bc32250a354b61ba",
+      "@id": "_:N72bd6fd003034e2c98e08dccf478c940",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1097"
@@ -112,26 +126,12 @@
       "sc:name": "Sequence accession (nucleic acid)"
     },
     {
-      "@id": "_:N0bcb58f9cfbc4786921d4f0c1e55ad92",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0916"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Gene report"
+      "@id": "http://orcid.org/0000-0002-6350-5001",
+      "@type": "sc:Person"
     },
     {
-      "@id": "_:N364dc8fa6c8443149e140226d3ea82c1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0916"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Gene report"
+      "@id": "https://doi.org/10.1099/13500872-141-2-261",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

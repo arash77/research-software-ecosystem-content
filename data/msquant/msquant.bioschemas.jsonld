@@ -39,16 +39,16 @@
       "@id": "https://bio.tools/msquant",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb8e98c2b205f4265a1a4ce0936f5d3db"
+        "@id": "_:Nb257c89401394790abfc9bbd28b5ff2c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:citation": [
@@ -69,7 +69,7 @@
       "sc:url": "http://msquant.sourceforge.net"
     },
     {
-      "@id": "_:Nb8e98c2b205f4265a1a4ce0936f5d3db",
+      "@id": "_:Nb257c89401394790abfc9bbd28b5ff2c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

@@ -42,10 +42,10 @@
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_3512"
         },
         {
-          "@id": "edam:topic_3512"
+          "@id": "edam:topic_0602"
         },
         {
           "@id": "edam:topic_0203"
@@ -74,8 +74,8 @@
       "sc:name": "COMMO",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:url": "https://commo.ncpsb.org.cn/home"
     },

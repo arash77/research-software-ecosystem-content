@@ -40,71 +40,71 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3b82405996354272940bbaf8620e7ad0"
+          "@id": "_:N335d9f46fba242aebb1ec6e9f8758abd"
         },
         {
-          "@id": "_:N3a113279626f4d779869042e8016325b"
+          "@id": "_:Nbd54d8cadbdb4e438b498a513797b9e6"
         },
         {
-          "@id": "_:Nae7930c92556412dab6baabce33508ea"
+          "@id": "_:N5408020043cf4d6ebbb3c146dd35443d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nca9c895f4d194e22aec5876ed81ce3d1"
+          "@id": "_:N9d1fb6ec0d614ae5a5c898d69db59b2f"
         },
         {
-          "@id": "_:N211158690de34287a1b98b8422d39be0"
+          "@id": "_:Nf09834116b044c898c21bab34814463b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0078"
+          "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_0622"
-        },
-        {
-          "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_2640"
         },
         {
           "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0078"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4117251",
-        "pubmed:23614390",
         {
           "@id": "https://doi.org/10.1021/pr400208w"
-        }
+        },
+        "pubmed:23614390",
+        "pmcid:PMC4117251"
       ],
       "sc:description": "A software that identifies new proteins and aberrant protein forms withing proteomic data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0362"
+          "@id": "edam:operation_3648"
         },
         {
           "@id": "edam:operation_3631"
         },
         {
+          "@id": "edam:operation_3767"
+        },
+        {
           "@id": "edam:operation_3646"
         },
         {
-          "@id": "edam:operation_3649"
+          "@id": "edam:operation_0362"
         },
         {
           "@id": "edam:operation_0366"
         },
         {
-          "@id": "edam:operation_3767"
-        },
-        {
-          "@id": "edam:operation_3648"
+          "@id": "edam:operation_3649"
         }
       ],
       "sc:name": "Peppy",
@@ -119,7 +119,7 @@
       "sc:url": "http://www.geneffects.com/peppy/"
     },
     {
-      "@id": "_:N3b82405996354272940bbaf8620e7ad0",
+      "@id": "_:N335d9f46fba242aebb1ec6e9f8758abd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -138,18 +138,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N3a113279626f4d779869042e8016325b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2886"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Protein sequence record"
-    },
-    {
-      "@id": "_:Nae7930c92556412dab6baabce33508ea",
+      "@id": "_:Nbd54d8cadbdb4e438b498a513797b9e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -160,7 +149,18 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:Nca9c895f4d194e22aec5876ed81ce3d1",
+      "@id": "_:N5408020043cf4d6ebbb3c146dd35443d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2886"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence record"
+    },
+    {
+      "@id": "_:N9d1fb6ec0d614ae5a5c898d69db59b2f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -171,7 +171,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N211158690de34287a1b98b8422d39be0",
+      "@id": "_:Nf09834116b044c898c21bab34814463b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"

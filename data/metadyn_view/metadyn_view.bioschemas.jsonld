@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Vojtech Spiwok",
       "bsc:input": {
-        "@id": "_:N9c07792bdbf94480834cc021ecb4822d"
+        "@id": "_:Ne21ca91daff5480f8a958b5247608581"
       },
       "bsc:output": {
-        "@id": "_:N5406210420bd4ae4a63232f9b893c77a"
+        "@id": "_:N3e4689de32cb4deeaaffe1aee722ff25"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -51,8 +51,8 @@
         "@id": "edam:topic_3332"
       },
       "sc:author": [
-        "Petr Hosek",
-        "Vojtech Spiwok"
+        "Vojtech Spiwok",
+        "Petr Hosek"
       ],
       "sc:citation": {
         "@id": "https://doi.org/10.1016/j.cpc.2015.08.037"
@@ -61,10 +61,10 @@
       "sc:description": "An interactive web viewer of metadynamics results.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0244"
+          "@id": "edam:operation_2476"
         },
         {
-          "@id": "edam:operation_2476"
+          "@id": "edam:operation_0244"
         }
       ],
       "sc:funder": "Czech Science Foundation 15-17269S",
@@ -72,8 +72,8 @@
       "sc:name": "Metadyn View",
       "sc:operatingSystem": "Linux",
       "sc:provider": [
-        "ELIXIR-CZ",
-        "University of Chemistry and Technology Prague, Czech Republic"
+        "University of Chemistry and Technology Prague, Czech Republic",
+        "ELIXIR-CZ"
       ],
       "sc:softwareHelp": {
         "@id": "http://metadyn.vscht.cz"
@@ -82,7 +82,7 @@
       "sc:url": "http://metadyn.vscht.cz"
     },
     {
-      "@id": "_:N5406210420bd4ae4a63232f9b893c77a",
+      "@id": "_:N3e4689de32cb4deeaaffe1aee722ff25",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -93,7 +93,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N9c07792bdbf94480834cc021ecb4822d",
+      "@id": "_:Ne21ca91daff5480f8a958b5247608581",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0889"

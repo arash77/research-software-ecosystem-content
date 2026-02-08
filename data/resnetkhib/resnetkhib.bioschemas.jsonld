@@ -36,40 +36,36 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bib/bbad063",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/resnetkhib",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N31388ad9c22743ea944df2df1cef28bf"
+        "@id": "_:N4e480ad7b6794e86bb0accabf33feba1"
       },
       "bsc:output": {
-        "@id": "_:N4256f21b504e49e78103f504743ad67e"
+        "@id": "_:N807b2bf6874f4209b5298afd8f7185a2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
-        },
-        {
-          "@id": "edam:topic_0601"
+          "@id": "edam:topic_2229"
         },
         {
           "@id": "edam:topic_3474"
         },
         {
-          "@id": "edam:topic_2229"
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0601"
         }
       ],
       "sc:citation": [
         "pubmed:36880172",
-        "pmcid:PMC10185920",
         {
           "@id": "https://doi.org/10.1093/bib/bbad063"
-        }
+        },
+        "pmcid:PMC10185920"
       ],
       "sc:description": "Web server for predicting protein lysine 2-hydroxyisobutylation modification sites.",
       "sc:featureList": {
@@ -78,14 +74,14 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "ResNetKhib",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "https://resnetkhib.erc.monash.edu/"
     },
     {
-      "@id": "_:N31388ad9c22743ea944df2df1cef28bf",
+      "@id": "_:N4e480ad7b6794e86bb0accabf33feba1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -96,12 +92,16 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N4256f21b504e49e78103f504743ad67e",
+      "@id": "_:N807b2bf6874f4209b5298afd8f7185a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
       },
       "sc:name": "Score"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bib/bbad063",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

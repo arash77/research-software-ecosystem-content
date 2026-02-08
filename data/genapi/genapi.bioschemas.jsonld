@@ -44,30 +44,30 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Migle Gabrielaite",
       "bsc:input": {
-        "@id": "_:N4aef18d85bc1452a914b78b430919860"
+        "@id": "_:N621f312a5b674d948f100fa4f29b90b7"
       },
       "bsc:output": [
         {
-          "@id": "_:N332ad222a34b47e096d7de794d024827"
+          "@id": "_:N2d171275f7674db3ba2a42208a95ee08"
         },
         {
-          "@id": "_:N2d43a4e9ebf447eba1b9bfeb6faecb30"
+          "@id": "_:Nf25c97b4db014fcd80904f91056b8e9c"
         },
         {
-          "@id": "_:Nd31f9933709e4e11973aad1d5aea1922"
+          "@id": "_:N54406e1ca6684cb39c7e2f6ed284e58a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
-        },
-        {
           "@id": "edam:topic_0622"
         },
         {
           "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_0080"
         }
       ],
       "sc:citation": {
@@ -87,7 +87,18 @@
       "sc:url": "https://github.com/MigleSur/GenAPI"
     },
     {
-      "@id": "_:N332ad222a34b47e096d7de794d024827",
+      "@id": "_:N621f312a5b674d948f100fa4f29b90b7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2887"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1939"
+      },
+      "sc:name": "Nucleic acid sequence record"
+    },
+    {
+      "@id": "_:N2d171275f7674db3ba2a42208a95ee08",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -98,18 +109,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N2d43a4e9ebf447eba1b9bfeb6faecb30",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1910"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:Nd31f9933709e4e11973aad1d5aea1922",
+      "@id": "_:Nf25c97b4db014fcd80904f91056b8e9c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -120,15 +120,15 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N4aef18d85bc1452a914b78b430919860",
+      "@id": "_:N54406e1ca6684cb39c7e2f6ed284e58a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2887"
+        "@id": "edam:data_0872"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1939"
+        "@id": "edam:format_1910"
       },
-      "sc:name": "Nucleic acid sequence record"
+      "sc:name": "Phylogenetic tree"
     }
   ]
 }

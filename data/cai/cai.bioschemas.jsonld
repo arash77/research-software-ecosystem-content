@@ -36,18 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/cai",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N94fe3798965c484ab35bc613751a6264"
+          "@id": "_:N1f884d594f474e21885483ebd35d73cc"
         },
         {
-          "@id": "_:Nbe577b3927614ac085f409e81592579e"
+          "@id": "_:N7eedf708ed554a0688ada6afb3511c36"
         }
       ],
       "bsc:output": {
-        "@id": "_:N702af30f373c4ca1be921237007f8bcd"
+        "@id": "_:N8851f38f3bee4992b02472cf929a2078"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -56,20 +64,20 @@
       },
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.1017/CBO9781139151399"
-        },
-        {
           "@id": "https://doi.org/10.1017/CBO9781139151405"
         },
         {
           "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
+        },
+        {
+          "@id": "https://doi.org/10.1017/CBO9781139151399"
         }
       ],
       "sc:contributor": [
-        "EMBOSS Contributors",
+        "UK BBSRC",
         "UK MRC",
         "Wellcome Trust",
-        "UK BBSRC"
+        "EMBOSS Contributors"
       ],
       "sc:description": "Calculate codon adaptation index.",
       "sc:featureList": {
@@ -77,27 +85,27 @@
       },
       "sc:funder": [
         "UK MRC",
-        "UK BBSRC",
-        "Wellcome Trust"
+        "Wellcome Trust",
+        "UK BBSRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "cai",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": [
-        "EMBOSS",
-        "EMBL-EBI"
+        "EMBL-EBI",
+        "EMBOSS"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://emboss.open-bio.org/rel/rel6/apps/cai.html"
+          "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
         },
         {
-          "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
+          "@id": "http://emboss.open-bio.org/rel/rel6/apps/cai.html"
         },
         {
           "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
@@ -107,15 +115,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/cai.html"
     },
     {
-      "@id": "_:N94fe3798965c484ab35bc613751a6264",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2887"
-      },
-      "sc:name": "Nucleic acid sequence record"
-    },
-    {
-      "@id": "_:Nbe577b3927614ac085f409e81592579e",
+      "@id": "_:N1f884d594f474e21885483ebd35d73cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1597"
@@ -123,7 +123,15 @@
       "sc:name": "Codon usage table"
     },
     {
-      "@id": "_:N702af30f373c4ca1be921237007f8bcd",
+      "@id": "_:N7eedf708ed554a0688ada6afb3511c36",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2887"
+      },
+      "sc:name": "Nucleic acid sequence record"
+    },
+    {
+      "@id": "_:N8851f38f3bee4992b02472cf929a2078",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2865"
@@ -132,14 +140,6 @@
     },
     {
       "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     }
   ]

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/chlorop",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb2a9fcbdefde4131b8365d33217e7f0d"
+        "@id": "_:Nbd486926a77b429dbc9228a1c78b4e9e"
       },
       "bsc:output": {
-        "@id": "_:Neaa778ccc4ad4a29ba83619d250be7fa"
+        "@id": "_:N7493d66d9e8547d480497f98748794be"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -67,24 +67,24 @@
       "sc:license": "Other",
       "sc:name": "ChloroP",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": [
         {
-          "@id": "http://www.cbs.dtu.dk/services/ChloroP"
+          "@id": "http://www.cbs.dtu.dk/services/ChloroP/pages/instr.php"
         },
         {
-          "@id": "http://www.cbs.dtu.dk/services/ChloroP/pages/instr.php"
+          "@id": "http://www.cbs.dtu.dk/services/ChloroP"
         }
       ],
       "sc:softwareVersion": "1.1",
       "sc:url": "http://cbs.dtu.dk/services/ChloroP/"
     },
     {
-      "@id": "_:Nb2a9fcbdefde4131b8365d33217e7f0d",
+      "@id": "_:Nbd486926a77b429dbc9228a1c78b4e9e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -95,7 +95,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Neaa778ccc4ad4a29ba83619d250be7fa",
+      "@id": "_:N7493d66d9e8547d480497f98748794be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

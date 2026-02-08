@@ -36,11 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1002/0471250953.bi1112s47",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1002/0471250953.bi1112s47",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -49,39 +49,39 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nbd916edd42fd4ea09be37e2645a39d6a"
+          "@id": "_:N7e6cb72e6b4e47cbb3021e76a63d9404"
         },
         {
-          "@id": "_:N80fff9c821b6424693b086d74698ea85"
+          "@id": "_:N9d8f783729174dbb9b3986af8ebb2dfe"
         },
         {
-          "@id": "_:Nf05f01eecfc2470993a118efc8045d87"
+          "@id": "_:N8e62da349ced45aa971268667c2277b6"
         },
         {
-          "@id": "_:N702dcb015da546eab1a9dc14d9e2527e"
+          "@id": "_:N5eb181c419214203b8586b136c02616b"
         },
         {
-          "@id": "_:N2bb3253157e34f04adce505af1d414d7"
+          "@id": "_:Nb2819f21660b427692ff8c6c6ca1f8f5"
         },
         {
-          "@id": "_:Nfc6afb8ea0b546629c528b5aee19f625"
+          "@id": "_:Nbe04fb29ebac4d64822be2fa37098a8e"
         },
         {
-          "@id": "_:Nf771e331b2d54faabde2657ce421c136"
+          "@id": "_:N48793b1dc19146d4a0b47194df74092e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf7fb584c7c9148a7b1394f11226577e7"
+          "@id": "_:N45d6a9aa319d40e18401f246721f2338"
         },
         {
-          "@id": "_:N64fe15bd5c114e1cafc8efb0ae3bfe44"
+          "@id": "_:N5142a2e6121549b19ce784b04e7e90e2"
         },
         {
-          "@id": "_:N1532077dcd1c4706a27d5f38b4df2013"
+          "@id": "_:N2e3128e1f71f4b6f848f914196960f60"
         },
         {
-          "@id": "_:N153a172e38aa4d8f95bc63dac37aa523"
+          "@id": "_:N3964966742ac4d20a4726ecc7ba3c01c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -93,10 +93,10 @@
         {
           "@id": "https://doi.org/10.1002/0471250953.bi1112s47"
         },
-        "pmcid:PMC4213956",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
+        "pmcid:PMC4213956",
         "pubmed:25199790"
       ],
       "sc:description": "Report overlaps between two feature files.",
@@ -105,9 +105,9 @@
       },
       "sc:name": "bedtools_intersectbed",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://quinlanlab.org/tutorials/bedtools/bedtools.html"
@@ -116,7 +116,29 @@
       "sc:url": "https://github.com/arq5x/bedtools6"
     },
     {
-      "@id": "_:Nf7fb584c7c9148a7b1394f11226577e7",
+      "@id": "_:N45d6a9aa319d40e18401f246721f2338",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N5142a2e6121549b19ce784b04e7e90e2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:N2e3128e1f71f4b6f848f914196960f60",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -127,29 +149,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N64fe15bd5c114e1cafc8efb0ae3bfe44",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3498"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3016"
-      },
-      "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "_:N1532077dcd1c4706a27d5f38b4df2013",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N153a172e38aa4d8f95bc63dac37aa523",
+      "@id": "_:N3964966742ac4d20a4726ecc7ba3c01c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -160,18 +160,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbd916edd42fd4ea09be37e2645a39d6a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3498"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3016"
-      },
-      "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "_:N80fff9c821b6424693b086d74698ea85",
+      "@id": "_:N7e6cb72e6b4e47cbb3021e76a63d9404",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -182,7 +171,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Nf05f01eecfc2470993a118efc8045d87",
+      "@id": "_:N9d8f783729174dbb9b3986af8ebb2dfe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -193,7 +182,51 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N702dcb015da546eab1a9dc14d9e2527e",
+      "@id": "_:N8e62da349ced45aa971268667c2277b6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5eb181c419214203b8586b136c02616b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nb2819f21660b427692ff8c6c6ca1f8f5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:Nbe04fb29ebac4d64822be2fa37098a8e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N48793b1dc19146d4a0b47194df74092e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -202,39 +235,6 @@
         "@id": "edam:format_2572"
       },
       "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:N2bb3253157e34f04adce505af1d414d7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nfc6afb8ea0b546629c528b5aee19f625",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:Nf771e331b2d54faabde2657ce421c136",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Data"
     }
   ]
 }

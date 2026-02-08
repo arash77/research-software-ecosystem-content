@@ -44,33 +44,33 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nab887108298a4f1383ce12f6814fe9d6"
+          "@id": "_:Nd673dc4f0c464f20bc580fe39327c6e4"
         },
         {
-          "@id": "_:Nd316aa5768704e7b8179669860b68635"
+          "@id": "_:N10c0929c19ba4ada985b773525e6af6d"
         },
         {
-          "@id": "_:N367dae0bb78e469fad7f10c6c593bf57"
+          "@id": "_:N9aca2916b70743fb98e1d2ae5f368edf"
         },
         {
-          "@id": "_:N40cbfdf692364e568c533ddc1177079a"
+          "@id": "_:Na8042b1772954178944c3b6c1ba8c4ce"
         },
         {
-          "@id": "_:Ne6ebc7e087584643b5bd7aefa40dbafd"
+          "@id": "_:N455eb6cc6e3d42689d570292f44c1cbe"
         },
         {
-          "@id": "_:Nb76e214a1a284d3f90a1eaf31183a18e"
+          "@id": "_:N636d0ae7ff994f0c800ad74fd98efd5a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N176cd5ef5c7742c1a87372a0f09829a2"
+          "@id": "_:N2aa34e45e2c148608fa957bd719daffd"
         },
         {
-          "@id": "_:N77225d599c4d476090f30394fe7ac0a4"
+          "@id": "_:N0f235640e967404bb6edd4d1fc6943e1"
         },
         {
-          "@id": "_:Ndbd8f05c178d48ba9e63c37aa5f66af9"
+          "@id": "_:Nd52699b10107406896d6edb37cf53dca"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -80,10 +80,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_0219"
         },
         {
-          "@id": "edam:topic_0219"
+          "@id": "edam:topic_0091"
         }
       ],
       "sc:citation": {
@@ -102,9 +102,9 @@
       "sc:license": "Apache-2.0",
       "sc:name": "GFFx",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/Baohua-Chen/GFFx/blob/main/README.md"
@@ -113,7 +113,7 @@
       "sc:url": "https://github.com/Baohua-Chen/GFFx"
     },
     {
-      "@id": "_:Nab887108298a4f1383ce12f6814fe9d6",
+      "@id": "_:Nd673dc4f0c464f20bc580fe39327c6e4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -124,37 +124,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Nd316aa5768704e7b8179669860b68635",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N367dae0bb78e469fad7f10c6c593bf57",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N40cbfdf692364e568c533ddc1177079a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2872"
-      },
-      "sc:name": "ID list"
-    },
-    {
-      "@id": "_:Ne6ebc7e087584643b5bd7aefa40dbafd",
+      "@id": "_:N10c0929c19ba4ada985b773525e6af6d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -165,40 +135,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:Nb76e214a1a284d3f90a1eaf31183a18e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1916"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2573"
-        },
-        {
-          "@id": "edam:format_2572"
-        },
-        {
-          "@id": "edam:format_3003"
-        },
-        {
-          "@id": "edam:format_3462"
-        }
-      ],
-      "sc:name": "Alignment"
-    },
-    {
-      "@id": "_:N176cd5ef5c7742c1a87372a0f09829a2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2914"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3751"
-      },
-      "sc:name": "Sequence features metadata"
-    },
-    {
-      "@id": "_:N77225d599c4d476090f30394fe7ac0a4",
+      "@id": "_:N9aca2916b70743fb98e1d2ae5f368edf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -209,7 +146,70 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Ndbd8f05c178d48ba9e63c37aa5f66af9",
+      "@id": "_:Na8042b1772954178944c3b6c1ba8c4ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N455eb6cc6e3d42689d570292f44c1cbe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2872"
+      },
+      "sc:name": "ID list"
+    },
+    {
+      "@id": "_:N636d0ae7ff994f0c800ad74fd98efd5a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3462"
+        },
+        {
+          "@id": "edam:format_2573"
+        },
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_3003"
+        }
+      ],
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:N2aa34e45e2c148608fa957bd719daffd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2914"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3751"
+      },
+      "sc:name": "Sequence features metadata"
+    },
+    {
+      "@id": "_:N0f235640e967404bb6edd4d1fc6943e1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Nd52699b10107406896d6edb37cf53dca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

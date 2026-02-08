@@ -36,24 +36,28 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt475",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/fmcsr",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Thomas Girke",
       "bsc:input": {
-        "@id": "_:N8ad6bd8eaf92447ca3a5d169870c04e6"
+        "@id": "_:N41cab4ac42904293bd73181fba6834b3"
       },
       "bsc:output": [
         {
-          "@id": "_:Nbfb0a4f6108e401cbdd9f603178c75ff"
+          "@id": "_:N1cbeb99131cc440e9271a3e9a61dcc3d"
         },
         {
-          "@id": "_:N1cb6d90c7be44ad793b1f966b7298fcd"
+          "@id": "_:N27f35ec4cfeb4fbaa212c76b43ec695b"
         },
         {
-          "@id": "_:N15c10d6024e74341a13cf5165c9207de"
+          "@id": "_:Nb1fe257deecd4d75be8d394730aa9688"
         },
         {
-          "@id": "_:N538c2e7793ac46f6b3c27a906a3c5c1a"
+          "@id": "_:N328ac66924a24b8293a90df2ef56e9ee"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,9 +91,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "fmcsR",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/fmcsR.html"
@@ -98,55 +102,34 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/fmcsR.html"
     },
     {
-      "@id": "_:Nbfb0a4f6108e401cbdd9f603178c75ff",
+      "@id": "_:N41cab4ac42904293bd73181fba6834b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1712"
+        "@id": "edam:data_1463"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3547"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Chemical structure image"
+      "sc:encodingFormat": {
+        "@id": "edam:format_2033"
+      },
+      "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N1cb6d90c7be44ad793b1f966b7298fcd",
+      "@id": "_:N1cbeb99131cc440e9271a3e9a61dcc3d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N15c10d6024e74341a13cf5165c9207de",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2856"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Structural distance matrix"
-    },
-    {
-      "@id": "_:N538c2e7793ac46f6b3c27a906a3c5c1a",
+      "@id": "_:N27f35ec4cfeb4fbaa212c76b43ec695b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -162,19 +145,36 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N8ad6bd8eaf92447ca3a5d169870c04e6",
+      "@id": "_:Nb1fe257deecd4d75be8d394730aa9688",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1463"
+        "@id": "edam:data_2856"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2033"
-      },
-      "sc:name": "Small molecule structure"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Structural distance matrix"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btt475",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N328ac66924a24b8293a90df2ef56e9ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1712"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Chemical structure image"
     }
   ]
 }

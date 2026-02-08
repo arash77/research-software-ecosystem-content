@@ -40,7 +40,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Roman Laskowski",
       "bsc:output": {
-        "@id": "_:N1386d0f7a6154f5e8e2cba5f2deded7a"
+        "@id": "_:N2cc0f3cee7d844bc9b809c672c0a60ad"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -61,24 +61,24 @@
       },
       "sc:name": "PITA",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
         {
-          "@id": "http://www.ebi.ac.uk/thornton-srv/databases/pita/"
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
-          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+          "@id": "http://www.ebi.ac.uk/thornton-srv/databases/pita/"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "http://www.ebi.ac.uk/thornton-srv/databases/pita/"
     },
     {
-      "@id": "_:N1386d0f7a6154f5e8e2cba5f2deded7a",
+      "@id": "_:N2cc0f3cee7d844bc9b809c672c0a60ad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"

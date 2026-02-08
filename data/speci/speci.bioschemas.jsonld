@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0003-1429-7485",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/speci",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -47,19 +43,19 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Ne46eaf54bb674d7ca9d81f1ad3366919"
+          "@id": "_:N182445038f4d4f4282a856ee084fe609"
         },
         {
-          "@id": "_:Ndd31a9ba2e174ac98c6223fd75202c20"
+          "@id": "_:Nf6c6fc518bae4129aedb3cf0a3a037f2"
         }
       ],
       "bsc:output": {
-        "@id": "_:N62e4861f21ec40b9b2b267924f4e298c"
+        "@id": "_:N322c63ecf8c547fabf84107526d5507e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web service",
-        "Command-line tool"
+        "Command-line tool",
+        "Web service"
       ],
       "sc:applicationSubCategory": [
         {
@@ -88,13 +84,13 @@
       "sc:license": "GPL-3.0",
       "sc:name": "SpecI",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": [
-        "European Molecular Biology Laboratory (EMBL)",
-        "HD-HuB"
+        "HD-HuB",
+        "European Molecular Biology Laboratory (EMBL)"
       ],
       "sc:softwareHelp": {
         "@id": "http://vm-lux.embl.de/~mende/specI/overview.html"
@@ -103,7 +99,15 @@
       "sc:url": "http://vm-lux.embl.de/~mende/specI/"
     },
     {
-      "@id": "_:Ne46eaf54bb674d7ca9d81f1ad3366919",
+      "@id": "_:N322c63ecf8c547fabf84107526d5507e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1868"
+      },
+      "sc:name": "Taxon"
+    },
+    {
+      "@id": "_:N182445038f4d4f4282a856ee084fe609",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -114,7 +118,7 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:Ndd31a9ba2e174ac98c6223fd75202c20",
+      "@id": "_:Nf6c6fc518bae4129aedb3cf0a3a037f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -125,12 +129,8 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N62e4861f21ec40b9b2b267924f4e298c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1868"
-      },
-      "sc:name": "Taxon"
+      "@id": "http://orcid.org/0000-0003-1429-7485",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://doi.org/10.1038/nmeth.2575",

@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/ernwin",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nda22204444dc41e8a9040b3f88f2cc4e"
+        "@id": "_:N4d518c8793914c458439e1c76ab9fe13"
       },
       "bsc:output": {
-        "@id": "_:N88928e8146684961abea310b9069e6a3"
+        "@id": "_:Nc4ced1ab03444e9ea3524b7f6bb8432f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -66,8 +66,8 @@
       },
       "sc:name": "Ernwin",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:provider": "bioinf.uni-leipzig.de",
       "sc:softwareHelp": {
@@ -77,7 +77,7 @@
       "sc:url": "https://github.com/pkerpedjiev/ernwin"
     },
     {
-      "@id": "_:N88928e8146684961abea310b9069e6a3",
+      "@id": "_:Nc4ced1ab03444e9ea3524b7f6bb8432f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -88,7 +88,7 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:Nda22204444dc41e8a9040b3f88f2cc4e",
+      "@id": "_:N4d518c8793914c458439e1c76ab9fe13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

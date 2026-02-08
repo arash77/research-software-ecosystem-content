@@ -41,44 +41,35 @@
       "biotools:primaryContact": "bioinfoservice@rub.de",
       "bsc:input": [
         {
-          "@id": "_:N10bc0f9fb0f54580a8cf0350ab84fad5"
+          "@id": "_:Nf54c2c248c1e407e838d39b901e4cfa7"
         },
         {
-          "@id": "_:Nd50cc5c5cc0e4da18f610ee3480ad974"
+          "@id": "_:N7a0ae05b49cb4221965e582352b7d659"
         },
         {
-          "@id": "_:N553b7dcb09e046629efe0f615937693c"
+          "@id": "_:N863c51d6308b4f9fa69f3b056b68dbc1"
         },
         {
-          "@id": "_:Nc1944a36af1a42319a7bd6f2a1d19ee7"
+          "@id": "_:N171a61e54c0e408e9da4919dcc8c1814"
         },
         {
-          "@id": "_:N2cbe665686fc4b5799d741b7bb1ddce6"
+          "@id": "_:N259c9a69866a4de39e3aaf83ccf0cf36"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ncb533182de7d406ea74d2419d2095753"
+          "@id": "_:N77161a3e280b4a49b1d5588201547c24"
         },
         {
-          "@id": "_:N5de155a7470849f0a093bd3c58c1e440"
+          "@id": "_:N810792ee2e7c481bbfbf2dfc35529169"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web service",
-        "Database portal"
+        "Database portal",
+        "Web service"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_0121"
-        },
-        {
-          "@id": "edam:topic_0091"
-        },
-        {
-          "@id": "edam:topic_3071"
-        },
         {
           "@id": "edam:topic_0078"
         },
@@ -86,13 +77,25 @@
           "@id": "edam:topic_3068"
         },
         {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
           "@id": "edam:topic_3360"
+        },
+        {
+          "@id": "edam:topic_3071"
         }
       ],
       "sc:author": "Ruhr-Universitaet Bochum, Medizinisches Proteom-Center (MPC)",
       "sc:contributor": "Ruhr-Universitaet Bochum, Medizinisches Proteom-Center (MPC)",
       "sc:description": "The BIONDA biomarker database provides structured information on all biomarker candidates published in PubMed articles. There is no limitation to any kind of diseases. To this end, PubMed article abstracts and renowned databases such as UniProt and Human Disease Ontology are used as sources for BIONDA’s database entries. These are acquired automatically and updated regularly using text mining methods. BIONDA is available freely via a user-friendly web interface. As a specific characteristic, BIONDA’s database entries are rated by a scoring approach estimating biomarker reliability.",
       "sc:featureList": [
+        {
+          "@id": "edam:operation_0224"
+        },
         {
           "@id": "edam:operation_3625"
         },
@@ -104,9 +107,6 @@
         },
         {
           "@id": "edam:operation_3280"
-        },
-        {
-          "@id": "edam:operation_0224"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -124,29 +124,7 @@
       "sc:url": "http://bionda.mpc.rub.de/start.php"
     },
     {
-      "@id": "_:N10bc0f9fb0f54580a8cf0350ab84fad5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0976"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Identifier (by type of data)"
-    },
-    {
-      "@id": "_:Nd50cc5c5cc0e4da18f610ee3480ad974",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2099"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Name"
-    },
-    {
-      "@id": "_:N553b7dcb09e046629efe0f615937693c",
+      "@id": "_:Nf54c2c248c1e407e838d39b901e4cfa7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -157,18 +135,18 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:Nc1944a36af1a42319a7bd6f2a1d19ee7",
+      "@id": "_:N7a0ae05b49cb4221965e582352b7d659",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2007"
+        "@id": "edam:data_0976"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_2330"
       },
-      "sc:name": "UniProt keyword"
+      "sc:name": "Identifier (by type of data)"
     },
     {
-      "@id": "_:N2cbe665686fc4b5799d741b7bb1ddce6",
+      "@id": "_:N863c51d6308b4f9fa69f3b056b68dbc1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2091"
@@ -179,7 +157,29 @@
       "sc:name": "Accession"
     },
     {
-      "@id": "_:Ncb533182de7d406ea74d2419d2095753",
+      "@id": "_:N171a61e54c0e408e9da4919dcc8c1814",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2099"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Name"
+    },
+    {
+      "@id": "_:N259c9a69866a4de39e3aaf83ccf0cf36",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2007"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "UniProt keyword"
+    },
+    {
+      "@id": "_:N77161a3e280b4a49b1d5588201547c24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -190,7 +190,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N5de155a7470849f0a093bd3c58c1e440",
+      "@id": "_:N810792ee2e7c481bbfbf2dfc35529169",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

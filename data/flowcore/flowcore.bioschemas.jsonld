@@ -36,38 +36,34 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2105-10-106",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/flowcore",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "M.Jiang",
       "bsc:input": {
-        "@id": "_:Ncf6b762f6609409a956bd4de97e372cf"
+        "@id": "_:Nafa4312b53744af7a9a72dde896b0c19"
       },
       "bsc:output": [
         {
-          "@id": "_:Nc55c0b1f71cd49a394d5a10500c9404a"
+          "@id": "_:N817a4de94f6448e89578ffef42168825"
         },
         {
-          "@id": "_:Nfcf6013658324c32a023919f48922f79"
+          "@id": "_:N371a6ab79a834570acf1b86df8744688"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3361"
+        },
         {
           "@id": "edam:topic_3297"
         },
         {
           "@id": "edam:topic_3306"
-        },
-        {
-          "@id": "edam:topic_3361"
         }
       ],
       "sc:citation": {
@@ -79,18 +75,18 @@
           "@id": "edam:operation_2409"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2945"
         },
         {
-          "@id": "edam:operation_2945"
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:license": "Artistic-2.0",
       "sc:name": "flowCore",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/flowCore.html"
@@ -99,39 +95,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/flowCore.html"
     },
     {
-      "@id": "_:Nc55c0b1f71cd49a394d5a10500c9404a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:Nfcf6013658324c32a023919f48922f79",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Ncf6b762f6609409a956bd4de97e372cf",
+      "@id": "_:Nafa4312b53744af7a9a72dde896b0c19",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -140,6 +104,42 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:N817a4de94f6448e89578ffef42168825",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N371a6ab79a834570acf1b86df8744688",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-10-106",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

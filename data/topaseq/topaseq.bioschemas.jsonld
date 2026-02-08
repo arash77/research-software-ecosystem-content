@@ -36,27 +36,23 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-015-0763-1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/topaseq",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ivana Ihnatova",
       "bsc:input": [
         {
-          "@id": "_:N66eb76eb78b2419492c10d5e740cba7e"
+          "@id": "_:Ne90d9629750f4f92a7a3a40e5801a606"
         },
         {
-          "@id": "_:N620f65aee8e0424c97d1b7a73b38ac2d"
+          "@id": "_:N1b16cdcf7e3e415ca8ff9f5770a68c93"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8f8177821326414ba7a697e595c097a1"
+          "@id": "_:N71fcec9b15b14311a5733bbb5aeaec1a"
         },
         {
-          "@id": "_:N92a3b1e47fd2431f994f878a3c986018"
+          "@id": "_:Nb796a6c0e9374f5599e160fce917384c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -76,11 +72,11 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4625615",
         "pubmed:26514335",
         {
           "@id": "https://doi.org/10.1186/s12859-015-0763-1"
-        }
+        },
+        "pmcid:PMC4625615"
       ],
       "sc:description": "Implementation of seven methods for topology-based pathway analysis of both RNASeq and microarray data: SPIA, DEGraph, TopologyGSA, TAPPA, PRS, PWEA and a visualization tool for a single pathway.",
       "sc:featureList": {
@@ -89,9 +85,9 @@
       "sc:license": "GPL-3.0",
       "sc:name": "ToPASeq",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/ToPASeq.html"
@@ -100,18 +96,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/ToPASeq.html"
     },
     {
-      "@id": "_:N8f8177821326414ba7a697e595c097a1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0951"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Statistical estimate score"
-    },
-    {
-      "@id": "_:N92a3b1e47fd2431f994f878a3c986018",
+      "@id": "_:N71fcec9b15b14311a5733bbb5aeaec1a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -122,23 +107,34 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N66eb76eb78b2419492c10d5e740cba7e",
+      "@id": "_:Nb796a6c0e9374f5599e160fce917384c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0951"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Statistical estimate score"
+    },
+    {
+      "@id": "_:Ne90d9629750f4f92a7a3a40e5801a606",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2058"
+          "@id": "edam:format_2013"
         },
         {
-          "@id": "edam:format_2013"
+          "@id": "edam:format_2058"
         }
       ],
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N620f65aee8e0424c97d1b7a73b38ac2d",
+      "@id": "_:N1b16cdcf7e3e415ca8ff9f5770a68c93",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -152,6 +148,10 @@
         }
       ],
       "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0763-1",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

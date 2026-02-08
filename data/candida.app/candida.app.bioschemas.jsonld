@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/candida.app",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4d9db8c4ca9e4637aba0bff79e1b5b00"
+        "@id": "_:N1b3d0da6997c4db1889d02e00cc78acf"
       },
       "bsc:output": {
-        "@id": "_:Nc71ce0e81e1e4d61bb574b1ea95bbcb4"
+        "@id": "_:N734e990f337b482e8b6dbdc98e23aa54"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -52,10 +52,10 @@
       "sc:description": "Analyze Candida auris genomes online",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3482"
+          "@id": "edam:operation_3180"
         },
         {
-          "@id": "edam:operation_3180"
+          "@id": "edam:operation_3482"
         },
         {
           "@id": "edam:operation_0338"
@@ -65,9 +65,9 @@
       "sc:license": "Not licensed",
       "sc:name": "Candida.app",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://candida.app/about"
@@ -75,7 +75,15 @@
       "sc:url": "https://candida.app"
     },
     {
-      "@id": "_:N4d9db8c4ca9e4637aba0bff79e1b5b00",
+      "@id": "_:N734e990f337b482e8b6dbdc98e23aa54",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2711"
+      },
+      "sc:name": "Genome report"
+    },
+    {
+      "@id": "_:N1b3d0da6997c4db1889d02e00cc78acf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -84,14 +92,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "_:Nc71ce0e81e1e4d61bb574b1ea95bbcb4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2711"
-      },
-      "sc:name": "Genome report"
     }
   ]
 }

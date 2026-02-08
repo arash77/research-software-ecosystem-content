@@ -39,30 +39,30 @@
       "@id": "https://bio.tools/3dnetmod",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nfea7bb8d166646eaab4cda12e516c9f6"
+        "@id": "_:Nc18a509f32f04ec6a5f3a2657c3ea38b"
       },
       "bsc:output": {
-        "@id": "_:N30605a9fd2fa4d21bff698dbe804d85e"
+        "@id": "_:Na14623a15ad74fc7818847afcd2d678f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3176"
-        },
-        {
           "@id": "edam:topic_3656"
         },
         {
           "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3176"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1038/nmeth.4560"
         },
-        "pubmed:29334377",
-        "pmcid:PMC6029251"
+        "pmcid:PMC6029251",
+        "pubmed:29334377"
       ],
       "sc:description": "A package of Python scripts that sensitively detects nested, hierarchical domains in HiC data.",
       "sc:featureList": {
@@ -76,7 +76,15 @@
       "sc:url": "https://bitbucket.org/creminslab/3dnetmod_method_v1.0_10_06_17"
     },
     {
-      "@id": "_:Nfea7bb8d166646eaab4cda12e516c9f6",
+      "@id": "_:Na14623a15ad74fc7818847afcd2d678f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Nc18a509f32f04ec6a5f3a2657c3ea38b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -85,14 +93,6 @@
         "@id": "edam:format_3003"
       },
       "sc:name": "Experimental measurement"
-    },
-    {
-      "@id": "_:N30605a9fd2fa4d21bff698dbe804d85e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:name": "Pathway or network"
     },
     {
       "@id": "https://doi.org/10.1038/nmeth.4560",

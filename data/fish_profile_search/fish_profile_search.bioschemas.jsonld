@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkl330",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/fish_profile_search",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N77a8a27d0a2b458a80543dfe73610029"
+        "@id": "_:N6afa36e7c02b4d7383c37888edd9c082"
       },
       "bsc:output": {
-        "@id": "_:N1208b3ac339c406b8dd273a5e238b3f5"
+        "@id": "_:N9f6e7166bb5b412c97727dfb0e57b4f9"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -54,11 +50,11 @@
         "@id": "edam:topic_0080"
       },
       "sc:citation": [
-        "pubmed:16844969",
-        "pmcid:PMC1538871",
         {
           "@id": "https://doi.org/10.1093/nar/gkl330"
-        }
+        },
+        "pmcid:PMC1538871",
+        "pubmed:16844969"
       ],
       "sc:description": "Family Identification with Structure Anchored Hidden Markov Models.",
       "sc:featureList": {
@@ -66,9 +62,9 @@
       },
       "sc:name": "FISH - profile search",
       "sc:operatingSystem": [
-        "Linux",
         "Windows",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -78,7 +74,15 @@
       "sc:url": "http://babel.ucmp.umu.se/fish/hmmsearch.php"
     },
     {
-      "@id": "_:N77a8a27d0a2b458a80543dfe73610029",
+      "@id": "_:N9f6e7166bb5b412c97727dfb0e57b4f9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N6afa36e7c02b4d7383c37888edd9c082",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -86,12 +90,8 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N1208b3ac339c406b8dd273a5e238b3f5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:name": "Protein features"
+      "@id": "https://doi.org/10.1093/nar/gkl330",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

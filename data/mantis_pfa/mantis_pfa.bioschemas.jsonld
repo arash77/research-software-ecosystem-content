@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Pedro Queirós",
       "bsc:input": {
-        "@id": "_:N596246023bd1424a9a185dcce9918bcf"
+        "@id": "_:N04a274b760004584af9f4aa4fabf79ac"
       },
       "bsc:output": {
-        "@id": "_:Nf11c89312b12434798753f2706f535eb"
+        "@id": "_:N13ea478aa4894c21ae6f01d775c57a49"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -68,7 +68,7 @@
       "sc:url": "https://github.com/PedroMTQ/mantis"
     },
     {
-      "@id": "_:Nf11c89312b12434798753f2706f535eb",
+      "@id": "_:N13ea478aa4894c21ae6f01d775c57a49",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -79,7 +79,7 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:N596246023bd1424a9a185dcce9918bcf",
+      "@id": "_:N04a274b760004584af9f4aa4fabf79ac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

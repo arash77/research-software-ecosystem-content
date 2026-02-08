@@ -44,13 +44,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N9e32e93f7ba64258b3e7c603bbdec9b3"
+          "@id": "_:N5bc53954b0e54fc497e39db3e28ca7e6"
         },
         {
-          "@id": "_:N93d33756c5a74fc588bf9c83d2dd7e48"
+          "@id": "_:N3f10ee468ad94e13b3f9631c85e36118"
         },
         {
-          "@id": "_:Nc0e141290ccd48e2b3461dd80d3b1eb5"
+          "@id": "_:N24bd99c89ed64aa69283a7487fe7c620"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,21 +60,21 @@
           "@id": "edam:topic_3174"
         },
         {
-          "@id": "edam:topic_0637"
+          "@id": "edam:topic_3293"
         },
         {
           "@id": "edam:topic_0091"
         },
         {
-          "@id": "edam:topic_3293"
+          "@id": "edam:topic_0637"
         }
       ],
       "sc:author": "Benjamin Linard",
       "sc:citation": [
+        "pubmed:30698645",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btz068"
-        },
-        "pubmed:30698645"
+        }
       ],
       "sc:description": "RAPPAS stands for Rapid Alignment-free Phylogenetic Placement via Ancestral Sequences. It uses an alignment-free approach for phylogenetic placement, thus removing the hurdle of query sequence alignment.",
       "sc:featureList": {
@@ -90,15 +90,7 @@
       "sc:url": "http://www.atgc-montpellier.fr/RAPPAS/"
     },
     {
-      "@id": "_:N9e32e93f7ba64258b3e7c603bbdec9b3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3272"
-      },
-      "sc:name": "Species tree"
-    },
-    {
-      "@id": "_:N93d33756c5a74fc588bf9c83d2dd7e48",
+      "@id": "_:N5bc53954b0e54fc497e39db3e28ca7e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -106,7 +98,15 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Nc0e141290ccd48e2b3461dd80d3b1eb5",
+      "@id": "_:N3f10ee468ad94e13b3f9631c85e36118",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3272"
+      },
+      "sc:name": "Species tree"
+    },
+    {
+      "@id": "_:N24bd99c89ed64aa69283a7487fe7c620",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

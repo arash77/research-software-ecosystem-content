@@ -44,12 +44,12 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Sandro Morganella",
       "bsc:input": {
-        "@id": "_:N26244bd497d846df915b7a2f0c5292d6"
+        "@id": "_:N87bcc2e188aa47db8d035c51d27e8a5a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
@@ -80,9 +80,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "Vega",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/Vega.html"
@@ -91,7 +91,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/Vega.html"
     },
     {
-      "@id": "_:N26244bd497d846df915b7a2f0c5292d6",
+      "@id": "_:N87bcc2e188aa47db8d035c51d27e8a5a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3117"

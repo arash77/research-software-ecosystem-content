@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nfd81c87cca26442b975ad5128ccbe42b"
+          "@id": "_:N1ed500d296674dbabc01caf9edb061f9"
         },
         {
-          "@id": "_:Nf6447aa109864160ac1b55e12b858c10"
+          "@id": "_:N6c773f419b12406dbba904c6f392d2b7"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nce91232a0cc04f3ab8bd76a99b1f417a"
+          "@id": "_:N8de3fcf119724675b8ad6fdd420fd448"
         },
         {
-          "@id": "_:N173fef2afd8a4c0382a68375b3a3f905"
+          "@id": "_:N51668a55f76d497187df5cb1bfb7c70d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -82,18 +82,7 @@
       "sc:url": "https://hoohm.github.io/CITE-seq-Count/"
     },
     {
-      "@id": "_:Nce91232a0cc04f3ab8bd76a99b1f417a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2084"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3033"
-      },
-      "sc:name": "Nucleic acid report"
-    },
-    {
-      "@id": "_:N173fef2afd8a4c0382a68375b3a3f905",
+      "@id": "_:N8de3fcf119724675b8ad6fdd420fd448",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -104,7 +93,18 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nfd81c87cca26442b975ad5128ccbe42b",
+      "@id": "_:N51668a55f76d497187df5cb1bfb7c70d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2084"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Nucleic acid report"
+    },
+    {
+      "@id": "_:N1ed500d296674dbabc01caf9edb061f9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1022"
@@ -115,7 +115,7 @@
       "sc:name": "Sequence feature label"
     },
     {
-      "@id": "_:Nf6447aa109864160ac1b55e12b858c10",
+      "@id": "_:N6c773f419b12406dbba904c6f392d2b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"

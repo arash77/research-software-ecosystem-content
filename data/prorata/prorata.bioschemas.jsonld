@@ -36,38 +36,34 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/ac060654b",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/prorata",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N75eb6c221ae340c28923f401bfb7f416"
+          "@id": "_:Nf26a307b5352456ca5730de5c8592feb"
         },
         {
-          "@id": "_:N9ae375922c414e64819015d6b067cb7d"
+          "@id": "_:Nc71b09a0af4d42139d2f08a40f5e53ff"
         },
         {
-          "@id": "_:N5cd2660764734b8fbe57edf9ca1cb10f"
+          "@id": "_:N50eb792dabd44ed6a6698d37f26df7ee"
         },
         {
-          "@id": "_:N194f0f1fc0f04071bc9becffe80db1b0"
+          "@id": "_:N304066b003ec4b5692d38b4a6989c725"
         },
         {
-          "@id": "_:Nb563e1bd782c4552b63479ea92e3d7fa"
+          "@id": "_:Nd71106dac16d4b6f8e18646ad2207a15"
         },
         {
-          "@id": "_:N23b21854a939451dabe0ee87b45facaf"
+          "@id": "_:N7ab5d6bb1b69488fac5ba836a7a5cac7"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Na112fb7fedcd49e4a293e1688f03e171"
+          "@id": "_:N81960f8c435b4a87b273cd90eabc291f"
         },
         {
-          "@id": "_:N2a931a5ffd374e9f9dcb7999466bb2ae"
+          "@id": "_:N4b683ee8fb9e4c598da779f0d7e38010"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -77,49 +73,49 @@
           "@id": "edam:topic_3520"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_2269"
         },
         {
-          "@id": "edam:topic_2269"
+          "@id": "edam:topic_0121"
         }
       ],
       "sc:citation": [
-        "pubmed:17037911",
         {
           "@id": "https://doi.org/10.1021/ac060654b"
-        }
+        },
+        "pubmed:17037911"
       ],
       "sc:description": "Differential proteomics analysis using for various stable isotope labeling schemes.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3638"
-        },
-        {
-          "@id": "edam:operation_3635"
-        },
-        {
-          "@id": "edam:operation_3715"
-        },
-        {
-          "@id": "edam:operation_2238"
-        },
-        {
-          "@id": "edam:operation_3694"
+          "@id": "edam:operation_3203"
         },
         {
           "@id": "edam:operation_3441"
         },
         {
+          "@id": "edam:operation_2238"
+        },
+        {
           "@id": "edam:operation_3640"
         },
         {
-          "@id": "edam:operation_3705"
+          "@id": "edam:operation_3694"
         },
         {
-          "@id": "edam:operation_3203"
+          "@id": "edam:operation_3638"
+        },
+        {
+          "@id": "edam:operation_3715"
         },
         {
           "@id": "edam:operation_3215"
+        },
+        {
+          "@id": "edam:operation_3635"
+        },
+        {
+          "@id": "edam:operation_3705"
         }
       ],
       "sc:name": "ProRata",
@@ -130,18 +126,7 @@
       "sc:url": "https://code.google.com/archive/p/prorata/"
     },
     {
-      "@id": "_:N75eb6c221ae340c28923f401bfb7f416",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2886"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Protein sequence record"
-    },
-    {
-      "@id": "_:N9ae375922c414e64819015d6b067cb7d",
+      "@id": "_:Nf26a307b5352456ca5730de5c8592feb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -152,18 +137,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N5cd2660764734b8fbe57edf9ca1cb10f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3654"
-      },
-      "sc:name": "Mass spectrometry spectra"
-    },
-    {
-      "@id": "_:N194f0f1fc0f04071bc9becffe80db1b0",
+      "@id": "_:Nc71b09a0af4d42139d2f08a40f5e53ff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -174,7 +148,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:Nb563e1bd782c4552b63479ea92e3d7fa",
+      "@id": "_:N50eb792dabd44ed6a6698d37f26df7ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -185,7 +159,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N23b21854a939451dabe0ee87b45facaf",
+      "@id": "_:N304066b003ec4b5692d38b4a6989c725",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -196,23 +170,29 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Na112fb7fedcd49e4a293e1688f03e171",
+      "@id": "_:Nd71106dac16d4b6f8e18646ad2207a15",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2603"
+        "@id": "edam:data_2886"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_2332"
-        }
-      ],
-      "sc:name": "Expression data"
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N2a931a5ffd374e9f9dcb7999466bb2ae",
+      "@id": "_:N7ab5d6bb1b69488fac5ba836a7a5cac7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3654"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N81960f8c435b4a87b273cd90eabc291f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -226,6 +206,26 @@
         }
       ],
       "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N4b683ee8fb9e4c598da779f0d7e38010",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1021/ac060654b",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

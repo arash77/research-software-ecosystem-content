@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1111/j.1365-313x.2011.04803.x",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/limani",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Stijn Dhondt",
       "bsc:input": {
-        "@id": "_:Nc68bd9189e614014bb8ed36e5eb3c1d1"
+        "@id": "_:N58be9a1583fd471d93352c613fba6dd1"
       },
       "bsc:output": {
-        "@id": "_:N5ab671c7e5e64ae093397bdb49f6230d"
+        "@id": "_:N4e76b244b26443359689411249881a70"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -66,8 +62,8 @@
       },
       "sc:name": "LIMANI",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
+        "Windows",
         "Mac"
       ],
       "sc:provider": "PSB",
@@ -78,15 +74,7 @@
       "sc:url": "http://limani.psb.ugent.be"
     },
     {
-      "@id": "_:N5ab671c7e5e64ae093397bdb49f6230d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0920"
-      },
-      "sc:name": "Genotype/phenotype report"
-    },
-    {
-      "@id": "_:Nc68bd9189e614014bb8ed36e5eb3c1d1",
+      "@id": "_:N58be9a1583fd471d93352c613fba6dd1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -95,6 +83,18 @@
         "@id": "edam:format_2333"
       },
       "sc:name": "Image"
+    },
+    {
+      "@id": "_:N4e76b244b26443359689411249881a70",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:name": "Genotype/phenotype report"
+    },
+    {
+      "@id": "https://doi.org/10.1111/j.1365-313x.2011.04803.x",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

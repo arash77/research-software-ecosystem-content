@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "http://orcid.org/0000-0002-9497-7538",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8231-3323",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.1093/bioinformatics/btp065",
       "@type": "sc:CreativeWork"
     },
@@ -44,17 +52,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
         {
-          "@id": "http://orcid.org/0000-0002-9497-7538"
+          "@id": "http://orcid.org/0000-0001-8231-3323"
         },
         {
-          "@id": "http://orcid.org/0000-0001-8231-3323"
+          "@id": "http://orcid.org/0000-0002-9497-7538"
         }
       ],
       "bsc:input": {
-        "@id": "_:Naa24460048bd4f57a23c9fab49e11b9a"
+        "@id": "_:Ne4c072fe5fec411dacfb737f2a9ba45d"
       },
       "bsc:output": {
-        "@id": "_:N7076266a57104ceb8f0db92fa8d81e10"
+        "@id": "_:N129d7c590508403c88afb0bcf1271b8e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -67,10 +75,10 @@
       ],
       "sc:citation": [
         "pubmed:19189979",
-        "pmcid:PMC2722993",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btp065"
-        }
+        },
+        "pmcid:PMC2722993"
       ],
       "sc:description": "Structure motif based alignment generation.",
       "sc:featureList": {
@@ -90,7 +98,7 @@
       "sc:url": "http://www.bioinf.uni-freiburg.de/Software/#ExpaRNA-download"
     },
     {
-      "@id": "_:Naa24460048bd4f57a23c9fab49e11b9a",
+      "@id": "_:Ne4c072fe5fec411dacfb737f2a9ba45d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -106,7 +114,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N7076266a57104ceb8f0db92fa8d81e10",
+      "@id": "_:N129d7c590508403c88afb0bcf1271b8e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -115,14 +123,6 @@
         "@id": "edam:format_3466"
       },
       "sc:name": "Image"
-    },
-    {
-      "@id": "http://orcid.org/0000-0001-8231-3323",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "http://orcid.org/0000-0002-9497-7538",
-      "@type": "sc:Person"
     }
   ]
 }

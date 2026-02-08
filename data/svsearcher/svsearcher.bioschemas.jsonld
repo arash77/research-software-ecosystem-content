@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.compbiomed.2023.106843",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/svsearcher",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N72a37bbd19d0424c9437c22f32f2931f"
+          "@id": "_:N67fafb06e256487fac26bc0d9ae6156d"
         },
         {
-          "@id": "_:Nc1a101bb927947ebb31e46c70721ccae"
+          "@id": "_:N32d6d743bce64970919e1c70a5cbb438"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nd8632e0caf074738a5a09d56ecf1fb18"
+        "@id": "_:N511cf58a51df4a63a461803a022adc37"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -60,10 +56,10 @@
           "@id": "edam:topic_3175"
         },
         {
-          "@id": "edam:topic_3299"
+          "@id": "edam:topic_0080"
         },
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_3299"
         }
       ],
       "sc:citation": [
@@ -75,13 +71,13 @@
       "sc:description": "A more accurate structural variation detection method in long read data.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_3198"
+        },
+        {
           "@id": "edam:operation_3907"
         },
         {
           "@id": "edam:operation_3228"
-        },
-        {
-          "@id": "edam:operation_3198"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -94,15 +90,7 @@
       "sc:url": "https://github.com/kensung-lab/SVsearcher"
     },
     {
-      "@id": "_:Nd8632e0caf074738a5a09d56ecf1fb18",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3498"
-      },
-      "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "_:N72a37bbd19d0424c9437c22f32f2931f",
+      "@id": "_:N67fafb06e256487fac26bc0d9ae6156d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -113,7 +101,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nc1a101bb927947ebb31e46c70721ccae",
+      "@id": "_:N32d6d743bce64970919e1c70a5cbb438",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -122,6 +110,18 @@
         "@id": "edam:format_2572"
       },
       "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "_:N511cf58a51df4a63a461803a022adc37",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.compbiomed.2023.106843",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

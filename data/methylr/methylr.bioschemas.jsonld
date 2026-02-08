@@ -43,20 +43,20 @@
       "@id": "https://bio.tools/methylr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nddfb8f306bc946f48666be2d0be3d11c"
+        "@id": "_:Naeeaa9a40c034b4498ce0d6883515935"
       },
       "bsc:output": [
         {
-          "@id": "_:N4fdf9a85d2a64529b0b6754ff72ea451"
+          "@id": "_:N51b43e325bae4b9ba6bcd55e9ca74fd7"
         },
         {
-          "@id": "_:N902091c9d16343ebb5db1e10a01cbe79"
+          "@id": "_:Ndfde3dac7d6a4013bb55f51c1f9821a4"
         },
         {
-          "@id": "_:Nef4a401f837a44ec8bb370ad8efcb3cc"
+          "@id": "_:N422b6591952a4c31a281a446c73029cf"
         },
         {
-          "@id": "_:N7f138ec217954d9bb07d72d6335ff2c1"
+          "@id": "_:N64068613871a4c968a6360f9ba875f1e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,44 +66,44 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0602"
-        },
-        {
-          "@id": "edam:topic_0654"
-        },
-        {
-          "@id": "edam:topic_3170"
+          "@id": "edam:topic_3518"
         },
         {
           "@id": "edam:topic_3295"
         },
         {
-          "@id": "edam:topic_3518"
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0654"
         }
       ],
       "sc:citation": [
         "pmcid:PMC10125902",
-        "pubmed:37039839",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btad184"
-        }
+        },
+        "pubmed:37039839"
       ],
       "sc:description": "Graphical interface for comprehensive DNA methylation array data analysis.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_3928"
+        },
+        {
           "@id": "edam:operation_3204"
         },
         {
-          "@id": "edam:operation_2436"
-        },
-        {
-          "@id": "edam:operation_3928"
+          "@id": "edam:operation_3891"
         },
         {
           "@id": "edam:operation_2939"
         },
         {
-          "@id": "edam:operation_3891"
+          "@id": "edam:operation_2436"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -120,15 +120,7 @@
       "sc:url": "https://methylr.research.liu.se"
     },
     {
-      "@id": "_:N4fdf9a85d2a64529b0b6754ff72ea451",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3754"
-      },
-      "sc:name": "GO-term enrichment data"
-    },
-    {
-      "@id": "_:N902091c9d16343ebb5db1e10a01cbe79",
+      "@id": "_:N51b43e325bae4b9ba6bcd55e9ca74fd7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -136,7 +128,15 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nef4a401f837a44ec8bb370ad8efcb3cc",
+      "@id": "_:Ndfde3dac7d6a4013bb55f51c1f9821a4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3754"
+      },
+      "sc:name": "GO-term enrichment data"
+    },
+    {
+      "@id": "_:N422b6591952a4c31a281a446c73029cf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3953"
@@ -144,7 +144,7 @@
       "sc:name": "Pathway overrepresentation data"
     },
     {
-      "@id": "_:N7f138ec217954d9bb07d72d6335ff2c1",
+      "@id": "_:N64068613871a4c968a6360f9ba875f1e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -152,7 +152,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nddfb8f306bc946f48666be2d0be3d11c",
+      "@id": "_:Naeeaa9a40c034b4498ce0d6883515935",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3110"

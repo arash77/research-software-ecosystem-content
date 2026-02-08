@@ -36,41 +36,45 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nmeth.4072",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/metaspace",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N63d3b5fc1dc64a70a1cef6702ebbb876"
+          "@id": "_:N27a4eead444a4a75b8e2da4fcd1d00a4"
         },
         {
-          "@id": "_:N200031f3ec9548c8bb238d4255de98d1"
+          "@id": "_:Ne09ae21909b74377b00daa8693c11120"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2f0439a86fb946d69a9caf077fd3abce"
+          "@id": "_:N9bf349b979d74be7b259f4e056a58534"
         },
         {
-          "@id": "_:Na460ed57bb0a43cfbb5ad13755261bab"
+          "@id": "_:N1f2a55b4399e48a9872066ff4c0890b3"
         },
         {
-          "@id": "_:N35f4656e956e4ce7be2597cc66eb4cbe"
+          "@id": "_:Nd347c227bb0a480a8a89c49b08b6a9a7"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3382"
+          "@id": "edam:topic_3172"
         },
         {
           "@id": "edam:topic_3500"
         },
         {
-          "@id": "edam:topic_3172"
+          "@id": "edam:topic_0154"
         },
         {
-          "@id": "edam:topic_0154"
+          "@id": "edam:topic_3382"
         }
       ],
       "sc:citation": [
@@ -82,7 +86,7 @@
       "sc:description": "Cloud engine and platform for metabolite annotation for imaging mass spectrometry",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2238"
+          "@id": "edam:operation_3553"
         },
         {
           "@id": "edam:operation_3443"
@@ -91,10 +95,10 @@
           "@id": "edam:operation_3803"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2238"
         },
         {
-          "@id": "edam:operation_3553"
+          "@id": "edam:operation_0337"
         },
         {
           "@id": "edam:operation_2421"
@@ -104,24 +108,65 @@
       "sc:license": "Apache-2.0",
       "sc:name": "METASPACE",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:url": "https://metaspace2020.eu"
     },
     {
-      "@id": "_:N2f0439a86fb946d69a9caf077fd3abce",
+      "@id": "_:N27a4eead444a4a75b8e2da4fcd1d00a4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3682"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Ne09ae21909b74377b00daa8693c11120",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3682"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N9bf349b979d74be7b259f4e056a58534",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3591"
+        },
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3603"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N1f2a55b4399e48a9872066ff4c0890b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3508"
+          "@id": "edam:format_3752"
         },
         {
-          "@id": "edam:format_3752"
+          "@id": "edam:format_3508"
         },
         {
           "@id": "edam:format_2330"
@@ -130,7 +175,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Na460ed57bb0a43cfbb5ad13755261bab",
+      "@id": "_:Nd347c227bb0a480a8a89c49b08b6a9a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -147,51 +192,6 @@
         }
       ],
       "sc:name": "Image"
-    },
-    {
-      "@id": "_:N35f4656e956e4ce7be2597cc66eb4cbe",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3603"
-        },
-        {
-          "@id": "edam:format_3579"
-        },
-        {
-          "@id": "edam:format_3591"
-        }
-      ],
-      "sc:name": "Image"
-    },
-    {
-      "@id": "_:N63d3b5fc1dc64a70a1cef6702ebbb876",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3682"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N200031f3ec9548c8bb238d4255de98d1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3682"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nmeth.4072",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

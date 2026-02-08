@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Thomas Sicheritz Pontén",
       "bsc:input": {
-        "@id": "_:Ne280aa1b857047ebbb26b62359f74c7a"
+        "@id": "_:Nd33082674d59430f9b203dc330c57d79"
       },
       "bsc:output": {
-        "@id": "_:N9dd8ba0431144254836a29e029bf3218"
+        "@id": "_:N71c032da34e94a5399234de75e533ef7"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -64,10 +64,10 @@
       "sc:description": "Automated data analysis from gene expression experiments on a number of different platforms.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_2495"
         },
         {
-          "@id": "edam:operation_2495"
+          "@id": "edam:operation_0224"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -82,18 +82,7 @@
       "sc:url": "http://cbs.dtu.dk/services/GenePublisher/"
     },
     {
-      "@id": "_:Ne280aa1b857047ebbb26b62359f74c7a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3110"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1638"
-      },
-      "sc:name": "Raw microarray data"
-    },
-    {
-      "@id": "_:N9dd8ba0431144254836a29e029bf3218",
+      "@id": "_:N71c032da34e94a5399234de75e533ef7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -102,6 +91,17 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nd33082674d59430f9b203dc330c57d79",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3110"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1638"
+      },
+      "sc:name": "Raw microarray data"
     }
   ]
 }

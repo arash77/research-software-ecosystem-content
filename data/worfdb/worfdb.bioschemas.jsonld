@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/worfdb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N19e34e9d79354f3bac45a861f1df8038"
+        "@id": "_:N21cd04c2427d408c96d8e1d823b9245b"
       },
       "bsc:output": {
-        "@id": "_:N6427f5e91f454008ab1f37f86920393e"
+        "@id": "_:Nae3d903d76904bfd84b3cbbdb811d111"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -50,11 +50,11 @@
         "@id": "edam:topic_0621"
       },
       "sc:citation": [
-        "pmcid:PMC528921",
-        "pubmed:15489327",
         {
           "@id": "https://doi.org/10.1101/gr.2496804"
-        }
+        },
+        "pmcid:PMC528921",
+        "pubmed:15489327"
       ],
       "sc:description": "The Caenorhabditis elegans ORFeome cloning project.",
       "sc:featureList": {
@@ -63,8 +63,8 @@
       "sc:name": "WORFDB",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://worfdb.dfci.harvard.edu/index.php?page=race"
@@ -72,7 +72,7 @@
       "sc:url": "http://worfdb.dfci.harvard.edu/"
     },
     {
-      "@id": "_:N19e34e9d79354f3bac45a861f1df8038",
+      "@id": "_:N21cd04c2427d408c96d8e1d823b9245b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1807"
@@ -80,7 +80,7 @@
       "sc:name": "ORF name"
     },
     {
-      "@id": "_:N6427f5e91f454008ab1f37f86920393e",
+      "@id": "_:Nae3d903d76904bfd84b3cbbdb811d111",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"

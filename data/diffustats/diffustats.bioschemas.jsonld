@@ -46,10 +46,10 @@
         "@id": "https://orcid.org/0000-0002-6426-8204"
       },
       "bsc:input": {
-        "@id": "_:Nad3a83a4dfdc45538fa841afabc2d04c"
+        "@id": "_:N0400cef582fe40ea9879e58525dc7c7a"
       },
       "bsc:output": {
-        "@id": "_:N7d924567fb0040ca841552e682b6a295"
+        "@id": "_:Nfab59dbdd5f04599bfc930b6e3fbbe84"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -77,7 +77,7 @@
       "sc:url": "https://bioconductor.org/packages/release/bioc/html/diffuStats.html"
     },
     {
-      "@id": "_:N7d924567fb0040ca841552e682b6a295",
+      "@id": "_:N0400cef582fe40ea9879e58525dc7c7a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -85,7 +85,7 @@
       "sc:name": "Score"
     },
     {
-      "@id": "_:Nad3a83a4dfdc45538fa841afabc2d04c",
+      "@id": "_:Nfab59dbdd5f04599bfc930b6e3fbbe84",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

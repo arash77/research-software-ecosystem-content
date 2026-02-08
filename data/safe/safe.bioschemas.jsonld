@@ -36,19 +36,23 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/bti260",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/safe",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "William T. Barry",
       "bsc:input": {
-        "@id": "_:Ne871ec13d2bd4fe7ad28391fc33656e2"
+        "@id": "_:N7d89e4ea802e4c10b61f1d81af296b04"
       },
       "bsc:output": {
-        "@id": "_:N21343c6d1937426baab2984291603bd7"
+        "@id": "_:N5a318436aa024f69ae3b9a51ac5aaa5e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_2269"
@@ -67,8 +71,8 @@
       "sc:name": "safe",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/safe.html"
@@ -77,7 +81,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/safe.html"
     },
     {
-      "@id": "_:Ne871ec13d2bd4fe7ad28391fc33656e2",
+      "@id": "_:N7d89e4ea802e4c10b61f1d81af296b04",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2872"
@@ -88,7 +92,7 @@
       "sc:name": "ID list"
     },
     {
-      "@id": "_:N21343c6d1937426baab2984291603bd7",
+      "@id": "_:N5a318436aa024f69ae3b9a51ac5aaa5e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -97,10 +101,6 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Feature table"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/bti260",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

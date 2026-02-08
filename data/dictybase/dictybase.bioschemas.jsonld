@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/dictybase",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ned29e0b26b9b4097b8309a998aa914cf"
+        "@id": "_:N4f1dd940e96f444b8d65fe832e883ea5"
       },
       "bsc:output": {
-        "@id": "_:Na36f3aa4dfaa40d18d0c8be5c43d648c"
+        "@id": "_:Nadde0ee6cf8740d380fc6c6bac2a013a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -62,8 +62,8 @@
       },
       "sc:name": "dictyBase",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "Center for Genetic Medicine, Northwestern University",
@@ -73,15 +73,7 @@
       "sc:url": "http://dictybase.org/"
     },
     {
-      "@id": "_:Ned29e0b26b9b4097b8309a998aa914cf",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2295"
-      },
-      "sc:name": "Gene ID"
-    },
-    {
-      "@id": "_:Na36f3aa4dfaa40d18d0c8be5c43d648c",
+      "@id": "_:Nadde0ee6cf8740d380fc6c6bac2a013a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -90,6 +82,14 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N4f1dd940e96f444b8d65fe832e883ea5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2295"
+      },
+      "sc:name": "Gene ID"
     },
     {
       "@id": "https://doi.org/10.1007/978-1-62703-302-2_4",

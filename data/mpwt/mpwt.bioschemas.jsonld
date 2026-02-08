@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/mpwt",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd46a3ca453464b8faf4c88a34fca558b"
+        "@id": "_:N99b2392258d44bb889dbb3cc75be6526"
       },
       "bsc:output": {
-        "@id": "_:N1a5949bfdc4b448f9c1f59070a39d1b1"
+        "@id": "_:N9e188c74ee514ee09eda54b78af3d1d1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -59,7 +59,23 @@
       "sc:url": "https://github.com/AuReMe/mpwt"
     },
     {
-      "@id": "_:N1a5949bfdc4b448f9c1f59070a39d1b1",
+      "@id": "_:N99b2392258d44bb889dbb3cc75be6526",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1936"
+        },
+        {
+          "@id": "edam:format_2305"
+        }
+      ],
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N9e188c74ee514ee09eda54b78af3d1d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -68,22 +84,6 @@
         "@id": "edam:format_2013"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:Nd46a3ca453464b8faf4c88a34fca558b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2305"
-        },
-        {
-          "@id": "edam:format_1936"
-        }
-      ],
-      "sc:name": "Annotation track"
     }
   ]
 }

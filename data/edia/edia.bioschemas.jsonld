@@ -44,23 +44,23 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N91a8ae2824cd453289fefb8d543adb47"
+          "@id": "_:Nbbf120c7473a46209ff1e04c3de81748"
         },
         {
-          "@id": "_:Na63aff0e598f47d7a913af25e622ada5"
+          "@id": "_:N43361473bd4748b3a6a4cf287ea7ffb8"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ncaa202c6a84a4ccdbe189727118a71e0"
+        "@id": "_:Nc789ae1f249d405db478bc4c220fe271"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0081"
+          "@id": "edam:topic_2828"
         },
         {
-          "@id": "edam:topic_2828"
+          "@id": "edam:topic_0081"
         }
       ],
       "sc:citation": [
@@ -81,9 +81,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "EDIA",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
-        "Mac"
+        "Mac",
+        "Windows"
       ],
       "sc:provider": "University of Hamburg - Center for Bioinformatics",
       "sc:softwareHelp": {
@@ -92,15 +92,18 @@
       "sc:url": "http://proteinsplus.zbh.uni-hamburg.de/#edia"
     },
     {
-      "@id": "_:Ncaa202c6a84a4ccdbe189727118a71e0",
+      "@id": "_:Nbbf120c7473a46209ff1e04c3de81748",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1772"
+        "@id": "edam:data_1460"
       },
-      "sc:name": "Score"
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N91a8ae2824cd453289fefb8d543adb47",
+      "@id": "_:N43361473bd4748b3a6a4cf287ea7ffb8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -111,15 +114,12 @@
       "sc:name": "Protein-ligand complex"
     },
     {
-      "@id": "_:Na63aff0e598f47d7a913af25e622ada5",
+      "@id": "_:Nc789ae1f249d405db478bc4c220fe271",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1460"
+        "@id": "edam:data_1772"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1476"
-      },
-      "sc:name": "Protein structure"
+      "sc:name": "Score"
     }
   ]
 }

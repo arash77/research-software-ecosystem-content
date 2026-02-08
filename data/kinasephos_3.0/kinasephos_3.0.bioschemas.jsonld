@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3489034e46324dd190ea4fb098b8b604"
+          "@id": "_:N5bdc5497f52c479f8982306ccc90dda2"
         },
         {
-          "@id": "_:N535bc67c57e947db8b9fc7ea735fffc6"
+          "@id": "_:Nd82891593ad04e52b72f739ef9714cca"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,10 +57,10 @@
           "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0623"
+          "@id": "edam:topic_0154"
         },
         {
-          "@id": "edam:topic_0154"
+          "@id": "edam:topic_0623"
         },
         {
           "@id": "edam:topic_0160"
@@ -72,13 +72,13 @@
       "sc:description": "Redesign and Expansion of the Prediction on Kinase-specific Phosphorylation Sites.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0558"
+          "@id": "edam:operation_2492"
         },
         {
           "@id": "edam:operation_0417"
         },
         {
-          "@id": "edam:operation_2492"
+          "@id": "edam:operation_0558"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -86,8 +86,8 @@
       "sc:name": "KinasePhos 3.0",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://awi.cuhk.edu.cn/KinasePhos/tutorial.docx"
@@ -95,15 +95,7 @@
       "sc:url": "https://awi.cuhk.edu.cn/KinasePhos/index.html"
     },
     {
-      "@id": "_:N3489034e46324dd190ea4fb098b8b604",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3021"
-      },
-      "sc:name": "UniProt accession"
-    },
-    {
-      "@id": "_:N535bc67c57e947db8b9fc7ea735fffc6",
+      "@id": "_:N5bdc5497f52c479f8982306ccc90dda2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -112,6 +104,14 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nd82891593ad04e52b72f739ef9714cca",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
     }
   ]
 }

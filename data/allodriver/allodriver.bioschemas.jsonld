@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-6558-791X",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/AlloDriver",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -45,20 +49,20 @@
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0154"
-        },
-        {
           "@id": "edam:topic_0199"
         },
         {
           "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0154"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC6602569",
         {
           "@id": "https://doi.org/10.1093/NAR/GKZ350"
         },
-        "pmcid:PMC6602569",
         "pubmed:31069394"
       ],
       "sc:description": "Method for the identification and analysis of cancer driver targets.",
@@ -86,10 +90,6 @@
     {
       "@id": "https://doi.org/10.1093/NAR/GKZ350",
       "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-6558-791X",
-      "@type": "sc:Person"
     }
   ]
 }

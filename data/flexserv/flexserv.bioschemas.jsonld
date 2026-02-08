@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp304",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/flexserv",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Institute for Research in Biomedicine Barcelona",
       "bsc:input": {
-        "@id": "_:Na9c2daba1235450d9f3315ac3aec4fd5"
+        "@id": "_:N0b79785031c4486ead14d48e32930407"
       },
       "bsc:output": {
-        "@id": "_:Na76fbc14f01b460bac25bd47bbdccf9a"
+        "@id": "_:N07eb781c747648f196790d3e3a568ae6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -63,8 +67,8 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "FlexServ",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -74,18 +78,7 @@
       "sc:url": "http://mmb.irbbarcelona.org/FlexServ"
     },
     {
-      "@id": "_:Na9c2daba1235450d9f3315ac3aec4fd5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1460"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1476"
-      },
-      "sc:name": "Protein structure"
-    },
-    {
-      "@id": "_:Na76fbc14f01b460bac25bd47bbdccf9a",
+      "@id": "_:N07eb781c747648f196790d3e3a568ae6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -96,8 +89,15 @@
       "sc:name": "Report"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp304",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N0b79785031c4486ead14d48e32930407",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
     }
   ]
 }

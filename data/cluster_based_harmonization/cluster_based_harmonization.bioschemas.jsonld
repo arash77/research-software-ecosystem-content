@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-9506-9451",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/cluster_based_harmonization",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -47,33 +43,33 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nf61dd8ec31a84952b3ff7b9b327fa223"
+          "@id": "_:N064ff3e9011e4d75a12abd6b30cca27d"
         },
         {
-          "@id": "_:N15323e2949794af4a0b44512c3f58e9d"
+          "@id": "_:N133c5b6543c64e109e03df6080cf479e"
         },
         {
-          "@id": "_:Na46ef3f6c8124a83944aadb8bd5f3e10"
+          "@id": "_:N0475332cb827438880afbbcee8ab62a3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc284479843d24d7392e0fa5765bd8038"
+          "@id": "_:N44fe491f3c3748ff981fbc9165e1e150"
         },
         {
-          "@id": "_:N400df373686e494eb450f2d24e3fcea2"
+          "@id": "_:Nd9d87dedbc6e47c3abbdd5ce4872c9eb"
         },
         {
-          "@id": "_:N5acc29f750004357b9ee32a396e13066"
+          "@id": "_:N71fa7d370f054852ba66d2cc3521eb2e"
         },
         {
-          "@id": "_:N7fe54726d69943b7a29bf5cd640cee70"
+          "@id": "_:N0731d90670fa4830bd17b71e02b156fe"
         },
         {
-          "@id": "_:Ncd3f3c84109a4c45a94a75676de1d955"
+          "@id": "_:N49cd41bb9eb7414889b7c55b61817671"
         },
         {
-          "@id": "_:N9ee6054c296f4384ab3bf9f339725982"
+          "@id": "_:N4bb3c3bbc7a844fbafe22a1716bce57f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -97,24 +93,142 @@
       "sc:license": "CC-BY-NC-ND-4.0",
       "sc:name": "Cluster based harmonization (EUCAIM-SW-044_T-01-03-006)",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "GIBI230 - HULAFE",
       "sc:softwareHelp": [
         {
-          "@id": "https://drive.google.com/file/d/1UBOWOx6cNV2Ih2D8FZXMbfA-oF4rS0mz/view?usp=drive_link"
+          "@id": "https://drive.google.com/file/d/1yWahAtCa5xUJesCqDws9X23coXpqKY5k/view?usp=drive_link"
         },
         {
-          "@id": "https://drive.google.com/file/d/1yWahAtCa5xUJesCqDws9X23coXpqKY5k/view?usp=drive_link"
+          "@id": "https://drive.google.com/file/d/1UBOWOx6cNV2Ih2D8FZXMbfA-oF4rS0mz/view?usp=drive_link"
         }
       ],
       "sc:softwareVersion": "1.1.0",
       "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/4/repositories/cluster_based_harmonization/artifacts-tab"
     },
     {
-      "@id": "_:Nf61dd8ec31a84952b3ff7b9b327fa223",
+      "@id": "_:N44fe491f3c3748ff981fbc9165e1e150",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:Nd9d87dedbc6e47c3abbdd5ce4872c9eb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3835"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N71fa7d370f054852ba66d2cc3521eb2e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N0731d90670fa4830bd17b71e02b156fe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3620"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N49cd41bb9eb7414889b7c55b61817671",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3835"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N4bb3c3bbc7a844fbafe22a1716bce57f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N064ff3e9011e4d75a12abd6b30cca27d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3620"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N133c5b6543c64e109e03df6080cf479e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N0475332cb827438880afbbcee8ab62a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -125,125 +239,11 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N15323e2949794af4a0b44512c3f58e9d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3620"
-        },
-        {
-          "@id": "edam:format_3752"
-        }
-      ],
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:Na46ef3f6c8124a83944aadb8bd5f3e10",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3620"
-        },
-        {
-          "@id": "edam:format_3752"
-        }
-      ],
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:Nc284479843d24d7392e0fa5765bd8038",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3752"
-        },
-        {
-          "@id": "edam:format_3620"
-        }
-      ],
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:N400df373686e494eb450f2d24e3fcea2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3752"
-        },
-        {
-          "@id": "edam:format_3620"
-        }
-      ],
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:N5acc29f750004357b9ee32a396e13066",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3752"
-        },
-        {
-          "@id": "edam:format_3620"
-        }
-      ],
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:N7fe54726d69943b7a29bf5cd640cee70",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3620"
-        },
-        {
-          "@id": "edam:format_3752"
-        }
-      ],
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:Ncd3f3c84109a4c45a94a75676de1d955",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3835"
-      },
-      "sc:name": "Text data"
-    },
-    {
-      "@id": "_:N9ee6054c296f4384ab3bf9f339725982",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2526"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3835"
-      },
-      "sc:name": "Text data"
-    },
-    {
       "@id": "https://orcid.org/0000-0001-5984-904X",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9506-9451",
       "@type": "sc:Person"
     }
   ]

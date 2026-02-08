@@ -36,25 +36,29 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1261/rna.043687.113",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/circbase",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd1ee226bba364c4594cbb89a9940b3d6"
+          "@id": "_:N6eba29335c7248519e31b6515fc3aa1b"
         },
         {
-          "@id": "_:N145854288bdc45d6913c29bbad967024"
+          "@id": "_:N46111a9a478249538337a169367a1e7c"
         },
         {
-          "@id": "_:Na642e90414f94198b3ba1c0c191b254c"
+          "@id": "_:N3362f91afc674f20887eb1253c95b8fc"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N80da665e8a8042178b494825dc1156a2"
+          "@id": "_:Nebda27be84b645cc9366fea1cc10d69f"
         },
         {
-          "@id": "_:Nf2f65d7fc6804a98818800aa8329c18f"
+          "@id": "_:N27c8408174d94e048db371be1d1d7773"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -63,8 +67,8 @@
         "@id": "edam:topic_0099"
       },
       "sc:citation": [
-        "pubmed:25234927",
         "pmcid:PMC4201819",
+        "pubmed:25234927",
         {
           "@id": "https://doi.org/10.1261/rna.043687.113"
         }
@@ -75,9 +79,9 @@
       },
       "sc:name": "circBase",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.circbase.org/doc/help_mod.html"
@@ -85,31 +89,7 @@
       "sc:url": "http://www.circbase.org/"
     },
     {
-      "@id": "_:Nd1ee226bba364c4594cbb89a9940b3d6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0916"
-      },
-      "sc:name": "Gene report"
-    },
-    {
-      "@id": "_:N145854288bdc45d6913c29bbad967024",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:Na642e90414f94198b3ba1c0c191b254c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2012"
-      },
-      "sc:name": "Sequence coordinates"
-    },
-    {
-      "@id": "_:N80da665e8a8042178b494825dc1156a2",
+      "@id": "_:Nebda27be84b645cc9366fea1cc10d69f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -117,7 +97,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:Nf2f65d7fc6804a98818800aa8329c18f",
+      "@id": "_:N27c8408174d94e048db371be1d1d7773",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3496"
@@ -128,8 +108,28 @@
       "sc:name": "RNA sequence (raw)"
     },
     {
-      "@id": "https://doi.org/10.1261/rna.043687.113",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N6eba29335c7248519e31b6515fc3aa1b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N46111a9a478249538337a169367a1e7c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N3362f91afc674f20887eb1253c95b8fc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:name": "Sequence coordinates"
     }
   ]
 }

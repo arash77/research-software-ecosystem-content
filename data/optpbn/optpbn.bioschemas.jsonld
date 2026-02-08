@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N285326e9194e409a9c925bff2a430770"
+          "@id": "_:N41769af98d254dc7ad650ea98bc1e8a7"
         },
         {
-          "@id": "_:Neae12c5294804274a25ea7134d907b78"
+          "@id": "_:N71a2a3f3689c4a5bad72131c0f8d4177"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -61,7 +61,7 @@
       "sc:url": "https://sourceforge.net/projects/optpbn/"
     },
     {
-      "@id": "_:N285326e9194e409a9c925bff2a430770",
+      "@id": "_:N41769af98d254dc7ad650ea98bc1e8a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"
@@ -69,7 +69,7 @@
       "sc:name": "Simulation"
     },
     {
-      "@id": "_:Neae12c5294804274a25ea7134d907b78",
+      "@id": "_:N71a2a3f3689c4a5bad72131c0f8d4177",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

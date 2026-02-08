@@ -44,15 +44,15 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Karl Stamm",
       "bsc:input": {
-        "@id": "_:Nfefa25d56ed24d4cb40fa1139f1b1a64"
+        "@id": "_:N2c8e3ffc21824aa0a405e350b48af0e6"
       },
       "bsc:output": {
-        "@id": "_:N8a21e8ee3afb4f6d9a1953d95bae7551"
+        "@id": "_:N9e8e5c578b2d4307b3b13ef679018157"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3308"
@@ -72,8 +72,8 @@
       "sc:name": "rgsepd",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/rgsepd.html"
@@ -82,7 +82,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/rgsepd.html"
     },
     {
-      "@id": "_:Nfefa25d56ed24d4cb40fa1139f1b1a64",
+      "@id": "_:N2c8e3ffc21824aa0a405e350b48af0e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2769"
@@ -93,7 +93,7 @@
       "sc:name": "Transcript ID"
     },
     {
-      "@id": "_:N8a21e8ee3afb4f6d9a1953d95bae7551",
+      "@id": "_:N9e8e5c578b2d4307b3b13ef679018157",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"

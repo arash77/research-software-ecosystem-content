@@ -44,20 +44,20 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Elin Axelsson",
       "bsc:input": {
-        "@id": "_:N8282dca4b6024fbe8c3bad8606cf449d"
+        "@id": "_:Nd46ad913ce6c4ae0bd4ec75ed57a55c2"
       },
       "bsc:output": [
         {
-          "@id": "_:N6960e8e206b0404d897d4a4274a4c533"
+          "@id": "_:Na107d1852b824f0a8b9e1b31ed382465"
         },
         {
-          "@id": "_:Nff6e7e57c85b4c2593b5949e3242a350"
+          "@id": "_:Nab0f5c6b05564c93a295937b0683292e"
         },
         {
-          "@id": "_:N0b7781fe4d8b40de952cf5bf3c13e0d6"
+          "@id": "_:N601e0b0eb20c46678074621ef110583e"
         },
         {
-          "@id": "_:N5c1882f371cb48c6a2e92fedd17425e2"
+          "@id": "_:N274203ee7615493eadb2b777313362d0"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -77,19 +77,16 @@
         }
       ],
       "sc:citation": [
-        "pubmed:21849035",
-        "pmcid:PMC3230910",
         {
           "@id": "https://doi.org/10.1186/1471-2105-12-342"
-        }
+        },
+        "pubmed:21849035",
+        "pmcid:PMC3230910"
       ],
       "sc:description": "Analysis of combinatorial cell-based RNAi screens.",
       "sc:featureList": [
         {
           "@id": "edam:operation_3435"
-        },
-        {
-          "@id": "edam:operation_2428"
         },
         {
           "@id": "edam:operation_1812"
@@ -99,14 +96,17 @@
         },
         {
           "@id": "edam:operation_3439"
+        },
+        {
+          "@id": "edam:operation_2428"
         }
       ],
       "sc:license": "Artistic-2.0",
       "sc:name": "coRNAi",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/coRNAi.html"
@@ -115,7 +115,39 @@
       "sc:url": "https://bioconductor.org/packages/3.4/bioc/html/coRNAi.html"
     },
     {
-      "@id": "_:N6960e8e206b0404d897d4a4274a4c533",
+      "@id": "_:Na107d1852b824f0a8b9e1b31ed382465",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nab0f5c6b05564c93a295937b0683292e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N601e0b0eb20c46678074621ef110583e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -131,55 +163,23 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nff6e7e57c85b4c2593b5949e3242a350",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N0b7781fe4d8b40de952cf5bf3c13e0d6",
+      "@id": "_:N274203ee7615493eadb2b777313362d0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Report"
     },
     {
-      "@id": "_:N5c1882f371cb48c6a2e92fedd17425e2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1669"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "P-value"
-    },
-    {
-      "@id": "_:N8282dca4b6024fbe8c3bad8606cf449d",
+      "@id": "_:Nd46ad913ce6c4ae0bd4ec75ed57a55c2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"

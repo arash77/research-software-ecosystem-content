@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1110/ps.051745906",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/gpcrhmm",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc9bcf6a65cab4ebc814888aedf187f16"
+        "@id": "_:Nd30782a3af3d4b7487e8ee468e9e6e84"
       },
       "bsc:output": {
-        "@id": "_:N600579ad47014d14b9d4610884ff5ace"
+        "@id": "_:N14b4094f053e44d99d881e5983e38615"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -56,8 +60,8 @@
         {
           "@id": "https://doi.org/10.1110/ps.051745906"
         },
-        "pmcid:PMC2249772",
-        "pubmed:16452613"
+        "pubmed:16452613",
+        "pmcid:PMC2249772"
       ],
       "sc:description": "A hidden Markov model for GPCR detection.",
       "sc:featureList": {
@@ -65,8 +69,8 @@
       },
       "sc:name": "GPCRHMM",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "bils.se",
@@ -77,7 +81,7 @@
       "sc:url": "http://gpcrhmm.sbc.su.se/"
     },
     {
-      "@id": "_:N600579ad47014d14b9d4610884ff5ace",
+      "@id": "_:N14b4094f053e44d99d881e5983e38615",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -85,16 +89,12 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:Nc9bcf6a65cab4ebc814888aedf187f16",
+      "@id": "_:Nd30782a3af3d4b7487e8ee468e9e6e84",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
       },
       "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1110/ps.051745906",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

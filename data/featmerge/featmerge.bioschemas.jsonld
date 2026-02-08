@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1017/CBO9781139151405",
       "@type": "sc:CreativeWork"
     },
@@ -43,10 +51,10 @@
       "@id": "https://bio.tools/featmerge",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9ea3b49514df4a1f8b855d1692a18b43"
+        "@id": "_:N0ed3b8f88f3946b5b034a921324e4cf4"
       },
       "bsc:output": {
-        "@id": "_:Nfed53224dc2a45eb9368ee043d8aa094"
+        "@id": "_:Ncc9c61fccb4e4049adbe047d91960f17"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -65,39 +73,39 @@
         }
       ],
       "sc:contributor": [
-        "EMBOSS Contributors",
-        "UK MRC",
         "UK BBSRC",
-        "Wellcome Trust"
+        "UK MRC",
+        "Wellcome Trust",
+        "EMBOSS Contributors"
       ],
       "sc:description": "An Emboss tool that merges two overlapping feature tables into one single table.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_2422"
-        },
         {
           "@id": "edam:operation_2409"
         },
         {
           "@id": "edam:operation_3429"
+        },
+        {
+          "@id": "edam:operation_2422"
         }
       ],
       "sc:funder": [
-        "UK MRC",
         "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "featmerge",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": [
-        "EMBOSS",
-        "EMBL-EBI"
+        "EMBL-EBI",
+        "EMBOSS"
       ],
       "sc:softwareHelp": [
         {
@@ -114,7 +122,7 @@
       "sc:url": "http://www.bioinformatics.nl/cgi-bin/emboss/featmerge"
     },
     {
-      "@id": "_:Nfed53224dc2a45eb9368ee043d8aa094",
+      "@id": "_:Ncc9c61fccb4e4049adbe047d91960f17",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -125,7 +133,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N9ea3b49514df4a1f8b855d1692a18b43",
+      "@id": "_:N0ed3b8f88f3946b5b034a921324e4cf4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -134,14 +142,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Sequence features"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/flowstats",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -43,27 +47,27 @@
         "Mike Jiang"
       ],
       "bsc:input": {
-        "@id": "_:Nf83d225833824c32bbf587589a7adb8f"
+        "@id": "_:N0a518844265c41108bd8abbb5bb26ef5"
       },
       "bsc:output": {
-        "@id": "_:N9d5ead80de2a41e183322f304d6f9b5d"
+        "@id": "_:Ne10c1e9c93704978aaf942b57ba711f8"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3306"
+          "@id": "edam:topic_3361"
         },
         {
-          "@id": "edam:topic_3361"
+          "@id": "edam:topic_3306"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4509590",
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
         }
@@ -75,9 +79,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "flowStats",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/flowStats.html"
@@ -86,18 +90,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/flowStats.html"
     },
     {
-      "@id": "_:N9d5ead80de2a41e183322f304d6f9b5d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nf83d225833824c32bbf587589a7adb8f",
+      "@id": "_:N0a518844265c41108bd8abbb5bb26ef5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -108,8 +101,15 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Ne10c1e9c93704978aaf942b57ba711f8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Plot"
     }
   ]
 }

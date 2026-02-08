@@ -42,18 +42,18 @@
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0081"
+          "@id": "edam:topic_2275"
         },
         {
-          "@id": "edam:topic_2275"
+          "@id": "edam:topic_0081"
         },
         {
           "@id": "edam:topic_0078"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC3303726",
         "pubmed:22536966",
+        "pmcid:PMC3303726",
         {
           "@id": "https://doi.org/10.1186/1471-2105-13-s4-s2"
         }
@@ -73,8 +73,8 @@
       "sc:name": "PyMod",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://schubert.bio.uniroma1.it/pymod/documentation.html"

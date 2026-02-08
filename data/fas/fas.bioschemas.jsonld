@@ -43,47 +43,47 @@
       "@id": "https://bio.tools/fas",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N49ac36ccda54440d8a9923793ed979b7"
+        "@id": "_:N2df65b7e6977431eae28efb3cc52461d"
       },
       "bsc:output": {
-        "@id": "_:Necbbd49aa87343a3977066346da3d25b"
+        "@id": "_:Nf4c4aaa62c2643b389a905f402f0325b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0121"
-        },
-        {
-          "@id": "edam:topic_3520"
-        },
-        {
           "@id": "edam:topic_0621"
         },
         {
+          "@id": "edam:topic_0121"
+        },
+        {
           "@id": "edam:topic_0736"
+        },
+        {
+          "@id": "edam:topic_3520"
         },
         {
           "@id": "edam:topic_0089"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC10185405",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btad226"
         },
-        "pubmed:37084276",
-        "pmcid:PMC10185405"
+        "pubmed:37084276"
       ],
       "sc:description": "Assessing the similarity between proteins using multi-layered feature architectures.",
       "sc:featureList": [
+        {
+          "@id": "edam:operation_2474"
+        },
         {
           "@id": "edam:operation_3672"
         },
         {
           "@id": "edam:operation_2421"
-        },
-        {
-          "@id": "edam:operation_2474"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -97,18 +97,7 @@
       "sc:url": "https://pypi.org/project/greedyFAS/"
     },
     {
-      "@id": "_:Necbbd49aa87343a3977066346da3d25b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2332"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:N49ac36ccda54440d8a9923793ed979b7",
+      "@id": "_:N2df65b7e6977431eae28efb3cc52461d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -117,6 +106,17 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Nf4c4aaa62c2643b389a905f402f0325b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Protein features"
     }
   ]
 }

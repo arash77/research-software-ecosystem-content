@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/gtestimate",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nba672249c2324b8bac028987786863cb"
+        "@id": "_:N34de7f5628684ef682ac33f44ea06b2d"
       },
       "bsc:output": {
-        "@id": "_:N7e2e01d5dfb9402ba0c6fba4921c6666"
+        "@id": "_:N9d1fead51ee64527b1106e3f5ae9fc65"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -60,9 +60,9 @@
       "sc:license": "GPL-3.0",
       "sc:name": "GTestimate",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/Martin-Fahrenberger/GTestimate"
@@ -70,20 +70,20 @@
       "sc:url": "https://github.com/Martin-Fahrenberger/GTestimate"
     },
     {
-      "@id": "_:Nba672249c2324b8bac028987786863cb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3917"
-      },
-      "sc:name": "Count matrix"
-    },
-    {
-      "@id": "_:N7e2e01d5dfb9402ba0c6fba4921c6666",
+      "@id": "_:N9d1fead51ee64527b1106e3f5ae9fc65",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
       },
       "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "_:N34de7f5628684ef682ac33f44ea06b2d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3917"
+      },
+      "sc:name": "Count matrix"
     },
     {
       "@id": "https://doi.org/10.1101/2024.07.02.601501",

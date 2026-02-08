@@ -44,22 +44,22 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "RECETOX SpecDatRI",
       "bsc:input": {
-        "@id": "_:N457ef1a7a0254026b31c27c839fcc8e3"
+        "@id": "_:Nbdcde0e2791e443ab7ae22c2faee8bab"
       },
       "bsc:output": {
-        "@id": "_:N60bd79d318f744e1bc8c7ff02ccfd668"
+        "@id": "_:N848fc1d48c31493bba92bacee081ac61"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3370"
+        },
+        {
           "@id": "edam:topic_3172"
         },
         {
           "@id": "edam:topic_0154"
-        },
-        {
-          "@id": "edam:topic_3370"
         }
       ],
       "sc:author": "RECETOX SpecDatRI",
@@ -79,16 +79,16 @@
       "sc:provider": "RECETOX SpecDatRI",
       "sc:softwareHelp": [
         {
-          "@id": "https://github.com/RECETOX/gc-meox-tms/blob/master/example/derivatization.ipynb"
+          "@id": "https://github.com/RECETOX/gc-meox-tms/blob/master/README.md"
         },
         {
-          "@id": "https://github.com/RECETOX/gc-meox-tms/blob/master/README.md"
+          "@id": "https://github.com/RECETOX/gc-meox-tms/blob/master/example/derivatization.ipynb"
         }
       ],
       "sc:url": "https://github.com/RECETOX/gc-meox-tms"
     },
     {
-      "@id": "_:N60bd79d318f744e1bc8c7ff02ccfd668",
+      "@id": "_:N848fc1d48c31493bba92bacee081ac61",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -96,7 +96,7 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:N457ef1a7a0254026b31c27c839fcc8e3",
+      "@id": "_:Nbdcde0e2791e443ab7ae22c2faee8bab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"

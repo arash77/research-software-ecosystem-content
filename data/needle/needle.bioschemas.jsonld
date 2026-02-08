@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,7 +44,7 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
       "@type": "sc:CreativeWork"
     },
     {
@@ -52,17 +52,17 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N56023a0540b646d39d408bf07e36106f"
+          "@id": "_:N03e7b9ba3bdc4d07aaaf97c39117fc64"
         },
         {
-          "@id": "_:N5a19a4c95e994f359c866d6ab1893058"
+          "@id": "_:N3ac267f2ae9748e3821b56913991ee51"
         },
         {
-          "@id": "_:N9ee59de12b3c45d5adec08aa65bdf6e2"
+          "@id": "_:Nd77c6e971eff460ca2c2fb9f5fc82d8b"
         }
       ],
       "bsc:output": {
-        "@id": "_:N1ae43d9e9fdd44d08c6a7f2213932ca2"
+        "@id": "_:N3cc8db0033de48fe9d6d7865e7e7072b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -71,20 +71,20 @@
       },
       "sc:citation": [
         {
-          "@id": "https://doi.org/10.1017/CBO9781139151399"
-        },
-        {
           "@id": "https://doi.org/10.1017/CBO9781139151405"
         },
         {
           "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
+        },
+        {
+          "@id": "https://doi.org/10.1017/CBO9781139151399"
         }
       ],
       "sc:contributor": [
-        "EMBOSS Contributors",
         "UK MRC",
-        "UK BBSRC",
-        "Wellcome Trust"
+        "Wellcome Trust",
+        "EMBOSS Contributors",
+        "UK BBSRC"
       ],
       "sc:description": "Needleman-Wunsch global alignment of two sequences.",
       "sc:featureList": {
@@ -92,16 +92,16 @@
       },
       "sc:funder": [
         "UK MRC",
-        "UK BBSRC",
-        "Wellcome Trust"
+        "Wellcome Trust",
+        "UK BBSRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "needle",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:provider": [
         "EMBOSS",
@@ -109,20 +109,20 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://emboss.open-bio.org/rel/rel6/apps/needle.html"
-        },
-        {
           "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
         },
         {
           "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
+        },
+        {
+          "@id": "http://emboss.open-bio.org/rel/rel6/apps/needle.html"
         }
       ],
       "sc:softwareVersion": "r6",
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/needle.html"
     },
     {
-      "@id": "_:N56023a0540b646d39d408bf07e36106f",
+      "@id": "_:N03e7b9ba3bdc4d07aaaf97c39117fc64",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -130,7 +130,15 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N5a19a4c95e994f359c866d6ab1893058",
+      "@id": "_:N3ac267f2ae9748e3821b56913991ee51",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:Nd77c6e971eff460ca2c2fb9f5fc82d8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0874"
@@ -138,15 +146,7 @@
       "sc:name": "Comparison matrix"
     },
     {
-      "@id": "_:N9ee59de12b3c45d5adec08aa65bdf6e2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0849"
-      },
-      "sc:name": "Sequence record"
-    },
-    {
-      "@id": "_:N1ae43d9e9fdd44d08c6a7f2213932ca2",
+      "@id": "_:N3cc8db0033de48fe9d6d7865e7e7072b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"

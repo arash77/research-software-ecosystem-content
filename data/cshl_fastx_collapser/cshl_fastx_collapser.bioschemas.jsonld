@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Ne102be560bae4b8fa77f333fc23c3857"
+        "@id": "_:Ndf607de9abda4c5caa37d484575dab46"
       },
       "bsc:output": {
-        "@id": "_:Ndd93d57998cc4fc9b96f3002869f77c1"
+        "@id": "_:N55cef8411a184f3d9982c82777b9e878"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -56,13 +56,13 @@
       },
       "sc:citation": [
         "pubmed:27137889",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
-        },
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC4987906"
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        }
       ],
       "sc:description": "This tool collapses identical sequences in a FASTA file into a single sequence.",
       "sc:featureList": {
@@ -70,9 +70,9 @@
       },
       "sc:name": "cshl_fastx_collapser",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://hannonlab.cshl.edu/fastx_toolkit/galaxy.html"
@@ -81,7 +81,7 @@
       "sc:url": "http://hannonlab.cshl.edu/fastx_toolkit/"
     },
     {
-      "@id": "_:Ndd93d57998cc4fc9b96f3002869f77c1",
+      "@id": "_:N55cef8411a184f3d9982c82777b9e878",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -92,20 +92,20 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Ne102be560bae4b8fa77f333fc23c3857",
+      "@id": "_:Ndf607de9abda4c5caa37d484575dab46",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1929"
-        },
-        {
           "@id": "edam:format_1933"
         },
         {
           "@id": "edam:format_1932"
+        },
+        {
+          "@id": "edam:format_1929"
         }
       ],
       "sc:name": "Data"

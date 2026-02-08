@@ -36,13 +36,25 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/showorf",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na576e6e5bcf94e78a008db6caab5b7cf"
+        "@id": "_:N584b56769b5f4c34a1d6a4aa1c0fafd8"
       },
       "bsc:output": {
-        "@id": "_:N39342d74ddc24f1ebb2e567271fdb95a"
+        "@id": "_:Nc522262d2caa48959f8177759cf87110"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -61,18 +73,18 @@
         }
       ],
       "sc:contributor": [
-        "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust",
         "EMBOSS Contributors",
-        "UK MRC"
+        "UK BBSRC"
       ],
       "sc:description": "Display a nucleotide sequence and translation in pretty format.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0564"
+          "@id": "edam:operation_0371"
         },
         {
-          "@id": "edam:operation_0371"
+          "@id": "edam:operation_0564"
         },
         {
           "@id": "edam:operation_0436"
@@ -80,37 +92,37 @@
       ],
       "sc:funder": [
         "UK MRC",
-        "UK BBSRC",
-        "Wellcome Trust"
+        "Wellcome Trust",
+        "UK BBSRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "showorf",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": [
-        "EMBOSS",
-        "EMBL-EBI"
+        "EMBL-EBI",
+        "EMBOSS"
       ],
       "sc:softwareHelp": [
-        {
-          "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
-        },
         {
           "@id": "http://emboss.open-bio.org/rel/rel6/apps/showorf.html"
         },
         {
           "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
+        },
+        {
+          "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
         }
       ],
       "sc:softwareVersion": "r6",
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/showorf.html"
     },
     {
-      "@id": "_:N39342d74ddc24f1ebb2e567271fdb95a",
+      "@id": "_:Nc522262d2caa48959f8177759cf87110",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -118,24 +130,12 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:Na576e6e5bcf94e78a008db6caab5b7cf",
+      "@id": "_:N584b56769b5f4c34a1d6a4aa1c0fafd8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
       },
       "sc:name": "Sequence record"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,19 +36,15 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.26502/JCSCT.5079218",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/idacombo",
       "@type": "sc:SoftwareApplication",
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2640"
+          "@id": "edam:topic_0154"
         },
         {
-          "@id": "edam:topic_0154"
+          "@id": "edam:topic_2640"
         },
         {
           "@id": "edam:topic_3336"
@@ -61,8 +57,8 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC10852200",
         "pubmed:38344217",
+        "pmcid:PMC10852200",
         {
           "@id": "https://doi.org/10.26502/JCSCT.5079218"
         }
@@ -78,6 +74,10 @@
       ],
       "sc:name": "IDACombo Shiny App",
       "sc:url": "https://oncotherapyinformatics.org/idacombo/"
+    },
+    {
+      "@id": "https://doi.org/10.26502/JCSCT.5079218",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

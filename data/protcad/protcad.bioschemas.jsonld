@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkac937",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/protcad",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8b4b284c591d473e86c2d5f37b048de1"
+          "@id": "_:N7cf1559311954869b3aeae3e73ca8248"
         },
         {
-          "@id": "_:Nf8623530a26f42fdb16c05d3856c4d5f"
+          "@id": "_:N78abbbae5d9148a28f0f04e8292c4cf4"
         },
         {
-          "@id": "_:N9f02d86e0d6b4a2490c576c9ae05d5b0"
+          "@id": "_:N55b048065ad24d40a14c2a9b903f7950"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,11 +70,11 @@
         }
       ],
       "sc:citation": [
+        "pubmed:36300618",
         "pmcid:PMC9825537",
         {
           "@id": "https://doi.org/10.1093/nar/gkac937"
-        },
-        "pubmed:36300618"
+        }
       ],
       "sc:description": "The Protein Common Assembly Database (ProtCAD) – A comprehensive structural resource of protein complexes.",
       "sc:featureList": [
@@ -87,30 +91,14 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "ProtCAD",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:url": "http://dunbrack2.fccc.edu/protcad"
     },
     {
-      "@id": "_:N8b4b284c591d473e86c2d5f37b048de1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1127"
-      },
-      "sc:name": "PDB ID"
-    },
-    {
-      "@id": "_:Nf8623530a26f42fdb16c05d3856c4d5f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2758"
-      },
-      "sc:name": "Pfam clan ID"
-    },
-    {
-      "@id": "_:N9f02d86e0d6b4a2490c576c9ae05d5b0",
+      "@id": "_:N7cf1559311954869b3aeae3e73ca8248",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2764"
@@ -118,8 +106,20 @@
       "sc:name": "Protein name (UniProt)"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkac937",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N78abbbae5d9148a28f0f04e8292c4cf4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2758"
+      },
+      "sc:name": "Pfam clan ID"
+    },
+    {
+      "@id": "_:N55b048065ad24d40a14c2a9b903f7950",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:name": "PDB ID"
     }
   ]
 }

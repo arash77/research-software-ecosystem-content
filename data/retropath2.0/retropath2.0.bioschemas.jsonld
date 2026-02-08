@@ -36,21 +36,25 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/j.ymben.2017.12.002",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/RetroPath2.0",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nfad5ef880d1746a2b2d026829a02c222"
+          "@id": "_:Nd8345fdd358d4226a11b245b7b3d7f89"
         },
         {
-          "@id": "_:N44db4092eb6b4d6283dac14187492b13"
+          "@id": "_:N77a1f39dbd274a0bb986a7e12ebc3913"
         },
         {
-          "@id": "_:Na42995c8c0634338899d754f2984eae1"
+          "@id": "_:N084823cd29384d06b99134b0dd5d59e5"
         }
       ],
       "bsc:output": {
-        "@id": "_:N30b1aa73d61d45e3a4cd1f8e07d9ad16"
+        "@id": "_:N2aaedcca123145208d0975ec9f1a2e4f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Bioinformatics portal",
@@ -58,10 +62,10 @@
         "@id": "edam:topic_0602"
       },
       "sc:citation": [
+        "pubmed:29233745",
         {
           "@id": "https://doi.org/10.1016/j.ymben.2017.12.002"
-        },
-        "pubmed:29233745"
+        }
       ],
       "sc:description": "The RetroPath2.0 workflow build a reaction network from a set of source compounds to a set of sink compounds.",
       "sc:featureList": {
@@ -70,15 +74,15 @@
       "sc:license": "GPL-3.0",
       "sc:name": "RetroPath2.0",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareVersion": "8.0",
       "sc:url": "https://www.myexperiment.org/workflows/4987.html"
     },
     {
-      "@id": "_:Nfad5ef880d1746a2b2d026829a02c222",
+      "@id": "_:Nd8345fdd358d4226a11b245b7b3d7f89",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0846"
@@ -89,18 +93,7 @@
       "sc:name": "Chemical formula"
     },
     {
-      "@id": "_:N44db4092eb6b4d6283dac14187492b13",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0846"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Chemical formula"
-    },
-    {
-      "@id": "_:Na42995c8c0634338899d754f2984eae1",
+      "@id": "_:N77a1f39dbd274a0bb986a7e12ebc3913",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -111,16 +104,23 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:N30b1aa73d61d45e3a4cd1f8e07d9ad16",
+      "@id": "_:N084823cd29384d06b99134b0dd5d59e5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0846"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Chemical formula"
+    },
+    {
+      "@id": "_:N2aaedcca123145208d0975ec9f1a2e4f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0846"
       },
       "sc:name": "Chemical formula"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.ymben.2017.12.002",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/covd",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0f792097b150418689aa215a825f0f67"
+        "@id": "_:Nb4879874485f4fe3a7be06ea65895fe4"
       },
       "bsc:output": [
         {
-          "@id": "_:Necd6f127c54e4759878745758020344d"
+          "@id": "_:Nb8cd4d8602494a2086f8bb1229b433db"
         },
         {
-          "@id": "_:Nbb0e59d3441440c59f12b94f2297122d"
+          "@id": "_:Necc9ce15d3ba4deca71fa9d60fe030d9"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -64,7 +64,7 @@
       "sc:url": "https://virus.img.cas.cz/"
     },
     {
-      "@id": "_:N0f792097b150418689aa215a825f0f67",
+      "@id": "_:Nb4879874485f4fe3a7be06ea65895fe4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3720"
@@ -75,18 +75,7 @@
       "sc:name": "Geographic location"
     },
     {
-      "@id": "_:Necd6f127c54e4759878745758020344d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3720"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Geographic location"
-    },
-    {
-      "@id": "_:Nbb0e59d3441440c59f12b94f2297122d",
+      "@id": "_:Nb8cd4d8602494a2086f8bb1229b433db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -95,6 +84,17 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Nucleic acid sequence record"
+    },
+    {
+      "@id": "_:Necc9ce15d3ba4deca71fa9d60fe030d9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3720"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Geographic location"
     }
   ]
 }

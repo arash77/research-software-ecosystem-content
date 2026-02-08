@@ -44,8 +44,8 @@
         "@id": "edam:topic_3179"
       },
       "sc:citation": [
-        "pmcid:PMC2536674",
         "pubmed:18706106",
+        "pmcid:PMC2536674",
         {
           "@id": "https://doi.org/10.1186/1471-2105-9-343"
         }
@@ -57,9 +57,9 @@
       "sc:license": "GPL-3.0",
       "sc:name": "TileHMM",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": [
         {

@@ -36,7 +36,15 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-8234-010X",
+      "@id": "https://orcid.org/0000-0002-6048-2940",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.3390/cancers14153648",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9506-9451",
       "@type": "sc:Person"
     },
     {
@@ -44,19 +52,7 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-9506-9451",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.3390/cancers15051622",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.3390/cancers14153648",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-6048-2940",
+      "@id": "https://orcid.org/0000-0002-8234-010X",
       "@type": "sc:Person"
     },
     {
@@ -67,26 +63,26 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nbfbe495798fe4609ac478355f6e6f09e"
+          "@id": "_:Na91e45e974bf4b7ebbcd23dc498d50ba"
         },
         {
-          "@id": "_:Ndad22da76e604409bcaf4ed3f0addae2"
+          "@id": "_:N89ead5412a524b029db039d62b5dd572"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nf2604fcc9a9547f9bfbeb8e678359f1d"
+        "@id": "_:Ndd3064a7054549a4b3432003092a4691"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3474"
+        },
+        {
           "@id": "edam:topic_2640"
         },
         {
           "@id": "edam:topic_3365"
-        },
-        {
-          "@id": "edam:topic_3474"
         }
       ],
       "sc:author": [
@@ -94,10 +90,10 @@
           "@id": "https://orcid.org/0000-0002-6048-2940"
         },
         {
-          "@id": "https://orcid.org/0000-0002-5567-4278"
+          "@id": "https://orcid.org/0000-0002-9506-9451"
         },
         {
-          "@id": "https://orcid.org/0000-0002-9506-9451"
+          "@id": "https://orcid.org/0000-0002-5567-4278"
         }
       ],
       "sc:citation": [
@@ -116,9 +112,9 @@
       "sc:license": "CC-BY-NC-ND-4.0",
       "sc:name": "MR-based neuroblastoma tumour detection and segmentation (EUCAIM-SW-019_T-01-02-002)",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": [
         {
@@ -138,7 +134,7 @@
       "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/4/repositories/mr_based_neuroblastoma_tumour_detection_and_segmentation/artifacts-tab"
     },
     {
-      "@id": "_:Nf2604fcc9a9547f9bfbeb8e678359f1d",
+      "@id": "_:Ndd3064a7054549a4b3432003092a4691",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -154,7 +150,23 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nbfbe495798fe4609ac478355f6e6f09e",
+      "@id": "_:Na91e45e974bf4b7ebbcd23dc498d50ba",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3549"
+        },
+        {
+          "@id": "edam:format_3548"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N89ead5412a524b029db039d62b5dd572",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -170,20 +182,8 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Ndad22da76e604409bcaf4ed3f0addae2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3548"
-        },
-        {
-          "@id": "edam:format_3549"
-        }
-      ],
-      "sc:name": "Image"
+      "@id": "https://doi.org/10.3390/cancers15051622",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

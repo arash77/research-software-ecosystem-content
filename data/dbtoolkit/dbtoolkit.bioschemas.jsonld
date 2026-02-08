@@ -44,24 +44,24 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Lennart Martens",
       "bsc:input": {
-        "@id": "_:N1e6ea9387e3a41b79ad929e17039655b"
+        "@id": "_:N05c396f6394f4a7b940a488f19ecbb23"
       },
       "bsc:output": {
-        "@id": "_:N37b6df1d40194df681dd391dac027a40"
+        "@id": "_:N9f01881e7b0d4528ace4087c3c56b911"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Desktop application",
-        "Command-line tool"
+        "Command-line tool",
+        "Desktop application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3071"
       },
       "sc:citation": [
+        "pubmed:16030071",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bti588"
-        },
-        "pubmed:16030071"
+        }
       ],
       "sc:description": "Easy-to-use environment for customized fasta database manipulations.",
       "sc:featureList": {
@@ -80,7 +80,7 @@
       "sc:url": "http://code.google.com/p/dbtoolkit/"
     },
     {
-      "@id": "_:N37b6df1d40194df681dd391dac027a40",
+      "@id": "_:N9f01881e7b0d4528ace4087c3c56b911",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -88,7 +88,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N1e6ea9387e3a41b79ad929e17039655b",
+      "@id": "_:N05c396f6394f4a7b940a488f19ecbb23",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"

@@ -47,20 +47,20 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N9faa6547f1cd46adba1668f57ae72e18"
+          "@id": "_:N2e190cfdf4f94fb095b8cb565d52a36e"
         },
         {
-          "@id": "_:N6279fa0ff88b4f939e6ebeda72611dbf"
+          "@id": "_:N882abce6486542b79f3e9f9512c724f5"
         },
         {
-          "@id": "_:N84e1876911ea4cc69be44f0b36a70265"
+          "@id": "_:N856f798c3f194c4ab5e5daac99ede511"
         },
         {
-          "@id": "_:Ne49c906b93734ec38079c69f422ab6ad"
+          "@id": "_:N2fc2f3f601f040a09c11b0874df513fd"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nde60b203391541dc93f72aa350f80638"
+        "@id": "_:N07b4edfa46da452ba0c1db16dbccfe20"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -74,10 +74,10 @@
           "@id": "edam:operation_1812"
         },
         {
-          "@id": "edam:operation_3436"
+          "@id": "edam:operation_3695"
         },
         {
-          "@id": "edam:operation_3695"
+          "@id": "edam:operation_3436"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -90,18 +90,18 @@
       "sc:url": "https://github.com/TheMassimo/Meta4P"
     },
     {
-      "@id": "_:N9faa6547f1cd46adba1668f57ae72e18",
+      "@id": "_:N07b4edfa46da452ba0c1db16dbccfe20",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3028"
+        "@id": "edam:data_2603"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_2330"
       },
-      "sc:name": "Taxonomy"
+      "sc:name": "Expression data"
     },
     {
-      "@id": "_:N6279fa0ff88b4f939e6ebeda72611dbf",
+      "@id": "_:N2e190cfdf4f94fb095b8cb565d52a36e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -112,18 +112,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N84e1876911ea4cc69be44f0b36a70265",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:Ne49c906b93734ec38079c69f422ab6ad",
+      "@id": "_:N882abce6486542b79f3e9f9512c724f5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1154"
@@ -134,15 +123,26 @@
       "sc:name": "KEGG object identifier"
     },
     {
-      "@id": "_:Nde60b203391541dc93f72aa350f80638",
+      "@id": "_:N856f798c3f194c4ab5e5daac99ede511",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2603"
+        "@id": "edam:data_3028"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_2330"
       },
-      "sc:name": "Expression data"
+      "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "_:N2fc2f3f601f040a09c11b0874df513fd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mass spectrometry data"
     }
   ]
 }

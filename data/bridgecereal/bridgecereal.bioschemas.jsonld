@@ -39,33 +39,33 @@
       "@id": "https://bio.tools/bridgecereal",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N599cc08f47984d239cd05abc5867119d"
+        "@id": "_:Nfc01d62279f84d4d87bf48044848c788"
       },
       "bsc:output": [
         {
-          "@id": "_:N8b554ff389234687ae0d7a4766180e31"
+          "@id": "_:Nb7e2c22b0f5a4e5384ba9e51f1fcb891"
         },
         {
-          "@id": "_:Nee1893a0288d42d181de9be924002558"
+          "@id": "_:N25f09b1295924fe394a962bace9864c2"
         },
         {
-          "@id": "_:Ne63b9b6f9d704a0cacba1045c9d7f0ba"
+          "@id": "_:Nc728f3a25a57437d87d18e27d27aa551"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0199"
-        },
-        {
-          "@id": "edam:topic_0625"
-        },
-        {
           "@id": "edam:topic_3517"
         },
         {
+          "@id": "edam:topic_0199"
+        },
+        {
           "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0625"
         }
       ],
       "sc:citation": [
@@ -77,6 +77,15 @@
       "sc:description": "BRIDGEcereal provides a user-friendly interface to efficiently identify large indels from pan-genomes of major cereal crops, accelerating gene discovery for important traits.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_0452"
+        },
+        {
+          "@id": "edam:operation_0487"
+        },
+        {
+          "@id": "edam:operation_0310"
+        },
+        {
           "@id": "edam:operation_0291"
         },
         {
@@ -84,24 +93,15 @@
         },
         {
           "@id": "edam:operation_3196"
-        },
-        {
-          "@id": "edam:operation_0487"
-        },
-        {
-          "@id": "edam:operation_0452"
-        },
-        {
-          "@id": "edam:operation_0310"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "CC-BY-NC-ND-4.0",
       "sc:name": "BRIDGEcereal",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://bridgecereal.scinet.usda.gov/Instruction"
@@ -109,7 +109,7 @@
       "sc:url": "https://bridgecereal.scinet.usda.gov"
     },
     {
-      "@id": "_:N8b554ff389234687ae0d7a4766180e31",
+      "@id": "_:Nb7e2c22b0f5a4e5384ba9e51f1fcb891",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0865"
@@ -117,15 +117,7 @@
       "sc:name": "Sequence similarity score"
     },
     {
-      "@id": "_:Nee1893a0288d42d181de9be924002558",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:Ne63b9b6f9d704a0cacba1045c9d7f0ba",
+      "@id": "_:N25f09b1295924fe394a962bace9864c2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -133,7 +125,15 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N599cc08f47984d239cd05abc5867119d",
+      "@id": "_:Nc728f3a25a57437d87d18e27d27aa551",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:Nfc01d62279f84d4d87bf48044848c788",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"

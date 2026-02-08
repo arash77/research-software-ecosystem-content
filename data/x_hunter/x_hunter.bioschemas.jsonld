@@ -40,17 +40,17 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne545196585e847c3a165b0265b2e249d"
+          "@id": "_:N803050d2257c48bf837b198b0d3d5fb6"
         },
         {
-          "@id": "_:N2b2b927ce1054138a791f3ebf2681c2b"
+          "@id": "_:N4c44aae62da74edab089b57b14e4b82a"
         },
         {
-          "@id": "_:Nebf57b18acb7470f8caa62552ba063f3"
+          "@id": "_:Ne2199dd891224c0d8d7dd622aaafaa64"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nc9158219a9564db796a827fa89490cd1"
+        "@id": "_:N1990e5d9e50e4207a5cef540f5daf088"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -74,10 +74,10 @@
           "@id": "edam:operation_3645"
         },
         {
-          "@id": "edam:operation_3767"
+          "@id": "edam:operation_3631"
         },
         {
-          "@id": "edam:operation_3631"
+          "@id": "edam:operation_3767"
         }
       ],
       "sc:name": "X Hunter",
@@ -91,29 +91,7 @@
       "sc:url": "http://www.thegpm.org/hunter/index.html"
     },
     {
-      "@id": "_:Ne545196585e847c3a165b0265b2e249d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3651"
-      },
-      "sc:name": "Mass spectrometry spectra"
-    },
-    {
-      "@id": "_:N2b2b927ce1054138a791f3ebf2681c2b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3651"
-      },
-      "sc:name": "Mass spectrometry spectra"
-    },
-    {
-      "@id": "_:Nebf57b18acb7470f8caa62552ba063f3",
+      "@id": "_:N803050d2257c48bf837b198b0d3d5fb6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -124,7 +102,29 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Nc9158219a9564db796a827fa89490cd1",
+      "@id": "_:N4c44aae62da74edab089b57b14e4b82a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3651"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Ne2199dd891224c0d8d7dd622aaafaa64",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3651"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N1990e5d9e50e4207a5cef540f5daf088",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

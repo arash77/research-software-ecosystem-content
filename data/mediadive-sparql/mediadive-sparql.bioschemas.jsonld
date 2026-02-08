@@ -42,19 +42,19 @@
         "@id": "https://orcid.org/0000-0002-7260-2129"
       },
       "bsc:input": {
-        "@id": "_:N6110e92cc0fa4344ac32f6cdf828a288"
+        "@id": "_:Ne6857942e320487d9a46599efd713f35"
       },
       "bsc:output": {
-        "@id": "_:N2b82d2f0fe7a431ca90fe1c015c87880"
+        "@id": "_:N8b3852b28b324880a6e0a30f3293bc97"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "SPARQL endpoint",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_4012"
+          "@id": "edam:topic_3292"
         },
         {
-          "@id": "edam:topic_3292"
+          "@id": "edam:topic_4012"
         }
       ],
       "sc:author": {
@@ -71,18 +71,7 @@
       "sc:url": "https://sparql.dsmz.de/mediadive"
     },
     {
-      "@id": "_:N2b82d2f0fe7a431ca90fe1c015c87880",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2080"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2376"
-      },
-      "sc:name": "Database search results"
-    },
-    {
-      "@id": "_:N6110e92cc0fa4344ac32f6cdf828a288",
+      "@id": "_:Ne6857942e320487d9a46599efd713f35",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -91,6 +80,17 @@
         "@id": "edam:format_3790"
       },
       "sc:name": "Query script"
+    },
+    {
+      "@id": "_:N8b3852b28b324880a6e0a30f3293bc97",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2376"
+      },
+      "sc:name": "Database search results"
     },
     {
       "@id": "https://orcid.org/0000-0002-7260-2129",

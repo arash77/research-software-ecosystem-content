@@ -39,22 +39,22 @@
       "@id": "https://bio.tools/xrrpred",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd9f3bef1f5b2458a9f6246565075fbaa"
+        "@id": "_:N9279467804aa4a0daf7df4aa6b6f427a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2828"
+          "@id": "edam:topic_2275"
         },
         {
           "@id": "edam:topic_0611"
         },
         {
-          "@id": "edam:topic_0154"
+          "@id": "edam:topic_2828"
         },
         {
-          "@id": "edam:topic_2275"
+          "@id": "edam:topic_0154"
         }
       ],
       "sc:citation": [
@@ -66,7 +66,7 @@
       "sc:description": "Accurate Predictor of Crystal Structure Quality from Protein Sequence.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0474"
+          "@id": "edam:operation_0410"
         },
         {
           "@id": "edam:operation_0337"
@@ -75,10 +75,10 @@
           "@id": "edam:operation_0478"
         },
         {
-          "@id": "edam:operation_4009"
+          "@id": "edam:operation_0474"
         },
         {
-          "@id": "edam:operation_0410"
+          "@id": "edam:operation_4009"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -86,8 +86,8 @@
       "sc:name": "XRRpred",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://biomine.cs.vcu.edu/servers/XRRPred/TRAINING.txt"
@@ -95,7 +95,7 @@
       "sc:url": "http://biomine.cs.vcu.edu/servers/XRRPred/"
     },
     {
-      "@id": "_:Nd9f3bef1f5b2458a9f6246565075fbaa",
+      "@id": "_:N9279467804aa4a0daf7df4aa6b6f427a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

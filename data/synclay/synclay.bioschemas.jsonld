@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.media.2023.102995",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/synclay",
       "@type": "sc:SoftwareApplication",
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -70,16 +66,20 @@
           "@id": "edam:operation_3553"
         },
         {
-          "@id": "edam:operation_3799"
+          "@id": "edam:operation_3443"
         },
         {
-          "@id": "edam:operation_3443"
+          "@id": "edam:operation_3799"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "SynCLay",
       "sc:operatingSystem": "Windows",
       "sc:url": "https://github.com/Srijay/SynCLay-Framework"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.media.2023.102995",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,17 +39,17 @@
       "@id": "https://bio.tools/rseqrep",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N91c8786184db4475bda2a68c01dcf8c6"
+        "@id": "_:N1c4f167c930a44d48e9432a56fe72e07"
       },
       "bsc:output": [
         {
-          "@id": "_:Nd1892db3b503402e8868a1d86e7fad1e"
+          "@id": "_:N3ed0ba85ba7046afa037e5a1cd13dbf9"
         },
         {
-          "@id": "_:Ne8aabd1257df47fdbd8dd8ddd0009e54"
+          "@id": "_:N77f64ac8519d4f8bbeccb1c65ea14709"
         },
         {
-          "@id": "_:N54f519fa77ea481aa4a340846f3893f5"
+          "@id": "_:N6b50781d1b564b91b927484e2af47580"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,12 +66,6 @@
           "@id": "edam:operation_3439"
         },
         {
-          "@id": "edam:operation_0313"
-        },
-        {
-          "@id": "edam:operation_3435"
-        },
-        {
           "@id": "edam:operation_3501"
         },
         {
@@ -79,6 +73,12 @@
         },
         {
           "@id": "edam:operation_3218"
+        },
+        {
+          "@id": "edam:operation_3435"
+        },
+        {
+          "@id": "edam:operation_0313"
         }
       ],
       "sc:license": "GPL-3.0",
@@ -94,7 +94,7 @@
       "sc:url": "https://github.com/emmesgit/RSEQREP"
     },
     {
-      "@id": "_:Nd1892db3b503402e8868a1d86e7fad1e",
+      "@id": "_:N3ed0ba85ba7046afa037e5a1cd13dbf9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -105,18 +105,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Ne8aabd1257df47fdbd8dd8ddd0009e54",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3508"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N54f519fa77ea481aa4a340846f3893f5",
+      "@id": "_:N77f64ac8519d4f8bbeccb1c65ea14709",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -127,7 +116,18 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:N91c8786184db4475bda2a68c01dcf8c6",
+      "@id": "_:N6b50781d1b564b91b927484e2af47580",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N1c4f167c930a44d48e9432a56fe72e07",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"

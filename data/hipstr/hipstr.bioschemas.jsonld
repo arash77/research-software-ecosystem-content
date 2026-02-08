@@ -36,49 +36,53 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nmeth.4267",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/hipstr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N599455d84b734e7fbf7748745612d9a7"
+          "@id": "_:N3b5382c2a131471d8bf190b5a668e2c4"
         },
         {
-          "@id": "_:N5483643171c6441e859dfa9aa582cccc"
+          "@id": "_:Nd61679f5df8f4aada0f2bf2bac7c8ad5"
         },
         {
-          "@id": "_:Nd75ba4d0896746ac89fa22b32baf0296"
+          "@id": "_:N95338d31903543cdb61ee2eab024b693"
         }
       ],
       "bsc:output": {
-        "@id": "_:N7a5fa8a894214bce94ee387b6fd1afb3"
+        "@id": "_:Nb0f380cdd02c4b1383d21b4b64120729"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0157"
+          "@id": "edam:topic_3168"
         },
         {
           "@id": "edam:topic_0622"
         },
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_0157"
         }
       ],
       "sc:citation": [
+        "pubmed:28436466",
         "pmcid:PMC5482724",
         {
           "@id": "https://doi.org/10.1038/nmeth.4267"
-        },
-        "pubmed:28436466"
+        }
       ],
       "sc:description": "Haplotype inference and phasing for Short Tandem Repeats (hipSTR) is a haplotype-based method for robustly genotyping and phasing STRs from Illumina sequencing data. It also enables genome-wide analysis and validation of de novo STR mutations.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3557"
+          "@id": "edam:operation_0237"
         },
         {
-          "@id": "edam:operation_0237"
+          "@id": "edam:operation_3557"
         },
         {
           "@id": "edam:operation_3218"
@@ -93,18 +97,7 @@
       "sc:url": "https://hipstr-tool.github.io/HipSTR/"
     },
     {
-      "@id": "_:N7a5fa8a894214bce94ee387b6fd1afb3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3498"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3016"
-      },
-      "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "_:N599455d84b734e7fbf7748745612d9a7",
+      "@id": "_:N3b5382c2a131471d8bf190b5a668e2c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -115,7 +108,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N5483643171c6441e859dfa9aa582cccc",
+      "@id": "_:Nd61679f5df8f4aada0f2bf2bac7c8ad5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2914"
@@ -126,7 +119,7 @@
       "sc:name": "Sequence features metadata"
     },
     {
-      "@id": "_:Nd75ba4d0896746ac89fa22b32baf0296",
+      "@id": "_:N95338d31903543cdb61ee2eab024b693",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -137,8 +130,15 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "https://doi.org/10.1038/nmeth.4267",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nb0f380cdd02c4b1383d21b4b64120729",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
     }
   ]
 }

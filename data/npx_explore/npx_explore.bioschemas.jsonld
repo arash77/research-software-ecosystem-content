@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/npx_explore",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf8aa8d34dfce4dc08a9310c77d3f8cc1"
+        "@id": "_:N1ca5720771f84f76adfc1ceb2c33e536"
       },
       "bsc:output": [
         {
-          "@id": "_:N22fcf4a070fb4c9f915b0bd566fe2850"
+          "@id": "_:Nce85d6c5b61a444ab12a6c952a6395d5"
         },
         {
-          "@id": "_:Nb008c5082dc7469aa0947bc8b68e60fe"
+          "@id": "_:Nf8629eb21ef24dca9d5fc627c6f54097"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -73,23 +73,7 @@
       "sc:url": "https://olink.com/software/npx-software"
     },
     {
-      "@id": "_:N22fcf4a070fb4c9f915b0bd566fe2850",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nb008c5082dc7469aa0947bc8b68e60fe",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2082"
-      },
-      "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:Nf8aa8d34dfce4dc08a9310c77d3f8cc1",
+      "@id": "_:N1ca5720771f84f76adfc1ceb2c33e536",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -98,6 +82,22 @@
         "@id": "edam:format_1931"
       },
       "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Nce85d6c5b61a444ab12a6c952a6395d5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nf8629eb21ef24dca9d5fc627c6f54097",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
     }
   ]
 }

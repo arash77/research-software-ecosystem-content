@@ -41,72 +41,72 @@
       "biotools:primaryContact": "Magnus Palmblad",
       "bsc:input": [
         {
-          "@id": "_:N42b82c3c383c41999b4e0dae9266de67"
+          "@id": "_:Nb7b7afd1309a44ad9a51ca380138da6a"
         },
         {
-          "@id": "_:Nd8362474ba1646b495d246d1e5925e1b"
+          "@id": "_:N1bdaf8818c7c45c68d22b384957b1997"
         },
         {
-          "@id": "_:N914956b90780490380bfd845459bac32"
+          "@id": "_:N2922e382bc9b4138903b3a49c40a1530"
         },
         {
-          "@id": "_:N1017646974514ec082f2e07827533ee5"
+          "@id": "_:N6d1135f77caa4d85b8f307451fc647ba"
         },
         {
-          "@id": "_:N0b089edee2d845d682840cb998f85992"
+          "@id": "_:Ne1c13f4796ab4207bc7fff2194b8a637"
         },
         {
-          "@id": "_:N605239b514924480a48beef3d877e3e0"
+          "@id": "_:N01e56577a05c4d529b5c037010a45718"
         },
         {
-          "@id": "_:N5e28bf388d6b41cda5c2d37a3b46cadf"
+          "@id": "_:N49796faa45e64e709cd1adaa38a58dad"
         },
         {
-          "@id": "_:Nc5155c0b363141ac98bcfab0c44ded83"
+          "@id": "_:N3599318545f74e18bc3aba9134fafe77"
         },
         {
-          "@id": "_:Ncbb5de9ed06744e78523405bbe83ec29"
+          "@id": "_:N276675c2d57f4294bce78bc47645a90e"
         },
         {
-          "@id": "_:Nfd7c57c8c36a4baa9ad28bedc17a6f26"
+          "@id": "_:Ndbe39b672c52402197afcd5925d024d4"
         },
         {
-          "@id": "_:Ndfcb6dbda6d14d89befe09ea6bf8e090"
+          "@id": "_:Nd93dabda8b4145b3a5e0a92fe7df0a95"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nbdbe75125b254edc8cd42c8c15a7b6c2"
+          "@id": "_:Na9e606bde6d54866bce9af294f93c1e2"
         },
         {
-          "@id": "_:N62ccb2cdfd154ab4a33e8b14a27da28f"
+          "@id": "_:N336c311dee564d4bb1cb089ace90f2c2"
         },
         {
-          "@id": "_:N1e06372f5f6f4d1092694aa574a20a8d"
+          "@id": "_:N8c34dba671cb46e69f93775755fcb0cb"
         },
         {
-          "@id": "_:N39b58295da3a47c2930085bc49235091"
+          "@id": "_:N3a387d8e4bd9489ea8ac91f9ac33e640"
         },
         {
-          "@id": "_:N814b596525424e989c79b4e7e88aa52d"
+          "@id": "_:N7d3a4d9dd0064ffda253c33ccf83fd54"
         },
         {
-          "@id": "_:N6f882df573e74ebdb06c3a093919d583"
+          "@id": "_:N9f01fdd1122c4735bb809638b3f82ecf"
         },
         {
-          "@id": "_:Nb1e1df8e8f73477a811b3d9bc356577c"
+          "@id": "_:N2ba93a13189444a78bd8b7a4ab99cba9"
         },
         {
-          "@id": "_:N72a7fc39261f44e29258f00b387e8e0f"
+          "@id": "_:N29103c5a137844e19f9d3baab5f0d3c2"
         },
         {
-          "@id": "_:Naf35f2a60c47457b981d41b85ec2623e"
+          "@id": "_:N039188266ca647e5a1cd6dbe441d61da"
         },
         {
-          "@id": "_:Ne9a0ae4895c948c7a71757c60649dd2c"
+          "@id": "_:N38b7cc72b64e4af28e5c596d01a20f66"
         },
         {
-          "@id": "_:N39865e92fd4b4707bb872874d74fdb06"
+          "@id": "_:Ndc340e09fb414fc09ccdfa45928b32f6"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -124,139 +124,7 @@
       "sc:url": "https://github.com/magnuspalmblad/shic"
     },
     {
-      "@id": "_:Nbdbe75125b254edc8cd42c8c15a7b6c2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1009"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Protein name"
-    },
-    {
-      "@id": "_:N62ccb2cdfd154ab4a33e8b14a27da28f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0870"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1991"
-      },
-      "sc:name": "Sequence distance matrix"
-    },
-    {
-      "@id": "_:N1e06372f5f6f4d1092694aa574a20a8d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2872"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "ID list"
-    },
-    {
-      "@id": "_:N39b58295da3a47c2930085bc49235091",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2976"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:N814b596525424e989c79b4e7e88aa52d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2872"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "ID list"
-    },
-    {
-      "@id": "_:N6f882df573e74ebdb06c3a093919d583",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0945"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3247"
-      },
-      "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "_:Nb1e1df8e8f73477a811b3d9bc356577c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1174"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "ChEBI ID"
-    },
-    {
-      "@id": "_:N72a7fc39261f44e29258f00b387e8e0f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3021"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "UniProt accession"
-    },
-    {
-      "@id": "_:Naf35f2a60c47457b981d41b85ec2623e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2764"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Protein name (UniProt)"
-    },
-    {
-      "@id": "_:Ne9a0ae4895c948c7a71757c60649dd2c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3651"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N39865e92fd4b4707bb872874d74fdb06",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2976"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:N42b82c3c383c41999b4e0dae9266de67",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0945"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3655"
-      },
-      "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "_:Nd8362474ba1646b495d246d1e5925e1b",
+      "@id": "_:Nb7b7afd1309a44ad9a51ca380138da6a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0972"
@@ -267,7 +135,18 @@
       "sc:name": "Text mining report"
     },
     {
-      "@id": "_:N914956b90780490380bfd845459bac32",
+      "@id": "_:N1bdaf8818c7c45c68d22b384957b1997",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N2922e382bc9b4138903b3a49c40a1530",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -278,18 +157,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N1017646974514ec082f2e07827533ee5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0945"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3655"
-      },
-      "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "_:N0b089edee2d845d682840cb998f85992",
+      "@id": "_:N6d1135f77caa4d85b8f307451fc647ba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -300,18 +168,7 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:N605239b514924480a48beef3d877e3e0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0896"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Protein report"
-    },
-    {
-      "@id": "_:N5e28bf388d6b41cda5c2d37a3b46cadf",
+      "@id": "_:Ne1c13f4796ab4207bc7fff2194b8a637",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0870"
@@ -322,7 +179,7 @@
       "sc:name": "Sequence distance matrix"
     },
     {
-      "@id": "_:Nc5155c0b363141ac98bcfab0c44ded83",
+      "@id": "_:N01e56577a05c4d529b5c037010a45718",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -333,18 +190,18 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Ncbb5de9ed06744e78523405bbe83ec29",
+      "@id": "_:N49796faa45e64e709cd1adaa38a58dad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0945"
+        "@id": "edam:data_0896"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3247"
+        "@id": "edam:format_3475"
       },
-      "sc:name": "Peptide identification"
+      "sc:name": "Protein report"
     },
     {
-      "@id": "_:Nfd7c57c8c36a4baa9ad28bedc17a6f26",
+      "@id": "_:N3599318545f74e18bc3aba9134fafe77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -355,7 +212,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Ndfcb6dbda6d14d89befe09ea6bf8e090",
+      "@id": "_:N276675c2d57f4294bce78bc47645a90e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -364,6 +221,149 @@
         "@id": "edam:format_3655"
       },
       "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:Ndbe39b672c52402197afcd5925d024d4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:Nd93dabda8b4145b3a5e0a92fe7df0a95",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3247"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:Na9e606bde6d54866bce9af294f93c1e2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1009"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein name"
+    },
+    {
+      "@id": "_:N336c311dee564d4bb1cb089ace90f2c2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3651"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N8c34dba671cb46e69f93775755fcb0cb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2764"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein name (UniProt)"
+    },
+    {
+      "@id": "_:N3a387d8e4bd9489ea8ac91f9ac33e640",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "ID list"
+    },
+    {
+      "@id": "_:N7d3a4d9dd0064ffda253c33ccf83fd54",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3247"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N9f01fdd1122c4735bb809638b3f82ecf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "ID list"
+    },
+    {
+      "@id": "_:N2ba93a13189444a78bd8b7a4ab99cba9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1174"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "ChEBI ID"
+    },
+    {
+      "@id": "_:N29103c5a137844e19f9d3baab5f0d3c2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N039188266ca647e5a1cd6dbe441d61da",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N38b7cc72b64e4af28e5c596d01a20f66",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Ndc340e09fb414fc09ccdfa45928b32f6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0870"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1991"
+      },
+      "sc:name": "Sequence distance matrix"
     }
   ]
 }

@@ -39,22 +39,22 @@
       "@id": "https://bio.tools/delta_mass",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nea909bdb1aaa4dc4a4da1863744f69b5"
+        "@id": "_:N468807ce2b024c6f9aa5eae15cab1421"
       },
       "bsc:output": {
-        "@id": "_:N49c2436ff33b46d583989d712cab133f"
+        "@id": "_:N25f12d9d840f4ae5aac83a527ffd6376"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
-        },
-        {
           "@id": "edam:topic_0601"
         },
         {
           "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:description": "The ABRF database of protein post-translational modifications.",
@@ -63,9 +63,9 @@
       },
       "sc:name": "Delta Mass",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://abrf.org/delta-mass"
@@ -73,18 +73,7 @@
       "sc:url": "http://www.abrf.org/index.cfm/dm.home"
     },
     {
-      "@id": "_:Nea909bdb1aaa4dc4a4da1863744f69b5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2618"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Protein modification ID"
-    },
-    {
-      "@id": "_:N49c2436ff33b46d583989d712cab133f",
+      "@id": "_:N25f12d9d840f4ae5aac83a527ffd6376",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0844"
@@ -93,6 +82,17 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Molecular mass"
+    },
+    {
+      "@id": "_:N468807ce2b024c6f9aa5eae15cab1421",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2618"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein modification ID"
     }
   ]
 }

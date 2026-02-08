@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/profsec",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N625073c965884af88d3fa080862760f7"
+        "@id": "_:N6c262821dbab48a18ccede2d48a2178f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -67,7 +67,7 @@
       "sc:url": "http://www.predictprotein.org"
     },
     {
-      "@id": "_:N625073c965884af88d3fa080862760f7",
+      "@id": "_:N6c262821dbab48a18ccede2d48a2178f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"

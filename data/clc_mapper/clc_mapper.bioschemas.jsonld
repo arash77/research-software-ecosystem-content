@@ -36,62 +36,50 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2164-11-571",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/clc_mapper",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N9ea1339e6231441288257d7b7db3ef2d"
+          "@id": "_:N03f3e1965ebc46b0b71c966d196cdf76"
         },
         {
-          "@id": "_:Nf276b00f5b2c4c44b0922fd980a5c216"
+          "@id": "_:N442103556a4c4e87be3b1a714379989f"
         },
         {
-          "@id": "_:Nbf9ced4cdcf14e95b97714515c240bb5"
+          "@id": "_:N769e6b268efc49d49484a3c70c8efd1a"
         },
         {
-          "@id": "_:Nb4319cd7089341b3bd18f77a02bd92d8"
+          "@id": "_:N702363475f1342d7bf08419c2ade0c7d"
         }
       ],
       "bsc:output": {
-        "@id": "_:N923bc539473940489ed920d1125ef9a7"
+        "@id": "_:N41428a08aa0b4da6af93bbf8a5278d8f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_0102"
         },
         {
-          "@id": "edam:topic_0102"
+          "@id": "edam:topic_3168"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4987906",
-        "pmcid:PMC3091720",
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
         {
           "@id": "https://doi.org/10.1186/1471-2164-11-571"
         },
-        "pubmed:27137889",
-        "pubmed:20950480",
+        "pmcid:PMC3091720",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
-        {
-          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
-        }
+        "pubmed:20950480",
+        "pubmed:27137889",
+        "pmcid:PMC4987906"
       ],
       "sc:description": "Map reads on reference sequences.",
       "sc:featureList": {
@@ -110,18 +98,7 @@
       "sc:url": "https://bio.tools/clcbio_genomics_workbench"
     },
     {
-      "@id": "_:N923bc539473940489ed920d1125ef9a7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2333"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N9ea1339e6231441288257d7b7db3ef2d",
+      "@id": "_:N03f3e1965ebc46b0b71c966d196cdf76",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -132,7 +109,18 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf276b00f5b2c4c44b0922fd980a5c216",
+      "@id": "_:N442103556a4c4e87be3b1a714379989f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N769e6b268efc49d49484a3c70c8efd1a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -148,7 +136,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbf9ced4cdcf14e95b97714515c240bb5",
+      "@id": "_:N702363475f1342d7bf08419c2ade0c7d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -159,15 +147,27 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nb4319cd7089341b3bd18f77a02bd92d8",
+      "@id": "_:N41428a08aa0b4da6af93bbf8a5278d8f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1930"
+        "@id": "edam:format_2333"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2164-11-571",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nea61ee2dcc6a4845bfa09e776231745e"
+        "@id": "_:Ne2327e20bdd3419692b372d79a1edd26"
       },
       "bsc:output": {
-        "@id": "_:Ne9ae2f41ac484f61b4460dfd6637dda4"
+        "@id": "_:Nde33484c3d684912ba5ae77982f4b586"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -68,9 +68,9 @@
       },
       "sc:name": "bam_to_sam",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.htslib.org/doc/samtools.html"
@@ -79,24 +79,24 @@
       "sc:url": "http://www.htslib.org/"
     },
     {
-      "@id": "_:Ne9ae2f41ac484f61b4460dfd6637dda4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0924"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2573"
-      },
-      "sc:name": "Sequence trace"
-    },
-    {
-      "@id": "_:Nea61ee2dcc6a4845bfa09e776231745e",
+      "@id": "_:Ne2327e20bdd3419692b372d79a1edd26",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Nde33484c3d684912ba5ae77982f4b586",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
       },
       "sc:name": "Sequence trace"
     },

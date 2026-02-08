@@ -41,34 +41,34 @@
       "biotools:primaryContact": "BioConductor Package Maintainer",
       "bsc:input": [
         {
-          "@id": "_:N28c0643a880f44368a32297650c9fc33"
+          "@id": "_:Nfc31771205a34337a7bf886f471579d8"
         },
         {
-          "@id": "_:Nf4fb0ebd38cb42a4a8ed5d5e0c150398"
+          "@id": "_:Nfa15e00b5c5b4f1ebc0bc70354ec3e38"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5a5346a4e0824d36a048b3c62a638336"
+          "@id": "_:N0ffb1ca0190347fbaa85eb8f45ca6614"
         },
         {
-          "@id": "_:Nd884d060c19f474f84b9138823c2474e"
+          "@id": "_:Nd5024d03e30f4f36b254ce138344e4e9"
         },
         {
-          "@id": "_:N3e7eb76bf7ca49858776fa3216e8eb9d"
+          "@id": "_:N78c53c3f05f5413cbf9bb8c5db346a52"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3572"
+          "@id": "edam:topic_0089"
         },
         {
-          "@id": "edam:topic_0089"
+          "@id": "edam:topic_3572"
         }
       ],
       "sc:citation": [
@@ -84,9 +84,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "GOstats",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/GOstats.html"
@@ -95,26 +95,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/GOstats.html"
     },
     {
-      "@id": "_:N5a5346a4e0824d36a048b3c62a638336",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_2331"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nd884d060c19f474f84b9138823c2474e",
+      "@id": "_:N0ffb1ca0190347fbaa85eb8f45ca6614",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -124,19 +105,19 @@
           "@id": "edam:format_2331"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Score"
     },
     {
-      "@id": "_:N3e7eb76bf7ca49858776fa3216e8eb9d",
+      "@id": "_:Nd5024d03e30f4f36b254ce138344e4e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2048"
+        "@id": "edam:data_2884"
       },
       "sc:encodingFormat": [
         {
@@ -149,36 +130,55 @@
           "@id": "edam:format_2330"
         }
       ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N78c53c3f05f5413cbf9bb8c5db346a52",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
       "sc:name": "Report"
     },
     {
-      "@id": "_:N28c0643a880f44368a32297650c9fc33",
+      "@id": "_:Nfc31771205a34337a7bf886f471579d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2195"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2195"
         }
       ],
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Nf4fb0ebd38cb42a4a8ed5d5e0c150398",
+      "@id": "_:Nfa15e00b5c5b4f1ebc0bc70354ec3e38",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0582"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2195"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2195"
         }
       ],
       "sc:name": "Ontology"

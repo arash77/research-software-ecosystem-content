@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btn344",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/triton",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Martin Prokop",
       "bsc:input": {
-        "@id": "_:N47076dd1cfad47da88612ba5ffff7a55"
+        "@id": "_:N01e4c23e044646268b06851893da61c0"
       },
       "bsc:output": {
-        "@id": "_:N739002cd57ff4daba4e463035ded9e2e"
+        "@id": "_:Nc14acc44eedb466a8c7eff74e1254705"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -56,13 +60,13 @@
       "sc:description": "In silico construction of protein mutants, modelling enzymatic reactions, analysis of essential interactions between the enzyme and its substrate and docking ligand molecules into protein receptors.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2492"
-        },
-        {
           "@id": "edam:operation_0331"
         },
         {
           "@id": "edam:operation_0570"
+        },
+        {
+          "@id": "edam:operation_2492"
         },
         {
           "@id": "edam:operation_2426"
@@ -87,7 +91,7 @@
       "sc:url": "http://ncbr.chemi.muni.cz/triton/triton.html"
     },
     {
-      "@id": "_:N739002cd57ff4daba4e463035ded9e2e",
+      "@id": "_:Nc14acc44eedb466a8c7eff74e1254705",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -95,16 +99,12 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N47076dd1cfad47da88612ba5ffff7a55",
+      "@id": "_:N01e4c23e044646268b06851893da61c0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1759"
       },
       "sc:name": "PDB model number"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btn344",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

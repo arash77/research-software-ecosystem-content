@@ -39,22 +39,22 @@
       "@id": "https://bio.tools/neural_admixture",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9a91aa23434b4f4eabaeceefdc09746c"
+        "@id": "_:N0260057f99094490b95a8c15370b30da"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0102"
-        },
-        {
           "@id": "edam:topic_3474"
         },
         {
-          "@id": "edam:topic_2885"
+          "@id": "edam:topic_0102"
         },
         {
           "@id": "edam:topic_3337"
+        },
+        {
+          "@id": "edam:topic_2885"
         },
         {
           "@id": "edam:topic_0625"
@@ -80,26 +80,26 @@
       "sc:name": "Neural ADMIXTURE",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:url": "https://github.com/ai-sandbox/neural-admixture"
     },
     {
-      "@id": "_:N9a91aa23434b4f4eabaeceefdc09746c",
+      "@id": "_:N0260057f99094490b95a8c15370b30da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3003"
+          "@id": "edam:format_3016"
         },
         {
           "@id": "edam:format_3590"
         },
         {
-          "@id": "edam:format_3016"
+          "@id": "edam:format_3003"
         }
       ],
       "sc:name": "Sequence"

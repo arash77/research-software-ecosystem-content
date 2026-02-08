@@ -47,7 +47,7 @@
         "Luana Licata"
       ],
       "bsc:output": {
-        "@id": "_:Nf9eaf09f51ab48ff990146985a618d68"
+        "@id": "_:Ne73daf6349994182a92aa8c010f22358"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -71,17 +71,17 @@
       "sc:description": "This tool archives evidence about viral interactions collected from different manually curated protein-protein interaction databases that have adhered to the IMEx consortium.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2421"
+          "@id": "edam:operation_3083"
         },
         {
-          "@id": "edam:operation_3083"
+          "@id": "edam:operation_2421"
         }
       ],
       "sc:name": "VirusMentha",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": [
         "ELIXIR-ITA-TORVERGATA",
@@ -94,7 +94,7 @@
       "sc:url": "http://virusmentha.uniroma2.it/"
     },
     {
-      "@id": "_:Nf9eaf09f51ab48ff990146985a618d68",
+      "@id": "_:Ne73daf6349994182a92aa8c010f22358",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"

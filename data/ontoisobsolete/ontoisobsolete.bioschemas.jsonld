@@ -36,22 +36,10 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ontoisobsolete",
       "@type": "sc:SoftwareApplication",
       "bsc:output": {
-        "@id": "_:N997849a3db1d4416956f7d962ca4d50f"
+        "@id": "_:N0af21bcf3f024d009ecc045953f5745c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -70,31 +58,31 @@
         }
       ],
       "sc:contributor": [
-        "EMBOSS Contributors",
-        "UK MRC",
         "UK BBSRC",
-        "Wellcome Trust"
+        "UK MRC",
+        "Wellcome Trust",
+        "EMBOSS Contributors"
       ],
       "sc:description": "Report whether an ontology term id is obsolete.",
       "sc:featureList": {
         "@id": "edam:operation_2422"
       },
       "sc:funder": [
-        "UK MRC",
         "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "ontoisobsolete",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": [
-        "EMBOSS",
-        "EMBL-EBI"
+        "EMBL-EBI",
+        "EMBOSS"
       ],
       "sc:softwareHelp": [
         {
@@ -111,12 +99,24 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/ontoisobsolete.html"
     },
     {
-      "@id": "_:N997849a3db1d4416956f7d962ca4d50f",
+      "@id": "_:N0af21bcf3f024d009ecc045953f5745c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2223"
       },
       "sc:name": "Ontology metadata"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

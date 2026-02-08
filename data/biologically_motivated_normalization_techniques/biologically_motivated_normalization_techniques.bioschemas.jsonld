@@ -43,19 +43,19 @@
       "@id": "https://bio.tools/biologically_motivated_normalization_techniques",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8c35f406d58d41bf87c609c1516676fc"
+        "@id": "_:Nd72b381972594636adac55deef69d501"
       },
       "bsc:output": {
-        "@id": "_:Ne74705213fe6459eb8417af5d11ad3e2"
+        "@id": "_:N912103ad1f784ccb93663cfff2c6a972"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_0092"
         },
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_3474"
         }
       ],
       "sc:author": {
@@ -68,9 +68,9 @@
       "sc:license": "EUPL-1.1",
       "sc:name": "Biologically motivated normalization techniques",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://cbml-gitlab.ics.forth.gr/adovrou/biointensitynorm/-/tree/eucaim?ref_type=heads"
@@ -79,7 +79,7 @@
       "sc:url": "https://cbml-gitlab.ics.forth.gr/adovrou/biointensitynorm/-/tree/eucaim?ref_type=heads"
     },
     {
-      "@id": "_:Ne74705213fe6459eb8417af5d11ad3e2",
+      "@id": "_:N912103ad1f784ccb93663cfff2c6a972",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -90,7 +90,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N8c35f406d58d41bf87c609c1516676fc",
+      "@id": "_:Nd72b381972594636adac55deef69d501",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

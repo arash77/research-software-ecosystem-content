@@ -40,58 +40,58 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4f406eda1dec4248aa2fec1a0a444ab0"
+          "@id": "_:N981b277b7183413cbf68ba4253644a99"
         },
         {
-          "@id": "_:N735defdc36c841a0acde2a32a29d5832"
+          "@id": "_:N32a8206abd174e4b8815807b5e27b3eb"
         },
         {
-          "@id": "_:N9291dd96aed64bcb9a25b7e530acc6ae"
+          "@id": "_:Nb650e9cb39e34731ada0c4bd1d623cc9"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N397aa4c13f42400f91f1541bf18db5c0"
+          "@id": "_:N13eaf2792b1e4997845e91c23f40e890"
         },
         {
-          "@id": "_:Nec612743016e4ad1ad8f38f4ebffed54"
+          "@id": "_:N752a12a9a03c493d8ea1176f1a28b892"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3930"
+          "@id": "edam:topic_3948"
         },
         {
-          "@id": "edam:topic_3948"
+          "@id": "edam:topic_3930"
         }
       ],
       "sc:citation": [
         "pmcid:PMC4383898",
-        "pubmed:25378316",
         {
           "@id": "https://doi.org/10.1093/nar/gku1056"
-        }
+        },
+        "pubmed:25378316"
       ],
       "sc:description": "IMGT/2Dstructure-DB is the IMGT® database for 2D structures (IMGT Colliers de Perles) of immunoglobulins (IG) or antibodies, T cell receptors (TR), major histocompatibility (MH) proteins and related proteins of the immune system (RPI).\nAnnotation is based on the IMGT-ONTOLOGY concepts.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0564"
+          "@id": "edam:operation_2416"
         },
         {
           "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_2416"
+          "@id": "edam:operation_0564"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "IMGT 2Dstructure-DB",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.imgt.org/3Dstructure-DB/doc/IMGT3DstructureDBHelp.shtml"
@@ -99,40 +99,18 @@
       "sc:url": "http://www.imgt.org/3Dstructure-DB/"
     },
     {
-      "@id": "_:N4f406eda1dec4248aa2fec1a0a444ab0",
+      "@id": "_:N13eaf2792b1e4997845e91c23f40e890",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0968"
+        "@id": "edam:data_0863"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2330"
+        "@id": "edam:format_2331"
       },
-      "sc:name": "Keyword"
+      "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N735defdc36c841a0acde2a32a29d5832",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:N9291dd96aed64bcb9a25b7e530acc6ae",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2858"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Ontology concept"
-    },
-    {
-      "@id": "_:N397aa4c13f42400f91f1541bf18db5c0",
+      "@id": "_:N752a12a9a03c493d8ea1176f1a28b892",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -143,15 +121,37 @@
       "sc:name": "Sequence report"
     },
     {
-      "@id": "_:Nec612743016e4ad1ad8f38f4ebffed54",
+      "@id": "_:N981b277b7183413cbf68ba4253644a99",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0863"
+        "@id": "edam:data_0842"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2331"
+        "@id": "edam:format_2330"
       },
-      "sc:name": "Sequence alignment"
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N32a8206abd174e4b8815807b5e27b3eb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2858"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Ontology concept"
+    },
+    {
+      "@id": "_:Nb650e9cb39e34731ada0c4bd1d623cc9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Keyword"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gku1056",

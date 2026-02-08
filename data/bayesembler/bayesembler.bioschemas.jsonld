@@ -43,45 +43,45 @@
       "@id": "https://bio.tools/bayesembler",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Lasse Maretty",
-        "Jonas Andreas Sibbesen"
+        "Jonas Andreas Sibbesen",
+        "Lasse Maretty"
       ],
       "bsc:input": {
-        "@id": "_:N9dc09ac7b1b54ca4b5fad2c0fc1d75c0"
+        "@id": "_:N6835d4455e114310b5bfe7c1e9a08b6a"
       },
       "bsc:output": {
-        "@id": "_:N42f0e871c75745b5abca5c96877b9f40"
+        "@id": "_:N1e4ab81283124cedb909c0db23b48cd6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0196"
-        },
-        {
           "@id": "edam:topic_3308"
         },
         {
-          "@id": "edam:topic_0749"
+          "@id": "edam:topic_0196"
         },
         {
           "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_0749"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1186/s13059-014-0501-4"
         },
-        "pmcid:PMC4397945",
-        "pubmed:25367074"
+        "pubmed:25367074",
+        "pmcid:PMC4397945"
       ],
       "sc:description": "Bayesian method for doing transcriptome assembly from RNA-seq data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0310"
+          "@id": "edam:operation_3258"
         },
         {
-          "@id": "edam:operation_3258"
+          "@id": "edam:operation_0310"
         },
         {
           "@id": "edam:operation_3563"
@@ -101,7 +101,7 @@
       "sc:url": "http://bioinformatics-centre.github.io/bayesembler/"
     },
     {
-      "@id": "_:N9dc09ac7b1b54ca4b5fad2c0fc1d75c0",
+      "@id": "_:N6835d4455e114310b5bfe7c1e9a08b6a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -112,7 +112,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N42f0e871c75745b5abca5c96877b9f40",
+      "@id": "_:N1e4ab81283124cedb909c0db23b48cd6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2769"

@@ -40,14 +40,18 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/changegfffeatures",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nda4cad48178b41d58f880fceef67d45b"
+        "@id": "_:N1f54bf55296d4c0ca04c53368a0bbbed"
       },
       "bsc:output": {
-        "@id": "_:N2f5053e5d00848e9a4dbbc586bc3fd8b"
+        "@id": "_:Nd7d117d6c928448b9e45027ed5437bec"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -60,13 +64,13 @@
         }
       ],
       "sc:citation": [
-        "pubmed:27137889",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
+        "pubmed:27137889",
         "pmcid:PMC4987906"
       ],
       "sc:description": "Changes one feature name by an other name (the feature name can be found on the 3rd column).",
@@ -75,9 +79,9 @@
       },
       "sc:name": "changegfffeatures",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/changeGffFeatures/1.0.0"
@@ -86,7 +90,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N2f5053e5d00848e9a4dbbc586bc3fd8b",
+      "@id": "_:N1f54bf55296d4c0ca04c53368a0bbbed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -97,7 +101,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nda4cad48178b41d58f880fceef67d45b",
+      "@id": "_:Nd7d117d6c928448b9e45027ed5437bec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -106,10 +110,6 @@
         "@id": "edam:format_1975"
       },
       "sc:name": "Data"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

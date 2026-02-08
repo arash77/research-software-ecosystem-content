@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2105-9-392",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://orcid.org/0000-0002-0274-5669",
       "@type": "sc:Person"
     },
@@ -50,27 +54,27 @@
         }
       ],
       "bsc:input": {
-        "@id": "_:Ncde81d07921c455eb941d17faf9d0396"
+        "@id": "_:N240351b4456a4bc494c657f194c06076"
       },
       "bsc:output": {
-        "@id": "_:N89754242e2d94a4782a6b54de0acb4d0"
+        "@id": "_:Nd8a493d18aa44de0b2d9cf458d79e906"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3542"
+          "@id": "edam:topic_0123"
         },
         {
-          "@id": "edam:topic_0123"
+          "@id": "edam:topic_3542"
         }
       ],
       "sc:citation": [
-        "pubmed:18811934",
+        "pmcid:PMC2571997",
         {
           "@id": "https://doi.org/10.1186/1471-2105-9-392"
         },
-        "pmcid:PMC2571997"
+        "pubmed:18811934"
       ],
       "sc:description": "Prediction system for GPI-anchored proteins.",
       "sc:featureList": {
@@ -79,9 +83,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "PredGPI",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "ELIXIR-ITA-BOLOGNA",
       "sc:softwareHelp": {
@@ -91,18 +95,7 @@
       "sc:url": "https://busca.biocomp.unibo.it/predgpi"
     },
     {
-      "@id": "_:Ncde81d07921c455eb941d17faf9d0396",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2974"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Protein sequence (raw)"
-    },
-    {
-      "@id": "_:N89754242e2d94a4782a6b54de0acb4d0",
+      "@id": "_:Nd8a493d18aa44de0b2d9cf458d79e906",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -113,8 +106,15 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "https://doi.org/10.1186/1471-2105-9-392",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N240351b4456a4bc494c657f194c06076",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
     }
   ]
 }

@@ -48,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:Nd5d175902e96453fb9efdd5212b2b606"
+        "@id": "_:Ne914646824454e4d9917da3fd2381c6c"
       },
       "bsc:output": {
-        "@id": "_:Nd07f5428a25a428ea626fd88fccede25"
+        "@id": "_:N2b21b68e792241f1b81ee55c716aeb6d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -60,27 +60,27 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3512"
+          "@id": "edam:topic_0157"
         },
         {
-          "@id": "edam:topic_0157"
+          "@id": "edam:topic_3512"
         }
       ],
       "sc:author": "EMBOSS",
       "sc:citation": [
         "pubmed:35412617",
-        "pmcid:PMC11223882",
-        "pubmed:38597606",
-        {
-          "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
-        },
+        "pmcid:PMC9252731",
         {
           "@id": "https://doi.org/10.1093/nar/gkae241"
         },
         {
           "@id": "https://doi.org/10.1093/nar/gkac240"
         },
-        "pmcid:PMC9252731"
+        "pmcid:PMC11223882",
+        "pubmed:38597606",
+        {
+          "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
+        }
       ],
       "sc:description": "Identification of potential CpG islands.",
       "sc:featureList": {
@@ -88,27 +88,27 @@
       },
       "sc:name": "newcpgreport (EBI)",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
         {
-          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
+          "@id": "https://emboss.sourceforge.net/"
         },
         {
           "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
-          "@id": "https://emboss.sourceforge.net/"
+          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/seqstats/emboss_newcpgreport"
     },
     {
-      "@id": "_:Nd07f5428a25a428ea626fd88fccede25",
+      "@id": "_:N2b21b68e792241f1b81ee55c716aeb6d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -116,7 +116,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:Nd5d175902e96453fb9efdd5212b2b606",
+      "@id": "_:Ne914646824454e4d9917da3fd2381c6c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"

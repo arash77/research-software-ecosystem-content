@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/nokoi",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3928dceb8f7f47c4b1885e027ea19d75"
+        "@id": "_:Nb9bc53b70dcf403baafbaaf21cd906d6"
       },
       "bsc:output": {
-        "@id": "_:N4c6f85cac72e48b8837dae495d29a589"
+        "@id": "_:N3a37f342ce044d319bc4a9d3fc2ea18c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -67,7 +67,7 @@
       "sc:url": "http://genesis.ugent.be/files/costore/Nokoi_utilities.zip"
     },
     {
-      "@id": "_:N3928dceb8f7f47c4b1885e027ea19d75",
+      "@id": "_:N3a37f342ce044d319bc4a9d3fc2ea18c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -75,7 +75,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N4c6f85cac72e48b8837dae495d29a589",
+      "@id": "_:Nb9bc53b70dcf403baafbaaf21cd906d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

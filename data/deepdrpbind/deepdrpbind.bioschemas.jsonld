@@ -40,13 +40,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb3c2524f5a7e4bbe94874e09ec5a849e"
+          "@id": "_:Ne524efba645546938c86a57e18f647bc"
         },
         {
-          "@id": "_:N259fe1d57adf4ca4a28ee6541297c4f1"
+          "@id": "_:Nf9ba64f9198247559601836101ac7dfb"
         },
         {
-          "@id": "_:Naacf7448f0e7461cb264cdef846ad1cc"
+          "@id": "_:N1141d839486d44cfb21621b12ece4514"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -80,26 +80,15 @@
       "sc:url": "https://github.com/roneshsharma/DNA-RNA-Protein-Binding/wiki"
     },
     {
-      "@id": "_:Nb3c2524f5a7e4bbe94874e09ec5a849e",
+      "@id": "_:Ne524efba645546938c86a57e18f647bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2976"
+        "@id": "edam:data_1756"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1213"
-        },
-        {
-          "@id": "edam:format_1208"
-        },
-        {
-          "@id": "edam:format_1212"
-        }
-      ],
-      "sc:name": "Protein sequence"
+      "sc:name": "Protein residue"
     },
     {
-      "@id": "_:N259fe1d57adf4ca4a28ee6541297c4f1",
+      "@id": "_:Nf9ba64f9198247559601836101ac7dfb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1526"
@@ -107,12 +96,23 @@
       "sc:name": "Protein globularity"
     },
     {
-      "@id": "_:Naacf7448f0e7461cb264cdef846ad1cc",
+      "@id": "_:N1141d839486d44cfb21621b12ece4514",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1756"
+        "@id": "edam:data_2976"
       },
-      "sc:name": "Protein residue"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1208"
+        },
+        {
+          "@id": "edam:format_1212"
+        },
+        {
+          "@id": "edam:format_1213"
+        }
+      ],
+      "sc:name": "Protein sequence"
     }
   ]
 }

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/egmrg",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncdec606bcf2d4675a0413abe7e8df4e7"
+        "@id": "_:N579dedca8e154f8288568ea16c34c939"
       },
       "bsc:output": {
-        "@id": "_:N18a50f57a04d457c8f7011adee5d102b"
+        "@id": "_:N8aa2d3704df64efeabb67ff673263efc"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -63,8 +63,8 @@
       "sc:name": "EGMRG",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -73,7 +73,7 @@
       "sc:url": "http://microbiota.wall.gu.se/"
     },
     {
-      "@id": "_:N18a50f57a04d457c8f7011adee5d102b",
+      "@id": "_:N8aa2d3704df64efeabb67ff673263efc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -81,7 +81,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Ncdec606bcf2d4675a0413abe7e8df4e7",
+      "@id": "_:N579dedca8e154f8288568ea16c34c939",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"

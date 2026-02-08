@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/randfold",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N05d8804f682d49a2b2e3ed48254be292"
+        "@id": "_:N67fb1d9a05c44f17bceab08bb40a4b43"
       },
       "bsc:output": {
-        "@id": "_:N835d92245b6b43128ae7b59063aac972"
+        "@id": "_:Nc322dddc070f4c9da5ae2f7486a604be"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -54,10 +54,10 @@
         "@id": "edam:topic_0659"
       },
       "sc:citation": [
-        "pubmed:15217813",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bth374"
-        }
+        },
+        "pubmed:15217813"
       ],
       "sc:description": "Secondary structure calculation of non-coding RNA sequences.",
       "sc:featureList": {
@@ -65,8 +65,8 @@
       },
       "sc:name": "Randfold",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "ugent.be",
@@ -77,7 +77,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/Randfold"
     },
     {
-      "@id": "_:N835d92245b6b43128ae7b59063aac972",
+      "@id": "_:Nc322dddc070f4c9da5ae2f7486a604be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1708"
@@ -88,7 +88,7 @@
       "sc:name": "RNA secondary structure image"
     },
     {
-      "@id": "_:N05d8804f682d49a2b2e3ed48254be292",
+      "@id": "_:N67fb1d9a05c44f17bceab08bb40a4b43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"

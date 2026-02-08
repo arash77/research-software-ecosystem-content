@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/S13321-021-00542-Y",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/shap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nbfc64d06b1764440a3dc971121d17d5b"
+        "@id": "_:N74ffb0b1675e4f22b132d7929956b14e"
       },
       "bsc:output": {
-        "@id": "_:Ncd8f0df05a2048cab02ca009a9806c02"
+        "@id": "_:N1bf0ff16e63b458899955ee96cccfb96"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -55,7 +51,7 @@
           "@id": "edam:topic_3407"
         },
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_0602"
         },
         {
           "@id": "edam:topic_3375"
@@ -64,15 +60,15 @@
           "@id": "edam:topic_0209"
         },
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_3474"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC8477573",
         {
           "@id": "https://doi.org/10.1186/S13321-021-00542-Y"
         },
-        "pubmed:34579792",
-        "pmcid:PMC8477573"
+        "pubmed:34579792"
       ],
       "sc:description": "Evaluation of structural contributions to metabolic stability predictions with the use of SHAP values",
       "sc:featureList": [
@@ -87,13 +83,13 @@
       "sc:name": "SHAP",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:url": "https://metstab-shap.matinf.uj.edu.pl/"
     },
     {
-      "@id": "_:Nbfc64d06b1764440a3dc971121d17d5b",
+      "@id": "_:N74ffb0b1675e4f22b132d7929956b14e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -104,7 +100,7 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:Ncd8f0df05a2048cab02ca009a9806c02",
+      "@id": "_:N1bf0ff16e63b458899955ee96cccfb96",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -113,6 +109,10 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Feature table"
+    },
+    {
+      "@id": "https://doi.org/10.1186/S13321-021-00542-Y",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

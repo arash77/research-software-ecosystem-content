@@ -36,76 +36,72 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/WheatMine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4de7178f7a484822a507942e44d492ec"
+          "@id": "_:N31d8b250f04445468364ec0b752770d9"
         },
         {
-          "@id": "_:N45f832aeac0a4ad8b3a53ea071e29eeb"
+          "@id": "_:N0c094bbe2b4446c19c28504b9742bae2"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N162a277ff11747248787a7f46b09adaa"
+          "@id": "_:N912922b3e613416fa833a188a2b30084"
         },
         {
-          "@id": "_:Nff58e981eee947d0acca93c65ac0c5dc"
+          "@id": "_:Nf9c206449be743ddbf65f727a5277ea2"
         },
         {
-          "@id": "_:N1dceba90a84c41af9f84220a6b7e14e6"
+          "@id": "_:Nf0675d7b4e7a49e48d39a7fa68960ed0"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
         "Web application",
-        "Web service",
-        "Database portal"
+        "Database portal",
+        "Web service"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0622"
         },
         {
           "@id": "edam:topic_3071"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC3516146",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bts577"
         },
-        "pubmed:23023984"
+        "pubmed:23023984",
+        "pmcid:PMC3516146"
       ],
       "sc:description": "Wheat IWGSC RefSeq v1.0",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_2436"
         },
         {
           "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2422"
         },
         {
-          "@id": "edam:operation_2436"
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "LGPL-2.1",
       "sc:name": "WheatMine",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": [
         {
@@ -118,23 +114,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/WheatMine"
     },
     {
-      "@id": "_:N162a277ff11747248787a7f46b09adaa",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3753"
-      },
-      "sc:name": "Over-representation data"
-    },
-    {
-      "@id": "_:Nff58e981eee947d0acca93c65ac0c5dc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N1dceba90a84c41af9f84220a6b7e14e6",
+      "@id": "_:N912922b3e613416fa833a188a2b30084",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -142,7 +122,15 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N4de7178f7a484822a507942e44d492ec",
+      "@id": "_:Nf9c206449be743ddbf65f727a5277ea2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "_:Nf0675d7b4e7a49e48d39a7fa68960ed0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -150,12 +138,24 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N45f832aeac0a4ad8b3a53ea071e29eeb",
+      "@id": "_:N31d8b250f04445468364ec0b752770d9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N0c094bbe2b4446c19c28504b9742bae2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
       },
       "sc:name": "Ontology data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

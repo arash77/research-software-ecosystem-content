@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/protfun",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N35e428137ed44c80a56eee4134fb3761"
+        "@id": "_:N4b25f656fea04b33a0bfa96e572a5b1a"
       },
       "bsc:output": {
-        "@id": "_:Ndb15b42114234d2486ea8e69765edf1a"
+        "@id": "_:Ne3ba4dabd93848bb84137d8be68d0aa6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -53,10 +53,10 @@
         "@id": "edam:topic_3510"
       },
       "sc:citation": [
-        "pubmed:12079362",
         {
           "@id": "https://doi.org/10.1016/S0022-2836(02)00379-0"
-        }
+        },
+        "pubmed:12079362"
       ],
       "sc:description": "Prediction of cellular role, enzyme class and Gene Ontology category.",
       "sc:featureList": {
@@ -66,8 +66,8 @@
       "sc:license": "Other",
       "sc:name": "ProtFun",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "CBS",
@@ -78,18 +78,7 @@
       "sc:url": "http://cbs.dtu.dk/services/ProtFun/"
     },
     {
-      "@id": "_:N35e428137ed44c80a56eee4134fb3761",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Ndb15b42114234d2486ea8e69765edf1a",
+      "@id": "_:Ne3ba4dabd93848bb84137d8be68d0aa6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -98,6 +87,17 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N4b25f656fea04b33a0bfa96e572a5b1a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
     },
     {
       "@id": "https://doi.org/10.1016/S0022-2836(02)00379-0",

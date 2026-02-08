@@ -40,14 +40,18 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/reformat_fastq",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N2d3127df73ca415c8ed425252b2b333c"
+        "@id": "_:Nbe3706283be4468f86ca57573c25d61f"
       },
       "bsc:output": {
-        "@id": "_:N0d2254c158574d9ea9df13eb708e5bf6"
+        "@id": "_:N04cdbea50cbc4147a4f75a231bddb9da"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -74,8 +78,8 @@
       "sc:name": "reformat_fastq",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Fodoppelt%2Fpgp_tools%2Freformat_fastq%2F0.0.1"
@@ -84,7 +88,18 @@
       "sc:url": "https://bioweb.pasteur.fr/packages/pack@PGP_tools@0.0.1"
     },
     {
-      "@id": "_:N2d3127df73ca415c8ed425252b2b333c",
+      "@id": "_:N04cdbea50cbc4147a4f75a231bddb9da",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nbe3706283be4468f86ca57573c25d61f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -98,21 +113,6 @@
         }
       ],
       "sc:name": "Data"
-    },
-    {
-      "@id": "_:N0d2254c158574d9ea9df13eb708e5bf6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btw393",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/conspred",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Thomas Rattei",
       "bsc:input": {
-        "@id": "_:N7db3834f0cb442e0afcca3d18ff42839"
+        "@id": "_:Nb4eec115a6924c82b289b1107c5c7c24"
       },
       "bsc:output": {
-        "@id": "_:Ne579a9ca016a4d73848c978d9bf5dea7"
+        "@id": "_:N1364c766d25b434caccc870b2298387c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -76,7 +72,7 @@
       "sc:url": "https://sourceforge.net/projects/conspred/"
     },
     {
-      "@id": "_:N7db3834f0cb442e0afcca3d18ff42839",
+      "@id": "_:Nb4eec115a6924c82b289b1107c5c7c24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -84,12 +80,16 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:Ne579a9ca016a4d73848c978d9bf5dea7",
+      "@id": "_:N1364c766d25b434caccc870b2298387c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
       },
       "sc:name": "Feature table"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btw393",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

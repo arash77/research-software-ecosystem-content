@@ -36,19 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gky843",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0003-1338-638X",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://orcid.org/0000-0003-3059-6127",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-1774-0091",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-1338-638X",
       "@type": "sc:Person"
     },
     {
@@ -63,10 +55,10 @@
         }
       ],
       "bsc:input": {
-        "@id": "_:N6e13bef0205d44ff8942a508ee3f13bf"
+        "@id": "_:N17c716588d344eb7ac2f3a7f051aff0f"
       },
       "bsc:output": {
-        "@id": "_:N8e139d78f1f64f9385ee86f6171f6f43"
+        "@id": "_:Nc9cd5172c3764ee5ac3603c19d6e10e8"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -99,7 +91,18 @@
       "sc:url": "https://amtdb.org"
     },
     {
-      "@id": "_:N8e139d78f1f64f9385ee86f6171f6f43",
+      "@id": "_:N17c716588d344eb7ac2f3a7f051aff0f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nc9cd5172c3764ee5ac3603c19d6e10e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -110,15 +113,12 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N6e13bef0205d44ff8942a508ee3f13bf",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Nucleic acid sequence"
+      "@id": "https://orcid.org/0000-0003-1774-0091",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky843",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,40 +36,36 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1107/s0907444913022294",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ligsearch",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Roman Laskowski",
       "bsc:input": {
-        "@id": "_:N9f92c43286284b26899c07cc86c35f2a"
+        "@id": "_:Nd8275036d3984e73adc902ab7ead59e9"
       },
       "bsc:output": {
-        "@id": "_:N80bfdc6b64f440b890aea2f402956634"
+        "@id": "_:Na31782190c0b4623bc80710a604b42d4"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2814"
+          "@id": "edam:topic_0128"
         },
         {
-          "@id": "edam:topic_0128"
+          "@id": "edam:topic_2814"
         }
       ],
       "sc:author": [
-        "Tjaart de Beer",
         "Roman Laskowski",
+        "Tjaart de Beer",
         "Thornton Group"
       ],
       "sc:citation": [
         "pubmed:24311580",
+        "pmcid:PMC3852652",
         {
           "@id": "https://doi.org/10.1107/s0907444913022294"
-        },
-        "pmcid:PMC3852652"
+        }
       ],
       "sc:description": "Identifies small molecules likely to bind to given protein.",
       "sc:featureList": {
@@ -77,9 +73,9 @@
       },
       "sc:name": "LigSearch",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
@@ -94,7 +90,7 @@
       "sc:url": "http://www.ebi.ac.uk/thornton-srv/databases/LigSearch"
     },
     {
-      "@id": "_:N80bfdc6b64f440b890aea2f402956634",
+      "@id": "_:Na31782190c0b4623bc80710a604b42d4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1566"
@@ -102,12 +98,16 @@
       "sc:name": "Protein-ligand interaction report"
     },
     {
-      "@id": "_:N9f92c43286284b26899c07cc86c35f2a",
+      "@id": "_:Nd8275036d3984e73adc902ab7ead59e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1107/s0907444913022294",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

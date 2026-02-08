@@ -40,34 +40,34 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N88fb7f7811d6482e87aa83b0b8125913"
+        "@id": "_:N0289a7e18a2d4f3092593b2dade93846"
       },
       "bsc:output": {
-        "@id": "_:N49ecdbe5941842cb806580f1a3c857f2"
+        "@id": "_:Ne1d1d89c60974fae9816aafcf5442bdf"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Web service"
+        "Web service",
+        "Web application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0080"
       },
       "sc:author": "EMBOSS",
       "sc:citation": [
-        "pubmed:35412617",
         "pubmed:38597606",
-        "pmcid:PMC11223882",
         {
           "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
         },
+        "pubmed:35412617",
+        "pmcid:PMC9252731",
         {
           "@id": "https://doi.org/10.1093/nar/gkae241"
         },
         {
           "@id": "https://doi.org/10.1093/nar/gkac240"
         },
-        "pmcid:PMC9252731"
+        "pmcid:PMC11223882"
       ],
       "sc:description": "Improved version of the Needleman-Wunsch algorithm that allows rapid global alignment of two larger sequences.",
       "sc:featureList": [
@@ -80,17 +80,17 @@
       ],
       "sc:name": "stretcher (EBI)",
       "sc:operatingSystem": [
+        "Linux",
         "Mac",
-        "Windows",
-        "Linux"
+        "Windows"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
         {
-          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
-          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
         },
         {
           "@id": "https://emboss.sourceforge.net/"
@@ -100,7 +100,7 @@
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/psa/emboss_stretcher"
     },
     {
-      "@id": "_:N49ecdbe5941842cb806580f1a3c857f2",
+      "@id": "_:Ne1d1d89c60974fae9816aafcf5442bdf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"
@@ -108,7 +108,7 @@
       "sc:name": "Sequence alignment (pair)"
     },
     {
-      "@id": "_:N88fb7f7811d6482e87aa83b0b8125913",
+      "@id": "_:N0289a7e18a2d4f3092593b2dade93846",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

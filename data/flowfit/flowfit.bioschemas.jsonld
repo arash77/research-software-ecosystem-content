@@ -40,33 +40,33 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Davide Rambaldi",
       "bsc:input": {
-        "@id": "_:Nf898cca8568c46699e04e09813fcdce7"
+        "@id": "_:Nebf276939634409fac1693c5b6b9b100"
       },
       "bsc:output": [
         {
-          "@id": "_:N4f825c8a1fb0439bad3c0c8658132f66"
+          "@id": "_:N41261ba6e5924874af5191d136a2f87e"
         },
         {
-          "@id": "_:N5cc323e6cf2e4ef0a37853092be2cf7b"
+          "@id": "_:N9cf9c859ed464fcdb221ad322639568f"
         },
         {
-          "@id": "_:Na84ce05d28b947438f12c4c41991cd64"
+          "@id": "_:N82a62a15d4c64566a65a0647f7f6be23"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_3071"
-        },
         {
           "@id": "edam:topic_3306"
         },
         {
           "@id": "edam:topic_3361"
+        },
+        {
+          "@id": "edam:topic_3071"
         }
       ],
       "sc:citation": [
@@ -81,18 +81,18 @@
           "@id": "edam:operation_3214"
         },
         {
-          "@id": "edam:operation_2409"
+          "@id": "edam:operation_0337"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2409"
         }
       ],
       "sc:license": "Artistic-2.0",
       "sc:name": "flowFit",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/flowFit.html"
@@ -101,23 +101,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/flowFit.html"
     },
     {
-      "@id": "_:N4f825c8a1fb0439bad3c0c8658132f66",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3547"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N5cc323e6cf2e4ef0a37853092be2cf7b",
+      "@id": "_:N41261ba6e5924874af5191d136a2f87e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -133,23 +117,39 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Na84ce05d28b947438f12c4c41991cd64",
+      "@id": "_:N9cf9c859ed464fcdb221ad322639568f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Score"
     },
     {
-      "@id": "_:Nf898cca8568c46699e04e09813fcdce7",
+      "@id": "_:N82a62a15d4c64566a65a0647f7f6be23",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nebf276939634409fac1693c5b6b9b100",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"

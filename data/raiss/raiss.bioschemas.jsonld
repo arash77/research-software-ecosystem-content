@@ -54,10 +54,10 @@
         "@id": "http://orcid.org/0000-0002-7554-6783"
       },
       "bsc:input": {
-        "@id": "_:N8abebb3ba5b2404ab6977d64a3c9ad03"
+        "@id": "_:Ne81457971117402d83970da4a659ec62"
       },
       "bsc:output": {
-        "@id": "_:N6c816549c2a548eb9e13932eb2caf9f7"
+        "@id": "_:N9e0a193d9403476a89933c8a941822a0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -76,11 +76,11 @@
         "@id": "https://orcid.org/0000-0001-8214-9412"
       },
       "sc:citation": [
-        "pubmed:31173064",
-        "pmcid:PMC6853677",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btz466"
-        }
+        },
+        "pmcid:PMC6853677",
+        "pubmed:31173064"
       ],
       "sc:description": "software package enabling the imputation of SNP summary statistics from the neighboring SNPs by taking advantage of the Linkage desiquilibrium.",
       "sc:featureList": {
@@ -97,7 +97,7 @@
       "sc:url": "http://statistical-genetics.pages.pasteur.fr/raiss/"
     },
     {
-      "@id": "_:N8abebb3ba5b2404ab6977d64a3c9ad03",
+      "@id": "_:N9e0a193d9403476a89933c8a941822a0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -108,7 +108,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N6c816549c2a548eb9e13932eb2caf9f7",
+      "@id": "_:Ne81457971117402d83970da4a659ec62",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

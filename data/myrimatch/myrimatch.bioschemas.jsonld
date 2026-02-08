@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/pr0604054",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/myrimatch",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N67d715d529d345eaa3647f651e5bdff9"
+          "@id": "_:N3ac28edd5685416c966d042cf25ea559"
         },
         {
-          "@id": "_:Na36d1995057d40e08106f1ae91d29f5f"
+          "@id": "_:N8da2306a6c124bdbb5aa5bcd8ba47368"
         }
       ],
       "bsc:output": {
-        "@id": "_:N57c72899431c4a19916a8212e929d903"
+        "@id": "_:Nf496b654e27649bd9395f4415253269b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -73,25 +69,25 @@
       "sc:description": "Another free MS/MS search engine.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_3215"
+        },
+        {
+          "@id": "edam:operation_3649"
+        },
+        {
           "@id": "edam:operation_3631"
         },
         {
           "@id": "edam:operation_3646"
         },
         {
-          "@id": "edam:operation_3649"
-        },
-        {
           "@id": "edam:operation_3647"
-        },
-        {
-          "@id": "edam:operation_3215"
         }
       ],
       "sc:name": "MyriMatch",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://medschool.vanderbilt.edu/msrc-bioinformatics/myrimatch-source"
@@ -99,34 +95,23 @@
       "sc:url": "https://medschool.vanderbilt.edu/msrc-bioinformatics/myrimatch-source"
     },
     {
-      "@id": "_:N57c72899431c4a19916a8212e929d903",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0945"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3655"
-      },
-      "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "_:N67d715d529d345eaa3647f651e5bdff9",
+      "@id": "_:N3ac28edd5685416c966d042cf25ea559",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3654"
+          "@id": "edam:format_3651"
         },
         {
           "@id": "edam:format_3710"
         },
         {
-          "@id": "edam:format_3244"
+          "@id": "edam:format_3654"
         },
         {
-          "@id": "edam:format_3651"
+          "@id": "edam:format_3244"
         },
         {
           "@id": "edam:format_3834"
@@ -138,7 +123,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Na36d1995057d40e08106f1ae91d29f5f",
+      "@id": "_:N8da2306a6c124bdbb5aa5bcd8ba47368",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -147,6 +132,21 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence set (protein)"
+    },
+    {
+      "@id": "_:Nf496b654e27649bd9395f4415253269b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "https://doi.org/10.1021/pr0604054",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

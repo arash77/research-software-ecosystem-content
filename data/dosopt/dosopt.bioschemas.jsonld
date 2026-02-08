@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1097/ftd.0000000000000456",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/dosopt",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Tõnis Tasa",
       "bsc:input": {
-        "@id": "_:Na519378ed96a4093920a4f33bd6478fe"
+        "@id": "_:N28f8b20dae184a09b8c655da46365b47"
       },
       "bsc:output": {
-        "@id": "_:N0ca66809df404b85833e65a7e30262b8"
+        "@id": "_:N993f57cc4c024c9693a94b3369857546"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -59,10 +63,10 @@
         }
       ],
       "sc:citation": [
+        "pubmed:29084032",
         {
           "@id": "https://doi.org/10.1097/ftd.0000000000000456"
-        },
-        "pubmed:29084032"
+        }
       ],
       "sc:description": "An application for personalized vancomycin dose adjustment for neonates.",
       "sc:featureList": [
@@ -77,8 +81,8 @@
       "sc:license": "Freeware",
       "sc:name": "DosOpt",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -87,7 +91,7 @@
       "sc:url": "http://www.biit.cs.ut.ee/DosOpt"
     },
     {
-      "@id": "_:Na519378ed96a4093920a4f33bd6478fe",
+      "@id": "_:N28f8b20dae184a09b8c655da46365b47",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -98,7 +102,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N0ca66809df404b85833e65a7e30262b8",
+      "@id": "_:N993f57cc4c024c9693a94b3369857546",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -107,10 +111,6 @@
         "@id": "edam:format_3508"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1097/ftd.0000000000000456",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

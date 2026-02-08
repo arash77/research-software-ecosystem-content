@@ -40,25 +40,25 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Pierre Peterlongo",
       "bsc:input": {
-        "@id": "_:Ndd571feece104ca2995aeed67ff70462"
+        "@id": "_:N28d90d8ffed94bc1b18ab90535cc01ec"
       },
       "bsc:output": {
-        "@id": "_:Nb6437be697d94a408e45202dd2c99ef3"
+        "@id": "_:N7a6568b6f16f447a86225413296e7d08"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0199"
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_3168"
         },
         {
           "@id": "edam:topic_3053"
         },
         {
-          "@id": "edam:topic_2885"
-        },
-        {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_0199"
         }
       ],
       "sc:citation": [
@@ -84,7 +84,7 @@
       "sc:url": "https://colibread.inria.fr/software/discosnp/"
     },
     {
-      "@id": "_:Nb6437be697d94a408e45202dd2c99ef3",
+      "@id": "_:N7a6568b6f16f447a86225413296e7d08",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -95,7 +95,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Ndd571feece104ca2995aeed67ff70462",
+      "@id": "_:N28d90d8ffed94bc1b18ab90535cc01ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"

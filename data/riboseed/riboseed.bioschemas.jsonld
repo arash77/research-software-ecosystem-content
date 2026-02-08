@@ -50,25 +50,25 @@
         "@id": "https://orcid.org/0000-0002-9035-2143"
       },
       "bsc:input": {
-        "@id": "_:N69bddb61429d42ddb28f52ba1000df13"
+        "@id": "_:N40b223dcd5af422e98ca2e836fb303e9"
       },
       "bsc:output": {
-        "@id": "_:Nc28f236b2cbd4e598af92fa9171bbf77"
+        "@id": "_:Nba3c860a1a4844deb5be372631834698"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Workflow"
+        "Workflow",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0196"
       },
       "sc:citation": [
+        "pmcid:PMC6009695",
         {
           "@id": "https://doi.org/10.1093/nar/gky212"
         },
-        "pubmed:29608703",
-        "pmcid:PMC6009695"
+        "pubmed:29608703"
       ],
       "sc:description": "Prokaryotic genome assembly polisher -- uses targeted subassembly to resolve gaps caused by repeated rDNA operons.",
       "sc:featureList": [
@@ -83,14 +83,14 @@
       "sc:license": "MIT",
       "sc:name": "riboSeed",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareVersion": "0.4.90",
       "sc:url": "https://github.com/nickp60/riboSeed/"
     },
     {
-      "@id": "_:N69bddb61429d42ddb28f52ba1000df13",
+      "@id": "_:N40b223dcd5af422e98ca2e836fb303e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1246"
@@ -98,7 +98,7 @@
       "sc:name": "Sequence cluster (nucleic acid)"
     },
     {
-      "@id": "_:Nc28f236b2cbd4e598af92fa9171bbf77",
+      "@id": "_:Nba3c860a1a4844deb5be372631834698",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"

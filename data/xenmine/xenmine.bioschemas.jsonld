@@ -36,54 +36,50 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/XenMine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N36464f18321c4f4abf04aae002ffac52"
+          "@id": "_:Nc8aaf82f143c424ea079755a96ecf77d"
         },
         {
-          "@id": "_:N02afc70883fa425390bd6f33be5e49db"
+          "@id": "_:Nb65ade43e7ae464688c4ac6ee4911fb2"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2659bb80971d461f81ac2d3845f2ce49"
+          "@id": "_:Nc4a9aa1fb41046d6bb9f76634101341f"
         },
         {
-          "@id": "_:N3e5e4db154fa4a2f8c242a52affa7fda"
+          "@id": "_:N9d6c5afaa43b45d698638cb5803dd8c1"
         },
         {
-          "@id": "_:N4ad4242dc8954b52995d4e6d2f786d31"
+          "@id": "_:N101430f95ba94a388570f9e594e60b72"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Database portal",
+        "Web service",
         "Web application",
-        "Web service"
+        "Database portal"
       ],
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_3071"
         },
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0622"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC3516146",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bts577"
         },
-        "pubmed:23023984",
-        "pmcid:PMC3516146"
+        "pubmed:23023984"
       ],
       "sc:description": "Search and retrieve integrated Xenopus tropicalis and Xenopus laevis data",
       "sc:featureList": [
@@ -94,18 +90,18 @@
           "@id": "edam:operation_2436"
         },
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_2422"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "LGPL-2.1",
       "sc:name": "XenMine",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
@@ -119,15 +115,7 @@
       "sc:url": "http://www.xenmine.org/xenmine"
     },
     {
-      "@id": "_:N36464f18321c4f4abf04aae002ffac52",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2353"
-      },
-      "sc:name": "Ontology data"
-    },
-    {
-      "@id": "_:N02afc70883fa425390bd6f33be5e49db",
+      "@id": "_:Nc4a9aa1fb41046d6bb9f76634101341f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -135,7 +123,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N2659bb80971d461f81ac2d3845f2ce49",
+      "@id": "_:N9d6c5afaa43b45d698638cb5803dd8c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -143,7 +131,15 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:N3e5e4db154fa4a2f8c242a52affa7fda",
+      "@id": "_:N101430f95ba94a388570f9e594e60b72",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "_:Nc8aaf82f143c424ea079755a96ecf77d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -151,12 +147,16 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N4ad4242dc8954b52995d4e6d2f786d31",
+      "@id": "_:Nb65ade43e7ae464688c4ac6ee4911fb2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3786"
+        "@id": "edam:data_2353"
       },
-      "sc:name": "Query script"
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/covtobed",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N56edbd0902f84bfab84c5619b000d008"
+        "@id": "_:N2c2a4f1b22124fe4a1cb9c376bb3b269"
       },
       "bsc:output": {
-        "@id": "_:N74794971a56b45078c8554eddbfc67fc"
+        "@id": "_:N39f4d7cbf6e040d4acb895896b073c7d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -70,7 +70,7 @@
       "sc:url": "https://github.com/telatin/covtobed"
     },
     {
-      "@id": "_:N74794971a56b45078c8554eddbfc67fc",
+      "@id": "_:N39f4d7cbf6e040d4acb895896b073c7d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -81,7 +81,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N56edbd0902f84bfab84c5619b000d008",
+      "@id": "_:N2c2a4f1b22124fe4a1cb9c376bb3b269",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"

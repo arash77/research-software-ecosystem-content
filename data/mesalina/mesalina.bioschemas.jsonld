@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.5220/0004903502330238",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/mesalina",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc2abbf87ba324129a2aa647990fc57a0"
+        "@id": "_:Nb6d1953fd1f24b74a1b68b807ef8e94a"
       },
       "bsc:output": {
-        "@id": "_:Nb86b52acde0b4312abb33f203b57e555"
+        "@id": "_:Nc23aa9c4ae7b420486a033dc3f7d2363"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -62,7 +66,7 @@
       "sc:url": "https://github.ugent.be/ComputationalBiology/mesalina"
     },
     {
-      "@id": "_:Nc2abbf87ba324129a2aa647990fc57a0",
+      "@id": "_:Nb6d1953fd1f24b74a1b68b807ef8e94a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -70,16 +74,12 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nb86b52acde0b4312abb33f203b57e555",
+      "@id": "_:Nc23aa9c4ae7b420486a033dc3f7d2363",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2070"
       },
       "sc:name": "Sequence motif (nucleic acid)"
-    },
-    {
-      "@id": "https://doi.org/10.5220/0004903502330238",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

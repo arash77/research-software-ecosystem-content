@@ -36,25 +36,29 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2105-8-156",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/deuterator",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd76deb4ab0714777844cab4fcd5bc0b9"
+          "@id": "_:N1dd5b29c1ed64029b6f02d1ec8335e18"
         },
         {
-          "@id": "_:N339c296a945647cb8e59f24e5222b18e"
+          "@id": "_:N085356ed01214ec99a2cb03a6afdc4be"
         },
         {
-          "@id": "_:Nd1e1bed694af4f4aabd86e8dde5ba31d"
+          "@id": "_:N9ce1e8da610740319cd97a286a662b76"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5b8a6367fa04423a91dd23dcd131698f"
+          "@id": "_:Nb1b1b1b655514de8810e4ed7fcb0a58e"
         },
         {
-          "@id": "_:Ncd0c780ac4ca4a118ba2a36575586462"
+          "@id": "_:Na36e58ed9df649199ffc0226896188d6"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -68,11 +72,11 @@
         }
       ],
       "sc:citation": [
+        "pmcid:PMC1876250",
         {
           "@id": "https://doi.org/10.1186/1471-2105-8-156"
         },
-        "pubmed:17506883",
-        "pmcid:PMC1876250"
+        "pubmed:17506883"
       ],
       "sc:description": "Web based software platform for determining backbone amide H/D ratios.",
       "sc:featureList": [
@@ -92,7 +96,7 @@
       "sc:url": "http://hdx.florida.scripps.edu/hdx_workbench/Home.html"
     },
     {
-      "@id": "_:N5b8a6367fa04423a91dd23dcd131698f",
+      "@id": "_:Nb1b1b1b655514de8810e4ed7fcb0a58e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -103,7 +107,7 @@
       "sc:name": "Protein structure report"
     },
     {
-      "@id": "_:Ncd0c780ac4ca4a118ba2a36575586462",
+      "@id": "_:Na36e58ed9df649199ffc0226896188d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2992"
@@ -114,18 +118,7 @@
       "sc:name": "Protein structure image"
     },
     {
-      "@id": "_:Nd76deb4ab0714777844cab4fcd5bc0b9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1460"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1476"
-      },
-      "sc:name": "Protein structure"
-    },
-    {
-      "@id": "_:N339c296a945647cb8e59f24e5222b18e",
+      "@id": "_:N1dd5b29c1ed64029b6f02d1ec8335e18",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -136,7 +129,18 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nd1e1bed694af4f4aabd86e8dde5ba31d",
+      "@id": "_:N085356ed01214ec99a2cb03a6afdc4be",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N9ce1e8da610740319cd97a286a662b76",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -145,10 +149,6 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2105-8-156",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

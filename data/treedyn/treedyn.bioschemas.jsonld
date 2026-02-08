@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2105-7-439",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/treedyn",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "François Chevenet",
       "bsc:input": {
-        "@id": "_:Ne59691734c7c49a490044a2d9ecb789d"
+        "@id": "_:Ncd6f8268369f46e4ac1ee6087e898b51"
       },
       "bsc:output": {
-        "@id": "_:Na6218486c1924ce486f2c01b6f079335"
+        "@id": "_:N977e6109f88d4959b659a236003e4d30"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -58,11 +54,11 @@
         "@id": "edam:topic_0084"
       },
       "sc:citation": [
+        "pubmed:17032440",
         {
           "@id": "https://doi.org/10.1186/1471-2105-7-439"
         },
-        "pmcid:PMC1615880",
-        "pubmed:17032440"
+        "pmcid:PMC1615880"
       ],
       "sc:description": "Dynamic graphics and annotations for tree investigations.",
       "sc:featureList": {
@@ -72,9 +68,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "TreeDyn",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.treedyn.org/manual/tutorial01.html"
@@ -83,7 +79,7 @@
       "sc:url": "http://www.treedyn.org/"
     },
     {
-      "@id": "_:Na6218486c1924ce486f2c01b6f079335",
+      "@id": "_:N977e6109f88d4959b659a236003e4d30",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1707"
@@ -94,20 +90,24 @@
       "sc:name": "Phylogenetic tree image"
     },
     {
-      "@id": "_:Ne59691734c7c49a490044a2d9ecb789d",
+      "@id": "_:Ncd6f8268369f46e4ac1ee6087e898b51",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1912"
+          "@id": "edam:format_1910"
         },
         {
-          "@id": "edam:format_1910"
+          "@id": "edam:format_1912"
         }
       ],
       "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-7-439",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

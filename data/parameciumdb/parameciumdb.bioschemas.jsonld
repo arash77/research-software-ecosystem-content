@@ -45,40 +45,40 @@
       "biotools:primaryContact": "Contact Form",
       "bsc:input": [
         {
-          "@id": "_:N7e543d279664435ea9e5481ace673a2c"
+          "@id": "_:N04a38dad0d3c487987c81a4eb03e95ab"
         },
         {
-          "@id": "_:N0ee0e4a7cb53432c95a6f2484bb7e137"
+          "@id": "_:N0b024b87b96c4f67a89ca5c2044b22fb"
         },
         {
-          "@id": "_:Nd20d1bb6266945a0bd08c8392a57c41b"
+          "@id": "_:N37a681b0f3be486b8d537ec9a2b77e7e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N4c199c51424a4bd6b6cc4c595ba2d29d"
+          "@id": "_:Nc64af585b4d744448429d422811e5b9e"
         },
         {
-          "@id": "_:Nafd6f54f842447d2ae6c5305064aa323"
+          "@id": "_:Ndd1bb8cae20949ad9a9db8c79ee4249c"
         },
         {
-          "@id": "_:Nbbc66b160afb485a91a42c99759d12dd"
+          "@id": "_:N7a5fff73b78a4371887738c78eba1cd5"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_0621"
         },
         {
-          "@id": "edam:topic_0621"
+          "@id": "edam:topic_0160"
         },
         {
           "@id": "edam:topic_0089"
         },
         {
-          "@id": "edam:topic_0160"
+          "@id": "edam:topic_0080"
         },
         {
           "@id": "edam:topic_3321"
@@ -94,19 +94,19 @@
       "sc:description": "Online community database for Paramecium species. Contains annotation of genome sequences and features, genome-wide data sets, advanced capabilities to query, retrieve, visualize and compare data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0224"
-        },
-        {
-          "@id": "edam:operation_3208"
-        },
-        {
-          "@id": "edam:operation_2520"
+          "@id": "edam:operation_0362"
         },
         {
           "@id": "edam:operation_0346"
         },
         {
-          "@id": "edam:operation_0362"
+          "@id": "edam:operation_2520"
+        },
+        {
+          "@id": "edam:operation_3208"
+        },
+        {
+          "@id": "edam:operation_0224"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -123,7 +123,7 @@
       "sc:url": "https://paramecium.i2bc.paris-saclay.fr"
     },
     {
-      "@id": "_:N7e543d279664435ea9e5481ace673a2c",
+      "@id": "_:N04a38dad0d3c487987c81a4eb03e95ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -134,7 +134,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N0ee0e4a7cb53432c95a6f2484bb7e137",
+      "@id": "_:N0b024b87b96c4f67a89ca5c2044b22fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -145,7 +145,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Nd20d1bb6266945a0bd08c8392a57c41b",
+      "@id": "_:N37a681b0f3be486b8d537ec9a2b77e7e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -156,7 +156,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N4c199c51424a4bd6b6cc4c595ba2d29d",
+      "@id": "_:Nc64af585b4d744448429d422811e5b9e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -167,7 +167,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:Nafd6f54f842447d2ae6c5305064aa323",
+      "@id": "_:Ndd1bb8cae20949ad9a9db8c79ee4249c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -183,7 +183,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:Nbbc66b160afb485a91a42c99759d12dd",
+      "@id": "_:N7a5fff73b78a4371887738c78eba1cd5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

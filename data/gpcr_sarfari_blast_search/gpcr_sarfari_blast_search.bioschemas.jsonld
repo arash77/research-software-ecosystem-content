@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Mark Davies",
       "bsc:input": {
-        "@id": "_:Nc24e6e2bdd0c4ee9aeca07243e08dad3"
+        "@id": "_:N42cbaa2419fa4419b90f6a9528cdfaae"
       },
       "bsc:output": {
-        "@id": "_:Nb29749334c3b454fb28499c560844094"
+        "@id": "_:N3c94e5e7973145a88c55014902834e5c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -64,11 +64,11 @@
       ],
       "sc:author": "ChEMBL Team",
       "sc:citation": [
-        "pmcid:PMC4426839",
-        "pubmed:25964657",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btv010"
-        }
+        },
+        "pmcid:PMC4426839",
+        "pubmed:25964657"
       ],
       "sc:description": "BLAST search of against GPCR domains stored in GPCR SARfari.",
       "sc:featureList": {
@@ -76,9 +76,9 @@
       },
       "sc:name": "GPCR SARfari  BLAST Search",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
@@ -93,15 +93,7 @@
       "sc:url": "https://www.ebi.ac.uk/chembl/sarfari/gpcrsarfari/protein"
     },
     {
-      "@id": "_:Nb29749334c3b454fb28499c560844094",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0857"
-      },
-      "sc:name": "Sequence search results"
-    },
-    {
-      "@id": "_:Nc24e6e2bdd0c4ee9aeca07243e08dad3",
+      "@id": "_:N42cbaa2419fa4419b90f6a9528cdfaae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -110,6 +102,14 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N3c94e5e7973145a88c55014902834e5c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
     }
   ]
 }

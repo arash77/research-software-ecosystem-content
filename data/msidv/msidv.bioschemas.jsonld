@@ -40,27 +40,27 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Eisuke Hayakawa",
       "bsc:input": {
-        "@id": "_:Ndd8bf7830b2044f5b1225634d1875bd9"
+        "@id": "_:N6993911d61f04ad7afe302c9a9fcf9c4"
       },
       "bsc:output": [
         {
-          "@id": "_:N7ff36bceaddc4c5f8bce6d3e566534c5"
+          "@id": "_:Na3028ec54c6c49b880bf7e4018d699ed"
         },
         {
-          "@id": "_:Na27e2fdea3f74ec99dda89e7add55bcf"
+          "@id": "_:Ne0dbd92aec4a46e79d27a49da79bfde9"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3360"
+        },
+        {
           "@id": "edam:topic_3382"
         },
         {
           "@id": "edam:topic_3520"
-        },
-        {
-          "@id": "edam:topic_3360"
         }
       ],
       "sc:citation": [
@@ -72,13 +72,13 @@
       "sc:description": "Tool to visualize biological indices from mass spectrometry imaging data.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_3627"
+        },
+        {
           "@id": "edam:operation_0337"
         },
         {
           "@id": "edam:operation_3860"
-        },
-        {
-          "@id": "edam:operation_3627"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -88,7 +88,7 @@
       "sc:url": "https://sourceforge.net/projects/msidv/"
     },
     {
-      "@id": "_:N7ff36bceaddc4c5f8bce6d3e566534c5",
+      "@id": "_:Na3028ec54c6c49b880bf7e4018d699ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -99,7 +99,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Na27e2fdea3f74ec99dda89e7add55bcf",
+      "@id": "_:Ne0dbd92aec4a46e79d27a49da79bfde9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -110,7 +110,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Ndd8bf7830b2044f5b1225634d1875bd9",
+      "@id": "_:N6993911d61f04ad7afe302c9a9fcf9c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

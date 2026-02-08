@@ -41,10 +41,10 @@
       "biotools:primaryContact": "Colin Clarke",
       "bsc:input": [
         {
-          "@id": "_:Nc3545b04eda84804aaa7b8ce2870d4f1"
+          "@id": "_:N08be0e62332a45ca9a3f56557a0ac6c4"
         },
         {
-          "@id": "_:Ne692c8efed474b508f678959c580ed70"
+          "@id": "_:Nbf37e5ea88b649739a7e75ad2f882d3a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -67,15 +67,15 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "gethgvbase",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareVersion": "1.0.0.0",
       "sc:url": "https://www.mathworks.com/matlabcentral/fileexchange/12280-gethgvbase"
     },
     {
-      "@id": "_:Nc3545b04eda84804aaa7b8ce2870d4f1",
+      "@id": "_:N08be0e62332a45ca9a3f56557a0ac6c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -91,7 +91,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:Ne692c8efed474b508f678959c580ed70",
+      "@id": "_:Nbf37e5ea88b649739a7e75ad2f882d3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1151"

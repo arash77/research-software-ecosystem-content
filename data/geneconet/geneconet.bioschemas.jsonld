@@ -40,23 +40,23 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N75db40a51d804199bc630e29f3a29fac"
+          "@id": "_:Nfaa2943aad1e457eb00f44c69fda11bc"
         },
         {
-          "@id": "_:N0f413a6fb68f437ea7f7fe91314936ca"
+          "@id": "_:N7d9511a6e5af4e459eddbd84e4aa8c0c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_2640"
         },
         {
           "@id": "edam:topic_3053"
         },
         {
-          "@id": "edam:topic_2640"
+          "@id": "edam:topic_0602"
         }
       ],
       "sc:citation": [
@@ -68,26 +68,26 @@
       "sc:description": "A web application server for constructing cancer patient-specific gene correlation networks with prognostic gene pairs.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_2454"
+        },
+        {
           "@id": "edam:operation_0337"
         },
         {
           "@id": "edam:operation_3659"
-        },
-        {
-          "@id": "edam:operation_2454"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "GeneCoNet",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:url": "http://geneconet.inha.ac.kr"
     },
     {
-      "@id": "_:N75db40a51d804199bc630e29f3a29fac",
+      "@id": "_:Nfaa2943aad1e457eb00f44c69fda11bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1048"
@@ -95,7 +95,7 @@
       "sc:name": "Database ID"
     },
     {
-      "@id": "_:N0f413a6fb68f437ea7f7fe91314936ca",
+      "@id": "_:N7d9511a6e5af4e459eddbd84e4aa8c0c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"

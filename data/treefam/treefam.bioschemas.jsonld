@@ -36,23 +36,27 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkj118",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/treefam",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Fabian Schreiber",
       "bsc:input": {
-        "@id": "_:Nd8dccb8c5fd440d1b90329f42ca56e00"
+        "@id": "_:Nf203c02ff90e4ad2857dcf9724ce8f6a"
       },
       "bsc:output": {
-        "@id": "_:N1c22828e9cad4bdb9d2800cb48298842"
+        "@id": "_:N192ac7b8071648c8984300f39e7dbca0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0084"
+          "@id": "edam:topic_0080"
         },
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_0084"
         },
         {
           "@id": "edam:topic_0623"
@@ -63,19 +67,19 @@
         "Mateus Patricio"
       ],
       "sc:citation": [
+        "pmcid:PMC1347480",
+        "pubmed:16381935",
         {
           "@id": "https://doi.org/10.1093/nar/gkj118"
-        },
-        "pmcid:PMC1347480",
-        "pubmed:16381935"
+        }
       ],
       "sc:description": "Search of TreeFam's HMM collection, allows query sequence to be aligned (MAFFT) and inserted into tree (RAxML) to significantly matching models.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0323"
+          "@id": "edam:operation_0239"
         },
         {
-          "@id": "edam:operation_0239"
+          "@id": "edam:operation_0323"
         }
       ],
       "sc:name": "TreeFam",
@@ -97,7 +101,7 @@
       "sc:url": "http://www.treefam.org/search"
     },
     {
-      "@id": "_:Nd8dccb8c5fd440d1b90329f42ca56e00",
+      "@id": "_:Nf203c02ff90e4ad2857dcf9724ce8f6a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -105,16 +109,12 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N1c22828e9cad4bdb9d2800cb48298842",
+      "@id": "_:N192ac7b8071648c8984300f39e7dbca0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0858"
       },
       "sc:name": "Sequence signature matches"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkj118",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

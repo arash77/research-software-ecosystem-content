@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/033142",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/sequenceserver",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -47,14 +43,14 @@
         "Yannick Wurm"
       ],
       "bsc:input": {
-        "@id": "_:Nde320efd368149ab8d3e41b21f3c0959"
+        "@id": "_:Ne147762a3c194393a523b25db1c3e8c9"
       },
       "bsc:output": [
         {
-          "@id": "_:Nf0852cfa1c814bfe8147e8f6f2b36036"
+          "@id": "_:N3e995dca91b24f2487b4ad259e9aef1b"
         },
         {
-          "@id": "_:Nf1566cddaaea41d7aa685f2d30f9a394"
+          "@id": "_:Nee1dd8ed2bf942f885e0b6359a5d8e34"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -74,8 +70,8 @@
       "sc:license": "AGPL-3.0",
       "sc:name": "SequenceServer",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
@@ -89,7 +85,7 @@
       "sc:url": "http://www.sequenceserver.com"
     },
     {
-      "@id": "_:Nf0852cfa1c814bfe8147e8f6f2b36036",
+      "@id": "_:N3e995dca91b24f2487b4ad259e9aef1b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0867"
@@ -100,7 +96,7 @@
       "sc:name": "Sequence alignment report"
     },
     {
-      "@id": "_:Nf1566cddaaea41d7aa685f2d30f9a394",
+      "@id": "_:Nee1dd8ed2bf942f885e0b6359a5d8e34",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -108,7 +104,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:Nde320efd368149ab8d3e41b21f3c0959",
+      "@id": "_:Ne147762a3c194393a523b25db1c3e8c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -117,6 +113,10 @@
         "@id": "edam:format_2200"
       },
       "sc:name": "Sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1101/033142",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

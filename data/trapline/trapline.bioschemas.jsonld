@@ -40,17 +40,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Markus Wolfien",
       "bsc:input": {
-        "@id": "_:Ndd4953ba9cfc4ff49c1b22e3a77e01b2"
+        "@id": "_:N1f9fa310285d419e89c65b734298a822"
       },
       "bsc:output": [
         {
-          "@id": "_:Nfdaf6fac442149d6bcba526aad3a9081"
+          "@id": "_:N4bfadf19648545c5ad6caecf1d0d0f39"
         },
         {
-          "@id": "_:Nd8aff991d0064936a4b8e01d3c986089"
+          "@id": "_:N3629b6a435804f73a70cb28d53b77560"
         },
         {
-          "@id": "_:Nc93fd1b63acd4f3ebec588a27248b617"
+          "@id": "_:N874b4322ebf34115ac00e713a5c9d8e3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -64,19 +64,13 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4702420",
         {
           "@id": "https://doi.org/10.1186/s12859-015-0873-9"
-        }
+        },
+        "pmcid:PMC4702420"
       ],
       "sc:description": "RNAseq data processing, evaluation, and prediction tool optimized for Illumina FASTQ reads, and other sequencing platforms like SOLiD or Solexa. Predictions are based on modules which are able to identify protein-protein interactions, miRNA targets and alternatively splicing variants or promoter enriched sites.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_0415"
-        },
-        {
-          "@id": "edam:operation_3218"
-        },
         {
           "@id": "edam:operation_3680"
         },
@@ -84,20 +78,26 @@
           "@id": "edam:operation_0264"
         },
         {
+          "@id": "edam:operation_3218"
+        },
+        {
           "@id": "edam:operation_3695"
+        },
+        {
+          "@id": "edam:operation_0415"
         }
       ],
       "sc:name": "TRAPLINE",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareVersion": "1.0",
       "sc:url": "https://www.sbi.uni-rostock.de/TRAPLINE"
     },
     {
-      "@id": "_:Nfdaf6fac442149d6bcba526aad3a9081",
+      "@id": "_:N4bfadf19648545c5ad6caecf1d0d0f39",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2628"
@@ -108,18 +108,7 @@
       "sc:name": "BioGRID interaction ID"
     },
     {
-      "@id": "_:Nd8aff991d0064936a4b8e01d3c986089",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1383"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2572"
-      },
-      "sc:name": "Sequence alignment (nucleic acid)"
-    },
-    {
-      "@id": "_:Nc93fd1b63acd4f3ebec588a27248b617",
+      "@id": "_:N3629b6a435804f73a70cb28d53b77560",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -130,17 +119,28 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Ndd4953ba9cfc4ff49c1b22e3a77e01b2",
+      "@id": "_:N874b4322ebf34115ac00e713a5c9d8e3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence alignment (nucleic acid)"
+    },
+    {
+      "@id": "_:N1f9fa310285d419e89c65b734298a822",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1932"
+          "@id": "edam:format_1933"
         },
         {
-          "@id": "edam:format_1933"
+          "@id": "edam:format_1932"
         },
         {
           "@id": "edam:format_1931"

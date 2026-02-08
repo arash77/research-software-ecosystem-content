@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/hu.map",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd519012c7e9b4d70a792ff98a1ef7820"
+        "@id": "_:N4053b26dc37947b18c5ee553a49ba3b0"
       },
       "bsc:output": {
-        "@id": "_:N5722ad73ae58486f8b14e491a0142e14"
+        "@id": "_:N17f7be87e1c74f1fa126c24e913419fc"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -64,21 +64,21 @@
       "sc:description": "A reference map data repository for human protein complexes, containing > 4,600 total complexes, > 7,700 proteins, and > 56,000 unique interactions, including thousands of confident protein interactions not identified by the original publications.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_2421"
+        },
+        {
           "@id": "edam:operation_3214"
         },
         {
           "@id": "edam:operation_2949"
-        },
-        {
-          "@id": "edam:operation_2421"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "hu.MAP",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://proteincomplexes.org/about"
@@ -86,7 +86,7 @@
       "sc:url": "http://proteincomplexes.org/"
     },
     {
-      "@id": "_:Nd519012c7e9b4d70a792ff98a1ef7820",
+      "@id": "_:N4053b26dc37947b18c5ee553a49ba3b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0976"
@@ -97,7 +97,7 @@
       "sc:name": "Identifier (by type of data)"
     },
     {
-      "@id": "_:N5722ad73ae58486f8b14e491a0142e14",
+      "@id": "_:N17f7be87e1c74f1fa126c24e913419fc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"

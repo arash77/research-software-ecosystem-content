@@ -36,40 +36,36 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/035667",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/myvariant",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Chunlei Wu",
       "bsc:input": [
         {
-          "@id": "_:Nebb55fbf91ed4ce99309db5b4ec34d4d"
+          "@id": "_:Nee4cb32760b14f1d89822f7bfec6943e"
         },
         {
-          "@id": "_:Nc8096aeca1e843609175d40bf27d6e1b"
+          "@id": "_:N0b3ed42c1f434872ba6993c820756060"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N46a1fccd1f224290b715bb67d0928507"
+          "@id": "_:Nde17dca0156e4498835335ea3f3ba3c9"
         },
         {
-          "@id": "_:N8b7c7d0ade584bc9905518cba49d3144"
+          "@id": "_:N8811a0818f7b477790b02f6b78e51c68"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_3120"
         },
         {
-          "@id": "edam:topic_3120"
+          "@id": "edam:topic_0091"
         }
       ],
       "sc:citation": {
@@ -101,18 +97,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/myvariant.html"
     },
     {
-      "@id": "_:Nebb55fbf91ed4ce99309db5b4ec34d4d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0954"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3016"
-      },
-      "sc:name": "Database cross-mapping"
-    },
-    {
-      "@id": "_:Nc8096aeca1e843609175d40bf27d6e1b",
+      "@id": "_:Nee4cb32760b14f1d89822f7bfec6943e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -123,7 +108,29 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N46a1fccd1f224290b715bb67d0928507",
+      "@id": "_:N0b3ed42c1f434872ba6993c820756060",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0954"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Database cross-mapping"
+    },
+    {
+      "@id": "_:Nde17dca0156e4498835335ea3f3ba3c9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "ID list"
+    },
+    {
+      "@id": "_:N8811a0818f7b477790b02f6b78e51c68",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0954"
@@ -134,15 +141,8 @@
       "sc:name": "Database cross-mapping"
     },
     {
-      "@id": "_:N8b7c7d0ade584bc9905518cba49d3144",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2872"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3033"
-      },
-      "sc:name": "ID list"
+      "@id": "https://doi.org/10.1101/035667",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

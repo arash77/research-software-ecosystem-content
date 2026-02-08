@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf321df72201f43fdb4a13ac01824d851"
+          "@id": "_:N61605c3c88c5411e8f66d63be135dc8a"
         },
         {
-          "@id": "_:N3ac89c70ce2c4fc9a7636a47181261cd"
+          "@id": "_:N3b287350c4b148839635d098356d9fab"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -63,7 +63,7 @@
       "sc:url": "https://github.com/EVidenceModeler/EVidenceModeler.github.io"
     },
     {
-      "@id": "_:Nf321df72201f43fdb4a13ac01824d851",
+      "@id": "_:N61605c3c88c5411e8f66d63be135dc8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2042"
@@ -71,7 +71,7 @@
       "sc:name": "Evidence"
     },
     {
-      "@id": "_:N3ac89c70ce2c4fc9a7636a47181261cd",
+      "@id": "_:N3b287350c4b148839635d098356d9fab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"

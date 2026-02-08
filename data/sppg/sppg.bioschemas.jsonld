@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1104/pp.104.054700",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/sppg",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3f934557b0a64d6fae2c9264f5acbe6d"
+        "@id": "_:N006258dca0a34b4aaefae11c3c3971fe"
       },
       "bsc:output": {
-        "@id": "_:N37af1276d6884f85be8d7562761ccebd"
+        "@id": "_:N7764630009e14ad1bfa11f0c6583475d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workbench",
@@ -70,8 +66,8 @@
       },
       "sc:name": "SPPG",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "ugent.be",
@@ -79,7 +75,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/cgi-bin/SPPG/index.htpl"
     },
     {
-      "@id": "_:N3f934557b0a64d6fae2c9264f5acbe6d",
+      "@id": "_:N006258dca0a34b4aaefae11c3c3971fe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -87,12 +83,16 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N37af1276d6884f85be8d7562761ccebd",
+      "@id": "_:N7764630009e14ad1bfa11f0c6583475d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1075"
       },
       "sc:name": "Protein family identifier"
+    },
+    {
+      "@id": "https://doi.org/10.1104/pp.104.054700",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

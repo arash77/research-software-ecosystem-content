@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/NAR/GKAB909",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/signalink3",
       "@type": "sc:SoftwareApplication",
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -49,16 +45,16 @@
           "@id": "edam:topic_0659"
         },
         {
-          "@id": "edam:topic_3500"
+          "@id": "edam:topic_0749"
         },
         {
           "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_0749"
+          "@id": "edam:topic_0601"
         },
         {
-          "@id": "edam:topic_0601"
+          "@id": "edam:topic_3500"
         }
       ],
       "sc:citation": [
@@ -86,11 +82,15 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "SignaLink3",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "http://signalink.org/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKAB909",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

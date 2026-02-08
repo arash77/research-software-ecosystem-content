@@ -41,37 +41,37 @@
       "biotools:primaryContact": "Felix A. Klein",
       "bsc:input": [
         {
-          "@id": "_:N0e79716304f44673a78251e24d3ce663"
+          "@id": "_:N2967a095393a4843a6d6c664f19eb0d6"
         },
         {
-          "@id": "_:N7f8f54ea6b6746eeae8abd6045231b76"
+          "@id": "_:Nd75cfc7db4104f18b89695f5bb1086f9"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf65c34e7e9304fed8e80d1c91201243b"
+          "@id": "_:Na34ab088a8bf46ab827f3eb47733fe97"
         },
         {
-          "@id": "_:N1082a75701c74fe08ae1ad194fffc1c8"
+          "@id": "_:N2c8c7053515942f5b03566b291ed1fed"
         },
         {
-          "@id": "_:N7d03b4efe99549789cdda329e51d09e4"
+          "@id": "_:Nc9804dab34c94fc5879f82579a661f5c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3168"
       },
       "sc:citation": [
         "pmcid:PMC4576695",
-        "pubmed:26034064",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btv335"
-        }
+        },
+        "pubmed:26034064"
       ],
       "sc:description": "R package dedicated to the analysis of (multiplexed) 4C sequencing data. It provides a pipeline to detect specific interactions between DNA elements and identify differential interactions between conditions. The statistical analysis in R starts with individual bam files for each sample as inputs. To obtain these files, the package contains a python script to demultiplex libraries and trim off primer sequences. With a standard alignment software the required bam files can be then be generated.",
       "sc:featureList": {
@@ -80,9 +80,9 @@
       "sc:license": "GPL-3.0",
       "sc:name": "FourCSeq",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/FourCSeq.html"
@@ -91,39 +91,39 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/FourCSeq.html"
     },
     {
-      "@id": "_:N0e79716304f44673a78251e24d3ce663",
+      "@id": "_:Na34ab088a8bf46ab827f3eb47733fe97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1383"
+        "@id": "edam:data_2955"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2572"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_2330"
         }
       ],
-      "sc:name": "Sequence alignment (nucleic acid)"
+      "sc:name": "Sequence report"
     },
     {
-      "@id": "_:N7f8f54ea6b6746eeae8abd6045231b76",
+      "@id": "_:N2c8c7053515942f5b03566b291ed1fed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0849"
+        "@id": "edam:data_1017"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2572"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_2330"
         }
       ],
-      "sc:name": "Sequence record"
+      "sc:name": "Sequence range"
     },
     {
-      "@id": "_:Nf65c34e7e9304fed8e80d1c91201243b",
+      "@id": "_:Nc9804dab34c94fc5879f82579a661f5c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -139,36 +139,36 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N1082a75701c74fe08ae1ad194fffc1c8",
+      "@id": "_:N2967a095393a4843a6d6c664f19eb0d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2955"
+        "@id": "edam:data_1383"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_1929"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2572"
         }
       ],
-      "sc:name": "Sequence report"
+      "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N7d03b4efe99549789cdda329e51d09e4",
+      "@id": "_:Nd75cfc7db4104f18b89695f5bb1086f9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1017"
+        "@id": "edam:data_0849"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2572"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_1929"
         }
       ],
-      "sc:name": "Sequence range"
+      "sc:name": "Sequence record"
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btv335",

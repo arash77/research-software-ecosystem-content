@@ -36,24 +36,20 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.gpb.2022.04.007",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/wheatcenet",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N66aba7ddea3d4031a6d16b4d4d69aeba"
+          "@id": "_:N10d42522ea9645ee84daf828a43ea744"
         },
         {
-          "@id": "_:N0343dad460054b219dfb4e9c35e22f53"
+          "@id": "_:N88e51ae9d85847c2881e37563d626c8b"
         },
         {
-          "@id": "_:N80255a6acc304816b1678d25761dcaa9"
+          "@id": "_:N439298c1dfb440f9a511120a596a9336"
         },
         {
-          "@id": "_:Na19fa488da3c4965b922ff725ef42a3d"
+          "@id": "_:N434e43de60c64353b1fb3c23a5f9ef9c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,51 +62,51 @@
           "@id": "edam:topic_3308"
         },
         {
-          "@id": "edam:topic_3173"
-        },
-        {
           "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_0749"
+          "@id": "edam:topic_3173"
         },
         {
           "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_0749"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC10626052",
         {
           "@id": "https://doi.org/10.1016/j.gpb.2022.04.007"
         },
-        "pubmed:35660007",
-        "pmcid:PMC10626052"
+        "pubmed:35660007"
       ],
       "sc:description": "A database for comparative co-expression networks analysis of allohexaploid wheat and its progenitors.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2436"
-        },
-        {
           "@id": "edam:operation_3927"
         },
         {
-          "@id": "edam:operation_3463"
+          "@id": "edam:operation_2436"
         },
         {
           "@id": "edam:operation_0314"
+        },
+        {
+          "@id": "edam:operation_3463"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "WheatCENet",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:url": "http://bioinformatics.cau.edu.cn/WheatCENet"
     },
     {
-      "@id": "_:N66aba7ddea3d4031a6d16b4d4d69aeba",
+      "@id": "_:N10d42522ea9645ee84daf828a43ea744",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1893"
@@ -118,7 +114,15 @@
       "sc:name": "Locus ID"
     },
     {
-      "@id": "_:N0343dad460054b219dfb4e9c35e22f53",
+      "@id": "_:N88e51ae9d85847c2881e37563d626c8b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2757"
+      },
+      "sc:name": "Pfam domain name"
+    },
+    {
+      "@id": "_:N439298c1dfb440f9a511120a596a9336",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -126,7 +130,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N80255a6acc304816b1678d25761dcaa9",
+      "@id": "_:N434e43de60c64353b1fb3c23a5f9ef9c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -134,12 +138,8 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:Na19fa488da3c4965b922ff725ef42a3d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2757"
-      },
-      "sc:name": "Pfam domain name"
+      "@id": "https://doi.org/10.1016/j.gpb.2022.04.007",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -45,19 +45,19 @@
       "biotools:primaryContact": "BioConductor Package Maintainer",
       "bsc:input": [
         {
-          "@id": "_:Nca5552f72bfb437ea6134e42878cb2a9"
+          "@id": "_:N4c5602e113394a4ab081e5c3a5b2c81c"
         },
         {
-          "@id": "_:N025b95fa75c04a41846aa00d7ea46d31"
+          "@id": "_:Ne0ba75157782438ca9bc55d00bdfc4c1"
         }
       ],
       "bsc:output": {
-        "@id": "_:N6a922b48b7d641a2bc5166204ce3364d"
+        "@id": "_:Ne850f8e4bfed4507a724697801df1dd5"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
@@ -68,8 +68,8 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4509590",
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
         }
@@ -86,9 +86,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "AnnotationForge",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/AnnotationForge.html"
@@ -97,39 +97,39 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/AnnotationForge.html"
     },
     {
-      "@id": "_:Nca5552f72bfb437ea6134e42878cb2a9",
+      "@id": "_:N4c5602e113394a4ab081e5c3a5b2c81c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2031"
+          "@id": "edam:format_2195"
         },
         {
-          "@id": "edam:format_2195"
+          "@id": "edam:format_2031"
         }
       ],
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N025b95fa75c04a41846aa00d7ea46d31",
+      "@id": "_:Ne0ba75157782438ca9bc55d00bdfc4c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2031"
+          "@id": "edam:format_2195"
         },
         {
-          "@id": "edam:format_2195"
+          "@id": "edam:format_2031"
         }
       ],
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N6a922b48b7d641a2bc5166204ce3364d",
+      "@id": "_:Ne850f8e4bfed4507a724697801df1dd5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"

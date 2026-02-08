@@ -46,37 +46,37 @@
         "@id": "https://orcid.org/0000-0002-3417-7504"
       },
       "bsc:input": {
-        "@id": "_:N31a4056952ac44149e928d18fde2c9fe"
+        "@id": "_:N44a6c2b5559b40b9a99af5b6f87c81b6"
       },
       "bsc:output": {
-        "@id": "_:N68dc447181ae4489a2579c9468e983ad"
+        "@id": "_:N4f93be0157414f81ae9941f4e5e4d50d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3175"
+          "@id": "edam:topic_3325"
         },
         {
-          "@id": "edam:topic_3325"
+          "@id": "edam:topic_3175"
         }
       ],
       "sc:author": "Sebastian Roskosch",
       "sc:description": "A tool for population level deletion calling from short paired-end sequence reads.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3227"
+          "@id": "edam:operation_3196"
         },
         {
-          "@id": "edam:operation_3196"
+          "@id": "edam:operation_3227"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "PopDel",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/kehrlab/PopDel/blob/master/README.md"
@@ -85,18 +85,7 @@
       "sc:url": "https://github.com/kehrlab/PopDel"
     },
     {
-      "@id": "_:N31a4056952ac44149e928d18fde2c9fe",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1383"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2572"
-      },
-      "sc:name": "Sequence alignment (nucleic acid)"
-    },
-    {
-      "@id": "_:N68dc447181ae4489a2579c9468e983ad",
+      "@id": "_:N4f93be0157414f81ae9941f4e5e4d50d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -105,6 +94,17 @@
         "@id": "edam:format_3016"
       },
       "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:N44a6c2b5559b40b9a99af5b6f87c81b6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence alignment (nucleic acid)"
     }
   ]
 }

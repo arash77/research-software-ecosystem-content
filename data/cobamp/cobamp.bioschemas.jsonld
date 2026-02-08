@@ -36,16 +36,24 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0001-9604-9586",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btz598",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/CoBAMP",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "https://orcid.org/0000-0001-9604-9586"
       },
       "bsc:input": {
-        "@id": "_:Na120efa3a2a0416abffd96ee4f5a6073"
+        "@id": "_:Nc7e02ce26db745fa8f40be563267d874"
       },
       "bsc:output": {
-        "@id": "_:N22f7e839cb2849d99a05c8d8969587f7"
+        "@id": "_:N0bd5fa93917745c18d9ab12bf1d2a8ed"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -55,16 +63,16 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_0092"
         },
         {
-          "@id": "edam:topic_2259"
+          "@id": "edam:topic_0602"
         },
         {
           "@id": "edam:topic_3070"
         },
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_2259"
         }
       ],
       "sc:citation": [
@@ -82,22 +90,22 @@
       "sc:name": "CoBAMP",
       "sc:operatingSystem": [
         "Linux",
-        "Windows",
-        "Mac"
+        "Mac",
+        "Windows"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://cobamp.readthedocs.io/en/latest/modules.html"
+          "@id": "https://cobamp.readthedocs.io/en/latest/quickstart.html"
         },
         {
-          "@id": "https://cobamp.readthedocs.io/en/latest/quickstart.html"
+          "@id": "https://cobamp.readthedocs.io/en/latest/modules.html"
         }
       ],
       "sc:softwareVersion": "0.1.4",
       "sc:url": "https://github.com/BioSystemsUM/cobamp"
     },
     {
-      "@id": "_:Na120efa3a2a0416abffd96ee4f5a6073",
+      "@id": "_:Nc7e02ce26db745fa8f40be563267d874",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -108,20 +116,12 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N22f7e839cb2849d99a05c8d8969587f7",
+      "@id": "_:N0bd5fa93917745c18d9ab12bf1d2a8ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btz598",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-9604-9586",
-      "@type": "sc:Person"
     }
   ]
 }

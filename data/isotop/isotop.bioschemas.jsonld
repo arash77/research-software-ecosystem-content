@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/isotop",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc79f8cc8c9744066969396287dc2aab0"
+        "@id": "_:Nf5be2a83eded44809908865487ecfce3"
       },
       "bsc:output": {
-        "@id": "_:N2a806f568ae74e0d9d70ba7290971eba"
+        "@id": "_:N6d47926f13a4465ba393141459d4ba38"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:description": "MATLAB and R code for calculating the isotopic distribution of a molecule (e.g. insulin).",
@@ -65,33 +65,22 @@
       ],
       "sc:name": "isotop",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://www.ms-utils.org/isotop.r"
+          "@id": "http://www.ms-utils.org/isotop.html"
         },
         {
-          "@id": "http://www.ms-utils.org/isotop.html"
+          "@id": "http://www.ms-utils.org/isotop.r"
         }
       ],
       "sc:url": "http://www.ms-utils.org/isotop.html"
     },
     {
-      "@id": "_:N2a806f568ae74e0d9d70ba7290971eba",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3603"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nc79f8cc8c9744066969396287dc2aab0",
+      "@id": "_:Nf5be2a83eded44809908865487ecfce3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0846"
@@ -100,6 +89,17 @@
         "@id": "edam:format_2035"
       },
       "sc:name": "Chemical formula"
+    },
+    {
+      "@id": "_:N6d47926f13a4465ba393141459d4ba38",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Plot"
     }
   ]
 }

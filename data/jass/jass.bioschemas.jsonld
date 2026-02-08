@@ -36,12 +36,8 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0002-7554-6783",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-7421-0655",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1093/nargab/lqaa003",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1101/714832v1",
@@ -52,8 +48,20 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.1093/nargab/lqaa003",
-      "@type": "sc:CreativeWork"
+      "@id": "http://orcid.org/0000-0002-7554-6783",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7552-1009",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7421-0655",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8214-9412",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/jass",
@@ -63,20 +71,20 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N12b8f50c3def474484be26e1cb51ea73"
+          "@id": "_:N246da5957b4c49dc821b2f9c3c436c80"
         },
         {
-          "@id": "_:N3c80e0e12dba422494621afa17f6726e"
+          "@id": "_:N72902e840bc44433a2912127a95c39ba"
         }
       ],
       "bsc:output": {
-        "@id": "_:Na18efd168e6f4512b466e0cc0c9e45de"
+        "@id": "_:Na1800e205a4c48a59041b5354e50f2d6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
+        "Web service",
         "Command-line tool",
-        "Web application",
-        "Web service"
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
@@ -93,39 +101,39 @@
         {
           "@id": "https://orcid.org/0000-0002-7552-1009"
         },
+        "Carla Lasry",
         {
           "@id": "https://orcid.org/0000-0001-8214-9412"
         },
         {
           "@id": "https://orcid.org/0000-0002-7421-0655"
         },
-        "Carla Lasry",
         {
           "@id": "https://orcid.org/0000-0003-1050-5582"
         }
       ],
       "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1101/714832v1"
+        },
         "pmcid:PMC6978790",
-        "pubmed:32002517",
         {
           "@id": "https://doi.org/10.1093/nargab/lqaa003"
         },
-        {
-          "@id": "https://doi.org/10.1101/714832v1"
-        }
+        "pubmed:32002517"
       ],
       "sc:contributor": [
-        "Vincent Laville",
         "Bjarni Vilhjalmsson",
-        "Chunzi Yao"
+        "Chunzi Yao",
+        "Vincent Laville"
       ],
       "sc:description": "software package that handles the computation of the joint statistics over sets of selected GWAS results, and the interactive exploration of the results through a web interface.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2238"
         },
         {
-          "@id": "edam:operation_2238"
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -139,7 +147,7 @@
       "sc:url": "http://statistical-genetics.pages.pasteur.fr/jass/"
     },
     {
-      "@id": "_:N12b8f50c3def474484be26e1cb51ea73",
+      "@id": "_:Na1800e205a4c48a59041b5354e50f2d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -150,7 +158,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N3c80e0e12dba422494621afa17f6726e",
+      "@id": "_:N246da5957b4c49dc821b2f9c3c436c80",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -161,7 +169,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na18efd168e6f4512b466e0cc0c9e45de",
+      "@id": "_:N72902e840bc44433a2912127a95c39ba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -170,14 +178,6 @@
         "@id": "edam:format_3590"
       },
       "sc:name": "Data"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-7552-1009",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-8214-9412",
-      "@type": "sc:Person"
     }
   ]
 }

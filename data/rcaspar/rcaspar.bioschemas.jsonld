@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/rcaspar",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -47,10 +43,10 @@
         "Lars Kaderali"
       ],
       "bsc:input": {
-        "@id": "_:N56600a6d71004924b723b26279e46031"
+        "@id": "_:N8838ef81e6cf4436aa12ffa83d3d9e37"
       },
       "bsc:output": {
-        "@id": "_:Nff14e5a7992440b2a3f79e26e53ca218"
+        "@id": "_:N2f664be0a67940f6b9b82fe296f7a125"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -59,12 +55,6 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3053"
-        },
-        {
-          "@id": "edam:topic_0622"
-        },
-        {
           "@id": "edam:topic_0203"
         },
         {
@@ -72,11 +62,17 @@
         },
         {
           "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3053"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4509590",
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
         }
@@ -99,18 +95,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/RCASPAR.html"
     },
     {
-      "@id": "_:Nff14e5a7992440b2a3f79e26e53ca218",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N56600a6d71004924b723b26279e46031",
+      "@id": "_:N8838ef81e6cf4436aa12ffa83d3d9e37",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -127,6 +112,21 @@
         }
       ],
       "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:N2f664be0a67940f6b9b82fe296f7a125",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

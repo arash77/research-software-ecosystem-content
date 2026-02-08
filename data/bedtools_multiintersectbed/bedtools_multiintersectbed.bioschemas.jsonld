@@ -45,17 +45,17 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N0ebfa69508f7426fadac18eaece1cfa5"
+          "@id": "_:N46b99482bfa74b6dbd1e027aa6ab3d01"
         },
         {
-          "@id": "_:N2d7aaac03c7646dc932ae3d38d36ff41"
+          "@id": "_:N164e8c963a4e492c84632a2e9a5ce597"
         },
         {
-          "@id": "_:N79d240ed26b84d658b7081a7ed285cb8"
+          "@id": "_:N235290c8f9d540f68666c22796fce666"
         }
       ],
       "bsc:output": {
-        "@id": "_:N80002941db4f46758b90b72b19d52794"
+        "@id": "_:N1408960ebe8e4a7ba33b6df7b2e3c625"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -63,19 +63,19 @@
         "@id": "edam:topic_3168"
       },
       "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
         "pubmed:20110278",
+        "pubmed:27137889",
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btq033"
         },
-        "pmcid:PMC4987906",
-        "pmcid:PMC2832824",
-        "pubmed:27137889",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
-        }
+        "pmcid:PMC2832824"
       ],
       "sc:description": "Identify common intervals among multiple, sorted BED files.",
       "sc:featureList": {
@@ -94,7 +94,40 @@
       "sc:url": "https://github.com/arq5x/bedtools8"
     },
     {
-      "@id": "_:N80002941db4f46758b90b72b19d52794",
+      "@id": "_:N46b99482bfa74b6dbd1e027aa6ab3d01",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N164e8c963a4e492c84632a2e9a5ce597",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N235290c8f9d540f68666c22796fce666",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N1408960ebe8e4a7ba33b6df7b2e3c625",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -103,39 +136,6 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Data"
-    },
-    {
-      "@id": "_:N0ebfa69508f7426fadac18eaece1cfa5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N2d7aaac03c7646dc932ae3d38d36ff41",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N79d240ed26b84d658b7081a7ed285cb8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3003"
-      },
-      "sc:name": "Annotation track"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",

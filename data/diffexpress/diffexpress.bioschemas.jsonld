@@ -46,10 +46,10 @@
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3512"
+          "@id": "edam:topic_3308"
         },
         {
-          "@id": "edam:topic_3308"
+          "@id": "edam:topic_3512"
         },
         {
           "@id": "edam:topic_3170"
@@ -78,16 +78,16 @@
       "sc:license": "Unlicense",
       "sc:name": "DiffExpress",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://simplicity.nsilico.com/Home/Document"
+          "@id": "https://simplicity.nsilico.com/Home/Support"
         },
         {
-          "@id": "https://simplicity.nsilico.com/Home/Support"
+          "@id": "https://simplicity.nsilico.com/Home/Document"
         }
       ],
       "sc:url": "https://simplicity.nsilico.com/dea"

@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2105-13-111",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/metadisorder",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb480fdf85ac045a4a08b67e45143da41"
+        "@id": "_:Nb341927ec2144a19bee22784a4566fc5"
       },
       "bsc:output": {
-        "@id": "_:Ndbb639389cf1470b97439c7073c4129d"
+        "@id": "_:N4ff6aa0aae264d92835f1b4e61600e92"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -50,11 +54,11 @@
         "@id": "edam:topic_0091"
       },
       "sc:citation": [
+        "pubmed:22624656",
+        "pmcid:PMC3465245",
         {
           "@id": "https://doi.org/10.1186/1471-2105-13-111"
-        },
-        "pmcid:PMC3465245",
-        "pubmed:22624656"
+        }
       ],
       "sc:description": "Prediction method that molds various sources of information predominantly obtained from orthogonal prediction methods which focus on different types of disordered regions.",
       "sc:featureList": {
@@ -73,18 +77,7 @@
       "sc:url": "https://github.com/Rostlab/MetaDisorder"
     },
     {
-      "@id": "_:Ndbb639389cf1470b97439c7073c4129d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0896"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1964"
-      },
-      "sc:name": "Protein report"
-    },
-    {
-      "@id": "_:Nb480fdf85ac045a4a08b67e45143da41",
+      "@id": "_:Nb341927ec2144a19bee22784a4566fc5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -95,8 +88,15 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "https://doi.org/10.1186/1471-2105-13-111",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N4ff6aa0aae264d92835f1b4e61600e92",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Protein report"
     }
   ]
 }

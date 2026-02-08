@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "GenOuest platform",
       "bsc:input": {
-        "@id": "_:N1b9b54c1b8bf49c9a04e50ac13d37e96"
+        "@id": "_:N13576d74189c43779119db76446c50cb"
       },
       "bsc:output": {
-        "@id": "_:Neb13acbad1ea4ad9a91f08322568d43b"
+        "@id": "_:N65e01f02763c483e93e9f19dead2ef0a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -51,11 +51,11 @@
         "@id": "edam:topic_0160"
       },
       "sc:citation": [
-        "pmcid:PMC2788928",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btp586"
         },
-        "pubmed:19846435"
+        "pubmed:19846435",
+        "pmcid:PMC2788928"
       ],
       "sc:description": "A CRISPR Interactive database.",
       "sc:featureList": {
@@ -64,9 +64,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "Crispi",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:provider": "GenOuest",
       "sc:softwareHelp": {
@@ -75,7 +75,7 @@
       "sc:url": "http://crispi.genouest.org/"
     },
     {
-      "@id": "_:Neb13acbad1ea4ad9a91f08322568d43b",
+      "@id": "_:N65e01f02763c483e93e9f19dead2ef0a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -86,7 +86,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N1b9b54c1b8bf49c9a04e50ac13d37e96",
+      "@id": "_:N13576d74189c43779119db76446c50cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

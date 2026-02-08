@@ -36,448 +36,444 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkp335",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/meme_suite",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "MEME Suite Support",
       "bsc:input": [
         {
-          "@id": "_:Ndfb00c6ce1c44bd882fb514937036ee1"
+          "@id": "_:N8effcb0766b14519ac1fecd6aaf40f8a"
         },
         {
-          "@id": "_:N377d9b2fde8349d8969deeb75977723f"
+          "@id": "_:N02d5030442004cd492c233eb5225257b"
         },
         {
-          "@id": "_:N3e3abf6e4d4c4004b4f11f4f84cc2c4b"
+          "@id": "_:N4af80c45251e4cc9a50dc90141531977"
         },
         {
-          "@id": "_:N1766154f18974941be2a1d9f90662bb3"
+          "@id": "_:N8ce5920cc7c14e13aba15fdedfa5a1bd"
         },
         {
-          "@id": "_:N336825929d204e3c82844c7c6527b1c6"
+          "@id": "_:N29d074cef60d462fb3c187d81223e447"
         },
         {
-          "@id": "_:N004d26b25d4d49be878cfa485501fed5"
+          "@id": "_:N8ac4191e166a4ebea364d25b592a5594"
         },
         {
-          "@id": "_:N40f3ad7d2b8847b6b6bd4ba0db0bf61b"
+          "@id": "_:N35a30470d5144501ae6f94f3330d1244"
         },
         {
-          "@id": "_:N917401d444714781a75b9a68a7f8ea7a"
+          "@id": "_:N4937654eba0f41649c185a706bfe224e"
         },
         {
-          "@id": "_:N2399d67ea2e249b7af784a1ee3e411a7"
+          "@id": "_:Nf1f2d51c08eb419f8752afe1bf86fe32"
         },
         {
-          "@id": "_:Nd5c77504926b4c36b784191b115c803e"
+          "@id": "_:N4cfcd09bc81f418b943fd200d096ca51"
         },
         {
-          "@id": "_:Nb371a80b5a624c44813cbb95a16a306f"
+          "@id": "_:Nb4e2121231b7429f889088a8e9f3cb40"
         },
         {
-          "@id": "_:N227f9ddab4f24a17a967a90d045425c0"
+          "@id": "_:Nd30a3e20ddd045ccb622580e30108bd4"
         },
         {
-          "@id": "_:N96792e03603b4dd88b1f44ed96458265"
+          "@id": "_:N96f6c311a3ed4c948428c93f3edfa698"
         },
         {
-          "@id": "_:N26badafcfd2a479fb58daad792236890"
+          "@id": "_:N77016b82e1ba41be811b981f428b0699"
         },
         {
-          "@id": "_:Nade880b346e840adbff33f4ff4056644"
+          "@id": "_:N65f4956da2464634ab62cb86c117fff1"
         },
         {
-          "@id": "_:N4e78b9924b5746dc870bdc51197897f8"
+          "@id": "_:N3484b3556fb646cf9ceb408c78b2b4ee"
         },
         {
-          "@id": "_:N667f717334da4a95b0535d614f5f6e8c"
+          "@id": "_:N259aaed68d1c43fea5e7fcd4851f6dd5"
         },
         {
-          "@id": "_:Nd6aaaf817dd3486d8f8fa41fe63727c9"
+          "@id": "_:Nd1e291f622b64ffcb5c8f16087c53fdc"
         },
         {
-          "@id": "_:Nc8cdf788f9d843f49af1acbdeb6e98e5"
+          "@id": "_:Nc45684ad3b494caf971ed00be6b8542f"
         },
         {
-          "@id": "_:N231e74650b084957a17178505cb849ba"
+          "@id": "_:Nb13736b1c80145debb3afe191a5671fb"
         },
         {
-          "@id": "_:Nf90c4ab27b8e4d10979a8ce1081c1fc1"
+          "@id": "_:Nae06efd710f4421ea6f26690ec1d15da"
         },
         {
-          "@id": "_:Na3cffc9371bf436b9b1c6079ee899830"
+          "@id": "_:N47382ae178ab414bb09c8a172562ba1a"
         },
         {
-          "@id": "_:N8d4f599813e04256944d752dedae7e0f"
+          "@id": "_:N427023ef7fcb4fb58db878b3d1e9a3b1"
         },
         {
-          "@id": "_:N5982d9a3088240e8859194fdb281c15c"
+          "@id": "_:N2f8f1caf3e3547e18088b59b3b68b2f2"
         },
         {
-          "@id": "_:N1b6e0f0f124a49ff85fb1cb06340b57d"
+          "@id": "_:N51c6912ae2dd4c4b9d50f24c61b46858"
         },
         {
-          "@id": "_:N16591defd410468b800ef31dd175630e"
+          "@id": "_:N5a1d715e0d1a4e1ab595d3d674db83bc"
         },
         {
-          "@id": "_:N36a4322e9da949b5ae1e0ce05bae1baf"
+          "@id": "_:N7b07a06fc57e4856982679de40ec0a5c"
         },
         {
-          "@id": "_:N49749ccbb2cc4a569575172e02a5d4a2"
+          "@id": "_:N792546615fac46278bab3688409fee2e"
         },
         {
-          "@id": "_:N74e045ce65f64da585db0412b9ade8c1"
+          "@id": "_:N2b2f2af7b49f4d73a0bc5d9ccfe4be1e"
         },
         {
-          "@id": "_:N72d035c4009844bc87cc1e9e8cdf2856"
+          "@id": "_:N2f0f0a6b7c294f629caeb1c39364c854"
         },
         {
-          "@id": "_:N40720d85a9e340b7b41e9c9ffa0c89c8"
+          "@id": "_:N15cffc61bd374b969407b6b48ba37047"
         },
         {
-          "@id": "_:N1914f98d962c4ee29a9be3c4cc6cfc2d"
+          "@id": "_:N550d20c6b1174acea292f88f75daef4a"
         },
         {
-          "@id": "_:Nccc3aaf584f1488b8ee2964a6801d963"
+          "@id": "_:N87e2703055d946dd80970601412696b5"
         },
         {
-          "@id": "_:N8e14c077072a4d82ac081e5c47534286"
+          "@id": "_:N99fe335004ba452cbf014f74a7c3080b"
         },
         {
-          "@id": "_:N767ca364b6d147838497b2faf1a23a88"
+          "@id": "_:Ne5b69663f4264f4aace72493f0d71fd8"
         },
         {
-          "@id": "_:N630908eeaa324590a6fdb866ef6a2419"
+          "@id": "_:N372bdbfa01ac4175ad075f87391eed2e"
         },
         {
-          "@id": "_:Ne8385548988c434da879951a85a48359"
+          "@id": "_:N9ad2bdcbac0a4fc8b93ca26b2eb79d24"
         },
         {
-          "@id": "_:N3fe6b903e0584a8aa8ca964f0c7563f9"
+          "@id": "_:N670ab0c960af43aba93be50e7c091bda"
         },
         {
-          "@id": "_:N91cd8c66623e4bfb8688c0febf695188"
+          "@id": "_:Ne8e4178cc02041f7995dde71b9f0ba91"
         },
         {
-          "@id": "_:N671a4d5d625a4237a7d75aa37a801107"
+          "@id": "_:Nfbad4dbc04cc43ab9f8eb84c6331adbf"
         },
         {
-          "@id": "_:N08cc01e755734709bb22150bbf15c3e5"
+          "@id": "_:N49ddfa0b1a9840c1ab98a45be602ee49"
         },
         {
-          "@id": "_:Nec05bf48909943ee85419b750702eca5"
+          "@id": "_:N97d8b80be26e4db8840423bccac40e10"
         },
         {
-          "@id": "_:N542bf9220bcf4cfd8a2bfdb4d92efac6"
+          "@id": "_:N2d8196e6213c49c092c2b36eff1b111a"
         },
         {
-          "@id": "_:N5eb5f25ad5834bcca67be30658087fa2"
+          "@id": "_:N1c1c3a4012894ebdb7ecbf0e178d2976"
         },
         {
-          "@id": "_:N37186a1afdbf47efa293037470bc7e0b"
+          "@id": "_:N479302a2b77743a5ad5492239512fa1e"
         },
         {
-          "@id": "_:N0fe05c4db6ee4ba7ba9024a4ff10b8c4"
+          "@id": "_:N0fb34e36377444958fe36e848390c79d"
         },
         {
-          "@id": "_:N2838f352bb6e417383d260b2850a7c93"
+          "@id": "_:Nb5e664bcd4a84bf2942a6309c4d36ce2"
         },
         {
-          "@id": "_:Nc0649172ca2a40178883daaac029f13a"
+          "@id": "_:Nc2cd93c71c9943b0ab3a04d11222f2ce"
         },
         {
-          "@id": "_:N7dcd0d0d534b407c8420b3cb9513738a"
+          "@id": "_:Na09fed3c91394ae2b18ca85a6c356d2c"
         },
         {
-          "@id": "_:N52882fbd4c05458c8ec30f21a3e3df70"
+          "@id": "_:N6838dd3036bb4abc838d75440f312e0c"
         },
         {
-          "@id": "_:Nb4caafd624634d4887f5b9aebb219324"
+          "@id": "_:N5b620cb22fc94dfab992f3fe90e9885d"
         },
         {
-          "@id": "_:Nf483fcea4fa744f68c09993959fac822"
+          "@id": "_:N67e929044e0c4072a3ad46a0d32908a9"
         },
         {
-          "@id": "_:Ncbf86421cbd3405894ff93269b2f5fe0"
+          "@id": "_:N3cabbfc7451e40a0be8642358ae378c9"
         },
         {
-          "@id": "_:N2b4c3def073f49c99a4ec6a1f81086fa"
+          "@id": "_:N93a5e00a484c42c08f812a67885efebf"
         },
         {
-          "@id": "_:N00cd924711324a98b6cf43339407d51f"
+          "@id": "_:N8029e6fddf9b4a01a4e84401e7f741c0"
         },
         {
-          "@id": "_:N6a56cb554c9c4e6ababbcc68203ea5d4"
+          "@id": "_:N628f943c760e45b89b8fc9245c82503c"
         },
         {
-          "@id": "_:Neb7b5f1560ba4241a43c079a6cae54dc"
+          "@id": "_:N5aea4dccbf6545cc9ba19b8389228c36"
         },
         {
-          "@id": "_:N1c23dbaab5984675ab30d0946b9b565b"
+          "@id": "_:N357ce1e0df474142932df1ff18424a8e"
         },
         {
-          "@id": "_:N05022f17821c46b89c1d78bc11a4b62a"
+          "@id": "_:Nfdb04dd4856543fcab38b7031e818577"
         },
         {
-          "@id": "_:N5fe465dcdaf244ff978256e32f33fa57"
+          "@id": "_:N8d9f9a3c1eaf45928ea012e94eaa0841"
         },
         {
-          "@id": "_:N90d6eba9fdf0434b92a028afabebd08b"
+          "@id": "_:N674c0ebdc2194d2ebd9635371e3b580e"
         },
         {
-          "@id": "_:Nd9ff40472de04f2fafa593ebb49e3e91"
+          "@id": "_:N9b6793cadd704f0e917233c1ec275d1a"
         },
         {
-          "@id": "_:Nb7fc46eee27b4d4797d73fab939fcb08"
+          "@id": "_:Nbc7eb53366e04875b90b649774ba2eaf"
         },
         {
-          "@id": "_:N13123a83ea2a4b85b80c3561a330761b"
+          "@id": "_:N6885ed32b3a74135922c9e81c229c689"
         },
         {
-          "@id": "_:Ne7a499cf640e4607beefb50f7c1a3fce"
+          "@id": "_:Nf28fdcde407f4cf081df1e1e3c2b1587"
         },
         {
-          "@id": "_:N28820a6a1e784f0bb524f331a439c58f"
+          "@id": "_:Nadf7eb89d517485db11b0cfd39403b95"
         },
         {
-          "@id": "_:N9058e1457d614cdd93e67f713bccdacb"
+          "@id": "_:N907779fe6a46431ca2db0086c8266d9f"
         },
         {
-          "@id": "_:N92bfa3d3953942c78ae65cce79a4e9be"
+          "@id": "_:Nc0659a1c2a27487081bba2b97492c806"
         },
         {
-          "@id": "_:N3da0bff06a6c43a8b17158b6c5a43582"
+          "@id": "_:N3f08e51e8a9a41d184d1190a2d51bb25"
         },
         {
-          "@id": "_:Nbafbb1dacc1e49a996a3af9813c5a87d"
+          "@id": "_:N1a302273dfdc4e0bb0d2348934f6ab93"
         },
         {
-          "@id": "_:Ncd77fd0a61cf417abf790dee07de642c"
+          "@id": "_:N34084513e71641aa97979e6d84c8a9bc"
         },
         {
-          "@id": "_:Nd25f3f1e448b458eb7d343ad31035beb"
+          "@id": "_:N95c15d4a6edd4fd99c9cfee220eeaf4f"
         },
         {
-          "@id": "_:N3c112172fc2f4cac9a566a636adb8a7b"
+          "@id": "_:N0784121fbd7542fda36345a103325d86"
         },
         {
-          "@id": "_:N1550cd788d7c49b8b06c77a259e1b7fa"
+          "@id": "_:N235b8df4e6fa40b0bb76aabae98b9573"
         },
         {
-          "@id": "_:N0e2305a7408c4f5fb0ce2bd543e8acad"
+          "@id": "_:Nd33df41da9d34b5c80beec3ed170b2ee"
         },
         {
-          "@id": "_:Nbb19aaedb5ad4a0ebbc29bd61e514771"
+          "@id": "_:N9e71def1fecf4ab68c484689d3d39246"
         },
         {
-          "@id": "_:N00b2b841ac4440f0b2722d422d745e1f"
+          "@id": "_:N94f639cf6d2647bca71327ff19df718d"
         },
         {
-          "@id": "_:N0ab64aabd08e438cb8a0df33c16ae189"
+          "@id": "_:N56da4c47c2fb4ce2b1cac6f33a88ebac"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5a524abf683e4290bc21a0202f8d7970"
+          "@id": "_:N263b4df33b15469485819143b9c270eb"
         },
         {
-          "@id": "_:N4d30e13b2cb2401b9cd9d834164cc68e"
+          "@id": "_:N7165ce1aaa9f4bb294ac1d12acd2aa0f"
         },
         {
-          "@id": "_:N10fea14d143f4b66a34fc50577c20e96"
+          "@id": "_:N4920660b4a704514aee7e84f0b0b4d15"
         },
         {
-          "@id": "_:Nc75c5b4d5c2146ce8abbb23d6a8e3382"
+          "@id": "_:Nfef5008452324d709684fd425a7932e5"
         },
         {
-          "@id": "_:N4920ac815c7f4c1c937e8a475339cb3f"
+          "@id": "_:Nba353488b06149c6b792be0b848ecfeb"
         },
         {
-          "@id": "_:N476f29e2c12b4d478ddd29cb73ea47c3"
+          "@id": "_:N96cfde91799a44c6990aa94d12d98bbf"
         },
         {
-          "@id": "_:N377c7c2b82634c32973c370fe95aa0ac"
+          "@id": "_:Na99124bda2aa45f988d5c447bdc79b56"
         },
         {
-          "@id": "_:N909f59002982476199ae6f1630b51713"
+          "@id": "_:N18f4ec2d14bf4ef1a868774feeb7c47a"
         },
         {
-          "@id": "_:N5eb6e0778b254ca9b76991aa8d413306"
+          "@id": "_:N99690b3d8dbd403bafcaca86d2608e82"
         },
         {
-          "@id": "_:N65f9139f91e64d18be465b995a2a8a38"
+          "@id": "_:Nf159c0e57f594393ba9ab79f7a9e677f"
         },
         {
-          "@id": "_:Nd1b0af7cc46646c1af21fa5a8979d3ac"
+          "@id": "_:N0c373e9a0f7c40b28ed792e367650de0"
         },
         {
-          "@id": "_:Nefd021d7ada544a5bb0593e6fe0c129f"
+          "@id": "_:N7718089bcb094ad084f11293455d06c3"
         },
         {
-          "@id": "_:N2fcdd0d6d6c14c8eb7cb48d6a119c389"
+          "@id": "_:N6e173ede69614804ac988e61f881432c"
         },
         {
-          "@id": "_:N9c88bcd200dd43139a40f854bfa5d3e1"
+          "@id": "_:N77130f5478d245d78164fec8895c914e"
         },
         {
-          "@id": "_:Nee17cd6c219c4e7fa4073d5f9cae4a00"
+          "@id": "_:Nce3cfcc1767544839ab7ae2893f085e8"
         },
         {
-          "@id": "_:Nbff88fbd0f23425cbe2ecf69738cdc84"
+          "@id": "_:N49a08a0e328c4f6f956332d7e2219051"
         },
         {
-          "@id": "_:N90734eee7bdb4d5e8b0170916d6a96c1"
+          "@id": "_:Na16c07366ba444e38a3724c6d4b0a9f2"
         },
         {
-          "@id": "_:Nd213502a7ee241ed8224f0cb6c08dced"
+          "@id": "_:Nda36095c9c7b46f685bbc55b61f8f4d0"
         },
         {
-          "@id": "_:N2bc4e79f2b094844b2ab437ba5c54eff"
+          "@id": "_:Nfd9fa96e6d3149038e08c9bf558fe580"
         },
         {
-          "@id": "_:Nb5013e53bc7144489e92948b3cf40184"
+          "@id": "_:N56f2d0e38e9c42d08335c1fe7203b1ce"
         },
         {
-          "@id": "_:N260f1ed886ef430b828555e2bdbceb61"
+          "@id": "_:N49ae2cc6615e461a91d47f56ebbafd10"
         },
         {
-          "@id": "_:Nbb48de269d514ae2b13d0bb23a99f249"
+          "@id": "_:Nb68e4b16b3154fa9a60a478980db3415"
         },
         {
-          "@id": "_:N3488933ac7e94963afc8074de5cd38a5"
+          "@id": "_:N0e83c36739bd4a05a5f63bf3e5f4ea94"
         },
         {
-          "@id": "_:N39bc09fe03484dd7866fe1e1360b21b6"
+          "@id": "_:Nd4d0a7747f284d71a609a90805e2f2e6"
         },
         {
-          "@id": "_:N193ae3c43bcd42329174b03be9c2d88d"
+          "@id": "_:Nd48b3b0d2f3a4937a8804a6abb2bf8ec"
         },
         {
-          "@id": "_:Nc9eec58e24174690800333667cb129e1"
+          "@id": "_:N81d6dbfff4ff44c5ad125d2880d5707e"
         },
         {
-          "@id": "_:Nbcf91d94d3bc4ef3b328b9fc105aade9"
+          "@id": "_:Nab5091e92ca24277a103c52ab7b37409"
         },
         {
-          "@id": "_:N47645d03e60d4349815438d060ab1af2"
+          "@id": "_:N52ef4811151e435f9e9e57d3bbde6005"
         },
         {
-          "@id": "_:Nc32605fcb8ba4cc9bb37c46951f9130b"
+          "@id": "_:N7ec95105af834e6cbe85b244af38b71c"
         },
         {
-          "@id": "_:N1bad50f270194a0b85c4afb50c10abdd"
+          "@id": "_:Ndfc700a5bd714e4eafc73a0b3400247f"
         },
         {
-          "@id": "_:N576da9590c014d8d88fb3193a9a467df"
+          "@id": "_:N4464b47486104d32a219885bd5a22b08"
         },
         {
-          "@id": "_:N8681b74940364cef9b7e9659b7ab2122"
+          "@id": "_:Ncf84238b429b45d7a36fc499fc1fd31e"
         },
         {
-          "@id": "_:Nc297c53474b24fc4b7b45b12c66c5d05"
+          "@id": "_:N4a32f68aa0974c629979932a4e5fdbb3"
         },
         {
-          "@id": "_:Nbf8cd76f605146fb8edcbb568a477066"
+          "@id": "_:Na33e27edaf884852a3fa043a7603fab0"
         },
         {
-          "@id": "_:N126bb84354e748559d879c5a6a99fec3"
+          "@id": "_:N25736f268d2845fcaca0dd3fc8c44e02"
         },
         {
-          "@id": "_:N26e45ad3449441abae42ab61ab075c23"
+          "@id": "_:Nb5ad405a3c184a56a088588b8cdaa222"
         },
         {
-          "@id": "_:N243c2cee044a46ddb7a86d9268477114"
+          "@id": "_:N0b11031437c64deca75f2ed80999070e"
         },
         {
-          "@id": "_:Nb909c8b1683747789d7485d47f307be8"
+          "@id": "_:N478e41005ce3498d8a228a666506a761"
         },
         {
-          "@id": "_:Nf4e894add4a04717943cbc0166be7fcb"
+          "@id": "_:Nffdbada23364442cb76a2bc775215e10"
         },
         {
-          "@id": "_:Nd07baee4f1dc46c4b1ec6cf2bafbf963"
+          "@id": "_:N2943f51dc4884aa1bbd32b39baaedd92"
         },
         {
-          "@id": "_:N1c7f2d932789406fb7ea803a47f7dacf"
+          "@id": "_:Ncc3ad23611234ff494fa2574b4f7768c"
         },
         {
-          "@id": "_:Nc037453fe2b042208fe1b6e751c33be1"
+          "@id": "_:N34f5c63d61d04da7930f2693f9f1ecce"
         },
         {
-          "@id": "_:N57753fa93c0d4d0692cbc2e7f7039b20"
+          "@id": "_:Nf57f75249ef945b7b5984080f2e74074"
         },
         {
-          "@id": "_:N387ee5364c464d95a04d359cc9c92ab9"
+          "@id": "_:N83dca7e4f2af491180688b3521454b09"
         },
         {
-          "@id": "_:Ned1a246d99af4133b952a10aa4da625b"
+          "@id": "_:N41caa72cc3ab45c2a2f20183e25230a7"
         },
         {
-          "@id": "_:Nbbd219bf5ce64b2e9d72e251ba542458"
+          "@id": "_:N8571f70b19774b01bde3c36a3af141f0"
         },
         {
-          "@id": "_:N6d90a3ec5e6c45f5ab6418002d5c4f69"
+          "@id": "_:Nea07e757e58d4047984ac888456461b6"
         },
         {
-          "@id": "_:N3038ca7903324258b955a54b0276ac8d"
+          "@id": "_:N184963cbf2234cf0b119be3228041a25"
         },
         {
-          "@id": "_:N841b7dd365de4cb1a227fd3ec16bca6e"
+          "@id": "_:N5931b5b2702845168f0c594c5f897748"
         },
         {
-          "@id": "_:N0b0f4e5414384a458bdad7faaa68c73b"
+          "@id": "_:Nac866bc761414268a4aa3157f5a4bfa0"
         },
         {
-          "@id": "_:N7157aa24ea4a43acaeb3648119a47245"
+          "@id": "_:N84b1e10efc54434298cfb6db8001eee6"
         },
         {
-          "@id": "_:N80fd98693cbe46a99af75ffb89ff9d11"
+          "@id": "_:N819984179c8a4a7a87161762258e958d"
         },
         {
-          "@id": "_:N11262fc5638e47acb1b72ea658a4f518"
+          "@id": "_:N256758e6223f466a917a1c7c1390e80c"
         },
         {
-          "@id": "_:Nde0b94e966d946d68e35145a344aeb52"
+          "@id": "_:N3ede91d70e0541538f1735352db7a1ea"
         },
         {
-          "@id": "_:N5cb330071ecc4bcfb8426f786a27b1e7"
+          "@id": "_:N76b6ee919f76463896b7a08806aa4124"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
+        "Suite",
         "Web application",
-        "Command-line tool",
-        "Suite"
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0203"
-        },
-        {
-          "@id": "edam:topic_0160"
-        },
-        {
           "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0203"
         },
         {
           "@id": "edam:topic_3125"
         },
         {
           "@id": "edam:topic_0736"
+        },
+        {
+          "@id": "edam:topic_0160"
         }
       ],
       "sc:citation": [
-        "pubmed:8902357",
-        "pubmed:9366496",
-        "pubmed:9283754",
         "pubmed:8877500",
-        "pubmed:7584402",
-        "pubmed:16845028",
         "pubmed:7584439",
+        "pubmed:9283754",
+        "pubmed:9366496",
+        "pubmed:16845028",
         "pubmed:19458158",
+        "pubmed:7584402",
+        "pubmed:8902357",
         {
           "@id": "https://doi.org/10.1093/nar/gkp335"
         }
@@ -485,67 +481,43 @@
       "sc:description": "Unified portal for discovery and analysis of sequence motifs (e.g. DNA binding sites, protein interaction domains). Motifs with/without gaps may be discovered, searched for in DNA and protein databases, compared to other motifs and analyzed for putative function by association with gene ontology terms. MEME is a tool designed for discovering and searching for DNA motifs such as transcription factor binding sites (TFBS) or protein domains.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3081"
-        },
-        {
-          "@id": "edam:operation_0230"
-        },
-        {
-          "@id": "edam:operation_0415"
-        },
-        {
-          "@id": "edam:operation_3434"
-        },
-        {
-          "@id": "edam:operation_2995"
-        },
-        {
-          "@id": "edam:operation_0361"
-        },
-        {
-          "@id": "edam:operation_2424"
-        },
-        {
-          "@id": "edam:operation_3096"
-        },
-        {
-          "@id": "edam:operation_0236"
-        },
-        {
-          "@id": "edam:operation_2238"
-        },
-        {
-          "@id": "edam:operation_3429"
-        },
-        {
-          "@id": "edam:operation_0327"
-        },
-        {
-          "@id": "edam:operation_0338"
-        },
-        {
-          "@id": "edam:operation_0291"
-        },
-        {
-          "@id": "edam:operation_0233"
+          "@id": "edam:operation_0238"
         },
         {
           "@id": "edam:operation_0335"
         },
         {
-          "@id": "edam:operation_1812"
-        },
-        {
           "@id": "edam:operation_0445"
         },
         {
-          "@id": "edam:operation_0238"
+          "@id": "edam:operation_0226"
+        },
+        {
+          "@id": "edam:operation_3438"
+        },
+        {
+          "@id": "edam:operation_0361"
+        },
+        {
+          "@id": "edam:operation_3081"
+        },
+        {
+          "@id": "edam:operation_2575"
+        },
+        {
+          "@id": "edam:operation_3429"
+        },
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0338"
         },
         {
           "@id": "edam:operation_0300"
         },
         {
-          "@id": "edam:operation_3480"
+          "@id": "edam:operation_0230"
         },
         {
           "@id": "edam:operation_2421"
@@ -554,34 +526,58 @@
           "@id": "edam:operation_0324"
         },
         {
-          "@id": "edam:operation_2426"
+          "@id": "edam:operation_3480"
         },
         {
-          "@id": "edam:operation_2575"
+          "@id": "edam:operation_0327"
+        },
+        {
+          "@id": "edam:operation_2995"
+        },
+        {
+          "@id": "edam:operation_0369"
+        },
+        {
+          "@id": "edam:operation_3434"
+        },
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_0291"
         },
         {
           "@id": "edam:operation_3501"
         },
         {
-          "@id": "edam:operation_3438"
+          "@id": "edam:operation_2426"
         },
         {
-          "@id": "edam:operation_0226"
+          "@id": "edam:operation_1812"
+        },
+        {
+          "@id": "edam:operation_0233"
+        },
+        {
+          "@id": "edam:operation_3096"
+        },
+        {
+          "@id": "edam:operation_0236"
+        },
+        {
+          "@id": "edam:operation_0415"
+        },
+        {
+          "@id": "edam:operation_2424"
         },
         {
           "@id": "edam:operation_0239"
-        },
-        {
-          "@id": "edam:operation_0337"
-        },
-        {
-          "@id": "edam:operation_0369"
         }
       ],
       "sc:name": "MEME Suite",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -590,7 +586,29 @@
       "sc:url": "http://meme-suite.org/"
     },
     {
-      "@id": "_:Ndfb00c6ce1c44bd882fb514937036ee1",
+      "@id": "_:N8effcb0766b14519ac1fecd6aaf40f8a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N02d5030442004cd492c233eb5225257b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N4af80c45251e4cc9a50dc90141531977",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -598,51 +616,53 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N377d9b2fde8349d8969deeb75977723f",
+      "@id": "_:N8ce5920cc7c14e13aba15fdedfa5a1bd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1097"
+        "@id": "edam:data_1772"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence accession (nucleic acid)"
+      "sc:name": "Score"
     },
     {
-      "@id": "_:N3e3abf6e4d4c4004b4f11f4f84cc2c4b",
+      "@id": "_:N29d074cef60d462fb3c187d81223e447",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0863"
+        "@id": "edam:data_2070"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1982"
+        "@id": "edam:format_1360"
       },
-      "sc:name": "Sequence alignment"
+      "sc:name": "Sequence motif (nucleic acid)"
     },
     {
-      "@id": "_:N1766154f18974941be2a1d9f90662bb3",
+      "@id": "_:N8ac4191e166a4ebea364d25b592a5594",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2044"
+        "@id": "edam:data_2854"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
+      "sc:name": "Position-specific scoring matrix"
     },
     {
-      "@id": "_:N336825929d204e3c82844c7c6527b1c6",
+      "@id": "_:N35a30470d5144501ae6f94f3330d1244",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N4937654eba0f41649c185a706bfe224e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1353"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1360"
+        "@id": "edam:format_1915"
       },
       "sc:name": "Sequence motif"
     },
     {
-      "@id": "_:N004d26b25d4d49be878cfa485501fed5",
+      "@id": "_:Nf1f2d51c08eb419f8752afe1bf86fe32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -653,7 +673,18 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N40f3ad7d2b8847b6b6bd4ba0db0bf61b",
+      "@id": "_:N4cfcd09bc81f418b943fd200d096ca51",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Nb4e2121231b7429f889088a8e9f3cb40",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -664,133 +695,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N917401d444714781a75b9a68a7f8ea7a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2854"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1915"
-      },
-      "sc:name": "Position-specific scoring matrix"
-    },
-    {
-      "@id": "_:N2399d67ea2e249b7af784a1ee3e411a7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2854"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1915"
-      },
-      "sc:name": "Position-specific scoring matrix"
-    },
-    {
-      "@id": "_:Nd5c77504926b4c36b784191b115c803e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1234"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set (nucleic acid)"
-    },
-    {
-      "@id": "_:Nb371a80b5a624c44813cbb95a16a306f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1910"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:N227f9ddab4f24a17a967a90d045425c0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2070"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif (nucleic acid)"
-    },
-    {
-      "@id": "_:N96792e03603b4dd88b1f44ed96458265",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N26badafcfd2a479fb58daad792236890",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:Nade880b346e840adbff33f4ff4056644",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N4e78b9924b5746dc870bdc51197897f8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2534"
-      },
-      "sc:name": "Sequence attribute"
-    },
-    {
-      "@id": "_:N667f717334da4a95b0535d614f5f6e8c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1197"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:Nd6aaaf817dd3486d8f8fa41fe63727c9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1982"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Nc8cdf788f9d843f49af1acbdeb6e98e5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1982"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N231e74650b084957a17178505cb849ba",
+      "@id": "_:Nd30a3e20ddd045ccb622580e30108bd4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -798,589 +703,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Nf90c4ab27b8e4d10979a8ce1081c1fc1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:name": "Score"
-    },
-    {
-      "@id": "_:Na3cffc9371bf436b9b1c6079ee899830",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N8d4f599813e04256944d752dedae7e0f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1915"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N5982d9a3088240e8859194fdb281c15c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2854"
-      },
-      "sc:name": "Position-specific scoring matrix"
-    },
-    {
-      "@id": "_:N1b6e0f0f124a49ff85fb1cb06340b57d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1367"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N16591defd410468b800ef31dd175630e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0582"
-      },
-      "sc:name": "Ontology"
-    },
-    {
-      "@id": "_:N36a4322e9da949b5ae1e0ce05bae1baf",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N49749ccbb2cc4a569575172e02a5d4a2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N74e045ce65f64da585db0412b9ade8c1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:N72d035c4009844bc87cc1e9e8cdf2856",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:N40720d85a9e340b7b41e9c9ffa0c89c8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N1914f98d962c4ee29a9be3c4cc6cfc2d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0857"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2332"
-      },
-      "sc:name": "Sequence search results"
-    },
-    {
-      "@id": "_:Nccc3aaf584f1488b8ee2964a6801d963",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:N8e14c077072a4d82ac081e5c47534286",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N767ca364b6d147838497b2faf1a23a88",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2332"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N630908eeaa324590a6fdb866ef6a2419",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:Ne8385548988c434da879951a85a48359",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2070"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif (nucleic acid)"
-    },
-    {
-      "@id": "_:N3fe6b903e0584a8aa8ca964f0c7563f9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:N91cd8c66623e4bfb8688c0febf695188",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N671a4d5d625a4237a7d75aa37a801107",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1669"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "P-value"
-    },
-    {
-      "@id": "_:N08cc01e755734709bb22150bbf15c3e5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1915"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:Nec05bf48909943ee85419b750702eca5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N542bf9220bcf4cfd8a2bfdb4d92efac6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1361"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1915"
-      },
-      "sc:name": "Position frequency matrix"
-    },
-    {
-      "@id": "_:N5eb5f25ad5834bcca67be30658087fa2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N37186a1afdbf47efa293037470bc7e0b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2854"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Position-specific scoring matrix"
-    },
-    {
-      "@id": "_:N0fe05c4db6ee4ba7ba9024a4ff10b8c4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1982"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N2838f352bb6e417383d260b2850a7c93",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:Nc0649172ca2a40178883daaac029f13a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N7dcd0d0d534b407c8420b3cb9513738a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N52882fbd4c05458c8ec30f21a3e3df70",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2332"
-      },
-      "sc:name": "Score"
-    },
-    {
-      "@id": "_:Nb4caafd624634d4887f5b9aebb219324",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Nf483fcea4fa744f68c09993959fac822",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2854"
-      },
-      "sc:name": "Position-specific scoring matrix"
-    },
-    {
-      "@id": "_:Ncbf86421cbd3405894ff93269b2f5fe0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N2b4c3def073f49c99a4ec6a1f81086fa",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1234"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set (nucleic acid)"
-    },
-    {
-      "@id": "_:N00cd924711324a98b6cf43339407d51f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N6a56cb554c9c4e6ababbcc68203ea5d4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:Neb7b5f1560ba4241a43c079a6cae54dc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N1c23dbaab5984675ab30d0946b9b565b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2082"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1915"
-      },
-      "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:N05022f17821c46b89c1d78bc11a4b62a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0582"
-      },
-      "sc:name": "Ontology"
-    },
-    {
-      "@id": "_:N5fe465dcdaf244ff978256e32f33fa57",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N90d6eba9fdf0434b92a028afabebd08b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1234"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set (nucleic acid)"
-    },
-    {
-      "@id": "_:Nd9ff40472de04f2fafa593ebb49e3e91",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1927"
-        },
-        {
-          "@id": "edam:format_1915"
-        },
-        {
-          "@id": "edam:format_1962"
-        },
-        {
-          "@id": "edam:format_1912"
-        },
-        {
-          "@id": "edam:format_1935"
-        },
-        {
-          "@id": "edam:format_1948"
-        },
-        {
-          "@id": "edam:format_1997"
-        },
-        {
-          "@id": "edam:format_1964"
-        },
-        {
-          "@id": "edam:format_1966"
-        },
-        {
-          "@id": "edam:format_1936"
-        },
-        {
-          "@id": "edam:format_1954"
-        },
-        {
-          "@id": "edam:format_1925"
-        },
-        {
-          "@id": "edam:format_1929"
-        }
-      ],
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Nb7fc46eee27b4d4797d73fab939fcb08",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1910"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:N13123a83ea2a4b85b80c3561a330761b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Ne7a499cf640e4607beefb50f7c1a3fce",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1910"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:N28820a6a1e784f0bb524f331a439c58f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1234"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set (nucleic acid)"
-    },
-    {
-      "@id": "_:N9058e1457d614cdd93e67f713bccdacb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1364"
-      },
-      "sc:name": "Hidden Markov model"
-    },
-    {
-      "@id": "_:N92bfa3d3953942c78ae65cce79a4e9be",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2070"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif (nucleic acid)"
-    },
-    {
-      "@id": "_:N3da0bff06a6c43a8b17158b6c5a43582",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1234"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set (nucleic acid)"
-    },
-    {
-      "@id": "_:Nbafbb1dacc1e49a996a3af9813c5a87d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1982"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Ncd77fd0a61cf417abf790dee07de642c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nd25f3f1e448b458eb7d343ad31035beb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0582"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2196"
-      },
-      "sc:name": "Ontology"
-    },
-    {
-      "@id": "_:N3c112172fc2f4cac9a566a636adb8a7b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N1550cd788d7c49b8b06c77a259e1b7fa",
+      "@id": "_:N96f6c311a3ed4c948428c93f3edfa698",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -1391,29 +714,40 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N0e2305a7408c4f5fb0ce2bd543e8acad",
+      "@id": "_:N77016b82e1ba41be811b981f428b0699",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2854"
+        "@id": "edam:data_2070"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3597"
+        "@id": "edam:format_1360"
       },
-      "sc:name": "Position-specific scoring matrix"
+      "sc:name": "Sequence motif (nucleic acid)"
     },
     {
-      "@id": "_:Nbb19aaedb5ad4a0ebbc29bd61e514771",
+      "@id": "_:N65f4956da2464634ab62cb86c117fff1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2044"
+        "@id": "edam:data_2082"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1929"
+        "@id": "edam:format_1915"
       },
-      "sc:name": "Sequence"
+      "sc:name": "Matrix"
     },
     {
-      "@id": "_:N00b2b841ac4440f0b2722d422d745e1f",
+      "@id": "_:N3484b3556fb646cf9ceb408c78b2b4ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1367"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N259aaed68d1c43fea5e7fcd4851f6dd5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1353"
@@ -1424,189 +758,7 @@
       "sc:name": "Sequence motif"
     },
     {
-      "@id": "_:N0ab64aabd08e438cb8a0df33c16ae189",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N5a524abf683e4290bc21a0202f8d7970",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0951"
-      },
-      "sc:name": "Statistical estimate score"
-    },
-    {
-      "@id": "_:N4d30e13b2cb2401b9cd9d834164cc68e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N10fea14d143f4b66a34fc50577c20e96",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:Nc75c5b4d5c2146ce8abbb23d6a8e3382",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0857"
-      },
-      "sc:name": "Sequence search results"
-    },
-    {
-      "@id": "_:N4920ac815c7f4c1c937e8a475339cb3f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N476f29e2c12b4d478ddd29cb73ea47c3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1997"
-      },
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:N377c7c2b82634c32973c370fe95aa0ac",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:name": "Score"
-    },
-    {
-      "@id": "_:N909f59002982476199ae6f1630b51713",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1360"
-        },
-        {
-          "@id": "edam:format_2331"
-        },
-        {
-          "@id": "edam:format_2332"
-        }
-      ],
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N5eb6e0778b254ca9b76991aa8d413306",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0869"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2331"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Sequence-profile alignment"
-    },
-    {
-      "@id": "_:N65f9139f91e64d18be465b995a2a8a38",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2332"
-        },
-        {
-          "@id": "edam:format_2331"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:Nd1b0af7cc46646c1af21fa5a8979d3ac",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:Nefd021d7ada544a5bb0593e6fe0c129f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:N2fcdd0d6d6c14c8eb7cb48d6a119c389",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N9c88bcd200dd43139a40f854bfa5d3e1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2332"
-        },
-        {
-          "@id": "edam:format_2331"
-        }
-      ],
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:Nee17cd6c219c4e7fa4073d5f9cae4a00",
+      "@id": "_:Nd1e291f622b64ffcb5c8f16087c53fdc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -1617,7 +769,78 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:Nbff88fbd0f23425cbe2ecf69738cdc84",
+      "@id": "_:Nc45684ad3b494caf971ed00be6b8542f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2534"
+      },
+      "sc:name": "Sequence attribute"
+    },
+    {
+      "@id": "_:Nb13736b1c80145debb3afe191a5671fb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1982"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nae06efd710f4421ea6f26690ec1d15da",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N47382ae178ab414bb09c8a172562ba1a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1982"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N427023ef7fcb4fb58db878b3d1e9a3b1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2854"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3597"
+      },
+      "sc:name": "Position-specific scoring matrix"
+    },
+    {
+      "@id": "_:N2f8f1caf3e3547e18088b59b3b68b2f2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "_:N51c6912ae2dd4c4b9d50f24c61b46858",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N5a1d715e0d1a4e1ab595d3d674db83bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -1628,18 +851,111 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N90734eee7bdb4d5e8b0170916d6a96c1",
+      "@id": "_:N7b07a06fc57e4856982679de40ec0a5c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2048"
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N792546615fac46278bab3688409fee2e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_1915"
       },
-      "sc:name": "Report"
+      "sc:name": "Sequence motif"
     },
     {
-      "@id": "_:Nd213502a7ee241ed8224f0cb6c08dced",
+      "@id": "_:N2b2f2af7b49f4d73a0bc5d9ccfe4be1e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N2f0f0a6b7c294f629caeb1c39364c854",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0582"
+      },
+      "sc:name": "Ontology"
+    },
+    {
+      "@id": "_:N15cffc61bd374b969407b6b48ba37047",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N550d20c6b1174acea292f88f75daef4a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1197"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N87e2703055d946dd80970601412696b5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N99fe335004ba452cbf014f74a7c3080b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Ne5b69663f4264f4aace72493f0d71fd8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2070"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif (nucleic acid)"
+    },
+    {
+      "@id": "_:N372bdbfa01ac4175ad075f87391eed2e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N9ad2bdcbac0a4fc8b93ca26b2eb79d24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1353"
@@ -1650,18 +966,546 @@
       "sc:name": "Sequence motif"
     },
     {
-      "@id": "_:N2bc4e79f2b094844b2ab437ba5c54eff",
+      "@id": "_:N670ab0c960af43aba93be50e7c091bda",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Ne8e4178cc02041f7995dde71b9f0ba91",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Nfbad4dbc04cc43ab9f8eb84c6331adbf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N49ddfa0b1a9840c1ab98a45be602ee49",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N97d8b80be26e4db8840423bccac40e10",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:N2d8196e6213c49c092c2b36eff1b111a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N1c1c3a4012894ebdb7ecbf0e178d2976",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N479302a2b77743a5ad5492239512fa1e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N0fb34e36377444958fe36e848390c79d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nb5e664bcd4a84bf2942a6309c4d36ce2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2854"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2200"
+        "@id": "edam:format_1915"
       },
       "sc:name": "Position-specific scoring matrix"
     },
     {
-      "@id": "_:Nb5013e53bc7144489e92948b3cf40184",
+      "@id": "_:Nc2cd93c71c9943b0ab3a04d11222f2ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Na09fed3c91394ae2b18ca85a6c356d2c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N6838dd3036bb4abc838d75440f312e0c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1097"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence accession (nucleic acid)"
+    },
+    {
+      "@id": "_:N5b620cb22fc94dfab992f3fe90e9885d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2854"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1915"
+      },
+      "sc:name": "Position-specific scoring matrix"
+    },
+    {
+      "@id": "_:N67e929044e0c4072a3ad46a0d32908a9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0582"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2196"
+      },
+      "sc:name": "Ontology"
+    },
+    {
+      "@id": "_:N3cabbfc7451e40a0be8642358ae378c9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N93a5e00a484c42c08f812a67885efebf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1982"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N8029e6fddf9b4a01a4e84401e7f741c0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "_:N628f943c760e45b89b8fc9245c82503c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5aea4dccbf6545cc9ba19b8389228c36",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0582"
+      },
+      "sc:name": "Ontology"
+    },
+    {
+      "@id": "_:N357ce1e0df474142932df1ff18424a8e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Nfdb04dd4856543fcab38b7031e818577",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1935"
+        },
+        {
+          "@id": "edam:format_1948"
+        },
+        {
+          "@id": "edam:format_1912"
+        },
+        {
+          "@id": "edam:format_1997"
+        },
+        {
+          "@id": "edam:format_1964"
+        },
+        {
+          "@id": "edam:format_1954"
+        },
+        {
+          "@id": "edam:format_1936"
+        },
+        {
+          "@id": "edam:format_1925"
+        },
+        {
+          "@id": "edam:format_1966"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1927"
+        },
+        {
+          "@id": "edam:format_1915"
+        },
+        {
+          "@id": "edam:format_1962"
+        }
+      ],
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N8d9f9a3c1eaf45928ea012e94eaa0841",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N674c0ebdc2194d2ebd9635371e3b580e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N9b6793cadd704f0e917233c1ec275d1a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1361"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1915"
+      },
+      "sc:name": "Position frequency matrix"
+    },
+    {
+      "@id": "_:Nbc7eb53366e04875b90b649774ba2eaf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "_:N6885ed32b3a74135922c9e81c229c689",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nf28fdcde407f4cf081df1e1e3c2b1587",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Nadf7eb89d517485db11b0cfd39403b95",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1982"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N907779fe6a46431ca2db0086c8266d9f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:Nc0659a1c2a27487081bba2b97492c806",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N3f08e51e8a9a41d184d1190a2d51bb25",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N1a302273dfdc4e0bb0d2348934f6ab93",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "_:N34084513e71641aa97979e6d84c8a9bc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2854"
+      },
+      "sc:name": "Position-specific scoring matrix"
+    },
+    {
+      "@id": "_:N95c15d4a6edd4fd99c9cfee220eeaf4f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N0784121fbd7542fda36345a103325d86",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2854"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Position-specific scoring matrix"
+    },
+    {
+      "@id": "_:N235b8df4e6fa40b0bb76aabae98b9573",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "_:Nd33df41da9d34b5c80beec3ed170b2ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N9e71def1fecf4ab68c484689d3d39246",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N94f639cf6d2647bca71327ff19df718d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1982"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N56da4c47c2fb4ce2b1cac6f33a88ebac",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N263b4df33b15469485819143b9c270eb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N7165ce1aaa9f4bb294ac1d12acd2aa0f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2523"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Phylogenetic data"
+    },
+    {
+      "@id": "_:N4920660b4a704514aee7e84f0b0b4d15",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Nfef5008452324d709684fd425a7932e5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Nba353488b06149c6b792be0b848ecfeb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N96cfde91799a44c6990aa94d12d98bbf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Na99124bda2aa45f988d5c447bdc79b56",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1353"
@@ -1671,24 +1515,16 @@
           "@id": "edam:format_2331"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_1360"
         }
       ],
       "sc:name": "Sequence motif"
     },
     {
-      "@id": "_:N260f1ed886ef430b828555e2bdbceb61",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:Nbb48de269d514ae2b13d0bb23a99f249",
+      "@id": "_:N18f4ec2d14bf4ef1a868774feeb7c47a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -1704,18 +1540,58 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N3488933ac7e94963afc8074de5cd38a5",
+      "@id": "_:N99690b3d8dbd403bafcaca86d2608e82",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0850"
+        "@id": "edam:data_0951"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set"
+      "sc:name": "Statistical estimate score"
     },
     {
-      "@id": "_:N39bc09fe03484dd7866fe1e1360b21b6",
+      "@id": "_:Nf159c0e57f594393ba9ab79f7a9e677f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N0c373e9a0f7c40b28ed792e367650de0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3466"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N7718089bcb094ad084f11293455d06c3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0951"
+      },
+      "sc:name": "Statistical estimate score"
+    },
+    {
+      "@id": "_:N6e173ede69614804ac988e61f881432c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1353"
@@ -1726,31 +1602,18 @@
       "sc:name": "Sequence motif"
     },
     {
-      "@id": "_:N193ae3c43bcd42329174b03be9c2d88d",
+      "@id": "_:N77130f5478d245d78164fec8895c914e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0951"
+        "@id": "edam:data_0850"
       },
-      "sc:name": "Statistical estimate score"
+      "sc:encodingFormat": {
+        "@id": "edam:format_1997"
+      },
+      "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Nc9eec58e24174690800333667cb129e1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3466"
-        },
-        {
-          "@id": "edam:format_3604"
-        }
-      ],
-      "sc:name": "Image"
-    },
-    {
-      "@id": "_:Nbcf91d94d3bc4ef3b328b9fc105aade9",
+      "@id": "_:Nce3cfcc1767544839ab7ae2893f085e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -1758,7 +1621,307 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N47645d03e60d4349815438d060ab1af2",
+      "@id": "_:N49a08a0e328c4f6f956332d7e2219051",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Na16c07366ba444e38a3724c6d4b0a9f2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0951"
+      },
+      "sc:name": "Statistical estimate score"
+    },
+    {
+      "@id": "_:Nda36095c9c7b46f685bbc55b61f8f4d0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Nfd9fa96e6d3149038e08c9bf558fe580",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N56f2d0e38e9c42d08335c1fe7203b1ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N49ae2cc6615e461a91d47f56ebbafd10",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nb68e4b16b3154fa9a60a478980db3415",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2854"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2200"
+      },
+      "sc:name": "Position-specific scoring matrix"
+    },
+    {
+      "@id": "_:N0e83c36739bd4a05a5f63bf3e5f4ea94",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:Nd4d0a7747f284d71a609a90805e2f2e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Nd48b3b0d2f3a4937a8804a6abb2bf8ec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N81d6dbfff4ff44c5ad125d2880d5707e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Nab5091e92ca24277a103c52ab7b37409",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:N52ef4811151e435f9e9e57d3bbde6005",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1915"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N7ec95105af834e6cbe85b244af38b71c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Ndfc700a5bd714e4eafc73a0b3400247f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N4464b47486104d32a219885bd5a22b08",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Ncf84238b429b45d7a36fc499fc1fd31e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N4a32f68aa0974c629979932a4e5fdbb3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Na33e27edaf884852a3fa043a7603fab0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1954"
+        },
+        {
+          "@id": "edam:format_1927"
+        },
+        {
+          "@id": "edam:format_1915"
+        },
+        {
+          "@id": "edam:format_1962"
+        },
+        {
+          "@id": "edam:format_1925"
+        },
+        {
+          "@id": "edam:format_1948"
+        },
+        {
+          "@id": "edam:format_1935"
+        },
+        {
+          "@id": "edam:format_1964"
+        },
+        {
+          "@id": "edam:format_1912"
+        },
+        {
+          "@id": "edam:format_1997"
+        },
+        {
+          "@id": "edam:format_1936"
+        },
+        {
+          "@id": "edam:format_1966"
+        },
+        {
+          "@id": "edam:format_1934"
+        }
+      ],
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N25736f268d2845fcaca0dd3fc8c44e02",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Nb5ad405a3c184a56a088588b8cdaa222",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N0b11031437c64deca75f2ed80999070e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N478e41005ce3498d8a228a666506a761",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Nffdbada23364442cb76a2bc775215e10",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N2943f51dc4884aa1bbd32b39baaedd92",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -1774,37 +1937,23 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:Nc32605fcb8ba4cc9bb37c46951f9130b",
+      "@id": "_:Ncc3ad23611234ff494fa2574b4f7768c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1255"
+        "@id": "edam:data_0869"
       },
-      "sc:name": "Sequence features"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Sequence-profile alignment"
     },
     {
-      "@id": "_:N1bad50f270194a0b85c4afb50c10abdd",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N576da9590c014d8d88fb3193a9a467df",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0857"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Sequence search results"
-    },
-    {
-      "@id": "_:N8681b74940364cef9b7e9659b7ab2122",
+      "@id": "_:N34f5c63d61d04da7930f2693f9f1ecce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -1812,7 +1961,31 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nc297c53474b24fc4b7b45b12c66c5d05",
+      "@id": "_:Nf57f75249ef945b7b5984080f2e74074",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0951"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Statistical estimate score"
+    },
+    {
+      "@id": "_:N83dca7e4f2af491180688b3521454b09",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N41caa72cc3ab45c2a2f20183e25230a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1353"
@@ -1823,18 +1996,18 @@
       "sc:name": "Sequence motif"
     },
     {
-      "@id": "_:Nbf8cd76f605146fb8edcbb568a477066",
+      "@id": "_:N8571f70b19774b01bde3c36a3af141f0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2044"
+        "@id": "edam:data_1022"
       },
-      "sc:name": "Sequence"
+      "sc:name": "Sequence feature label"
     },
     {
-      "@id": "_:N126bb84354e748559d879c5a6a99fec3",
+      "@id": "_:Nea07e757e58d4047984ac888456461b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0951"
+        "@id": "edam:data_1353"
       },
       "sc:encodingFormat": [
         {
@@ -1844,10 +2017,32 @@
           "@id": "edam:format_2330"
         }
       ],
-      "sc:name": "Statistical estimate score"
+      "sc:name": "Sequence motif"
     },
     {
-      "@id": "_:N26e45ad3449441abae42ab61ab075c23",
+      "@id": "_:N184963cbf2234cf0b119be3228041a25",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N5931b5b2702845168f0c594c5f897748",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1360"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Nac866bc761414268a4aa3157f5a4bfa0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0582"
@@ -1858,159 +2053,7 @@
       "sc:name": "Ontology"
     },
     {
-      "@id": "_:N243c2cee044a46ddb7a86d9268477114",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Nb909c8b1683747789d7485d47f307be8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2332"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:Nf4e894add4a04717943cbc0166be7fcb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:Nd07baee4f1dc46c4b1ec6cf2bafbf963",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1022"
-      },
-      "sc:name": "Sequence feature label"
-    },
-    {
-      "@id": "_:N1c7f2d932789406fb7ea803a47f7dacf",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2523"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2332"
-        },
-        {
-          "@id": "edam:format_2331"
-        },
-        {
-          "@id": "edam:format_2330"
-        }
-      ],
-      "sc:name": "Phylogenetic data"
-    },
-    {
-      "@id": "_:Nc037453fe2b042208fe1b6e751c33be1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N57753fa93c0d4d0692cbc2e7f7039b20",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N387ee5364c464d95a04d359cc9c92ab9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:Ned1a246d99af4133b952a10aa4da625b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0951"
-      },
-      "sc:name": "Statistical estimate score"
-    },
-    {
-      "@id": "_:Nbbd219bf5ce64b2e9d72e251ba542458",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1364"
-      },
-      "sc:name": "Hidden Markov model"
-    },
-    {
-      "@id": "_:N6d90a3ec5e6c45f5ab6418002d5c4f69",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2331"
-        },
-        {
-          "@id": "edam:format_2332"
-        }
-      ],
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N3038ca7903324258b955a54b0276ac8d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
-    },
-    {
-      "@id": "_:N841b7dd365de4cb1a227fd3ec16bca6e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N0b0f4e5414384a458bdad7faaa68c73b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N7157aa24ea4a43acaeb3648119a47245",
+      "@id": "_:N84b1e10efc54434298cfb6db8001eee6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -2021,7 +2064,18 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N80fd98693cbe46a99af75ffb89ff9d11",
+      "@id": "_:N819984179c8a4a7a87161762258e958d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N256758e6223f466a917a1c7c1390e80c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1353"
@@ -2032,78 +2086,24 @@
       "sc:name": "Sequence motif"
     },
     {
-      "@id": "_:N11262fc5638e47acb1b72ea658a4f518",
+      "@id": "_:N3ede91d70e0541538f1735352db7a1ea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1353"
+        "@id": "edam:data_1364"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1360"
-      },
-      "sc:name": "Sequence motif"
+      "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:Nde0b94e966d946d68e35145a344aeb52",
+      "@id": "_:N76b6ee919f76463896b7a08806aa4124",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0850"
+        "@id": "edam:data_0863"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence set"
+      "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N5cb330071ecc4bcfb8426f786a27b1e7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1934"
-        },
-        {
-          "@id": "edam:format_1912"
-        },
-        {
-          "@id": "edam:format_1935"
-        },
-        {
-          "@id": "edam:format_1966"
-        },
-        {
-          "@id": "edam:format_1936"
-        },
-        {
-          "@id": "edam:format_1964"
-        },
-        {
-          "@id": "edam:format_1954"
-        },
-        {
-          "@id": "edam:format_1925"
-        },
-        {
-          "@id": "edam:format_1948"
-        },
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_1997"
-        },
-        {
-          "@id": "edam:format_1927"
-        },
-        {
-          "@id": "edam:format_1915"
-        },
-        {
-          "@id": "edam:format_1962"
-        }
-      ],
-      "sc:name": "Sequence"
+      "@id": "https://doi.org/10.1093/nar/gkp335",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

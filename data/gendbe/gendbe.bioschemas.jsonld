@@ -36,17 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0003-2755-6458",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1371/journal.pone.0085568",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/gendbe",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N56f2da428cef48368b59f72db0793104"
+        "@id": "_:Nf31dc0f8d9914c928a261e0d4ea03650"
       },
       "bsc:output": {
-        "@id": "_:Nbd21b173a02e497bbb881cd19e2a1aa2"
+        "@id": "_:N5b9c6ab73b714a208b71f356438e329a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workbench",
@@ -54,11 +54,11 @@
         "@id": "edam:topic_0085"
       },
       "sc:citation": [
-        "pubmed:24427317",
+        "pmcid:PMC3888431",
         {
           "@id": "https://doi.org/10.1371/journal.pone.0085568"
         },
-        "pmcid:PMC3888431"
+        "pubmed:24427317"
       ],
       "sc:contributor": {
         "@id": "http://orcid.org/0000-0003-2755-6458"
@@ -71,9 +71,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "GenDBE",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "bigi",
       "sc:softwareHelp": {
@@ -83,23 +83,23 @@
       "sc:url": "https://gendbe.computational.bio.uni-giessen.de"
     },
     {
-      "@id": "_:Nbd21b173a02e497bbb881cd19e2a1aa2",
+      "@id": "_:N5b9c6ab73b714a208b71f356438e329a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1936"
+          "@id": "edam:format_1927"
         },
         {
-          "@id": "edam:format_1927"
+          "@id": "edam:format_1936"
         }
       ],
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:N56f2da428cef48368b59f72db0793104",
+      "@id": "_:Nf31dc0f8d9914c928a261e0d4ea03650",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3497"
@@ -115,8 +115,8 @@
       "sc:name": "DNA sequence (raw)"
     },
     {
-      "@id": "https://doi.org/10.1371/journal.pone.0085568",
-      "@type": "sc:CreativeWork"
+      "@id": "http://orcid.org/0000-0003-2755-6458",
+      "@type": "sc:Person"
     }
   ]
 }

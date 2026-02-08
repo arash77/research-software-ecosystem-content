@@ -36,55 +36,59 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s12864-018-5176-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/funcexplorer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na7cc8e93aa1344f8824918a17489a207"
+        "@id": "_:Nb79d0b88df6642b2bad2e6c6fa094e0c"
       },
       "bsc:output": [
         {
-          "@id": "_:N0def630e2c9d4a849b516f88aa87fc91"
+          "@id": "_:N175f43a2790e430f89d5f857d6cccb4e"
         },
         {
-          "@id": "_:N38ad07109b14497784f953ec7a9897ed"
+          "@id": "_:N968da09306ce4f8f8db693c39a3b3ebf"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3518"
-        },
-        {
           "@id": "edam:topic_3170"
         },
         {
-          "@id": "edam:topic_0085"
+          "@id": "edam:topic_0203"
         },
         {
-          "@id": "edam:topic_0203"
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_0085"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC6236982",
+        "pubmed:30428831",
         {
           "@id": "https://doi.org/10.1186/s12864-018-5176-x"
         },
-        "pubmed:30428831"
+        "pmcid:PMC6236982"
       ],
       "sc:description": "A web tool for automated hierarchical clustering and enrichment analysis of high-throughput genomics data with interactive visualizations of the results. It enables to obtain a first interactive overview of expression patterns, gene names and shared functionalities in the dataset.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0313"
-        },
-        {
-          "@id": "edam:operation_3501"
-        },
-        {
           "@id": "edam:operation_0571"
         },
         {
+          "@id": "edam:operation_0313"
+        },
+        {
           "@id": "edam:operation_0226"
+        },
+        {
+          "@id": "edam:operation_3501"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -101,7 +105,7 @@
       "sc:url": "https://biit.cs.ut.ee/funcexplorer"
     },
     {
-      "@id": "_:N0def630e2c9d4a849b516f88aa87fc91",
+      "@id": "_:N175f43a2790e430f89d5f857d6cccb4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -120,7 +124,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N38ad07109b14497784f953ec7a9897ed",
+      "@id": "_:N968da09306ce4f8f8db693c39a3b3ebf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3768"
@@ -131,7 +135,7 @@
       "sc:name": "Clustered gene expression profiles"
     },
     {
-      "@id": "_:Na7cc8e93aa1344f8824918a17489a207",
+      "@id": "_:Nb79d0b88df6642b2bad2e6c6fa094e0c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -140,10 +144,6 @@
         "@id": "edam:format_3751"
       },
       "sc:name": "Gene expression data"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s12864-018-5176-x",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

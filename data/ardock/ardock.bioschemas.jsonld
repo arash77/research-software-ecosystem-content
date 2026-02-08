@@ -36,23 +36,15 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gky472",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1186/2046-1682-5-7",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ardock",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Guillaume Launay",
       "bsc:input": [
         {
-          "@id": "_:N64ae6771001e4b65a48de5e789c8db83"
+          "@id": "_:N8c0e9353c9b34ef1925e07b77ff2a34c"
         },
         {
-          "@id": "_:Nb635bb0ba44a48f98f8b65c46fbf4fa3"
+          "@id": "_:N58c142ad09c34638927ba2db0f9cea55"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -70,20 +62,20 @@
       ],
       "sc:author": "G.Launay",
       "sc:citation": [
-        "pubmed:29905873",
+        "pmcid:PMC6031020",
+        {
+          "@id": "https://doi.org/10.1186/2046-1682-5-7"
+        },
+        "pubmed:22559010",
         {
           "@id": "https://doi.org/10.1093/nar/gky472"
         },
-        "pubmed:22559010",
-        "pmcid:PMC6031020",
         "pmcid:PMC3441232",
-        {
-          "@id": "https://doi.org/10.1186/2046-1682-5-7"
-        }
+        "pubmed:29905873"
       ],
       "sc:contributor": [
-        "J.Martin",
-        "R.Lavery"
+        "R.Lavery",
+        "J.Martin"
       ],
       "sc:description": "Analysis of surfaces of protein structures.",
       "sc:featureList": [
@@ -96,13 +88,13 @@
       ],
       "sc:name": "arDock",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": [
-        "ibcp.fr",
         "CNRS",
+        "ibcp.fr",
         "UCBL"
       ],
       "sc:softwareHelp": {
@@ -112,7 +104,7 @@
       "sc:url": "http://ardock.ibcp.fr"
     },
     {
-      "@id": "_:N64ae6771001e4b65a48de5e789c8db83",
+      "@id": "_:N8c0e9353c9b34ef1925e07b77ff2a34c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -123,12 +115,20 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nb635bb0ba44a48f98f8b65c46fbf4fa3",
+      "@id": "_:N58c142ad09c34638927ba2db0f9cea55",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
       },
       "sc:name": "PDB ID"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky472",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/2046-1682-5-7",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

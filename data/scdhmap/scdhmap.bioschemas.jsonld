@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/gr.277068.122",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/scdhmap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nfa3b93211df54dafab52fd7d8e025dcb"
+        "@id": "_:Nc36023bd8e404817a43656e5a61e2263"
       },
       "bsc:output": {
-        "@id": "_:N5e50cca57ad04916ab920e550f16adc8"
+        "@id": "_:N3349ae756881400c9be008d8d1fa973b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -62,11 +58,11 @@
         }
       ],
       "sc:citation": [
-        "pubmed:36849204",
-        "pmcid:PMC10069463",
         {
           "@id": "https://doi.org/10.1101/gr.277068.122"
-        }
+        },
+        "pubmed:36849204",
+        "pmcid:PMC10069463"
       ],
       "sc:description": "Model-based deep hyperbolic manifold learning for visualizing complex hierarchical structures in single-cell genomics data.",
       "sc:featureList": {
@@ -77,13 +73,13 @@
       "sc:name": "scDHMap",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:url": "https://github.com/ttgump/scDHMap"
     },
     {
-      "@id": "_:N5e50cca57ad04916ab920e550f16adc8",
+      "@id": "_:N3349ae756881400c9be008d8d1fa973b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -94,7 +90,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nfa3b93211df54dafab52fd7d8e025dcb",
+      "@id": "_:Nc36023bd8e404817a43656e5a61e2263",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -103,6 +99,10 @@
         "@id": "edam:format_3590"
       },
       "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "https://doi.org/10.1101/gr.277068.122",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

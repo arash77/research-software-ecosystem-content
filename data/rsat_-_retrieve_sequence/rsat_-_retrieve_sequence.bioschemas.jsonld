@@ -50,17 +50,17 @@
         "@id": "https://orcid.org/0000-0002-8799-8584"
       },
       "bsc:input": {
-        "@id": "_:Ne58b352c4fa140a0a80797d6a7da6cb9"
+        "@id": "_:Ne27bcb2767d84543821031ad7fac37ec"
       },
       "bsc:output": {
-        "@id": "_:N74ea126a5be848638863561bd5b46d3e"
+        "@id": "_:Nef5a2ec01bf04609bbf7a0b4edaeb237"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
+        "Web application",
         "Web API",
         "Web service",
-        "Command-line tool",
-        "Web application"
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0204"
@@ -69,12 +69,12 @@
         "@id": "https://orcid.org/0000-0002-8799-8584"
       },
       "sc:citation": [
-        "pmcid:PMC6030903",
-        "pubmed:10641039",
-        "pubmed:29722874",
         {
           "@id": "https://doi.org/10.1093/nar/gky317"
-        }
+        },
+        "pubmed:10641039",
+        "pubmed:29722874",
+        "pmcid:PMC6030903"
       ],
       "sc:description": "Starting from a list of genes, returns upstream or downstream sequences.",
       "sc:featureList": {
@@ -89,7 +89,26 @@
       "sc:url": "http://pedagogix-tagc.univ-mrs.fr/rsat/retrieve-seq_form.cgi"
     },
     {
-      "@id": "_:Ne58b352c4fa140a0a80797d6a7da6cb9",
+      "@id": "_:Nef5a2ec01bf04609bbf7a0b4edaeb237",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1957"
+        },
+        {
+          "@id": "edam:format_1942"
+        }
+      ],
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:Ne27bcb2767d84543821031ad7fac37ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -98,25 +117,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Gene ID"
-    },
-    {
-      "@id": "_:N74ea126a5be848638863561bd5b46d3e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1957"
-        },
-        {
-          "@id": "edam:format_1942"
-        },
-        {
-          "@id": "edam:format_1929"
-        }
-      ],
-      "sc:name": "DNA sequence"
     }
   ]
 }

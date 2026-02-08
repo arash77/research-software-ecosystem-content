@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkt1056",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/gomapman",
       "@type": "sc:SoftwareApplication",
       "bsc:output": [
         {
-          "@id": "_:N12cdaacc13114105b023eb3e6ad4eb4a"
+          "@id": "_:N80dc4bfa6a314fe9a38d4fe35845dc47"
         },
         {
-          "@id": "_:Nf19179b51ed34ea691e81669e5a7e28a"
+          "@id": "_:Nfa82a18e7415450f98e6a513718dda7c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,13 +53,13 @@
           "@id": "edam:topic_0085"
         },
         {
+          "@id": "edam:topic_0219"
+        },
+        {
           "@id": "edam:topic_0780"
         },
         {
           "@id": "edam:topic_0089"
-        },
-        {
-          "@id": "edam:topic_0219"
         }
       ],
       "sc:author": "Živa Ramšak",
@@ -71,21 +67,21 @@
         "@id": "https://doi.org/10.1093/nar/gkt1056"
       },
       "sc:contributor": [
-        "Špela Baebler",
         "Matej Korbar",
-        "Slovenian Research Agency (Grants J4-2228, P2-0103)",
-        "Kristina Gruden",
-        "Ana Rotter",
+        "Björn Usadel",
         "Igor Mozetič",
-        "Björn Usadel"
+        "Slovenian Research Agency (Grants J4-2228, P2-0103)",
+        "Ana Rotter",
+        "Kristina Gruden",
+        "Špela Baebler"
       ],
       "sc:description": "GoMapMan is an open web-accessible resource for gene functional annotations in the plant sciences. It was developed to facilitate improvement, consolidation and visualization of gene annotations across several plant species.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0361"
+          "@id": "edam:operation_0337"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_0361"
         }
       ],
       "sc:funder": "Slovenian Research Agency (Grants J4-2228, P2-0103)",
@@ -98,8 +94,8 @@
         "Linux"
       ],
       "sc:provider": [
-        "National Institute of Biology, Department of Biotechnology and Systems Biology",
         "ELIXIR-SI",
+        "National Institute of Biology, Department of Biotechnology and Systems Biology",
         "Jožef Stefan Institute, Slovenia"
       ],
       "sc:softwareHelp": [
@@ -113,18 +109,7 @@
       "sc:url": "http://www.gomapman.org/"
     },
     {
-      "@id": "_:N12cdaacc13114105b023eb3e6ad4eb4a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0916"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Gene report"
-    },
-    {
-      "@id": "_:Nf19179b51ed34ea691e81669e5a7e28a",
+      "@id": "_:N80dc4bfa6a314fe9a38d4fe35845dc47",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0582"
@@ -138,6 +123,21 @@
         }
       ],
       "sc:name": "Ontology"
+    },
+    {
+      "@id": "_:Nfa82a18e7415450f98e6a513718dda7c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt1056",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

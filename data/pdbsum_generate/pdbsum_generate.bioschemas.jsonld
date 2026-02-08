@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Roman Laskowski",
       "bsc:input": {
-        "@id": "_:N424747a28433487dbdb1b3ae3035d1d9"
+        "@id": "_:N97aadc4173dd4ab4b2a6762f18457fc8"
       },
       "bsc:output": {
-        "@id": "_:N1698c51c764d4450998462f6392082a3"
+        "@id": "_:N04ac2b7891e04fc7a5ca3b831bf9956d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -59,11 +59,11 @@
         "Roman Laskowski"
       ],
       "sc:citation": [
+        "pubmed:11125097",
         "pmcid:PMC29784",
         {
           "@id": "https://doi.org/10.1093/nar/29.1.221"
-        },
-        "pubmed:11125097"
+        }
       ],
       "sc:contributor": "Victor Chiskoff",
       "sc:description": "Generate a full set of PDBsum structural analyses.",
@@ -79,17 +79,17 @@
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
         {
-          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+          "@id": "http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPage.pl?doc=TRUE&template=doc_index.html&pdbcode=n/a"
         },
         {
-          "@id": "http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPage.pl?doc=TRUE&template=doc_index.html&pdbcode=n/a"
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "http://www.ebi.ac.uk/thornton-srv/databases/pdbsum/Generate.html"
     },
     {
-      "@id": "_:N424747a28433487dbdb1b3ae3035d1d9",
+      "@id": "_:N97aadc4173dd4ab4b2a6762f18457fc8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -100,7 +100,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N1698c51c764d4450998462f6392082a3",
+      "@id": "_:N04ac2b7891e04fc7a5ca3b831bf9956d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"

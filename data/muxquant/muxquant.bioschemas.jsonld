@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/pr0705340",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/muxquant",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N036af1b22c114180a82c0dc84a27a5c3"
+          "@id": "_:N1458bd9e768c4dd3b386d8e39afe3a0b"
         },
         {
-          "@id": "_:N9407cc86547844999f978d6f3bc6cebe"
+          "@id": "_:N772ebb027d04476d8bfe91288a5aa958"
         }
       ],
       "bsc:output": {
-        "@id": "_:N8c0ff89db279403b81bd0e534a49753d"
+        "@id": "_:N1cdf81f2a1a14829ad6918482cf9fcf0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -75,16 +71,16 @@
           "@id": "edam:operation_3632"
         },
         {
-          "@id": "edam:operation_3630"
+          "@id": "edam:operation_3715"
         },
         {
           "@id": "edam:operation_3635"
         },
         {
-          "@id": "edam:operation_3715"
+          "@id": "edam:operation_3705"
         },
         {
-          "@id": "edam:operation_3705"
+          "@id": "edam:operation_3630"
         }
       ],
       "sc:license": "GPL-3.0",
@@ -96,18 +92,18 @@
       "sc:url": "http://www.ms-utils.org/muxQuant"
     },
     {
-      "@id": "_:N8c0ff89db279403b81bd0e534a49753d",
+      "@id": "_:N1458bd9e768c4dd3b386d8e39afe3a0b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2603"
+        "@id": "edam:data_0943"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2330"
+        "@id": "edam:format_3654"
       },
-      "sc:name": "Expression data"
+      "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N036af1b22c114180a82c0dc84a27a5c3",
+      "@id": "_:N772ebb027d04476d8bfe91288a5aa958",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -118,15 +114,19 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N9407cc86547844999f978d6f3bc6cebe",
+      "@id": "_:N1cdf81f2a1a14829ad6918482cf9fcf0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0943"
+        "@id": "edam:data_2603"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3654"
+        "@id": "edam:format_2330"
       },
-      "sc:name": "Mass spectrometry spectra"
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1021/pr0705340",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

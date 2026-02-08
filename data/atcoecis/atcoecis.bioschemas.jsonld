@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Klaas Vandepoele",
       "bsc:input": {
-        "@id": "_:N97862eda963346b8bff59b69386bc016"
+        "@id": "_:N8d6ab9bc483c4bdeb72127e7b62eb500"
       },
       "bsc:output": {
-        "@id": "_:Na26f8508540f4eb5b0508c9cca9b0762"
+        "@id": "_:N17e4724f243640d1af91ca8893d8d241"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -70,8 +70,8 @@
       ],
       "sc:name": "ATCOECIS",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:provider": "PSB",
@@ -82,7 +82,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/ATCOECIS/"
     },
     {
-      "@id": "_:N97862eda963346b8bff59b69386bc016",
+      "@id": "_:N8d6ab9bc483c4bdeb72127e7b62eb500",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -90,7 +90,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Na26f8508540f4eb5b0508c9cca9b0762",
+      "@id": "_:N17e4724f243640d1af91ca8893d8d241",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1097"

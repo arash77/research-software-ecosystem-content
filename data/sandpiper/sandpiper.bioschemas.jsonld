@@ -36,34 +36,30 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2024.01.30.578060",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/sandpiper",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5b7790858e1741209b6f8abd6590d3ad"
+          "@id": "_:N5975f198be9344cca45b8926674c4918"
         },
         {
-          "@id": "_:N29d1a84506894fea877bdde50bde6ddd"
+          "@id": "_:N7f833148510b440b869992fcf293e9d6"
         }
       ],
       "bsc:output": {
-        "@id": "_:N7067a2b074074d4fa43f72b74f166c7f"
+        "@id": "_:N18fdf86b9f1d465cb738a17efa1efe75"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3697"
+          "@id": "edam:topic_3050"
         },
         {
           "@id": "edam:topic_3174"
         },
         {
-          "@id": "edam:topic_3050"
+          "@id": "edam:topic_3697"
         }
       ],
       "sc:citation": {
@@ -82,13 +78,13 @@
       "sc:name": "Sandpiper",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:url": "https://sandpiper.qut.edu.au/"
     },
     {
-      "@id": "_:N5b7790858e1741209b6f8abd6590d3ad",
+      "@id": "_:N5975f198be9344cca45b8926674c4918",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -96,7 +92,7 @@
       "sc:name": "Taxonomy"
     },
     {
-      "@id": "_:N29d1a84506894fea877bdde50bde6ddd",
+      "@id": "_:N7f833148510b440b869992fcf293e9d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2091"
@@ -104,12 +100,16 @@
       "sc:name": "Accession"
     },
     {
-      "@id": "_:N7067a2b074074d4fa43f72b74f166c7f",
+      "@id": "_:N18fdf86b9f1d465cb738a17efa1efe75",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2091"
       },
       "sc:name": "Accession"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.01.30.578060",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

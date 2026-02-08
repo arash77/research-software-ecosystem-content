@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/alphamod",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne8a596e2a16843cdbc4e363a580cc9ca"
+        "@id": "_:Ne937ea401df7494bbcc4e8e2b3dc6965"
       },
       "bsc:output": {
-        "@id": "_:N2b53f985dfae40d395eefb87f2afe83a"
+        "@id": "_:N1c2511d5ed674047820bda02ea9c8ffc"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -71,16 +71,16 @@
       "sc:description": "Alphamod is a novel pipeline that incorporates AlphaFold2 with MODELLER, a template-based modeling program. Additionally, our tool can drive a comprehensive quality assessment of the tertiary protein structure by incorporating and comparing a set of different quality assessment tools.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0474"
-        },
-        {
-          "@id": "edam:operation_0322"
+          "@id": "edam:operation_0477"
         },
         {
           "@id": "edam:operation_0321"
         },
         {
-          "@id": "edam:operation_0477"
+          "@id": "edam:operation_0474"
+        },
+        {
+          "@id": "edam:operation_0322"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -94,7 +94,7 @@
       "sc:url": "https://github.com/Fabio-Gil-Z/AlphaMod"
     },
     {
-      "@id": "_:N2b53f985dfae40d395eefb87f2afe83a",
+      "@id": "_:N1c2511d5ed674047820bda02ea9c8ffc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -105,17 +105,17 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:Ne8a596e2a16843cdbc4e363a580cc9ca",
+      "@id": "_:Ne937ea401df7494bbcc4e8e2b3dc6965",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1477"
+          "@id": "edam:format_1476"
         },
         {
-          "@id": "edam:format_1476"
+          "@id": "edam:format_1477"
         }
       ],
       "sc:name": "PDB ID"

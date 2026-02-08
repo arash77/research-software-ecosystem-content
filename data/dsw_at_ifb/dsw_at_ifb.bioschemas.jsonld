@@ -36,15 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0003-2155-1234",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://orcid.org/0000-0001-5967-5895",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-9289-9652",
       "@type": "sc:Person"
     },
     {
@@ -52,19 +44,19 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
         {
-          "@id": "https://orcid.org/0000-0001-5967-5895"
+          "@id": "https://orcid.org/0000-0002-9289-9652"
         },
         {
-          "@id": "https://orcid.org/0000-0002-9289-9652"
+          "@id": "https://orcid.org/0000-0001-5967-5895"
         }
       ],
       "bsc:output": {
-        "@id": "_:N8494d8115c264688a68832c86c1d73f0"
+        "@id": "_:N3d950a8278df429998a5d22f983cd29e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web API",
         "Web service",
+        "Web API",
         "Web application"
       ],
       "sc:applicationSubCategory": [
@@ -72,10 +64,10 @@
           "@id": "edam:topic_0605"
         },
         {
-          "@id": "edam:topic_0089"
+          "@id": "edam:topic_0091"
         },
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_0089"
         }
       ],
       "sc:author": {
@@ -83,18 +75,18 @@
       },
       "sc:contributor": [
         {
+          "@id": "https://orcid.org/0000-0002-7427-6822"
+        },
+        {
           "@id": "https://orcid.org/0000-0002-4822-165X"
         },
+        "Institut de Pharmacologie Moléculaire et Cellulaire",
         {
           "@id": "https://orcid.org/0000-0002-9289-9652"
         },
         {
-          "@id": "https://orcid.org/0000-0002-7427-6822"
-        },
-        {
           "@id": "https://orcid.org/0000-0003-2155-1234"
         },
-        "Institut de Pharmacologie Moléculaire et Cellulaire",
         {
           "@id": "https://orcid.org/0000-0001-5967-5895"
         }
@@ -109,9 +101,6 @@
       "sc:provider": "Institut Français de Bioinformatique",
       "sc:softwareHelp": [
         {
-          "@id": "https://ifb-elixirfr.gitlab.io/fair/dsw-ifb-instance/"
-        },
-        {
           "@id": "https://dsw.france-bioinformatique.fr/privacy_en/"
         },
         {
@@ -119,12 +108,15 @@
         },
         {
           "@id": "https://dsw.france-bioinformatique.fr/terms-of-service_en/"
+        },
+        {
+          "@id": "https://ifb-elixirfr.gitlab.io/fair/dsw-ifb-instance/"
         }
       ],
       "sc:url": "https://dsw.france-bioinformatique.fr"
     },
     {
-      "@id": "_:N8494d8115c264688a68832c86c1d73f0",
+      "@id": "_:N3d950a8278df429998a5d22f983cd29e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -134,23 +126,31 @@
           "@id": "edam:format_3464"
         },
         {
+          "@id": "edam:format_2331"
+        },
+        {
           "@id": "edam:format_2376"
         },
         {
           "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_2331"
         }
       ],
       "sc:name": "Text data"
     },
     {
-      "@id": "https://orcid.org/0000-0002-4822-165X",
+      "@id": "https://orcid.org/0000-0003-2155-1234",
       "@type": "sc:Person"
     },
     {
       "@id": "https://orcid.org/0000-0002-7427-6822",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9289-9652",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4822-165X",
       "@type": "sc:Person"
     }
   ]

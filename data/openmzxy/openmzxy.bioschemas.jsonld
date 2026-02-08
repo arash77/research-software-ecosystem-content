@@ -39,38 +39,38 @@
       "@id": "https://bio.tools/openmzxy",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N05a46d6aba254b12b31166559601a673"
+        "@id": "_:Ncbb794bc532a4b628977d2ef7c92f39b"
       },
       "bsc:output": {
-        "@id": "_:N0c30b069baa4403cbfb8c98c2dc7677d"
+        "@id": "_:N3fda0678830642bd836aac13ebdfbffc"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3172"
-        },
-        {
           "@id": "edam:topic_0121"
-        },
-        {
-          "@id": "edam:topic_3383"
         },
         {
           "@id": "edam:topic_3520"
         },
         {
           "@id": "edam:topic_0153"
+        },
+        {
+          "@id": "edam:topic_3383"
+        },
+        {
+          "@id": "edam:topic_3172"
         }
       ],
       "sc:citation": "pubmed:24642210",
       "sc:description": "Open mass spectrometry imaging control software.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3694"
+          "@id": "edam:operation_3441"
         },
         {
-          "@id": "edam:operation_3441"
+          "@id": "edam:operation_3694"
         }
       ],
       "sc:name": "OpenMZxy",
@@ -81,24 +81,24 @@
       "sc:url": "http://lababi.bioprocess.org/index.php/lababi-software/79-openmzxy"
     },
     {
-      "@id": "_:N0c30b069baa4403cbfb8c98c2dc7677d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1637"
-      },
-      "sc:name": "Mass spectrometry spectra"
-    },
-    {
-      "@id": "_:N05a46d6aba254b12b31166559601a673",
+      "@id": "_:Ncbb794bc532a4b628977d2ef7c92f39b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_3682"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N3fda0678830642bd836aac13ebdfbffc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1637"
       },
       "sc:name": "Mass spectrometry spectra"
     }

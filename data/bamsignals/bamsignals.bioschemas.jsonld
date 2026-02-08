@@ -40,15 +40,15 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Alessandro Mammana",
       "bsc:input": {
-        "@id": "_:N2273382672d448d0baa1cdcc3a93485d"
+        "@id": "_:Ne030ebf3fcfc493992b87b8cd4f1531f"
       },
       "bsc:output": {
-        "@id": "_:N78d572b8624345bc84c2ec5b91193b0a"
+        "@id": "_:Ne10423422a704a08bded26d847844926"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
@@ -73,8 +73,8 @@
       "sc:name": "bamsignals",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/bamsignals.html"
@@ -83,7 +83,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/bamsignals.html"
     },
     {
-      "@id": "_:N2273382672d448d0baa1cdcc3a93485d",
+      "@id": "_:Ne030ebf3fcfc493992b87b8cd4f1531f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -94,7 +94,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N78d572b8624345bc84c2ec5b91193b0a",
+      "@id": "_:Ne10423422a704a08bded26d847844926",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0867"

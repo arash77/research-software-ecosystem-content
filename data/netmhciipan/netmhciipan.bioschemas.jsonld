@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1007/s00251-013-0720-y",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "http://orcid.org/0000-0001-7885-4311",
       "@type": "sc:Person"
     },
@@ -46,10 +50,10 @@
         "@id": "http://orcid.org/0000-0001-7885-4311"
       },
       "bsc:input": {
-        "@id": "_:Nf3ee49c2f2114e2a9a6980578f941b55"
+        "@id": "_:N66d4ff3b35174f5cb2ce6e462d4d9dc5"
       },
       "bsc:output": {
-        "@id": "_:N0e35606a9ac34f0a8e100c43f1625319"
+        "@id": "_:Nf49cb1b33fdb45538fd99132d91aa2ff"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -62,10 +66,10 @@
       "sc:author": "Edita Karosiene",
       "sc:citation": [
         "pubmed:23900783",
+        "pmcid:PMC3809066",
         {
           "@id": "https://doi.org/10.1007/s00251-013-0720-y"
-        },
-        "pmcid:PMC3809066"
+        }
       ],
       "sc:description": "Predict binding of peptides to MHC class II molecules. The predictions are available for all three human MHC class II isotypes, HLA-DR, HLA-DP and HLA-DQ, as well as mouse molecules.",
       "sc:featureList": [
@@ -80,32 +84,21 @@
       "sc:license": "Other",
       "sc:name": "NetMHCIIpan",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": {
         "@id": "http://www.cbs.dtu.dk/services/NetMHCIIpan/"
       },
       "sc:softwareVersion": [
-        "4.2",
-        "3.0"
+        "3.0",
+        "4.2"
       ],
       "sc:url": "http://www.cbs.dtu.dk/services/NetMHCIIpan/"
     },
     {
-      "@id": "_:Nf3ee49c2f2114e2a9a6980578f941b55",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N0e35606a9ac34f0a8e100c43f1625319",
+      "@id": "_:Nf49cb1b33fdb45538fd99132d91aa2ff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -116,8 +109,15 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "https://doi.org/10.1007/s00251-013-0720-y",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N66d4ff3b35174f5cb2ce6e462d4d9dc5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
     }
   ]
 }

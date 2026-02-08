@@ -42,9 +42,6 @@
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3382"
-        },
-        {
           "@id": "edam:topic_3934"
         },
         {
@@ -55,14 +52,17 @@
         },
         {
           "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3382"
         }
       ],
       "sc:citation": [
-        "pubmed:38172724",
         "pmcid:PMC10765786",
         {
           "@id": "https://doi.org/10.1186/s12859-023-05546-z"
-        }
+        },
+        "pubmed:38172724"
       ],
       "sc:description": "R/Bioconductor package for interactive visualization and exploration of highly multiplexed imaging data.",
       "sc:featureList": [

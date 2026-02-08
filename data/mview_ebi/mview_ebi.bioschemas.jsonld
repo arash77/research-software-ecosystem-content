@@ -36,28 +36,24 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/14.4.380",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/mview_ebi",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": [
         {
-          "@id": "_:N89ddf3c3334d4008827f6c39af18a7ac"
+          "@id": "_:Nc28eeb5016c84df8885b694dabd1dfea"
         },
         {
-          "@id": "_:N744ab460256b43b08c79f66849f7f736"
+          "@id": "_:N3ee2fcfbd2c84a17ad7fe86ad45f7fb7"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nc79336f49a0e41a1a2d8511fce76df28"
+        "@id": "_:Na288f620d31b475fbcbd05bcd071f53c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Web service"
+        "Web service",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
@@ -72,13 +68,13 @@
         {
           "@id": "https://doi.org/10.1093/nar/gkac240"
         },
-        "pubmed:38597606",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkae241"
+        },
         {
           "@id": "https://doi.org/10.1093/bioinformatics/14.4.380"
         },
-        {
-          "@id": "https://doi.org/10.1093/nar/gkae241"
-        }
+        "pubmed:38597606"
       ],
       "sc:description": "Reformat the results of a sequence database search (BLAST, FASTA) or a multiple alignment adding optional HTML markup to control colouring and web page layout.",
       "sc:featureList": {
@@ -86,9 +82,9 @@
       },
       "sc:name": "MView (EBI)",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
@@ -96,49 +92,49 @@
           "@id": "https://desmid.github.io/mview/"
         },
         {
-          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
-          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/msa/mview"
     },
     {
-      "@id": "_:N89ddf3c3334d4008827f6c39af18a7ac",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0857"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1948"
-        },
-        {
-          "@id": "edam:format_1982"
-        }
-      ],
-      "sc:name": "Sequence search results"
-    },
-    {
-      "@id": "_:N744ab460256b43b08c79f66849f7f736",
+      "@id": "_:Nc28eeb5016c84df8885b694dabd1dfea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1948"
+          "@id": "edam:format_1982"
         },
         {
-          "@id": "edam:format_1982"
+          "@id": "edam:format_1948"
         }
       ],
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nc79336f49a0e41a1a2d8511fce76df28",
+      "@id": "_:N3ee2fcfbd2c84a17ad7fe86ad45f7fb7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1982"
+        },
+        {
+          "@id": "edam:format_1948"
+        }
+      ],
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:Na288f620d31b475fbcbd05bcd071f53c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -147,6 +143,10 @@
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkae241",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/14.4.380",
       "@type": "sc:CreativeWork"
     },
     {

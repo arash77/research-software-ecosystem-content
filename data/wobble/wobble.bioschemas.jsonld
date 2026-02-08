@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,17 +44,17 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/wobble",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na5970434031d4aaf8e38b871ebeaddd0"
+        "@id": "_:Nc3957ed7dfa74bbdba7e317483d4dc33"
       },
       "bsc:output": {
-        "@id": "_:N1f1c6a3453b448a088ae9b80cd254dcb"
+        "@id": "_:N7b154702ce28471a86bb761bd7f7dbf2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -63,28 +63,28 @@
       },
       "sc:citation": [
         {
+          "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
+        },
+        {
           "@id": "https://doi.org/10.1017/CBO9781139151399"
         },
         {
           "@id": "https://doi.org/10.1017/CBO9781139151405"
-        },
-        {
-          "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
         }
       ],
       "sc:contributor": [
-        "Wellcome Trust",
-        "EMBOSS Contributors",
+        "UK BBSRC",
         "UK MRC",
-        "UK BBSRC"
+        "Wellcome Trust",
+        "EMBOSS Contributors"
       ],
       "sc:description": "Plot third base position variability in a nucleotide sequence.",
       "sc:featureList": {
         "@id": "edam:operation_0287"
       },
       "sc:funder": [
-        "UK MRC",
         "UK BBSRC",
+        "UK MRC",
         "Wellcome Trust"
       ],
       "sc:isAccessibleForFree": true,
@@ -101,10 +101,10 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://emboss.open-bio.org/rel/rel6/apps/wobble.html"
+          "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
         },
         {
-          "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
+          "@id": "http://emboss.open-bio.org/rel/rel6/apps/wobble.html"
         },
         {
           "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
@@ -114,7 +114,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/wobble.html"
     },
     {
-      "@id": "_:N1f1c6a3453b448a088ae9b80cd254dcb",
+      "@id": "_:N7b154702ce28471a86bb761bd7f7dbf2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1261"
@@ -122,7 +122,7 @@
       "sc:name": "Sequence composition report"
     },
     {
-      "@id": "_:Na5970434031d4aaf8e38b871ebeaddd0",
+      "@id": "_:Nc3957ed7dfa74bbdba7e317483d4dc33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"

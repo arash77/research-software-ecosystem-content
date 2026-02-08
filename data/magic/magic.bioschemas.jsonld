@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt739",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/magic",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf2cad77a4a4b4455af8e87a0bb8be45d"
+        "@id": "_:Naad4b4f6513a4deaade46f0d6887f32f"
       },
       "bsc:output": [
         {
-          "@id": "_:N7190dbb8f87e4452907a8a024963f570"
+          "@id": "_:N807a80b00a6e408aa9e2d1877591b1cd"
         },
         {
-          "@id": "_:N92998b25c81a4d3dbae67e436dcc35ba"
+          "@id": "_:Neff71f9fd0bd47e7ac70b71a5202fa35"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -72,8 +76,8 @@
       "sc:name": "Magic",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -83,15 +87,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/magic/"
     },
     {
-      "@id": "_:N7190dbb8f87e4452907a8a024963f570",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3134"
-      },
-      "sc:name": "Gene transcript report"
-    },
-    {
-      "@id": "_:N92998b25c81a4d3dbae67e436dcc35ba",
+      "@id": "_:N807a80b00a6e408aa9e2d1877591b1cd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -99,16 +95,20 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nf2cad77a4a4b4455af8e87a0bb8be45d",
+      "@id": "_:Neff71f9fd0bd47e7ac70b71a5202fa35",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:Naad4b4f6513a4deaade46f0d6887f32f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
       },
       "sc:name": "Gene ID"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btt739",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

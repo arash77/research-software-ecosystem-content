@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N86938e370eb2486a9362d6ac6bcbb6a0"
+          "@id": "_:Ne61d81f1d7d34b579028b51a364ab95d"
         },
         {
-          "@id": "_:N900716b084964b78878b8a48cde0aa8a"
+          "@id": "_:N70935d6ed50e421ca1bd62279e9310a7"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,61 +57,61 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0154"
-        },
-        {
-          "@id": "edam:topic_0080"
-        },
-        {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         },
         {
           "@id": "edam:topic_3360"
         },
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0080"
         }
       ],
       "sc:citation": [
+        "pubmed:37043374",
         {
           "@id": "https://doi.org/10.1002/pmic.202300005"
-        },
-        "pubmed:37043374"
+        }
       ],
       "sc:description": "R package and Shiny app for more specific identification of MALDI imaging proteolytic peaks using LC-MS/MS-based proteomic biomarker discovery data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3643"
+          "@id": "edam:operation_3767"
         },
         {
-          "@id": "edam:operation_3767"
+          "@id": "edam:operation_3643"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "MALDImID",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "https://biosciences.shinyapps.io/Maldimid"
     },
     {
-      "@id": "_:N86938e370eb2486a9362d6ac6bcbb6a0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2976"
-      },
-      "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:N900716b084964b78878b8a48cde0aa8a",
+      "@id": "_:Ne61d81f1d7d34b579028b51a364ab95d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
       },
       "sc:name": "Mass spectrum"
+    },
+    {
+      "@id": "_:N70935d6ed50e421ca1bd62279e9310a7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
     }
   ]
 }

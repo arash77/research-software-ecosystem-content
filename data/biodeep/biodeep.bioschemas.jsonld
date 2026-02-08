@@ -40,22 +40,22 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ncf7c818d99d74c01a4ab2a8e07ec5003"
+          "@id": "_:N8075851cdfaa484bb76860045af0a2b0"
         },
         {
-          "@id": "_:N722155d1fd534b27af9b250457d8d59a"
+          "@id": "_:N435d999f32c44109a3516b14f9b83ce7"
         },
         {
-          "@id": "_:N1eba6065f4f64bf5a6d8064e458dee0f"
+          "@id": "_:N73233833bb5e43d89b946d8bdf4df08d"
         }
       ],
       "bsc:output": {
-        "@id": "_:N057b7a665d42419daca43c1095a1f7dd"
+        "@id": "_:N513e6c3406c74b05b694fd8d80e1c7ba"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Database portal"
+        "Database portal",
+        "Web application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3172"
@@ -63,44 +63,25 @@
       "sc:description": "The BioDeep database is a comprehensive database of metabolite information in living organisms: by aggregating metabolite information from multiple public databases and large-scale natural language text mining work, we have built a large scale knowledge network for biological knowledge interpretation. By using the BioDeep database, it is possible to query such large scale metabolic knowledge network.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0224"
+          "@id": "edam:operation_3561"
         },
         {
-          "@id": "edam:operation_3561"
+          "@id": "edam:operation_0224"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "CC-BY-NC-4.0",
       "sc:name": "BioDeep Database",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
-        "Mac"
+        "Mac",
+        "Windows"
       ],
       "sc:softwareVersion": "v3.3.0-release",
       "sc:url": "https://query.biodeep.cn/?lang=en"
     },
     {
-      "@id": "_:Ncf7c818d99d74c01a4ab2a8e07ec5003",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0990"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1964"
-      },
-      "sc:name": "Compound name"
-    },
-    {
-      "@id": "_:N722155d1fd534b27af9b250457d8d59a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:name": "Mass spectrum"
-    },
-    {
-      "@id": "_:N1eba6065f4f64bf5a6d8064e458dee0f",
+      "@id": "_:N8075851cdfaa484bb76860045af0a2b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2091"
@@ -111,7 +92,26 @@
       "sc:name": "Accession"
     },
     {
-      "@id": "_:N057b7a665d42419daca43c1095a1f7dd",
+      "@id": "_:N435d999f32c44109a3516b14f9b83ce7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0990"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Compound name"
+    },
+    {
+      "@id": "_:N73233833bb5e43d89b946d8bdf4df08d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:name": "Mass spectrum"
+    },
+    {
+      "@id": "_:N513e6c3406c74b05b694fd8d80e1c7ba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3779"

@@ -45,29 +45,32 @@
       "biotools:primaryContact": "Ernesto Lowy",
       "bsc:input": [
         {
-          "@id": "_:N45f2fd619600408ca386b8ee376eb61d"
+          "@id": "_:N252ecee166fd49be95822544730b2bd1"
         },
         {
-          "@id": "_:Ne2ff89da12454c2b9507a9ccbadfdfdb"
+          "@id": "_:N4059d340189a4c55b59bedb9d7a81dc7"
         },
         {
-          "@id": "_:N7038b474cea34be0a9d0808bd7a146d5"
+          "@id": "_:N314473e8376740ad92f7e85f4c0fb754"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8c992e1b19e74317b84d5f194c0b8899"
+          "@id": "_:N38ed964558454cc886d8fe9ba44d379b"
         },
         {
-          "@id": "_:N3ad9421d77a846b6b433ebc338a64225"
+          "@id": "_:N685df98b8e244748ae7afb13830bb83c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3295"
+        },
         {
           "@id": "edam:topic_3511"
         },
@@ -75,18 +78,15 @@
           "@id": "edam:topic_3169"
         },
         {
-          "@id": "edam:topic_3295"
-        },
-        {
           "@id": "edam:topic_0092"
         }
       ],
       "sc:citation": [
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
-        },
-        "pmcid:PMC4509590"
+        }
       ],
       "sc:description": "This package provides a framework for the visualization of genome coverage profiles. It can be used for ChIP-seq experiments, but it can be also used for genome-wide nucleosome positioning experiments or other experiment types where it is important to have a framework in order to inspect how the coverage distributed across the genome.",
       "sc:featureList": [
@@ -111,26 +111,26 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/CoverageView.html"
     },
     {
-      "@id": "_:N45f2fd619600408ca386b8ee376eb61d",
+      "@id": "_:N252ecee166fd49be95822544730b2bd1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3006"
-        },
-        {
           "@id": "edam:format_2572"
         },
         {
           "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3006"
         }
       ],
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Ne2ff89da12454c2b9507a9ccbadfdfdb",
+      "@id": "_:N4059d340189a4c55b59bedb9d7a81dc7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -149,7 +149,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N7038b474cea34be0a9d0808bd7a146d5",
+      "@id": "_:N314473e8376740ad92f7e85f4c0fb754",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -168,18 +168,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N8c992e1b19e74317b84d5f194c0b8899",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1636"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "Heat map"
-    },
-    {
-      "@id": "_:N3ad9421d77a846b6b433ebc338a64225",
+      "@id": "_:N38ed964558454cc886d8fe9ba44d379b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -188,6 +177,17 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N685df98b8e244748ae7afb13830bb83c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Heat map"
     }
   ]
 }

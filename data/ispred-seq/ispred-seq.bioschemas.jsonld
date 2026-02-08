@@ -43,30 +43,30 @@
       "@id": "https://bio.tools/ispred-seq",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
+        "Rita Casadio",
+        "Matteo Manfredi",
         {
           "@id": "http://orcid.org/0000-0002-0274-5669"
         },
-        "Matteo Manfredi",
-        "Castrense Savojardo",
-        "Rita Casadio"
+        "Castrense Savojardo"
       ],
       "bsc:input": {
-        "@id": "_:N223ff02063844efb87fe09fb29047e97"
+        "@id": "_:N56a443b61e0149ef844ebe8a0f61db42"
       },
       "bsc:output": {
-        "@id": "_:N06707ea7e9ec416691f12e4d2b6c58cf"
+        "@id": "_:N15dc597dc7c04147bc41fa4f5197a805"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0128"
-        },
-        {
           "@id": "edam:topic_3474"
         },
         {
           "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_0128"
         }
       ],
       "sc:citation": [
@@ -78,16 +78,16 @@
       "sc:description": "Deep neural networks and embeddings for predicting interaction sites in protein sequences.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3092"
+          "@id": "edam:operation_2492"
         },
         {
           "@id": "edam:operation_3899"
         },
         {
-          "@id": "edam:operation_3094"
+          "@id": "edam:operation_3092"
         },
         {
-          "@id": "edam:operation_2492"
+          "@id": "edam:operation_3094"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -104,7 +104,7 @@
       "sc:url": "https://ispredws.biocomp.unibo.it"
     },
     {
-      "@id": "_:N223ff02063844efb87fe09fb29047e97",
+      "@id": "_:N56a443b61e0149ef844ebe8a0f61db42",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -115,7 +115,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N06707ea7e9ec416691f12e4d2b6c58cf",
+      "@id": "_:N15dc597dc7c04147bc41fa4f5197a805",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

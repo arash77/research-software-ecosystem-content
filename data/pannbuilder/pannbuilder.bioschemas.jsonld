@@ -41,14 +41,14 @@
       "biotools:primaryContact": "Li Hong",
       "bsc:input": [
         {
-          "@id": "_:N82a80f135f5a4e919d259d2d7aa75c65"
+          "@id": "_:Nc9d8bdd324484d9ab2554c458ca2e562"
         },
         {
-          "@id": "_:Nefa6a8a6012045f48bdd69770a08fe95"
+          "@id": "_:N7b43dfc4dd8141008bfc93877671d493"
         }
       ],
       "bsc:output": {
-        "@id": "_:N7a7ab6c0ecf74f08a481ed9d07cd3fff"
+        "@id": "_:Nece11ad27fd342edb4f184bccd36602d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -95,18 +95,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/PAnnBuilder.html"
     },
     {
-      "@id": "_:N82a80f135f5a4e919d259d2d7aa75c65",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1084"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data resource definition ID"
-    },
-    {
-      "@id": "_:Nefa6a8a6012045f48bdd69770a08fe95",
+      "@id": "_:Nc9d8bdd324484d9ab2554c458ca2e562",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -117,7 +106,18 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N7a7ab6c0ecf74f08a481ed9d07cd3fff",
+      "@id": "_:N7b43dfc4dd8141008bfc93877671d493",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1084"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data resource definition ID"
+    },
+    {
+      "@id": "_:Nece11ad27fd342edb4f184bccd36602d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"

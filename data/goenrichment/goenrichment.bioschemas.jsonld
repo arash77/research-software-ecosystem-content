@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5ae22c6765944dcfa35ea1cea63cdcc8"
+          "@id": "_:N91370a2cb29240789c6e57d172c24bf6"
         },
         {
-          "@id": "_:N8c22e7d108284308908b571b82879f1a"
+          "@id": "_:Nb7f93d25ec42488fa9484d1ae38334ab"
         }
       ],
       "bsc:output": {
-        "@id": "_:N41cf885ffca042e5893ca8b1dde104c6"
+        "@id": "_:Ne68f644d7a61413abb9df3c1c5f9f324"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -69,7 +69,7 @@
       "sc:url": "https://github.com/DanFaria/GOEnrichment"
     },
     {
-      "@id": "_:N5ae22c6765944dcfa35ea1cea63cdcc8",
+      "@id": "_:N91370a2cb29240789c6e57d172c24bf6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0582"
@@ -85,7 +85,7 @@
       "sc:name": "Ontology"
     },
     {
-      "@id": "_:N8c22e7d108284308908b571b82879f1a",
+      "@id": "_:Nb7f93d25ec42488fa9484d1ae38334ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -96,7 +96,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N41cf885ffca042e5893ca8b1dde104c6",
+      "@id": "_:Ne68f644d7a61413abb9df3c1c5f9f324",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3754"

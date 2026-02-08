@@ -53,8 +53,8 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC8457054",
         "pubmed:34550148",
+        "pmcid:PMC8457054",
         {
           "@id": "https://doi.org/10.1039/D1SM00692D"
         }
@@ -75,8 +75,8 @@
       "sc:name": "ArGSLab",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:url": "http://github.com/jimmink/argslab"
     }

@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Camille Laibe",
       "bsc:input": {
-        "@id": "_:Nb97615fd792f44ac839ce4905565526c"
+        "@id": "_:Neb75ee3482ac4f379bb14536936d9e90"
       },
       "bsc:output": {
-        "@id": "_:N42931d0ffb0948ff812d2d96d71e4a5c"
+        "@id": "_:N7fb2dd3b1435403eb5a8a21c422ff4d5"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -61,8 +61,8 @@
       "sc:name": "BioModels Database Converters",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
@@ -77,18 +77,7 @@
       "sc:url": "http://www.ebi.ac.uk/compneur-srv/converters/converters"
     },
     {
-      "@id": "_:Nb97615fd792f44ac839ce4905565526c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0950"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2585"
-      },
-      "sc:name": "Mathematical model"
-    },
-    {
-      "@id": "_:N42931d0ffb0948ff812d2d96d71e4a5c",
+      "@id": "_:N7fb2dd3b1435403eb5a8a21c422ff4d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -101,6 +90,17 @@
           "@id": "edam:format_3156"
         }
       ],
+      "sc:name": "Mathematical model"
+    },
+    {
+      "@id": "_:Neb75ee3482ac4f379bb14536936d9e90",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0950"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2585"
+      },
       "sc:name": "Mathematical model"
     },
     {

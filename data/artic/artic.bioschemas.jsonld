@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N32f0d41c9fe34d32883f04acb439b083"
+          "@id": "_:Nfebca92c58504035acb2505038edd576"
         },
         {
-          "@id": "_:N18d697a85b5b4aba8966fc5542ec13fe"
+          "@id": "_:N5554e697f98a4fa1acd77e008face0aa"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ndf728930c5db4771b9d0c03a46591802"
+          "@id": "_:Naa799d1a0bd14c828f4a122dbe720531"
         },
         {
-          "@id": "_:N0b40e71ed6da4b7698ce220a8f36f92b"
+          "@id": "_:N7dd35c03af694bd28e7a9c03370ba172"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -61,10 +61,10 @@
       },
       "sc:author": [
         {
-          "@id": "https://orcid.org/0000-0002-9843-8988"
+          "@id": "https://orcid.org/0000-0003-0384-4463"
         },
         {
-          "@id": "https://orcid.org/0000-0003-0384-4463"
+          "@id": "https://orcid.org/0000-0002-9843-8988"
         }
       ],
       "sc:description": "A bioinformatics pipeline for working with virus sequencing data sequenced with nanopore",
@@ -75,25 +75,14 @@
       "sc:license": "MIT",
       "sc:name": "ARTIC",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareVersion": "1.1.0-rc2",
       "sc:url": "https://github.com/artic-network/fieldbioinformatics"
     },
     {
-      "@id": "_:N32f0d41c9fe34d32883f04acb439b083",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2182"
-      },
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N18d697a85b5b4aba8966fc5542ec13fe",
+      "@id": "_:Nfebca92c58504035acb2505038edd576",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -104,18 +93,18 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:Ndf728930c5db4771b9d0c03a46591802",
+      "@id": "_:N5554e697f98a4fa1acd77e008face0aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1383"
+        "@id": "edam:data_3494"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2572"
+        "@id": "edam:format_2182"
       },
-      "sc:name": "Nucleic acid sequence alignment"
+      "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N0b40e71ed6da4b7698ce220a8f36f92b",
+      "@id": "_:Naa799d1a0bd14c828f4a122dbe720531",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -126,11 +115,22 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "https://orcid.org/0000-0003-0384-4463",
-      "@type": "sc:Person"
+      "@id": "_:N7dd35c03af694bd28e7a9c03370ba172",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Nucleic acid sequence alignment"
     },
     {
       "@id": "https://orcid.org/0000-0002-9843-8988",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0384-4463",
       "@type": "sc:Person"
     }
   ]

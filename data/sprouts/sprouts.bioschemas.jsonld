@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N19dfd70195e143debb91c2c630423a66"
+          "@id": "_:N8630e65371fb4253a82ef47de4df5de6"
         },
         {
-          "@id": "_:Ndea544d3dad1418b84f8c2c862e9b3cf"
+          "@id": "_:N505a68e591e94f8090d77abafdd6797b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -62,7 +62,7 @@
       "sc:url": "http://sprouts.rpbs.univ-paris-diderot.fr/"
     },
     {
-      "@id": "_:N19dfd70195e143debb91c2c630423a66",
+      "@id": "_:N8630e65371fb4253a82ef47de4df5de6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -73,7 +73,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:Ndea544d3dad1418b84f8c2c862e9b3cf",
+      "@id": "_:N505a68e591e94f8090d77abafdd6797b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2209"

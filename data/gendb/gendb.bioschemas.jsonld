@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2cc38aa74b62467cbacc36d71c9147ff"
+          "@id": "_:Nedb8608ca2234558ae1105751eb4b7fa"
         },
         {
-          "@id": "_:N5d9b0362d0e94d498ef5d209cffaa066"
+          "@id": "_:N644f7034ee1443dbaee916d5a28b6841"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nc5ea44a4403b477cbd87e3a4d5f9c94e"
+        "@id": "_:N13e18fdef563430b92f82588587321b7"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workbench",
@@ -73,9 +73,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "GenDB",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "bigi",
       "sc:softwareHelp": {
@@ -85,7 +85,7 @@
       "sc:url": "http://gendb.computational.bio"
     },
     {
-      "@id": "_:N2cc38aa74b62467cbacc36d71c9147ff",
+      "@id": "_:N13e18fdef563430b92f82588587321b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -101,7 +101,23 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:N5d9b0362d0e94d498ef5d209cffaa066",
+      "@id": "_:Nedb8608ca2234558ae1105751eb4b7fa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2887"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1936"
+        },
+        {
+          "@id": "edam:format_1927"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence record"
+    },
+    {
+      "@id": "_:N644f7034ee1443dbaee916d5a28b6841",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3497"
@@ -110,22 +126,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "DNA sequence (raw)"
-    },
-    {
-      "@id": "_:Nc5ea44a4403b477cbd87e3a4d5f9c94e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2887"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1927"
-        },
-        {
-          "@id": "edam:format_1936"
-        }
-      ],
-      "sc:name": "Nucleic acid sequence record"
     }
   ]
 }

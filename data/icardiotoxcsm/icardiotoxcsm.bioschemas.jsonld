@@ -39,22 +39,22 @@
       "@id": "https://bio.tools/icardiotoxcsm",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb5ac56c102d347a8a937d63e1d9abf73"
+        "@id": "_:N6f6623aab0ac4e8cb8a9fde4f642dcc6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0154"
-        },
-        {
           "@id": "edam:topic_3047"
         },
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_0209"
         },
         {
-          "@id": "edam:topic_0209"
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3474"
         }
       ],
       "sc:citation": [
@@ -76,13 +76,13 @@
       "sc:name": "icardioToxCSM",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:url": "https://biosig.lab.uq.edu.au/cardiotoxcsm"
     },
     {
-      "@id": "_:Nb5ac56c102d347a8a937d63e1d9abf73",
+      "@id": "_:N6f6623aab0ac4e8cb8a9fde4f642dcc6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"

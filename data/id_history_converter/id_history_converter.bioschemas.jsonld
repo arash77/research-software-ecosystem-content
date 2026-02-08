@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkv1157",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/id_history_converter",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Andrew Yates",
       "bsc:input": {
-        "@id": "_:N9475db00b35a442589927efab940c7de"
+        "@id": "_:N56c895b0ab3548b78c31c991f5638c6b"
       },
       "bsc:output": {
-        "@id": "_:N9a7b7a6e63ad4489af7f4d54d65b0643"
+        "@id": "_:N05ec530597c84f77a934fe110de04adb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -51,8 +55,8 @@
         "@id": "edam:topic_3345"
       },
       "sc:citation": [
-        "pmcid:PMC4702834",
         "pubmed:26687719",
+        "pmcid:PMC4702834",
         {
           "@id": "https://doi.org/10.1093/nar/gkv1157"
         }
@@ -64,12 +68,12 @@
       "sc:name": "ID History converter",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": [
-        "EMBL-EBI",
-        "Sanger Institute"
+        "Sanger Institute",
+        "EMBL-EBI"
       ],
       "sc:softwareHelp": [
         {
@@ -83,7 +87,7 @@
       "sc:url": "http://www.ensembl.org/Homo_sapiens/UserData/UploadStableIDs"
     },
     {
-      "@id": "_:N9a7b7a6e63ad4489af7f4d54d65b0643",
+      "@id": "_:N05ec530597c84f77a934fe110de04adb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2610"
@@ -91,16 +95,12 @@
       "sc:name": "Ensembl ID"
     },
     {
-      "@id": "_:N9475db00b35a442589927efab940c7de",
+      "@id": "_:N56c895b0ab3548b78c31c991f5638c6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2610"
       },
       "sc:name": "Ensembl ID"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkv1157",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

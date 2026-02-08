@@ -51,13 +51,13 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3500"
+          "@id": "edam:topic_0102"
         },
         {
           "@id": "edam:topic_0780"
         },
         {
-          "@id": "edam:topic_0102"
+          "@id": "edam:topic_3500"
         }
       ],
       "sc:citation": [
@@ -73,8 +73,8 @@
       "sc:name": "OrthoVenn2",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "https://orthovenn2.bioinfotoolkits.net/help"

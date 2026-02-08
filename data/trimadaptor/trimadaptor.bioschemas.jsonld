@@ -44,46 +44,46 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N305044b7f1334e99bf5ffae26e3d8d69"
+        "@id": "_:Nebd54090b6494889af7a23ee47a925cb"
       },
       "bsc:output": [
         {
-          "@id": "_:N8f7ffe3bc73b47459856db80adbca001"
+          "@id": "_:N24efcf18e50d4194af9cd9b67e772a6b"
         },
         {
-          "@id": "_:Ndab04ddb03934ef59d78c5c1912a4afe"
+          "@id": "_:N37a002a132b341b79db24255918c4285"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3365"
+        },
+        {
           "@id": "edam:topic_0080"
         },
         {
           "@id": "edam:topic_3168"
-        },
-        {
-          "@id": "edam:topic_3365"
         }
       ],
       "sc:citation": [
-        "pubmed:27137889",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
+        "pubmed:27137889",
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
-        },
-        "pmcid:PMC4987906"
+        }
       ],
       "sc:description": "Remove the 3' adaptor of a list of reads.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3219"
+          "@id": "edam:operation_3192"
         },
         {
-          "@id": "edam:operation_3192"
+          "@id": "edam:operation_3219"
         }
       ],
       "sc:name": "trimadaptor",
@@ -99,7 +99,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N8f7ffe3bc73b47459856db80adbca001",
+      "@id": "_:N24efcf18e50d4194af9cd9b67e772a6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -110,7 +110,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ndab04ddb03934ef59d78c5c1912a4afe",
+      "@id": "_:N37a002a132b341b79db24255918c4285",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -121,7 +121,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N305044b7f1334e99bf5ffae26e3d8d69",
+      "@id": "_:Nebd54090b6494889af7a23ee47a925cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

@@ -40,17 +40,17 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btu594",
-      "@type": "sc:CreativeWork"
+      "@id": "http://orcid.org/0000-0001-7786-2109",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/ccharppi",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ndfcb6a8250034ff591dcaea8186f3392"
+        "@id": "_:N441d81768e13487fba6a97dd5cd243d1"
       },
       "bsc:output": {
-        "@id": "_:N52d735bf66244c199179215af90a58fd"
+        "@id": "_:N890b642084e94fc581daae0ed89a9b84"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -59,10 +59,10 @@
       },
       "sc:author": [
         {
-          "@id": "https://orcid.org/0000-0002-7502-3157"
+          "@id": "http://orcid.org/0000-0001-7786-2109"
         },
         {
-          "@id": "http://orcid.org/0000-0001-7786-2109"
+          "@id": "https://orcid.org/0000-0002-7502-3157"
         }
       ],
       "sc:citation": [
@@ -78,38 +78,27 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "CCharPPI",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "Barcelona Supercomputing Center",
       "sc:softwareHelp": [
-        {
-          "@id": "https://life.bsc.es/pid/ccharppi/info/terms"
-        },
         {
           "@id": "https://life.bsc.es/pid/ccharppi/info/faq_and_help#reference"
         },
         {
           "@id": "https://life.bsc.es/pid/ccharppi/info/faq_and_help"
+        },
+        {
+          "@id": "https://life.bsc.es/pid/ccharppi/info/terms"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "https://life.bsc.es/pid/ccharppi"
     },
     {
-      "@id": "_:N52d735bf66244c199179215af90a58fd",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Score"
-    },
-    {
-      "@id": "_:Ndfcb6a8250034ff591dcaea8186f3392",
+      "@id": "_:N441d81768e13487fba6a97dd5cd243d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2877"
@@ -120,8 +109,19 @@
       "sc:name": "Protein complex"
     },
     {
-      "@id": "http://orcid.org/0000-0001-7786-2109",
-      "@type": "sc:Person"
+      "@id": "_:N890b642084e94fc581daae0ed89a9b84",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu594",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

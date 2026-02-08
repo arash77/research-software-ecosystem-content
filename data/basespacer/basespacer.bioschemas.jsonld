@@ -44,15 +44,15 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jared O'Connell",
       "bsc:input": {
-        "@id": "_:Nf10d3ccf4c0340f3b4ea6799702c19a3"
+        "@id": "_:N748ab5a487e44bd6a90eb2d13ddfb5f7"
       },
       "bsc:output": {
-        "@id": "_:N92d99f136a8b4960933d287d1d25f795"
+        "@id": "_:Nfb82af74bbe74351a2822535f3e84b7e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
@@ -66,8 +66,8 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4509590",
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
         }
@@ -84,8 +84,8 @@
       "sc:license": "Apache-2.0",
       "sc:name": "BaseSpaceR",
       "sc:operatingSystem": [
-        "Windows",
         "Mac",
+        "Windows",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -95,7 +95,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/BaseSpaceR.html"
     },
     {
-      "@id": "_:Nf10d3ccf4c0340f3b4ea6799702c19a3",
+      "@id": "_:N748ab5a487e44bd6a90eb2d13ddfb5f7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -106,17 +106,17 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N92d99f136a8b4960933d287d1d25f795",
+      "@id": "_:Nfb82af74bbe74351a2822535f3e84b7e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2572"
+          "@id": "edam:format_3016"
         },
         {
-          "@id": "edam:format_3016"
+          "@id": "edam:format_2572"
         }
       ],
       "sc:name": "Sequence alignment (nucleic acid)"

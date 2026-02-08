@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/network_motif_clustering_toolbox",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nadba45251d99490499a49b495c99beac"
+        "@id": "_:Naeda2206effc424ba8712b4cce606056"
       },
       "bsc:output": {
-        "@id": "_:Nc3ac437636964854b6d99c1f314de895"
+        "@id": "_:Ne9e7e7f366a94421ae2bfb4e9df80347"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -50,10 +50,10 @@
         "@id": "edam:topic_0602"
       },
       "sc:citation": [
-        "pubmed:21860879",
         {
           "@id": "https://doi.org/10.1039/c1mb05241a"
-        }
+        },
+        "pubmed:21860879"
       ],
       "sc:description": "A Matlab/Octave toolbox for clustering topological network motifs in large-scale, integrated networks.",
       "sc:featureList": {
@@ -61,9 +61,9 @@
       },
       "sc:name": "Network Motif Clustering Toolbox",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -73,7 +73,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/Network-Motif-Clustering-Toolbox"
     },
     {
-      "@id": "_:Nadba45251d99490499a49b495c99beac",
+      "@id": "_:Naeda2206effc424ba8712b4cce606056",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -81,7 +81,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nc3ac437636964854b6d99c1f314de895",
+      "@id": "_:Ne9e7e7f366a94421ae2bfb4e9df80347",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

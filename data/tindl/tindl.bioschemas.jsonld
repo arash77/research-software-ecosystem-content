@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.gpb.2023.01.006",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/tindl",
       "@type": "sc:SoftwareApplication",
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -49,7 +45,7 @@
           "@id": "edam:topic_3360"
         },
         {
-          "@id": "edam:topic_3512"
+          "@id": "edam:topic_2640"
         },
         {
           "@id": "edam:topic_0659"
@@ -58,15 +54,15 @@
           "@id": "edam:topic_0769"
         },
         {
-          "@id": "edam:topic_2640"
+          "@id": "edam:topic_3512"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1016/j.gpb.2023.01.006"
         },
-        "pmcid:PMC10787192",
-        "pubmed:36775056"
+        "pubmed:36775056",
+        "pmcid:PMC10787192"
       ],
       "sc:description": "Preclinical-to-clinical Anti-cancer Drug Response Prediction and Biomarker Identification Using TINDL.",
       "sc:featureList": {
@@ -76,11 +72,15 @@
       "sc:license": "Not licensed",
       "sc:name": "TINDL",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "https://github.com/ddhostallero/tindl"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.gpb.2023.01.006",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

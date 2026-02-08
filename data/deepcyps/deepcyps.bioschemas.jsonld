@@ -39,20 +39,14 @@
       "@id": "https://bio.tools/deepcyps",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9ac387bc8e40470f8393ca48bb40727d"
+        "@id": "_:N7a0209d203fd47689f55025b60ff854a"
       },
       "bsc:output": {
-        "@id": "_:Nfbe3789abeaa4f4daaf5328496bf9db4"
+        "@id": "_:Nba58355e80d8454d8505d5743c77de5c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_3336"
-        },
-        {
-          "@id": "edam:topic_3375"
-        },
         {
           "@id": "edam:topic_3407"
         },
@@ -60,23 +54,29 @@
           "@id": "edam:topic_3373"
         },
         {
+          "@id": "edam:topic_3375"
+        },
+        {
           "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_3336"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC10123292",
         {
           "@id": "https://doi.org/10.3389/fphar.2023.1099093"
         },
+        "pmcid:PMC10123292",
         "pubmed:37101544"
       ],
       "sc:description": "A deep learning platform for enhanced cytochrome P450 activity prediction.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0478"
+          "@id": "edam:operation_0477"
         },
         {
-          "@id": "edam:operation_0477"
+          "@id": "edam:operation_0478"
         },
         {
           "@id": "edam:operation_0440"
@@ -86,13 +86,13 @@
       "sc:name": "DEEPCYPs",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:url": "https://deepcyps.idruglab.cn/"
     },
     {
-      "@id": "_:N9ac387bc8e40470f8393ca48bb40727d",
+      "@id": "_:N7a0209d203fd47689f55025b60ff854a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -103,7 +103,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:Nfbe3789abeaa4f4daaf5328496bf9db4",
+      "@id": "_:Nba58355e80d8454d8505d5743c77de5c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"

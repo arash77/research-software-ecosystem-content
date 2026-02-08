@@ -36,12 +36,12 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2164-14-s3-s2",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "http://orcid.org/0000-0002-2323-0963",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2164-14-s3-s2",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/meta-snp",
@@ -51,14 +51,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N3211663f1bd24b5899a43d8e8f99b8de"
+          "@id": "_:Nf9b416f47a7248df9b4a944ca5794aff"
         },
         {
-          "@id": "_:Nbd718fd19c1342b889517e79b735837c"
+          "@id": "_:Nf457e0d58c294d44ab390ece1b2982e6"
         }
       ],
       "bsc:output": {
-        "@id": "_:N0847ed9866564942ba8d775bebf250a6"
+        "@id": "_:N29fe5cf5ab874ae29db29934f3b83966"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
@@ -74,11 +74,11 @@
         "@id": "http://orcid.org/0000-0002-2323-0963"
       },
       "sc:citation": [
-        "pubmed:23819846",
         "pmcid:PMC3839641",
         {
           "@id": "https://doi.org/10.1186/1471-2164-14-s3-s2"
-        }
+        },
+        "pubmed:23819846"
       ],
       "sc:description": "Meta-predictor of disease causing variants.",
       "sc:featureList": {
@@ -87,9 +87,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "Meta-SNP",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://snps.biofold.org/meta-snp/pages/help.html"
@@ -98,7 +98,7 @@
       "sc:url": "http://snps.biofold.org/meta-snp"
     },
     {
-      "@id": "_:N3211663f1bd24b5899a43d8e8f99b8de",
+      "@id": "_:Nf9b416f47a7248df9b4a944ca5794aff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2209"
@@ -109,7 +109,7 @@
       "sc:name": "Mutation ID"
     },
     {
-      "@id": "_:Nbd718fd19c1342b889517e79b735837c",
+      "@id": "_:Nf457e0d58c294d44ab390ece1b2982e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -120,7 +120,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N0847ed9866564942ba8d775bebf250a6",
+      "@id": "_:N29fe5cf5ab874ae29db29934f3b83966",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1622"

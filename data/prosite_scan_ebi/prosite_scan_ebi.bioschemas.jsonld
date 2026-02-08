@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:Nfde05c39fc994355b7758f8c2ad41e43"
+        "@id": "_:N24a94e3d216a45239c57491182fbb730"
       },
       "bsc:output": [
         {
-          "@id": "_:N1854f31efe074bcfa162e4ee3d8b637f"
+          "@id": "_:Necc93e74fd9f4784b2c0ca532eabf10e"
         },
         {
-          "@id": "_:N168925c52aa7418b87f8004c82772791"
+          "@id": "_:N72cbc77b529e452b84ad7ed5785c0fe2"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -67,14 +67,14 @@
       "sc:citation": [
         "pubmed:16845026",
         {
-          "@id": "https://doi.org/10.1093/nar/gkac240"
-        },
-        "pmcid:PMC9252731",
-        {
           "@id": "https://doi.org/10.1093/nar/gkl124"
         },
         "pubmed:35412617",
-        "pmcid:PMC1538847"
+        "pmcid:PMC1538847",
+        "pmcid:PMC9252731",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkac240"
+        }
       ],
       "sc:description": "Scan a protein against PROSITE or HAMAP patterns and profiles.",
       "sc:featureList": [
@@ -87,9 +87,9 @@
       ],
       "sc:name": "PROSITE Scan (EBI)",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
@@ -104,23 +104,7 @@
       "sc:url": "http://www.ebi.ac.uk/Tools/pfa/ps_scan/"
     },
     {
-      "@id": "_:N1854f31efe074bcfa162e4ee3d8b637f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:N168925c52aa7418b87f8004c82772791",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0858"
-      },
-      "sc:name": "Sequence signature matches"
-    },
-    {
-      "@id": "_:Nfde05c39fc994355b7758f8c2ad41e43",
+      "@id": "_:N24a94e3d216a45239c57491182fbb730",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -128,11 +112,27 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkac240",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Necc93e74fd9f4784b2c0ca532eabf10e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0858"
+      },
+      "sc:name": "Sequence signature matches"
+    },
+    {
+      "@id": "_:N72cbc77b529e452b84ad7ed5785c0fe2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkl124",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkac240",
       "@type": "sc:CreativeWork"
     }
   ]

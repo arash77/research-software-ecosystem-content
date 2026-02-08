@@ -36,33 +36,37 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/protein/7.7.841",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/prints",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Professor T.K.Attwood",
       "bsc:input": {
-        "@id": "_:N4ce97538f5df4f0c93ecb68ec07a697c"
+        "@id": "_:N6a30bc2fab4348d88dcb03e14f791a86"
       },
       "bsc:output": {
-        "@id": "_:N18e671d6b62f4312b09ed4a7bfd7583a"
+        "@id": "_:N5713778d2f374a99a0fd9c7a703e0313"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0160"
+          "@id": "edam:topic_0623"
         },
         {
           "@id": "edam:topic_0078"
         },
         {
-          "@id": "edam:topic_0623"
+          "@id": "edam:topic_0160"
         }
       ],
       "sc:citation": [
+        "pubmed:7971946",
         {
           "@id": "https://doi.org/10.1093/protein/7.7.841"
-        },
-        "pubmed:7971946"
+        }
       ],
       "sc:description": "A compendium of protein fingerprints, or group of conserved motifs used to characterise a protein family.",
       "sc:featureList": {
@@ -70,9 +74,9 @@
       },
       "sc:name": "PRINTS protein motif fingerprint database",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://130.88.97.239/PRINTS/printsman.php"
@@ -80,7 +84,7 @@
       "sc:url": "http://umber.sbs.man.ac.uk/dbbrowser/PRINTS/"
     },
     {
-      "@id": "_:N4ce97538f5df4f0c93ecb68ec07a697c",
+      "@id": "_:N6a30bc2fab4348d88dcb03e14f791a86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1137"
@@ -88,7 +92,7 @@
       "sc:name": "PRINTS code"
     },
     {
-      "@id": "_:N18e671d6b62f4312b09ed4a7bfd7583a",
+      "@id": "_:N5713778d2f374a99a0fd9c7a703e0313",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1355"
@@ -97,10 +101,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Protein signature"
-    },
-    {
-      "@id": "https://doi.org/10.1093/protein/7.7.841",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

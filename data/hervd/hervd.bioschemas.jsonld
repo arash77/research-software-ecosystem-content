@@ -43,12 +43,12 @@
         "Ondřej Moravčík"
       ],
       "bsc:input": {
-        "@id": "_:N8b3099f209a9474da5b1fb51c8d16fe2"
+        "@id": "_:N322373efba834c7cb19825de76edd929"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Database portal",
-        "Web application"
+        "Web application",
+        "Database portal"
       ],
       "sc:applicationSubCategory": [
         {
@@ -62,39 +62,39 @@
         }
       ],
       "sc:author": [
-        "Jan Pačes",
-        "Ondřej Moravčík"
+        "Ondřej Moravčík",
+        "Jan Pačes"
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1093/nar/gkh075"
         },
-        "pmcid:PMC308809",
-        "pubmed:14681356"
+        "pubmed:14681356",
+        "pmcid:PMC308809"
       ],
       "sc:contributor": [
-        "Adam Pavlí­ček",
+        "Mirka Famfulí­ková",
         "Radek Zí­ka",
-        "Eva Prysiazhniuk",
         "Lucie Studená",
-        "Mirka Famfulí­ková"
+        "Eva Prysiazhniuk",
+        "Adam Pavlí­ček"
       ],
       "sc:description": "Human endogenous retroviruses database.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2478"
-        },
-        {
-          "@id": "edam:operation_0415"
-        },
-        {
           "@id": "edam:operation_2995"
+        },
+        {
+          "@id": "edam:operation_0361"
         },
         {
           "@id": "edam:operation_0362"
         },
         {
-          "@id": "edam:operation_0361"
+          "@id": "edam:operation_2478"
+        },
+        {
+          "@id": "edam:operation_0415"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -116,7 +116,7 @@
       "sc:url": "https://herv.img.cas.cz"
     },
     {
-      "@id": "_:N8b3099f209a9474da5b1fb51c8d16fe2",
+      "@id": "_:N322373efba834c7cb19825de76edd929",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2711"

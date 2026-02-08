@@ -40,17 +40,21 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkt970",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/simap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9245eff5284a4d66be19087b93fc3974"
+        "@id": "_:Nfd932162d62c407a82ca612a8e3bfd43"
       },
       "bsc:output": [
         {
-          "@id": "_:Na17291b427594e34b3b47061aa444937"
+          "@id": "_:N077014cd9f80495882e981a486dabea9"
         },
         {
-          "@id": "_:N9bc95280dbf14efaa3c9f9b3ad648859"
+          "@id": "_:N57a1cb90d6014c1388b3c6db34c095cd"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -59,11 +63,11 @@
         "@id": "edam:topic_0080"
       },
       "sc:citation": [
-        "pmcid:PMC3965014",
         {
           "@id": "https://doi.org/10.1093/nar/gkt970"
         },
-        "pubmed:24165881"
+        "pubmed:24165881",
+        "pmcid:PMC3965014"
       ],
       "sc:contributor": {
         "@id": "http://orcid.org/0000-0002-7496-7578"
@@ -86,15 +90,7 @@
       "sc:url": "http://cube.univie.ac.at/resources/simap"
     },
     {
-      "@id": "_:Na17291b427594e34b3b47061aa444937",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1384"
-      },
-      "sc:name": "Sequence alignment (protein)"
-    },
-    {
-      "@id": "_:N9bc95280dbf14efaa3c9f9b3ad648859",
+      "@id": "_:N077014cd9f80495882e981a486dabea9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"
@@ -102,16 +98,20 @@
       "sc:name": "Sequence alignment (pair)"
     },
     {
-      "@id": "_:N9245eff5284a4d66be19087b93fc3974",
+      "@id": "_:N57a1cb90d6014c1388b3c6db34c095cd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:name": "Sequence alignment (protein)"
+    },
+    {
+      "@id": "_:Nfd932162d62c407a82ca612a8e3bfd43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1096"
       },
       "sc:name": "Sequence accession (protein)"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkt970",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

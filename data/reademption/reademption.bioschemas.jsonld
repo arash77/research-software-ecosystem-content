@@ -40,28 +40,28 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N6739cf3823f342c88f916fbf2dafd46d"
+          "@id": "_:N07db60efdcba450ca270b1b2e387abf2"
         },
         {
-          "@id": "_:N333ef3314d6f4cfba1bd8e5f77e70785"
+          "@id": "_:N3c5f24c5c8ac4198844e680257fe5e8b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3ec2039d2c1d407c828b14b64a55158d"
+          "@id": "_:Nd0ed8e65d4ae4a1d9beaf5f76eca113d"
         },
         {
-          "@id": "_:N9a9897ba6755494ca5a99dfaf8062de8"
+          "@id": "_:N54f6400020314a23a4ef2086c07c1db4"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0097"
+          "@id": "edam:topic_3308"
         },
         {
-          "@id": "edam:topic_3308"
+          "@id": "edam:topic_0097"
         },
         {
           "@id": "edam:topic_0203"
@@ -80,9 +80,9 @@
       "sc:license": "ISC",
       "sc:name": "READemption",
       "sc:operatingSystem": [
+        "Linux",
         "Mac",
-        "Windows",
-        "Linux"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "https://pythonhosted.org/READemption/#table-of-content"
@@ -90,15 +90,7 @@
       "sc:url": "https://pythonhosted.org/READemption/"
     },
     {
-      "@id": "_:N3ec2039d2c1d407c828b14b64a55158d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3112"
-      },
-      "sc:name": "Gene expression matrix"
-    },
-    {
-      "@id": "_:N9a9897ba6755494ca5a99dfaf8062de8",
+      "@id": "_:Nd0ed8e65d4ae4a1d9beaf5f76eca113d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -106,18 +98,15 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:N6739cf3823f342c88f916fbf2dafd46d",
+      "@id": "_:N54f6400020314a23a4ef2086c07c1db4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2093"
+        "@id": "edam:data_3112"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2200"
-      },
-      "sc:name": "Data reference"
+      "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N333ef3314d6f4cfba1bd8e5f77e70785",
+      "@id": "_:N07db60efdcba450ca270b1b2e387abf2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3496"
@@ -131,6 +120,17 @@
         }
       ],
       "sc:name": "RNA sequence (raw)"
+    },
+    {
+      "@id": "_:N3c5f24c5c8ac4198844e680257fe5e8b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2093"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2200"
+      },
+      "sc:name": "Data reference"
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btu533",

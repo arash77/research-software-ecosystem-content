@@ -36,35 +36,39 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gku465",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/triplexrna",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Andrea Bagnacani",
       "bsc:input": [
         {
-          "@id": "_:N1ce3b85d83344c51ac1cfc2060cd2daf"
+          "@id": "_:Naa7a141964234f8c95f9780231cfbde3"
         },
         {
-          "@id": "_:N5758385adff442f2b0ffd7169f420416"
+          "@id": "_:N34474546c28a44d09888afb767a69644"
         },
         {
-          "@id": "_:Naa2f008091f743f89f78a1ab85014de2"
+          "@id": "_:N023050e89e12401abc441e2ee82e5cef"
         },
         {
-          "@id": "_:N576b92b249c54a17883794209cb39f80"
+          "@id": "_:Nb2fcc0b66d324539b154ca37efc20006"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Na7ae1713b86744d9a5d4d6043771ba0c"
+          "@id": "_:N5b34613db8d14a6c972f58cdd30a79bd"
         },
         {
-          "@id": "_:N071f6bd84eae473c9475e2ae8eacd923"
+          "@id": "_:N1ba7a57cc1594134b57b5dfe0a393554"
         },
         {
-          "@id": "_:N3078825837ac472e8f67fc4dd8cd7ed9"
+          "@id": "_:Nac426624629d4596aac8f7c535a8fea3"
         },
         {
-          "@id": "_:Nfee94ff5c83946dab7cfc30487efd3da"
+          "@id": "_:N06133ebcbf83496183ac6b36bf39ef2b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -74,10 +78,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0659"
+          "@id": "edam:topic_0099"
         },
         {
-          "@id": "edam:topic_0099"
+          "@id": "edam:topic_0659"
         },
         {
           "@id": "edam:topic_0749"
@@ -89,16 +93,16 @@
       "sc:description": "Database of cooperating miRNAs and their mutual targets which enables researchers explore novel patterns in gene regulation.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3083"
-        },
-        {
-          "@id": "edam:operation_3184"
-        },
-        {
           "@id": "edam:operation_2422"
         },
         {
           "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_3083"
+        },
+        {
+          "@id": "edam:operation_3184"
         },
         {
           "@id": "edam:operation_3695"
@@ -106,9 +110,9 @@
       ],
       "sc:name": "TriplexRNA",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://triplexrna.org/"
@@ -116,37 +120,70 @@
       "sc:url": "https://triplexrna.org"
     },
     {
-      "@id": "_:Na7ae1713b86744d9a5d4d6043771ba0c",
+      "@id": "_:Naa7a141964234f8c95f9780231cfbde3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2342"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Pathway or network name"
+    },
+    {
+      "@id": "_:N34474546c28a44d09888afb767a69644",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:N023050e89e12401abc441e2ee82e5cef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2909"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Organism name"
+    },
+    {
+      "@id": "_:Nb2fcc0b66d324539b154ca37efc20006",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2355"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "RNA family identifier"
+    },
+    {
+      "@id": "_:N5b34613db8d14a6c972f58cdd30a79bd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2331"
-        },
-        {
           "@id": "edam:format_3752"
         },
         {
           "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2331"
         }
       ],
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N071f6bd84eae473c9475e2ae8eacd923",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2140"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3603"
-      },
-      "sc:name": "Concentration"
-    },
-    {
-      "@id": "_:N3078825837ac472e8f67fc4dd8cd7ed9",
+      "@id": "_:N1ba7a57cc1594134b57b5dfe0a393554",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -157,7 +194,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nfee94ff5c83946dab7cfc30487efd3da",
+      "@id": "_:Nac426624629d4596aac8f7c535a8fea3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2166"
@@ -176,52 +213,15 @@
       "sc:name": "Sequence composition plot"
     },
     {
-      "@id": "_:N1ce3b85d83344c51ac1cfc2060cd2daf",
+      "@id": "_:N06133ebcbf83496183ac6b36bf39ef2b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2355"
+        "@id": "edam:data_2140"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_2330"
+        "@id": "edam:format_3603"
       },
-      "sc:name": "RNA family identifier"
-    },
-    {
-      "@id": "_:N5758385adff442f2b0ffd7169f420416",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2299"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Gene name"
-    },
-    {
-      "@id": "_:Naa2f008091f743f89f78a1ab85014de2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2342"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Pathway or network name"
-    },
-    {
-      "@id": "_:N576b92b249c54a17883794209cb39f80",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2909"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Organism name"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gku465",
-      "@type": "sc:CreativeWork"
+      "sc:name": "Concentration"
     }
   ]
 }

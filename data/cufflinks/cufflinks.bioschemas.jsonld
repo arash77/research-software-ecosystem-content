@@ -36,6 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nbt.2450",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr355",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/gb-2011-12-3-r22",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
@@ -44,87 +56,83 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1186/gb-2011-12-3-r22",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cufflinks",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Cole Trapnell Lab",
       "bsc:input": [
         {
-          "@id": "_:Na06ebc9b5fe040438435a43a2327bacf"
+          "@id": "_:N6423aaf0653a49cf93fabe9cf385d5eb"
         },
         {
-          "@id": "_:N8ca451c4f90a49d59c50ce3e7c94539c"
+          "@id": "_:Nac383e2078a442848e260ed53d5f090a"
         },
         {
-          "@id": "_:N738f5434a75c40debf00183c87498194"
+          "@id": "_:N833623fb9cd84464aa6ceff3d9fc055f"
         },
         {
-          "@id": "_:Nc4807fda963147cbba1e22987733e6a5"
+          "@id": "_:Ne2ea84b960494433a0bf8e220208e1be"
         },
         {
-          "@id": "_:N56c499d693a745b5979221b83272c042"
+          "@id": "_:N79d354dae58a45f0bc35d84273623aa6"
         },
         {
-          "@id": "_:N3cda927199cc4c6d92dff530652b1de5"
+          "@id": "_:N04876db260f7441386cb7b07de66dd43"
         },
         {
-          "@id": "_:N10a33f9834e1492bb649ee6a5436359a"
+          "@id": "_:N4fde14b9144a4be9ac11751b8ccc151a"
         },
         {
-          "@id": "_:Nf69bed83e8f14accac302d571b0113d3"
+          "@id": "_:N15e8a8fd699e43d8a7f57bf2fd96e0dc"
         },
         {
-          "@id": "_:N8f970635849e4471a7bb2bbda6a8232e"
+          "@id": "_:N2dc52a05aa9c4a82a2e805f501959a22"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N21f7159a45b7471ba99d8b8a0f4f8161"
+          "@id": "_:N00c887a7003a48babdf06e689c370c58"
         },
         {
-          "@id": "_:N0b0fa692765246be955d5aea205d61b5"
+          "@id": "_:N859fd33d1a604335932805bfe292e1bc"
         },
         {
-          "@id": "_:Nd32d7b779b3f42398e21a26155b1fc6c"
+          "@id": "_:Nc1aa9a65a7864aac95c2981464a1657c"
         },
         {
-          "@id": "_:Nf9188e40b8ef443caa7582bbadd11295"
+          "@id": "_:N0632db5c936f448b97a3692f32286a0e"
         },
         {
-          "@id": "_:Nc49cd538bcd5423e808df6e9742afbab"
+          "@id": "_:N347b1176d2fa4c779b12ba2bb2669d52"
         },
         {
-          "@id": "_:N86d94d35816240c596a99bdb36ab2161"
+          "@id": "_:Nb2e67f6d9366425da1a2f753b93b8309"
         },
         {
-          "@id": "_:N94036ff50ee7441baa7141fe578baab9"
+          "@id": "_:N6f146a4709d14fe6988a5dfc4a2e6242"
         },
         {
-          "@id": "_:N1b6025c507b84c11a0cdaab146563d38"
+          "@id": "_:N6dcbaf6c0819491298ca51d9c9546858"
         },
         {
-          "@id": "_:Ndb730886cf584c588ee22977e1a15d16"
+          "@id": "_:Nba35a80abd1140dd9ed8b8a2cbb643fc"
         },
         {
-          "@id": "_:N32fca79e276e4f509d429449245f1254"
+          "@id": "_:Ned94da5cd15f4f0283af5c26871d7079"
         },
         {
-          "@id": "_:Nb077888208d94b978d5c48b134629420"
+          "@id": "_:N8fd78a4d46ac4d91918704e368f9d00c"
         },
         {
-          "@id": "_:N839236da4b5d4ec9a43dd9950a650270"
+          "@id": "_:Nf3ab65516c614d889f30c9c21e115926"
         },
         {
-          "@id": "_:N0caed20b0c7c41f8b729a4b6a6648d28"
+          "@id": "_:Na1f7a5e3d0cb43b2a94f72c429766382"
         },
         {
-          "@id": "_:Nd62ea95a87754c64aaa6345a780c2488"
+          "@id": "_:Nd1020448430f459da9c54dc4b50e272d"
         },
         {
-          "@id": "_:N2631581aae954107bfa39aba1026634a"
+          "@id": "_:Naf2735f9aadf4525bc4bcd034adedef1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -144,77 +152,77 @@
         }
       ],
       "sc:citation": [
-        "pubmed:23222703",
-        {
-          "@id": "https://doi.org/10.1038/nbt.2450"
-        },
-        {
-          "@id": "https://doi.org/10.1186/gb-2011-12-3-r22"
-        },
+        "pmcid:PMC3146043",
         "pubmed:21697122",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btr355"
+        },
         "pmcid:PMC3869392",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
+        "pmcid:PMC3129672",
+        "pubmed:20436464",
+        {
+          "@id": "https://doi.org/10.1038/nbt.2450"
         },
         {
           "@id": "https://doi.org/10.1038/nbt.1621"
         },
         "pubmed:21410973",
-        "pubmed:20436464",
+        "pubmed:23222703",
         {
-          "@id": "https://doi.org/10.1093/bioinformatics/btr355"
-        },
-        "pmcid:PMC3146043",
-        "pmcid:PMC3129672"
+          "@id": "https://doi.org/10.1186/gb-2011-12-3-r22"
+        }
       ],
       "sc:description": "Cufflinks assembles transcripts and estimates their abundances in RNA-Seq samples. It accepts aligned RNA-Seq reads and assembles the alignments into a parsimonious set of transcripts. Cufflinks then estimates the relative abundances of these transcripts based on how many reads support each one.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3436"
-        },
-        {
-          "@id": "edam:operation_0315"
+          "@id": "edam:operation_3258"
         },
         {
           "@id": "edam:operation_2495"
         },
         {
-          "@id": "edam:operation_3258"
-        },
-        {
-          "@id": "edam:operation_3563"
+          "@id": "edam:operation_3436"
         },
         {
           "@id": "edam:operation_3435"
         },
         {
-          "@id": "edam:operation_0372"
+          "@id": "edam:operation_2451"
         },
         {
           "@id": "edam:operation_3565"
         },
         {
-          "@id": "edam:operation_2451"
+          "@id": "edam:operation_3563"
+        },
+        {
+          "@id": "edam:operation_0315"
+        },
+        {
+          "@id": "edam:operation_0372"
         }
       ],
       "sc:license": "BSL-1.0",
       "sc:name": "Cufflinks",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://cole-trapnell-lab.github.io/cufflinks/manual/"
+          "@id": "http://cole-trapnell-lab.github.io/cufflinks/getting_started/"
         },
         {
-          "@id": "http://cole-trapnell-lab.github.io/cufflinks/getting_started/"
+          "@id": "http://cole-trapnell-lab.github.io/cufflinks/manual/"
         }
       ],
       "sc:url": "http://cole-trapnell-lab.github.io/cufflinks"
     },
     {
-      "@id": "_:N21f7159a45b7471ba99d8b8a0f4f8161",
+      "@id": "_:N00c887a7003a48babdf06e689c370c58",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -222,79 +230,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N0b0fa692765246be955d5aea205d61b5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:Nd32d7b779b3f42398e21a26155b1fc6c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0951"
-      },
-      "sc:name": "Statistical estimate score"
-    },
-    {
-      "@id": "_:Nf9188e40b8ef443caa7582bbadd11295",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:Nc49cd538bcd5423e808df6e9742afbab",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3134"
-      },
-      "sc:name": "Gene transcript report"
-    },
-    {
-      "@id": "_:N86d94d35816240c596a99bdb36ab2161",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3134"
-      },
-      "sc:name": "Gene transcript report"
-    },
-    {
-      "@id": "_:N94036ff50ee7441baa7141fe578baab9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N1b6025c507b84c11a0cdaab146563d38",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:name": "Gene expression data"
-    },
-    {
-      "@id": "_:Ndb730886cf584c588ee22977e1a15d16",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3134"
-      },
-      "sc:name": "Gene transcript report"
-    },
-    {
-      "@id": "_:N32fca79e276e4f509d429449245f1254",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:Nb077888208d94b978d5c48b134629420",
+      "@id": "_:N859fd33d1a604335932805bfe292e1bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3181"
@@ -305,7 +241,7 @@
       "sc:name": "Sequence assembly report"
     },
     {
-      "@id": "_:N839236da4b5d4ec9a43dd9950a650270",
+      "@id": "_:Nc1aa9a65a7864aac95c2981464a1657c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -313,7 +249,39 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:N0caed20b0c7c41f8b729a4b6a6648d28",
+      "@id": "_:N0632db5c936f448b97a3692f32286a0e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N347b1176d2fa4c779b12ba2bb2669d52",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0951"
+      },
+      "sc:name": "Statistical estimate score"
+    },
+    {
+      "@id": "_:Nb2e67f6d9366425da1a2f753b93b8309",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N6f146a4709d14fe6988a5dfc4a2e6242",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N6dcbaf6c0819491298ca51d9c9546858",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -321,18 +289,47 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Nd62ea95a87754c64aaa6345a780c2488",
+      "@id": "_:Nba35a80abd1140dd9ed8b8a2cbb643fc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3181"
+        "@id": "edam:data_3134"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2306"
-      },
-      "sc:name": "Sequence assembly report"
+      "sc:name": "Gene transcript report"
     },
     {
-      "@id": "_:N2631581aae954107bfa39aba1026634a",
+      "@id": "_:Ned94da5cd15f4f0283af5c26871d7079",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:N8fd78a4d46ac4d91918704e368f9d00c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:Nf3ab65516c614d889f30c9c21e115926",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Na1f7a5e3d0cb43b2a94f72c429766382",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Nd1020448430f459da9c54dc4b50e272d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -343,71 +340,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Na06ebc9b5fe040438435a43a2327bacf",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2306"
-        },
-        {
-          "@id": "edam:format_2305"
-        }
-      ],
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N8ca451c4f90a49d59c50ce3e7c94539c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1916"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2573"
-        },
-        {
-          "@id": "edam:format_2572"
-        }
-      ],
-      "sc:name": "Alignment"
-    },
-    {
-      "@id": "_:N738f5434a75c40debf00183c87498194",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2306"
-        },
-        {
-          "@id": "edam:format_2305"
-        }
-      ],
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:Nc4807fda963147cbba1e22987733e6a5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2305"
-        },
-        {
-          "@id": "edam:format_2306"
-        }
-      ],
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:N56c499d693a745b5979221b83272c042",
+      "@id": "_:Naf2735f9aadf4525bc4bcd034adedef1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3181"
@@ -418,7 +351,7 @@
       "sc:name": "Sequence assembly report"
     },
     {
-      "@id": "_:N3cda927199cc4c6d92dff530652b1de5",
+      "@id": "_:N6423aaf0653a49cf93fabe9cf385d5eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -434,23 +367,114 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N10a33f9834e1492bb649ee6a5436359a",
+      "@id": "_:Nac383e2078a442848e260ed53d5f090a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_2573"
+        }
+      ],
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:N833623fb9cd84464aa6ceff3d9fc055f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2305"
+        },
+        {
+          "@id": "edam:format_2306"
+        }
+      ],
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Ne2ea84b960494433a0bf8e220208e1be",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3181"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Sequence assembly report"
+    },
+    {
+      "@id": "_:N79d354dae58a45f0bc35d84273623aa6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2306"
+        },
+        {
+          "@id": "edam:format_2305"
+        }
+      ],
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N04876db260f7441386cb7b07de66dd43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2573"
+          "@id": "edam:format_2572"
         },
         {
-          "@id": "edam:format_2572"
+          "@id": "edam:format_2573"
         }
       ],
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nf69bed83e8f14accac302d571b0113d3",
+      "@id": "_:N4fde14b9144a4be9ac11751b8ccc151a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_2573"
+        }
+      ],
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N15e8a8fd699e43d8a7f57bf2fd96e0dc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2305"
+        },
+        {
+          "@id": "edam:format_2306"
+        }
+      ],
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N2dc52a05aa9c4a82a2e805f501959a22",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2872"
@@ -459,30 +483,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "ID list"
-    },
-    {
-      "@id": "_:N8f970635849e4471a7bb2bbda6a8232e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2573"
-        },
-        {
-          "@id": "edam:format_2572"
-        }
-      ],
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nbt.2450",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btr355",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/atcc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf3cf44df359946e2a8dc147380bdcfbb"
+        "@id": "_:Nb78b10e57a444691a8746f6bf8689e38"
       },
       "bsc:output": {
-        "@id": "_:N7f6369f6556d4fb59499d64ed5e39e7d"
+        "@id": "_:Nfa559a7bd96f4bb7963586001ba0d1b1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -56,8 +56,8 @@
       "sc:name": "American Type Culture Collection (ATCC)",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "ATCC",
       "sc:softwareHelp": {
@@ -66,15 +66,7 @@
       "sc:url": "http://www.lgcstandards-atcc.org/"
     },
     {
-      "@id": "_:Nf3cf44df359946e2a8dc147380bdcfbb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:N7f6369f6556d4fb59499d64ed5e39e7d",
+      "@id": "_:Nfa559a7bd96f4bb7963586001ba0d1b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0963"
@@ -83,6 +75,14 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Cell line report"
+    },
+    {
+      "@id": "_:Nb78b10e57a444691a8746f6bf8689e38",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
     }
   ]
 }

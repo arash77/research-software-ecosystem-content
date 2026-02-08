@@ -40,19 +40,15 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/samtools_filter",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N7670be01390a446f995f3108bb6efcef"
+          "@id": "_:N9572bcd15ca140e8979a3312d2a47953"
         },
         {
-          "@id": "_:N3796c95870d744b2a88373b10d34a503"
+          "@id": "_:N4e7e641ef9414b3ca4e223d6ef8d8cf3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -79,8 +75,8 @@
       },
       "sc:name": "samtools_filter",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -90,7 +86,7 @@
       "sc:url": "http://www.htslib.org/"
     },
     {
-      "@id": "_:N7670be01390a446f995f3108bb6efcef",
+      "@id": "_:N9572bcd15ca140e8979a3312d2a47953",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -106,7 +102,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N3796c95870d744b2a88373b10d34a503",
+      "@id": "_:N4e7e641ef9414b3ca4e223d6ef8d8cf3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -115,6 +111,10 @@
         "@id": "edam:format_3003"
       },
       "sc:name": "Annotation track"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

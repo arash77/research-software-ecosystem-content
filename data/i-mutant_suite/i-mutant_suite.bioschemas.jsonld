@@ -41,35 +41,44 @@
       "biotools:primaryContact": "Emidio Capriotti",
       "bsc:input": [
         {
-          "@id": "_:N149005f47e7f4e8ebbbb98df7bedae8c"
+          "@id": "_:Nbf04e408ac69455a8b2390801f47eaf2"
         },
         {
-          "@id": "_:N54894fbc9cf14ccba49e8a101b2808db"
+          "@id": "_:N2a2b8c10a0da4295911a2b9c8d1e8902"
         },
         {
-          "@id": "_:N80458954701040bdad2b8366273a2df1"
+          "@id": "_:N2167615fb4be4efa8165630d686888d9"
         },
         {
-          "@id": "_:Ne06c43eb8d554d12a0bc4a22cec5dd43"
+          "@id": "_:N84eced423ecd4d02bd4c7f9d31797c03"
         },
         {
-          "@id": "_:N09837b8d6c704e6cb07c71c8268cdaa0"
+          "@id": "_:N69754daef0704398a049c4e239b7f520"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1ced50d7b4e442c28b4cbef4b398dd99"
+          "@id": "_:Na10c4bfc960a4c2ea0d51926492a3cdf"
         },
         {
-          "@id": "_:N1548171d9fbf4650977fe068aa58ec6a"
+          "@id": "_:N970f8202b8ca41179db75901b5a1a862"
         },
         {
-          "@id": "_:N7eac6a4a157343c09e307bf7705d8ab5"
+          "@id": "_:Nb4448714f14b450083419a9312097e2b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_2885"
+        },
         {
           "@id": "edam:topic_0130"
         },
@@ -77,24 +86,15 @@
           "@id": "edam:topic_2814"
         },
         {
-          "@id": "edam:topic_2885"
-        },
-        {
           "@id": "edam:topic_0082"
-        },
-        {
-          "@id": "edam:topic_0199"
-        },
-        {
-          "@id": "edam:topic_0078"
         }
       ],
       "sc:citation": [
+        "pubmed:15980478",
         "pmcid:PMC1160136",
         {
           "@id": "https://doi.org/10.1093/nar/gki375"
-        },
-        "pubmed:15980478"
+        }
       ],
       "sc:description": "Predictor of effects of single point protein mutation on its stability from protein sequences or structures.",
       "sc:featureList": [
@@ -108,9 +108,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "I-MUTANT Suite",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:provider": "ELIXIR-ITA-BOLOGNA",
       "sc:softwareHelp": {
@@ -120,23 +120,7 @@
       "sc:url": "http://gpcr2.biocomp.unibo.it/cgi/predictors/I-Mutant3.0/I-Mutant3.0.cgi"
     },
     {
-      "@id": "_:N149005f47e7f4e8ebbbb98df7bedae8c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1467"
-      },
-      "sc:name": "Protein chain"
-    },
-    {
-      "@id": "_:N54894fbc9cf14ccba49e8a101b2808db",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1127"
-      },
-      "sc:name": "PDB ID"
-    },
-    {
-      "@id": "_:N80458954701040bdad2b8366273a2df1",
+      "@id": "_:Nbf04e408ac69455a8b2390801f47eaf2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -147,7 +131,18 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:Ne06c43eb8d554d12a0bc4a22cec5dd43",
+      "@id": "_:N2a2b8c10a0da4295911a2b9c8d1e8902",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:N2167615fb4be4efa8165630d686888d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1742"
@@ -155,29 +150,23 @@
       "sc:name": "PDB residue number"
     },
     {
-      "@id": "_:N09837b8d6c704e6cb07c71c8268cdaa0",
+      "@id": "_:N84eced423ecd4d02bd4c7f9d31797c03",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2974"
+        "@id": "edam:data_1467"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Protein sequence (raw)"
+      "sc:name": "Protein chain"
     },
     {
-      "@id": "_:N1ced50d7b4e442c28b4cbef4b398dd99",
+      "@id": "_:N69754daef0704398a049c4e239b7f520",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1622"
+        "@id": "edam:data_1127"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Disease report"
+      "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N1548171d9fbf4650977fe068aa58ec6a",
+      "@id": "_:Na10c4bfc960a4c2ea0d51926492a3cdf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -188,7 +177,18 @@
       "sc:name": "Protein structure report"
     },
     {
-      "@id": "_:N7eac6a4a157343c09e307bf7705d8ab5",
+      "@id": "_:N970f8202b8ca41179db75901b5a1a862",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1622"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Disease report"
+    },
+    {
+      "@id": "_:Nb4448714f14b450083419a9312097e2b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"

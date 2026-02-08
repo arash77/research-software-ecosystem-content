@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/humu.20405",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/idbases",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2cb0382e8ff04e3dadfb0f7dbb66f3d9"
+          "@id": "_:N200b7ab3602848689ea72c98ba82c39d"
         },
         {
-          "@id": "_:N309da5f84d42480fa7bbd9a17baf3ac7"
+          "@id": "_:Nf79a58a097ed499c917fa8a164eeeea7"
         }
       ],
       "bsc:output": {
-        "@id": "_:N42b7e6bfd2064b1fb0ff0dcf2b861160"
+        "@id": "_:Ne4c91f5403b6474091ee2a3d8a41681f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -55,10 +59,10 @@
         "@id": "edam:topic_0634"
       },
       "sc:citation": [
-        "pubmed:17004234",
         {
           "@id": "https://doi.org/10.1002/humu.20405"
-        }
+        },
+        "pubmed:17004234"
       ],
       "sc:description": "Locus-specific databases for immunodeficiency-causing mutations.",
       "sc:featureList": {
@@ -66,8 +70,8 @@
       },
       "sc:name": "Immunodeficiency mutation databases (IDbases)",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
+        "Windows",
         "Mac"
       ],
       "sc:softwareHelp": {
@@ -76,23 +80,7 @@
       "sc:url": "http://structure.bmc.lu.se/idbase/"
     },
     {
-      "@id": "_:N2cb0382e8ff04e3dadfb0f7dbb66f3d9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1097"
-      },
-      "sc:name": "Sequence accession (nucleic acid)"
-    },
-    {
-      "@id": "_:N309da5f84d42480fa7bbd9a17baf3ac7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1025"
-      },
-      "sc:name": "Gene identifier"
-    },
-    {
-      "@id": "_:N42b7e6bfd2064b1fb0ff0dcf2b861160",
+      "@id": "_:Ne4c91f5403b6474091ee2a3d8a41681f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -103,8 +91,20 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "https://doi.org/10.1002/humu.20405",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N200b7ab3602848689ea72c98ba82c39d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1025"
+      },
+      "sc:name": "Gene identifier"
+    },
+    {
+      "@id": "_:Nf79a58a097ed499c917fa8a164eeeea7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1097"
+      },
+      "sc:name": "Sequence accession (nucleic acid)"
     }
   ]
 }

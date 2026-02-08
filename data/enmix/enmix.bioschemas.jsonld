@@ -36,23 +36,31 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s12864-016-3426-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-9034-8902",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/enmix",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0002-9034-8902"
       },
       "bsc:input": {
-        "@id": "_:N683c41ca43b741bea9af0625f646b2bd"
+        "@id": "_:Nf71a7164fb454a86900087f57aa1302a"
       },
       "bsc:output": [
         {
-          "@id": "_:N91736bbbfe5f497a8b9a47a85b1e3bd4"
+          "@id": "_:N688b1fb0822a4b3fbef1a0ae07bbdb54"
         },
         {
-          "@id": "_:N619abf47b30845b8ac76b5424f6cbfd2"
+          "@id": "_:Nf7604a5197c54b98ac180cc615303524"
         },
         {
-          "@id": "_:Nb18b847ae3a446ad8f86389e6f0950a7"
+          "@id": "_:N6b6c96cc637043c6ac31130644aec8eb"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -62,37 +70,37 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3295"
+          "@id": "edam:topic_3572"
         },
         {
           "@id": "edam:topic_3518"
         },
         {
-          "@id": "edam:topic_3572"
+          "@id": "edam:topic_3295"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC5209853",
+        "pubmed:28049437",
         {
           "@id": "https://doi.org/10.1186/s12864-016-3426-3"
-        },
-        "pubmed:28049437",
-        "pmcid:PMC5209853"
+        }
       ],
       "sc:description": "This package provides an efficient data pre-processing tool designed to reduce background noise and improve signal for DNA methylation estimation from Illumina Methylation BeadChip array measurements. It is a model based background correction method that can significantly improve accuracy and reproducibility of methylation measures.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2409"
+          "@id": "edam:operation_3204"
         },
         {
-          "@id": "edam:operation_3204"
+          "@id": "edam:operation_2409"
         }
       ],
       "sc:license": "Artistic-2.0",
       "sc:name": "ENmix",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/ENmix.html"
@@ -101,7 +109,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/ENmix.html"
     },
     {
-      "@id": "_:N91736bbbfe5f497a8b9a47a85b1e3bd4",
+      "@id": "_:N688b1fb0822a4b3fbef1a0ae07bbdb54",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -117,23 +125,39 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N619abf47b30845b8ac76b5424f6cbfd2",
+      "@id": "_:Nf7604a5197c54b98ac180cc615303524",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3117"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Microarray hybridisation data"
+    },
+    {
+      "@id": "_:N6b6c96cc637043c6ac31130644aec8eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nb18b847ae3a446ad8f86389e6f0950a7",
+      "@id": "_:Nf71a7164fb454a86900087f57aa1302a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3117"
@@ -142,35 +166,11 @@
         {
           "@id": "edam:format_2330"
         },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Microarray hybridisation data"
-    },
-    {
-      "@id": "_:N683c41ca43b741bea9af0625f646b2bd",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3117"
-      },
-      "sc:encodingFormat": [
         {
           "@id": "edam:format_3578"
-        },
-        {
-          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Microarray hybridisation data"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s12864-016-3426-3",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0002-9034-8902",
-      "@type": "sc:Person"
     }
   ]
 }

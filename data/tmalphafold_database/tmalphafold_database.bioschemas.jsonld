@@ -40,16 +40,16 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N9071e7a23e0c4a099b02423c15972fec"
+          "@id": "_:N6da51f33fb9b4bedb268049f94cf5ad3"
         },
         {
-          "@id": "_:N53a291f40365484d882c1f442a86784b"
+          "@id": "_:N8fc7a6b7819449158eee6cab8c6c56e0"
         },
         {
-          "@id": "_:N6a475ce6cfd9468a8c26e51ac86c53ec"
+          "@id": "_:N07c21cfa69b7445a91fb23c960e6c57c"
         },
         {
-          "@id": "_:Nb99703e7dbe0472cb117043338f2dfed"
+          "@id": "_:Nc12796146b1e423593ec3d4c7900ad1b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -62,35 +62,35 @@
           "@id": "edam:topic_2814"
         },
         {
-          "@id": "edam:topic_0082"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0082"
         },
         {
           "@id": "edam:topic_0153"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC9825488",
+        "pubmed:36318239",
         {
           "@id": "https://doi.org/10.1093/NAR/GKAC928"
-        },
-        "pmcid:PMC9825488",
-        "pubmed:36318239"
+        }
       ],
       "sc:description": "Membrane localization and evaluation of AlphaFold2 predicted alpha-helical transmembrane protein structures.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3431"
-        },
-        {
-          "@id": "edam:operation_0269"
+          "@id": "edam:operation_0474"
         },
         {
           "@id": "edam:operation_2241"
         },
         {
-          "@id": "edam:operation_0474"
+          "@id": "edam:operation_0269"
+        },
+        {
+          "@id": "edam:operation_3431"
         },
         {
           "@id": "edam:operation_2421"
@@ -99,22 +99,14 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "TmAlphaFold database",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:url": "https://tmalphafold.ttk.hu/"
     },
     {
-      "@id": "_:N9071e7a23e0c4a099b02423c15972fec",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3021"
-      },
-      "sc:name": "UniProt accession"
-    },
-    {
-      "@id": "_:N53a291f40365484d882c1f442a86784b",
+      "@id": "_:N6da51f33fb9b4bedb268049f94cf5ad3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -122,7 +114,7 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:N6a475ce6cfd9468a8c26e51ac86c53ec",
+      "@id": "_:N8fc7a6b7819449158eee6cab8c6c56e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -130,7 +122,15 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:Nb99703e7dbe0472cb117043338f2dfed",
+      "@id": "_:N07c21cfa69b7445a91fb23c960e6c57c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Nc12796146b1e423593ec3d4c7900ad1b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2909"

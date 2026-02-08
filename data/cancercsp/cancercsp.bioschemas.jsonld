@@ -55,8 +55,8 @@
       },
       "sc:name": "CancerCSP",
       "sc:operatingSystem": [
-        "Mac",
         "Linux",
+        "Mac",
         "Windows"
       ],
       "sc:softwareHelp": {

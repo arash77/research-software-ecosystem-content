@@ -44,32 +44,32 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5c0b7aeec5964e64a3e713d14d2af7e3"
+          "@id": "_:N505e208e42074e8dbfecf41751ac9d97"
         },
         {
-          "@id": "_:Nc90b0bb780784a36870742c05b0dd10b"
+          "@id": "_:Nb563c39fec9442d4b6ce4449566af7fa"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne1f3a288b3384afcbb869c8ace05cee6"
+        "@id": "_:N8def93cfecc84a77b1c48a3cb2173215"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3474"
-        },
-        {
-          "@id": "edam:topic_3534"
-        },
-        {
           "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3474"
         },
         {
           "@id": "edam:topic_2830"
         },
         {
           "@id": "edam:topic_0736"
+        },
+        {
+          "@id": "edam:topic_3534"
         }
       ],
       "sc:citation": {
@@ -78,9 +78,6 @@
       "sc:description": "An interpretable geometric deep learning model for structure-based protein binding site prediction.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0477"
-        },
-        {
           "@id": "edam:operation_2575"
         },
         {
@@ -88,19 +85,22 @@
         },
         {
           "@id": "edam:operation_0252"
+        },
+        {
+          "@id": "edam:operation_0477"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "ScanNet",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:url": "http://bioinfo3d.cs.tau.ac.il/ScanNet/"
     },
     {
-      "@id": "_:N5c0b7aeec5964e64a3e713d14d2af7e3",
+      "@id": "_:N505e208e42074e8dbfecf41751ac9d97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -108,7 +108,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:Nc90b0bb780784a36870742c05b0dd10b",
+      "@id": "_:Nb563c39fec9442d4b6ce4449566af7fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -116,7 +116,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:Ne1f3a288b3384afcbb869c8ace05cee6",
+      "@id": "_:N8def93cfecc84a77b1c48a3cb2173215",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"

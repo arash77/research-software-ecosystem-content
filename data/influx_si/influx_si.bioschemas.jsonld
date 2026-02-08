@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/influx_si",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N033ba7fad25448cb9ad82b25c35555b0"
+        "@id": "_:Na81a88bf8b3b4d00a0c660627df271f1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
@@ -61,7 +61,7 @@
       "sc:url": "https://metasys.insa-toulouse.fr/software/influx/"
     },
     {
-      "@id": "_:N033ba7fad25448cb9ad82b25c35555b0",
+      "@id": "_:Na81a88bf8b3b4d00a0c660627df271f1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2140"

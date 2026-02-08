@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/assemblage",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N15a3976114884de0bdff23857a03a7ff"
+        "@id": "_:N4469a29eae66446196ba7802a87739ed"
       },
       "bsc:output": {
-        "@id": "_:N21f2a90ba7454934aec7c10c2b53a87b"
+        "@id": "_:N583a009845eb46819395d453f89e1921"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -65,7 +65,18 @@
       "sc:url": "https://github.com/alipirani88/assemblage"
     },
     {
-      "@id": "_:N21f2a90ba7454934aec7c10c2b53a87b",
+      "@id": "_:N4469a29eae66446196ba7802a87739ed",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1931"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N583a009845eb46819395d453f89e1921",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -81,17 +92,6 @@
           "@id": "edam:format_2305"
         }
       ],
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N15a3976114884de0bdff23857a03a7ff",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1931"
-      },
       "sc:name": "DNA sequence"
     }
   ]

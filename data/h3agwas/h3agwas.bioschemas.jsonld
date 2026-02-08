@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.25375/uct.14405990.v2",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-0581-149X",
       "@type": "sc:Person"
     },
@@ -50,22 +46,22 @@
         "@id": "https://orcid.org/0000-0002-0581-149X"
       },
       "bsc:input": {
-        "@id": "_:N05f5dadde926484386cf0355e37d92bf"
+        "@id": "_:N4de677827cd549fbb9198b87acba8a2e"
       },
       "bsc:output": {
-        "@id": "_:Ncfd47761351c4662a21bc637c9340513"
+        "@id": "_:N3ea9d1bd7d164a5486599d9570deeda7"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0654"
-        },
-        {
           "@id": "edam:topic_0622"
         },
         {
           "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_0654"
         }
       ],
       "sc:citation": {
@@ -85,8 +81,8 @@
       "sc:license": "MIT",
       "sc:name": "H3AGWAS",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/h3abionet/h3agwas/blob/master/README.md"
@@ -95,15 +91,7 @@
       "sc:url": "https://github.com/h3abionet/h3agwas"
     },
     {
-      "@id": "_:Ncfd47761351c4662a21bc637c9340513",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0920"
-      },
-      "sc:name": "Genotype/phenotype report"
-    },
-    {
-      "@id": "_:N05f5dadde926484386cf0355e37d92bf",
+      "@id": "_:N4de677827cd549fbb9198b87acba8a2e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -112,6 +100,18 @@
         "@id": "edam:format_2333"
       },
       "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:N3ea9d1bd7d164a5486599d9570deeda7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:name": "Genotype/phenotype report"
+    },
+    {
+      "@id": "https://doi.org/10.25375/uct.14405990.v2",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/Mascot_Parser",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N98ef742d95bf4dc289ca564955b159e3"
+        "@id": "_:Nfd9bff54d38442e7a0e7ba6a5cefae64"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -63,7 +63,7 @@
       "sc:url": "http://www.matrixscience.com/msparser.html"
     },
     {
-      "@id": "_:N98ef742d95bf4dc289ca564955b159e3",
+      "@id": "_:Nfd9bff54d38442e7a0e7ba6a5cefae64",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"

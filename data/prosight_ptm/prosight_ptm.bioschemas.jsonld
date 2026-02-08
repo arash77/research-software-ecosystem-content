@@ -40,56 +40,47 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2e879f52e5134c9a8f335ea00a32243e"
+          "@id": "_:Nce5e810b10c447d698834960c3eefe7c"
         },
         {
-          "@id": "_:N3b0979e8bc59457aa043549028b7a41f"
+          "@id": "_:Nbeaa6ce08d3e49008bafcbc649e348f6"
         },
         {
-          "@id": "_:N3c00cb54065849e1bcebd131c1b759fb"
+          "@id": "_:N582a530ae3bb4c8a8a3e16348c5af238"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ndf06c4c38f3b4a2da0231911f245c4c6"
+          "@id": "_:Nd2cb31b76dd04a27911dc8f27602321f"
         },
         {
-          "@id": "_:N8b386a12dbc347ea92ebb69ceacd919b"
+          "@id": "_:N6247337d90f24d62bff67725a02adeb1"
         },
         {
-          "@id": "_:N175c8da7f55f474ba2fe087e4bc863c9"
+          "@id": "_:Nec29f91d78474affa546662888e12fd5"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0601"
         },
         {
           "@id": "edam:topic_3520"
         },
         {
-          "@id": "edam:topic_0601"
+          "@id": "edam:topic_0121"
         }
       ],
       "sc:citation": "pubmed:14632120",
       "sc:description": "Web portal for PTM search in top-down experiments.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3645"
-        },
-        {
-          "@id": "edam:operation_3767"
+          "@id": "edam:operation_3646"
         },
         {
           "@id": "edam:operation_3647"
-        },
-        {
-          "@id": "edam:operation_3648"
-        },
-        {
-          "@id": "edam:operation_0564"
         },
         {
           "@id": "edam:operation_3644"
@@ -98,20 +89,29 @@
           "@id": "edam:operation_3643"
         },
         {
-          "@id": "edam:operation_3646"
+          "@id": "edam:operation_0335"
         },
         {
           "@id": "edam:operation_3755"
         },
         {
-          "@id": "edam:operation_0335"
+          "@id": "edam:operation_3645"
+        },
+        {
+          "@id": "edam:operation_3648"
+        },
+        {
+          "@id": "edam:operation_0564"
+        },
+        {
+          "@id": "edam:operation_3767"
         }
       ],
       "sc:name": "ProSight PTM",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://prosightptm.northwestern.edu/"
@@ -119,40 +119,7 @@
       "sc:url": "https://prosightptm.northwestern.edu/"
     },
     {
-      "@id": "_:N2e879f52e5134c9a8f335ea00a32243e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3653"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N3b0979e8bc59457aa043549028b7a41f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3245"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N3c00cb54065849e1bcebd131c1b759fb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3653"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:Ndf06c4c38f3b4a2da0231911f245c4c6",
+      "@id": "_:Nd2cb31b76dd04a27911dc8f27602321f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -163,7 +130,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N8b386a12dbc347ea92ebb69ceacd919b",
+      "@id": "_:N6247337d90f24d62bff67725a02adeb1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -174,7 +141,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N175c8da7f55f474ba2fe087e4bc863c9",
+      "@id": "_:Nec29f91d78474affa546662888e12fd5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -183,6 +150,39 @@
         "@id": "edam:format_2062"
       },
       "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:Nce5e810b10c447d698834960c3eefe7c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3653"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Nbeaa6ce08d3e49008bafcbc649e348f6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3653"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N582a530ae3bb4c8a8a3e16348c5af238",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3245"
+      },
+      "sc:name": "Mass spectrometry data"
     }
   ]
 }

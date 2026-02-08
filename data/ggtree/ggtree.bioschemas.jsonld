@@ -44,27 +44,27 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Guangchuang Yu",
       "bsc:input": {
-        "@id": "_:Nd10c7f782f2640ba8babb3e6565c92e6"
+        "@id": "_:N18c6e21fff4b4fb4b37bae50a9b62f5c"
       },
       "bsc:output": [
         {
-          "@id": "_:N9ba3a21ebc8b427dbf43dd842e89e10a"
+          "@id": "_:N5beda12de2494eef8ef73c9249615d5e"
         },
         {
-          "@id": "_:N8cd1cb30df784ed6820cefdb8c8de16b"
+          "@id": "_:Nd7ef5c4fdcc140799b29d9f6c1c8ea07"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0084"
+          "@id": "edam:topic_0092"
         },
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_0084"
         }
       ],
       "sc:citation": {
@@ -93,58 +93,58 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/ggtree.html"
     },
     {
-      "@id": "_:N9ba3a21ebc8b427dbf43dd842e89e10a",
+      "@id": "_:N18c6e21fff4b4fb4b37bae50a9b62f5c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1910"
+        },
+        {
+          "@id": "edam:format_1912"
+        },
+        {
+          "@id": "edam:format_1435"
+        },
+        {
+          "@id": "edam:format_2006"
+        }
+      ],
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N5beda12de2494eef8ef73c9249615d5e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2006"
+        }
+      ],
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:Nd7ef5c4fdcc140799b29d9f6c1c8ea07",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1707"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2006"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2006"
         }
       ],
       "sc:name": "Phylogenetic tree image"
-    },
-    {
-      "@id": "_:N8cd1cb30df784ed6820cefdb8c8de16b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2006"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:Nd10c7f782f2640ba8babb3e6565c92e6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1435"
-        },
-        {
-          "@id": "edam:format_1910"
-        },
-        {
-          "@id": "edam:format_2006"
-        },
-        {
-          "@id": "edam:format_1912"
-        }
-      ],
-      "sc:name": "Phylogenetic tree"
     }
   ]
 }

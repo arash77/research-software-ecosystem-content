@@ -71,8 +71,8 @@
       "sc:license": "GPL-2.0",
       "sc:name": "SPARTAN",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareVersion": "3.0",

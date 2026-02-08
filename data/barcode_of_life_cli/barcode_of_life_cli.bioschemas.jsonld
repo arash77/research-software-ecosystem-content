@@ -40,37 +40,37 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ncbcff4a0d0cb499cb2fa92c05e0fd41d"
+          "@id": "_:N43617eff82044672917726ea91967e38"
         },
         {
-          "@id": "_:Nbf4fbc3ee8d14b4c8c12d859b0f969b6"
+          "@id": "_:N0e4ece1811844ca0a92351d946b73520"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N562713b6e9a6402a9a7e29002bba637e"
+          "@id": "_:N6346b6070769482788be9f377fc225ff"
         },
         {
-          "@id": "_:Nb1a38a53173a4d2a94e17aefc6bfe7bb"
+          "@id": "_:N5675e26f693b4fdf949f93e0eca553e3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3050"
+          "@id": "edam:topic_4038"
         },
         {
-          "@id": "edam:topic_4038"
+          "@id": "edam:topic_3050"
         }
       ],
       "sc:description": "A command line interface for data retrieval from the barcode of life data system.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0338"
+          "@id": "edam:operation_0573"
         },
         {
-          "@id": "edam:operation_0573"
+          "@id": "edam:operation_0338"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -78,7 +78,7 @@
       "sc:url": "https://github.com/CNuge/BOLD-CLI"
     },
     {
-      "@id": "_:Ncbcff4a0d0cb499cb2fa92c05e0fd41d",
+      "@id": "_:N6346b6070769482788be9f377fc225ff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3720"
@@ -86,7 +86,15 @@
       "sc:name": "Geographic location"
     },
     {
-      "@id": "_:Nbf4fbc3ee8d14b4c8c12d859b0f969b6",
+      "@id": "_:N5675e26f693b4fdf949f93e0eca553e3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1868"
+      },
+      "sc:name": "Taxon"
+    },
+    {
+      "@id": "_:N43617eff82044672917726ea91967e38",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -94,20 +102,12 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N562713b6e9a6402a9a7e29002bba637e",
+      "@id": "_:N0e4ece1811844ca0a92351d946b73520",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3720"
       },
       "sc:name": "Geographic location"
-    },
-    {
-      "@id": "_:Nb1a38a53173a4d2a94e17aefc6bfe7bb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1868"
-      },
-      "sc:name": "Taxon"
     }
   ]
 }

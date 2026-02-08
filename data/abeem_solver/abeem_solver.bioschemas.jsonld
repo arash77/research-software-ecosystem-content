@@ -36,27 +36,23 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1002/jcc.20344",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/abeem_solver",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Radka Svobodová Vařeková",
       "bsc:input": {
-        "@id": "_:Ndaca5f442e0244388537c8a3c08e13c5"
+        "@id": "_:Nfd7d4ba98c544d238ed02a587891b331"
       },
       "bsc:output": {
-        "@id": "_:N485bb25d6bb14a648b43245ba01b185d"
+        "@id": "_:Nf092ec33349e4d8b8173a06db7c59b04"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_2258"
+          "@id": "edam:topic_3332"
         },
         {
-          "@id": "edam:topic_3332"
+          "@id": "edam:topic_2258"
         }
       ],
       "sc:citation": [
@@ -72,27 +68,27 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "ABEEM Solver",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "ELIXIR-CZ",
       "sc:softwareHelp": [
         {
-          "@id": "http://www.ncbr.muni.cz/~n19n/eem_abeem/manual.htm"
-        },
-        {
           "@id": "http://onlinelibrary.wiley.com/enhanced/exportCitation/doi/10.1002/jcc.20344"
         },
         {
           "@id": "http://www.ncbr.muni.cz/~n19n/eem_abeem/licence.htm"
+        },
+        {
+          "@id": "http://www.ncbr.muni.cz/~n19n/eem_abeem/manual.htm"
         }
       ],
       "sc:softwareVersion": "1.0",
       "sc:url": "http://ncbr.muni.cz/~svobodova/eem_abeem"
     },
     {
-      "@id": "_:N485bb25d6bb14a648b43245ba01b185d",
+      "@id": "_:Nf092ec33349e4d8b8173a06db7c59b04",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1917"
@@ -103,12 +99,16 @@
       "sc:name": "Atomic property"
     },
     {
-      "@id": "_:Ndaca5f442e0244388537c8a3c08e13c5",
+      "@id": "_:Nfd7d4ba98c544d238ed02a587891b331",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
       },
       "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "https://doi.org/10.1002/jcc.20344",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

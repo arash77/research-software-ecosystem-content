@@ -36,11 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkq747",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkq747",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -51,20 +51,20 @@
         "Yuzhen Ye"
       ],
       "bsc:input": {
-        "@id": "_:N7df8b0a73e3d440d882051b16d68b027"
+        "@id": "_:Nb045044da02c41adb43143eb9bd4a81e"
       },
       "bsc:output": [
         {
-          "@id": "_:N4a3aaece9b4f447a91e17c07a131a33f"
+          "@id": "_:N1a0f052385d64a2196caf0706ddf3588"
         },
         {
-          "@id": "_:N103aa2dad05542a79bf206fbd090517e"
+          "@id": "_:N24a48e790262440da753be73e4951287"
         },
         {
-          "@id": "_:Nfb782cae41d140429d374788e35c87d1"
+          "@id": "_:N31e1c29120bd41d49dd09cbaa5f5de90"
         },
         {
-          "@id": "_:N5f62b778dda34d59a4ee0bd37c3195d9"
+          "@id": "_:N5848392b027d445ca159bc735ce77a43"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -79,12 +79,12 @@
       ],
       "sc:citation": [
         "pmcid:PMC2978382",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkq747"
-        },
         "pubmed:20805240",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkq747"
         }
       ],
       "sc:description": "Application for finding (fragmented) genes in short reads",
@@ -100,7 +100,7 @@
       "sc:url": "https://sourceforge.net/projects/fraggenescan/"
     },
     {
-      "@id": "_:N4a3aaece9b4f447a91e17c07a131a33f",
+      "@id": "_:N1a0f052385d64a2196caf0706ddf3588",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -111,7 +111,18 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N103aa2dad05542a79bf206fbd090517e",
+      "@id": "_:N24a48e790262440da753be73e4951287",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N31e1c29120bd41d49dd09cbaa5f5de90",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -122,7 +133,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nfb782cae41d140429d374788e35c87d1",
+      "@id": "_:N5848392b027d445ca159bc735ce77a43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -133,18 +144,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N5f62b778dda34d59a4ee0bd37c3195d9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N7df8b0a73e3d440d882051b16d68b027",
+      "@id": "_:Nb045044da02c41adb43143eb9bd4a81e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

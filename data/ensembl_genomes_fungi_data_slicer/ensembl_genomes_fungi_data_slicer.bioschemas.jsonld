@@ -45,13 +45,13 @@
       "biotools:primaryContact": "Ensembl Genomes webteam",
       "bsc:input": [
         {
-          "@id": "_:N112767d506cd4552a29d98fa79f35369"
+          "@id": "_:N76fd77cb05e448c3beb26f5258cf39a3"
         },
         {
-          "@id": "_:N6a4d7c97725f4aa0866d072ec65c1ca8"
+          "@id": "_:N2399f33c87cb402587288e6588721eb4"
         },
         {
-          "@id": "_:N0e86093baf764507b45a0b80a691436f"
+          "@id": "_:N906d879877064f91b4c364d2562493a1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -64,8 +64,8 @@
         {
           "@id": "https://doi.org/10.1093/nar/gkv1157"
         },
-        "pubmed:26687719",
-        "pmcid:PMC4702834"
+        "pmcid:PMC4702834",
+        "pubmed:26687719"
       ],
       "sc:description": "Get a subset of data from a BAM | VCF file.",
       "sc:featureList": {
@@ -73,66 +73,66 @@
       },
       "sc:name": "Ensembl Genomes Fungi data slicer",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
         {
-          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+          "@id": "http://fungi.ensembl.org/info/website/help/index.html"
         },
         {
-          "@id": "http://fungi.ensembl.org/info/website/help/index.html"
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "http://fungi.ensembl.org/tools.html"
     },
     {
-      "@id": "_:N112767d506cd4552a29d98fa79f35369",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2572"
-        },
-        {
-          "@id": "edam:format_3016"
-        }
-      ],
-      "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "_:N6a4d7c97725f4aa0866d072ec65c1ca8",
+      "@id": "_:N76fd77cb05e448c3beb26f5258cf39a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2572"
+          "@id": "edam:format_3016"
         },
         {
-          "@id": "edam:format_3016"
+          "@id": "edam:format_2572"
         }
       ],
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N0e86093baf764507b45a0b80a691436f",
+      "@id": "_:N2399f33c87cb402587288e6588721eb4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3016"
+        },
+        {
+          "@id": "edam:format_2572"
+        }
+      ],
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N906d879877064f91b4c364d2562493a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2572"
+          "@id": "edam:format_3016"
         },
         {
-          "@id": "edam:format_3016"
+          "@id": "edam:format_2572"
         }
       ],
       "sc:name": "Sequence variations"

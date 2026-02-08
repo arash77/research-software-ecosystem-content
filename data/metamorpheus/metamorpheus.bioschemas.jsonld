@@ -40,79 +40,75 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1021/acs.jproteome.0c00838",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/MetaMorpheus",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N234dcc8c0bb44074b761c9e0a5fb4926"
+          "@id": "_:Nc902bd944a2f4519a3c26f1dd8c4991d"
         },
         {
-          "@id": "_:N63e3b41599c242288a89192ebb0987f9"
+          "@id": "_:N67cf80e217814858a7dba37ea17905c3"
         }
       ],
       "bsc:output": {
-        "@id": "_:N2138b9cef9c5485998717bf5615cdd97"
+        "@id": "_:Ne6527659c7cf4790b2e19199f9781a68"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
-        },
-        {
-          "@id": "edam:topic_0601"
+          "@id": "edam:topic_3922"
         },
         {
           "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_3922"
-        },
-        {
           "@id": "edam:topic_3520"
         },
         {
+          "@id": "edam:topic_0601"
+        },
+        {
           "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0080"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC6733628",
         "pmcid:PMC8377504",
-        "pubmed:31378069",
         {
           "@id": "https://doi.org/10.1021/acs.jproteome.0c00838"
         },
         {
           "@id": "https://doi.org/10.1021/acs.jproteome.9b00330"
         },
-        "pubmed:33683901"
+        "pubmed:33683901",
+        "pubmed:31378069",
+        "pmcid:PMC6733628"
       ],
       "sc:description": "Improved Protein Inference from Multiple Protease Bottom-Up Mass Spectrometry Data | Proteomics search software with integrated calibration, PTM discovery, bottom-up, top-down and LFQ capabilities | MetaMorpheus: Free, Open-Source PTM Discovery | Download the current version here. For first-time Windows users, choose \"MetaMorpheusInstaller.msi\" and install MetaMorpheus. Check out our getting started video on YouTube",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3631"
+          "@id": "edam:operation_3755"
+        },
+        {
+          "@id": "edam:operation_3215"
         },
         {
           "@id": "edam:operation_3649"
         },
         {
-          "@id": "edam:operation_3755"
+          "@id": "edam:operation_3767"
+        },
+        {
+          "@id": "edam:operation_3631"
         },
         {
           "@id": "edam:operation_3629"
         },
         {
-          "@id": "edam:operation_3767"
-        },
-        {
           "@id": "edam:operation_2421"
-        },
-        {
-          "@id": "edam:operation_3215"
         }
       ],
       "sc:license": "MIT",
@@ -120,7 +116,42 @@
       "sc:url": "https://github.com/smith-chem-wisc/MetaMorpheus"
     },
     {
-      "@id": "_:N2138b9cef9c5485998717bf5615cdd97",
+      "@id": "_:Nc902bd944a2f4519a3c26f1dd8c4991d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3770"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N67cf80e217814858a7dba37ea17905c3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3712"
+        },
+        {
+          "@id": "edam:format_3651"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Ne6527659c7cf4790b2e19199f9781a68",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -136,39 +167,8 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N234dcc8c0bb44074b761c9e0a5fb4926",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3244"
-        },
-        {
-          "@id": "edam:format_3651"
-        },
-        {
-          "@id": "edam:format_3712"
-        }
-      ],
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N63e3b41599c242288a89192ebb0987f9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2976"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_3770"
-        }
-      ],
-      "sc:name": "Protein sequence"
+      "@id": "https://doi.org/10.1021/acs.jproteome.0c00838",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

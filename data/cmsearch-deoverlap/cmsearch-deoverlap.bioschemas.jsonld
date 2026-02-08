@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/cmsearch-deoverlap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N03c4556eb41d43c098863b810a9d4a7b"
+        "@id": "_:N3a1842a667ad4ab1a92df7b40d96751a"
       },
       "bsc:output": {
-        "@id": "_:Nc93dafb938a0477589725dc92f9f80a0"
+        "@id": "_:Nb37a4285a1e24783b2e40ea3e2eebc8f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3070"
+          "@id": "edam:topic_3303"
         },
         {
-          "@id": "edam:topic_3303"
+          "@id": "edam:topic_3070"
         }
       ],
       "sc:description": "Removes lower scoring overlaps from cmsearch results.\nThis tool removes lower-scoring overlaps from cmsearch results. Given information about the clans and the cmsearch tbl output this tool returns a filtered cmsearch tbl output.",
@@ -68,7 +68,7 @@
       "sc:url": "https://github.com/EBI-Metagenomics/pipeline-v5/tree/master/tools/RNA_prediction/cmsearch-deoverlap"
     },
     {
-      "@id": "_:N03c4556eb41d43c098863b810a9d4a7b",
+      "@id": "_:N3a1842a667ad4ab1a92df7b40d96751a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -79,7 +79,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:Nc93dafb938a0477589725dc92f9f80a0",
+      "@id": "_:Nb37a4285a1e24783b2e40ea3e2eebc8f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"

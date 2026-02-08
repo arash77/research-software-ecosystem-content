@@ -40,41 +40,41 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Holger Froehlich",
       "bsc:input": {
-        "@id": "_:Nc94c9c6a0ad0435eafdf6ab4ec7a3cbb"
+        "@id": "_:N8c07996b05c54157bcdf01d24780c480"
       },
       "bsc:output": [
         {
-          "@id": "_:N9d89c3fd567d40e597af626fc27e8d71"
+          "@id": "_:Nf40354ad3d3f457eaa115e6bc5697d09"
         },
         {
-          "@id": "_:N545a359a91b247e9934dd17a8356a06e"
+          "@id": "_:Nceabeb6339f0467dafeed19abc882895"
         },
         {
-          "@id": "_:Nb0a36220765a4f0dad23122cc8541a23"
+          "@id": "_:N3ffc805622ef401d8f41b26a22f2427a"
         },
         {
-          "@id": "_:N73bd6043a6ec4ec6bb20a727ba869f70"
+          "@id": "_:N5a699f48de644da58f192cc14b5b11cb"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3572"
+          "@id": "edam:topic_0089"
         },
         {
-          "@id": "edam:topic_0089"
+          "@id": "edam:topic_3572"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC1892785",
         {
           "@id": "https://doi.org/10.1186/1471-2105-8-166"
         },
-        "pubmed:17519018",
-        "pmcid:PMC1892785"
+        "pubmed:17519018"
       ],
       "sc:description": "This package implements several functions useful for computing similarities between GO terms and gene products based on their GO annotation. Moreover it allows for computing a GO enrichment analysis.",
       "sc:featureList": [
@@ -88,9 +88,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "GOSim",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/GOSim.html"
@@ -99,71 +99,71 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/GOSim.html"
     },
     {
-      "@id": "_:N9d89c3fd567d40e597af626fc27e8d71",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0582"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Ontology"
-    },
-    {
-      "@id": "_:N545a359a91b247e9934dd17a8356a06e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nb0a36220765a4f0dad23122cc8541a23",
+      "@id": "_:Nf40354ad3d3f457eaa115e6bc5697d09",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2872"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "ID list"
     },
     {
-      "@id": "_:N73bd6043a6ec4ec6bb20a727ba869f70",
+      "@id": "_:Nceabeb6339f0467dafeed19abc882895",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0582"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Ontology"
+    },
+    {
+      "@id": "_:N3ffc805622ef401d8f41b26a22f2427a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Score"
     },
     {
-      "@id": "_:Nc94c9c6a0ad0435eafdf6ab4ec7a3cbb",
+      "@id": "_:N5a699f48de644da58f192cc14b5b11cb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N8c07996b05c54157bcdf01d24780c480",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1027"

@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0755291fc5fa4f169389cf99cba8ac96"
+          "@id": "_:N194ad638823748d8a91514201fd7f158"
         },
         {
-          "@id": "_:Nf34801a04db34178a138e059a64fee5e"
+          "@id": "_:N9c8617c8792c4f299053433a32c116b6"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,13 +57,13 @@
       ],
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0121"
+        },
+        {
           "@id": "edam:topic_0736"
         },
         {
           "@id": "edam:topic_3308"
-        },
-        {
-          "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_0166"
@@ -74,48 +74,48 @@
       ],
       "sc:citation": [
         "pmcid:PMC9319604",
+        "pubmed:35881481",
         {
           "@id": "https://doi.org/10.1093/database/baac053"
-        },
-        "pubmed:35881481"
+        }
       ],
       "sc:description": "A web server for exploring a database of and generating protein structural features from human cell lines and tissues.",
       "sc:featureList": [
+        {
+          "@id": "edam:operation_0303"
+        },
         {
           "@id": "edam:operation_3435"
         },
         {
           "@id": "edam:operation_0570"
-        },
-        {
-          "@id": "edam:operation_0303"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "MIT",
       "sc:name": "structural signatures",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:url": "https://structural-server.kinametrix.com/"
     },
     {
-      "@id": "_:N0755291fc5fa4f169389cf99cba8ac96",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2291"
-      },
-      "sc:name": "UniProt ID"
-    },
-    {
-      "@id": "_:Nf34801a04db34178a138e059a64fee5e",
+      "@id": "_:N194ad638823748d8a91514201fd7f158",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
       },
       "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:N9c8617c8792c4f299053433a32c116b6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2291"
+      },
+      "sc:name": "UniProt ID"
     }
   ]
 }

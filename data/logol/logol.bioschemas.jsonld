@@ -36,23 +36,19 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1007/978-3-319-09192-1_4",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/logol",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "GenOuest",
       "bsc:input": [
         {
-          "@id": "_:N891c4807b89743fc97187b440e6e6035"
+          "@id": "_:Nc6b64dfb2b9f4393be8d1372208c2434"
         },
         {
-          "@id": "_:N0e1e11114e3d47f985171dcf56ebae3c"
+          "@id": "_:N72b400f7d5e94e7bb1720198924d3e0a"
         }
       ],
       "bsc:output": {
-        "@id": "_:N9229ccf776964c338b3cd878228a0cc7"
+        "@id": "_:N2b38c9499e8f49318b2d58980fe19ff0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -85,7 +81,7 @@
       "sc:url": "http://logol.genouest.org"
     },
     {
-      "@id": "_:N9229ccf776964c338b3cd878228a0cc7",
+      "@id": "_:N2b38c9499e8f49318b2d58980fe19ff0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0858"
@@ -96,7 +92,18 @@
       "sc:name": "Sequence signature matches"
     },
     {
-      "@id": "_:N891c4807b89743fc97187b440e6e6035",
+      "@id": "_:Nc6b64dfb2b9f4393be8d1372208c2434",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:N72b400f7d5e94e7bb1720198924d3e0a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -107,15 +114,8 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N0e1e11114e3d47f985171dcf56ebae3c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1353"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Sequence motif"
+      "@id": "https://doi.org/10.1007/978-3-319-09192-1_4",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

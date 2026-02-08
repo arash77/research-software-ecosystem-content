@@ -40,6 +40,10 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1016/j.tibs.2008.01.001",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ipath",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -47,52 +51,52 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N964c095ddfa34032aaf744bdd2b5df52"
+          "@id": "_:N6be3e6ab9f1142fc84106d7ceb8de0b1"
         },
         {
-          "@id": "_:N82674703eefe4ff793c51ad37bc2b4ae"
+          "@id": "_:Nfb7b20eff35d4c238c67528f34e90ece"
         },
         {
-          "@id": "_:N50df71f3b5b44853aa0ae83956bc124c"
+          "@id": "_:Ncdb2950790dc473f8a1e1db365d5a965"
         },
         {
-          "@id": "_:Ncf1ac9a0d0424d4c8142aaa586348a9c"
+          "@id": "_:N29f7fee3cef14a6486aae38cb668bb22"
         },
         {
-          "@id": "_:N82abc0f8cd4741f2816e361a14809659"
+          "@id": "_:Nd65d642db1b84cb2978a4a88522c22ae"
         },
         {
-          "@id": "_:Nd0ac1adae0cc4a459e6046deae7f94cd"
+          "@id": "_:N684a10034f4340d8af21e57ed0de2215"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nd3061f0d240f4f7ebb42658edafe6d61"
+        "@id": "_:N76c893f57d794039b14601441b7589f5"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3174"
+          "@id": "edam:topic_0622"
         },
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_3174"
         }
       ],
       "sc:citation": [
+        "pubmed:21546551",
+        "pmcid:PMC6031023",
+        "pubmed:18276143",
         {
           "@id": "https://doi.org/10.1093/nar/gkr313"
         },
         "pmcid:PMC3125749",
+        "pubmed:29718427",
         {
           "@id": "https://doi.org/10.1016/j.tibs.2008.01.001"
         },
-        "pubmed:29718427",
         {
           "@id": "https://doi.org/10.1093/nar/gky299"
-        },
-        "pubmed:18276143",
-        "pubmed:21546551",
-        "pmcid:PMC6031023"
+        }
       ],
       "sc:description": "iPath is a web-based tool for the visualization and analysis of cellular pathways. Based on functional annotations (such as KEGG), it provides pathway maps for primary cellular metabolism as well as for some additional secondary metabolite synthesis and regulatory pathways. Users can map their own data onto these pathway maps. Due to its navigation and customization functions, iPATH allows users to easily explore and analyze the functional and metabolic capabilities of their (meta-)genomic data sets.",
       "sc:featureList": [
@@ -107,13 +111,13 @@
       "sc:license": "GPL-3.0",
       "sc:name": "iPATH",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
-        "European Molecular Biology Laboratory (EMBL)",
-        "HD-HuB"
+        "HD-HuB",
+        "European Molecular Biology Laboratory (EMBL)"
       ],
       "sc:softwareHelp": {
         "@id": "http://pathways.embl.de/help.html"
@@ -122,23 +126,7 @@
       "sc:url": "https://pathways.embl.de/"
     },
     {
-      "@id": "_:N964c095ddfa34032aaf744bdd2b5df52",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1011"
-      },
-      "sc:name": "EC number"
-    },
-    {
-      "@id": "_:N82674703eefe4ff793c51ad37bc2b4ae",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2302"
-      },
-      "sc:name": "STRING ID"
-    },
-    {
-      "@id": "_:N50df71f3b5b44853aa0ae83956bc124c",
+      "@id": "_:N6be3e6ab9f1142fc84106d7ceb8de0b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2384"
@@ -146,15 +134,7 @@
       "sc:name": "IPI protein ID"
     },
     {
-      "@id": "_:Ncf1ac9a0d0424d4c8142aaa586348a9c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2343"
-      },
-      "sc:name": "Pathway ID (KEGG)"
-    },
-    {
-      "@id": "_:N82abc0f8cd4741f2816e361a14809659",
+      "@id": "_:Nfb7b20eff35d4c238c67528f34e90ece",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2764"
@@ -162,7 +142,15 @@
       "sc:name": "Protein name (UniProt)"
     },
     {
-      "@id": "_:Nd0ac1adae0cc4a459e6046deae7f94cd",
+      "@id": "_:Ncdb2950790dc473f8a1e1db365d5a965",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1011"
+      },
+      "sc:name": "EC number"
+    },
+    {
+      "@id": "_:N29f7fee3cef14a6486aae38cb668bb22",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1027"
@@ -170,7 +158,23 @@
       "sc:name": "Gene ID (NCBI)"
     },
     {
-      "@id": "_:Nd3061f0d240f4f7ebb42658edafe6d61",
+      "@id": "_:Nd65d642db1b84cb2978a4a88522c22ae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2343"
+      },
+      "sc:name": "Pathway ID (KEGG)"
+    },
+    {
+      "@id": "_:N684a10034f4340d8af21e57ed0de2215",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2302"
+      },
+      "sc:name": "STRING ID"
+    },
+    {
+      "@id": "_:N76c893f57d794039b14601441b7589f5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -179,10 +183,6 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Matrix"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.tibs.2008.01.001",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gky299",

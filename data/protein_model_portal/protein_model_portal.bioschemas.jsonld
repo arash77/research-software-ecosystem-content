@@ -36,12 +36,12 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0003-2715-335X",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1093/database/bat031",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2715-335X",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/protein_model_portal",
@@ -50,14 +50,17 @@
         "@id": "https://orcid.org/0000-0003-2715-335X"
       },
       "bsc:input": {
-        "@id": "_:Na4b8f0ec04544be59121e4b8b2c2aed2"
+        "@id": "_:Ne3e61e756bfc4936a6f7f167d674cbc9"
       },
       "bsc:output": {
-        "@id": "_:Ne4c252ac30e4403e847acb13155fcb95"
+        "@id": "_:N806dd9b361144035a4a046e19cc172fe"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0081"
+        },
         {
           "@id": "edam:topic_0121"
         },
@@ -65,42 +68,39 @@
           "@id": "edam:topic_0736"
         },
         {
-          "@id": "edam:topic_0081"
-        },
-        {
           "@id": "edam:topic_2275"
         }
       ],
       "sc:citation": [
+        "pubmed:23624946",
         "pmcid:PMC3889916",
         {
           "@id": "https://doi.org/10.1093/database/bat031"
-        },
-        "pubmed:23624946"
+        }
       ],
       "sc:contributor": "SIB Swiss Institute of Bioinformatics",
       "sc:description": "Developed to foster effective usage of molecular models in biomedical research by providing convenient and comprehensive access to structural information for a protein - both experimental structures and theoretical models. Protein Model Portal is a component of the Nature PSI Structural Biology Knowledgebase.\n\nPMP has reached its end of life and no longer provides data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2414"
-        },
-        {
           "@id": "edam:operation_3431"
         },
         {
           "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_2414"
         }
       ],
       "sc:name": "Protein Model Portal",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:url": "https://www.proteinmodelportal.org"
     },
     {
-      "@id": "_:Ne4c252ac30e4403e847acb13155fcb95",
+      "@id": "_:N806dd9b361144035a4a046e19cc172fe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -111,7 +111,7 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:Na4b8f0ec04544be59121e4b8b2c2aed2",
+      "@id": "_:Ne3e61e756bfc4936a6f7f167d674cbc9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"

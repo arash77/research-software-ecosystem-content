@@ -48,15 +48,15 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Wim Vranken",
       "bsc:input": {
-        "@id": "_:Nf90fb192fdbc4e03a631925f142e10e8"
+        "@id": "_:N12acf12523184dd0af94df8298e58c74"
       },
       "bsc:output": {
-        "@id": "_:Ne517746015cc4fad986b6a7e2c21454d"
+        "@id": "_:Ne642cd39ff694e8db459e721a4e7e441"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Web API"
+        "Web API",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
         {
@@ -71,14 +71,14 @@
       ],
       "sc:citation": [
         "pmcid:PMC4086073",
-        "pubmed:24728994",
-        "pubmed:24225580",
+        {
+          "@id": "https://doi.org/10.1093/nar/gku270"
+        },
         {
           "@id": "https://doi.org/10.1038/ncomms3741"
         },
-        {
-          "@id": "https://doi.org/10.1093/nar/gku270"
-        }
+        "pubmed:24728994",
+        "pubmed:24225580"
       ],
       "sc:description": "Protein backbone dynamics prediction from sequence.",
       "sc:featureList": {
@@ -98,7 +98,7 @@
       "sc:url": "http://dynamine.ibsquare.be/"
     },
     {
-      "@id": "_:Nf90fb192fdbc4e03a631925f142e10e8",
+      "@id": "_:N12acf12523184dd0af94df8298e58c74",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -109,7 +109,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:Ne517746015cc4fad986b6a7e2c21454d",
+      "@id": "_:Ne642cd39ff694e8db459e721a4e7e441",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

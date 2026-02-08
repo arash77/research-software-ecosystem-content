@@ -49,7 +49,7 @@
           "@id": "edam:topic_2885"
         },
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_0160"
         },
         {
           "@id": "edam:topic_0625"
@@ -58,7 +58,7 @@
           "@id": "edam:topic_3512"
         },
         {
-          "@id": "edam:topic_0160"
+          "@id": "edam:topic_3168"
         }
       ],
       "sc:citation": [
@@ -71,6 +71,9 @@
       "sc:description": "A progressive and haplotype-aware SNP caller on low-coverage nanopore sequencing data.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_3196"
+        },
+        {
           "@id": "edam:operation_3185"
         },
         {
@@ -78,17 +81,14 @@
         },
         {
           "@id": "edam:operation_0484"
-        },
-        {
-          "@id": "edam:operation_3196"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "MIT",
       "sc:name": "NanoSNP",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:url": "https://github.com/huangnengCSU/NanoSNP.git"

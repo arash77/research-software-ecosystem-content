@@ -41,40 +41,40 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nb5ba9b7f79e4479dab11782db843b587"
+          "@id": "_:Ndee2b06c3bda47b196a753bc791aa3b5"
         },
         {
-          "@id": "_:N05c41d03c9434547bf593ee99320e6c7"
+          "@id": "_:N519c75ffa5ef4d578fe45907cf4bd270"
         },
         {
-          "@id": "_:Nd8e287f7b6f944dea5586fb81e19834d"
+          "@id": "_:N50212e8709934b24be14f24c6fc5a8b6"
         },
         {
-          "@id": "_:N235161454fee4ecdb292fa6782f28be9"
+          "@id": "_:Na25ffd9388d8427cb5388228b23f531f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1d63a5b4f6b3488eadecc8ddadeb6f44"
+          "@id": "_:N4cbccf85673c41fabe441550b8bd57e4"
         },
         {
-          "@id": "_:N5c2e8247bd8848a9b91e7a0ceaf3f487"
+          "@id": "_:N5716803763f74e439942dca7b147c46e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
-        },
-        {
-          "@id": "edam:topic_0078"
-        },
-        {
           "@id": "edam:topic_3053"
         },
         {
           "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0078"
         }
       ],
       "sc:citation": [
@@ -88,17 +88,17 @@
       "sc:description": "Convert a GenBank, EMBL or UniProt file into a GFF file.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_0335"
         },
         {
-          "@id": "edam:operation_0335"
+          "@id": "edam:operation_2422"
         }
       ],
       "sc:name": "genbank2gff3",
       "sc:operatingSystem": [
+        "Linux",
         "Mac",
-        "Windows",
-        "Linux"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Fodoppelt%2Fgenbankconverters%2Fgenbank2GFF3%2F0.0.3"
@@ -107,7 +107,7 @@
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/odoppelt/genbankconverters/genbank2GFF3/0.0.3"
     },
     {
-      "@id": "_:N1d63a5b4f6b3488eadecc8ddadeb6f44",
+      "@id": "_:Ndee2b06c3bda47b196a753bc791aa3b5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -118,29 +118,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N5c2e8247bd8848a9b91e7a0ceaf3f487",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1975"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nb5ba9b7f79e4479dab11782db843b587",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N05c41d03c9434547bf593ee99320e6c7",
+      "@id": "_:N519c75ffa5ef4d578fe45907cf4bd270",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -151,7 +129,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd8e287f7b6f944dea5586fb81e19834d",
+      "@id": "_:N50212e8709934b24be14f24c6fc5a8b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -162,13 +140,35 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N235161454fee4ecdb292fa6782f28be9",
+      "@id": "_:Na25ffd9388d8427cb5388228b23f531f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N4cbccf85673c41fabe441550b8bd57e4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5716803763f74e439942dca7b147c46e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
       },
       "sc:name": "Data"
     },

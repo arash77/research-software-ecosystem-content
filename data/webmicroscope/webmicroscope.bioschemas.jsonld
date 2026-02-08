@@ -36,49 +36,45 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1746-1596-6-s1-s13",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/webmicroscope",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Johan Lundin",
       "bsc:input": [
         {
-          "@id": "_:Nc01f96ea006148928c647915df960c8c"
+          "@id": "_:Ne7bc30d9aa0a4d069122bab2e7e1e0cf"
         },
         {
-          "@id": "_:Nfe1c8c6340ef4615bd9a7232a624ed8b"
+          "@id": "_:Nedbc8298e30447688cf2b4ae9aa201f6"
         }
       ],
       "bsc:output": {
-        "@id": "_:N64311fb65f954c1b956c3f361142b4b1"
+        "@id": "_:N07401724c5234e6fa5a3e43534bbde0e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_3382"
         },
         {
-          "@id": "edam:topic_3382"
+          "@id": "edam:topic_0092"
         }
       ],
       "sc:author": "Mikael Lundin",
       "sc:citation": [
+        "pubmed:21489183",
         {
           "@id": "https://doi.org/10.1186/1746-1596-6-s1-s13"
         },
-        "pubmed:21489183",
         "pmcid:PMC3073206"
       ],
       "sc:description": "Platform for virtual microscopy.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3553"
+          "@id": "edam:operation_3552"
         },
         {
-          "@id": "edam:operation_3552"
+          "@id": "edam:operation_3553"
         },
         {
           "@id": "edam:operation_3443"
@@ -86,9 +82,9 @@
       ],
       "sc:name": "WebMicroscope",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "FIMM",
       "sc:softwareHelp": {
@@ -98,15 +94,18 @@
       "sc:url": "http://biomedbridges.webmicroscope.net"
     },
     {
-      "@id": "_:N64311fb65f954c1b956c3f361142b4b1",
+      "@id": "_:Ne7bc30d9aa0a4d069122bab2e7e1e0cf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3591"
+      },
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nc01f96ea006148928c647915df960c8c",
+      "@id": "_:Nedbc8298e30447688cf2b4ae9aa201f6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3546"
@@ -117,15 +116,16 @@
       "sc:name": "Image metadata"
     },
     {
-      "@id": "_:Nfe1c8c6340ef4615bd9a7232a624ed8b",
+      "@id": "_:N07401724c5234e6fa5a3e43534bbde0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3591"
-      },
       "sc:name": "Image"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1746-1596-6-s1-s13",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

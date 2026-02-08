@@ -53,21 +53,21 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N783acf5da4f74ab7baf8c826918ae910"
+          "@id": "_:N31efb373f2c244d6b6405d12f40c4f1d"
         },
         {
-          "@id": "_:N2cb84c27dd18442e9d469ad41b809560"
+          "@id": "_:N7546495c5eb54faa8ccf9c1e98a579c5"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1aa3690e49924069b953642fc43426b4"
+          "@id": "_:N343f2ebd5817436cb56e0c531b5a82c8"
         },
         {
-          "@id": "_:Nb47b509917e84bbcb76ad9f276eb2d0f"
+          "@id": "_:N3e53a54ddd3d479881f3ffb92522cc26"
         },
         {
-          "@id": "_:Nba71d8f5e6eb4372a7e4c260a3274d2a"
+          "@id": "_:N281ebb6237894c67910fa7bbf2d85b28"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -76,19 +76,19 @@
         "@id": "edam:topic_3168"
       },
       "sc:citation": [
-        "pubmed:27137889",
-        "pmcid:PMC2464588",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
+        "pmcid:PMC2464588",
+        "pubmed:27137889",
+        "pmcid:PMC4987906",
+        "pubmed:18577231",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
         {
           "@id": "https://doi.org/10.1186/1748-7188-3-7"
-        },
-        "pmcid:PMC4987906",
-        "pubmed:18577231"
+        }
       ],
       "sc:description": "Cleaning aligned sequences.",
       "sc:featureList": {
@@ -107,7 +107,7 @@
       "sc:url": "http://www.bioinf.uni-leipzig.de/Software/noisy/"
     },
     {
-      "@id": "_:N1aa3690e49924069b953642fc43426b4",
+      "@id": "_:N31efb373f2c244d6b6405d12f40c4f1d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -118,7 +118,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nb47b509917e84bbcb76ad9f276eb2d0f",
+      "@id": "_:N7546495c5eb54faa8ccf9c1e98a579c5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -129,7 +129,29 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nba71d8f5e6eb4372a7e4c260a3274d2a",
+      "@id": "_:N343f2ebd5817436cb56e0c531b5a82c8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N3e53a54ddd3d479881f3ffb92522cc26",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N281ebb6237894c67910fa7bbf2d85b28",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -138,28 +160,6 @@
         "@id": "edam:format_3466"
       },
       "sc:name": "Data"
-    },
-    {
-      "@id": "_:N783acf5da4f74ab7baf8c826918ae910",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N2cb84c27dd18442e9d469ad41b809560",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0863"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence alignment"
     }
   ]
 }

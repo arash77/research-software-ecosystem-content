@@ -44,17 +44,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "BioConductor Package Maintainer",
       "bsc:input": {
-        "@id": "_:Ne945e25cb78045bb8d9407096afc3b69"
+        "@id": "_:Nb319c59eb1d8456c95e6288a65f8d0cc"
       },
       "bsc:output": [
         {
-          "@id": "_:N3bcd23d3847942b69a47ec90b7896a41"
+          "@id": "_:N3bf69ca990a542ac883b0ee6ea6f294b"
         },
         {
-          "@id": "_:N5894b72538ce402a8c1193940fd360f9"
+          "@id": "_:N09a628e379914efcb5373397a850c35d"
         },
         {
-          "@id": "_:N3f3d37b798e04ab49e94748ad1aca169"
+          "@id": "_:Nb948b9df1a904ea8bc8c8a7ee1eeb914"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -64,37 +64,37 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_0092"
         }
       ],
       "sc:citation": [
         "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
-        },
-        "pmcid:PMC4509590"
+        }
       ],
       "sc:description": "A package that implements some simple graph handling capabilities.",
       "sc:featureList": [
+        {
+          "@id": "edam:operation_2497"
+        },
         {
           "@id": "edam:operation_2422"
         },
         {
           "@id": "edam:operation_3282"
-        },
-        {
-          "@id": "edam:operation_2497"
         }
       ],
       "sc:license": "Artistic-2.0",
       "sc:name": "graph",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/graph.html"
@@ -103,7 +103,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/graph.html"
     },
     {
-      "@id": "_:N3bcd23d3847942b69a47ec90b7896a41",
+      "@id": "_:N3bf69ca990a542ac883b0ee6ea6f294b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -125,51 +125,51 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N5894b72538ce402a8c1193940fd360f9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        },
-        {
-          "@id": "edam:format_2332"
-        },
-        {
-          "@id": "edam:format_3156"
-        }
-      ],
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:N3f3d37b798e04ab49e94748ad1aca169",
+      "@id": "_:N09a628e379914efcb5373397a850c35d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
       },
       "sc:encodingFormat": [
         {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_3156"
+        }
+      ],
+      "sc:name": "Pathway or network report"
+    },
+    {
+      "@id": "_:Nb948b9df1a904ea8bc8c8a7ee1eeb914",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": [
+        {
           "@id": "edam:format_2332"
         },
         {
           "@id": "edam:format_3156"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
-      "sc:name": "Pathway or network report"
+      "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Ne945e25cb78045bb8d9407096afc3b69",
+      "@id": "_:Nb319c59eb1d8456c95e6288a65f8d0cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

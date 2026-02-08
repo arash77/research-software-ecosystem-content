@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2105-3-25",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/svmhc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb3296a3f030940e2a2ef40f92c5f7b41"
+        "@id": "_:N356c88766e4043349712bfba1f739e15"
       },
       "bsc:output": {
-        "@id": "_:N0ce8cbdefbbe4e81ac0fa35a84423cdd"
+        "@id": "_:Ncbe2d8313b8843aca8f068f21756cdbb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -54,11 +50,11 @@
         "@id": "edam:topic_0080"
       },
       "sc:citation": [
+        "pubmed:12225620",
         {
           "@id": "https://doi.org/10.1186/1471-2105-3-25"
         },
-        "pmcid:PMC129981",
-        "pubmed:12225620"
+        "pmcid:PMC129981"
       ],
       "sc:description": "Prediction of MHC class I binding peptides.",
       "sc:featureList": {
@@ -70,7 +66,7 @@
       "sc:url": "http://www.sbc.su.se/%7Epierre/svmhc/"
     },
     {
-      "@id": "_:N0ce8cbdefbbe4e81ac0fa35a84423cdd",
+      "@id": "_:Ncbe2d8313b8843aca8f068f21756cdbb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -78,12 +74,16 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:Nb3296a3f030940e2a2ef40f92c5f7b41",
+      "@id": "_:N356c88766e4043349712bfba1f739e15",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-3-25",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

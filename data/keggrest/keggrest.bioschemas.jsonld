@@ -36,33 +36,29 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1007/s11845-015-1283-8",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/keggrest",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "BioConductor Package Maintainer",
       "bsc:input": [
         {
-          "@id": "_:N58e0b876d761434d8cc7196d7b151be9"
+          "@id": "_:Nb3ebb4a2864242efaf46294c38d954a8"
         },
         {
-          "@id": "_:N5c557ef343f04bdba69ce503ba00b31e"
+          "@id": "_:N30dde7e6aee04b38a8c356eac62440ba"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2bf1cd18ee8d4772bf58acf552b33017"
+          "@id": "_:Ndd76210d02ce4e50a797e859923abcd9"
         },
         {
-          "@id": "_:N4e5b9b0d790e4f578f22cfbc703c5b2c"
+          "@id": "_:N4d10a06d23b4419a95aefacc6fe6f23d"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0091"
@@ -85,9 +81,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "KEGGREST",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/KEGGREST.html"
@@ -96,7 +92,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/KEGGREST.html"
     },
     {
-      "@id": "_:N58e0b876d761434d8cc7196d7b151be9",
+      "@id": "_:Nb3ebb4a2864242efaf46294c38d954a8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -107,7 +103,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N5c557ef343f04bdba69ce503ba00b31e",
+      "@id": "_:N30dde7e6aee04b38a8c356eac62440ba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -118,36 +114,40 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N2bf1cd18ee8d4772bf58acf552b33017",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2080"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Database search results"
-    },
-    {
-      "@id": "_:N4e5b9b0d790e4f578f22cfbc703c5b2c",
+      "@id": "_:Ndd76210d02ce4e50a797e859923abcd9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Image"
+    },
+    {
+      "@id": "_:N4d10a06d23b4419a95aefacc6fe6f23d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s11845-015-1283-8",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

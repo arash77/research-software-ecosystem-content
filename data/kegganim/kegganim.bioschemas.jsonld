@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Priit Adler",
       "bsc:input": {
-        "@id": "_:N45ae370d5a57408b879197c0c5f68fc4"
+        "@id": "_:N29342acb07b54a908d15fa82500ea4ed"
       },
       "bsc:output": {
-        "@id": "_:Nf3b7ee20d05345d69a05d6d2818efbc7"
+        "@id": "_:Nc08a5b7f71cd4715b61541047457cc1d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -56,10 +56,10 @@
           "@id": "edam:topic_0092"
         },
         {
-          "@id": "edam:topic_0089"
+          "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_0089"
         },
         {
           "@id": "edam:topic_2259"
@@ -71,13 +71,13 @@
       "sc:description": "Web-based tool for visualizing experimental data in the context of biological pathways. It produces animations or static images of KEGG pathways by overlaying public or user uploaded high-thourghput data over handdrawn KEGG pathway maps.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3695"
+          "@id": "edam:operation_3731"
         },
         {
           "@id": "edam:operation_3083"
         },
         {
-          "@id": "edam:operation_3731"
+          "@id": "edam:operation_3695"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -96,17 +96,17 @@
       "sc:url": "http://biit.cs.ut.ee/kegganim"
     },
     {
-      "@id": "_:N45ae370d5a57408b879197c0c5f68fc4",
+      "@id": "_:N29342acb07b54a908d15fa82500ea4ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3326"
+          "@id": "edam:format_3780"
         },
         {
-          "@id": "edam:format_3780"
+          "@id": "edam:format_3326"
         },
         {
           "@id": "edam:format_3167"
@@ -115,7 +115,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:Nf3b7ee20d05345d69a05d6d2818efbc7",
+      "@id": "_:Nc08a5b7f71cd4715b61541047457cc1d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

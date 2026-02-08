@@ -36,22 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/s41598-018-32079-w",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkz403",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/DaReUS-Loop",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Pierre Tufféry",
-        "Sjoerd de Vries"
+        "Sjoerd de Vries",
+        "Pierre Tufféry"
       ],
       "bsc:input": [
         {
-          "@id": "_:Nafda61153d39460caf3ba2e2657719c2"
+          "@id": "_:N36b382038d04438bb1723e3f6f32fb7b"
         },
         {
-          "@id": "_:Nae7ff64038d0414a8542a9e65107a5cf"
+          "@id": "_:N47942aa3a1f94cb1b2d484cef6b0884d"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nc3be60abdc524839af19b86541284448"
+        "@id": "_:N740aef9bf2e549cfbe879dff8550a03e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -64,16 +72,16 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC6602439",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkz403"
-        },
-        "pubmed:31114872",
         "pubmed:30209260",
+        "pmcid:PMC6135855",
+        "pubmed:31114872",
         {
           "@id": "https://doi.org/10.1038/s41598-018-32079-w"
         },
-        "pmcid:PMC6135855"
+        "pmcid:PMC6602439",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkz403"
+        }
       ],
       "sc:description": "Web server for the (re-)modeling of loops in homology models. It follows a data-based approach, identifying loop candidates by mining the complete set of experimental structures available in the Protein Data Bank.",
       "sc:featureList": {
@@ -89,7 +97,7 @@
       "sc:url": "https://mobyle.rpbs.univ-paris-diderot.fr/cgi-bin/portal.py#forms::DaReUS-Loop"
     },
     {
-      "@id": "_:Nafda61153d39460caf3ba2e2657719c2",
+      "@id": "_:N36b382038d04438bb1723e3f6f32fb7b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -100,7 +108,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nae7ff64038d0414a8542a9e65107a5cf",
+      "@id": "_:N47942aa3a1f94cb1b2d484cef6b0884d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -111,7 +119,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nc3be60abdc524839af19b86541284448",
+      "@id": "_:N740aef9bf2e549cfbe879dff8550a03e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -120,14 +128,6 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Protein structure"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkz403",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41598-018-32079-w",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

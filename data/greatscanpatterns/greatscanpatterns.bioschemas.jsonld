@@ -36,29 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkw384",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/greatscanpatterns",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "MEGA team",
       "bsc:input": [
         {
-          "@id": "_:N33b709e9242340dc9962db5ce2e89ebe"
+          "@id": "_:N950a39ff585643f08fbd9b1944659bdd"
         },
         {
-          "@id": "_:Nbfddd68e917c473eb5a154a2df07ca8e"
+          "@id": "_:N5909cea4905d44319af4b9d817f42566"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N744ebb4741d14461be0ff9bf07cf8b06"
+          "@id": "_:N17bac5bb660b46c1b7b98730745e2980"
         },
         {
-          "@id": "_:Naef2e5d4259b4fb8925cc65b90f6f464"
+          "@id": "_:N910b47d9fbde40dc83ef8b211af0d4f9"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Web application"
+        "Web application",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
@@ -70,10 +74,10 @@
       ],
       "sc:citation": [
         "pmcid:PMC4987929",
-        "pubmed:27151196",
         {
           "@id": "https://doi.org/10.1093/nar/gkw384"
-        }
+        },
+        "pubmed:27151196"
       ],
       "sc:contributor": "François Bucchini",
       "sc:description": "Performs an automated and systematic analysis of periodic patterns in the position of a set of genomic features of interest along the genome. A complete analysis runs: detection of all possible periods from the positions of the genomic features, clustering of genomic features that are “in-phase” for every significant period found, and mapping of all the regions of the genome showing periodicities. Each step generates rich and interactive visualisations as well as machine-readable files.",
@@ -83,9 +87,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "GREAT:SCAN:patterns",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": [
         "issb.genopole.fr",
@@ -98,26 +102,7 @@
       "sc:url": "http://great-portal.org/patterns/"
     },
     {
-      "@id": "_:N744ebb4741d14461be0ff9bf07cf8b06",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Naef2e5d4259b4fb8925cc65b90f6f464",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Score"
-    },
-    {
-      "@id": "_:N33b709e9242340dc9962db5ce2e89ebe",
+      "@id": "_:N950a39ff585643f08fbd9b1944659bdd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1016"
@@ -128,7 +113,7 @@
       "sc:name": "Sequence position"
     },
     {
-      "@id": "_:Nbfddd68e917c473eb5a154a2df07ca8e",
+      "@id": "_:N5909cea4905d44319af4b9d817f42566",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1893"
@@ -139,8 +124,23 @@
       "sc:name": "Locus ID"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw384",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N17bac5bb660b46c1b7b98730745e2980",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N910b47d9fbde40dc83ef8b211af0d4f9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
     }
   ]
 }

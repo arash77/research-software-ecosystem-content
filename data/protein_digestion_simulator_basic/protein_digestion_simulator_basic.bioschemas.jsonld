@@ -39,25 +39,25 @@
       "@id": "https://bio.tools/protein_digestion_simulator_basic",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N361660953bd046c09f79dc5c5682608d"
+        "@id": "_:N2f086a3cb6da4533a14ff0b190603c7f"
       },
       "bsc:output": {
-        "@id": "_:N133a71d0669c49869e6661fe50d3a479"
+        "@id": "_:N8ebb123594f64ad2a4f315d3203eca17"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0123"
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
         },
         {
           "@id": "edam:topic_0137"
         },
         {
-          "@id": "edam:topic_0121"
-        },
-        {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0123"
         }
       ],
       "sc:description": "Calculates theoretical enzymatic peptides and AMTs.",
@@ -73,7 +73,7 @@
       "sc:url": "http://omics.pnl.gov/software/protein-digestion-simulator"
     },
     {
-      "@id": "_:N133a71d0669c49869e6661fe50d3a479",
+      "@id": "_:N8ebb123594f64ad2a4f315d3203eca17",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1238"
@@ -84,7 +84,7 @@
       "sc:name": "Proteolytic digest"
     },
     {
-      "@id": "_:N361660953bd046c09f79dc5c5682608d",
+      "@id": "_:N2f086a3cb6da4533a14ff0b190603c7f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"

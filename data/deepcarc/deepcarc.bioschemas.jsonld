@@ -42,12 +42,6 @@
       "sc:additionalType": "Workbench",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0154"
-        },
-        {
-          "@id": "edam:topic_3373"
-        },
-        {
           "@id": "edam:topic_3314"
         },
         {
@@ -55,6 +49,12 @@
         },
         {
           "@id": "edam:topic_2840"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3373"
         }
       ],
       "sc:citation": [
@@ -70,17 +70,17 @@
           "@id": "edam:operation_3938"
         },
         {
-          "@id": "edam:operation_3799"
+          "@id": "edam:operation_3935"
         },
         {
-          "@id": "edam:operation_3935"
+          "@id": "edam:operation_3799"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "DeepCarc",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:url": "https://github.com/TingLi2016/DeepCarc"

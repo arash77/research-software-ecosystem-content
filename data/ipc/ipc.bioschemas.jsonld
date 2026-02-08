@@ -40,20 +40,16 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "http://orcid.org/0000-0001-8187-1980",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/ipc",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0001-8187-1980"
       },
       "bsc:input": {
-        "@id": "_:N1cb37dfaee4e41b79af4f1922e2e0b81"
+        "@id": "_:Nf1d1571b3f1c4f7480d0c08a2cfcbab0"
       },
       "bsc:output": {
-        "@id": "_:Na09bd7d7bd254011b3c1a29c86ab714b"
+        "@id": "_:N1f93c24e93044e36af1cbb96afdbc070"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -62,19 +58,19 @@
       ],
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0123"
+        },
+        {
+          "@id": "edam:topic_3047"
+        },
+        {
           "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_3520"
         },
         {
-          "@id": "edam:topic_3047"
-        },
-        {
           "@id": "edam:topic_3292"
-        },
-        {
-          "@id": "edam:topic_0123"
         }
       ],
       "sc:citation": [
@@ -103,7 +99,7 @@
       "sc:url": "http://isoelectric.org"
     },
     {
-      "@id": "_:Na09bd7d7bd254011b3c1a29c86ab714b",
+      "@id": "_:N1f93c24e93044e36af1cbb96afdbc070",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1528"
@@ -114,12 +110,16 @@
       "sc:name": "Protein isoelectric point"
     },
     {
-      "@id": "_:N1cb37dfaee4e41b79af4f1922e2e0b81",
+      "@id": "_:Nf1d1571b3f1c4f7480d0c08a2cfcbab0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8187-1980",
+      "@type": "sc:Person"
     }
   ]
 }

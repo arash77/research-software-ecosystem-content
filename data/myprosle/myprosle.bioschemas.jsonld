@@ -39,66 +39,58 @@
       "@id": "https://bio.tools/myprosle",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne99b26d5b7724419a0f327b9948793f3"
+        "@id": "_:Nffd3d41d1ccb4b22ba5e195e68f78f12"
       },
       "bsc:output": [
         {
-          "@id": "_:Necb56f258ae8473787158840191e6750"
+          "@id": "_:N373c14e0b9b34ce0b7bd53fe9f5f953f"
         },
         {
-          "@id": "_:N6a97da44468b4fb096ceb475bace3d60"
+          "@id": "_:N80f6edadf36b4d6c80e3c4df5b8920a5"
         },
         {
-          "@id": "_:Nb3f74aa0aff44e6aa208ad249b3b7440"
+          "@id": "_:N46d1c46898c24315bd9f363df8591927"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_3308"
+        },
+        {
           "@id": "edam:topic_0804"
         },
         {
           "@id": "edam:topic_3379"
-        },
-        {
-          "@id": "edam:topic_3308"
         }
       ],
       "sc:description": "MyPROSLE was developed with the aim of bringing molecular information from patients to clinical practice. For this, we have created a new methodology to summarize the transcriptome of individual patients in a series of biological functions or gene-modules, which were later used to predict up to a total of 111 different clinical outcomes, including clinical manifestations, laboratory measurements, cytokine levels, autoantibodies, cell percentages, nearby disease flares and response to drugs.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3929"
-        },
-        {
           "@id": "edam:operation_2495"
         },
         {
-          "@id": "edam:operation_2437"
+          "@id": "edam:operation_3928"
         },
         {
-          "@id": "edam:operation_3928"
+          "@id": "edam:operation_3929"
+        },
+        {
+          "@id": "edam:operation_2437"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "MyPROSLE",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:url": "https://myprosle.genyo.es/"
     },
     {
-      "@id": "_:Necb56f258ae8473787158840191e6750",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N6a97da44468b4fb096ceb475bace3d60",
+      "@id": "_:N373c14e0b9b34ce0b7bd53fe9f5f953f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -106,7 +98,15 @@
       "sc:name": "Score"
     },
     {
-      "@id": "_:Nb3f74aa0aff44e6aa208ad249b3b7440",
+      "@id": "_:N80f6edadf36b4d6c80e3c4df5b8920a5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N46d1c46898c24315bd9f363df8591927",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -114,7 +114,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:Ne99b26d5b7724419a0f327b9948793f3",
+      "@id": "_:Nffd3d41d1ccb4b22ba5e195e68f78f12",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"

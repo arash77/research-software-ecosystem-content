@@ -55,27 +55,27 @@
         }
       ],
       "sc:contributor": [
-        "UK BBSRC",
-        "Wellcome Trust",
         "EMBOSS Contributors",
-        "UK MRC"
+        "UK BBSRC",
+        "UK MRC",
+        "Wellcome Trust"
       ],
       "sc:description": "Validate an application ACD file.",
       "sc:featureList": {
         "@id": "edam:operation_0336"
       },
       "sc:funder": [
-        "UK MRC",
+        "Wellcome Trust",
         "UK BBSRC",
-        "Wellcome Trust"
+        "UK MRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "acdvalid",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
         "EMBOSS",
@@ -96,15 +96,15 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/acdvalid.html"
     },
     {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
       "@type": "sc:CreativeWork"
     }
   ]

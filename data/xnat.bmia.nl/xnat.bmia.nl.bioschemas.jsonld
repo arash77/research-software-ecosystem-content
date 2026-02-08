@@ -41,18 +41,18 @@
       "biotools:primaryContact": "Stefan Klein",
       "bsc:input": [
         {
-          "@id": "_:N01fc8ee588914a79a5905bc5df37975d"
+          "@id": "_:N4deaeb7378254ea495b2f68840ca4809"
         },
         {
-          "@id": "_:N2e6a972863c642a8ad715701766cc782"
+          "@id": "_:N842d11ef15d14b40a9e32358373dad48"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N803a857ba600423988f73a2255cffdba"
+          "@id": "_:N0ea0ff1bb1904480a2d8cd0707c9b576"
         },
         {
-          "@id": "_:Nf07c2fd8d0b44869bc6e506c4fc51361"
+          "@id": "_:N31a11414dc0f453cb513ad6982347cfc"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -71,9 +71,9 @@
       ],
       "sc:name": "Health-RI XNAT",
       "sc:operatingSystem": [
-        "Mac",
+        "Linux",
         "Windows",
-        "Linux"
+        "Mac"
       ],
       "sc:provider": "Health-RI",
       "sc:softwareHelp": {
@@ -83,17 +83,17 @@
       "sc:url": "https://xnat.health-ri.nl"
     },
     {
-      "@id": "_:N01fc8ee588914a79a5905bc5df37975d",
+      "@id": "_:N4deaeb7378254ea495b2f68840ca4809",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3546"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3468"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3551"
         },
         {
           "@id": "edam:format_3548"
@@ -102,16 +102,16 @@
           "@id": "edam:format_3550"
         },
         {
-          "@id": "edam:format_3549"
+          "@id": "edam:format_3468"
         },
         {
-          "@id": "edam:format_3551"
+          "@id": "edam:format_3549"
         }
       ],
       "sc:name": "Image metadata"
     },
     {
-      "@id": "_:N2e6a972863c642a8ad715701766cc782",
+      "@id": "_:N842d11ef15d14b40a9e32358373dad48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -121,63 +121,38 @@
           "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_3550"
+          "@id": "edam:format_3551"
         },
         {
           "@id": "edam:format_3548"
         },
         {
-          "@id": "edam:format_3549"
-        },
-        {
-          "@id": "edam:format_3551"
+          "@id": "edam:format_3550"
         },
         {
           "@id": "edam:format_3468"
+        },
+        {
+          "@id": "edam:format_3549"
         }
       ],
       "sc:name": "Image"
     },
     {
-      "@id": "_:N803a857ba600423988f73a2255cffdba",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3546"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3468"
-        },
-        {
-          "@id": "edam:format_3548"
-        },
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3550"
-        },
-        {
-          "@id": "edam:format_3549"
-        },
-        {
-          "@id": "edam:format_3551"
-        }
-      ],
-      "sc:name": "Image metadata"
-    },
-    {
-      "@id": "_:Nf07c2fd8d0b44869bc6e506c4fc51361",
+      "@id": "_:N0ea0ff1bb1904480a2d8cd0707c9b576",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3468"
+          "@id": "edam:format_3549"
         },
         {
           "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3551"
         },
         {
           "@id": "edam:format_3548"
@@ -186,13 +161,38 @@
           "@id": "edam:format_3550"
         },
         {
-          "@id": "edam:format_3549"
-        },
-        {
-          "@id": "edam:format_3551"
+          "@id": "edam:format_3468"
         }
       ],
       "sc:name": "Image"
+    },
+    {
+      "@id": "_:N31a11414dc0f453cb513ad6982347cfc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3546"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3551"
+        },
+        {
+          "@id": "edam:format_3548"
+        },
+        {
+          "@id": "edam:format_3550"
+        },
+        {
+          "@id": "edam:format_3468"
+        },
+        {
+          "@id": "edam:format_3549"
+        }
+      ],
+      "sc:name": "Image metadata"
     }
   ]
 }

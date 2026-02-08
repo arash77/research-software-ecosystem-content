@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/dig2",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nfa57b80cd29d4a5ebd6fc24b57e13779"
+        "@id": "_:Nfb30364bb2be4706a47cee993360c22a"
       },
       "bsc:output": {
-        "@id": "_:N034d689cf45e424ea7b632417d4497aa"
+        "@id": "_:N0e5eab07e98840749ad494962fd2c244"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -65,18 +65,7 @@
       "sc:url": "http://www.ms-utils.org/dig2/dig2.html"
     },
     {
-      "@id": "_:N034d689cf45e424ea7b632417d4497aa",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1238"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Proteolytic digest"
-    },
-    {
-      "@id": "_:Nfa57b80cd29d4a5ebd6fc24b57e13779",
+      "@id": "_:Nfb30364bb2be4706a47cee993360c22a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1193"
@@ -85,6 +74,17 @@
         "@id": "edam:format_1332"
       },
       "sc:name": "Tool name (FASTA)"
+    },
+    {
+      "@id": "_:N0e5eab07e98840749ad494962fd2c244",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1238"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Proteolytic digest"
     }
   ]
 }

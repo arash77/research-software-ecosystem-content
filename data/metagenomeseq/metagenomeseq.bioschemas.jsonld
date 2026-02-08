@@ -36,29 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nmeth.2658",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/metagenomeseq",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Joseph N. Paulson",
       "bsc:input": [
         {
-          "@id": "_:Nbc64d7c785534ce290c69e977d976f37"
+          "@id": "_:Nc7d44bf83c4640428fc831c36b1b305a"
         },
         {
-          "@id": "_:Nabfd2cb9502d4dd9870766681c72fba9"
+          "@id": "_:N331c96f0b6c94d73a3afc08f67dd781b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N01cecc093fb9422bafff516b8c185bc6"
+          "@id": "_:N045d2bee4d0f413c84b2a7b908a3ec94"
         },
         {
-          "@id": "_:Na031f738149b42f4b21c07786b1b59eb"
+          "@id": "_:Nadec5e87e7f946849a4978832be114d9"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
@@ -69,11 +73,11 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC4010126",
-        "pubmed:24076764",
         {
           "@id": "https://doi.org/10.1038/nmeth.2658"
-        }
+        },
+        "pmcid:PMC4010126",
+        "pubmed:24076764"
       ],
       "sc:description": "Designed to determine features (be it Operational Taxanomic Unit (OTU), species, etc.) that are differentially abundant between two or more groups of multiple samples. It is designed to address the effects of both normalization and under-sampling of microbial communities on disease association detection and the testing of feature correlations.",
       "sc:featureList": [
@@ -87,9 +91,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "metagenomeSeq",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/metagenomeSeq.html"
@@ -98,23 +102,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/metagenomeSeq.html"
     },
     {
-      "@id": "_:Nbc64d7c785534ce290c69e977d976f37",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3028"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3746"
-        },
-        {
-          "@id": "edam:format_3752"
-        }
-      ],
-      "sc:name": "Taxonomy"
-    },
-    {
-      "@id": "_:Nabfd2cb9502d4dd9870766681c72fba9",
+      "@id": "_:Nc7d44bf83c4640428fc831c36b1b305a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -130,40 +118,52 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N01cecc093fb9422bafff516b8c185bc6",
+      "@id": "_:N331c96f0b6c94d73a3afc08f67dd781b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3746"
+        }
+      ],
+      "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "_:N045d2bee4d0f413c84b2a7b908a3ec94",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Na031f738149b42f4b21c07786b1b59eb",
+      "@id": "_:Nadec5e87e7f946849a4978832be114d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "P-value"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nmeth.2658",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

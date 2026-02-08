@@ -36,46 +36,54 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/gb-2012-13-4-r29",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0003-4942-8131",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/reder",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0003-4942-8131"
       },
       "bsc:input": {
-        "@id": "_:N59939f4b874245ccb214e67c6db725e5"
+        "@id": "_:N336556f4252b490fb8162a1a5642482a"
       },
       "bsc:output": {
-        "@id": "_:Nc7e3366d1c65430f8b6e62626542fc75"
+        "@id": "_:Nab1914a2dc7a4a419422153770364a0f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0092"
       },
       "sc:citation": [
-        "pubmed:22531049",
         {
           "@id": "https://doi.org/10.1186/gb-2012-13-4-r29"
         },
+        "pubmed:22531049",
         "pmcid:PMC3446303"
       ],
       "sc:description": "R-based package combined with a stand-alone Java application for interactive visualization and manipulation of modular structures, nested networks and multiple levels of hierarchical associations.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3083"
+          "@id": "edam:operation_2497"
         },
         {
-          "@id": "edam:operation_2497"
+          "@id": "edam:operation_3083"
         }
       ],
       "sc:license": "GPL-2.0",
       "sc:name": "RedeR",
       "sc:operatingSystem": [
-        "Windows",
         "Mac",
+        "Windows",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -85,17 +93,17 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/RedeR.html"
     },
     {
-      "@id": "_:Nc7e3366d1c65430f8b6e62626542fc75",
+      "@id": "_:Nab1914a2dc7a4a419422153770364a0f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3166"
+          "@id": "edam:format_2013"
         },
         {
-          "@id": "edam:format_2013"
+          "@id": "edam:format_3166"
         },
         {
           "@id": "edam:format_3547"
@@ -104,7 +112,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N59939f4b874245ccb214e67c6db725e5",
+      "@id": "_:N336556f4252b490fb8162a1a5642482a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -118,14 +126,6 @@
         }
       ],
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-4942-8131",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1186/gb-2012-13-4-r29",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

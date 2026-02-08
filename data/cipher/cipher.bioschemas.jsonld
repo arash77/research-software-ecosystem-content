@@ -39,8 +39,8 @@
       "@id": "https://bio.tools/cipher",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
-        "Carlos Guzman",
-        "Iván D’Orso"
+        "Iván D’Orso",
+        "Carlos Guzman"
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -49,18 +49,18 @@
           "@id": "edam:topic_3170"
         },
         {
-          "@id": "edam:topic_3169"
+          "@id": "edam:topic_0204"
         },
         {
-          "@id": "edam:topic_0204"
+          "@id": "edam:topic_3169"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1186/s12859-017-1770-1"
         },
-        "pubmed:28789639",
-        "pmcid:PMC5549294"
+        "pmcid:PMC5549294",
+        "pubmed:28789639"
       ],
       "sc:description": "Flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction.",
       "sc:featureList": {
@@ -68,8 +68,8 @@
       },
       "sc:name": "CIPHER",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {

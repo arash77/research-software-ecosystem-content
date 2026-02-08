@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/haplogrep_3",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N70c1e7b5814c46ac99be1a863d8c463e"
+        "@id": "_:N22b4110dcca641708721ddc2676bb61c"
       },
       "bsc:output": {
-        "@id": "_:Na6ef9f15f1df4761ba9278a738b88519"
+        "@id": "_:Nfed93a2e6e5741f3b3c1ff03d1c8dc27"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -51,21 +51,21 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0084"
-        },
-        {
           "@id": "edam:topic_3518"
         },
         {
           "@id": "edam:topic_2229"
+        },
+        {
+          "@id": "edam:topic_0084"
         }
       ],
       "sc:citation": [
-        "pubmed:37070190",
         "pmcid:PMC10320078",
         {
           "@id": "https://doi.org/10.1093/nar/gkad284"
-        }
+        },
+        "pubmed:37070190"
       ],
       "sc:description": "Interactive haplogroup classification and analysis platform.",
       "sc:featureList": [
@@ -83,9 +83,9 @@
       "sc:license": "MIT",
       "sc:name": "Haplogrep",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://haplogrep.readthedocs.io"
@@ -93,7 +93,7 @@
       "sc:url": "https://haplogrep.i-med.ac.at"
     },
     {
-      "@id": "_:Na6ef9f15f1df4761ba9278a738b88519",
+      "@id": "_:Nfed93a2e6e5741f3b3c1ff03d1c8dc27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1863"
@@ -101,17 +101,17 @@
       "sc:name": "Haplotype map"
     },
     {
-      "@id": "_:N70c1e7b5814c46ac99be1a863d8c463e",
+      "@id": "_:N22b4110dcca641708721ddc2676bb61c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_3016"
         },
         {
-          "@id": "edam:format_3016"
+          "@id": "edam:format_1929"
         }
       ],
       "sc:name": "Sequence alignment"

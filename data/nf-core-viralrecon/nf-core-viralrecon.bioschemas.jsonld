@@ -40,6 +40,9 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
         {
+          "@id": "https://orcid.org/0000-0002-2245-210X"
+        },
+        {
           "@id": "https://orcid.org/0000-0002-0740-6324"
         },
         {
@@ -49,30 +52,27 @@
           "@id": "https://orcid.org/0000-0002-1541-042X"
         },
         {
-          "@id": "https://orcid.org/0000-0003-2707-7940"
-        },
-        {
           "@id": "https://orcid.org/0000-0003-2827-9261"
         },
         {
-          "@id": "https://orcid.org/0000-0002-2245-210X"
+          "@id": "https://orcid.org/0000-0003-2707-7940"
         }
       ],
       "bsc:input": {
-        "@id": "_:Nf54b95f952d840dcbc8227b65900e8aa"
+        "@id": "_:N1f26f2f694bd4769839014f62ee3bfe6"
       },
       "bsc:output": [
         {
-          "@id": "_:Nbcb6a6fbab59462eb63b590effeb0bb7"
+          "@id": "_:Nfffa7517ca9c4b3a82c15f52d3fe1931"
         },
         {
-          "@id": "_:N4398cbe0f2694401a63decdd446a4b50"
+          "@id": "_:N880244692d67404eb0f896b732185e32"
         },
         {
-          "@id": "_:Nc29737a9eb384556a46278c7a73168aa"
+          "@id": "_:Nd4685da715c44a66b98ab51aefd2387e"
         },
         {
-          "@id": "_:Ncca978c5d9d84c3fbc95066b5b054e8b"
+          "@id": "_:Nd0279ec11f134a2da1a4d8f44eabd906"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -82,36 +82,36 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
-        },
-        {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_0199"
         },
         {
           "@id": "edam:topic_0102"
         },
         {
-          "@id": "edam:topic_0781"
+          "@id": "edam:topic_3796"
         },
         {
-          "@id": "edam:topic_0199"
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0781"
         },
         {
           "@id": "edam:topic_0769"
         },
         {
-          "@id": "edam:topic_3796"
+          "@id": "edam:topic_3168"
         }
       ],
       "sc:author": [
-        {
-          "@id": "https://orcid.org/0000-0002-0740-6324"
-        },
         {
           "@id": "https://orcid.org/0000-0003-2707-7940"
         },
         {
           "@id": "https://orcid.org/0000-0002-2245-210X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0740-6324"
         }
       ],
       "sc:citation": [
@@ -126,19 +126,19 @@
           "@id": "edam:operation_3227"
         },
         {
-          "@id": "edam:operation_0292"
-        },
-        {
           "@id": "edam:operation_0346"
         },
         {
           "@id": "edam:operation_0525"
         },
         {
-          "@id": "edam:operation_3731"
+          "@id": "edam:operation_3197"
         },
         {
-          "@id": "edam:operation_3197"
+          "@id": "edam:operation_0292"
+        },
+        {
+          "@id": "edam:operation_3731"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -147,41 +147,41 @@
       "sc:operatingSystem": "Linux",
       "sc:softwareHelp": [
         {
+          "@id": "https://nf-co.re/viralrecon"
+        },
+        {
           "@id": "https://nf-co.re/viralrecon/usage"
         },
         {
           "@id": "https://github.com/nf-core/viralrecon/blob/master/LICENSE"
-        },
-        {
-          "@id": "https://nf-co.re/viralrecon"
         }
       ],
       "sc:softwareVersion": [
         "2.4",
         "2.4.1",
-        "2.3.1",
-        "1.0.0",
-        "1.1.0",
-        "2.3",
-        "2.0",
         "2.2",
-        "2.1"
+        "2.3",
+        "2.3.1",
+        "2.1",
+        "2.0",
+        "1.0.0",
+        "1.1.0"
       ],
       "sc:url": "https://nf-co.re/viralrecon"
     },
     {
-      "@id": "_:Nf54b95f952d840dcbc8227b65900e8aa",
+      "@id": "_:Nfffa7517ca9c4b3a82c15f52d3fe1931",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3494"
+        "@id": "edam:data_3498"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_1930"
+        "@id": "edam:format_3016"
       },
-      "sc:name": "DNA sequence"
+      "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nbcb6a6fbab59462eb63b590effeb0bb7",
+      "@id": "_:N880244692d67404eb0f896b732185e32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -197,23 +197,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N4398cbe0f2694401a63decdd446a4b50",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1383"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2572"
-        },
-        {
-          "@id": "edam:format_3327"
-        }
-      ],
-      "sc:name": "Nucleic acid sequence alignment"
-    },
-    {
-      "@id": "_:Nc29737a9eb384556a46278c7a73168aa",
+      "@id": "_:Nd4685da715c44a66b98ab51aefd2387e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3914"
@@ -224,22 +208,38 @@
       "sc:name": "Quality control report"
     },
     {
-      "@id": "_:Ncca978c5d9d84c3fbc95066b5b054e8b",
+      "@id": "_:Nd0279ec11f134a2da1a4d8f44eabd906",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3498"
+        "@id": "edam:data_1383"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3016"
-      },
-      "sc:name": "Sequence variations"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3327"
+        },
+        {
+          "@id": "edam:format_2572"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "https://doi.org/10.1038/s41587-020-0439-x",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N1f26f2f694bd4769839014f62ee3bfe6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "DNA sequence"
     },
     {
       "@id": "https://orcid.org/0000-0003-2827-9261",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2707-7940",
       "@type": "sc:Person"
     },
     {
@@ -251,7 +251,7 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-2707-7940",
+      "@id": "https://orcid.org/0000-0003-4101-2502",
       "@type": "sc:Person"
     },
     {
@@ -259,8 +259,8 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-4101-2502",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1038/s41587-020-0439-x",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

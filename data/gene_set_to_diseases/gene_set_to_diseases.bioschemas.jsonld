@@ -36,29 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18547/gcb.2016.vol2.iss1.e33",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/gene_set_to_diseases",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jean Fred Fontaine",
       "bsc:input": [
         {
-          "@id": "_:N71194be240954a37b2d82a2d79114ca6"
+          "@id": "_:N1dbfc8b2f97e4f35b50718f0b92a75b7"
         },
         {
-          "@id": "_:Nfd9c14b3bdc14ec9abe7e0768311089e"
+          "@id": "_:N407ac7aeecdc471ca30c908c087a78f5"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N33377c00d4bd491798caa5255bd79b99"
+          "@id": "_:N8644874559f449b4834f1fb537ed6cfc"
         },
         {
-          "@id": "_:N330e340204cf4a2dbb578cd337a2230f"
+          "@id": "_:N215fe5d993a8435297258e279fb96dc5"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Web API"
+        "Web API",
+        "Web application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3473"
@@ -72,9 +76,9 @@
       },
       "sc:name": "Gene set to diseases",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://cbdm-01.zdv.uni-mainz.de/~jfontain/cms/?page_id=605"
@@ -82,23 +86,7 @@
       "sc:url": "http://cbdm.uni-mainz.de/geneset2diseases"
     },
     {
-      "@id": "_:N33377c00d4bd491798caa5255bd79b99",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1622"
-      },
-      "sc:name": "Disease report"
-    },
-    {
-      "@id": "_:N330e340204cf4a2dbb578cd337a2230f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0916"
-      },
-      "sc:name": "Gene report"
-    },
-    {
-      "@id": "_:N71194be240954a37b2d82a2d79114ca6",
+      "@id": "_:N1dbfc8b2f97e4f35b50718f0b92a75b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1150"
@@ -106,7 +94,7 @@
       "sc:name": "Disease ID"
     },
     {
-      "@id": "_:Nfd9c14b3bdc14ec9abe7e0768311089e",
+      "@id": "_:N407ac7aeecdc471ca30c908c087a78f5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -114,8 +102,20 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "https://doi.org/10.18547/gcb.2016.vol2.iss1.e33",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N8644874559f449b4834f1fb537ed6cfc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1622"
+      },
+      "sc:name": "Disease report"
+    },
+    {
+      "@id": "_:N215fe5d993a8435297258e279fb96dc5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:name": "Gene report"
     }
   ]
 }

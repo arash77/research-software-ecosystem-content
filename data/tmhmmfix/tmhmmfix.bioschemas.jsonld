@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/tmhmmfix",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf81836d1303a4c73bbc86a535bd45bdb"
+        "@id": "_:N1f524008147442c8836f79de421d1bb6"
       },
       "bsc:output": {
-        "@id": "_:N1dd873116bf241ab8ae8d0719f9d6945"
+        "@id": "_:Nba89167446ff4d4db625f3b97128ddf0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -62,7 +62,7 @@
       "sc:url": "http://www.sbc.su.se/%7Emelen/TMHMMfix/"
     },
     {
-      "@id": "_:Nf81836d1303a4c73bbc86a535bd45bdb",
+      "@id": "_:N1f524008147442c8836f79de421d1bb6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -70,7 +70,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N1dd873116bf241ab8ae8d0719f9d6945",
+      "@id": "_:Nba89167446ff4d4db625f3b97128ddf0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

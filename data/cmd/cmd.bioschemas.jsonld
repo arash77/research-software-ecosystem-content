@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/humu.21438",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/cmd",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N85782b6782c2490bb963c6c5404166dd"
+        "@id": "_:N48da2bcf07814747a2b7efc95c9c5bd9"
       },
       "bsc:output": {
-        "@id": "_:N16d5e916df6642eb99975aecc63db480"
+        "@id": "_:N460d054843854bb793a6fb965a9874d3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -50,10 +54,10 @@
         "@id": "edam:topic_0634"
       },
       "sc:citation": [
+        "pubmed:21520333",
         {
           "@id": "https://doi.org/10.1002/humu.21438"
-        },
-        "pubmed:21520333"
+        }
       ],
       "sc:description": "Database of osteogenesis imperfecta and type III collagen variants.",
       "sc:featureList": {
@@ -67,7 +71,7 @@
       "sc:url": "https://eds.gene.le.ac.uk"
     },
     {
-      "@id": "_:N16d5e916df6642eb99975aecc63db480",
+      "@id": "_:N460d054843854bb793a6fb965a9874d3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -78,16 +82,12 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N85782b6782c2490bb963c6c5404166dd",
+      "@id": "_:N48da2bcf07814747a2b7efc95c9c5bd9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0957"
       },
       "sc:name": "Database metadata"
-    },
-    {
-      "@id": "https://doi.org/10.1002/humu.21438",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,23 +36,27 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp539",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/cchmmprof",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Piero Fariselli",
       "bsc:input": {
-        "@id": "_:N059d13d1c34b463e8d4c71652ff9c7df"
+        "@id": "_:Nf904f12a78324fa0932cd54d1898be5d"
       },
       "bsc:output": {
-        "@id": "_:N28cb5ebfede746798ca8c896eaa286ad"
+        "@id": "_:N6baf7f651d2048c3843d185259d4edbb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0736"
+          "@id": "edam:topic_0082"
         },
         {
-          "@id": "edam:topic_0082"
+          "@id": "edam:topic_0736"
         },
         {
           "@id": "edam:topic_3542"
@@ -76,9 +80,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "CCHMMPROF",
       "sc:operatingSystem": [
+        "Linux",
         "Mac",
-        "Windows",
-        "Linux"
+        "Windows"
       ],
       "sc:provider": "ELIXIR-ITA-BOLOGNA",
       "sc:softwareHelp": {
@@ -88,7 +92,7 @@
       "sc:url": "http://gpcr.biocomp.unibo.it/cgi/predictors/cchmmprof/pred_cchmmprof.cgi"
     },
     {
-      "@id": "_:N28cb5ebfede746798ca8c896eaa286ad",
+      "@id": "_:N6baf7f651d2048c3843d185259d4edbb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -99,24 +103,20 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N059d13d1c34b463e8d4c71652ff9c7df",
+      "@id": "_:Nf904f12a78324fa0932cd54d1898be5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_1957"
         },
         {
-          "@id": "edam:format_1957"
+          "@id": "edam:format_1929"
         }
       ],
       "sc:name": "Protein sequence (raw)"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp539",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

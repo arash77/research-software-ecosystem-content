@@ -45,20 +45,20 @@
       "biotools:primaryContact": "Maia Smith",
       "bsc:input": [
         {
-          "@id": "_:N3af70993086545c796fe004c7274a0df"
+          "@id": "_:Nf5bff3479a9340aa98cd32cc81528cac"
         },
         {
-          "@id": "_:N61ca41b8a0e448adbafccbd8e376ad38"
+          "@id": "_:N6a91d691012448cb85079f261a369da0"
         },
         {
-          "@id": "_:N8d9a1c9472be4002ad7fee4ec9c88985"
+          "@id": "_:N887c7cceb0e9425da1cd21ab8db44e88"
         },
         {
-          "@id": "_:Ne8f910a70ef24bbdbf9cf9a37caf7206"
+          "@id": "_:N01629ecc3e1049a28eb235526ba84e3c"
         }
       ],
       "bsc:output": {
-        "@id": "_:N80344d11b30b44c4b7ad15a89b124e25"
+        "@id": "_:N5472bd3f17db41599bfd18bef8cb6f1a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Plug-in",
@@ -74,18 +74,18 @@
         }
       ],
       "sc:citation": [
-        "pubmed:28557980",
         {
           "@id": "https://doi.org/10.1038/nmeth.4303"
-        }
+        },
+        "pubmed:28557980"
       ],
       "sc:description": "A E-scape tool for interactive visualization of spatial clonal evolution.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3083"
+          "@id": "edam:operation_2497"
         },
         {
-          "@id": "edam:operation_2497"
+          "@id": "edam:operation_3083"
         },
         {
           "@id": "edam:operation_2426"
@@ -95,9 +95,9 @@
       "sc:license": "GPL-3.0",
       "sc:name": "MapScape",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/release/bioc/manuals/mapscape/man/mapscape.pdf"
@@ -105,15 +105,7 @@
       "sc:url": "https://bioconductor.org/packages/release/bioc/html/mapscape.html"
     },
     {
-      "@id": "_:N3af70993086545c796fe004c7274a0df",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0920"
-      },
-      "sc:name": "Genotype/phenotype report"
-    },
-    {
-      "@id": "_:N61ca41b8a0e448adbafccbd8e376ad38",
+      "@id": "_:Nf5bff3479a9340aa98cd32cc81528cac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3546"
@@ -121,7 +113,7 @@
       "sc:name": "Image metadata"
     },
     {
-      "@id": "_:N8d9a1c9472be4002ad7fee4ec9c88985",
+      "@id": "_:N6a91d691012448cb85079f261a369da0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2523"
@@ -129,7 +121,15 @@
       "sc:name": "Phylogenetic data"
     },
     {
-      "@id": "_:Ne8f910a70ef24bbdbf9cf9a37caf7206",
+      "@id": "_:N887c7cceb0e9425da1cd21ab8db44e88",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:name": "Genotype/phenotype report"
+    },
+    {
+      "@id": "_:N01629ecc3e1049a28eb235526ba84e3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -137,7 +137,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N80344d11b30b44c4b7ad15a89b124e25",
+      "@id": "_:N5472bd3f17db41599bfd18bef8cb6f1a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

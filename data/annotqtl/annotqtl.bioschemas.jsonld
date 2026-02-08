@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "GenOuest",
       "bsc:input": {
-        "@id": "_:N20ca334527ec474b9b74ad795068717c"
+        "@id": "_:N6bad8bf507484386928e71c821c1056d"
       },
       "bsc:output": {
-        "@id": "_:N38ef9ae7bd7d459b9bff987a27ee55ee"
+        "@id": "_:N3323e7a63fb248f38755238daafe04d6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -51,11 +51,11 @@
         "@id": "edam:topic_0085"
       },
       "sc:citation": [
+        "pubmed:21596783",
         {
           "@id": "https://doi.org/10.1093/nar/gkr361"
         },
-        "pmcid:PMC3125768",
-        "pubmed:21596783"
+        "pmcid:PMC3125768"
       ],
       "sc:description": "Tool designed to gather the functional annotation of genes from several institutional databases for a specific chromosomal region.",
       "sc:featureList": {
@@ -64,8 +64,8 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "AnnotQTL",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "GenOuest",
@@ -76,20 +76,20 @@
       "sc:url": "http://annotqtl.genouest.org/"
     },
     {
-      "@id": "_:N38ef9ae7bd7d459b9bff987a27ee55ee",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1276"
-      },
-      "sc:name": "Nucleic acid features"
-    },
-    {
-      "@id": "_:N20ca334527ec474b9b74ad795068717c",
+      "@id": "_:N6bad8bf507484386928e71c821c1056d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
       },
       "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:N3323e7a63fb248f38755238daafe04d6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:name": "Nucleic acid features"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkr361",

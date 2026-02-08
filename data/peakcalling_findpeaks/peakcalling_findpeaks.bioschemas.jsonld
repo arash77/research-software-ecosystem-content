@@ -40,21 +40,25 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btn305",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/peakcalling_findpeaks",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N5cb4d944151546918f96180244dc0cae"
+        "@id": "_:N13766ccccf434c3da581ad9fc5b46cf2"
       },
       "bsc:output": [
         {
-          "@id": "_:N6f270afd6e284c5fa1693c7466f7fa37"
+          "@id": "_:N2837ee452a6541aaa47c6d5e7517d113"
         },
         {
-          "@id": "_:N2624d82abb7a43d78226d6f63ee83ec9"
+          "@id": "_:Nad2deac55cc243e9b1316e7eb0a2bf3e"
         },
         {
-          "@id": "_:Nbba1a399a28c4b738ba85cbdaeadbfe1"
+          "@id": "_:N237c46be7acf4bd89f7ef6711a94b9d5"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -63,19 +67,19 @@
         "@id": "edam:topic_3169"
       },
       "sc:citation": [
-        "pmcid:PMC4987906",
         "pmcid:PMC2638869",
-        {
-          "@id": "https://doi.org/10.1093/bioinformatics/btn305"
-        },
-        "pubmed:18599518",
-        "pubmed:27137889",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
+        "pubmed:27137889",
+        "pmcid:PMC4987906",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btn305"
+        },
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
-        }
+        },
+        "pubmed:18599518"
       ],
       "sc:description": "Peak Finder/Analysis application for the ChIP-Seq.",
       "sc:featureList": {
@@ -83,48 +87,15 @@
       },
       "sc:name": "peakcalling_findpeaks",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
-        "Mac"
+        "Mac",
+        "Windows"
       ],
       "sc:softwareVersion": "4.0.9.2",
       "sc:url": "http://www.htslib.org/"
     },
     {
-      "@id": "_:N6f270afd6e284c5fa1693c7466f7fa37",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N2624d82abb7a43d78226d6f63ee83ec9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:Nbba1a399a28c4b738ba85cbdaeadbfe1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N5cb4d944151546918f96180244dc0cae",
+      "@id": "_:N13766ccccf434c3da581ad9fc5b46cf2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -134,16 +105,16 @@
           "@id": "edam:format_3003"
         },
         {
-          "@id": "edam:format_2305"
+          "@id": "edam:format_2573"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2305"
         },
         {
           "@id": "edam:format_3475"
         },
         {
-          "@id": "edam:format_2573"
+          "@id": "edam:format_2330"
         },
         {
           "@id": "edam:format_2572"
@@ -152,11 +123,40 @@
       "sc:name": "Data"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N2837ee452a6541aaa47c6d5e7517d113",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btn305",
+      "@id": "_:Nad2deac55cc243e9b1316e7eb0a2bf3e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N237c46be7acf4bd89f7ef6711a94b9d5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

@@ -36,13 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1126/scisignal.1159433",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0003-3161-8690",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/netphorest",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8acb722ba8e14e418488cd84d123c9a8"
+        "@id": "_:Nd2b4d043de144473a333e5ab302a29cf"
       },
       "bsc:output": {
-        "@id": "_:N1177d2920cdc494489e10a50ba5789da"
+        "@id": "_:Nc5996723c21f42589ca773b4db8fdd33"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -53,11 +61,11 @@
         "@id": "edam:topic_0160"
       },
       "sc:citation": [
-        "pmcid:PMC6215708",
+        "pubmed:18765831",
         {
           "@id": "https://doi.org/10.1126/scisignal.1159433"
         },
-        "pubmed:18765831"
+        "pmcid:PMC6215708"
       ],
       "sc:contributor": {
         "@id": "http://orcid.org/0000-0003-3161-8690"
@@ -69,9 +77,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "NetPhorest",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": {
@@ -81,18 +89,7 @@
       "sc:url": "http://www.netphorest.info/"
     },
     {
-      "@id": "_:N8acb722ba8e14e418488cd84d123c9a8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:N1177d2920cdc494489e10a50ba5789da",
+      "@id": "_:Nc5996723c21f42589ca773b4db8fdd33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -103,12 +100,15 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "https://doi.org/10.1126/scisignal.1159433",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-3161-8690",
-      "@type": "sc:Person"
+      "@id": "_:Nd2b4d043de144473a333e5ab302a29cf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
     }
   ]
 }

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/dbsts",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9e74d151e3ed42d7a4a876da321ee3b3"
+        "@id": "_:N18cab393736a4aa5badf5a95eec030bc"
       },
       "bsc:output": {
-        "@id": "_:Ncff1583c96af4530ab29599c650403a2"
+        "@id": "_:N3b5d725e0ae447aea5fdc4cde2c7c44b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -61,8 +61,8 @@
       },
       "sc:name": "NCBI database of sequence tagged sites",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -71,7 +71,7 @@
       "sc:url": "http://www.ncbi.nlm.nih.gov/dbSTS/"
     },
     {
-      "@id": "_:N9e74d151e3ed42d7a4a876da321ee3b3",
+      "@id": "_:N18cab393736a4aa5badf5a95eec030bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2389"
@@ -79,7 +79,7 @@
       "sc:name": "UniSTS accession"
     },
     {
-      "@id": "_:Ncff1583c96af4530ab29599c650403a2",
+      "@id": "_:N3b5d725e0ae447aea5fdc4cde2c7c44b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"

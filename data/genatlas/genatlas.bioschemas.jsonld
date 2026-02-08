@@ -36,22 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/S0764-4469(99)80021-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/genatlas",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ndb207c2aa4624e0eb9dda5cead61c274"
+        "@id": "_:N7ee4d67b9769406f974da4d5ff705ad9"
       },
       "bsc:output": {
-        "@id": "_:Nc06b6a4cab5f497a9493dc209d742853"
+        "@id": "_:Nb05835359bd548239a4618603f702a0f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0634"
+          "@id": "edam:topic_2815"
         },
         {
-          "@id": "edam:topic_2815"
+          "@id": "edam:topic_0634"
         }
       ],
       "sc:citation": {
@@ -64,8 +68,8 @@
       "sc:name": "GenAtlas human gene database",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "UNIVERSITE PARIS DESCARTES",
       "sc:softwareHelp": {
@@ -74,15 +78,7 @@
       "sc:url": "http://www.dsi.univ-paris5.fr/genatlas/"
     },
     {
-      "@id": "_:Ndb207c2aa4624e0eb9dda5cead61c274",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:Nc06b6a4cab5f497a9493dc209d742853",
+      "@id": "_:Nb05835359bd548239a4618603f702a0f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -93,8 +89,12 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "https://doi.org/10.1016/S0764-4469(99)80021-3",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N7ee4d67b9769406f974da4d5ff705ad9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
     }
   ]
 }

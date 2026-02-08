@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nc4d1691069b34e179d341052ce6d59e4"
+          "@id": "_:Ncd6e5922e0fe4d45bebc528a66352285"
         },
         {
-          "@id": "_:Na30753146f304e50a9e2a38dc360e0e9"
+          "@id": "_:N5c48efb9243a4163adb8569027ac01fd"
         },
         {
-          "@id": "_:N2569f869f4164704a1dfb894fdbecd95"
+          "@id": "_:N5fc0fbb063534329a720d0006fff2a4e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1f926d66e9214c1d85715148f0547b50"
+          "@id": "_:N64d3291e255a4236b597002973acf2cf"
         },
         {
-          "@id": "_:N8479c49c9bc3481bbe9acd031cf210f3"
+          "@id": "_:N74285542d002410f9202e8a1faa4908b"
         },
         {
-          "@id": "_:Ncf27d504fb144d69a2bc643f973114bb"
+          "@id": "_:Nc678dc6b21124b84a4ce962204908086"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -91,7 +91,7 @@
       "sc:url": "http://www.ms-utils.org/esimsa.html"
     },
     {
-      "@id": "_:N1f926d66e9214c1d85715148f0547b50",
+      "@id": "_:N64d3291e255a4236b597002973acf2cf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -102,7 +102,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N8479c49c9bc3481bbe9acd031cf210f3",
+      "@id": "_:N74285542d002410f9202e8a1faa4908b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0844"
@@ -113,7 +113,7 @@
       "sc:name": "Molecular mass"
     },
     {
-      "@id": "_:Ncf27d504fb144d69a2bc643f973114bb",
+      "@id": "_:Nc678dc6b21124b84a4ce962204908086",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
@@ -124,7 +124,7 @@
       "sc:name": "Peptide mass fingerprint"
     },
     {
-      "@id": "_:Nc4d1691069b34e179d341052ce6d59e4",
+      "@id": "_:Ncd6e5922e0fe4d45bebc528a66352285",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -135,7 +135,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Na30753146f304e50a9e2a38dc360e0e9",
+      "@id": "_:N5c48efb9243a4163adb8569027ac01fd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0844"
@@ -146,7 +146,7 @@
       "sc:name": "Molecular mass"
     },
     {
-      "@id": "_:N2569f869f4164704a1dfb894fdbecd95",
+      "@id": "_:N5fc0fbb063534329a720d0006fff2a4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

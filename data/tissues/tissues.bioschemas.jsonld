@@ -47,10 +47,10 @@
         "Jan Gorodkin"
       ],
       "bsc:input": {
-        "@id": "_:Nd07888842497459698502840040c5ead"
+        "@id": "_:N4a173209ff984e8e91072425a0ddc9de"
       },
       "bsc:output": {
-        "@id": "_:Ndced311f00b3443a9830d61dda7beb60"
+        "@id": "_:N3892e8e8c2854a9f835dbe4075a99a4b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -59,10 +59,10 @@
           "@id": "edam:topic_0203"
         },
         {
-          "@id": "edam:topic_0218"
+          "@id": "edam:topic_0092"
         },
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_0218"
         }
       ],
       "sc:citation": [
@@ -81,13 +81,13 @@
       "sc:name": "TISSUES",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:url": "https://tissues.jensenlab.org/"
     },
     {
-      "@id": "_:Ndced311f00b3443a9830d61dda7beb60",
+      "@id": "_:N3892e8e8c2854a9f835dbe4075a99a4b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1087"
@@ -95,7 +95,7 @@
       "sc:name": "Ontology concept ID"
     },
     {
-      "@id": "_:Nd07888842497459698502840040c5ead",
+      "@id": "_:N4a173209ff984e8e91072425a0ddc9de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"

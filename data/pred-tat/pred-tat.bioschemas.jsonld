@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Pantelis Bagos",
       "bsc:input": {
-        "@id": "_:Ncf2d13ba793a4d3db7673832e94bb1ed"
+        "@id": "_:N5beec468b5bb405b9fb3efd338dd024d"
       },
       "bsc:output": {
-        "@id": "_:N543b3af861904be68ffcf1723567ad03"
+        "@id": "_:Na78b031f7ee941daaf9903be5b190b70"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -62,10 +62,10 @@
           "@id": "edam:operation_0422"
         },
         {
-          "@id": "edam:operation_0270"
+          "@id": "edam:operation_0269"
         },
         {
-          "@id": "edam:operation_0269"
+          "@id": "edam:operation_0270"
         },
         {
           "@id": "edam:operation_0418"
@@ -73,8 +73,8 @@
       ],
       "sc:name": "PRED-TAT",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -84,7 +84,7 @@
       "sc:url": "http://www.compgen.org/tools/PRED-TAT"
     },
     {
-      "@id": "_:N543b3af861904be68ffcf1723567ad03",
+      "@id": "_:Na78b031f7ee941daaf9903be5b190b70",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -95,7 +95,7 @@
       "sc:name": "Sequence report"
     },
     {
-      "@id": "_:Ncf2d13ba793a4d3db7673832e94bb1ed",
+      "@id": "_:N5beec468b5bb405b9fb3efd338dd024d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

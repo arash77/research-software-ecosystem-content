@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "GenOuest",
       "bsc:input": {
-        "@id": "_:Nac4a2d214e70448b9a07d6a489866864"
+        "@id": "_:Nd46814d56c4c425a93f7edb0e72b0f04"
       },
       "bsc:output": {
-        "@id": "_:N0037aad6497947a2a3f5a8c7944b2f2a"
+        "@id": "_:N6579576b40554e7fb15f1bafa9cb695b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -55,11 +55,11 @@
         "@id": "edam:topic_0623"
       },
       "sc:citation": [
-        "pubmed:23028445",
+        "pmcid:PMC3441585",
         {
           "@id": "https://doi.org/10.1371/journal.pone.0043117"
         },
-        "pmcid:PMC3441585"
+        "pubmed:23028445"
       ],
       "sc:description": "A database designed to help the mycologist community to access to fungal DNA markers data for phylogenetic analyses.",
       "sc:featureList": {
@@ -68,9 +68,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "Phymyco-DB",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "GenOuest",
       "sc:softwareHelp": {
@@ -79,7 +79,7 @@
       "sc:url": "http://phymycodb.genouest.org/"
     },
     {
-      "@id": "_:Nac4a2d214e70448b9a07d6a489866864",
+      "@id": "_:Nd46814d56c4c425a93f7edb0e72b0f04",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -90,7 +90,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N0037aad6497947a2a3f5a8c7944b2f2a",
+      "@id": "_:N6579576b40554e7fb15f1bafa9cb695b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

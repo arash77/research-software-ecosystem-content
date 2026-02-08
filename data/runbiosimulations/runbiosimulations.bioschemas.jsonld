@@ -36,21 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-3746-9676",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-5801-5510",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/runbiosimulations",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne69aceabe14346d789d2e5d3391b8648"
+        "@id": "_:Nf6cd82b91ccb4d94bda46a566bcbf65c"
       },
       "bsc:output": {
-        "@id": "_:N13c3adcb86d94c8b88ca857bc14e89b3"
+        "@id": "_:Nc60116046d1347a99956d6e481751dc0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
@@ -58,18 +50,18 @@
           "@id": "edam:topic_3307"
         },
         {
-          "@id": "edam:topic_2259"
+          "@id": "edam:topic_3524"
         },
         {
-          "@id": "edam:topic_3524"
+          "@id": "edam:topic_2259"
         }
       ],
       "sc:author": [
         {
-          "@id": "https://orcid.org/0000-0002-3746-9676"
+          "@id": "https://orcid.org/0000-0001-5801-5510"
         },
         {
-          "@id": "https://orcid.org/0000-0001-5801-5510"
+          "@id": "https://orcid.org/0000-0002-3746-9676"
         },
         {
           "@id": "https://orcid.org/0000-0002-2605-5080"
@@ -84,28 +76,28 @@
       "sc:name": "runBioSimulations",
       "sc:softwareHelp": [
         {
-          "@id": "https://docs.biosimulations.org/users/faqs/"
-        },
-        {
           "@id": "https://docs.biosimulations.org/community/contributing/"
         },
         {
           "@id": "https://docs.biosimulations.org/developers/conduct/"
         },
         {
+          "@id": "https://docs.biosimulations.org/about/terms/"
+        },
+        {
           "@id": "https://api.biosimulations.org"
         },
         {
-          "@id": "https://docs.biosimulations.org"
+          "@id": "https://docs.biosimulations.org/users/faqs/"
         },
         {
-          "@id": "https://docs.biosimulations.org/about/terms/"
+          "@id": "https://docs.biosimulations.org"
         }
       ],
       "sc:url": "https://run.biosimulations.org"
     },
     {
-      "@id": "_:N13c3adcb86d94c8b88ca857bc14e89b3",
+      "@id": "_:Nc60116046d1347a99956d6e481751dc0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"
@@ -121,7 +113,7 @@
       "sc:name": "Simulation"
     },
     {
-      "@id": "_:Ne69aceabe14346d789d2e5d3391b8648",
+      "@id": "_:Nf6cd82b91ccb4d94bda46a566bcbf65c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"
@@ -130,6 +122,14 @@
         "@id": "edam:format_3686"
       },
       "sc:name": "Simulation"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3746-9676",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5801-5510",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://orcid.org/0000-0002-2605-5080",

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/Fcirc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N78e0d0a011bb4b87a9f8119d699ed100"
+        "@id": "_:N5d551c9a1d164468b58b6a5be496e341"
       },
       "bsc:output": {
-        "@id": "_:N1c01cd409424467ba11027433a474e4f"
+        "@id": "_:Nf89b0afb06e0424da094ab68379a4e6b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
@@ -69,18 +69,7 @@
       "sc:url": "https://github.com/WangHYLab/fcirc"
     },
     {
-      "@id": "_:N1c01cd409424467ba11027433a474e4f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3780"
-      },
-      "sc:name": "Expression data"
-    },
-    {
-      "@id": "_:N78e0d0a011bb4b87a9f8119d699ed100",
+      "@id": "_:N5d551c9a1d164468b58b6a5be496e341",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -89,6 +78,17 @@
         "@id": "edam:format_2350"
       },
       "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:Nf89b0afb06e0424da094ab68379a4e6b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3780"
+      },
+      "sc:name": "Expression data"
     }
   ]
 }

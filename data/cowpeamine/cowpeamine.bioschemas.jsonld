@@ -44,60 +44,60 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7b00fb4588fe497baaffd20cc48a16fc"
+          "@id": "_:Ne8ae4b70fb3b4798b9444392cde36d37"
         },
         {
-          "@id": "_:Nc64ad5516ceb4c6fa9cc6ef9b66745cf"
+          "@id": "_:N973d8fe1fe764a65a6148898d26402be"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne0eee43a2ff4490fb37f5ac93833bd7f"
+          "@id": "_:N52a7737719f3467aa3d4e676c5e7b4b9"
         },
         {
-          "@id": "_:N74c60d40bf1d422db00a22ce10aa3097"
+          "@id": "_:N3b5118b03a494c568859101dfd0efe23"
         },
         {
-          "@id": "_:N160502753e1449608a866b1e57a5bed0"
+          "@id": "_:Nef38ea9dd0e644f5a572dee575e46d8e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web service",
+        "Web application",
         "Database portal",
-        "Web application"
+        "Web service"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_3071"
         },
         {
           "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_0622"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC3516146",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bts577"
         },
-        "pubmed:23023984"
+        "pubmed:23023984",
+        "pmcid:PMC3516146"
       ],
       "sc:description": "A mine containing both cowpea genetic and genomic data, courtesy UC-Riverside",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_2436"
         },
         {
           "@id": "edam:operation_0224"
         },
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_2422"
         },
         {
-          "@id": "edam:operation_2436"
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -109,17 +109,17 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://flymine.readthedocs.io/en/latest/"
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
         },
         {
-          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+          "@id": "https://flymine.readthedocs.io/en/latest/"
         }
       ],
       "sc:softwareVersion": "0.10",
       "sc:url": "https://mines.legumeinfo.org/cowpeamine"
     },
     {
-      "@id": "_:Ne0eee43a2ff4490fb37f5ac93833bd7f",
+      "@id": "_:Ne8ae4b70fb3b4798b9444392cde36d37",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -127,15 +127,23 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N74c60d40bf1d422db00a22ce10aa3097",
+      "@id": "_:N973d8fe1fe764a65a6148898d26402be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3786"
+        "@id": "edam:data_2353"
       },
-      "sc:name": "Query script"
+      "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N160502753e1449608a866b1e57a5bed0",
+      "@id": "_:N52a7737719f3467aa3d4e676c5e7b4b9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N3b5118b03a494c568859101dfd0efe23",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -143,20 +151,12 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:N7b00fb4588fe497baaffd20cc48a16fc",
+      "@id": "_:Nef38ea9dd0e644f5a572dee575e46d8e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1255"
+        "@id": "edam:data_3786"
       },
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:Nc64ad5516ceb4c6fa9cc6ef9b66745cf",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2353"
-      },
-      "sc:name": "Ontology data"
+      "sc:name": "Query script"
     }
   ]
 }

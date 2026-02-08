@@ -40,23 +40,23 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N9d7d19c78df24e0f85c0c4d78f053395"
+          "@id": "_:Na76df527160c4c56b792ab5c3347f1a9"
         },
         {
-          "@id": "_:N0ddb504977b74ef8aaede3dc1b16e2dd"
+          "@id": "_:Nd9309968095f4bdb834a5d6bd729a9df"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ncab825366399438f92e05f1d6d1cdf46"
+        "@id": "_:N47090009f1274dfea76fc14aadb3b0b9"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3365"
+          "@id": "edam:topic_0092"
         },
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_3365"
         }
       ],
       "sc:description": "A package for drawing pretty heatmaps in R. The ordinary heatmap function in R has several drawbacks when it comes to producing publication quality heatmaps. It is hard to produce pictures with consistent text, cell and overall sizes and shapes. The function pheatmap tries to alleviate the problems by offering more fine grained control over heatmap dimensions and appearance.",
@@ -65,9 +65,9 @@
       },
       "sc:name": "pheatmap",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:provider": "ELIXIR-EE",
       "sc:softwareHelp": {
@@ -77,15 +77,7 @@
       "sc:url": "http://cran.r-project.org/web/packages/pheatmap/"
     },
     {
-      "@id": "_:N9d7d19c78df24e0f85c0c4d78f053395",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2082"
-      },
-      "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:N0ddb504977b74ef8aaede3dc1b16e2dd",
+      "@id": "_:Na76df527160c4c56b792ab5c3347f1a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -93,7 +85,15 @@
       "sc:name": "Processed microarray data"
     },
     {
-      "@id": "_:Ncab825366399438f92e05f1d6d1cdf46",
+      "@id": "_:Nd9309968095f4bdb834a5d6bd729a9df",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N47090009f1274dfea76fc14aadb3b0b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"

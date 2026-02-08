@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1371/journal.pone.0079722",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/metamylo",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Christian Delamarche",
       "bsc:input": {
-        "@id": "_:N3eb5b35df1eb4055a37fb2e2f1377891"
+        "@id": "_:N30ca1a039be34c6ca4c4571c911ec1aa"
       },
       "bsc:output": {
-        "@id": "_:N1d41ea445306418daea7b0e55152dcd8"
+        "@id": "_:N2bcc596e6d854de881bbe970c6a3da76"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -56,13 +60,13 @@
         }
       ],
       "sc:author": [
-        "Anthony Talvas",
         "Mathieu Emily",
+        "Anthony Talvas",
         "Christian Delamarche"
       ],
       "sc:citation": [
-        "pubmed:24260292",
         "pmcid:PMC3834037",
+        "pubmed:24260292",
         {
           "@id": "https://doi.org/10.1371/journal.pone.0079722"
         }
@@ -74,9 +78,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "MetAmyl",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "GenOuest",
       "sc:softwareHelp": {
@@ -85,23 +89,23 @@
       "sc:url": "http://metamyl.genouest.org"
     },
     {
-      "@id": "_:N1d41ea445306418daea7b0e55152dcd8",
+      "@id": "_:N2bcc596e6d854de881bbe970c6a3da76",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_3752"
         },
         {
-          "@id": "edam:format_3752"
+          "@id": "edam:format_3547"
         }
       ],
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N3eb5b35df1eb4055a37fb2e2f1377891",
+      "@id": "_:N30ca1a039be34c6ca4c4571c911ec1aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -110,10 +114,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence set (protein)"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pone.0079722",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

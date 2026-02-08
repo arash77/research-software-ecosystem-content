@@ -36,72 +36,76 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.3791/63970",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/seqapass",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3f1da66b69014f6bb0791bde7ca86d80"
+          "@id": "_:N00c0844bfc4d45339f27b8517ae23006"
         },
         {
-          "@id": "_:N86fe19515aaf4b25a390bb47628e2c01"
+          "@id": "_:Nf80ffde2c12a4a4987058f7e82a792f6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N492d4286a64f4d0c909b83c488573543"
+          "@id": "_:N76c8ed7930364817a1520322a6af49a9"
         },
         {
-          "@id": "_:N111adae06ee549139d3635c59a21fe3e"
+          "@id": "_:Na9b48a76ba2d4d42919f29b9f8f955fe"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0154"
+          "@id": "edam:topic_0621"
         },
         {
           "@id": "edam:topic_3314"
-        },
-        {
-          "@id": "edam:topic_0621"
         },
         {
           "@id": "edam:topic_2275"
         },
         {
           "@id": "edam:topic_2840"
+        },
+        {
+          "@id": "edam:topic_0154"
         }
       ],
       "sc:citation": [
         "pubmed:36847398",
         "pmcid:PMC10758989",
         {
-          "@id": "https://doi.org/10.1002/etc.5591"
+          "@id": "https://doi.org/10.3791/63970"
         },
         {
-          "@id": "https://doi.org/10.3791/63970"
+          "@id": "https://doi.org/10.1002/etc.5591"
         },
         "pubmed:36825751"
       ],
       "sc:description": "A web-based tool for addressing the challenges of cross-species extrapolation of chemical toxicity.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0292"
-        },
-        {
           "@id": "edam:operation_2423"
         },
         {
           "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0292"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "SeqAPASS",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://www.epa.gov/chemical-research/seqapass-user-guide"
@@ -109,31 +113,7 @@
       "sc:url": "https://seqapass.epa.gov/seqapass"
     },
     {
-      "@id": "_:N3f1da66b69014f6bb0791bde7ca86d80",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2327"
-      },
-      "sc:name": "GI number (protein)"
-    },
-    {
-      "@id": "_:N86fe19515aaf4b25a390bb47628e2c01",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1179"
-      },
-      "sc:name": "NCBI taxonomy ID"
-    },
-    {
-      "@id": "_:N492d4286a64f4d0c909b83c488573543",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2080"
-      },
-      "sc:name": "Database search results"
-    },
-    {
-      "@id": "_:N111adae06ee549139d3635c59a21fe3e",
+      "@id": "_:N76c8ed7930364817a1520322a6af49a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -141,8 +121,28 @@
       "sc:name": "Report"
     },
     {
-      "@id": "https://doi.org/10.3791/63970",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Na9b48a76ba2d4d42919f29b9f8f955fe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N00c0844bfc4d45339f27b8517ae23006",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2327"
+      },
+      "sc:name": "GI number (protein)"
+    },
+    {
+      "@id": "_:Nf80ffde2c12a4a4987058f7e82a792f6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1179"
+      },
+      "sc:name": "NCBI taxonomy ID"
     },
     {
       "@id": "https://doi.org/10.1002/etc.5591",

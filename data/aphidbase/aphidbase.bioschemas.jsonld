@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "BIPAA platform",
       "bsc:input": {
-        "@id": "_:Ndb4b6e0cee074b96bc29367ac5a4f2ee"
+        "@id": "_:Ned44be93bd3046a1af215020efd0c0a4"
       },
       "bsc:output": {
-        "@id": "_:N83bd3aeb6d1f46e9ba5cedb4032577a3"
+        "@id": "_:N69fe36d47df04f99851779af7266dbf6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -64,8 +64,8 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "AphidBase",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "GenOuest",
@@ -75,7 +75,7 @@
       "sc:url": "http://aphidbase.com/"
     },
     {
-      "@id": "_:Ndb4b6e0cee074b96bc29367ac5a4f2ee",
+      "@id": "_:Ned44be93bd3046a1af215020efd0c0a4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -86,7 +86,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N83bd3aeb6d1f46e9ba5cedb4032577a3",
+      "@id": "_:N69fe36d47df04f99851779af7266dbf6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

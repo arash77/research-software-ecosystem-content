@@ -36,25 +36,21 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkj116",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/abs",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N69bd1d561d084e8799915b969de0affb"
+          "@id": "_:N3124e035aee846c996f1779f3ef4fc7e"
         },
         {
-          "@id": "_:N68d19a179f1b4fb6b0a341b01cf21cae"
+          "@id": "_:N9b9ebf9eb4434196bf0146e5d5eb4e79"
         },
         {
-          "@id": "_:Ne92c6a7e10834d21b2129e81ea566bcb"
+          "@id": "_:Nf1640fa5292a43be9c559c9d50224b97"
         }
       ],
       "bsc:output": {
-        "@id": "_:N87b205f1d4af42a28373ff0cd92cd641"
+        "@id": "_:Ndccee0e0ab654e36abbf6225de602d97"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -62,10 +58,10 @@
         "@id": "edam:topic_0749"
       },
       "sc:citation": [
-        "pmcid:PMC1347478",
         {
           "@id": "https://doi.org/10.1093/nar/gkj116"
         },
+        "pmcid:PMC1347478",
         "pubmed:16381947"
       ],
       "sc:description": "Annotated regulatory binding sites from orthologous promoters.",
@@ -75,9 +71,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "ABS",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "Genome BioInformatics Research Lab",
       "sc:softwareHelp": {
@@ -86,23 +82,7 @@
       "sc:url": "http://genome.imim.es/datasets/abs2005/"
     },
     {
-      "@id": "_:N69bd1d561d084e8799915b969de0affb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1077"
-      },
-      "sc:name": "Transcription factor identifier"
-    },
-    {
-      "@id": "_:N68d19a179f1b4fb6b0a341b01cf21cae",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2299"
-      },
-      "sc:name": "Gene name"
-    },
-    {
-      "@id": "_:Ne92c6a7e10834d21b2129e81ea566bcb",
+      "@id": "_:N3124e035aee846c996f1779f3ef4fc7e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2741"
@@ -110,7 +90,23 @@
       "sc:name": "ABS ID"
     },
     {
-      "@id": "_:N87b205f1d4af42a28373ff0cd92cd641",
+      "@id": "_:N9b9ebf9eb4434196bf0146e5d5eb4e79",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:Nf1640fa5292a43be9c559c9d50224b97",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1077"
+      },
+      "sc:name": "Transcription factor identifier"
+    },
+    {
+      "@id": "_:Ndccee0e0ab654e36abbf6225de602d97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -119,6 +115,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkj116",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

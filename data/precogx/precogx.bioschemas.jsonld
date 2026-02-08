@@ -40,13 +40,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb93db79c0cc24faeaeec2e7a65a46ab2"
+          "@id": "_:N063a309356b1425cb8bf3f539392e71a"
         },
         {
-          "@id": "_:Na63bce0fdd75456480e1fca682bdd6ac"
+          "@id": "_:N736468e293954e55b2a51693714f5b65"
         },
         {
-          "@id": "_:N3f3571d7ea3541f5a4cdffc1a653e0a8"
+          "@id": "_:Ndd825edfe7414790882e99f46aa95e5e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -56,35 +56,35 @@
           "@id": "edam:topic_0634"
         },
         {
-          "@id": "edam:topic_0820"
+          "@id": "edam:topic_3474"
         },
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_0749"
         },
         {
           "@id": "edam:topic_3168"
         },
         {
-          "@id": "edam:topic_0749"
+          "@id": "edam:topic_0820"
         }
       ],
       "sc:citation": [
         {
           "@id": "https://doi.org/10.1093/nar/gkac426"
         },
-        "pubmed:35639758",
-        "pmcid:PMC9252787"
+        "pmcid:PMC9252787",
+        "pubmed:35639758"
       ],
       "sc:description": "Exploring GPCR signaling mechanisms with deep protein representations.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3891"
+          "@id": "edam:operation_2995"
         },
         {
           "@id": "edam:operation_0269"
         },
         {
-          "@id": "edam:operation_2995"
+          "@id": "edam:operation_3891"
         },
         {
           "@id": "edam:operation_2939"
@@ -94,14 +94,14 @@
       "sc:license": "GPL-3.0",
       "sc:name": "PRECOGx",
       "sc:operatingSystem": [
-        "Linux",
         "Windows",
+        "Linux",
         "Mac"
       ],
       "sc:url": "https://precogx.bioinfolab.sns.it/"
     },
     {
-      "@id": "_:Nb93db79c0cc24faeaeec2e7a65a46ab2",
+      "@id": "_:N063a309356b1425cb8bf3f539392e71a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -109,7 +109,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:Na63bce0fdd75456480e1fca682bdd6ac",
+      "@id": "_:N736468e293954e55b2a51693714f5b65",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -117,7 +117,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N3f3571d7ea3541f5a4cdffc1a653e0a8",
+      "@id": "_:Ndd825edfe7414790882e99f46aa95e5e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

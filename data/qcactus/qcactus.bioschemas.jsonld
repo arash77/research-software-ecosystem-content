@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/qcactus",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ndea34190ecf244fea116d35c80a46c30"
+        "@id": "_:N1fc384b3281a41d890661cad96786be1"
       },
       "bsc:output": {
-        "@id": "_:Nc705b9aabbad45d68fc64775fd699afe"
+        "@id": "_:N6983c83478294f8a93f58fcda8fe1699"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": {
@@ -57,7 +57,15 @@
       "sc:url": "https://github.com/csmc-vaneykjlab/qcactus"
     },
     {
-      "@id": "_:Ndea34190ecf244fea116d35c80a46c30",
+      "@id": "_:N6983c83478294f8a93f58fcda8fe1699",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N1fc384b3281a41d890661cad96786be1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -66,14 +74,6 @@
         "@id": "edam:format_3712"
       },
       "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:Nc705b9aabbad45d68fc64775fd699afe",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:name": "Plot"
     }
   ]
 }

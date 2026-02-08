@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Livia Perfetto",
       "bsc:input": {
-        "@id": "_:Ne1855a2046874715813421a5ec332795"
+        "@id": "_:N27704adadb8b42e4b38e589342bd8bc4"
       },
       "bsc:output": {
-        "@id": "_:N49be64044c2940f1a55845bcee5be506"
+        "@id": "_:N5648449623fb4e2f8cbcef017d6af3ac"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -56,14 +56,14 @@
         }
       ],
       "sc:author": [
-        "Alberto Calderone",
-        "Prisca Lo Surdo"
+        "Prisca Lo Surdo",
+        "Alberto Calderone"
       ],
       "sc:citation": "pubmed:29036667",
       "sc:contributor": [
+        "Gianni Cesareni",
         "Marta Iannuccelli",
-        "Luana Licata",
-        "Gianni Cesareni"
+        "Luana Licata"
       ],
       "sc:description": "A disease-focused resource that uses the causal interaction information annotated in SIGNOR and the protein interaction data in mentha to generate and explore protein interaction networks linking disease genes.",
       "sc:featureList": [
@@ -89,18 +89,7 @@
       "sc:url": "https://disnor.uniroma2.it/"
     },
     {
-      "@id": "_:N49be64044c2940f1a55845bcee5be506",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2600"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3242"
-      },
-      "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "_:Ne1855a2046874715813421a5ec332795",
+      "@id": "_:N27704adadb8b42e4b38e589342bd8bc4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -109,6 +98,17 @@
         "@id": "edam:format_3242"
       },
       "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N5648449623fb4e2f8cbcef017d6af3ac",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3242"
+      },
+      "sc:name": "Pathway or network"
     }
   ]
 }

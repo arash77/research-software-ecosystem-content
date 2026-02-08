@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.7717/peerj.593",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.7717/peerj.1420",
       "@type": "sc:CreativeWork"
     },
@@ -47,10 +43,10 @@
       "@id": "https://bio.tools/swarm",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ndda5ffa088644209bfbf8db815a23df5"
+        "@id": "_:N12f2dfb514e24342a82b1d8cd7837d56"
       },
       "bsc:output": {
-        "@id": "_:N45bbf95677f446419e3153ae41d72fdf"
+        "@id": "_:N6a6413a1d94b483a93009f104ef0fee9"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -59,26 +55,26 @@
           "@id": "edam:topic_3050"
         },
         {
-          "@id": "edam:topic_3047"
+          "@id": "edam:topic_0080"
         },
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_3047"
         },
         {
           "@id": "edam:topic_3301"
         }
       ],
       "sc:citation": [
-        "pubmed:25276506",
         {
           "@id": "https://doi.org/10.7717/peerj.593"
         },
+        "pubmed:25276506",
         "pmcid:PMC4178461",
+        "pmcid:PMC4690345",
+        "pubmed:26713226",
         {
           "@id": "https://doi.org/10.7717/peerj.1420"
-        },
-        "pubmed:26713226",
-        "pmcid:PMC4690345"
+        }
       ],
       "sc:description": "A robust and fast clustering method for amplicon-based studies. The purpose of this tool is to provide a novel clustering algorithm that handles massive sets of amplicons.",
       "sc:featureList": {
@@ -88,23 +84,34 @@
       "sc:license": "AGPL-3.0",
       "sc:name": "Swarm",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "UiO",
       "sc:softwareHelp": [
         {
-          "@id": "http://dx.doi.org/10.7717/peerj.593"
+          "@id": "https://github.com/torognes/swarm"
         },
         {
-          "@id": "https://github.com/torognes/swarm"
+          "@id": "http://dx.doi.org/10.7717/peerj.593"
         }
       ],
       "sc:softwareVersion": "2.1.6",
       "sc:url": "https://github.com/torognes/swarm"
     },
     {
-      "@id": "_:N45bbf95677f446419e3153ae41d72fdf",
+      "@id": "_:N12f2dfb514e24342a82b1d8cd7837d56",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2546"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N6a6413a1d94b483a93009f104ef0fee9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1235"
@@ -115,15 +122,8 @@
       "sc:name": "Sequence cluster"
     },
     {
-      "@id": "_:Ndda5ffa088644209bfbf8db815a23df5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2546"
-      },
-      "sc:name": "Nucleic acid sequence"
+      "@id": "https://doi.org/10.7717/peerj.593",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

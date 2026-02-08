@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/isovis",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na52f6925d2774e2fbf0bad3cd45650a5"
+        "@id": "_:N4a8c042ee2154519aa48c8be5372b88a"
       },
       "bsc:output": {
-        "@id": "_:N5b69415c3e0547579349b392bd9ef114"
+        "@id": "_:Nee4ec40ec1d74247b414a3f4b9db1854"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -57,8 +57,8 @@
       "sc:license": "MPL-2.0",
       "sc:name": "IsoVis",
       "sc:operatingSystem": [
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "https://isovis.gandallab.org/tutorial/"
@@ -67,34 +67,34 @@
       "sc:url": "https://isomix.org/isovis/"
     },
     {
-      "@id": "_:Na52f6925d2774e2fbf0bad3cd45650a5",
+      "@id": "_:Nee4ec40ec1d74247b414a3f4b9db1854",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0883"
+      },
+      "sc:name": "Structure"
+    },
+    {
+      "@id": "_:N4a8c042ee2154519aa48c8be5372b88a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2877"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3003"
+          "@id": "edam:format_2305"
         },
         {
           "@id": "edam:format_2306"
         },
         {
-          "@id": "edam:format_2305"
+          "@id": "edam:format_3752"
         },
         {
-          "@id": "edam:format_3752"
+          "@id": "edam:format_3003"
         }
       ],
       "sc:name": "Protein complex"
-    },
-    {
-      "@id": "_:N5b69415c3e0547579349b392bd9ef114",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0883"
-      },
-      "sc:name": "Structure"
     }
   ]
 }

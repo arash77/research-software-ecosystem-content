@@ -48,17 +48,17 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N419d447d4e6e4dbc87e3c576a7d28bb7"
+          "@id": "_:N8183f63d22064368b8b18acb89ab1494"
         },
         {
-          "@id": "_:Ne238d7cda0634f249afb66e960b60545"
+          "@id": "_:N85b143704f66430592709d7fa8edc77b"
         },
         {
-          "@id": "_:N01bbd770ccc846c996a4c5535b6853c3"
+          "@id": "_:N8696c94c569a425bb235f350b8db6c86"
         }
       ],
       "bsc:output": {
-        "@id": "_:N6f20370480394c2f892cfdae4c3fdb63"
+        "@id": "_:N2512df72e6b64d24ac206472257bcce1"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -66,10 +66,10 @@
         "@id": "edam:topic_0130"
       },
       "sc:citation": [
-        "pubmed:17138584",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btl610"
-        }
+        },
+        "pubmed:17138584"
       ],
       "sc:description": "Predictor of the Protein Folding Mechanism and Rate.",
       "sc:featureList": {
@@ -77,9 +77,9 @@
       },
       "sc:name": "K-Fold",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:provider": "ELIXIR-ITA-BOLOGNA",
       "sc:softwareHelp": {
@@ -89,23 +89,7 @@
       "sc:url": "http://folding.biofold.org/k-fold/"
     },
     {
-      "@id": "_:N419d447d4e6e4dbc87e3c576a7d28bb7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1127"
-      },
-      "sc:name": "PDB ID"
-    },
-    {
-      "@id": "_:Ne238d7cda0634f249afb66e960b60545",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1008"
-      },
-      "sc:name": "Polypeptide chain ID"
-    },
-    {
-      "@id": "_:N01bbd770ccc846c996a4c5535b6853c3",
+      "@id": "_:N8183f63d22064368b8b18acb89ab1494",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -116,7 +100,23 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N6f20370480394c2f892cfdae4c3fdb63",
+      "@id": "_:N85b143704f66430592709d7fa8edc77b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:N8696c94c569a425bb235f350b8db6c86",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1008"
+      },
+      "sc:name": "Polypeptide chain ID"
+    },
+    {
+      "@id": "_:N2512df72e6b64d24ac206472257bcce1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0951"

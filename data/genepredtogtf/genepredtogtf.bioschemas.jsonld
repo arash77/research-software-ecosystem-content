@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/genepredtogtf",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncd7ba472cd694fffb51a2dc591ad04a2"
+        "@id": "_:N2edc92a3b3da4d348e4ab2d86729f841"
       },
       "bsc:output": {
-        "@id": "_:Nf0ae816d166b4db4a031a14d52230973"
+        "@id": "_:Nedfd79a683534bb5b695e97d2a55679f"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -55,7 +55,7 @@
       "sc:url": "https://github.com/ENCODE-DCC/kentUtils/blob/master/src/utils/genePredToBed/genePredToBed"
     },
     {
-      "@id": "_:Ncd7ba472cd694fffb51a2dc591ad04a2",
+      "@id": "_:N2edc92a3b3da4d348e4ab2d86729f841",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -63,7 +63,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:Nf0ae816d166b4db4a031a14d52230973",
+      "@id": "_:Nedfd79a683534bb5b695e97d2a55679f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"

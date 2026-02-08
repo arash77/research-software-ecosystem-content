@@ -42,10 +42,10 @@
         "@id": "https://orcid.org/0000-0001-9650-8965"
       },
       "bsc:input": {
-        "@id": "_:Nf1d8484b6b864640ad383dd1de13b084"
+        "@id": "_:N381dd9654952407989a96ce2680d39a9"
       },
       "bsc:output": {
-        "@id": "_:Nf610ab43f9b4464e9b52ec395b7a1fd2"
+        "@id": "_:Nc39d279aa41c4782873380a9471e6f09"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -65,8 +65,8 @@
       "sc:name": "NetStart",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": {
@@ -76,18 +76,7 @@
       "sc:url": "http://cbs.dtu.dk/services/NetStart/"
     },
     {
-      "@id": "_:Nf1d8484b6b864640ad383dd1de13b084",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Nf610ab43f9b4464e9b52ec395b7a1fd2",
+      "@id": "_:Nc39d279aa41c4782873380a9471e6f09",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -96,6 +85,17 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N381dd9654952407989a96ce2680d39a9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
     },
     {
       "@id": "https://orcid.org/0000-0001-9650-8965",

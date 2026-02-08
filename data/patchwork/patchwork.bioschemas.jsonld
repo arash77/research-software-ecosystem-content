@@ -40,22 +40,22 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Sebastian Dilorenzo",
       "bsc:input": {
-        "@id": "_:N1bd4a62b32604022803885195e98c197"
+        "@id": "_:Nbcc337fbd6674ec49f6ccec349a81f0d"
       },
       "bsc:output": {
-        "@id": "_:N88fa322a59a0480cbacf9422096559f1"
+        "@id": "_:Nc80121c1649e4a57a068af6002798b61"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3175"
+          "@id": "edam:topic_0622"
         },
         {
-          "@id": "edam:topic_0622"
+          "@id": "edam:topic_3175"
         }
       ],
       "sc:citation": "pubmed:23531354",
@@ -76,7 +76,7 @@
       "sc:url": "http://patchwork.r-forge.r-project.org/"
     },
     {
-      "@id": "_:N1bd4a62b32604022803885195e98c197",
+      "@id": "_:Nbcc337fbd6674ec49f6ccec349a81f0d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -84,7 +84,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N88fa322a59a0480cbacf9422096559f1",
+      "@id": "_:Nc80121c1649e4a57a068af6002798b61",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

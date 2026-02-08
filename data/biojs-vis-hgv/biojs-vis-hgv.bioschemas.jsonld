@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Saket Choudhary",
       "bsc:input": {
-        "@id": "_:Necf6cdb1f6c74eb8b92fa3a0d5b83f88"
+        "@id": "_:N04fa321f4f184b8898fabc5b59291bbd"
       },
       "bsc:output": {
-        "@id": "_:N97f6c0105c584116ab2437423b6ef47d"
+        "@id": "_:Ne71b9550294d418cbcfa96e94511fb3b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -69,8 +69,8 @@
       "sc:license": "Apache-2.0",
       "sc:name": "biojs-vis-hgv",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "BioJS",
@@ -81,7 +81,7 @@
       "sc:url": "https://github.com/saketkc/hgv2"
     },
     {
-      "@id": "_:N97f6c0105c584116ab2437423b6ef47d",
+      "@id": "_:Ne71b9550294d418cbcfa96e94511fb3b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1274"
@@ -89,7 +89,7 @@
       "sc:name": "Map"
     },
     {
-      "@id": "_:Necf6cdb1f6c74eb8b92fa3a0d5b83f88",
+      "@id": "_:N04fa321f4f184b8898fabc5b59291bbd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

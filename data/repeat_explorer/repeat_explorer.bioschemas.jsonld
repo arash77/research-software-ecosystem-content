@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btt054",
+      "@id": "https://doi.org/10.1186/1471-2105-11-378",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Petr Novak",
       "bsc:input": {
-        "@id": "_:N8595a297153544999fc5f214387b0800"
+        "@id": "_:Na681585ed49c4fda94dff7aab013a688"
       },
       "bsc:output": {
-        "@id": "_:Nd380ab2d558e47d890100510f9dd0c4c"
+        "@id": "_:N204c6c41bd3d44b18e3cae92f86ad403"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -63,20 +63,20 @@
         }
       ],
       "sc:author": [
+        "Petr Novak",
         "Pavel Neumann",
-        "Jiri Macas",
-        "Petr Novak"
+        "Jiri Macas"
       ],
       "sc:citation": [
-        "pubmed:20633259",
-        {
-          "@id": "https://doi.org/10.1186/1471-2105-11-378"
-        },
-        "pubmed:23376349",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btt054"
         },
-        "pmcid:PMC2912890"
+        "pmcid:PMC2912890",
+        "pubmed:23376349",
+        "pubmed:20633259",
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-11-378"
+        }
       ],
       "sc:contributor": "Czech Academy of Sciences",
       "sc:description": "RepeatExplorer is a computational pipeline designed to identify and characterize repetitive DNA elements in next-generation sequencing data from plant and animal genomes. It employs graph-based clustering of sequence reads to identify repetitive elements and several additional programs that aid in their annotation and quantification.",
@@ -94,8 +94,8 @@
       "sc:name": "RepeatExplorer",
       "sc:operatingSystem": "Linux",
       "sc:provider": [
-        "Biology Centre, CAS, Czech Republic",
-        "ELIXIR-CZ"
+        "ELIXIR-CZ",
+        "Biology Centre, CAS, Czech Republic"
       ],
       "sc:softwareHelp": {
         "@id": "http://repeatexplorer.org"
@@ -107,23 +107,7 @@
       "sc:url": "http://repeatexplorer.org"
     },
     {
-      "@id": "_:N8595a297153544999fc5f214387b0800",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_1930"
-        }
-      ],
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:Nd380ab2d558e47d890100510f9dd0c4c",
+      "@id": "_:N204c6c41bd3d44b18e3cae92f86ad403",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -134,7 +118,23 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "https://doi.org/10.1186/1471-2105-11-378",
+      "@id": "_:Na681585ed49c4fda94dff7aab013a688",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1930"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt054",
       "@type": "sc:CreativeWork"
     }
   ]

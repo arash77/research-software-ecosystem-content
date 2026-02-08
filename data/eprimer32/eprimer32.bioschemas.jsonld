@@ -36,21 +36,29 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/eprimer32",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd40e3edf875645e1a164c77beae7a5f8"
+          "@id": "_:Ne705dd644cd241608dce1b4cd0974475"
         },
         {
-          "@id": "_:Nb6286fdd5979482b9e1c50eff83ee8d9"
+          "@id": "_:Nd39c5a233a52433e9e328dd628e620bb"
         },
         {
-          "@id": "_:N0858be0bef2b4cc1b0f1a182c0e791d4"
+          "@id": "_:Nb29d01171dd24b449bd398a3325b5535"
         }
       ],
       "bsc:output": {
-        "@id": "_:N1c2a3b84eb4548029e5899f75a12a3c7"
+        "@id": "_:Nbb43cbfd8f4942ff87ab3246694d027c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -70,31 +78,31 @@
       ],
       "sc:contributor": [
         "UK MRC",
-        "UK BBSRC",
         "Wellcome Trust",
-        "EMBOSS Contributors"
+        "EMBOSS Contributors",
+        "UK BBSRC"
       ],
       "sc:description": "Pick PCR primers and hybridization oligos.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0309"
+          "@id": "edam:operation_0308"
         },
         {
-          "@id": "edam:operation_0308"
+          "@id": "edam:operation_0309"
         }
       ],
       "sc:funder": [
         "UK MRC",
-        "UK BBSRC",
-        "Wellcome Trust"
+        "Wellcome Trust",
+        "UK BBSRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "eprimer32",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
         "EMBL-EBI",
@@ -115,31 +123,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/eprimer32.html"
     },
     {
-      "@id": "_:Nd40e3edf875645e1a164c77beae7a5f8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:Nb6286fdd5979482b9e1c50eff83ee8d9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2887"
-      },
-      "sc:name": "Nucleic acid sequence record"
-    },
-    {
-      "@id": "_:N0858be0bef2b4cc1b0f1a182c0e791d4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0850"
-      },
-      "sc:name": "Sequence set"
-    },
-    {
-      "@id": "_:N1c2a3b84eb4548029e5899f75a12a3c7",
+      "@id": "_:Nbb43cbfd8f4942ff87ab3246694d027c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -147,15 +131,31 @@
       "sc:name": "Nucleic acid features"
     },
     {
+      "@id": "_:Ne705dd644cd241608dce1b4cd0974475",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:Nd39c5a233a52433e9e328dd628e620bb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:Nb29d01171dd24b449bd398a3325b5535",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2887"
+      },
+      "sc:name": "Nucleic acid sequence record"
+    },
+    {
       "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     }
   ]

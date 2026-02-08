@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.3389/fcvm.2022.975478",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/veta_variantBenchmark",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na68228de0ec743be8663f537b030ae76"
+        "@id": "_:Nd263fa0e97c84dd4945b426c922088ae"
       },
       "bsc:output": {
-        "@id": "_:N45e1bc4436f14e1797450306303b77da"
+        "@id": "_:Nf704d53344cf4ea8b05f1203931388e0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -59,11 +55,11 @@
         }
       ],
       "sc:citation": [
-        "pubmed:36061567",
-        "pmcid:PMC9433717",
         {
           "@id": "https://doi.org/10.3389/fcvm.2022.975478"
-        }
+        },
+        "pubmed:36061567",
+        "pmcid:PMC9433717"
       ],
       "sc:description": "Benchmarking tools that predict the effect of genetic variants.",
       "sc:featureList": [
@@ -79,8 +75,8 @@
       "sc:name": "VETA",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/PedroBarbosa/VETA"
@@ -89,7 +85,7 @@
       "sc:url": "https://github.com/PedroBarbosa/VETA"
     },
     {
-      "@id": "_:N45e1bc4436f14e1797450306303b77da",
+      "@id": "_:Nf704d53344cf4ea8b05f1203931388e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -97,7 +93,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Na68228de0ec743be8663f537b030ae76",
+      "@id": "_:Nd263fa0e97c84dd4945b426c922088ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -106,6 +102,10 @@
         "@id": "edam:format_3016"
       },
       "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "https://doi.org/10.3389/fcvm.2022.975478",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

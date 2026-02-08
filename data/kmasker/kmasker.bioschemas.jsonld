@@ -40,97 +40,109 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://orcid.org/0000-0003-1073-6719",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5444-9282",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2177-8781",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/Kmasker",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
         {
-          "@id": "https://orcid.org/0000-0001-5444-9282"
+          "@id": "https://orcid.org/0000-0003-1073-6719"
         },
         {
-          "@id": "https://orcid.org/0000-0003-1073-6719"
+          "@id": "https://orcid.org/0000-0001-5444-9282"
         }
       ],
       "bsc:input": [
         {
-          "@id": "_:Nfea7b11074bf4f2fa27acd11cc7fd7fa"
+          "@id": "_:Ne33b9c9d969d48e7b65b0621bd1902c6"
         },
         {
-          "@id": "_:N85adbb3ab223488394f4062c883b92dc"
+          "@id": "_:N0219ce1079fb41f3bf690564fd9fd880"
         },
         {
-          "@id": "_:N06805b0bebe54d8fb6301a25ce93680a"
+          "@id": "_:Nd047e3ca2b024bd08fd0ef80d910c563"
         },
         {
-          "@id": "_:N1949745b9e3e4060b360173b35f640dc"
+          "@id": "_:N322bcf47cb484b53a48caa927ef12808"
         },
         {
-          "@id": "_:N99ec5a2666734ceeb78e515f9bc9d78c"
+          "@id": "_:N239978b54b304655b137e66bfbfc6861"
         },
         {
-          "@id": "_:Nd5a9e868c80941bb82c4b1e4d8378206"
+          "@id": "_:N561acb0fca70414991a809a6ed7a022e"
         },
         {
-          "@id": "_:N3802bef1b54f4817ba89d74983c340e3"
+          "@id": "_:N0a2c6850a4c045ccaa8fb729d6775a94"
         },
         {
-          "@id": "_:N019694b8804e42d894794c02426cf50f"
+          "@id": "_:N4ecc1c12d2b14b87b4d9f55b097b4f23"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd6bedb35608e4d9ab335a67bd6f119c2"
+          "@id": "_:N0ad3c49fa28542c9a2424b98cd9f48c6"
         },
         {
-          "@id": "_:N47ec70a929fe4d80985980deca4d11d7"
+          "@id": "_:N0bb60b9d5aa3471bb8ed2626a8aae01f"
         },
         {
-          "@id": "_:Ne0b6df963feb4b54a723e54e2c69ee17"
+          "@id": "_:N3e8049e29fae4db8a4a856ee4a5f4219"
         },
         {
-          "@id": "_:Nf3c86928d90a44d99b138142acf12acb"
+          "@id": "_:N7bcae1be7cf944149e6aacd4772f33a0"
         },
         {
-          "@id": "_:Nb1fefc8135ce4380afe9d45a8db55947"
+          "@id": "_:Nae97a7f9b07d4954aac39b87dab1f9f8"
         },
         {
-          "@id": "_:N0b9bb9788069405d9de2df4e3bd55904"
+          "@id": "_:N64542ef0a3a342d0a09daa540aaed6fa"
         },
         {
-          "@id": "_:Na318335275ed4f619c619aa74643e0d3"
+          "@id": "_:N9bda3a9d1145467aa88cf459bdca31af"
         },
         {
-          "@id": "_:N114e08e7b8914ba187b1cf92f26cd7c9"
+          "@id": "_:Ncee04d21a9624eb6b32406d70a47cdfa"
         },
         {
-          "@id": "_:Ndc92986e4e044d41959386193440318a"
+          "@id": "_:N6594f62d5abf48fe9b55649dade6b7e4"
         },
         {
-          "@id": "_:Nc61975ce8c67490fbc9a90cf6ae28c29"
+          "@id": "_:Nb3661148e87b4963bc4623fd38185114"
         },
         {
-          "@id": "_:Nfd203072d7734162aaa10be137017ea5"
+          "@id": "_:N3c9b27d8527a43afb8bfb85f98b28d56"
         },
         {
-          "@id": "_:N6faec44901a746d69489792ab38732c7"
+          "@id": "_:Nc4242a3a69d44ca2be6d491b86b0a131"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Web service"
+        "Web service",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_0797"
-        },
-        {
-          "@id": "edam:topic_0780"
-        },
         {
           "@id": "edam:topic_3511"
         },
         {
+          "@id": "edam:topic_0797"
+        },
+        {
           "@id": "edam:topic_0157"
+        },
+        {
+          "@id": "edam:topic_0780"
         }
       ],
       "sc:author": [
@@ -139,10 +151,10 @@
         },
         "Markus Schwalbe",
         {
-          "@id": "https://orcid.org/0000-0001-5444-9282"
+          "@id": "https://orcid.org/0000-0003-1073-6719"
         },
         {
-          "@id": "https://orcid.org/0000-0003-1073-6719"
+          "@id": "https://orcid.org/0000-0001-5444-9282"
         }
       ],
       "sc:citation": [
@@ -152,30 +164,30 @@
         }
       ],
       "sc:contributor": [
+        "Markus Schwalbe",
         {
           "@id": "https://orcid.org/0000-0002-2177-8781"
-        },
-        "Markus Schwalbe"
+        }
       ],
       "sc:description": "Kmasker plants is a tool for the automatic detection of sequence regions with meaningful k-mer characteristics. This can be sequences with highly abundant k-mer patterns (repeats), regions with diverging k-mer patterns between two studied WGS samples or segments with high target specificity.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2428"
+          "@id": "edam:operation_3472"
         },
         {
           "@id": "edam:operation_2451"
         },
         {
-          "@id": "edam:operation_3472"
+          "@id": "edam:operation_0379"
+        },
+        {
+          "@id": "edam:operation_2428"
         },
         {
           "@id": "edam:operation_0237"
         },
         {
           "@id": "edam:operation_0463"
-        },
-        {
-          "@id": "edam:operation_0379"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -187,64 +199,20 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://github.com/tschmutzer/kmasker/blob/master/README.md"
+          "@id": "https://github.com/tschmutzer/kmasker/blob/master/INSTALL.md"
         },
         {
-          "@id": "https://github.com/tschmutzer/kmasker/blob/master/INSTALL.md"
+          "@id": "https://github.com/tschmutzer/kmasker/blob/master/README.md"
         }
       ],
       "sc:softwareVersion": [
-        "1.1.0",
-        "1.1.1"
+        "1.1.1",
+        "1.1.0"
       ],
       "sc:url": "https://kmasker.ipk-gatersleben.de/"
     },
     {
-      "@id": "_:Nd6bedb35608e4d9ab335a67bd6f119c2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2914"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1975"
-      },
-      "sc:name": "Sequence features metadata"
-    },
-    {
-      "@id": "_:N47ec70a929fe4d80985980deca4d11d7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1975"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:Ne0b6df963feb4b54a723e54e2c69ee17",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1975"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:Nf3c86928d90a44d99b138142acf12acb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:Nb1fefc8135ce4380afe9d45a8db55947",
+      "@id": "_:Ne33b9c9d969d48e7b65b0621bd1902c6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -255,40 +223,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N0b9bb9788069405d9de2df4e3bd55904",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1361"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3665"
-      },
-      "sc:name": "Position frequency matrix"
-    },
-    {
-      "@id": "_:Na318335275ed4f619c619aa74643e0d3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1361"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3665"
-      },
-      "sc:name": "Position frequency matrix"
-    },
-    {
-      "@id": "_:N114e08e7b8914ba187b1cf92f26cd7c9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1361"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3665"
-      },
-      "sc:name": "Position frequency matrix"
-    },
-    {
-      "@id": "_:Ndc92986e4e044d41959386193440318a",
+      "@id": "_:N0219ce1079fb41f3bf690564fd9fd880",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -299,117 +234,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Nc61975ce8c67490fbc9a90cf6ae28c29",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:Nfd203072d7734162aaa10be137017ea5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Score"
-    },
-    {
-      "@id": "_:N6faec44901a746d69489792ab38732c7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1975"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:Nfea7b11074bf4f2fa27acd11cc7fd7fa",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N85adbb3ab223488394f4062c883b92dc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3495"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "RNA sequence"
-    },
-    {
-      "@id": "_:N06805b0bebe54d8fb6301a25ce93680a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0857"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1333"
-      },
-      "sc:name": "Sequence search results"
-    },
-    {
-      "@id": "_:N1949745b9e3e4060b360173b35f640dc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N99ec5a2666734ceeb78e515f9bc9d78c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1975"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:Nd5a9e868c80941bb82c4b1e4d8378206",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N3802bef1b54f4817ba89d74983c340e3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N019694b8804e42d894794c02426cf50f",
+      "@id": "_:Nd047e3ca2b024bd08fd0ef80d910c563",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -420,16 +245,191 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "https://orcid.org/0000-0003-1073-6719",
-      "@type": "sc:Person"
+      "@id": "_:N322bcf47cb484b53a48caa927ef12808",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1333"
+      },
+      "sc:name": "Sequence search results"
     },
     {
-      "@id": "https://orcid.org/0000-0001-5444-9282",
-      "@type": "sc:Person"
+      "@id": "_:N239978b54b304655b137e66bfbfc6861",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "RNA sequence"
     },
     {
-      "@id": "https://orcid.org/0000-0002-2177-8781",
-      "@type": "sc:Person"
+      "@id": "_:N561acb0fca70414991a809a6ed7a022e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N0a2c6850a4c045ccaa8fb729d6775a94",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N4ecc1c12d2b14b87b4d9f55b097b4f23",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N0ad3c49fa28542c9a2424b98cd9f48c6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N0bb60b9d5aa3471bb8ed2626a8aae01f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N3e8049e29fae4db8a4a856ee4a5f4219",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1361"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3665"
+      },
+      "sc:name": "Position frequency matrix"
+    },
+    {
+      "@id": "_:N7bcae1be7cf944149e6aacd4772f33a0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1361"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3665"
+      },
+      "sc:name": "Position frequency matrix"
+    },
+    {
+      "@id": "_:Nae97a7f9b07d4954aac39b87dab1f9f8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N64542ef0a3a342d0a09daa540aaed6fa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1361"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3665"
+      },
+      "sc:name": "Position frequency matrix"
+    },
+    {
+      "@id": "_:N9bda3a9d1145467aa88cf459bdca31af",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:Ncee04d21a9624eb6b32406d70a47cdfa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N6594f62d5abf48fe9b55649dade6b7e4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2914"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Sequence features metadata"
+    },
+    {
+      "@id": "_:Nb3661148e87b4963bc4623fd38185114",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N3c9b27d8527a43afb8bfb85f98b28d56",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Nc4242a3a69d44ca2be6d491b86b0a131",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
     }
   ]
 }

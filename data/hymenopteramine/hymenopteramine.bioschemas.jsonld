@@ -36,76 +36,72 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/HymenopteraMine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ndc081f0e9ba3456f911b4047d7f130d3"
+          "@id": "_:N23cf0e2736ec44ec832ba736730f2d43"
         },
         {
-          "@id": "_:Nf00f5592b3de4798ab4612cd32e692ba"
+          "@id": "_:N40794994105f49d8ae45ccea08ebf859"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6ea8515e6977489c86c45297340ab326"
+          "@id": "_:Nc0fd131aee9a430f88a681ffac6b9979"
         },
         {
-          "@id": "_:Naac9256b41fd413c992c738db4189cc4"
+          "@id": "_:Ne036be40c5b54878933e9f782cd5681b"
         },
         {
-          "@id": "_:N61f8045044054a2cb036cbeceede62fd"
+          "@id": "_:Ne1703bbef754442e8b426c9f9de3ab7a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web service",
+        "Web application",
         "Database portal",
-        "Web application"
+        "Web service"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3071"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_0622"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC3516146",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/bts577"
         },
-        "pubmed:23023984",
-        "pmcid:PMC3516146"
+        "pubmed:23023984"
       ],
       "sc:description": "An integrated data warehouse for the Hymenoptera Genome Database",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2436"
-        },
-        {
           "@id": "edam:operation_0337"
         },
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_2436"
         },
         {
           "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_2422"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "LGPL-2.1",
       "sc:name": "HymenopteraMine",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
@@ -119,7 +115,7 @@
       "sc:url": "http://hymenopteragenome.org/hymenopteramine"
     },
     {
-      "@id": "_:Ndc081f0e9ba3456f911b4047d7f130d3",
+      "@id": "_:N23cf0e2736ec44ec832ba736730f2d43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -127,7 +123,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:Nf00f5592b3de4798ab4612cd32e692ba",
+      "@id": "_:N40794994105f49d8ae45ccea08ebf859",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -135,7 +131,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N6ea8515e6977489c86c45297340ab326",
+      "@id": "_:Nc0fd131aee9a430f88a681ffac6b9979",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -143,7 +139,7 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:Naac9256b41fd413c992c738db4189cc4",
+      "@id": "_:Ne036be40c5b54878933e9f782cd5681b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -151,12 +147,16 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N61f8045044054a2cb036cbeceede62fd",
+      "@id": "_:Ne1703bbef754442e8b426c9f9de3ab7a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
       },
       "sc:name": "Query script"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

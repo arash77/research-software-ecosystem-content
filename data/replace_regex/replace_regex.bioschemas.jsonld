@@ -48,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N085b455657974274b6012c37aece4b54"
+        "@id": "_:Ndd65892f725846d993499b16a89ae3b2"
       },
       "bsc:output": {
-        "@id": "_:Na53e6dbeaff347a39e976847342edb60"
+        "@id": "_:N81e353a7ad0d4af0967f0a02fb03a6dd"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -72,9 +72,9 @@
       },
       "sc:name": "replace_regex",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Fscreno%2Ftext_manipulation_utilities%2Freplace_regex%2F0.0.1"
@@ -83,7 +83,7 @@
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/screno/text_manipulation_utilities/replace_regex/0.0.1"
     },
     {
-      "@id": "_:Na53e6dbeaff347a39e976847342edb60",
+      "@id": "_:N81e353a7ad0d4af0967f0a02fb03a6dd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -94,7 +94,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N085b455657974274b6012c37aece4b54",
+      "@id": "_:Ndd65892f725846d993499b16a89ae3b2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

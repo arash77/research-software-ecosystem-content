@@ -36,23 +36,27 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.12688/f1000research.9259.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/genebreak",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Evert van den Broek",
       "bsc:input": [
         {
-          "@id": "_:N5057594e68b94df681f26380db4379a7"
+          "@id": "_:Na428cd371a4b488fb4fca640d67502db"
         },
         {
-          "@id": "_:N08f76f3c11134d17920ec2de152f4969"
+          "@id": "_:N432e8517fa854d8a9ac04733d98d3393"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N27f38a0306304ab29576b3e3a0cea171"
+          "@id": "_:N1b490d22ec99474c937ff73846c48412"
         },
         {
-          "@id": "_:N93e6578a4aaa4b89949cc2dc261259a7"
+          "@id": "_:N156e7b3b2fa24cd2b7c11b9401a39de8"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,50 +93,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/GeneBreak.html"
     },
     {
-      "@id": "_:N27f38a0306304ab29576b3e3a0cea171",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1276"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Nucleic acid features"
-    },
-    {
-      "@id": "_:N93e6578a4aaa4b89949cc2dc261259a7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:N5057594e68b94df681f26380db4379a7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2012"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Sequence coordinates"
-    },
-    {
-      "@id": "_:N08f76f3c11134d17920ec2de152f4969",
+      "@id": "_:Na428cd371a4b488fb4fca640d67502db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -143,8 +104,47 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "https://doi.org/10.12688/f1000research.9259.1",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N432e8517fa854d8a9ac04733d98d3393",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:N1b490d22ec99474c937ff73846c48412",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N156e7b3b2fa24cd2b7c11b9401a39de8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Nucleic acid features"
     }
   ]
 }

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/ond-crf",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N812dbab1b0a84b338f13b95735b4cdbc"
+        "@id": "_:Nbfebf780233e4238b1a33aab2383606e"
       },
       "bsc:output": {
-        "@id": "_:N3217dca2c17a4a7da1456c75ead20965"
+        "@id": "_:Na2ec2edf6f9f494ba05a827e944164f9"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -62,8 +62,8 @@
       "sc:name": "OnD-CRF",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -73,7 +73,7 @@
       "sc:url": "http://babel.ucmp.umu.se/ond-crf/"
     },
     {
-      "@id": "_:N812dbab1b0a84b338f13b95735b4cdbc",
+      "@id": "_:Nbfebf780233e4238b1a33aab2383606e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -81,7 +81,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N3217dca2c17a4a7da1456c75ead20965",
+      "@id": "_:Na2ec2edf6f9f494ba05a827e944164f9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

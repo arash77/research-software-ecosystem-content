@@ -44,32 +44,32 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na7d635465bdb4c579392ce1f02ae8b2e"
+          "@id": "_:N704d0066c3e543c9811c38596547a896"
         },
         {
-          "@id": "_:Nb740530788ea4cd89b93be353ff2c36f"
+          "@id": "_:N4111087d9c934dd69f8f6423ccd11e76"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nee0eb5d82fd84783a7534f7b2fca68db"
+        "@id": "_:N9fc8b2d317924bd7af7053dd0fc103bd"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3299"
-        },
-        {
-          "@id": "edam:topic_0084"
-        },
-        {
           "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3944"
+        },
+        {
+          "@id": "edam:topic_3299"
         },
         {
           "@id": "edam:topic_0194"
         },
         {
-          "@id": "edam:topic_3944"
+          "@id": "edam:topic_0084"
         }
       ],
       "sc:citation": {
@@ -81,10 +81,10 @@
           "@id": "edam:operation_0540"
         },
         {
-          "@id": "edam:operation_2990"
+          "@id": "edam:operation_0567"
         },
         {
-          "@id": "edam:operation_0567"
+          "@id": "edam:operation_2990"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -94,7 +94,7 @@
       "sc:url": "https://github.com/yatisht/usher"
     },
     {
-      "@id": "_:Na7d635465bdb4c579392ce1f02ae8b2e",
+      "@id": "_:N704d0066c3e543c9811c38596547a896",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -102,7 +102,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nb740530788ea4cd89b93be353ff2c36f",
+      "@id": "_:N4111087d9c934dd69f8f6423ccd11e76",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2523"
@@ -113,7 +113,7 @@
       "sc:name": "Phylogenetic data"
     },
     {
-      "@id": "_:Nee0eb5d82fd84783a7534f7b2fca68db",
+      "@id": "_:N9fc8b2d317924bd7af7053dd0fc103bd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2523"

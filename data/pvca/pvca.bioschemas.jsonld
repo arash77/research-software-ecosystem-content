@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/9780470685983.ch12",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/pvca",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jianying LI",
       "bsc:input": {
-        "@id": "_:N20478461e85044c59985a2454ecf3e7c"
+        "@id": "_:N6ca4bc912a7c45fdb7aa1fe2ae57884b"
       },
       "bsc:output": [
         {
-          "@id": "_:N3044725404d5411db0b21a88d32de659"
+          "@id": "_:N77834ee94973477f8a1a6b276d57d42c"
         },
         {
-          "@id": "_:N515ff43772bf4f47a5c7c9d8bc5415b5"
+          "@id": "_:N644c23cc5b7d4770ab2bcfe62ee0afce"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,10 +61,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3518"
+          "@id": "edam:topic_3572"
         },
         {
-          "@id": "edam:topic_3572"
+          "@id": "edam:topic_3518"
         }
       ],
       "sc:citation": {
@@ -73,9 +77,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "pvca",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/pvca.html"
@@ -84,26 +88,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/pvca.html"
     },
     {
-      "@id": "_:N20478461e85044c59985a2454ecf3e7c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3110"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1637"
-        },
-        {
-          "@id": "edam:format_1639"
-        },
-        {
-          "@id": "edam:format_1638"
-        }
-      ],
-      "sc:name": "Raw microarray data"
-    },
-    {
-      "@id": "_:N3044725404d5411db0b21a88d32de659",
+      "@id": "_:N77834ee94973477f8a1a6b276d57d42c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -114,7 +99,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N515ff43772bf4f47a5c7c9d8bc5415b5",
+      "@id": "_:N644c23cc5b7d4770ab2bcfe62ee0afce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -125,8 +110,23 @@
       "sc:name": "Processed microarray data"
     },
     {
-      "@id": "https://doi.org/10.1002/9780470685983.ch12",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N6ca4bc912a7c45fdb7aa1fe2ae57884b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3110"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1637"
+        },
+        {
+          "@id": "edam:format_1638"
+        },
+        {
+          "@id": "edam:format_1639"
+        }
+      ],
+      "sc:name": "Raw microarray data"
     }
   ]
 }

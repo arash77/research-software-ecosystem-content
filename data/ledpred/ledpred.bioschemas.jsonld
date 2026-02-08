@@ -45,34 +45,34 @@
       "biotools:primaryContact": "Aitor Gonzalez",
       "bsc:input": [
         {
-          "@id": "_:N93018fd28f1c4c518841f729d7284169"
+          "@id": "_:N45f6c8b6a9274b3e9137344b20ef9682"
         },
         {
-          "@id": "_:Neb11399cf4de4c2083e3ced73468c4c0"
+          "@id": "_:Nca1acde25b7b464d92cfbeac1e9c38f0"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc922522c517643279aed500a76c144cc"
+          "@id": "_:Nde654b2837c84c209ee0dc437201b0e9"
         },
         {
-          "@id": "_:Nff6ce94db73d4df3915300e01841547a"
+          "@id": "_:N5b60d10a099446bf9c5ad5b04be6fd5d"
         },
         {
-          "@id": "_:N92d6979f5cce4b238693730bdc757b64"
+          "@id": "_:N1c53db4076ae445e8529afb1f4678706"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3474"
+          "@id": "edam:topic_0602"
         },
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_3474"
         },
         {
           "@id": "edam:topic_3168"
@@ -102,74 +102,55 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/LedPred.html"
     },
     {
-      "@id": "_:Nc922522c517643279aed500a76c144cc",
+      "@id": "_:Nde654b2837c84c209ee0dc437201b0e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nff6ce94db73d4df3915300e01841547a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Score"
-    },
-    {
-      "@id": "_:N92d6979f5cce4b238693730bdc757b64",
+      "@id": "_:N5b60d10a099446bf9c5ad5b04be6fd5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:N93018fd28f1c4c518841f729d7284169",
+      "@id": "_:N1c53db4076ae445e8529afb1f4678706",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2854"
+        "@id": "edam:data_1772"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3033"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3003"
-        },
-        {
-          "@id": "edam:format_3005"
+          "@id": "edam:format_2330"
         }
       ],
-      "sc:name": "Position-specific scoring matrix"
+      "sc:name": "Score"
     },
     {
-      "@id": "_:Neb11399cf4de4c2083e3ced73468c4c0",
+      "@id": "_:N45f6c8b6a9274b3e9137344b20ef9682",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -179,13 +160,32 @@
           "@id": "edam:format_3003"
         },
         {
-          "@id": "edam:format_3005"
+          "@id": "edam:format_3033"
         },
         {
-          "@id": "edam:format_3033"
+          "@id": "edam:format_3005"
         }
       ],
       "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:Nca1acde25b7b464d92cfbeac1e9c38f0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2854"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3005"
+        }
+      ],
+      "sc:name": "Position-specific scoring matrix"
     }
   ]
 }

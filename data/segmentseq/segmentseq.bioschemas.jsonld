@@ -44,25 +44,25 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Thomas J. Hardcastle",
       "bsc:input": {
-        "@id": "_:N348ddfad35364436b868656acd2fe364"
+        "@id": "_:N1fe9b53acc8943c9910289bc1327e23b"
       },
       "bsc:output": {
-        "@id": "_:Nde77aa3c17b942acb2284e8c5a2ab5d7"
+        "@id": "_:N371a39325e9a469b84c6193df5df58e2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_0102"
         },
         {
-          "@id": "edam:topic_3170"
+          "@id": "edam:topic_3169"
         },
         {
-          "@id": "edam:topic_3169"
+          "@id": "edam:topic_3170"
         }
       ],
       "sc:citation": [
@@ -78,9 +78,9 @@
       "sc:license": "GPL-3.0",
       "sc:name": "segmentSeq",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/segmentSeq.html"
@@ -89,7 +89,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/segmentSeq.html"
     },
     {
-      "@id": "_:N348ddfad35364436b868656acd2fe364",
+      "@id": "_:N1fe9b53acc8943c9910289bc1327e23b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -100,17 +100,17 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:Nde77aa3c17b942acb2284e8c5a2ab5d7",
+      "@id": "_:N371a39325e9a469b84c6193df5df58e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_3475"
         },
         {
-          "@id": "edam:format_3475"
+          "@id": "edam:format_3547"
         }
       ],
       "sc:name": "Plot"

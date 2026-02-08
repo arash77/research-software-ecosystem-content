@@ -36,12 +36,12 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-9451-7822",
+      "@id": "https://orcid.org/0000-0001-7039-7996",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0001-7039-7996",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1016/j.compbiolchem.2024.108140",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/etenlnc",
@@ -51,30 +51,30 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nde91245ffb5d45db87773d667f0e76c8"
+          "@id": "_:N33999d24777d421bb30f02a0b898404f"
         },
         {
-          "@id": "_:N7f338313a94e46d096fc06f5c785801b"
+          "@id": "_:Nde2d51da36e74cbfb8ad245b503d6088"
         },
         {
-          "@id": "_:N1f2a9847d8de4ebc81614a28783d6c52"
+          "@id": "_:Nc5be1a1f548e41d1908fb57ea192b655"
         },
         {
-          "@id": "_:N62804db42fa9438b85441ba5ca7c17e6"
+          "@id": "_:N852dc11741b2430dac89624097c4c92c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9647268e94a64b0d9238aeaf1641cfa6"
+          "@id": "_:N494ec712252841e08ebad006d0b1a71d"
         },
         {
-          "@id": "_:N093f0d21deb54e98b434930e715a7dc7"
+          "@id": "_:Nb6c468e8fba74deba93f60fe80595bc2"
         },
         {
-          "@id": "_:N09d77392d3a340aaa48e741a91bba96a"
+          "@id": "_:Nf4eedb8c90b74149bf8113ecc13a66d6"
         },
         {
-          "@id": "_:N5d4cc3f4a12a4f5d80b040e5e43ddd4e"
+          "@id": "_:N1901f8c25a8f4ba2bc3218dd35c03a09"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -94,28 +94,19 @@
       "sc:description": "ETENLNC (End-To-End-Novel-NonCoding) is a lncRNA identification and analysis framework",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3901"
-        },
-        {
-          "@id": "edam:operation_3472"
-        },
-        {
           "@id": "edam:operation_0415"
-        },
-        {
-          "@id": "edam:operation_0389"
-        },
-        {
-          "@id": "edam:operation_3223"
-        },
-        {
-          "@id": "edam:operation_0278"
         },
         {
           "@id": "edam:operation_3800"
         },
         {
-          "@id": "edam:operation_3218"
+          "@id": "edam:operation_3472"
+        },
+        {
+          "@id": "edam:operation_3258"
+        },
+        {
+          "@id": "edam:operation_3901"
         },
         {
           "@id": "edam:operation_2437"
@@ -124,10 +115,19 @@
           "@id": "edam:operation_0531"
         },
         {
-          "@id": "edam:operation_3258"
+          "@id": "edam:operation_3223"
+        },
+        {
+          "@id": "edam:operation_0278"
         },
         {
           "@id": "edam:operation_3219"
+        },
+        {
+          "@id": "edam:operation_0389"
+        },
+        {
+          "@id": "edam:operation_3218"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -145,18 +145,15 @@
       "sc:url": "https://github.com/EvolOMICS-TU/ETENLNC"
     },
     {
-      "@id": "_:N9647268e94a64b0d9238aeaf1641cfa6",
+      "@id": "_:N494ec712252841e08ebad006d0b1a71d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2887"
+        "@id": "edam:data_0906"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Nucleic acid sequence record"
+      "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N093f0d21deb54e98b434930e715a7dc7",
+      "@id": "_:Nb6c468e8fba74deba93f60fe80595bc2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -167,15 +164,18 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N09d77392d3a340aaa48e741a91bba96a",
+      "@id": "_:Nf4eedb8c90b74149bf8113ecc13a66d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0906"
+        "@id": "edam:data_2887"
       },
-      "sc:name": "Protein interaction data"
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:N5d4cc3f4a12a4f5d80b040e5e43ddd4e",
+      "@id": "_:N1901f8c25a8f4ba2bc3218dd35c03a09",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -186,7 +186,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:Nde91245ffb5d45db87773d667f0e76c8",
+      "@id": "_:N33999d24777d421bb30f02a0b898404f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1288"
@@ -197,7 +197,18 @@
       "sc:name": "Genome map"
     },
     {
-      "@id": "_:N7f338313a94e46d096fc06f5c785801b",
+      "@id": "_:Nde2d51da36e74cbfb8ad245b503d6088",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nc5be1a1f548e41d1908fb57ea192b655",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -213,7 +224,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N1f2a9847d8de4ebc81614a28783d6c52",
+      "@id": "_:N852dc11741b2430dac89624097c4c92c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -224,19 +235,8 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N62804db42fa9438b85441ba5ca7c17e6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.compbiolchem.2024.108140",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0002-9451-7822",
+      "@type": "sc:Person"
     }
   ]
 }

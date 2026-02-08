@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Astrid Louise Deschenes",
       "bsc:input": {
-        "@id": "_:Nae77a9ea4f8c45b286257c95bd597142"
+        "@id": "_:N6914090a7948433d921be22d0d11c508"
       },
       "bsc:output": {
-        "@id": "_:N2f6d69a31ccf443f86e1649ee30244cb"
+        "@id": "_:N17b631a0f6b3422d8bc8895acdd84296"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -52,10 +52,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3534"
+          "@id": "edam:topic_3169"
         },
         {
-          "@id": "edam:topic_3169"
+          "@id": "edam:topic_3534"
         }
       ],
       "sc:citation": [
@@ -72,9 +72,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "similaRpeak",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/similaRpeak.html"
@@ -83,7 +83,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/similaRpeak.html"
     },
     {
-      "@id": "_:N2f6d69a31ccf443f86e1649ee30244cb",
+      "@id": "_:N17b631a0f6b3422d8bc8895acdd84296",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0865"
@@ -99,7 +99,7 @@
       "sc:name": "Sequence similarity score"
     },
     {
-      "@id": "_:Nae77a9ea4f8c45b286257c95bd597142",
+      "@id": "_:N6914090a7948433d921be22d0d11c508",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

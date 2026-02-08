@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/singlem",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8af44cc7c9d94986ba90a165efb39668"
+        "@id": "_:N67e1f86fca4d497fb815e3fc27367bdf"
       },
       "bsc:output": {
-        "@id": "_:Ne54688ca4de543fbaa45fb46c7e303ce"
+        "@id": "_:Na0856d98e3f342cd9168bffd0ad2c8db"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -66,23 +66,7 @@
       "sc:url": "https://wwood.github.io/singlem/"
     },
     {
-      "@id": "_:N8af44cc7c9d94986ba90a165efb39668",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_1930"
-        }
-      ],
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:Ne54688ca4de543fbaa45fb46c7e303ce",
+      "@id": "_:Na0856d98e3f342cd9168bffd0ad2c8db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -91,6 +75,22 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "_:N67e1f86fca4d497fb815e3fc27367bdf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1930"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "DNA sequence"
     },
     {
       "@id": "https://doi.org/10.1101/2024.01.30.578060",

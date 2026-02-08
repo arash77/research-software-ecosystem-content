@@ -44,31 +44,31 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N025e8e8c2d2544edb6857b1df39d0cf9"
+          "@id": "_:N712aa12d6b4941b8b604ed426097a00a"
         },
         {
-          "@id": "_:N3956a6dc37c943129379987d1a10a70e"
+          "@id": "_:N79128b61b34244ebbeccb3428d7a76b4"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N441cb4983d214636af74923c54e90dba"
+          "@id": "_:Nb7a0436a5eb340609e3f8494cb55ccda"
         },
         {
-          "@id": "_:Ne487bb09dbc34acdac6f83eb0739cd41"
+          "@id": "_:Nef83741ab41a421d90da797703fdffd5"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3172"
-        },
-        {
           "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_3172"
         }
       ],
       "sc:citation": {
@@ -77,26 +77,26 @@
       "sc:description": "Compares two datasets in netCDF or ASCII format.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3203"
-        },
-        {
-          "@id": "edam:operation_3694"
-        },
-        {
-          "@id": "edam:operation_2424"
+          "@id": "edam:operation_1812"
         },
         {
           "@id": "edam:operation_0335"
         },
         {
-          "@id": "edam:operation_1812"
+          "@id": "edam:operation_2424"
+        },
+        {
+          "@id": "edam:operation_3694"
+        },
+        {
+          "@id": "edam:operation_3203"
         }
       ],
       "sc:name": "COMSPARI",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.biomechanic.org/comspari/COMSPARI/README"
@@ -104,29 +104,7 @@
       "sc:url": "http://www.biomechanic.org/comspari"
     },
     {
-      "@id": "_:N441cb4983d214636af74923c54e90dba",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Mass spectrometry spectra"
-    },
-    {
-      "@id": "_:Ne487bb09dbc34acdac6f83eb0739cd41",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Mass spectrometry spectra"
-    },
-    {
-      "@id": "_:N025e8e8c2d2544edb6857b1df39d0cf9",
+      "@id": "_:N712aa12d6b4941b8b604ed426097a00a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -137,7 +115,29 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N3956a6dc37c943129379987d1a10a70e",
+      "@id": "_:N79128b61b34244ebbeccb3428d7a76b4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Nb7a0436a5eb340609e3f8494cb55ccda",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Nef83741ab41a421d90da797703fdffd5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

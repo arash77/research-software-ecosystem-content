@@ -42,7 +42,7 @@
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3512"
+          "@id": "edam:topic_3298"
         },
         {
           "@id": "edam:topic_3055"
@@ -54,7 +54,7 @@
           "@id": "edam:topic_0102"
         },
         {
-          "@id": "edam:topic_3298"
+          "@id": "edam:topic_3512"
         }
       ],
       "sc:citation": {

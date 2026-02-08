@@ -67,8 +67,8 @@
       "sc:license": "Not licensed",
       "sc:name": "RAVAQ",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {

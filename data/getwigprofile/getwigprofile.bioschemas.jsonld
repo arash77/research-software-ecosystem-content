@@ -40,28 +40,32 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/getwigprofile",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N0e79f4f306c448cbb087f57fc19a4ebd"
+          "@id": "_:N70511032a671440a972f40fef9d8420b"
         },
         {
-          "@id": "_:N1646200effa2478b818abeafd4bf25af"
+          "@id": "_:N914a558fe8dc4469abfa38cb1a62789e"
         },
         {
-          "@id": "_:Ne0724cae143b49258a35524a293f2bf1"
+          "@id": "_:N3f506123b598498b8c3aeb20dcde7d94"
         },
         {
-          "@id": "_:N4f1da8ca846c455abd347ef265643b5d"
+          "@id": "_:N610dffd978ac406089fc8c2b48cd32d1"
         },
         {
-          "@id": "_:Nd0ceb98ec8824f6f8dedb812629c8754"
+          "@id": "_:N0d3d0a565d8c4ca481ea6f3fde55d33c"
         }
       ],
       "bsc:output": {
-        "@id": "_:N5a76f1ae17ac43a78b60887e2b4ee2bf"
+        "@id": "_:N1114b20ffe3146d29e5e648065566760"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -70,13 +74,13 @@
       },
       "sc:citation": [
         "pubmed:27137889",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkw343"
-        },
+        "pmcid:PMC4987906",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC4987906"
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        }
       ],
       "sc:description": "Compute the average profile of some genomic coordinates using WIG files (thus covering a large proportion of the genome).",
       "sc:featureList": {
@@ -84,9 +88,9 @@
       },
       "sc:name": "getwigprofile",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://galaxyproject.org/support/"
@@ -95,18 +99,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N0e79f4f306c448cbb087f57fc19a4ebd",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1975"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N1646200effa2478b818abeafd4bf25af",
+      "@id": "_:N70511032a671440a972f40fef9d8420b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -117,29 +110,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Ne0724cae143b49258a35524a293f2bf1",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2305"
-      },
-      "sc:name": "Data"
-    },
-    {
-      "@id": "_:N4f1da8ca846c455abd347ef265643b5d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3002"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3005"
-      },
-      "sc:name": "Annotation track"
-    },
-    {
-      "@id": "_:Nd0ceb98ec8824f6f8dedb812629c8754",
+      "@id": "_:N914a558fe8dc4469abfa38cb1a62789e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -150,7 +121,40 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N5a76f1ae17ac43a78b60887e2b4ee2bf",
+      "@id": "_:N3f506123b598498b8c3aeb20dcde7d94",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N610dffd978ac406089fc8c2b48cd32d1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3005"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N0d3d0a565d8c4ca481ea6f3fde55d33c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N1114b20ffe3146d29e5e648065566760",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -159,10 +163,6 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Image"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -40,20 +40,20 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nae249b4a87aa473b91132de90a973e01"
+          "@id": "_:N45fb6ce65eae4b4695850ebe42b9894e"
         },
         {
-          "@id": "_:N29ad55ec3cae4a769ba91e1c24ffa6f7"
+          "@id": "_:Nd8d0b141d4c24870b47c0b11e6c7f92e"
         },
         {
-          "@id": "_:Nd6442c211795459387f262f564164810"
+          "@id": "_:Nf73c53ff5e02427a81fe959bfb1ff1cc"
         },
         {
-          "@id": "_:N0d4aa8afe4124c00a5c629bc2b6670a2"
+          "@id": "_:N500e0aa9cbec4e0f902c73b0743037cc"
         }
       ],
       "bsc:output": {
-        "@id": "_:N2f36963defcb45d6b2bcf93931f7a7b5"
+        "@id": "_:N981580bcd8e4441080c65a07d1f25776"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:description": "3128391233213",
@@ -62,17 +62,28 @@
           "@id": "edam:operation_0303"
         },
         {
-          "@id": "edam:operation_2928"
+          "@id": "edam:operation_0302"
         },
         {
-          "@id": "edam:operation_0302"
+          "@id": "edam:operation_2928"
         }
       ],
       "sc:name": "odysseyOA1",
       "sc:url": "https://github.com/Yu606/odyssey"
     },
     {
-      "@id": "_:Nae249b4a87aa473b91132de90a973e01",
+      "@id": "_:N981580bcd8e4441080c65a07d1f25776",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:N45fb6ce65eae4b4695850ebe42b9894e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -80,29 +91,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N29ad55ec3cae4a769ba91e1c24ffa6f7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0914"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2350"
-      },
-      "sc:name": "Codon usage data"
-    },
-    {
-      "@id": "_:Nd6442c211795459387f262f564164810",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3707"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2333"
-      },
-      "sc:name": "Biodiversity data"
-    },
-    {
-      "@id": "_:N0d4aa8afe4124c00a5c629bc2b6670a2",
+      "@id": "_:Nd8d0b141d4c24870b47c0b11e6c7f92e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -113,15 +102,26 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N2f36963defcb45d6b2bcf93931f7a7b5",
+      "@id": "_:Nf73c53ff5e02427a81fe959bfb1ff1cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1916"
+        "@id": "edam:data_0914"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2350"
+      },
+      "sc:name": "Codon usage data"
+    },
+    {
+      "@id": "_:N500e0aa9cbec4e0f902c73b0743037cc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3707"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_2333"
       },
-      "sc:name": "Alignment"
+      "sc:name": "Biodiversity data"
     }
   ]
 }

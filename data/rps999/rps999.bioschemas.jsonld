@@ -40,17 +40,17 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2e2d71d73e11444290d441da4f47aa16"
+          "@id": "_:Nf78f1d63d83b47bb9284e65be740bcf3"
         },
         {
-          "@id": "_:N40c2378e7bd6432c88f19dfdfe3b039d"
+          "@id": "_:N7459a8296b9545fea0ecf62136eef4c9"
         },
         {
-          "@id": "_:N998c0c11e6824706b7e59349227dc1c2"
+          "@id": "_:N0676b88dbfbc4d0b8610128b783f908e"
         }
       ],
       "bsc:output": {
-        "@id": "_:N089a9e466c654e39b3107e12353d257d"
+        "@id": "_:Na0f199f60b3447398549bd0d6f6025a2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:description": "a database of llps rna",
@@ -61,7 +61,7 @@
       "sc:url": "https://bio.tools/register"
     },
     {
-      "@id": "_:N089a9e466c654e39b3107e12353d257d",
+      "@id": "_:Na0f199f60b3447398549bd0d6f6025a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0914"
@@ -72,7 +72,7 @@
       "sc:name": "Codon usage data"
     },
     {
-      "@id": "_:N2e2d71d73e11444290d441da4f47aa16",
+      "@id": "_:Nf78f1d63d83b47bb9284e65be740bcf3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3736"
@@ -83,20 +83,20 @@
       "sc:name": "Ecological data"
     },
     {
-      "@id": "_:N40c2378e7bd6432c88f19dfdfe3b039d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3707"
-      },
-      "sc:name": "Biodiversity data"
-    },
-    {
-      "@id": "_:N998c0c11e6824706b7e59349227dc1c2",
+      "@id": "_:N7459a8296b9545fea0ecf62136eef4c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
       },
       "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:N0676b88dbfbc4d0b8610128b783f908e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3707"
+      },
+      "sc:name": "Biodiversity data"
     }
   ]
 }

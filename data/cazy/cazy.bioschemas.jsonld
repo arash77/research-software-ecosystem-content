@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkt1178",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cazy",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "CAZy Support",
       "bsc:input": {
-        "@id": "_:N986eded4aca44097bffbdb7d1112c27e"
+        "@id": "_:Naf73eda6619841bf9ba220ffee2eec78"
       },
       "bsc:output": {
-        "@id": "_:N2ab5c1ccfc6f4ce2b2578b208170f3e8"
+        "@id": "_:Nae50c14bcb474b8aa8b4adcd0ce4de79"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -67,8 +63,8 @@
       },
       "sc:name": "Carbohydrate-active enzymes database (CAZy)",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:provider": "AFMB",
@@ -78,7 +74,7 @@
       "sc:url": "http://www.cazy.org/"
     },
     {
-      "@id": "_:N2ab5c1ccfc6f4ce2b2578b208170f3e8",
+      "@id": "_:Nae50c14bcb474b8aa8b4adcd0ce4de79",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -89,12 +85,16 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:N986eded4aca44097bffbdb7d1112c27e",
+      "@id": "_:Naf73eda6619841bf9ba220ffee2eec78",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2702"
       },
       "sc:name": "Enzyme ID (CAZy)"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt1178",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

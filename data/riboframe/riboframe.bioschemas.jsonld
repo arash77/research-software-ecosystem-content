@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Matteo Ramazzotti",
       "bsc:input": {
-        "@id": "_:Ndbae1145d2bc4864a0924d0fc8604faa"
+        "@id": "_:N1f310b76bc154f20beb21dd1371c3ce0"
       },
       "bsc:output": {
-        "@id": "_:Nb147f6440a094c1e89365ae62e89db24"
+        "@id": "_:Nfc9d7b837836493885006644e2944d4e"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -55,8 +55,8 @@
         "@id": "edam:topic_0637"
       },
       "sc:citation": [
-        "pmcid:PMC4646959",
         "pubmed:26635865",
+        "pmcid:PMC4646959",
         {
           "@id": "https://doi.org/10.3389/fgene.2015.00329"
         }
@@ -67,25 +67,14 @@
       },
       "sc:name": "RiboFrame",
       "sc:operatingSystem": [
-        "Mac",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareVersion": "1.1",
       "sc:url": "http://bioserver2.sbsc.unifi.it/bioinfo/riboframe.html"
     },
     {
-      "@id": "_:Nb147f6440a094c1e89365ae62e89db24",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3028"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Taxonomy"
-    },
-    {
-      "@id": "_:Ndbae1145d2bc4864a0924d0fc8604faa",
+      "@id": "_:N1f310b76bc154f20beb21dd1371c3ce0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -94,6 +83,17 @@
         "@id": "edam:format_2200"
       },
       "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Nfc9d7b837836493885006644e2944d4e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Taxonomy"
     }
   ]
 }

@@ -47,17 +47,17 @@
       "@id": "https://bio.tools/frog2",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
+        "Maria A. Miteva",
         {
           "@id": "https://orcid.org/0000-0003-1033-9895"
         },
-        "Frederic Guyon",
-        "Maria A. Miteva"
+        "Frederic Guyon"
       ],
       "bsc:input": {
-        "@id": "_:Na6ca166187784d48879fc99c1c447f67"
+        "@id": "_:N9ec2965ac2d0418094fa44a55de1d6e9"
       },
       "bsc:output": {
-        "@id": "_:N2eb53f0086344eff9c51351d694584a5"
+        "@id": "_:Nd8c9ec31cd004b4880ae07b02a9b9a5c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -90,17 +90,17 @@
       "sc:url": "https://mobyle.rpbs.univ-paris-diderot.fr/cgi-bin/portal.py#forms::Frog2"
     },
     {
-      "@id": "_:Na6ca166187784d48879fc99c1c447f67",
+      "@id": "_:N9ec2965ac2d0418094fa44a55de1d6e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3814"
+          "@id": "edam:format_1196"
         },
         {
-          "@id": "edam:format_1196"
+          "@id": "edam:format_3814"
         },
         {
           "@id": "edam:format_3816"
@@ -109,20 +109,20 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N2eb53f0086344eff9c51351d694584a5",
+      "@id": "_:Nd8c9ec31cd004b4880ae07b02a9b9a5c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
       },
       "sc:encodingFormat": [
         {
+          "@id": "edam:format_3814"
+        },
+        {
           "@id": "edam:format_3816"
         },
         {
           "@id": "edam:format_1476"
-        },
-        {
-          "@id": "edam:format_3814"
         }
       ],
       "sc:name": "Small molecule structure"

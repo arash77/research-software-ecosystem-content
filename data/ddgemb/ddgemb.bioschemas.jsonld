@@ -51,14 +51,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nc9fc6908f08d48b097aba6e6ce2ac8c5"
+          "@id": "_:Nf6a00e19ce5943228f1894d97b9a5faa"
         },
         {
-          "@id": "_:Ne082872f26704dec9f10af1d5e3bb497"
+          "@id": "_:N696d81d5437c423fb441425a04d093b8"
         }
       ],
       "bsc:output": {
-        "@id": "_:N1c8bab1160734da18fb7598d8d1ee900"
+        "@id": "_:Nc9edb5ab5bf444eaa1d3cd9c01066a67"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
@@ -96,7 +96,7 @@
       "sc:url": "https://ddgemb.biocomp.unibo.it"
     },
     {
-      "@id": "_:N1c8bab1160734da18fb7598d8d1ee900",
+      "@id": "_:Nc9edb5ab5bf444eaa1d3cd9c01066a67",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -104,7 +104,7 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:Nc9fc6908f08d48b097aba6e6ce2ac8c5",
+      "@id": "_:Nf6a00e19ce5943228f1894d97b9a5faa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -112,7 +112,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Ne082872f26704dec9f10af1d5e3bb497",
+      "@id": "_:N696d81d5437c423fb441425a04d093b8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

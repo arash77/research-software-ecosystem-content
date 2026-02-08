@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/plant_mitochondrial_dna_long-read_assembly_pipeline_polap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne8859492f94349a69cf7102c3ab3a179"
+        "@id": "_:Nd9b8fa744b164667ad13f7abcaffb067"
       },
       "bsc:output": {
-        "@id": "_:N5b8eeb2853c8460996e0b73d89b26650"
+        "@id": "_:N75dd0b3397d14fa0b2492382a386dc10"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -52,10 +52,10 @@
       "sc:description": "Polap is a specialized pipeline designed to assemble plant mitochondrial DNA (mtDNA) using the Flye long-read assembler, supplemented by organellar gene annotation to guide contig selection. Inspired by ptGAUL (a chloroplast assembly pipeline), Polap integrates Flye's capabilities with gene annotation to identify and assemble mtDNA contigs from whole-genome data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3182"
+          "@id": "edam:operation_0362"
         },
         {
-          "@id": "edam:operation_0362"
+          "@id": "edam:operation_3182"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -66,24 +66,24 @@
       "sc:url": "https://github.com/goshng/polap"
     },
     {
-      "@id": "_:Ne8859492f94349a69cf7102c3ab3a179",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2545"
-      },
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N5b8eeb2853c8460996e0b73d89b26650",
+      "@id": "_:N75dd0b3397d14fa0b2492382a386dc10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
       },
       "sc:encodingFormat": {
         "@id": "edam:format_2055"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:Nd9b8fa744b164667ad13f7abcaffb067",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2545"
       },
       "sc:name": "DNA sequence"
     }

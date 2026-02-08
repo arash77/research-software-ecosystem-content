@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/unicarb-db",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf1fa9e4c0dff4e63ab3f4da82b866973"
+        "@id": "_:Nbffea1f08bbd43e4963f78b64f89a636"
       },
       "bsc:output": {
-        "@id": "_:Nc0da05980bfb4d5eb20319bf64c159f0"
+        "@id": "_:Nc71ffd9f36b04fd19fb11399b7b29ab3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -65,9 +65,9 @@
       },
       "sc:name": "UniCarb-DB",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -76,20 +76,20 @@
       "sc:url": "http://unicarb-db.biomedicine.gu.se/"
     },
     {
-      "@id": "_:Nc0da05980bfb4d5eb20319bf64c159f0",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3425"
-      },
-      "sc:name": "Carbohydrate property"
-    },
-    {
-      "@id": "_:Nf1fa9e4c0dff4e63ab3f4da82b866973",
+      "@id": "_:Nbffea1f08bbd43e4963f78b64f89a636",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
       },
       "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:Nc71ffd9f36b04fd19fb11399b7b29ab3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3425"
+      },
+      "sc:name": "Carbohydrate property"
     }
   ]
 }

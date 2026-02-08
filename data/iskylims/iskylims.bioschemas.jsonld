@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N004132ca445f41aab1ec74bbe05b932f"
+          "@id": "_:Nc731be72778d43889ed7568a4fe7e4af"
         },
         {
-          "@id": "_:N279b4c87264a4a48a3f8793384056b87"
+          "@id": "_:Na038b46af7764d399ab71e6f23150c05"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N853029e3693e4abaa225848e910e518a"
+          "@id": "_:Ned6154600eaa4c489e7a77e68470fd0e"
         },
         {
-          "@id": "_:N86666d20653142c99ae8df94bdcfc646"
+          "@id": "_:N70a279f2d2324a9fa2a0a8733cb1e86a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -61,10 +61,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0607"
+          "@id": "edam:topic_3489"
         },
         {
-          "@id": "edam:topic_3489"
+          "@id": "edam:topic_0607"
         }
       ],
       "sc:author": [
@@ -76,13 +76,13 @@
       "sc:description": "Open-source LIMS (laboratory Information Management System) for Next Generation Sequencing sample management, statistics and reports, and bioinformatics analysis service management.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2409"
+          "@id": "edam:operation_3218"
         },
         {
           "@id": "edam:operation_0337"
         },
         {
-          "@id": "edam:operation_3218"
+          "@id": "edam:operation_2409"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -96,7 +96,7 @@
       "sc:url": "https://github.com/BU-ISCIII/iSkyLIMS"
     },
     {
-      "@id": "_:N853029e3693e4abaa225848e910e518a",
+      "@id": "_:Ned6154600eaa4c489e7a77e68470fd0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -107,7 +107,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N86666d20653142c99ae8df94bdcfc646",
+      "@id": "_:N70a279f2d2324a9fa2a0a8733cb1e86a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -118,23 +118,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N004132ca445f41aab1ec74bbe05b932f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3914"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2332"
-        },
-        {
-          "@id": "edam:format_2333"
-        }
-      ],
-      "sc:name": "Quality control report"
-    },
-    {
-      "@id": "_:N279b4c87264a4a48a3f8793384056b87",
+      "@id": "_:Nc731be72778d43889ed7568a4fe7e4af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"
@@ -144,13 +128,29 @@
           "@id": "edam:format_2332"
         },
         {
-          "@id": "edam:format_2331"
+          "@id": "edam:format_3464"
         },
         {
-          "@id": "edam:format_3464"
+          "@id": "edam:format_2331"
         }
       ],
       "sc:name": "Resource metadata"
+    },
+    {
+      "@id": "_:Na038b46af7764d399ab71e6f23150c05",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3914"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2333"
+        },
+        {
+          "@id": "edam:format_2332"
+        }
+      ],
+      "sc:name": "Quality control report"
     },
     {
       "@id": "https://orcid.org/0000-0002-0740-6324",

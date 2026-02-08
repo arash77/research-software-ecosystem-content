@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/shrinksam",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nbda6a76889ff43a4a72758b9d1486817"
+        "@id": "_:Nd2117c83fd394ca1b828531dcbfb7d58"
       },
       "bsc:output": {
-        "@id": "_:N99578e7c196d430b971d14479e8fada4"
+        "@id": "_:Nc5f68865f6084230bf6f24271d1c1262"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -57,14 +57,14 @@
       "sc:license": "MIT",
       "sc:name": "shrinksam",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "https://github.com/bcthomas/shrinksam"
     },
     {
-      "@id": "_:N99578e7c196d430b971d14479e8fada4",
+      "@id": "_:Nc5f68865f6084230bf6f24271d1c1262",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -75,7 +75,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:Nbda6a76889ff43a4a72758b9d1486817",
+      "@id": "_:Nd2117c83fd394ca1b828531dcbfb7d58",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"

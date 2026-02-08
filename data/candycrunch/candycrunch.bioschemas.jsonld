@@ -36,22 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/2023.06.13.544793",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/candycrunch",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1030e43546ea40b79c2ee544fef6a706"
+        "@id": "_:N638ad9c8ea2c47e99ae13500bd730d6b"
       },
       "bsc:output": {
-        "@id": "_:N9a1764fe70864a16be8fad554ef69d00"
+        "@id": "_:N7dc3ec4f80884873a9e1d574555d0212"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3292"
         },
         {
-          "@id": "edam:topic_3292"
+          "@id": "edam:topic_0121"
         }
       ],
       "sc:citation": {
@@ -72,7 +76,15 @@
       "sc:url": "https://github.com/BojarLab/CandyCrunch"
     },
     {
-      "@id": "_:N1030e43546ea40b79c2ee544fef6a706",
+      "@id": "_:N7dc3ec4f80884873a9e1d574555d0212",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N638ad9c8ea2c47e99ae13500bd730d6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -86,18 +98,6 @@
         }
       ],
       "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "_:N9a1764fe70864a16be8fad554ef69d00",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2023.06.13.544793",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

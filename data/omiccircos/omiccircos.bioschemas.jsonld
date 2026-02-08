@@ -36,41 +36,45 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.4137/cin.s13495",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/omiccircos",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ying Hu",
       "bsc:input": [
         {
-          "@id": "_:Nc17d2e7326cf4694b82597622fe16bfe"
+          "@id": "_:Nf3d7471f9c5b480fb635af76924964ae"
         },
         {
-          "@id": "_:N4cbeba905e5143e9811e23bae1dd7c91"
+          "@id": "_:Nadf6876ff5f34dc5bcda553d0d5bff97"
         },
         {
-          "@id": "_:N2b8b47a3738b4a3fae54d8a34f916f13"
+          "@id": "_:N51516ae998084dcfab8d7fce84e99aa4"
         },
         {
-          "@id": "_:N3a2cc6ef1c4c4ba6b5c6801366c9c865"
+          "@id": "_:N124a6f9069144bf9a0b64ea7e90d9d2c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8c7f1f056ec547e6b371c1266997b389"
+          "@id": "_:N7ca97e1c033e4ea19afe854bd10c4022"
         },
         {
-          "@id": "_:N82f76c270ae54433bfa3091b426ed1e6"
+          "@id": "_:N38f5c2e8669b497da81f55546f0f23cc"
         },
         {
-          "@id": "_:Nd4aeb551f5ee45b1b21291bf2dfb7cb5"
+          "@id": "_:N5354835e1c3248deabb9c553c7bf96ec"
         },
         {
-          "@id": "_:Nf73508626f42442792372fa1c454f524"
+          "@id": "_:N59f02e034ee24b48b0a1e832f9039ddb"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Library"
+        "Library",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": [
         {
@@ -81,11 +85,11 @@
         }
       ],
       "sc:citation": [
-        "pmcid:PMC3921174",
+        "pubmed:24526832",
         {
           "@id": "https://doi.org/10.4137/cin.s13495"
         },
-        "pubmed:24526832"
+        "pmcid:PMC3921174"
       ],
       "sc:description": "R package for generating high-quality circular plots for omics data.",
       "sc:featureList": [
@@ -113,10 +117,10 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/OmicCircos.html"
     },
     {
-      "@id": "_:Nc17d2e7326cf4694b82597622fe16bfe",
+      "@id": "_:Nf3d7471f9c5b480fb635af76924964ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2019"
+        "@id": "edam:data_1383"
       },
       "sc:encodingFormat": [
         {
@@ -126,26 +130,10 @@
           "@id": "edam:format_2060"
         }
       ],
-      "sc:name": "Map data"
+      "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N4cbeba905e5143e9811e23bae1dd7c91",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2082"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3033"
-        },
-        {
-          "@id": "edam:format_2060"
-        }
-      ],
-      "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:N2b8b47a3738b4a3fae54d8a34f916f13",
+      "@id": "_:Nadf6876ff5f34dc5bcda553d0d5bff97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -161,10 +149,10 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N3a2cc6ef1c4c4ba6b5c6801366c9c865",
+      "@id": "_:N51516ae998084dcfab8d7fce84e99aa4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1383"
+        "@id": "edam:data_2019"
       },
       "sc:encodingFormat": [
         {
@@ -174,26 +162,26 @@
           "@id": "edam:format_3033"
         }
       ],
-      "sc:name": "Sequence alignment (nucleic acid)"
+      "sc:name": "Map data"
     },
     {
-      "@id": "_:N8c7f1f056ec547e6b371c1266997b389",
+      "@id": "_:N124a6f9069144bf9a0b64ea7e90d9d2c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2884"
+        "@id": "edam:data_2082"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2060"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_3033"
         }
       ],
-      "sc:name": "Plot"
+      "sc:name": "Matrix"
     },
     {
-      "@id": "_:N82f76c270ae54433bfa3091b426ed1e6",
+      "@id": "_:N7ca97e1c033e4ea19afe854bd10c4022",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -209,7 +197,39 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nd4aeb551f5ee45b1b21291bf2dfb7cb5",
+      "@id": "_:N38f5c2e8669b497da81f55546f0f23cc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N5354835e1c3248deabb9c553c7bf96ec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N59f02e034ee24b48b0a1e832f9039ddb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -223,26 +243,6 @@
         }
       ],
       "sc:name": "Heat map"
-    },
-    {
-      "@id": "_:Nf73508626f42442792372fa1c454f524",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1772"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Score"
-    },
-    {
-      "@id": "https://doi.org/10.4137/cin.s13495",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

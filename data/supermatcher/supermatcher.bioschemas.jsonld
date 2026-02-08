@@ -36,21 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/supermatcher",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N19e3d830778a4268bf9b3fab0a74af64"
+          "@id": "_:N775ad26acfe849b1ba59ecb4f663ba74"
         },
         {
-          "@id": "_:Na69f653ce0f94a55a0435103cb1dd0ab"
+          "@id": "_:N8b34ef1f1ad941aaabf617a8766f4da5"
         },
         {
-          "@id": "_:N6e0dfc60a7874c038d27968913a70a68"
+          "@id": "_:N95e010c4d2f04b37a6e6ee3466a5bab2"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nabdc8aad55aa472aba49ad7d61eec029"
+        "@id": "_:N8f80fef4434c4ab3a498414788fd8bc9"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -69,9 +81,9 @@
         }
       ],
       "sc:contributor": [
-        "UK BBSRC",
         "Wellcome Trust",
         "EMBOSS Contributors",
+        "UK BBSRC",
         "UK MRC"
       ],
       "sc:description": "Calculate approximate local pair-wise alignments of larger sequences.",
@@ -79,17 +91,17 @@
         "@id": "edam:operation_0491"
       },
       "sc:funder": [
-        "UK BBSRC",
         "Wellcome Trust",
+        "UK BBSRC",
         "UK MRC"
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "supermatcher",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": [
         "EMBOSS",
@@ -110,7 +122,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/supermatcher.html"
     },
     {
-      "@id": "_:N19e3d830778a4268bf9b3fab0a74af64",
+      "@id": "_:N775ad26acfe849b1ba59ecb4f663ba74",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0874"
@@ -118,7 +130,7 @@
       "sc:name": "Comparison matrix"
     },
     {
-      "@id": "_:Na69f653ce0f94a55a0435103cb1dd0ab",
+      "@id": "_:N8b34ef1f1ad941aaabf617a8766f4da5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -126,7 +138,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N6e0dfc60a7874c038d27968913a70a68",
+      "@id": "_:N95e010c4d2f04b37a6e6ee3466a5bab2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -134,24 +146,12 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:Nabdc8aad55aa472aba49ad7d61eec029",
+      "@id": "_:N8f80fef4434c4ab3a498414788fd8bc9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"
       },
       "sc:name": "Sequence alignment (pair)"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

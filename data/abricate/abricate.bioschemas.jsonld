@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Naeffaa46acf247e7b398f98dd528cb1c"
+          "@id": "_:N686460da24e640a396b032a910c2b8f3"
         },
         {
-          "@id": "_:N6bb15206e00f4c3bafe5b49a3709092e"
+          "@id": "_:Nc23e85b55c90473dbf9cafdeadc475ff"
         }
       ],
       "bsc:output": {
-        "@id": "_:N4f05cb7125d44eb5a8f32bf597c0c670"
+        "@id": "_:Nd0210be6bc9b4c77a4e4526a7c608891"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -80,26 +80,7 @@
       "sc:url": "https://github.com/tseemann/abricate"
     },
     {
-      "@id": "_:Naeffaa46acf247e7b398f98dd528cb1c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1927"
-        },
-        {
-          "@id": "edam:format_1936"
-        },
-        {
-          "@id": "edam:format_1929"
-        }
-      ],
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N6bb15206e00f4c3bafe5b49a3709092e",
+      "@id": "_:N686460da24e640a396b032a910c2b8f3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -110,7 +91,26 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N4f05cb7125d44eb5a8f32bf597c0c670",
+      "@id": "_:Nc23e85b55c90473dbf9cafdeadc475ff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1936"
+        },
+        {
+          "@id": "edam:format_1927"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:Nd0210be6bc9b4c77a4e4526a7c608891",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"

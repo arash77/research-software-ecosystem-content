@@ -36,26 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1101/gr.111120.110",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/stampy_indexer",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nfe1c4ff690714ae9a9fc2c1ce82bded5"
+        "@id": "_:Ndbf3d829a2224adc844a5c253f97bef1"
       },
       "bsc:output": {
-        "@id": "_:N0c9f798f07c64b21b0f1c96082d3ed7a"
+        "@id": "_:N1862cf7e9524441783d020b4ec68ce01"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -68,18 +56,18 @@
         }
       ],
       "sc:citation": [
+        "pmcid:PMC3106326",
+        "pubmed:27137889",
         "pmcid:PMC4987906",
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
+        "pubmed:20980556",
         {
           "@id": "https://doi.org/10.1101/gr.111120.110"
         },
-        "pubmed:27137889",
-        "pubmed:20980556",
-        "pmcid:PMC3106326",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
-        },
-        {
-          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         }
       ],
       "sc:description": "Stampy genome indexer for divergent genomes.",
@@ -88,9 +76,9 @@
       },
       "sc:name": "stampy_indexer",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.well.ox.ac.uk/~gerton/README.txt"
@@ -99,7 +87,18 @@
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/stampy_mapper/stampy_indexer/1.0.20"
     },
     {
-      "@id": "_:Nfe1c4ff690714ae9a9fc2c1ce82bded5",
+      "@id": "_:N1862cf7e9524441783d020b4ec68ce01",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ndbf3d829a2224adc844a5c253f97bef1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -110,15 +109,16 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N0c9f798f07c64b21b0f1c96082d3ed7a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0006"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Data"
+      "@id": "https://doi.org/10.1101/gr.111120.110",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

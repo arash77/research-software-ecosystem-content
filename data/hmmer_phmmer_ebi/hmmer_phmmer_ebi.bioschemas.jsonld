@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkr367",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gkae241",
       "@type": "sc:CreativeWork"
     },
@@ -45,18 +49,18 @@
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": [
         {
-          "@id": "_:N5754024ef7354f9fa5981ea6439182a4"
+          "@id": "_:N6de9f2b1e1454c7e886ee55be6ca8397"
         },
         {
-          "@id": "_:N471c2a53b3194de9a4ea6406da50dfe9"
+          "@id": "_:N30a2e5e6a631455694cfa123a7af5c92"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6c576728c95f454eae9b32fcb1c65dae"
+          "@id": "_:Nc077c65dbd7446688d3be42af03fbb49"
         },
         {
-          "@id": "_:Nd7e356183acc480f8f1b7d6e1f2330ea"
+          "@id": "_:Nfcfe95558c64423ca43d56fb149cea7b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,10 +70,10 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_0623"
         },
         {
-          "@id": "edam:topic_0623"
+          "@id": "edam:topic_0080"
         },
         {
           "@id": "edam:topic_0160"
@@ -77,21 +81,21 @@
       ],
       "sc:author": "Sean Eddy",
       "sc:citation": [
-        "pubmed:35412617",
         "pmcid:PMC3125773",
+        "pubmed:38597606",
+        "pubmed:21593126",
+        "pubmed:35412617",
         {
           "@id": "https://doi.org/10.1093/nar/gkr367"
         },
-        "pmcid:PMC11223882",
-        "pubmed:38597606",
-        "pubmed:21593126",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkae241"
-        },
+        "pmcid:PMC9252731",
         {
           "@id": "https://doi.org/10.1093/nar/gkac240"
         },
-        "pmcid:PMC9252731"
+        {
+          "@id": "https://doi.org/10.1093/nar/gkae241"
+        },
+        "pmcid:PMC11223882"
       ],
       "sc:description": "HMMER3 phmmer is used to search one or more sequences against a sequence database.",
       "sc:featureList": {
@@ -106,36 +110,20 @@
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
         {
-          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
-        },
-        {
           "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         },
         {
           "@id": "http://hmmer.org/"
+        },
+        {
+          "@id": "https://www.ebi.ac.uk/jdispatcher/help"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/pfa/hmmer3_phmmer"
     },
     {
-      "@id": "_:N5754024ef7354f9fa5981ea6439182a4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1364"
-      },
-      "sc:name": "Hidden Markov model"
-    },
-    {
-      "@id": "_:N471c2a53b3194de9a4ea6406da50dfe9",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0849"
-      },
-      "sc:name": "Sequence record"
-    },
-    {
-      "@id": "_:N6c576728c95f454eae9b32fcb1c65dae",
+      "@id": "_:Nc077c65dbd7446688d3be42af03fbb49",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -143,7 +131,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:Nd7e356183acc480f8f1b7d6e1f2330ea",
+      "@id": "_:Nfcfe95558c64423ca43d56fb149cea7b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -154,8 +142,20 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkr367",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N6de9f2b1e1454c7e886ee55be6ca8397",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N30a2e5e6a631455694cfa123a7af5c92",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:name": "Sequence record"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkac240",

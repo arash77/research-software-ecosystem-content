@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.jbiotec.2017.07.019",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/galaxy_image_analysis",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Thomas Wollmann",
       "bsc:input": {
-        "@id": "_:N2100843dd21042aba43c41009deff5ce"
+        "@id": "_:N8235db2727ae44c2a98fdb434f86362c"
       },
       "bsc:output": [
         {
-          "@id": "_:N1937847735cd46f0933f26f9d11653a8"
+          "@id": "_:N6ded8372ee1f4ee180ee30337588d29d"
         },
         {
-          "@id": "_:N2892fcefd88c450b8bbd5554a369e960"
+          "@id": "_:N931f2fd4d06b4dd095d6068be9c38e0a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -65,10 +61,10 @@
         }
       ],
       "sc:citation": [
+        "pubmed:28757289",
         {
           "@id": "https://doi.org/10.1016/j.jbiotec.2017.07.019"
-        },
-        "pubmed:28757289"
+        }
       ],
       "sc:description": "Galaxy Image Analysis is mainly developed by the Biomedical Computer Vision (BMCV) Group at Heidelberg University. Its dedication is to provide tools for image analysis and image processing for the Galaxy platform.",
       "sc:featureList": {
@@ -86,18 +82,7 @@
       "sc:url": "https://github.com/BMCV/galaxy-image-analysis"
     },
     {
-      "@id": "_:N1937847735cd46f0933f26f9d11653a8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0920"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Genotype/phenotype report"
-    },
-    {
-      "@id": "_:N2892fcefd88c450b8bbd5554a369e960",
+      "@id": "_:N6ded8372ee1f4ee180ee30337588d29d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -108,7 +93,18 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N2100843dd21042aba43c41009deff5ce",
+      "@id": "_:N931f2fd4d06b4dd095d6068be9c38e0a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Genotype/phenotype report"
+    },
+    {
+      "@id": "_:N8235db2727ae44c2a98fdb434f86362c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -122,6 +118,10 @@
         }
       ],
       "sc:name": "Image"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jbiotec.2017.07.019",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

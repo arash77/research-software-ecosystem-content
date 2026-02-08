@@ -36,32 +36,28 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.12688/F1000RESEARCH.126463.2",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/a2tea",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nda710657743141cb966e1c50aac79f7f"
+          "@id": "_:N36d9ecc2be3e49f298f3b217875ebee1"
         },
         {
-          "@id": "_:N30fb0b33b3744ad5ac9fe3263cb8a5eb"
+          "@id": "_:N069d7db1d4d24dabac22a0f6d2d25092"
         },
         {
-          "@id": "_:N96dfc61e39a5487dbee0b1fe30836a96"
+          "@id": "_:N54b6943e62784c5c80f68fce125f26dc"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2de8b2e661964bc791755fa078e32332"
+          "@id": "_:N0089af07d2c34894a8e2cb021dac877d"
         },
         {
-          "@id": "_:N01b4385994fc43cc8643b350807c2f24"
+          "@id": "_:Nd561fce1caf641ba94aed987ea082ef6"
         },
         {
-          "@id": "_:N3246c1747d794a5699775b59b163f462"
+          "@id": "_:N46f312dbddd84d41a7cdcf736ec4a4a1"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -72,16 +68,13 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0769"
-        },
-        {
           "@id": "edam:topic_0780"
         },
         {
           "@id": "edam:topic_3308"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0084"
         },
         {
           "@id": "edam:topic_3170"
@@ -90,7 +83,10 @@
           "@id": "edam:topic_0203"
         },
         {
-          "@id": "edam:topic_0084"
+          "@id": "edam:topic_0769"
+        },
+        {
+          "@id": "edam:topic_0121"
         }
       ],
       "sc:citation": [
@@ -106,6 +102,9 @@
           "@id": "edam:operation_3431"
         },
         {
+          "@id": "edam:operation_0337"
+        },
+        {
           "@id": "edam:operation_3223"
         },
         {
@@ -113,23 +112,44 @@
         },
         {
           "@id": "edam:operation_3192"
-        },
-        {
-          "@id": "edam:operation_0337"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "MIT",
       "sc:name": "A2TEA",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:url": "https://github.com/tgstoecker/A2TEA.Workflow"
     },
     {
-      "@id": "_:Nda710657743141cb966e1c50aac79f7f",
+      "@id": "_:N0089af07d2c34894a8e2cb021dac877d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3754"
+      },
+      "sc:name": "GO-term enrichment data"
+    },
+    {
+      "@id": "_:Nd561fce1caf641ba94aed987ea082ef6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:N46f312dbddd84d41a7cdcf736ec4a4a1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N36d9ecc2be3e49f298f3b217875ebee1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -140,18 +160,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N30fb0b33b3744ad5ac9fe3263cb8a5eb",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2977"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "_:N96dfc61e39a5487dbee0b1fe30836a96",
+      "@id": "_:N069d7db1d4d24dabac22a0f6d2d25092",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -162,28 +171,19 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N2de8b2e661964bc791755fa078e32332",
+      "@id": "_:N54b6943e62784c5c80f68fce125f26dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_3754"
+        "@id": "edam:data_2977"
       },
-      "sc:name": "GO-term enrichment data"
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N01b4385994fc43cc8643b350807c2f24",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:N3246c1747d794a5699775b59b163f462",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0928"
-      },
-      "sc:name": "Gene expression profile"
+      "@id": "https://doi.org/10.12688/F1000RESEARCH.126463.2",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

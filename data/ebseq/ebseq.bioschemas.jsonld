@@ -44,20 +44,20 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ning Leng",
       "bsc:input": {
-        "@id": "_:N9e9ee890d56d4368ba4c4171fbea098a"
+        "@id": "_:Ne7583579771b4cb68ed6b274ef3fdc43"
       },
       "bsc:output": [
         {
-          "@id": "_:Na1f0c40d8acf41eb9c2614dad7188586"
+          "@id": "_:Nfeec4a73dd3d4d449da5808f6eec020e"
         },
         {
-          "@id": "_:Nbc563d826f764eab8f56dc3c685fa40a"
+          "@id": "_:N3767a174775e403c8923a820593e9c5a"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": [
         {
@@ -75,32 +75,32 @@
       ],
       "sc:citation": [
         "pubmed:23428641",
-        {
-          "@id": "https://doi.org/10.1101/2020.06.19.162180"
-        },
         "pmcid:PMC3624807",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btt087"
+        },
+        {
+          "@id": "https://doi.org/10.1101/2020.06.19.162180"
         }
       ],
       "sc:description": "Differential Expression analysis at both gene and isoform level using RNA-seq data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3223"
+          "@id": "edam:operation_3565"
         },
         {
           "@id": "edam:operation_0313"
         },
         {
-          "@id": "edam:operation_3565"
+          "@id": "edam:operation_3223"
         }
       ],
       "sc:license": "Artistic-2.0",
       "sc:name": "EBSeq",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/EBSeq.html"
@@ -109,23 +109,23 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/EBSeq.html"
     },
     {
-      "@id": "_:Na1f0c40d8acf41eb9c2614dad7188586",
+      "@id": "_:Nfeec4a73dd3d4d449da5808f6eec020e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nbc563d826f764eab8f56dc3c685fa40a",
+      "@id": "_:N3767a174775e403c8923a820593e9c5a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -141,17 +141,17 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N9e9ee890d56d4368ba4c4171fbea098a",
+      "@id": "_:Ne7583579771b4cb68ed6b274ef3fdc43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2058"
+          "@id": "edam:format_2330"
         },
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_2058"
         }
       ],
       "sc:name": "Gene expression profile"

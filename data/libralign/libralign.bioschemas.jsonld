@@ -40,19 +40,19 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ben Stöver",
       "bsc:input": {
-        "@id": "_:N399efe9cbe0849438b0dff05866279cd"
+        "@id": "_:N0986535dc54f44fc9a097c0618d5a51e"
       },
       "bsc:output": {
-        "@id": "_:Nf41d4eaa443d451fb59158d7ad4af9e6"
+        "@id": "_:N87a3a8387a5446f9bf9c45f2d91e48fb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3307"
+          "@id": "edam:topic_3070"
         },
         {
-          "@id": "edam:topic_3070"
+          "@id": "edam:topic_3307"
         },
         {
           "@id": "edam:topic_0080"
@@ -74,16 +74,16 @@
       "sc:license": "LGPL-3.0",
       "sc:name": "LibrAlign",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
-          "@id": "http://r.bioinfweb.info/LibrAlignSwingDemo"
+          "@id": "http://bioinfweb.info/LibrAlign/License"
         },
         {
-          "@id": "http://bioinfweb.info/LibrAlign/License"
+          "@id": "http://r.bioinfweb.info/LibrAlignSwingDemo"
         },
         {
           "@id": "http://bioinfweb.info/LibrAlign/Documentation"
@@ -96,45 +96,45 @@
       "sc:url": "http://bioinfweb.info/LibrAlign/"
     },
     {
-      "@id": "_:Nf41d4eaa443d451fb59158d7ad4af9e6",
+      "@id": "_:N87a3a8387a5446f9bf9c45f2d91e48fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1385"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2924"
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1912"
         },
         {
           "@id": "edam:format_3160"
         },
         {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_1912"
+          "@id": "edam:format_2924"
         }
       ],
       "sc:name": "Sequence alignment (hybrid)"
     },
     {
-      "@id": "_:N399efe9cbe0849438b0dff05866279cd",
+      "@id": "_:N0986535dc54f44fc9a097c0618d5a51e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1385"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1912"
-        },
-        {
           "@id": "edam:format_2924"
         },
         {
-          "@id": "edam:format_3160"
+          "@id": "edam:format_1929"
         },
         {
-          "@id": "edam:format_1929"
+          "@id": "edam:format_1912"
+        },
+        {
+          "@id": "edam:format_3160"
         }
       ],
       "sc:name": "Sequence alignment (hybrid)"

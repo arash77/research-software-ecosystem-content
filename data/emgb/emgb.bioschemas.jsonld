@@ -41,18 +41,18 @@
       "biotools:primaryContact": "EMGB Service",
       "bsc:input": [
         {
-          "@id": "_:Nc469f04cb0f84270bcb7a43fc6b12c2d"
+          "@id": "_:Nfcb4467d5fc440f4a9f67ea4125da930"
         },
         {
-          "@id": "_:Nc9304ce52a554da2b36ae5b892147256"
+          "@id": "_:Ncabf5bf9ecb34940b1767b8c63e645fa"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc94b306e0f4f4c22a0a164ccc496d3e3"
+          "@id": "_:Nc5b5d5e489e240c8b084d8bc85b170f7"
         },
         {
-          "@id": "_:N7fdf46826eb14b06a745761cfd520560"
+          "@id": "_:N7fbbdb111c8f4f66a08649f66017fc32"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -63,6 +63,12 @@
       "sc:description": "EMGB is a CWL-based workflow for metagenomics analyses including a web-based interface for filtering ind querying analysis results",
       "sc:featureList": [
         {
+          "@id": "edam:operation_0256"
+        },
+        {
+          "@id": "edam:operation_0325"
+        },
+        {
           "@id": "edam:operation_0337"
         },
         {
@@ -70,45 +76,17 @@
         },
         {
           "@id": "edam:operation_3695"
-        },
-        {
-          "@id": "edam:operation_0325"
-        },
-        {
-          "@id": "edam:operation_0256"
         }
       ],
       "sc:name": "EMGB",
       "sc:provider": [
-        "CeBiTec",
-        "Bielefeld University"
+        "Bielefeld University",
+        "CeBiTec"
       ],
       "sc:url": "https://emgb.cebitec.uni-bielefeld.de"
     },
     {
-      "@id": "_:Nc469f04cb0f84270bcb7a43fc6b12c2d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2887"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Nucleic acid sequence record"
-    },
-    {
-      "@id": "_:Nc9304ce52a554da2b36ae5b892147256",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2887"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1930"
-      },
-      "sc:name": "Nucleic acid sequence record"
-    },
-    {
-      "@id": "_:Nc94b306e0f4f4c22a0a164ccc496d3e3",
+      "@id": "_:Nc5b5d5e489e240c8b084d8bc85b170f7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -119,7 +97,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:N7fdf46826eb14b06a745761cfd520560",
+      "@id": "_:N7fbbdb111c8f4f66a08649f66017fc32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -128,6 +106,28 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Image"
+    },
+    {
+      "@id": "_:Nfcb4467d5fc440f4a9f67ea4125da930",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2887"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Nucleic acid sequence record"
+    },
+    {
+      "@id": "_:Ncabf5bf9ecb34940b1767b8c63e645fa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2887"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence record"
     }
   ]
 }

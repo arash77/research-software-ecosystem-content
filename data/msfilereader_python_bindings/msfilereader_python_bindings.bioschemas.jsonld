@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/msfilereader_python_bindings",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf4196503a0c04970ba86c254397a1df9"
+        "@id": "_:N0a1b20fa0725404fb98c8b6d4eff0b5b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -52,9 +52,9 @@
       },
       "sc:name": "MSFileReader_Python_bindings",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/frallain/MSFileReader-Python-bindings"
@@ -62,7 +62,7 @@
       "sc:url": "https://github.com/frallain/MSFileReader_Python_bindings"
     },
     {
-      "@id": "_:Nf4196503a0c04970ba86c254397a1df9",
+      "@id": "_:N0a1b20fa0725404fb98c8b6d4eff0b5b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

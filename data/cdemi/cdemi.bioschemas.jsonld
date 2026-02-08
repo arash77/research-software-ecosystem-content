@@ -36,27 +36,31 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/j.csbj.2023.03.044",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/cdemi",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncaa11974a76041238dfbc38f54d7eb39"
+        "@id": "_:N5f9ab2a7102c4f62b57d7725ef397f5f"
       },
       "bsc:output": [
         {
-          "@id": "_:N151e3038829b48c3b4a32778782cb26d"
+          "@id": "_:N3b64e47aab744603b085fa0c334c3583"
         },
         {
-          "@id": "_:N979ceb3e0fe74d339f2166911e36740f"
+          "@id": "_:Nef7f8b20e4db4bae8116350239cc1d7b"
         },
         {
-          "@id": "_:Naddf3645bc0c44cfa2a78017f7c8b642"
+          "@id": "_:N79b6a0009789417ba4ad1ba3bd58a02c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3407"
+          "@id": "edam:topic_3172"
         },
         {
           "@id": "edam:topic_0154"
@@ -65,7 +69,7 @@
           "@id": "edam:topic_3697"
         },
         {
-          "@id": "edam:topic_3172"
+          "@id": "edam:topic_3407"
         },
         {
           "@id": "edam:topic_0602"
@@ -93,30 +97,14 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "CDEMI",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:url": "http://rdblab.cn/cdemi/"
     },
     {
-      "@id": "_:N151e3038829b48c3b4a32778782cb26d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3953"
-      },
-      "sc:name": "Pathway overrepresentation data"
-    },
-    {
-      "@id": "_:N979ceb3e0fe74d339f2166911e36740f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1636"
-      },
-      "sc:name": "Heat map"
-    },
-    {
-      "@id": "_:Naddf3645bc0c44cfa2a78017f7c8b642",
+      "@id": "_:N3b64e47aab744603b085fa0c334c3583",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3768"
@@ -124,7 +112,23 @@
       "sc:name": "Clustered expression profiles"
     },
     {
-      "@id": "_:Ncaa11974a76041238dfbc38f54d7eb39",
+      "@id": "_:Nef7f8b20e4db4bae8116350239cc1d7b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N79b6a0009789417ba4ad1ba3bd58a02c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3953"
+      },
+      "sc:name": "Pathway overrepresentation data"
+    },
+    {
+      "@id": "_:N5f9ab2a7102c4f62b57d7725ef397f5f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -133,10 +137,6 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Expression data"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.csbj.2023.03.044",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -50,28 +50,28 @@
         "@id": "https://orcid.org/0000-0002-0274-5669"
       },
       "bsc:input": {
-        "@id": "_:N0ba69f9857c8480d9f1e104c62b0bce4"
+        "@id": "_:N8a7b4822b7434b4887ad2e0641dc6da6"
       },
       "bsc:output": {
-        "@id": "_:N73f88e549e4542d0a45c9d1ff2731b2d"
+        "@id": "_:N3de7d295a3014f5884e468f01b817d48"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0821"
+        },
+        {
           "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_0736"
         },
         {
           "@id": "edam:topic_3292"
         },
         {
           "@id": "edam:topic_0080"
-        },
-        {
-          "@id": "edam:topic_0736"
-        },
-        {
-          "@id": "edam:topic_0821"
         }
       ],
       "sc:citation": [
@@ -101,7 +101,7 @@
       "sc:url": "https://benzdb.biocomp.unibo.it"
     },
     {
-      "@id": "_:N0ba69f9857c8480d9f1e104c62b0bce4",
+      "@id": "_:N8a7b4822b7434b4887ad2e0641dc6da6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -112,7 +112,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N73f88e549e4542d0a45c9d1ff2731b2d",
+      "@id": "_:N3de7d295a3014f5884e468f01b817d48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"

@@ -41,40 +41,40 @@
       "biotools:primaryContact": "SNSB IT Center",
       "bsc:input": [
         {
-          "@id": "_:Ndbb600c4b06a4860b57629ae2de85b36"
+          "@id": "_:N0bca4a0db953479eb05e8c4de81c912a"
         },
         {
-          "@id": "_:N4399495f91094c2e842845a9d4990afa"
+          "@id": "_:Ne18fc23140534a2982d7917826c6a671"
         },
         {
-          "@id": "_:N4a12e6cd6a774f7e94080472bbb3c625"
+          "@id": "_:N19c65d3763d243e6958351d48c772379"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc8157782964344ada06210979051586e"
+          "@id": "_:Ne4157472828541fcaba86066c6f9b4c9"
         },
         {
-          "@id": "_:N3851ee656ae547349111c1f58a9b529e"
+          "@id": "_:Nfcb28b2392c04124b84dcf9ad7f2bb21"
         },
         {
-          "@id": "_:N322af623f3594631b7be7dd6a23375c6"
+          "@id": "_:Nf79ab3d96d9c46f9976d81f9d1f480e6"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web API",
-        "Web service"
+        "Web service",
+        "Web API"
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3050"
+          "@id": "edam:topic_3070"
         },
         {
           "@id": "edam:topic_3071"
         },
         {
-          "@id": "edam:topic_3070"
+          "@id": "edam:topic_3050"
         }
       ],
       "sc:author": "University of Bayreuth, Chair of Databases and Information Systems",
@@ -90,16 +90,27 @@
       "sc:operatingSystem": "Windows",
       "sc:softwareHelp": [
         {
-          "@id": "https://diversityworkbench.net/Portal/DiversityMobile"
+          "@id": "http://www.diversitymobile.net/wiki/DiversityMobile_User_Manuals_WP"
         },
         {
-          "@id": "http://www.diversitymobile.net/wiki/DiversityMobile_User_Manuals_WP"
+          "@id": "https://diversityworkbench.net/Portal/DiversityMobile"
         }
       ],
       "sc:url": "https://diversityworkbench.net/Portal/DiversityMobile"
     },
     {
-      "@id": "_:Ndbb600c4b06a4860b57629ae2de85b36",
+      "@id": "_:N0bca4a0db953479eb05e8c4de81c912a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3579"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Ne18fc23140534a2982d7917826c6a671",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3736"
@@ -115,7 +126,7 @@
       "sc:name": "Ecological data"
     },
     {
-      "@id": "_:N4399495f91094c2e842845a9d4990afa",
+      "@id": "_:N19c65d3763d243e6958351d48c772379",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3707"
@@ -131,18 +142,7 @@
       "sc:name": "Biodiversity data"
     },
     {
-      "@id": "_:N4a12e6cd6a774f7e94080472bbb3c625",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3579"
-      },
-      "sc:name": "Image"
-    },
-    {
-      "@id": "_:Nc8157782964344ada06210979051586e",
+      "@id": "_:Ne4157472828541fcaba86066c6f9b4c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3736"
@@ -158,7 +158,7 @@
       "sc:name": "Ecological data"
     },
     {
-      "@id": "_:N3851ee656ae547349111c1f58a9b529e",
+      "@id": "_:Nfcb28b2392c04124b84dcf9ad7f2bb21",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -169,17 +169,17 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N322af623f3594631b7be7dd6a23375c6",
+      "@id": "_:Nf79ab3d96d9c46f9976d81f9d1f480e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3707"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3706"
         },
         {
-          "@id": "edam:format_3706"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Biodiversity data"

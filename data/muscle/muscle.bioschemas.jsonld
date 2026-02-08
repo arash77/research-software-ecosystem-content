@@ -36,31 +36,19 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkh340",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2105-5-113",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/muscle",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Robert Edgar",
       "bsc:input": [
         {
-          "@id": "_:N9134e9c215394321ac973adf831719de"
+          "@id": "_:Ncbd30337828548c59fcc107ae05bafd5"
         },
         {
-          "@id": "_:N5e262311fba64ceca70d69961180e0e2"
+          "@id": "_:N4322d2a4aee146a08504d6e563441565"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nafba1028347e41b587797aa2df957fa3"
+        "@id": "_:Ne7e4ca8602664f22b351584c2a73d32d"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -72,19 +60,19 @@
       },
       "sc:author": "Robert Edgar",
       "sc:citation": [
-        {
-          "@id": "https://doi.org/10.1093/nar/gkh340"
-        },
         "pmcid:PMC517706",
+        "pubmed:15034147",
         "pubmed:15318951",
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC390337",
         {
           "@id": "https://doi.org/10.1186/1471-2105-5-113"
         },
-        "pubmed:15034147",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkh340"
+        },
+        "pmcid:PMC390337",
         {
           "@id": "https://doi.org/10.1101/2021.06.20.449169"
         }
@@ -97,9 +85,9 @@
       "sc:license": "Other",
       "sc:name": "MUSCLE",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
@@ -109,86 +97,30 @@
           "@id": "http://bioconductor.org/packages/release/bioc/html/muscle.html"
         },
         {
-          "@id": "https://www.drive5.com/muscle/manual/install.html"
+          "@id": "https://www.drive5.com/muscle/manual/"
         },
         {
-          "@id": "https://www.drive5.com/muscle/manual/"
+          "@id": "https://www.drive5.com/muscle/manual/install.html"
         }
       ],
       "sc:softwareVersion": "5",
       "sc:url": "https://www.drive5.com/muscle/"
     },
     {
-      "@id": "_:N9134e9c215394321ac973adf831719de",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_1936"
-        },
-        {
-          "@id": "edam:format_1997"
-        },
-        {
-          "@id": "edam:format_1948"
-        },
-        {
-          "@id": "edam:format_1927"
-        },
-        {
-          "@id": "edam:format_1935"
-        }
-      ],
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N5e262311fba64ceca70d69961180e0e2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3495"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_1935"
-        },
-        {
-          "@id": "edam:format_1936"
-        },
-        {
-          "@id": "edam:format_1929"
-        },
-        {
-          "@id": "edam:format_1997"
-        },
-        {
-          "@id": "edam:format_1948"
-        },
-        {
-          "@id": "edam:format_1927"
-        }
-      ],
-      "sc:name": "RNA sequence"
-    },
-    {
-      "@id": "_:Nafba1028347e41b587797aa2df957fa3",
+      "@id": "_:Ne7e4ca8602664f22b351584c2a73d32d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2331"
-        },
-        {
           "@id": "edam:format_1982"
         },
         {
           "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_2331"
         },
         {
           "@id": "edam:format_1947"
@@ -200,7 +132,75 @@
       "sc:name": "Sequence alignment"
     },
     {
+      "@id": "_:Ncbd30337828548c59fcc107ae05bafd5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1936"
+        },
+        {
+          "@id": "edam:format_1927"
+        },
+        {
+          "@id": "edam:format_1948"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1935"
+        },
+        {
+          "@id": "edam:format_1997"
+        }
+      ],
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N4322d2a4aee146a08504d6e563441565",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1948"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1935"
+        },
+        {
+          "@id": "edam:format_1997"
+        },
+        {
+          "@id": "edam:format_1936"
+        },
+        {
+          "@id": "edam:format_1927"
+        }
+      ],
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1101/2021.06.20.449169",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkh340",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-5-113",
       "@type": "sc:CreativeWork"
     }
   ]

@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp014",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/rnaither",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Lars Kaderali",
       "bsc:input": {
-        "@id": "_:N746631105870414881045f4f76f5c9b0"
+        "@id": "_:N8b739936d64c4c5d800a648debc3e346"
       },
       "bsc:output": {
-        "@id": "_:N88a15e04a75640c1a97fa4cec6a8f038"
+        "@id": "_:N2dbc4d6adf894d94a80c6bc4e9b3fa7c"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -71,8 +67,8 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "RNAither",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -82,7 +78,18 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/RNAither.html"
     },
     {
-      "@id": "_:N746631105870414881045f4f76f5c9b0",
+      "@id": "_:N2dbc4d6adf894d94a80c6bc4e9b3fa7c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3604"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N8b739936d64c4c5d800a648debc3e346",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -93,15 +100,8 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N88a15e04a75640c1a97fa4cec6a8f038",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3604"
-      },
-      "sc:name": "Plot"
+      "@id": "https://doi.org/10.1093/bioinformatics/btp014",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

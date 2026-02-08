@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/melanie",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8b38e7b98ff64cdab3dd4704aaeb3075"
+        "@id": "_:N675bd34c526b4ffead4c233d849d89f6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -63,8 +63,8 @@
       "sc:name": "Melanie",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "SIB Swiss Institute of Bioinformatics",
       "sc:softwareHelp": {
@@ -74,7 +74,7 @@
       "sc:url": "http://world-2dpage.expasy.org/melanie/"
     },
     {
-      "@id": "_:N8b38e7b98ff64cdab3dd4704aaeb3075",
+      "@id": "_:N675bd34c526b4ffead4c233d849d89f6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0942"

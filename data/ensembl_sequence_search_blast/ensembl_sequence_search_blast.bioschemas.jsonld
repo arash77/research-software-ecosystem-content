@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Andrew Yates",
       "bsc:input": {
-        "@id": "_:N4fbc0d6d185545cf93f9e16bc88f813d"
+        "@id": "_:N6945b57125304f22a31c1412c97b7829"
       },
       "bsc:output": {
-        "@id": "_:Nae13c55c21874cf6bf9ec04b3d8c5490"
+        "@id": "_:N40ddcb0b96cf403c8f2960aa3b762061"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -64,23 +64,23 @@
       "sc:name": "Ensembl Sequence Search BLAST",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
         {
-          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+          "@id": "http://www.ensembl.org/Multi/blastview"
         },
         {
-          "@id": "http://www.ensembl.org/Multi/blastview"
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
         }
       ],
       "sc:softwareVersion": "1",
       "sc:url": "http://www.ensembl.org/Multi/blastview"
     },
     {
-      "@id": "_:N4fbc0d6d185545cf93f9e16bc88f813d",
+      "@id": "_:N6945b57125304f22a31c1412c97b7829",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -88,7 +88,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nae13c55c21874cf6bf9ec04b3d8c5490",
+      "@id": "_:N40ddcb0b96cf403c8f2960aa3b762061",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"

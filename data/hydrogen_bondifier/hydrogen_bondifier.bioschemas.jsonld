@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/hydrogen_bondifier",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N89ef8030634f4756b6b75cd1360adf98"
+        "@id": "_:N324a67e2196c4e68b6ac3c383843b4d1"
       },
       "bsc:output": {
-        "@id": "_:N720e1ee1cab4482086853d80870585d6"
+        "@id": "_:N856b3e891ade442e8f1cf7871a8a0e1b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -61,9 +61,9 @@
       "sc:license": "MIT",
       "sc:name": "hydrogen_bondifier",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/jtprince/hydrogen_bondifier"
@@ -71,7 +71,7 @@
       "sc:url": "https://github.com/jtprince/hydrogen_bondifier"
     },
     {
-      "@id": "_:N720e1ee1cab4482086853d80870585d6",
+      "@id": "_:N856b3e891ade442e8f1cf7871a8a0e1b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1546"
@@ -82,7 +82,7 @@
       "sc:name": "Protein distance matrix"
     },
     {
-      "@id": "_:N89ef8030634f4756b6b75cd1360adf98",
+      "@id": "_:N324a67e2196c4e68b6ac3c383843b4d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

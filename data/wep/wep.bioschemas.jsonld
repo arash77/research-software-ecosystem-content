@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2105-14-s7-s11",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/wep",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Tiziana Castrignanò",
       "bsc:input": {
-        "@id": "_:N3c5ae2722193477a94786c702b315ef8"
+        "@id": "_:N5a8ea22116a3474cad959e7225bb4452"
       },
       "bsc:output": {
-        "@id": "_:N033b10d619a943d9b7216c32fe3d0aa7"
+        "@id": "_:N82417015f3534675bbec768225bf5811"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -64,8 +68,8 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "WEP",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:provider": "ELIXIR-ITA-CINECA",
@@ -76,7 +80,7 @@
       "sc:url": "http://bioinformatics.cineca.it/wep"
     },
     {
-      "@id": "_:N3c5ae2722193477a94786c702b315ef8",
+      "@id": "_:N5a8ea22116a3474cad959e7225bb4452",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -87,7 +91,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N033b10d619a943d9b7216c32fe3d0aa7",
+      "@id": "_:N82417015f3534675bbec768225bf5811",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -96,10 +100,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Nucleic acid features"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2105-14-s7-s11",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

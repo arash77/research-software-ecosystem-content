@@ -36,12 +36,12 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btv373",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "http://orcid.org/0000-0003-2861-5552",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv373",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/rchemcpp",
@@ -50,14 +50,14 @@
         "@id": "http://orcid.org/0000-0003-2861-5552"
       },
       "bsc:input": {
-        "@id": "_:N56f44c3a9e0c453986460330aa8fb66c"
+        "@id": "_:Nd4f2724632b74f95a3ee5aeb4779c404"
       },
       "bsc:output": [
         {
-          "@id": "_:N7effea49778a4a87bd613b9126b651ff"
+          "@id": "_:N6946112819004fa8a152ba527dba88b4"
         },
         {
-          "@id": "_:N776cf258eed84ce48491274ccc1fe873"
+          "@id": "_:N28ea32ff614c426aaf62e52cdcbe575b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -97,7 +97,18 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/Rchemcpp.html"
     },
     {
-      "@id": "_:N7effea49778a4a87bd613b9126b651ff",
+      "@id": "_:Nd4f2724632b74f95a3ee5aeb4779c404",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2035"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N6946112819004fa8a152ba527dba88b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -108,7 +119,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N776cf258eed84ce48491274ccc1fe873",
+      "@id": "_:N28ea32ff614c426aaf62e52cdcbe575b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -117,17 +128,6 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:N56f44c3a9e0c453986460330aa8fb66c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1463"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2035"
-      },
-      "sc:name": "Small molecule structure"
     }
   ]
 }

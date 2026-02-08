@@ -40,36 +40,36 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3102d98cd6a54df29e2b084fb3597ad5"
+          "@id": "_:Nf9a67d157bc94d279080594272c5a27c"
         },
         {
-          "@id": "_:Ne54225612788423ea5d7fb282f8544b2"
+          "@id": "_:N8cf1c627b3584b01ac6ab1b06f947af3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9c2f922b56cf4dd6b23f9719a25a8e86"
+          "@id": "_:N2e04bac80697416495f3771b297ac458"
         },
         {
-          "@id": "_:Nba61dcc1215e47b782fe5999f8f0e182"
+          "@id": "_:Nefca992b88564ac7aa627f420a96e577"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_3382"
         },
         {
-          "@id": "edam:topic_3382"
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:citation": [
         "pubmed:21800894",
-        "pmcid:PMC3190602",
         {
           "@id": "https://doi.org/10.1021/pr2005378"
-        }
+        },
+        "pmcid:PMC3190602"
       ],
       "sc:description": "Series of tools written in C++ that allows you to segment your mass spectrometry imaging dataset into regions with similar molecular signatures. The software allows for user input at each step of the process and returns the regions as well as the associated molecular signatures. It is composed of two dynamic libraries and a series of executables using the libraries as a base.",
       "sc:featureList": [
@@ -82,8 +82,8 @@
       ],
       "sc:name": "AMASS",
       "sc:operatingSystem": [
-        "Linux",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bix.ucsd.edu/AMASS/usage.html#usage"
@@ -91,23 +91,48 @@
       "sc:url": "http://bix.ucsd.edu/AMASS/"
     },
     {
-      "@id": "_:N9c2f922b56cf4dd6b23f9719a25a8e86",
+      "@id": "_:N2e04bac80697416495f3771b297ac458",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_3508"
+          "@id": "edam:format_3752"
         },
         {
-          "@id": "edam:format_3752"
+          "@id": "edam:format_3508"
         }
       ],
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nba61dcc1215e47b782fe5999f8f0e182",
+      "@id": "_:Nefca992b88564ac7aa627f420a96e577",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_3591"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Nf9a67d157bc94d279080594272c5a27c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -132,32 +157,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N3102d98cd6a54df29e2b084fb3597ad5",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3579"
-        },
-        {
-          "@id": "edam:format_3591"
-        },
-        {
-          "@id": "edam:format_3752"
-        },
-        {
-          "@id": "edam:format_3464"
-        },
-        {
-          "@id": "edam:format_3603"
-        }
-      ],
-      "sc:name": "Image"
-    },
-    {
-      "@id": "_:Ne54225612788423ea5d7fb282f8544b2",
+      "@id": "_:N8cf1c627b3584b01ac6ab1b06f947af3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

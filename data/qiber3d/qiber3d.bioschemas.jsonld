@@ -40,13 +40,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3072d42dfb004e439514536370e5a97a"
+          "@id": "_:N5845c1a116d94a459b29951e3c9b740e"
         },
         {
-          "@id": "_:N43bdb2c60eaa4182b98d2753a9c93dfd"
+          "@id": "_:N44279d6e54c8460181338f155e2f5a26"
         },
         {
-          "@id": "_:N49560a2991ac49ed9c19ab182ea7d268"
+          "@id": "_:N60bbf651bfd741f08b630c3f9b5d7424"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -67,9 +67,9 @@
       "sc:license": "MIT",
       "sc:name": "Qiber3D",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://qiber3d.readthedocs.io/"
@@ -78,7 +78,15 @@
       "sc:url": "https://github.com/theia-dev/Qiber3D"
     },
     {
-      "@id": "_:N3072d42dfb004e439514536370e5a97a",
+      "@id": "_:N5845c1a116d94a459b29951e3c9b740e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0949"
+      },
+      "sc:name": "Workflow metadata"
+    },
+    {
+      "@id": "_:N44279d6e54c8460181338f155e2f5a26",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -86,7 +94,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N43bdb2c60eaa4182b98d2753a9c93dfd",
+      "@id": "_:N60bbf651bfd741f08b630c3f9b5d7424",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -95,14 +103,6 @@
         "@id": "edam:format_1957"
       },
       "sc:name": "Raw image"
-    },
-    {
-      "@id": "_:N49560a2991ac49ed9c19ab182ea7d268",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0949"
-      },
-      "sc:name": "Workflow metadata"
     }
   ]
 }

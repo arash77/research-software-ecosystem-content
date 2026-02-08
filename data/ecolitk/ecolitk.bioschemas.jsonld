@@ -45,18 +45,18 @@
       "biotools:primaryContact": "Laurent Gautier",
       "bsc:input": [
         {
-          "@id": "_:N54e47d6b4b5c4f3abf1c80ba6dbb585c"
+          "@id": "_:N8b588584e8214ee3843954cee86c6146"
         },
         {
-          "@id": "_:Nbb1c70684f214366bfd1ab98fb33c862"
+          "@id": "_:N63f73d00ef02450d834914881b1cbddb"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf654dcc3e8974f018a006717d5c5aca1"
+          "@id": "_:Nf84017fa575240b5aff814591db385bd"
         },
         {
-          "@id": "_:N91ec011e98194e238684d30daaf1b49f"
+          "@id": "_:Nfc5b75b867f8447a86bd9df8114504d9"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -68,27 +68,27 @@
         "@id": "edam:topic_0092"
       },
       "sc:citation": [
+        "pubmed:25633503",
+        "pmcid:PMC4509590",
         {
           "@id": "https://doi.org/10.1038/nmeth.3252"
-        },
-        "pmcid:PMC4509590",
-        "pubmed:25633503"
+        }
       ],
       "sc:description": "Meta-data and tools to work with E. coli. The tools are mostly plotting functions to work with circular genomes. They can used with other genomes/plasmids.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_0578"
         },
         {
-          "@id": "edam:operation_0578"
+          "@id": "edam:operation_2422"
         }
       ],
       "sc:license": "GPL-2.0",
       "sc:name": "ecolitk",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/ecolitk.html"
@@ -97,39 +97,39 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/ecolitk.html"
     },
     {
-      "@id": "_:Nf654dcc3e8974f018a006717d5c5aca1",
+      "@id": "_:Nf84017fa575240b5aff814591db385bd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Nfc5b75b867f8447a86bd9df8114504d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1286"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Plasmid map"
     },
     {
-      "@id": "_:N91ec011e98194e238684d30daaf1b49f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1255"
-      },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_2330"
-        },
-        {
-          "@id": "edam:format_3547"
-        }
-      ],
-      "sc:name": "Sequence features"
-    },
-    {
-      "@id": "_:N54e47d6b4b5c4f3abf1c80ba6dbb585c",
+      "@id": "_:N8b588584e8214ee3843954cee86c6146",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -145,17 +145,17 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Nbb1c70684f214366bfd1ab98fb33c862",
+      "@id": "_:N63f73d00ef02450d834914881b1cbddb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_1919"
+          "@id": "edam:format_1920"
         },
         {
-          "@id": "edam:format_1920"
+          "@id": "edam:format_1919"
         }
       ],
       "sc:name": "Sequence"

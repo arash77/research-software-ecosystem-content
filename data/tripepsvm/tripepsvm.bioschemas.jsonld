@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/tripepsvm",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9f7369266aa14fee8a19b96dc3b4946e"
+        "@id": "_:N0f9ba26058ba4b42927c23fcd243114f"
       },
       "bsc:output": [
         {
-          "@id": "_:Nfc8830195fe4480081bc396ac45fbe6a"
+          "@id": "_:Nbaa833c984b74ae0adff1c447b570417"
         },
         {
-          "@id": "_:Naaffa370b90f45569b81a9055eee9e6c"
+          "@id": "_:N2c8ee91638734858b25ad024c972fa19"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -61,24 +61,21 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "TriPepSVM",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:url": "https://github.com/marsicoLab/TriPepSVM"
     },
     {
-      "@id": "_:N9f7369266aa14fee8a19b96dc3b4946e",
+      "@id": "_:Nbaa833c984b74ae0adff1c447b570417",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_2044"
+        "@id": "edam:data_1772"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
+      "sc:name": "Score"
     },
     {
-      "@id": "_:Nfc8830195fe4480081bc396ac45fbe6a",
+      "@id": "_:N2c8ee91638734858b25ad024c972fa19",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0989"
@@ -89,12 +86,15 @@
       "sc:name": "Protein identifier"
     },
     {
-      "@id": "_:Naaffa370b90f45569b81a9055eee9e6c",
+      "@id": "_:N0f9ba26058ba4b42927c23fcd243114f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1772"
+        "@id": "edam:data_2044"
       },
-      "sc:name": "Score"
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
     }
   ]
 }

@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/matrixqcvis",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc582499218ec4557ad39105743b336a9"
+        "@id": "_:N7143cbe4dcf14b4297e09d24ac12d97f"
       },
       "bsc:output": [
         {
-          "@id": "_:N5315615abd63404690e254c6e79e6da3"
+          "@id": "_:N339b3be570bb46028fb06b731f232377"
         },
         {
-          "@id": "_:N75d6c19f6f5049958a14c018b48b2535"
+          "@id": "_:Nb73682a030e04b35b89d5a787c169de6"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -60,7 +60,7 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0769"
+          "@id": "edam:topic_0121"
         },
         {
           "@id": "edam:topic_3308"
@@ -69,7 +69,7 @@
           "@id": "edam:topic_3172"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_0769"
         }
       ],
       "sc:citation": {
@@ -78,22 +78,22 @@
       "sc:description": "shiny-based interactive data quality exploration for omics data.",
       "sc:featureList": [
         {
+          "@id": "edam:operation_0337"
+        },
+        {
           "@id": "edam:operation_2495"
         },
         {
           "@id": "edam:operation_3799"
-        },
-        {
-          "@id": "edam:operation_0337"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "MatrixQCvis",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": [
         {
@@ -106,18 +106,7 @@
       "sc:url": "https://www.bioconductor.org/packages/release/bioc/html/MatrixQCvis.html"
     },
     {
-      "@id": "_:N5315615abd63404690e254c6e79e6da3",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3914"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3547"
-      },
-      "sc:name": "Quality control report"
-    },
-    {
-      "@id": "_:N75d6c19f6f5049958a14c018b48b2535",
+      "@id": "_:N339b3be570bb46028fb06b731f232377",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -128,7 +117,18 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nc582499218ec4557ad39105743b336a9",
+      "@id": "_:Nb73682a030e04b35b89d5a787c169de6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3914"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Quality control report"
+    },
+    {
+      "@id": "_:N7143cbe4dcf14b4297e09d24ac12d97f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"

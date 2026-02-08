@@ -36,16 +36,20 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0003-1406-8770",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/molview",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "https://orcid.org/0000-0003-1406-8770"
       },
       "bsc:input": {
-        "@id": "_:N76654e22265c4d449883a3eb9cf5997c"
+        "@id": "_:Nbb4b40bc9f714fd2be9c6880102e0e4f"
       },
       "bsc:output": {
-        "@id": "_:N95a6a4df168144a3865e97d0f9c7d1da"
+        "@id": "_:Nfd1a4d1266c54485b34dd6a36c6a2c45"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -55,10 +59,10 @@
       "sc:description": "Chemical sketching and molecular modeling made easy",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0337"
+          "@id": "edam:operation_4009"
         },
         {
-          "@id": "edam:operation_4009"
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -66,15 +70,7 @@
       "sc:url": "https://molview.org"
     },
     {
-      "@id": "_:N76654e22265c4d449883a3eb9cf5997c",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1463"
-      },
-      "sc:name": "Small molecule structure"
-    },
-    {
-      "@id": "_:N95a6a4df168144a3865e97d0f9c7d1da",
+      "@id": "_:Nfd1a4d1266c54485b34dd6a36c6a2c45",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1710"
@@ -82,8 +78,12 @@
       "sc:name": "Structure image"
     },
     {
-      "@id": "https://orcid.org/0000-0003-1406-8770",
-      "@type": "sc:Person"
+      "@id": "_:Nbb4b40bc9f714fd2be9c6880102e0e4f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:name": "Small molecule structure"
     }
   ]
 }

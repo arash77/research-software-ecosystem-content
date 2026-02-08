@@ -40,35 +40,32 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na32352491d7e4f4da9bb4a93e662c199"
+          "@id": "_:N5f2a0d77e465483ba0931c85ba391832"
         },
         {
-          "@id": "_:N4836b07fa46d412c8d719f669bbcb18d"
+          "@id": "_:N7f97de5ed9f04aa5a5956ff52d32b192"
         },
         {
-          "@id": "_:Nfa2d6c609a7f430da0eb1b6e89d3ca33"
+          "@id": "_:Na58d9ae1cfb14234924193bb315edc31"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N32ad0bcfe0074dd09181916d003c7550"
+          "@id": "_:Ndd7ad73de3e046fb868a862f3b15ee19"
         },
         {
-          "@id": "_:Nea4ab70f1eef431f9347b9d2a8a4b018"
+          "@id": "_:Ne6926fa555864b25bdfebc1b4cbe22d6"
         },
         {
-          "@id": "_:Nd337516bdf534f73a22e022d770bd166"
+          "@id": "_:N7db3a4bc857b492280a0c11b28415b4f"
         },
         {
-          "@id": "_:Na4e0faec301c40fda2ddd4abdcb13a91"
+          "@id": "_:Nc4c73c6571db4eebaa220d73e9cf6aca"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_3520"
-        },
         {
           "@id": "edam:topic_2269"
         },
@@ -77,17 +74,14 @@
         },
         {
           "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:citation": "pubmed:24794931",
       "sc:description": "Statistical tool for quantitative mass spectrometry-based proteomics.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_3799"
-        },
-        {
-          "@id": "edam:operation_0531"
-        },
         {
           "@id": "edam:operation_3441"
         },
@@ -95,19 +89,25 @@
           "@id": "edam:operation_3741"
         },
         {
-          "@id": "edam:operation_3658"
+          "@id": "edam:operation_0531"
         },
         {
           "@id": "edam:operation_0335"
         },
         {
-          "@id": "edam:operation_3435"
+          "@id": "edam:operation_3799"
+        },
+        {
+          "@id": "edam:operation_3664"
+        },
+        {
+          "@id": "edam:operation_3658"
         },
         {
           "@id": "edam:operation_2409"
         },
         {
-          "@id": "edam:operation_3664"
+          "@id": "edam:operation_3435"
         }
       ],
       "sc:name": "MSstats",
@@ -121,18 +121,7 @@
       "sc:url": "http://www.msstats.org/"
     },
     {
-      "@id": "_:N32ad0bcfe0074dd09181916d003c7550",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2884"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3508"
-      },
-      "sc:name": "Plot"
-    },
-    {
-      "@id": "_:Nea4ab70f1eef431f9347b9d2a8a4b018",
+      "@id": "_:N5f2a0d77e465483ba0931c85ba391832",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -143,29 +132,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Nd337516bdf534f73a22e022d770bd166",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1636"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3508"
-      },
-      "sc:name": "Heat map"
-    },
-    {
-      "@id": "_:Na4e0faec301c40fda2ddd4abdcb13a91",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0951"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3752"
-      },
-      "sc:name": "Statistical estimate score"
-    },
-    {
-      "@id": "_:Na32352491d7e4f4da9bb4a93e662c199",
+      "@id": "_:N7f97de5ed9f04aa5a5956ff52d32b192",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -176,7 +143,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N4836b07fa46d412c8d719f669bbcb18d",
+      "@id": "_:Na58d9ae1cfb14234924193bb315edc31",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -187,7 +154,40 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Nfa2d6c609a7f430da0eb1b6e89d3ca33",
+      "@id": "_:Ndd7ad73de3e046fb868a862f3b15ee19",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0951"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Statistical estimate score"
+    },
+    {
+      "@id": "_:Ne6926fa555864b25bdfebc1b4cbe22d6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N7db3a4bc857b492280a0c11b28415b4f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:Nc4c73c6571db4eebaa220d73e9cf6aca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

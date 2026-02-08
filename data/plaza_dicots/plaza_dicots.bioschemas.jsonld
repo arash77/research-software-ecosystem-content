@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Klaas",
       "bsc:input": {
-        "@id": "_:N15fd932056f341e3896a1b73de462312"
+        "@id": "_:Nbed9ee8104bc4e198943a9e843bc83d8"
       },
       "bsc:output": {
-        "@id": "_:N891e034bcb34487fbae446964468e5c7"
+        "@id": "_:Na750752004374ae2bdb204e261c17514"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -60,8 +60,8 @@
       "sc:name": "PLAZA dicots",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "PSB",
       "sc:softwareHelp": {
@@ -71,20 +71,20 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/plaza/versions/plaza_v3_dicots/"
     },
     {
-      "@id": "_:N891e034bcb34487fbae446964468e5c7",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:N15fd932056f341e3896a1b73de462312",
+      "@id": "_:Nbed9ee8104bc4e198943a9e843bc83d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
       },
       "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:Na750752004374ae2bdb204e261c17514",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gku986",

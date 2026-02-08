@@ -36,16 +36,24 @@
   },
   "@graph": [
     {
+      "@id": "http://orcid.org/0000-0003-4327-3730",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp191",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/pppbenchmark",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0003-4327-3730"
       },
       "bsc:input": {
-        "@id": "_:Nd6453081712a4f29b4b312e566b70640"
+        "@id": "_:N465db9c91493497b86f9121a07c85085"
       },
       "bsc:output": {
-        "@id": "_:N0b604f66753b4df98cb497dfbe9e0937"
+        "@id": "_:N81d928838c374599b8c23450716822ca"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -53,11 +61,11 @@
         "@id": "edam:topic_3511"
       },
       "sc:citation": [
-        "pmcid:PMC2687945",
-        "pubmed:19478005",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btp191"
-        }
+        },
+        "pmcid:PMC2687945",
+        "pubmed:19478005"
       ],
       "sc:description": "Promoter prediction program evaluation.",
       "sc:featureList": {
@@ -66,8 +74,8 @@
       "sc:name": "PPPbenchmark",
       "sc:operatingSystem": [
         "Linux",
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:provider": "ugent.be",
       "sc:softwareHelp": {
@@ -77,7 +85,18 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/pppbenchmark"
     },
     {
-      "@id": "_:N0b604f66753b4df98cb497dfbe9e0937",
+      "@id": "_:N465db9c91493497b86f9121a07c85085",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2749"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Genome identifier"
+    },
+    {
+      "@id": "_:N81d928838c374599b8c23450716822ca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2070"
@@ -91,25 +110,6 @@
         }
       ],
       "sc:name": "Sequence motif (nucleic acid)"
-    },
-    {
-      "@id": "_:Nd6453081712a4f29b4b312e566b70640",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2749"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Genome identifier"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-4327-3730",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp191",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

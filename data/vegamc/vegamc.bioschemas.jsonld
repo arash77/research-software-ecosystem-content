@@ -44,7 +44,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Sandro Morganella",
       "bsc:input": {
-        "@id": "_:Nde7cc0d0803b425f9665692953aff7a0"
+        "@id": "_:N3dd944f1333545f29c2e9e676ce093e0"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -68,21 +68,21 @@
       "sc:description": "This package enables the detection of driver chromosomal imbalances including loss of heterozygosity (LOH) from array comparative genomic hybridization (aCGH) data. It performs a joint segmentation of a dataset and uses a statistical framework to distinguish between driver and passenger mutations. It also has been implemented so that it can be integrated with the output produced by PennCNV tool.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3209"
-        },
-        {
           "@id": "edam:operation_3202"
         },
         {
           "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_3209"
         }
       ],
       "sc:license": "GPL-2.0",
       "sc:name": "VegaMC",
       "sc:operatingSystem": [
-        "Mac",
+        "Linux",
         "Windows",
-        "Linux"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/VegaMC.html"
@@ -91,7 +91,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/VegaMC.html"
     },
     {
-      "@id": "_:Nde7cc0d0803b425f9665692953aff7a0",
+      "@id": "_:N3dd944f1333545f29c2e9e676ce093e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3117"

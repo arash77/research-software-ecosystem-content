@@ -40,99 +40,75 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nc2092cf4b72f482cb3b71aa87514cadd"
+          "@id": "_:N63344e07a5d6498a8bfa223478622eab"
         },
         {
-          "@id": "_:N4100d1669aae4dd6a0c91fa32104a549"
+          "@id": "_:Nb7a78cc6361f4f9fa5a8b9b222f6b37d"
         },
         {
-          "@id": "_:Nd20a9ac5dd384262a70a2d959c6ac577"
+          "@id": "_:Na94615e28cad49b9a0a16a07ec607fc1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8dcf130a7b4f46c9a168cf4297084da3"
+          "@id": "_:N0ab33ac92f2b4956afcc7365b7d565a3"
         },
         {
-          "@id": "_:N9a388b6c5f064971bcb1f22740483cb0"
+          "@id": "_:N0e9756eb1ed147ebb1e1a41c2ff5783b"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Desktop application"
+        "Desktop application",
+        "Web application"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_0634"
-        },
         {
           "@id": "edam:topic_3379"
         },
         {
-          "@id": "edam:topic_3063"
+          "@id": "edam:topic_3697"
         },
         {
           "@id": "edam:topic_3316"
         },
         {
-          "@id": "edam:topic_3697"
+          "@id": "edam:topic_3063"
+        },
+        {
+          "@id": "edam:topic_0634"
         }
       ],
       "sc:citation": [
+        "pmcid:PMC10269532",
         "pubmed:37039671",
         {
           "@id": "https://doi.org/10.1128/SPECTRUM.05059-22"
-        },
-        "pmcid:PMC10269532"
+        }
       ],
       "sc:description": "Integrative web cloud platform for user-friendly microbiome data analysis with survival responses.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_3431"
-        },
         {
           "@id": "edam:operation_3797"
         },
         {
           "@id": "edam:operation_3503"
+        },
+        {
+          "@id": "edam:operation_3431"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "MiSurv",
       "sc:operatingSystem": [
+        "Linux",
         "Mac",
-        "Windows",
-        "Linux"
+        "Windows"
       ],
       "sc:url": "http://misurv.micloud.kr"
     },
     {
-      "@id": "_:Nc2092cf4b72f482cb3b71aa87514cadd",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0872"
-      },
-      "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "_:N4100d1669aae4dd6a0c91fa32104a549",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2337"
-      },
-      "sc:name": "Resource metadata"
-    },
-    {
-      "@id": "_:Nd20a9ac5dd384262a70a2d959c6ac577",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3028"
-      },
-      "sc:name": "Taxonomy"
-    },
-    {
-      "@id": "_:N8dcf130a7b4f46c9a168cf4297084da3",
+      "@id": "_:N0ab33ac92f2b4956afcc7365b7d565a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3914"
@@ -140,12 +116,36 @@
       "sc:name": "Quality control report"
     },
     {
-      "@id": "_:N9a388b6c5f064971bcb1f22740483cb0",
+      "@id": "_:N0e9756eb1ed147ebb1e1a41c2ff5783b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3743"
       },
       "sc:name": "Ordination plot"
+    },
+    {
+      "@id": "_:N63344e07a5d6498a8bfa223478622eab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "_:Nb7a78cc6361f4f9fa5a8b9b222f6b37d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:Na94615e28cad49b9a0a16a07ec607fc1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2337"
+      },
+      "sc:name": "Resource metadata"
     },
     {
       "@id": "https://doi.org/10.1128/SPECTRUM.05059-22",

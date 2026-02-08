@@ -46,10 +46,10 @@
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3379"
+          "@id": "edam:topic_0769"
         },
         {
-          "@id": "edam:topic_0769"
+          "@id": "edam:topic_3379"
         },
         {
           "@id": "edam:topic_3303"
@@ -70,8 +70,8 @@
       "sc:name": "pkglite",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "https://cran.r-project.org/web/packages/pkglite/pkglite.pdf"

@@ -36,42 +36,46 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/S12864-022-08881-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/livestockexp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N14d19536819946c8843dbd906623666d"
+          "@id": "_:Nf1e3944a30884137832d557fa0ee2830"
         },
         {
-          "@id": "_:Nfdd83bc9c5884891a175be9cdfc8b46a"
+          "@id": "_:N4aabe2c5728f49e88860e3fcf32a17e0"
         },
         {
-          "@id": "_:N378375b1c8d549c09e322e3963094dd1"
+          "@id": "_:N8d4c5a41a1d04cb687592b2b50d1b531"
         },
         {
-          "@id": "_:Ne56b76107ec747de96f6afe6d8f97d5a"
+          "@id": "_:N9ee3ea2e40d4480886c5f7fb7ba46e8c"
         },
         {
-          "@id": "_:N7dfe2accfadc4b8a9550ace33569a57a"
+          "@id": "_:Ncbe6538914c349f893aaf2de97ef8895"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3810"
-        },
-        {
-          "@id": "edam:topic_0625"
+          "@id": "edam:topic_3170"
         },
         {
           "@id": "edam:topic_3500"
         },
         {
-          "@id": "edam:topic_3170"
+          "@id": "edam:topic_3320"
         },
         {
-          "@id": "edam:topic_3320"
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3810"
         }
       ],
       "sc:citation": [
@@ -84,48 +88,32 @@
       "sc:description": "A web-based database server using 43,710 public RNA-seq samples for the analysis of gene expression and alternative splicing in livestock animals.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3431"
-        },
-        {
           "@id": "edam:operation_0264"
         },
         {
-          "@id": "edam:operation_3223"
+          "@id": "edam:operation_3431"
         },
         {
           "@id": "edam:operation_2436"
         },
         {
           "@id": "edam:operation_3463"
+        },
+        {
+          "@id": "edam:operation_3223"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:name": "LivestockExp",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:url": "https://bioinfo.njau.edu.cn/livestockExp"
     },
     {
-      "@id": "_:N14d19536819946c8843dbd906623666d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1026"
-      },
-      "sc:name": "Gene symbol"
-    },
-    {
-      "@id": "_:Nfdd83bc9c5884891a175be9cdfc8b46a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1176"
-      },
-      "sc:name": "GO concept ID"
-    },
-    {
-      "@id": "_:N378375b1c8d549c09e322e3963094dd1",
+      "@id": "_:Nf1e3944a30884137832d557fa0ee2830",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1075"
@@ -133,7 +121,23 @@
       "sc:name": "Protein family identifier"
     },
     {
-      "@id": "_:Ne56b76107ec747de96f6afe6d8f97d5a",
+      "@id": "_:N4aabe2c5728f49e88860e3fcf32a17e0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N8d4c5a41a1d04cb687592b2b50d1b531",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1176"
+      },
+      "sc:name": "GO concept ID"
+    },
+    {
+      "@id": "_:N9ee3ea2e40d4480886c5f7fb7ba46e8c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -141,16 +145,12 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N7dfe2accfadc4b8a9550ace33569a57a",
+      "@id": "_:Ncbe6538914c349f893aaf2de97ef8895",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2343"
       },
       "sc:name": "Pathway ID (KEGG)"
-    },
-    {
-      "@id": "https://doi.org/10.1186/S12864-022-08881-2",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

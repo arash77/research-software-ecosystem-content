@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/pr050354v",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/speclust",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N686ae8a9a72042338afe798f4c475c8f"
+        "@id": "_:N2e261d7133ce45a6a938a3bc984d560d"
       },
       "bsc:output": {
-        "@id": "_:N3131887154a24ae99605b698765f962f"
+        "@id": "_:N87d87449ea57448c82d599fcfe4f5b76"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -65,9 +61,9 @@
       },
       "sc:name": "SPECLUST",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:provider": "bils.se",
       "sc:softwareHelp": {
@@ -77,7 +73,7 @@
       "sc:url": "http://co.bmc.lu.se/speclust/"
     },
     {
-      "@id": "_:N686ae8a9a72042338afe798f4c475c8f",
+      "@id": "_:N2e261d7133ce45a6a938a3bc984d560d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -85,12 +81,16 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N3131887154a24ae99605b698765f962f",
+      "@id": "_:N87d87449ea57448c82d599fcfe4f5b76",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2979"
       },
       "sc:name": "Peptide property"
+    },
+    {
+      "@id": "https://doi.org/10.1021/pr050354v",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

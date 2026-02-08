@@ -40,37 +40,37 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N87efb567177d4b28bc0c4a622d507785"
+          "@id": "_:N755f827b86b24dd49e9cc3f2b2a0645f"
         },
         {
-          "@id": "_:Na4e8ac157ae44130aa2e5f51c95fcd67"
+          "@id": "_:N700593e36a374a2ea7008370a1de265e"
         },
         {
-          "@id": "_:N152461d8c7b44710bc8de93a3a3fa17f"
+          "@id": "_:N05aaeeff67d94cf992e234347ead2eb1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N784256399e9944e6b7396ead0964bb01"
+          "@id": "_:N34889bf6be0949829c161e965f8da62d"
         },
         {
-          "@id": "_:N7c7493ba755d42beaa99d700ed035dd6"
+          "@id": "_:Naf0980665f1f4c1eb673f131bebfc5ae"
         },
         {
-          "@id": "_:N72f797e0f8a44d73a4aeb3724b6ebb25"
+          "@id": "_:N9cf244a8527844b7b21d4a8fff29d2dc"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_0080"
         },
         {
           "@id": "edam:topic_3473"
         },
         {
-          "@id": "edam:topic_0080"
+          "@id": "edam:topic_0091"
         }
       ],
       "sc:description": "UniversalMer is a k-mer counting tool for multiple size of k at once. It is available for DNA, RNA, and protein sequences. The program counts and summarizes the exact frequency of all k-mers from 1-mer to a user-defined maximum length (kmax). Analyzing the k-mer spectrum across multiple values of k can be done in seconds. This program is designed for bioinformatics researchers and scientists.",
@@ -81,25 +81,14 @@
       "sc:license": "Freeware",
       "sc:name": "UniversalMer",
       "sc:operatingSystem": [
-        "Mac",
-        "Windows"
+        "Windows",
+        "Mac"
       ],
       "sc:softwareVersion": "2.0.0",
       "sc:url": "https://ugrammer.github.io"
     },
     {
-      "@id": "_:N87efb567177d4b28bc0c4a622d507785",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2976"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2546"
-      },
-      "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:Na4e8ac157ae44130aa2e5f51c95fcd67",
+      "@id": "_:N755f827b86b24dd49e9cc3f2b2a0645f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -110,7 +99,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N152461d8c7b44710bc8de93a3a3fa17f",
+      "@id": "_:N700593e36a374a2ea7008370a1de265e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -121,7 +110,26 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N784256399e9944e6b7396ead0964bb01",
+      "@id": "_:N05aaeeff67d94cf992e234347ead2eb1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2546"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N34889bf6be0949829c161e965f8da62d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1265"
+      },
+      "sc:name": "Base frequencies table"
+    },
+    {
+      "@id": "_:Naf0980665f1f4c1eb673f131bebfc5ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1266"
@@ -129,20 +137,12 @@
       "sc:name": "Base word frequencies table"
     },
     {
-      "@id": "_:N7c7493ba755d42beaa99d700ed035dd6",
+      "@id": "_:N9cf244a8527844b7b21d4a8fff29d2dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3671"
       },
       "sc:name": "Text"
-    },
-    {
-      "@id": "_:N72f797e0f8a44d73a4aeb3724b6ebb25",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1265"
-      },
-      "sc:name": "Base frequencies table"
     }
   ]
 }

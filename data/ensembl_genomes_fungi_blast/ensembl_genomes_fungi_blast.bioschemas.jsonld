@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ensembl Genomes webteam",
       "bsc:input": {
-        "@id": "_:N4de06a86cf39482fabef56694ca80da0"
+        "@id": "_:N19cdebe285374262beb84f3cd56f0c58"
       },
       "bsc:output": [
         {
-          "@id": "_:N62bf259109204870aef1da6c82a80734"
+          "@id": "_:Nfcab6fe3296e405e821c11fb33d57ec0"
         },
         {
-          "@id": "_:Nf83667c2538d4c28bd50a5da82126fd4"
+          "@id": "_:N379edb2b32fd491c97640f4ab776013c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -65,9 +65,9 @@
       },
       "sc:name": "Ensembl Genomes Fungi Blast",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "EMBL-EBI",
       "sc:softwareHelp": [
@@ -82,7 +82,7 @@
       "sc:url": "http://fungi.ensembl.org/Multi/blastview"
     },
     {
-      "@id": "_:N62bf259109204870aef1da6c82a80734",
+      "@id": "_:Nfcab6fe3296e405e821c11fb33d57ec0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -90,7 +90,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nf83667c2538d4c28bd50a5da82126fd4",
+      "@id": "_:N379edb2b32fd491c97640f4ab776013c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -98,7 +98,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N4de06a86cf39482fabef56694ca80da0",
+      "@id": "_:N19cdebe285374262beb84f3cd56f0c58",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

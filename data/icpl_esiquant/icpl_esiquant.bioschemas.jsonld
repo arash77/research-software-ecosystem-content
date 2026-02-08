@@ -36,36 +36,32 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.bbapap.2013.02.019",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/icpl_esiquant",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3bf9584ed4c54c74bbf8499343fad01a"
+          "@id": "_:N4bfb430e078547ceb2b8ee42caed40bd"
         },
         {
-          "@id": "_:N08a75ff205724f74b1a583478d2ec8ea"
+          "@id": "_:N93c1b97291a047398a32d793220cf53f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N545657d452aa4409ac7f8142fbc20793"
+          "@id": "_:Nb08c821b50e245ec98e890dded368fa8"
         },
         {
-          "@id": "_:N5db12c4d51f2458886c9c120e4d61030"
+          "@id": "_:N35137b236f504a089b4a6818bc956492"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         },
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         }
       ],
       "sc:citation": [
@@ -77,34 +73,34 @@
       "sc:description": "Tool for processing and analyzing ICPL LC-MS/MS (ESI) data.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3631"
-        },
-        {
-          "@id": "edam:operation_3629"
-        },
-        {
-          "@id": "edam:operation_3636"
-        },
-        {
           "@id": "edam:operation_3630"
-        },
-        {
-          "@id": "edam:operation_3635"
-        },
-        {
-          "@id": "edam:operation_3705"
         },
         {
           "@id": "edam:operation_3203"
         },
         {
+          "@id": "edam:operation_3636"
+        },
+        {
           "@id": "edam:operation_3215"
+        },
+        {
+          "@id": "edam:operation_3635"
+        },
+        {
+          "@id": "edam:operation_3631"
+        },
+        {
+          "@id": "edam:operation_3705"
+        },
+        {
+          "@id": "edam:operation_3629"
         }
       ],
       "sc:name": "ICPL_ESIQuant",
       "sc:operatingSystem": [
-        "Windows",
         "Mac",
+        "Windows",
         "Linux"
       ],
       "sc:softwareHelp": {
@@ -113,7 +109,7 @@
       "sc:url": "https://www.biochem.mpg.de/en/rg/lottspeich/technologies/ICPLQuant"
     },
     {
-      "@id": "_:N545657d452aa4409ac7f8142fbc20793",
+      "@id": "_:Nb08c821b50e245ec98e890dded368fa8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -124,7 +120,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N5db12c4d51f2458886c9c120e4d61030",
+      "@id": "_:N35137b236f504a089b4a6818bc956492",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
@@ -135,7 +131,18 @@
       "sc:name": "Peptide mass fingerprint"
     },
     {
-      "@id": "_:N3bf9584ed4c54c74bbf8499343fad01a",
+      "@id": "_:N4bfb430e078547ceb2b8ee42caed40bd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3654"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N93c1b97291a047398a32d793220cf53f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -146,15 +153,8 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N08a75ff205724f74b1a583478d2ec8ea",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0943"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3654"
-      },
-      "sc:name": "Mass spectrometry spectra"
+      "@id": "https://doi.org/10.1016/j.bbapap.2013.02.019",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

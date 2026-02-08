@@ -36,27 +36,23 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1752-0509-1-35",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cellcycledb",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Roberta Alfieri",
       "bsc:input": [
         {
-          "@id": "_:N0eb31609029f4e5a946165787452a506"
+          "@id": "_:N0fdba192de644409ad7512b74b8f1a04"
         },
         {
-          "@id": "_:Na805624a04774ca8a48d08be79ee898f"
+          "@id": "_:Nd90d023a6d864128b7cb2fb0fe7b4fbd"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N63bf7ba15d49443eb42f41cb6e400835"
+          "@id": "_:N88cde1336d2e47efb6a6984d74e60c2c"
         },
         {
-          "@id": "_:Ncecf83e0b4274a29a8d63029275a59d0"
+          "@id": "_:N0fb2e8ee14744998ba65c2f6c75a74b6"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,18 +62,18 @@
           "@id": "edam:topic_0623"
         },
         {
-          "@id": "edam:topic_0621"
+          "@id": "edam:topic_2229"
         },
         {
-          "@id": "edam:topic_2229"
+          "@id": "edam:topic_0621"
         }
       ],
       "sc:citation": [
-        "pmcid:PMC1995223",
-        "pubmed:17678529",
         {
           "@id": "https://doi.org/10.1186/1752-0509-1-35"
-        }
+        },
+        "pmcid:PMC1995223",
+        "pubmed:17678529"
       ],
       "sc:description": "A collection of genes and proteins involved in human and yeast cell cycle.",
       "sc:featureList": {
@@ -85,9 +81,9 @@
       },
       "sc:name": "Cell cycle database (CellCycleDB)",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "CNR-ITB",
       "sc:softwareHelp": {
@@ -96,18 +92,23 @@
       "sc:url": "http://www.itb.cnr.it/cellcycle/index.html"
     },
     {
-      "@id": "_:N63bf7ba15d49443eb42f41cb6e400835",
+      "@id": "_:N0fdba192de644409ad7512b74b8f1a04",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0916"
+        "@id": "edam:data_2764"
       },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2331"
-      },
-      "sc:name": "Gene report"
+      "sc:name": "Protein name (UniProt)"
     },
     {
-      "@id": "_:Ncecf83e0b4274a29a8d63029275a59d0",
+      "@id": "_:Nd90d023a6d864128b7cb2fb0fe7b4fbd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N88cde1336d2e47efb6a6984d74e60c2c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -118,20 +119,19 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:N0eb31609029f4e5a946165787452a506",
+      "@id": "_:N0fb2e8ee14744998ba65c2f6c75a74b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_1026"
+        "@id": "edam:data_0916"
       },
-      "sc:name": "Gene symbol"
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
     },
     {
-      "@id": "_:Na805624a04774ca8a48d08be79ee898f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2764"
-      },
-      "sc:name": "Protein name (UniProt)"
+      "@id": "https://doi.org/10.1186/1752-0509-1-35",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

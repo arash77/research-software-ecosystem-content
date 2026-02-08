@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/jsquid",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0174e4727b7b4979a323f35efe855e7e"
+        "@id": "_:N12f142ebc1ac44f29580fd800f2f8daa"
       },
       "bsc:output": {
-        "@id": "_:N9a7b15f96b584a10b7a18adbdaaf9d90"
+        "@id": "_:N04023803d1b24293a97ecc0ffa1a48bb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -61,8 +61,8 @@
       },
       "sc:name": "jSquid",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:provider": "bils.se",
@@ -73,7 +73,7 @@
       "sc:url": "http://jsquid.sbc.su.se/"
     },
     {
-      "@id": "_:N9a7b15f96b584a10b7a18adbdaaf9d90",
+      "@id": "_:N12f142ebc1ac44f29580fd800f2f8daa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -81,7 +81,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N0174e4727b7b4979a323f35efe855e7e",
+      "@id": "_:N04023803d1b24293a97ecc0ffa1a48bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

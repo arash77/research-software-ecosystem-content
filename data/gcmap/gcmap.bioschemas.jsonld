@@ -36,26 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt592",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/gcmap",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Thomas Sandmann",
       "bsc:input": [
         {
-          "@id": "_:N503997bc46a942d69f41af275f16df4b"
+          "@id": "_:Na4a39c1e8abd4d6d98683de55e5f11da"
         },
         {
-          "@id": "_:Na89691a4c26745ad8bf4465965f22d79"
+          "@id": "_:N75a62f1b39b54e75a3ab49866a2184c4"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5ac2d4e61a8946e3bd6d7c19919781f0"
+          "@id": "_:Nba95522d3a9c4a24a46e82785d2202dd"
         },
         {
-          "@id": "_:N7aef3eacdcd14b808cf8232028fe1fd8"
+          "@id": "_:N1ee9b11233364598a6a8af588d608bcc"
         },
         {
-          "@id": "_:Nfd75f5ca9ea04ac79356bade326e2c85"
+          "@id": "_:N7c483fb075b445258e14d4177aeb4bf3"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -65,9 +69,6 @@
       ],
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3170"
-        },
-        {
           "@id": "edam:topic_0203"
         },
         {
@@ -75,6 +76,9 @@
         },
         {
           "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_3170"
         }
       ],
       "sc:citation": [
@@ -95,9 +99,9 @@
       "sc:license": "Artistic-2.0",
       "sc:name": "gCMAP",
       "sc:operatingSystem": [
+        "Windows",
         "Linux",
-        "Mac",
-        "Windows"
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/gCMAP.html"
@@ -106,66 +110,55 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/gCMAP.html"
     },
     {
-      "@id": "_:N5ac2d4e61a8946e3bd6d7c19919781f0",
+      "@id": "_:Nba95522d3a9c4a24a46e82785d2202dd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Report"
     },
     {
-      "@id": "_:N7aef3eacdcd14b808cf8232028fe1fd8",
+      "@id": "_:N1ee9b11233364598a6a8af588d608bcc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nfd75f5ca9ea04ac79356bade326e2c85",
+      "@id": "_:N7c483fb075b445258e14d4177aeb4bf3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2330"
+          "@id": "edam:format_3547"
         },
         {
-          "@id": "edam:format_3547"
+          "@id": "edam:format_2330"
         }
       ],
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N503997bc46a942d69f41af275f16df4b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0928"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Gene expression profile"
-    },
-    {
-      "@id": "_:Na89691a4c26745ad8bf4465965f22d79",
+      "@id": "_:Na4a39c1e8abd4d6d98683de55e5f11da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -176,8 +169,15 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btt592",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N75a62f1b39b54e75a3ab49866a2184c4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene expression profile"
     }
   ]
 }

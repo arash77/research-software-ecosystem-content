@@ -40,20 +40,20 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ramneek Gupta",
       "bsc:input": {
-        "@id": "_:N1717c59ff76642d2afc87a6ac1408c0a"
+        "@id": "_:Na116d4ea5c9c41f3a80afc11b09a00d7"
       },
       "bsc:output": [
         {
-          "@id": "_:Ndf457b8e7f3b4a488f1ce65b2905fbec"
+          "@id": "_:N8c461aa08c7a470396bdfb73442f9ce6"
         },
         {
-          "@id": "_:N8f9fad7b7c224af5b8c1468be0621a8e"
+          "@id": "_:Nf42641486da2446891f6b5f3dbb8538f"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Command-line tool",
-        "Web application"
+        "Web application",
+        "Command-line tool"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0601"
@@ -78,7 +78,7 @@
       "sc:url": "http://www.cbs.dtu.dk/services/NetNGlyc/"
     },
     {
-      "@id": "_:Ndf457b8e7f3b4a488f1ce65b2905fbec",
+      "@id": "_:N8c461aa08c7a470396bdfb73442f9ce6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -89,7 +89,7 @@
       "sc:name": "Sequence report"
     },
     {
-      "@id": "_:N8f9fad7b7c224af5b8c1468be0621a8e",
+      "@id": "_:Nf42641486da2446891f6b5f3dbb8538f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -100,7 +100,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N1717c59ff76642d2afc87a6ac1408c0a",
+      "@id": "_:Na116d4ea5c9c41f3a80afc11b09a00d7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

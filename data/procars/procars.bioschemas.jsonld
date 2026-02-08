@@ -41,18 +41,18 @@
       "biotools:primaryContact": "PERRIN Amandine",
       "bsc:input": [
         {
-          "@id": "_:N5fa576db69bf41ef914d53fc0affc904"
+          "@id": "_:N87d9c7c1945e4c9ca9da7bf30e4156a2"
         },
         {
-          "@id": "_:N74e9cc88f5634859957849346132e11d"
+          "@id": "_:N7f7225b8b5e64075831904808962ab86"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc5adf6fa2b1c4660b9c6cbe6f54f83d4"
+          "@id": "_:N119272e822c6487997fcf6a48623d815"
         },
         {
-          "@id": "_:Nb762b1ea447b44eab281852e54cd8486"
+          "@id": "_:N011ebaf424854de1b87b4f8cd7d0e3e8"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -61,10 +61,10 @@
         "@id": "edam:topic_0084"
       },
       "sc:citation": [
-        "pmcid:PMC4460626",
         {
           "@id": "https://doi.org/10.1186/1471-2164-16-s5-s6"
         },
+        "pmcid:PMC4460626",
         "pubmed:26040958"
       ],
       "sc:description": "Reconstruct Ancestral gene orders as CARs (Contiguous Ancestral Regions) with a progressive homology-based method. The method runs from a phylogeny tree (without branch lengths needed) with a marked ancestor and a block file. This homology-based method is based on iteratively detecting and assembling ancestral adjacencies, while allowing some micro-rearrangements of synteny blocks at the extremities of the progressively assembled CARs.",
@@ -85,7 +85,15 @@
       "sc:url": "http://bioinfo.lifl.fr/procars/procars.php"
     },
     {
-      "@id": "_:N5fa576db69bf41ef914d53fc0affc904",
+      "@id": "_:N119272e822c6487997fcf6a48623d815",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N011ebaf424854de1b87b4f8cd7d0e3e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3479"
@@ -93,7 +101,7 @@
       "sc:name": "Gene order"
     },
     {
-      "@id": "_:N74e9cc88f5634859957849346132e11d",
+      "@id": "_:N87d9c7c1945e4c9ca9da7bf30e4156a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3272"
@@ -104,15 +112,7 @@
       "sc:name": "Species tree"
     },
     {
-      "@id": "_:Nc5adf6fa2b1c4660b9c6cbe6f54f83d4",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2082"
-      },
-      "sc:name": "Matrix"
-    },
-    {
-      "@id": "_:Nb762b1ea447b44eab281852e54cd8486",
+      "@id": "_:N7f7225b8b5e64075831904808962ab86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3479"

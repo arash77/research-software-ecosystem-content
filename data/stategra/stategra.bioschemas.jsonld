@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.14806/ej.20.a.768",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/stategra",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
+        "Gordon Ball",
         "David Gomez-Cabrero",
-        "Patricia Sebastián-León",
-        "Gordon Ball"
+        "Patricia Sebastián-León"
       ],
       "bsc:input": {
-        "@id": "_:Ndeaa54c88081418ab7ef4f45221100fa"
+        "@id": "_:N334a03cd1d49400fb1689226f76ab838"
       },
       "bsc:output": {
-        "@id": "_:Naf177d8ce9604750870a88d17890e2f4"
+        "@id": "_:N1f6cb3320d3f4ecc95a297377355b1a3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -72,9 +76,9 @@
       "sc:license": "GPL-2.0",
       "sc:name": "STATegRa",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "http://bioconductor.org/packages/release/bioc/html/STATegRa.html"
@@ -83,7 +87,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/STATegRa.html"
     },
     {
-      "@id": "_:Naf177d8ce9604750870a88d17890e2f4",
+      "@id": "_:N1f6cb3320d3f4ecc95a297377355b1a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -94,7 +98,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Ndeaa54c88081418ab7ef4f45221100fa",
+      "@id": "_:N334a03cd1d49400fb1689226f76ab838",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -108,10 +112,6 @@
         }
       ],
       "sc:name": "Matrix"
-    },
-    {
-      "@id": "https://doi.org/10.14806/ej.20.a.768",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

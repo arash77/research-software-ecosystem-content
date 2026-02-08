@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btt555",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-7359-0633",
       "@type": "sc:Person"
     },
@@ -51,14 +47,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nedb2ccc2c3e04d13a5f46323f2bfa55c"
+          "@id": "_:Nd0b8e33df8f64596ac2aedd0a005d55b"
         },
         {
-          "@id": "_:N8414ff0b91ff4bbfaf49513a77aec2f0"
+          "@id": "_:N701d2c4cf92e4b3a996693fde8fe79e5"
         }
       ],
       "bsc:output": {
-        "@id": "_:N9b991bc1f3ee41af8f8fdfa0ba491707"
+        "@id": "_:N21f948d0923540928b3f04aef90dbaf2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -74,10 +70,10 @@
         "@id": "https://orcid.org/0000-0002-7359-0633"
       },
       "sc:citation": [
+        "pubmed:24064422",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btt555"
         },
-        "pubmed:24064422",
         "pmcid:PMC5994943"
       ],
       "sc:description": "Prediction of β-sheet topology.",
@@ -99,18 +95,7 @@
       "sc:url": "http://biocomp.unibo.it/savojard/bcov/index.html"
     },
     {
-      "@id": "_:N9b991bc1f3ee41af8f8fdfa0ba491707",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0906"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Protein interaction data"
-    },
-    {
-      "@id": "_:Nedb2ccc2c3e04d13a5f46323f2bfa55c",
+      "@id": "_:Nd0b8e33df8f64596ac2aedd0a005d55b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -121,7 +106,7 @@
       "sc:name": "Sequence alignment (protein)"
     },
     {
-      "@id": "_:N8414ff0b91ff4bbfaf49513a77aec2f0",
+      "@id": "_:N701d2c4cf92e4b3a996693fde8fe79e5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -130,6 +115,21 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N21f948d0923540928b3f04aef90dbaf2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt555",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

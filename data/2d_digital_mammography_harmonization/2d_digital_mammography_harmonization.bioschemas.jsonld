@@ -47,29 +47,26 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N60b4f01181454960b1a8440369b498c6"
+          "@id": "_:N7827da3b79994c65a4d81be78ef5c70b"
         },
         {
-          "@id": "_:N6fee79aab0464a1d8763828a7a720024"
+          "@id": "_:Nd09423b926d3451597dba044f838b4a1"
         },
         {
-          "@id": "_:Na1f919ac19e344ccb8ab0b6a3963171f"
+          "@id": "_:N6041c44b2d4740eea0c8d7c045e44584"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nbf47d9aab98a4a49a76671582119c732"
+          "@id": "_:N7a00c206254e41838f6274c6c318e0dc"
         },
         {
-          "@id": "_:Ncf4ce4760c724ceeb348b3a5fa5ff05b"
+          "@id": "_:Nb3b04f8fcad44703ad0b12b64099eb16"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_3071"
-        },
         {
           "@id": "edam:topic_3316"
         },
@@ -78,6 +75,9 @@
         },
         {
           "@id": "edam:topic_0219"
+        },
+        {
+          "@id": "edam:topic_3071"
         }
       ],
       "sc:author": "Manuel Marfil-Trujillo",
@@ -105,7 +105,7 @@
       "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/4/repositories/2d_digital_mammography_harmonization/artifacts-tab"
     },
     {
-      "@id": "_:N60b4f01181454960b1a8440369b498c6",
+      "@id": "_:N7a00c206254e41838f6274c6c318e0dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -116,7 +116,18 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N6fee79aab0464a1d8763828a7a720024",
+      "@id": "_:Nb3b04f8fcad44703ad0b12b64099eb16",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N7827da3b79994c65a4d81be78ef5c70b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -127,7 +138,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Na1f919ac19e344ccb8ab0b6a3963171f",
+      "@id": "_:Nd09423b926d3451597dba044f838b4a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -138,18 +149,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nbf47d9aab98a4a49a76671582119c732",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2968"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3548"
-      },
-      "sc:name": "Image"
-    },
-    {
-      "@id": "_:Ncf4ce4760c724ceeb348b3a5fa5ff05b",
+      "@id": "_:N6041c44b2d4740eea0c8d7c045e44584",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

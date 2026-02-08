@@ -45,14 +45,14 @@
       "biotools:primaryContact": "Dmitry Avtonomov",
       "bsc:input": [
         {
-          "@id": "_:N091395853da54db5a182af0a927bb48c"
+          "@id": "_:Nd7bc0bcb4c1b4e07ba286fd98bcbc4ed"
         },
         {
-          "@id": "_:N69ae22d9b1ba41c5bbf1672cf728fae3"
+          "@id": "_:Nd68d500599fa44daa554e4b1339261c5"
         }
       ],
       "bsc:output": {
-        "@id": "_:N67b168afe9354f9c9fdc6fd77a5576ab"
+        "@id": "_:Nb8c9cdb11e89457396ee925e7a3cdef6"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -71,19 +71,19 @@
       "sc:description": "Automated detection and visualization of mass shifts in proteomic open search results.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3627"
+          "@id": "edam:operation_3215"
         },
         {
-          "@id": "edam:operation_3215"
+          "@id": "edam:operation_3627"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
       "sc:name": "DeltaMass",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
-        "Linux"
+        "Linux",
+        "Mac"
       ],
       "sc:softwareHelp": {
         "@id": "https://github.com/chhh/deltamass/blob/master/README.md"
@@ -92,23 +92,15 @@
       "sc:url": "https://github.com/chhh/deltamass"
     },
     {
-      "@id": "_:N091395853da54db5a182af0a927bb48c",
+      "@id": "_:Nb8c9cdb11e89457396ee925e7a3cdef6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0943"
+        "@id": "edam:data_0844"
       },
-      "sc:encodingFormat": [
-        {
-          "@id": "edam:format_3244"
-        },
-        {
-          "@id": "edam:format_3654"
-        }
-      ],
-      "sc:name": "Mass spectrometry spectra"
+      "sc:name": "Molecular mass"
     },
     {
-      "@id": "_:N69ae22d9b1ba41c5bbf1672cf728fae3",
+      "@id": "_:Nd7bc0bcb4c1b4e07ba286fd98bcbc4ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -124,12 +116,20 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N67b168afe9354f9c9fdc6fd77a5576ab",
+      "@id": "_:Nd68d500599fa44daa554e4b1339261c5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
-        "@id": "edam:data_0844"
+        "@id": "edam:data_0943"
       },
-      "sc:name": "Molecular mass"
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3244"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
     }
   ]
 }

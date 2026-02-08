@@ -36,6 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1074/mcp.RA119.001700",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2450-1833",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7838-6180",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/citrullia",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,26 +55,23 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N51ac4ad34089481da6c30a6bf3ee89fb"
+          "@id": "_:N99be8176413c49f4a7f55e2aa8f87ede"
         },
         {
-          "@id": "_:Nad6c5e256a844bb69460fb1e7268c118"
+          "@id": "_:N9a2bd80ee1e340f7b8115718e8fb1cd8"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nb3e2185b35464024aafee014f901fd05"
+          "@id": "_:N7c609889896a45e19f59f95ecb86f636"
         },
         {
-          "@id": "_:Na61fd40cbe43477e92eb2cd32238119a"
+          "@id": "_:Nff64a7e7bbac4b66a304580ef747612c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_0601"
-        },
         {
           "@id": "edam:topic_0121"
         },
@@ -70,20 +79,23 @@
           "@id": "edam:topic_3520"
         },
         {
+          "@id": "edam:topic_0601"
+        },
+        {
           "@id": "edam:topic_0154"
         }
       ],
       "sc:author": [
+        "Mads Kierkegaard",
         "Christian Engelbrecht Mikkelsen",
-        "Pernille Fjordside Iversen",
-        "Mads Kierkegaard"
+        "Pernille Fjordside Iversen"
       ],
       "sc:citation": [
+        "pmcid:PMC6944236",
         "pubmed:31754044",
         {
           "@id": "https://doi.org/10.1074/mcp.RA119.001700"
-        },
-        "pmcid:PMC6944236"
+        }
       ],
       "sc:contributor": {
         "@id": "https://orcid.org/0000-0002-2450-1833"
@@ -112,7 +124,7 @@
       "sc:url": "https://github.com/Citrullia-SDU/Citrullia"
     },
     {
-      "@id": "_:Nb3e2185b35464024aafee014f901fd05",
+      "@id": "_:N7c609889896a45e19f59f95ecb86f636",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3756"
@@ -123,7 +135,7 @@
       "sc:name": "Localisation score"
     },
     {
-      "@id": "_:Na61fd40cbe43477e92eb2cd32238119a",
+      "@id": "_:Nff64a7e7bbac4b66a304580ef747612c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -134,7 +146,15 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:N51ac4ad34089481da6c30a6bf3ee89fb",
+      "@id": "_:N99be8176413c49f4a7f55e2aa8f87ede",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N9a2bd80ee1e340f7b8115718e8fb1cd8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -143,26 +163,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Nad6c5e256a844bb69460fb1e7268c118",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2536"
-      },
-      "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-7838-6180",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1074/mcp.RA119.001700",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-2450-1833",
-      "@type": "sc:Person"
     }
   ]
 }

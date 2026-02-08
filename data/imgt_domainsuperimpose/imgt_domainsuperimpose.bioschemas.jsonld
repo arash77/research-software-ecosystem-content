@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/IMGT_DomainSuperimpose",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd9858472d0824bebafe85ed4322a0b64"
+        "@id": "_:N53e9d0ab38644a37939879e50c2a182b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -47,8 +47,8 @@
         "@id": "edam:topic_0081"
       },
       "sc:citation": [
-        "pmcid:PMC4383898",
         "pubmed:25378316",
+        "pmcid:PMC4383898",
         {
           "@id": "https://doi.org/10.1093/nar/gku1056"
         }
@@ -60,9 +60,9 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "IMGT DomainSuperimpose",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://www.imgt.org/3Dstructure-DB/doc/IMGTDomainSuperimpose.shtml"
@@ -70,7 +70,7 @@
       "sc:url": "http://www.imgt.org/3Dstructure-DB/cgi/DomainSuperimpose.cgi"
     },
     {
-      "@id": "_:Nd9858472d0824bebafe85ed4322a0b64",
+      "@id": "_:N53e9d0ab38644a37939879e50c2a182b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"

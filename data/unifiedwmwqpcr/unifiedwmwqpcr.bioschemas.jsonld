@@ -44,24 +44,24 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Joris Meys",
       "bsc:input": {
-        "@id": "_:N961b4a2970b94588a2cb65cf3f4c7e28"
+        "@id": "_:N6cb38353dfe54383817ad2d8defb3765"
       },
       "bsc:output": {
-        "@id": "_:N17be94919a264cffadb6c2cfe5743654"
+        "@id": "_:N7f5737ba1332494dade4dd3821611a98"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Library",
-        "Command-line tool"
+        "Command-line tool",
+        "Library"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_3519"
       },
       "sc:citation": [
-        "pubmed:24794933",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btu313"
-        }
+        },
+        "pubmed:24794933"
       ],
       "sc:description": "This packages implements the unified Wilcoxon-Mann-Whitney Test for qPCR data. This modified test allows for testing differential expression in qPCR data.",
       "sc:featureList": {
@@ -70,8 +70,8 @@
       "sc:license": "GPL-2.0",
       "sc:name": "unifiedWMWqPCR",
       "sc:operatingSystem": [
-        "Windows",
         "Linux",
+        "Windows",
         "Mac"
       ],
       "sc:softwareHelp": {
@@ -81,7 +81,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/unifiedWMWqPCR.html"
     },
     {
-      "@id": "_:N961b4a2970b94588a2cb65cf3f4c7e28",
+      "@id": "_:N6cb38353dfe54383817ad2d8defb3765",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -92,7 +92,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N17be94919a264cffadb6c2cfe5743654",
+      "@id": "_:N7f5737ba1332494dade4dd3821611a98",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

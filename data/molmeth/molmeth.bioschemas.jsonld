@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/molmeth",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na399b11bfa6a4710834f44de4456418c"
+        "@id": "_:N093d3a82b2534f4581437488cb1e9589"
       },
       "bsc:output": {
-        "@id": "_:N466cae2a7e1d4e4a8079c48bb629b81c"
+        "@id": "_:Nb58142d3111e4ebc9e97ced9215cffe3"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -65,8 +65,8 @@
       },
       "sc:name": "MolMeth",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:provider": "bils.se",
@@ -76,7 +76,7 @@
       "sc:url": "http://www.molmeth.org/"
     },
     {
-      "@id": "_:Na399b11bfa6a4710834f44de4456418c",
+      "@id": "_:N093d3a82b2534f4581437488cb1e9589",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -84,7 +84,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N466cae2a7e1d4e4a8079c48bb629b81c",
+      "@id": "_:Nb58142d3111e4ebc9e97ced9215cffe3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"

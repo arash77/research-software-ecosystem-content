@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/hiv-trace",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na417f2be473e4062854710ff5e0a629c"
+        "@id": "_:N1b66940a5ca24058a5fdbc64748539cc"
       },
       "bsc:output": {
-        "@id": "_:Nfed8021b17044796ac8bc417d22f80df"
+        "@id": "_:N27c18d3de9984564bb91a487905956bf"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
@@ -72,18 +72,7 @@
       "sc:url": "https://github.com/veg/hivtrace"
     },
     {
-      "@id": "_:Nfed8021b17044796ac8bc417d22f80df",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2042"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3464"
-      },
-      "sc:name": "Evidence"
-    },
-    {
-      "@id": "_:Na417f2be473e4062854710ff5e0a629c",
+      "@id": "_:N1b66940a5ca24058a5fdbc64748539cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -92,6 +81,17 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:N27c18d3de9984564bb91a487905956bf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2042"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3464"
+      },
+      "sc:name": "Evidence"
     }
   ]
 }

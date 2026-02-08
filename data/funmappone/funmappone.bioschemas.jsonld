@@ -42,13 +42,13 @@
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_0089"
         },
         {
           "@id": "edam:topic_0621"
         },
         {
-          "@id": "edam:topic_0089"
+          "@id": "edam:topic_0602"
         }
       ],
       "sc:citation": [
@@ -75,8 +75,8 @@
       "sc:name": "FunMappOne",
       "sc:operatingSystem": [
         "Windows",
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:softwareHelp": {
         "@id": "https://usermanual.wiki/Document/UserManual.999755866.pdf"

@@ -36,31 +36,35 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/771485",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/fcite",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3f4e8e16483849928d21c08be957ef21"
+        "@id": "_:Nfb7cbff0bf0d4e34b6d06b9988124db5"
       },
       "bsc:output": {
-        "@id": "_:N780aaf31c8504a87931746df8c564f9a"
+        "@id": "_:Nfe2adb8947dd437483129376b6278b36"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0092"
+          "@id": "edam:topic_3473"
         },
         {
           "@id": "edam:topic_3068"
         },
         {
-          "@id": "edam:topic_0605"
-        },
-        {
           "@id": "edam:topic_3474"
         },
         {
-          "@id": "edam:topic_3473"
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_0605"
         }
       ],
       "sc:citation": {
@@ -83,22 +87,22 @@
       "sc:name": "fCite",
       "sc:softwareHelp": [
         {
-          "@id": "http://fcite.org/frequently_asked_questions.html"
+          "@id": "http://fcite.org/help.html"
         },
         {
-          "@id": "http://fcite.org/stats.html"
+          "@id": "http://fcite.org/frequently_asked_questions.html"
         },
         {
           "@id": "http://fcite.org/examples.html"
         },
         {
-          "@id": "http://fcite.org/help.html"
+          "@id": "http://fcite.org/stats.html"
         }
       ],
       "sc:url": "http://fcite.org"
     },
     {
-      "@id": "_:N780aaf31c8504a87931746df8c564f9a",
+      "@id": "_:Nfe2adb8947dd437483129376b6278b36",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0970"
@@ -109,16 +113,12 @@
       "sc:name": "Citation"
     },
     {
-      "@id": "_:N3f4e8e16483849928d21c08be957ef21",
+      "@id": "_:Nfb7cbff0bf0d4e34b6d06b9988124db5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1187"
       },
       "sc:name": "PubMed ID"
-    },
-    {
-      "@id": "https://doi.org/10.1101/771485",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

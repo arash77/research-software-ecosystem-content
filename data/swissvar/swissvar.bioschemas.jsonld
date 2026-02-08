@@ -40,70 +40,70 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N6c887959ba0d4415be40a63509e36a41"
+          "@id": "_:Nd1b9e2b7b3fb4f4484610557a1e485e0"
         },
         {
-          "@id": "_:N52df0ad146f44a76b54197ba87d2d1c2"
+          "@id": "_:Nc03cb98fc6294b3cb54fef979ea6512c"
         },
         {
-          "@id": "_:N4ebaba622ace40529cf9740b77de6cf6"
+          "@id": "_:Nf7d150a470274c27b06f9c7f58f89596"
         },
         {
-          "@id": "_:N37b98466f1fd4931bb2b5f1fd187e488"
+          "@id": "_:N65747e7b2db641ebb5d285d45e27148b"
         },
         {
-          "@id": "_:Nc7982431041e4394b3201e1c30251070"
+          "@id": "_:N3bae094d36a04d79a441231c76ca3ebf"
         },
         {
-          "@id": "_:Ne577669b367a4fef9f227aefee9e901b"
+          "@id": "_:Ne8e0c35fa8ef4098913a74c9e722be76"
         },
         {
-          "@id": "_:Nfaaebbb1e6f1411b9c2a000ff86fd0e2"
+          "@id": "_:Nf934e083f8e54b4993a9ae791a541e6e"
         },
         {
-          "@id": "_:N61dd20dc3dbd48ea83ef24853cdb1b7b"
+          "@id": "_:Nb14e8bf1210c4103867d3dfeda182e09"
         },
         {
-          "@id": "_:Nf42183aa53664899b0de350aad81b5f4"
+          "@id": "_:N32f6ac63f57b4657841ce23206be44f3"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nfcaf8d54939a4b9da5f16ddb3215d09c"
+        "@id": "_:Ne559a778b0fd42a8b0e975824357f2a2"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
       "sc:applicationSubCategory": [
         {
+          "@id": "edam:topic_0634"
+        },
+        {
           "@id": "edam:topic_0625"
         },
         {
           "@id": "edam:topic_3120"
-        },
-        {
-          "@id": "edam:topic_0634"
         }
       ],
       "sc:citation": [
-        "pubmed:20106818",
         "pmcid:PMC2832822",
         {
           "@id": "https://doi.org/10.1093/bioinformatics/btq028"
-        }
+        },
+        "pubmed:20106818"
       ],
       "sc:description": "A portal to search variants (polymorphism) in UniProt Knowledgebase (UniProtKB) entries, and gives direct access to manual annotation on the genotype-phenotype relationship of each specific variant based on literature, as well as pre-computed information (such as conservation scores and a list of structural features when available) to help assess the effect of the variant.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2422"
+          "@id": "edam:operation_0349"
         },
         {
-          "@id": "edam:operation_0349"
+          "@id": "edam:operation_2422"
         }
       ],
       "sc:name": "SwissVar",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:provider": "SIB Swiss Institute of Bioinformatics",
       "sc:softwareHelp": {
@@ -112,63 +112,7 @@
       "sc:url": "http://swissvar.expasy.org/"
     },
     {
-      "@id": "_:N6c887959ba0d4415be40a63509e36a41",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1009"
-      },
-      "sc:name": "Protein name"
-    },
-    {
-      "@id": "_:N52df0ad146f44a76b54197ba87d2d1c2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1150"
-      },
-      "sc:name": "Disease ID"
-    },
-    {
-      "@id": "_:N4ebaba622ace40529cf9740b77de6cf6",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1177"
-      },
-      "sc:name": "MeSH concept ID"
-    },
-    {
-      "@id": "_:N37b98466f1fd4931bb2b5f1fd187e488",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3021"
-      },
-      "sc:name": "UniProt accession"
-    },
-    {
-      "@id": "_:Nc7982431041e4394b3201e1c30251070",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2291"
-      },
-      "sc:name": "UniProt ID"
-    },
-    {
-      "@id": "_:Ne577669b367a4fef9f227aefee9e901b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3498"
-      },
-      "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "_:Nfaaebbb1e6f1411b9c2a000ff86fd0e2",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2099"
-      },
-      "sc:name": "Name"
-    },
-    {
-      "@id": "_:N61dd20dc3dbd48ea83ef24853cdb1b7b",
+      "@id": "_:Nd1b9e2b7b3fb4f4484610557a1e485e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -176,7 +120,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:Nf42183aa53664899b0de350aad81b5f4",
+      "@id": "_:Nc03cb98fc6294b3cb54fef979ea6512c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1153"
@@ -184,20 +128,76 @@
       "sc:name": "OMIM ID"
     },
     {
-      "@id": "_:Nfcaf8d54939a4b9da5f16ddb3215d09c",
+      "@id": "_:Nf7d150a470274c27b06f9c7f58f89596",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2099"
+      },
+      "sc:name": "Name"
+    },
+    {
+      "@id": "_:N65747e7b2db641ebb5d285d45e27148b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1009"
+      },
+      "sc:name": "Protein name"
+    },
+    {
+      "@id": "_:N3bae094d36a04d79a441231c76ca3ebf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:Ne8e0c35fa8ef4098913a74c9e722be76",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1177"
+      },
+      "sc:name": "MeSH concept ID"
+    },
+    {
+      "@id": "_:Nf934e083f8e54b4993a9ae791a541e6e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Nb14e8bf1210c4103867d3dfeda182e09",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1150"
+      },
+      "sc:name": "Disease ID"
+    },
+    {
+      "@id": "_:N32f6ac63f57b4657841ce23206be44f3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2291"
+      },
+      "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:Ne559a778b0fd42a8b0e975824357f2a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
       },
       "sc:encodingFormat": [
         {
-          "@id": "edam:format_2332"
-        },
-        {
           "@id": "edam:format_2331"
         },
         {
           "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2332"
         }
       ],
       "sc:name": "Protein features"

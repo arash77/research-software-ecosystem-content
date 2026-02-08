@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/762302",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/kraken2",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N28afe924bb6044b89fc28dbf82769561"
+        "@id": "_:N2e1434220c41452f9c3d8506a6cf2956"
       },
       "bsc:output": {
-        "@id": "_:N80f6db5f39ae4b879fff229d4436b85d"
+        "@id": "_:Nab42d9cd6e3145d4bc4d97d10ca38481"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -55,13 +51,13 @@
           "@id": "edam:topic_0637"
         },
         {
-          "@id": "edam:topic_3697"
-        },
-        {
           "@id": "edam:topic_3301"
         },
         {
           "@id": "edam:topic_3174"
+        },
+        {
+          "@id": "edam:topic_3697"
         }
       ],
       "sc:citation": {
@@ -83,21 +79,10 @@
         }
       ],
       "sc:softwareVersion": "2.0.8-beta",
-      "sc:url": "https://ccb.jhu.edu/software/kraken2/"
+      "sc:url": "https://github.com/DerrickWood/kraken2"
     },
     {
-      "@id": "_:N80f6db5f39ae4b879fff229d4436b85d",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3028"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3475"
-      },
-      "sc:name": "Taxonomy"
-    },
-    {
-      "@id": "_:N28afe924bb6044b89fc28dbf82769561",
+      "@id": "_:N2e1434220c41452f9c3d8506a6cf2956",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -111,6 +96,21 @@
         }
       ],
       "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:Nab42d9cd6e3145d4bc4d97d10ca38481",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "https://doi.org/10.1101/762302",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

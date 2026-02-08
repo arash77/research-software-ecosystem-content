@@ -40,13 +40,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nba6c5468d72248329112ae762c43a74b"
+          "@id": "_:N7a5c609911c147c5af6cee32746c5494"
         },
         {
-          "@id": "_:Nd103acc5bd7a4169a06ec02e7b89bbbc"
+          "@id": "_:N726ba03656dc4709ba59c77a25ec387b"
         },
         {
-          "@id": "_:N13b8a67ed9fe45a4b37204aaeabdb453"
+          "@id": "_:N5c146b0311d14f7aa81a8299a7aa003e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -56,16 +56,16 @@
           "@id": "edam:topic_0601"
         },
         {
-          "@id": "edam:topic_0121"
-        },
-        {
-          "@id": "edam:topic_3520"
-        },
-        {
           "@id": "edam:topic_0080"
         },
         {
+          "@id": "edam:topic_0121"
+        },
+        {
           "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:citation": [
@@ -90,14 +90,14 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "dbPTM",
       "sc:operatingSystem": [
-        "Linux",
+        "Windows",
         "Mac",
-        "Windows"
+        "Linux"
       ],
       "sc:url": "https://awi.cuhk.edu.cn/dbPTM/"
     },
     {
-      "@id": "_:Nba6c5468d72248329112ae762c43a74b",
+      "@id": "_:N7a5c609911c147c5af6cee32746c5494",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -105,7 +105,15 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:Nd103acc5bd7a4169a06ec02e7b89bbbc",
+      "@id": "_:N726ba03656dc4709ba59c77a25ec387b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2291"
+      },
+      "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:N5c146b0311d14f7aa81a8299a7aa003e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -114,14 +122,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "_:N13b8a67ed9fe45a4b37204aaeabdb453",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2291"
-      },
-      "sc:name": "UniProt ID"
     },
     {
       "@id": "https://doi.org/10.1093/NAR/GKAB1017",

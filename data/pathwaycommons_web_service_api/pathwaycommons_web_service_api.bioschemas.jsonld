@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0003-0185-8861",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq1039",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/PathwayCommons_web_service_API",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,20 +51,20 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N55345da872e34b4c8fa23c79d129f145"
+          "@id": "_:N68826b811bfd405bacb612a31cf70e5c"
         },
         {
-          "@id": "_:Neb97c45ff4e94e65aa5712f81316335f"
+          "@id": "_:N0939b609eaff4134abf8cac4d91299fd"
         },
         {
-          "@id": "_:Nbded7a66195a4627bc2418044ba4622b"
+          "@id": "_:N6862adf47f254e1cbfae377e4e943e4f"
         },
         {
-          "@id": "_:Neb4cdf9bc0ce4141a55c66f5409a3a05"
+          "@id": "_:N21b167d663a3455285f6de8e539a9132"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nf2855240f6fe49449c25a6a59fb51799"
+        "@id": "_:Nb43087752fd74cfeb71316da2f5228b8"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -72,11 +80,11 @@
         }
       ],
       "sc:citation": [
+        "pmcid:PMC3013659",
+        "pubmed:21071392",
         {
           "@id": "https://doi.org/10.1093/nar/gkq1039"
-        },
-        "pubmed:21071392",
-        "pmcid:PMC3013659"
+        }
       ],
       "sc:description": "Pathway Commons integrates a number of pathway and molecular interaction databases supporting BioPAX and PSI-MI formats into one large BioPAX model, which can be queried using our web API (documented below). This API can be used by computational biologists to download custom subsets of pathway data for analysis, or can be used to incorporate powerful biological pathway and network information retrieval and query functionality into websites and software.",
       "sc:featureList": {
@@ -91,51 +99,7 @@
       "sc:url": "https://www.pathwaycommons.org/pc2/home"
     },
     {
-      "@id": "_:N55345da872e34b4c8fa23c79d129f145",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1047"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "URI"
-    },
-    {
-      "@id": "_:Neb97c45ff4e94e65aa5712f81316335f",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3786"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Query script"
-    },
-    {
-      "@id": "_:Nbded7a66195a4627bc2418044ba4622b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0842"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Identifier"
-    },
-    {
-      "@id": "_:Neb4cdf9bc0ce4141a55c66f5409a3a05",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_0968"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Keyword"
-    },
-    {
-      "@id": "_:Nf2855240f6fe49449c25a6a59fb51799",
+      "@id": "_:Nb43087752fd74cfeb71316da2f5228b8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -146,12 +110,48 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkq1039",
-      "@type": "sc:CreativeWork"
+      "@id": "_:N68826b811bfd405bacb612a31cf70e5c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Keyword"
     },
     {
-      "@id": "https://orcid.org/0000-0003-0185-8861",
-      "@type": "sc:Person"
+      "@id": "_:N0939b609eaff4134abf8cac4d91299fd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1047"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "URI"
+    },
+    {
+      "@id": "_:N6862adf47f254e1cbfae377e4e943e4f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "_:N21b167d663a3455285f6de8e539a9132",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Identifier"
     }
   ]
 }

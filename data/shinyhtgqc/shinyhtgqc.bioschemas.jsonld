@@ -39,52 +39,52 @@
       "@id": "https://bio.tools/shinyhtgqc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd41f5030f9b54ef5a5154d17e4e3df01"
+        "@id": "_:Naf7959a861414b469df7c90738bcff9a"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3170"
+          "@id": "edam:topic_0203"
         },
         {
-          "@id": "edam:topic_0203"
+          "@id": "edam:topic_3170"
         },
         {
           "@id": "edam:topic_3572"
         }
       ],
       "sc:citation": [
-        "pubmed:36950141",
         "pmcid:PMC10027062",
         {
           "@id": "https://doi.org/10.46471/GIGABYTE.74"
-        }
+        },
+        "pubmed:36950141"
       ],
       "sc:description": "shinyR application for quality controls of HTG EDGE-seq protocols.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3891"
+          "@id": "edam:operation_2428"
         },
         {
           "@id": "edam:operation_0314"
         },
         {
-          "@id": "edam:operation_2428"
+          "@id": "edam:operation_3891"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "MIT",
       "sc:name": "shinyHTGQC",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:url": "https://lodovico.shinyapps.io/shinyHTGQC/"
     },
     {
-      "@id": "_:Nd41f5030f9b54ef5a5154d17e4e3df01",
+      "@id": "_:Naf7959a861414b469df7c90738bcff9a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3914"

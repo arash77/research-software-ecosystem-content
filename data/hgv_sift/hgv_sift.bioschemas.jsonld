@@ -36,11 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkg509",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkg509",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -52,10 +52,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N2e64b44c0d6c4137a01008fa149f5706"
+        "@id": "_:Nd45b7e6dfb3b4454a45ec7fd09d3bafb"
       },
       "bsc:output": {
-        "@id": "_:N5c36041908fc47b08a85ce289a399ad9"
+        "@id": "_:N7eccab0c432c4cdcb6b7b7d583852142"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -63,19 +63,19 @@
         "@id": "edam:topic_0160"
       },
       "sc:citation": [
-        "pubmed:12824425",
-        {
-          "@id": "https://doi.org/10.1093/nar/gkg509"
-        },
-        "pmcid:PMC168916",
         {
           "@id": "https://doi.org/10.1093/nar/gkw343"
         },
         {
           "@id": "https://doi.org/10.7490/f1000research.1114334.1"
         },
-        "pmcid:PMC4987906",
-        "pubmed:27137889"
+        "pmcid:PMC168916",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkg509"
+        },
+        "pubmed:12824425",
+        "pubmed:27137889",
+        "pmcid:PMC4987906"
       ],
       "sc:description": "Predictions of functional sites.",
       "sc:featureList": {
@@ -89,7 +89,7 @@
       "sc:url": "https://github.com/galaxyproject/galaxy/tree/dev/tools"
     },
     {
-      "@id": "_:N2e64b44c0d6c4137a01008fa149f5706",
+      "@id": "_:N7eccab0c432c4cdcb6b7b7d583852142",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -100,7 +100,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N5c36041908fc47b08a85ce289a399ad9",
+      "@id": "_:Nd45b7e6dfb3b4454a45ec7fd09d3bafb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

@@ -44,23 +44,23 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2635236ce57c431a8d2fa253ed93ea4e"
+          "@id": "_:Nc3c0ece3df3249aaa55c9dd45e9bfb6d"
         },
         {
-          "@id": "_:Nc15fdfeb81e842259f4473afd696a9d9"
+          "@id": "_:Nd8ede4c5e06e44c9914f3b87b5bdfe7c"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3373"
-        },
-        {
           "@id": "edam:topic_3047"
         },
         {
           "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_3373"
         }
       ],
       "sc:citation": [
@@ -84,27 +84,27 @@
       "sc:isAccessibleForFree": true,
       "sc:name": "MolPredictX",
       "sc:operatingSystem": [
-        "Mac",
         "Windows",
+        "Mac",
         "Linux"
       ],
       "sc:url": "https://www.molpredictx.ufpb.br/"
     },
     {
-      "@id": "_:N2635236ce57c431a8d2fa253ed93ea4e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2301"
-      },
-      "sc:name": "SMILES string"
-    },
-    {
-      "@id": "_:Nc15fdfeb81e842259f4473afd696a9d9",
+      "@id": "_:Nc3c0ece3df3249aaa55c9dd45e9bfb6d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
       },
       "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:Nd8ede4c5e06e44c9914f3b87b5bdfe7c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2301"
+      },
+      "sc:name": "SMILES string"
     }
   ]
 }

@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s12866-016-0804-6",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/hcvivdb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N49671575ea4c4fd083b690ff7620ace5"
+        "@id": "_:Nbbde25ca6c6b4a5f99e6e78bb6cb588c"
       },
       "bsc:output": {
-        "@id": "_:N4273e59d01c340cb89a481d6df896905"
+        "@id": "_:Nddbd25e5f5994a668f9b0eab3d6138bd"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -56,10 +60,10 @@
       ],
       "sc:citation": [
         "pmcid:PMC4986321",
-        "pubmed:27527702",
         {
           "@id": "https://doi.org/10.1186/s12866-016-0804-6"
-        }
+        },
+        "pubmed:27527702"
       ],
       "sc:description": "A specialized and medically-oriented database of published variations observed within the internal ribosome entry site (IRES) variants in hepatitis C virus.",
       "sc:featureList": {
@@ -69,8 +73,8 @@
       "sc:name": "HCVIVdb",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:provider": "ELIXIR-CZ",
       "sc:softwareHelp": {
@@ -80,7 +84,7 @@
       "sc:url": "http://www.hcvivdb.org/"
     },
     {
-      "@id": "_:N49671575ea4c4fd083b690ff7620ace5",
+      "@id": "_:Nbbde25ca6c6b4a5f99e6e78bb6cb588c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1048"
@@ -88,16 +92,12 @@
       "sc:name": "Database ID"
     },
     {
-      "@id": "_:N4273e59d01c340cb89a481d6df896905",
+      "@id": "_:Nddbd25e5f5994a668f9b0eab3d6138bd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
       },
       "sc:name": "Database search results"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s12866-016-0804-6",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N9b397d7077824dd8b7e1c35608d1861d"
+          "@id": "_:Nbea089c3081c45f690ab990e70fb8520"
         },
         {
-          "@id": "_:N171fac2592b74649a90f160218b70610"
+          "@id": "_:N29f468836fae49f4bc64d4879304051d"
         }
       ],
       "bsc:output": {
-        "@id": "_:N4955059aff2c45f9b904108c09c673dc"
+        "@id": "_:N654e87f53bec40088517c7b147963779"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -58,8 +58,8 @@
         {
           "@id": "https://doi.org/10.1016/j.cell.2007.05.052"
         },
-        "pmcid:PMC2692296",
-        "pubmed:17570479"
+        "pubmed:17570479",
+        "pmcid:PMC2692296"
       ],
       "sc:description": "Prediction of in vivo kinase-substrate relationships, that augments consensus motifs with context for kinases and phosphoproteins.",
       "sc:featureList": {
@@ -80,18 +80,7 @@
       "sc:url": "http://www.networkin.info/"
     },
     {
-      "@id": "_:N4955059aff2c45f9b904108c09c673dc",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:N9b397d7077824dd8b7e1c35608d1861d",
+      "@id": "_:Nbea089c3081c45f690ab990e70fb8520",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2775"
@@ -102,7 +91,7 @@
       "sc:name": "Kinase name"
     },
     {
-      "@id": "_:N171fac2592b74649a90f160218b70610",
+      "@id": "_:N29f468836fae49f4bc64d4879304051d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -111,6 +100,17 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:N654e87f53bec40088517c7b147963779",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein features"
     },
     {
       "@id": "https://doi.org/10.1016/j.cell.2007.05.052",

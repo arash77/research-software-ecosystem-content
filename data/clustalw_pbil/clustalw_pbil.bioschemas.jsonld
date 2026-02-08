@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Gilbert Deleage",
       "bsc:input": {
-        "@id": "_:Ne7a966c351c44f5a9f08fb3d70b62f15"
+        "@id": "_:Nb895fa04deb949c5884f92bbf1b81aac"
       },
       "bsc:output": {
-        "@id": "_:Nfa010072cc5f466d96fe295e8ef984ac"
+        "@id": "_:N79382e5d212f4683b48c6584d4d7a903"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -66,18 +66,7 @@
       "sc:url": "http://npsa-pbil.ibcp.fr/cgi-bin/npsa_automat.pl?page=npsa_clustalw.html"
     },
     {
-      "@id": "_:Ne7a966c351c44f5a9f08fb3d70b62f15",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2044"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1929"
-      },
-      "sc:name": "Sequence"
-    },
-    {
-      "@id": "_:Nfa010072cc5f466d96fe295e8ef984ac",
+      "@id": "_:N79382e5d212f4683b48c6584d4d7a903",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -86,6 +75,17 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nb895fa04deb949c5884f92bbf1b81aac",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
     }
   ]
 }

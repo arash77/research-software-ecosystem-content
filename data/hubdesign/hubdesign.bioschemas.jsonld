@@ -46,16 +46,16 @@
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_0632"
-        },
-        {
           "@id": "edam:topic_3174"
         },
         {
-          "@id": "edam:topic_3168"
+          "@id": "edam:topic_3512"
         },
         {
-          "@id": "edam:topic_3512"
+          "@id": "edam:topic_0632"
+        },
+        {
+          "@id": "edam:topic_3168"
         },
         {
           "@id": "edam:topic_0637"
@@ -85,8 +85,8 @@
       "sc:name": "HUBDesign",
       "sc:operatingSystem": [
         "Mac",
-        "Windows",
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "sc:url": "https://github.com/zacherydickson/HUBDesign"
     }

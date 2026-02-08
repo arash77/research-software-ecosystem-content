@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Peter Eastman",
       "bsc:input": {
-        "@id": "_:N021807cae9694d3da4a656cac704d4c2"
+        "@id": "_:N7d7d573ac261496f9e3eaa26ff551f48"
       },
       "bsc:output": {
-        "@id": "_:Nc309d3fcb4c74f7da40184a6308b2f30"
+        "@id": "_:N0c264c26620448f5bf7571d8f356d8c7"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -59,10 +59,10 @@
       },
       "sc:citation": [
         "pmcid:PMC5549999",
+        "pubmed:28746339",
         {
           "@id": "https://doi.org/10.1371/journal.pcbi.1005659"
-        },
-        "pubmed:28746339"
+        }
       ],
       "sc:description": "A toolkit for molecular simulation.",
       "sc:featureList": [
@@ -77,9 +77,9 @@
       "sc:license": "MIT",
       "sc:name": "OpenMM",
       "sc:operatingSystem": [
-        "Windows",
+        "Mac",
         "Linux",
-        "Mac"
+        "Windows"
       ],
       "sc:softwareHelp": {
         "@id": "http://docs.openmm.org/development/userguide/application.html#introduction"
@@ -88,7 +88,15 @@
       "sc:url": "http://openmm.org/"
     },
     {
-      "@id": "_:N021807cae9694d3da4a656cac704d4c2",
+      "@id": "_:N0c264c26620448f5bf7571d8f356d8c7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N7d7d573ac261496f9e3eaa26ff551f48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -97,14 +105,6 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Experimental measurement"
-    },
-    {
-      "@id": "_:Nc309d3fcb4c74f7da40184a6308b2f30",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:name": "Report"
     }
   ]
 }

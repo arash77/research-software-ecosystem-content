@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt604",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/snostrip",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na68b97f01928425bb4f8b89d2e0a1239"
+        "@id": "_:N4f21b31266e04a1c9b23054b9ab8f083"
       },
       "bsc:output": {
-        "@id": "_:Na205fb1b252149aca12c7ae5ef508223"
+        "@id": "_:N7caf57dc0cfb484ea02bb7baab45cb4b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
@@ -61,8 +65,8 @@
       },
       "sc:name": "snoStrip",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {
@@ -71,7 +75,7 @@
       "sc:url": "http://snostrip.bioinf.uni-leipzig.de/index.py"
     },
     {
-      "@id": "_:Na205fb1b252149aca12c7ae5ef508223",
+      "@id": "_:N7caf57dc0cfb484ea02bb7baab45cb4b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2354"
@@ -87,7 +91,7 @@
       "sc:name": "RNA family report"
     },
     {
-      "@id": "_:Na68b97f01928425bb4f8b89d2e0a1239",
+      "@id": "_:N4f21b31266e04a1c9b23054b9ab8f083",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -96,10 +100,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence set (nucleic acid)"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btt604",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

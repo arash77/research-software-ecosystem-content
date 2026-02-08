@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-1350-9426",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1128/mSystems.00190-20",
       "@type": "sc:CreativeWork"
     },
@@ -51,23 +47,23 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N7ddd2ab360d444f68514abd3b5a514c4"
+          "@id": "_:N0641b14792054f7e92976dc2ac1318ef"
         },
         {
-          "@id": "_:Nb49a251608af4ea284258a32d213100d"
+          "@id": "_:Na4f88031c4874393aaf2e4a5d1461b23"
         },
         {
-          "@id": "_:N6399e95cf7dd49829e54ce752c79a427"
+          "@id": "_:Nec4a5f7beaef45869833d4362feb2c60"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
       "sc:citation": [
+        "pmcid:PMC7406220",
         "pubmed:32753501",
         {
           "@id": "https://doi.org/10.1128/mSystems.00190-20"
-        },
-        "pmcid:PMC7406220"
+        }
       ],
       "sc:description": "Bactopia is a flexible pipeline for complete analysis of bacterial genomes.",
       "sc:featureList": [
@@ -75,19 +71,19 @@
           "@id": "edam:operation_3219"
         },
         {
-          "@id": "edam:operation_0525"
-        },
-        {
-          "@id": "edam:operation_3460"
-        },
-        {
           "@id": "edam:operation_3482"
+        },
+        {
+          "@id": "edam:operation_0525"
         },
         {
           "@id": "edam:operation_0362"
         },
         {
           "@id": "edam:operation_3227"
+        },
+        {
+          "@id": "edam:operation_3460"
         }
       ],
       "sc:isAccessibleForFree": true,
@@ -103,7 +99,7 @@
       "sc:url": "https://bactopia.github.io/"
     },
     {
-      "@id": "_:N7ddd2ab360d444f68514abd3b5a514c4",
+      "@id": "_:N0641b14792054f7e92976dc2ac1318ef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -114,7 +110,18 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Nb49a251608af4ea284258a32d213100d",
+      "@id": "_:Na4f88031c4874393aaf2e4a5d1461b23",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2091"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Accession"
+    },
+    {
+      "@id": "_:Nec4a5f7beaef45869833d4362feb2c60",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -125,15 +132,8 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N6399e95cf7dd49829e54ce752c79a427",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2091"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1964"
-      },
-      "sc:name": "Accession"
+      "@id": "https://orcid.org/0000-0002-1350-9426",
+      "@type": "sc:Person"
     }
   ]
 }

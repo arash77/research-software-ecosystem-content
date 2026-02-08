@@ -46,10 +46,7 @@
       "sc:additionalType": "Library",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3407"
-        },
-        {
-          "@id": "edam:topic_0154"
+          "@id": "edam:topic_0602"
         },
         {
           "@id": "edam:topic_0821"
@@ -58,7 +55,10 @@
           "@id": "edam:topic_3172"
         },
         {
-          "@id": "edam:topic_0602"
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3407"
         }
       ],
       "sc:citation": [
@@ -71,24 +71,24 @@
       "sc:description": "Prediction of novel metabolic reactions.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_3929"
-        },
-        {
           "@id": "edam:operation_3803"
         },
         {
-          "@id": "edam:operation_3695"
+          "@id": "edam:operation_3660"
         },
         {
-          "@id": "edam:operation_3660"
+          "@id": "edam:operation_3929"
+        },
+        {
+          "@id": "edam:operation_3695"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "MIT",
       "sc:name": "Pickaxe",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
+        "Linux",
         "Windows"
       ],
       "sc:softwareHelp": {

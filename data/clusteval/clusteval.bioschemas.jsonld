@@ -36,6 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nmeth.3583",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-0282-0462",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-9181-7160",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/clusteval",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -48,32 +60,32 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Ne01ad19b849e4fc6a0e4cf4e0bd7648e"
+          "@id": "_:Nbcbf6130b2964bdcb0054aa18a37f65b"
         },
         {
-          "@id": "_:Nd5f6db5c779646b3a77d80562a8d15d8"
+          "@id": "_:N23084a2c91e946a39af5412e8af34aab"
         },
         {
-          "@id": "_:N288ef16d66c34985b547a04da093aa1b"
+          "@id": "_:N90e310bdac3e4d16818752edd31fdf00"
         }
       ],
       "bsc:output": {
-        "@id": "_:N8bf60fcab3a44fde972242b624756411"
+        "@id": "_:N06763e65110942548bf0fb0b33192ddb"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Database portal",
-        "Web application"
+        "Web application",
+        "Database portal"
       ],
       "sc:applicationSubCategory": [
         {
           "@id": "edam:topic_3307"
         },
         {
-          "@id": "edam:topic_2259"
+          "@id": "edam:topic_3071"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_2259"
         }
       ],
       "sc:author": "Jan Baumbach",
@@ -86,23 +98,23 @@
       "sc:description": "Free and extendable opensource platform for objective performance comparison of arbitrary Clustering Methods on different datasets.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0291"
-        },
-        {
           "@id": "edam:operation_0360"
         },
         {
-          "@id": "edam:operation_3463"
+          "@id": "edam:operation_0291"
         },
         {
           "@id": "edam:operation_0314"
+        },
+        {
+          "@id": "edam:operation_3463"
         }
       ],
       "sc:name": "Clusteval",
       "sc:operatingSystem": [
+        "Mac",
         "Windows",
-        "Linux",
-        "Mac"
+        "Linux"
       ],
       "sc:provider": "bmb.sdu.dk",
       "sc:softwareHelp": {
@@ -111,34 +123,7 @@
       "sc:url": "http://clusteval.sdu.dk/"
     },
     {
-      "@id": "_:Ne01ad19b849e4fc6a0e4cf4e0bd7648e",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2730"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_2330"
-      },
-      "sc:name": "COGEME unisequence ID"
-    },
-    {
-      "@id": "_:Nd5f6db5c779646b3a77d80562a8d15d8",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1413"
-      },
-      "sc:name": "Sequence similarity"
-    },
-    {
-      "@id": "_:N288ef16d66c34985b547a04da093aa1b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2603"
-      },
-      "sc:name": "Gene expression data"
-    },
-    {
-      "@id": "_:N8bf60fcab3a44fde972242b624756411",
+      "@id": "_:N06763e65110942548bf0fb0b33192ddb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -149,16 +134,31 @@
       "sc:name": "Score"
     },
     {
-      "@id": "https://doi.org/10.1038/nmeth.3583",
-      "@type": "sc:CreativeWork"
+      "@id": "_:Nbcbf6130b2964bdcb0054aa18a37f65b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2730"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "COGEME unisequence ID"
     },
     {
-      "@id": "http://orcid.org/0000-0002-0282-0462",
-      "@type": "sc:Person"
+      "@id": "_:N23084a2c91e946a39af5412e8af34aab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:name": "Gene expression data"
     },
     {
-      "@id": "http://orcid.org/0000-0001-9181-7160",
-      "@type": "sc:Person"
+      "@id": "_:N90e310bdac3e4d16818752edd31fdf00",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1413"
+      },
+      "sc:name": "Sequence similarity"
     }
   ]
 }

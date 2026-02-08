@@ -39,19 +39,19 @@
       "@id": "https://bio.tools/wiff2dta",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N36190e2b2d7c4ccbbca2a34f90f94e7b"
+        "@id": "_:Nee1fecb5e24f4c549fc7a0f2fd523a6c"
       },
       "bsc:output": {
-        "@id": "_:N05fd38fc035e47a0874039df1e4822ab"
+        "@id": "_:N56e8c1fd0a3d4bc2ae3dc44eea01ec6b"
       },
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3520"
+          "@id": "edam:topic_0121"
         },
         {
-          "@id": "edam:topic_0121"
+          "@id": "edam:topic_3520"
         }
       ],
       "sc:citation": "pubmed:15507135",
@@ -75,7 +75,7 @@
       "sc:url": "http://sourceforge.net/projects/protms"
     },
     {
-      "@id": "_:N36190e2b2d7c4ccbbca2a34f90f94e7b",
+      "@id": "_:Nee1fecb5e24f4c549fc7a0f2fd523a6c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -86,7 +86,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N05fd38fc035e47a0874039df1e4822ab",
+      "@id": "_:N56e8c1fd0a3d4bc2ae3dc44eea01ec6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

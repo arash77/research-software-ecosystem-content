@@ -40,31 +40,31 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne219cc49ed264b6fbdca95db10527981"
+          "@id": "_:N13e8ee3f20bf4089a4568126627a4a5d"
         },
         {
-          "@id": "_:Nd715a7ad8f9944ff9a9af205ade9f93d"
+          "@id": "_:N2f9d64f0f677499d8f889cb5dc01f005"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3803550953c94ae08164023ec2704e6e"
+          "@id": "_:N6456ddeb961343fcae9a46d79b0576c1"
         },
         {
-          "@id": "_:N8af46e1afd3f469b9aa2b4a7f68e4249"
+          "@id": "_:N99934281ad3342e18e356a5b8c6785ca"
         },
         {
-          "@id": "_:N6209ff0d3ba4444c8f0ae2c75fedb5b8"
+          "@id": "_:Ncd2fddcd277f44268e5581feab2eae11"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
       "sc:applicationSubCategory": [
         {
-          "@id": "edam:topic_3383"
+          "@id": "edam:topic_0091"
         },
         {
-          "@id": "edam:topic_0091"
+          "@id": "edam:topic_3383"
         }
       ],
       "sc:description": "BIoMap is a powerful image processing and display software that now supports a wide range of imaging techniques such as MRI, optical imaging, PET, CT, NIRF and MSI. It provides a unified visualization and storage platform and supports the reconstruction of multidimensional data and the display of ROIs.",
@@ -79,14 +79,14 @@
       "sc:isAccessibleForFree": false,
       "sc:name": "BioMap",
       "sc:operatingSystem": [
-        "Linux",
         "Mac",
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "sc:url": "https://www.ms-imaging.org/biomap/"
     },
     {
-      "@id": "_:Ne219cc49ed264b6fbdca95db10527981",
+      "@id": "_:N13e8ee3f20bf4089a4568126627a4a5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -97,7 +97,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nd715a7ad8f9944ff9a9af205ade9f93d",
+      "@id": "_:N2f9d64f0f677499d8f889cb5dc01f005",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -108,7 +108,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N3803550953c94ae08164023ec2704e6e",
+      "@id": "_:N6456ddeb961343fcae9a46d79b0576c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -119,18 +119,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N8af46e1afd3f469b9aa2b4a7f68e4249",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2048"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3508"
-      },
-      "sc:name": "Report"
-    },
-    {
-      "@id": "_:N6209ff0d3ba4444c8f0ae2c75fedb5b8",
+      "@id": "_:N99934281ad3342e18e356a5b8c6785ca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -144,6 +133,17 @@
         }
       ],
       "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Ncd2fddcd277f44268e5581feab2eae11",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Report"
     }
   ]
 }

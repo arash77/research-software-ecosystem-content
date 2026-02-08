@@ -40,20 +40,20 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Morten Bo Johansen",
       "bsc:input": {
-        "@id": "_:N44dfcbbc410b49d9981e7e056a2ad34d"
+        "@id": "_:N1457b87e03b64a7ab2fbf761f8420d07"
       },
       "bsc:output": [
         {
-          "@id": "_:N4336c808c4bb4290abc7ce8475304e7a"
+          "@id": "_:Nf7a6996d8c3341209bc26250c8fd4348"
         },
         {
-          "@id": "_:Neb0b3c336b7249adaa0aa3352ff0c78e"
+          "@id": "_:N839b617fd6ce4bce8fc3ae9a362567f7"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
-        "Web application",
-        "Web service"
+        "Web service",
+        "Web application"
       ],
       "sc:applicationSubCategory": {
         "@id": "edam:topic_0080"
@@ -80,7 +80,7 @@
       "sc:url": "http://cbs.dtu.dk/services/NetGlycate/"
     },
     {
-      "@id": "_:N44dfcbbc410b49d9981e7e056a2ad34d",
+      "@id": "_:N1457b87e03b64a7ab2fbf761f8420d07",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -91,18 +91,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N4336c808c4bb4290abc7ce8475304e7a",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_1277"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_3467"
-      },
-      "sc:name": "Protein features"
-    },
-    {
-      "@id": "_:Neb0b3c336b7249adaa0aa3352ff0c78e",
+      "@id": "_:Nf7a6996d8c3341209bc26250c8fd4348",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -111,6 +100,17 @@
         "@id": "edam:format_2333"
       },
       "sc:name": "Sequence report"
+    },
+    {
+      "@id": "_:N839b617fd6ce4bce8fc3ae9a362567f7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3467"
+      },
+      "sc:name": "Protein features"
     },
     {
       "@id": "https://doi.org/10.1093/glycob/cwl009",

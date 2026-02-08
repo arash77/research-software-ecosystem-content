@@ -36,8 +36,8 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.1701",
-      "@type": "sc:CreativeWork"
+      "@id": "http://orcid.org/0000-0002-9412-9643",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/signalp",
@@ -46,14 +46,14 @@
         "@id": "http://orcid.org/0000-0002-9412-9643"
       },
       "bsc:input": {
-        "@id": "_:N92fd940da6f246dfb79b76714703fafd"
+        "@id": "_:N670dae9803074e8f89b1b58f86a7bfcc"
       },
       "bsc:output": [
         {
-          "@id": "_:N3b6ce554c9bd4660a11962f322e439c3"
+          "@id": "_:N35fbf85a4d3746fa9e6fa17929c39d72"
         },
         {
-          "@id": "_:N7c610653896f4f209472dee671013c02"
+          "@id": "_:Nadca37d501fd4fee93b342f5229d9a5e"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,8 +87,8 @@
       "sc:license": "Other",
       "sc:name": "SignalP",
       "sc:operatingSystem": [
-        "Linux",
-        "Mac"
+        "Mac",
+        "Linux"
       ],
       "sc:provider": "CBS",
       "sc:softwareHelp": {
@@ -98,7 +98,7 @@
       "sc:url": "http://cbs.dtu.dk/services/SignalP/"
     },
     {
-      "@id": "_:N92fd940da6f246dfb79b76714703fafd",
+      "@id": "_:N670dae9803074e8f89b1b58f86a7bfcc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -109,7 +109,15 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N3b6ce554c9bd4660a11962f322e439c3",
+      "@id": "_:N35fbf85a4d3746fa9e6fa17929c39d72",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:name": "Sequence report"
+    },
+    {
+      "@id": "_:Nadca37d501fd4fee93b342f5229d9a5e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -120,16 +128,8 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N7c610653896f4f209472dee671013c02",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_2955"
-      },
-      "sc:name": "Sequence report"
-    },
-    {
-      "@id": "http://orcid.org/0000-0002-9412-9643",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1038/nmeth.1701",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

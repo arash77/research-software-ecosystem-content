@@ -36,39 +36,47 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/s41587-020-0439-x",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0001-9017-591X",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2827-9261",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3859-3249",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/nf-core-smrnaseq",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
         {
-          "@id": "https://orcid.org/0000-0003-4101-2502"
-        },
-        {
           "@id": "https://orcid.org/0000-0002-1541-042X"
         },
         {
-          "@id": "https://orcid.org/0000-0003-2827-9261"
+          "@id": "https://orcid.org/0000-0003-4101-2502"
         },
         {
           "@id": "https://orcid.org/0000-0002-3859-3249"
         },
+        {
+          "@id": "https://orcid.org/0000-0003-2827-9261"
+        },
         "Chuan Wang"
       ],
       "bsc:input": {
-        "@id": "_:Ne314b67aea2c40d884edc086f879777b"
+        "@id": "_:N833982a5fc2347a5a7d114e1d08901d6"
       },
       "bsc:output": [
         {
-          "@id": "_:N894e893c86e941fb992cc652b0106d51"
+          "@id": "_:N56b511ebd7774441b8f1a43e25dcf300"
         },
         {
-          "@id": "_:N11d66a53efe3486fa9269ded926523e7"
+          "@id": "_:Nd3563c2bc1464b5fb63eefee0abc9408"
         },
         {
-          "@id": "_:Nc6e77a35c5b14bb58122793ca3fff4be"
+          "@id": "_:N2ddeb89722cc44389dd9f0da1112ac07"
         }
       ],
       "dcterms:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -77,9 +85,6 @@
         "Workflow"
       ],
       "sc:applicationSubCategory": [
-        {
-          "@id": "edam:topic_0622"
-        },
         {
           "@id": "edam:topic_3308"
         },
@@ -91,19 +96,22 @@
         },
         {
           "@id": "edam:topic_0769"
+        },
+        {
+          "@id": "edam:topic_0622"
         }
       ],
       "sc:author": [
         {
-          "@id": "https://orcid.org/0000-0001-9017-591X"
-        },
-        {
           "@id": "https://orcid.org/0000-0003-4101-2502"
         },
         {
-          "@id": "https://orcid.org/0000-0002-3859-3249"
+          "@id": "https://orcid.org/0000-0001-9017-591X"
         },
-        "Chuan Wang"
+        "Chuan Wang",
+        {
+          "@id": "https://orcid.org/0000-0002-3859-3249"
+        }
       ],
       "sc:citation": [
         {
@@ -117,10 +125,10 @@
           "@id": "edam:operation_3680"
         },
         {
-          "@id": "edam:operation_3223"
+          "@id": "edam:operation_3792"
         },
         {
-          "@id": "edam:operation_3792"
+          "@id": "edam:operation_3223"
         },
         {
           "@id": "edam:operation_0463"
@@ -132,10 +140,10 @@
       "sc:operatingSystem": "Linux",
       "sc:softwareHelp": [
         {
-          "@id": "https://github.com/nf-core/smrnaseq/blob/master/LICENSE"
+          "@id": "https://nf-co.re/smrnaseq"
         },
         {
-          "@id": "https://nf-co.re/smrnaseq"
+          "@id": "https://github.com/nf-core/smrnaseq/blob/master/LICENSE"
         },
         {
           "@id": "https://nf-co.re/smrnaseq/usage"
@@ -145,29 +153,18 @@
       "sc:url": "https://nf-co.re/smrnaseq"
     },
     {
-      "@id": "_:Ne314b67aea2c40d884edc086f879777b",
-      "@type": "bsct:FormalParameter",
-      "sc:additionalType": {
-        "@id": "edam:data_3494"
-      },
-      "sc:encodingFormat": {
-        "@id": "edam:format_1930"
-      },
-      "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "_:N894e893c86e941fb992cc652b0106d51",
+      "@id": "_:N56b511ebd7774441b8f1a43e25dcf300",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3475"
+        "@id": "edam:format_3864"
       },
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N11d66a53efe3486fa9269ded926523e7",
+      "@id": "_:Nd3563c2bc1464b5fb63eefee0abc9408",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -183,22 +180,29 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:Nc6e77a35c5b14bb58122793ca3fff4be",
+      "@id": "_:N2ddeb89722cc44389dd9f0da1112ac07",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
       },
       "sc:encodingFormat": {
-        "@id": "edam:format_3864"
+        "@id": "edam:format_3475"
       },
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "https://orcid.org/0000-0003-2827-9261",
-      "@type": "sc:Person"
+      "@id": "_:N833982a5fc2347a5a7d114e1d08901d6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "DNA sequence"
     },
     {
-      "@id": "https://orcid.org/0000-0001-9017-591X",
+      "@id": "https://orcid.org/0000-0003-4101-2502",
       "@type": "sc:Person"
     },
     {
@@ -206,12 +210,8 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-4101-2502",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-3859-3249",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1038/s41587-020-0439-x",
+      "@type": "sc:CreativeWork"
     }
   ]
 }
