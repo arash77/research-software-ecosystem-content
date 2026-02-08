@@ -6143,6 +6143,7 @@
 ../../content/data/plw/plw.bioschemas.jsonld
 ../../content/data/simexpr2sampledata/simexpr2sampledata.bioschemas.jsonld
 ../../content/data/flower/flower.bioschemas.jsonld
+../../content/data/kmcp/kmcp.bioschemas.jsonld
 ../../content/data/crosslink-net/crosslink-net.bioschemas.jsonld
 ../../content/data/gina/gina.bioschemas.jsonld
 ../../content/data/epiviz-feed/epiviz-feed.bioschemas.jsonld
@@ -6788,6 +6789,7 @@
 ../../content/data/pubterm/pubterm.bioschemas.jsonld
 ../../content/data/predneurop/predneurop.bioschemas.jsonld
 ../../content/data/generalized-seir-epidemic-model/generalized-seir-epidemic-model.bioschemas.jsonld
+../../content/data/nanospeech_basecaller/nanospeech_basecaller.bioschemas.jsonld
 ../../content/data/pepformer/pepformer.bioschemas.jsonld
 ../../content/data/sampn/sampn.bioschemas.jsonld
 ../../content/data/iprox/iprox.bioschemas.jsonld
@@ -7510,6 +7512,7 @@
 ../../content/data/miic_web/miic_web.bioschemas.jsonld
 ../../content/data/volarea/volarea.bioschemas.jsonld
 ../../content/data/protident/protident.bioschemas.jsonld
+../../content/data/pantas/pantas.bioschemas.jsonld
 ../../content/data/gedpm-cg/gedpm-cg.bioschemas.jsonld
 ../../content/data/metaquast/metaquast.bioschemas.jsonld
 ../../content/data/ibrtools/ibrtools.bioschemas.jsonld
@@ -8102,6 +8105,7 @@
 ../../content/data/presartools/presartools.bioschemas.jsonld
 ../../content/data/synthaser/synthaser.bioschemas.jsonld
 ../../content/data/tidymicro/tidymicro.bioschemas.jsonld
+../../content/data/madbot/madbot.bioschemas.jsonld
 ../../content/data/ageguess/ageguess.bioschemas.jsonld
 ../../content/data/rouge/rouge.bioschemas.jsonld
 ../../content/data/oaob/oaob.bioschemas.jsonld
@@ -8485,6 +8489,7 @@
 ../../content/data/vep/vep.bioschemas.jsonld
 ../../content/data/gtacg/gtacg.bioschemas.jsonld
 ../../content/data/pediatric_brain_tumor_segmenter/pediatric_brain_tumor_segmenter.bioschemas.jsonld
+../../content/data/isoprimer/isoprimer.bioschemas.jsonld
 ../../content/data/ldnfsgb/ldnfsgb.bioschemas.jsonld
 ../../content/data/mspac/mspac.bioschemas.jsonld
 ../../content/data/gdtools_mask/gdtools_mask.bioschemas.jsonld
@@ -9130,6 +9135,7 @@
 ../../content/data/telometric/telometric.bioschemas.jsonld
 ../../content/data/possum/possum.bioschemas.jsonld
 ../../content/data/respan/respan.bioschemas.jsonld
+../../content/data/cineca-hpc/cineca-hpc.bioschemas.jsonld
 ../../content/data/asc_g4/asc_g4.bioschemas.jsonld
 ../../content/data/treedet/treedet.bioschemas.jsonld
 ../../content/data/bertrand/bertrand.bioschemas.jsonld
@@ -18384,6 +18390,7 @@
 ../../content/data/pbcmc/pbcmc.bioschemas.jsonld
 ../../content/data/phylomed/phylomed.bioschemas.jsonld
 ../../content/data/cohortfinder/cohortfinder.bioschemas.jsonld
+../../content/data/dose-response_curve_fitter/dose-response_curve_fitter.bioschemas.jsonld
 ../../content/data/scgeom/scgeom.bioschemas.jsonld
 ../../content/data/mud/mud.bioschemas.jsonld
 ../../content/data/amigene/amigene.bioschemas.jsonld
@@ -19618,6 +19625,7 @@
 ../../content/data/cellassign/cellassign.bioschemas.jsonld
 ../../content/data/paratype/paratype.bioschemas.jsonld
 ../../content/data/pbrit/pbrit.bioschemas.jsonld
+../../content/data/unexakorea_dataset/unexakorea_dataset.bioschemas.jsonld
 ../../content/data/pupasview/pupasview.bioschemas.jsonld
 ../../content/data/open_targets_genetics/open_targets_genetics.bioschemas.jsonld
 ../../content/data/supertarget/supertarget.bioschemas.jsonld
@@ -20174,6 +20182,7 @@
 ../../content/data/target_explorer/target_explorer.bioschemas.jsonld
 ../../content/data/cuttlebase/cuttlebase.bioschemas.jsonld
 ../../content/data/sbpipe/sbpipe.bioschemas.jsonld
+../../content/data/stress_mouse_portal/stress_mouse_portal.bioschemas.jsonld
 ../../content/data/crup/crup.bioschemas.jsonld
 ../../content/data/biotradis/biotradis.bioschemas.jsonld
 ../../content/data/razor/razor.bioschemas.jsonld
@@ -20481,6 +20490,7 @@
 ../../content/data/ologram/ologram.bioschemas.jsonld
 ../../content/data/array_suite/array_suite.bioschemas.jsonld
 ../../content/data/decon2/decon2.bioschemas.jsonld
+../../content/data/dome_registry/dome_registry.bioschemas.jsonld
 ../../content/data/crossrun/crossrun.bioschemas.jsonld
 ../../content/data/candris/candris.bioschemas.jsonld
 ../../content/data/gsalightning/gsalightning.bioschemas.jsonld
@@ -20740,6 +20750,7 @@
 ../../content/data/arett/arett.bioschemas.jsonld
 ../../content/data/integron_finder/integron_finder.bioschemas.jsonld
 ../../content/data/pacas/pacas.bioschemas.jsonld
+../../content/data/qc_image_outlier_detection/qc_image_outlier_detection.bioschemas.jsonld
 ../../content/data/ucl_servers/ucl_servers.bioschemas.jsonld
 ../../content/data/targets/targets.bioschemas.jsonld
 ../../content/data/vipdb/vipdb.bioschemas.jsonld
@@ -21600,6 +21611,7 @@
 ../../content/data/bd_rpc/bd_rpc.bioschemas.jsonld
 ../../content/data/cosg/cosg.bioschemas.jsonld
 ../../content/data/proteo/proteo.bioschemas.jsonld
+../../content/data/rinet/rinet.bioschemas.jsonld
 ../../content/data/opentims/opentims.bioschemas.jsonld
 ../../content/data/tuberculist/tuberculist.bioschemas.jsonld
 ../../content/data/synteny_portal/synteny_portal.bioschemas.jsonld
@@ -26334,6 +26346,7 @@
 ../../content/data/genome_projector/genome_projector.bioschemas.jsonld
 ../../content/data/epialleler/epialleler.bioschemas.jsonld
 ../../content/data/rmir/rmir.bioschemas.jsonld
+../../content/data/metrin_kg/metrin_kg.bioschemas.jsonld
 ../../content/data/softpanel/softpanel.bioschemas.jsonld
 ../../content/data/fetch-taxonomic-ranks/fetch-taxonomic-ranks.bioschemas.jsonld
 ../../content/data/jecfa/jecfa.bioschemas.jsonld
@@ -27797,6 +27810,7 @@
 ../../content/data/validated_gpcr_antibodies/validated_gpcr_antibodies.bioschemas.jsonld
 ../../content/data/cling/cling.bioschemas.jsonld
 ../../content/data/metaphyler/metaphyler.bioschemas.jsonld
+../../content/data/circlesim/circlesim.bioschemas.jsonld
 ../../content/data/eva_metabolic/eva_metabolic.bioschemas.jsonld
 ../../content/data/neuromatic/neuromatic.bioschemas.jsonld
 ../../content/data/reprotox-kg/reprotox-kg.bioschemas.jsonld
@@ -28063,6 +28077,7 @@
 ../../content/data/preselector/preselector.bioschemas.jsonld
 ../../content/data/dg-mapping/dg-mapping.bioschemas.jsonld
 ../../content/data/mrp_py/mrp_py.bioschemas.jsonld
+../../content/data/pyxlms/pyxlms.bioschemas.jsonld
 ../../content/data/ftdock/ftdock.bioschemas.jsonld
 ../../content/data/pyms/pyms.bioschemas.jsonld
 ../../content/data/snp2tfbs/snp2tfbs.bioschemas.jsonld
@@ -30357,6 +30372,7 @@
 ../../content/data/lgpr/lgpr.bioschemas.jsonld
 ../../content/data/geometree/geometree.bioschemas.jsonld
 ../../content/data/rexdb/rexdb.bioschemas.jsonld
+../../content/data/recgraph/recgraph.bioschemas.jsonld
 ../../content/data/mbinfo/mbinfo.bioschemas.jsonld
 ../../content/data/nanogalaxy/nanogalaxy.bioschemas.jsonld
 ../../content/data/pyprobound/pyprobound.bioschemas.jsonld
@@ -30654,6 +30670,7 @@
 ../../content/data/deepgraphgo/deepgraphgo.bioschemas.jsonld
 ../../content/data/flirt/flirt.bioschemas.jsonld
 ../../content/data/rsvp/rsvp.bioschemas.jsonld
+../../content/data/nanolistener/nanolistener.bioschemas.jsonld
 ../../content/data/halodom/halodom.bioschemas.jsonld
 ../../content/data/genehapr/genehapr.bioschemas.jsonld
 ../../content/data/extasy/extasy.bioschemas.jsonld
